@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+This file is part of Quipper. Copyright (C) 2011-2019. Please see the
+file COPYRIGHT for a list of authors, copyright holders, licensing,
+and other details. All rights reserved.
+
+======================================================================
+
+This is Quipper.
+
+Copyright, License, and Disclaimers
+===================================
+
+See the file COPYRIGHT.
+
+Installing Quipper
+==================
+
+Starting from version 0.9, the recommended way to install Quipper is
+using Cabal.
+
+Summary
+...

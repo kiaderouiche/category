@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# django-sympycharfield
+Django Char Field using Sympy
+
+## Desciption
+SympyCharField is a simple Django app to use Sympy through a CharField.
+
+Detailed documentation is in the "docs" directory.
+
+## Install
+Run the command in the terminal::
+
+    pip install django-sympycharfield
+
+## Quick start
+1. Import in your models.py::
+
+    from sympycharfield.models import SympyCharField
+
+2. Use it as CharField.
+
+...

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Build Status](https://travis-ci.com/pyro-ppl/funsor.svg?branch=master)](https://travis-ci.com/pyro-ppl/funsor)
+[![Latest Version](https://badge.fury.io/py/funsor.svg)](https://pypi.python.org/pypi/funsor)
+[![Documentation Status](https://readthedocs.org/projects/funsor/badge)](http://funsor.readthedocs.io)
+
+# Funsor
+
+Funsor is a tensor-like library for functions and distributions.
+
+See
+[Functional tensors for probabilistic programming](https://openreview.net/pdf?id=HkecHuIaUS)
+for a system description.
+
+## Installing
+
+**Install using pip:**
+
+Funsor supports Python 3.6+.
+
+```sh
+pip install funsor
+...

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+pTyX
+====
+
+Overview
+--------
+pTyX is a LaTeX precompilator, written in Python.
+pTyX enables to generate LaTeX documents, using custom commands or plain python code.
+One single pTyX file may generate many latex documents, with different values.
+I developped and used pTyX to make several different versions of a same test in exams,
+for my student, to discourage cheating.
+Since it uses sympy library, pTyX has symbolic calculus abilities too.
+
+Installation
+------------
+Obviously, pTyX needs a working Python installation.
+Python version 3.6 (at least) is required for pTyX to run.
+
+pTyX also needs a working LaTeX installation. Command *pdflatex* must be available in your terminal.
+
+Though not required, the following python libraries are recommanded :
+...

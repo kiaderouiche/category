@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Uses docker to spawn containers for services required during tests
+
+[![Build Status](https://travis-ci.org/dmonroy/docker-services.svg?branch=master)](https://travis-ci.org/dmonroy/docker-services)
+
+# Install
+
+This project is available on pypi, so you can use _pip_ to install it:
+
+```
+pip install docker-services
+```
+
+Or include it as a dependency on `setup.py` or a `requirements.txt` file, whatever you prefer.
+
+
+# Use it
+
+## 1. Configure your project services
+
+You need to start listing all services that your project depends on and leverage on _docker-services_ to maintain the lifecycle of those services during test runs.
+...

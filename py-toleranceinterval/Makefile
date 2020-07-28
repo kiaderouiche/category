@@ -1,0 +1,22 @@
+# $NetBSD$
+
+DISTNAME=	toleranceinterval-0.0.3
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	category python
+MASTER_SITES=	https://files.pythonhosted.org/packages/b9/1e/f9732ca98c49ffcdc123991e5ea65a295c4026d8bc3a3edd0e07c09397a0/
+
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/cjekel/tolerance_interval_py
+COMMENT=	A small Python library for one-sided tolerance bounds and two-sided tolerance intervals
+LICENSE=	mit
+
+DEPENDS+=	py-scipy>=0.19.0:../../math/py-scipy
+DEPENDS+=	py-sympy>=1.4:../../math/py-sympy
+DEPENDS+=	py-setuptools>=38.6.0:../../devel/py-setuptools
+
+USE_LANGUAGES=	# none
+
+BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.14.0
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"

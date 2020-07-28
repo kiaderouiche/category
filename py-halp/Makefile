@@ -1,0 +1,15 @@
+# $NetBSD$
+
+DISTNAME=	halp-1.0.0
+PKGNAME=	${PKGPREFIX}-${DISTNAME}
+CATEGORIES=	math
+MASTER_SITES=	https://files.pythonhosted.org/packages/a7/07/2a4845ee6025e6ba72a4a11c1ed8a1866bccb25499a504a05a34723f5e5d/
+EXTRACT_SUFX=	.zip
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://files.pythonhosted.org/packages/a7/07/2a4845ee6025e6ba72a4a11c1ed8a1866bccb25499a504a05a34723f5e5d/
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
+
+# url2pkg-marker (please do not remove this line.)
+.include "../../mk/bsd.pkg.mk"

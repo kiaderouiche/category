@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+# CASPy
+_A program that provides a GUI and a CLI to SymPy, a symbolic computation and computer algebra system Python library._
+
+<p align="center">
+  <img src="https://i.imgur.com/F7wfzQt.png" alt="CASPY logo">
+</p>
+
+## CASpy
+
+A Computer Algebra System built using mainly PyQt5 and Sympy
+
+## Installing
+
+Install with `pip` .
+
+```
+pip install caspy3
+```
+...

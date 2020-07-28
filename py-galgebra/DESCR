@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+GAlgebra
+=========================================
+
+Symbolic Geometric Algebra/Calculus package for SymPy.
+
+[![PyPI](https://img.shields.io/pypi/v/galgebra.svg)](https://pypi.org/project/galgebra/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/galgebra.svg)](https://pypi.org/project/galgebra/)
+[![Build Status on CircleCI](https://circleci.com/gh/pygae/galgebra.svg?style=shield)](https://circleci.com/gh/pygae/galgebra)
+[![Documentation Status](https://readthedocs.org/projects/galgebra/badge/?version=latest)](https://galgebra.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/113447311.svg)](https://zenodo.org/badge/latestdoi/113447311)
+
+![](https://raw.githubusercontent.com/pygae/galgebra/master/doc/images/n_vector_positive_spherical.svg?sanitize=true)
+
+Development Status
+--------------------
+
+![PyPI - Status](https://img.shields.io/pypi/status/galgebra.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/pygae/galgebra.svg)
+[![Codecov](https://img.shields.io/codecov/c/github/pygae/galgebra.svg)](https://codecov.io/gh/pygae/galgebra)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/pygae/galgebra.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pygae/galgebra/context:python)
+...

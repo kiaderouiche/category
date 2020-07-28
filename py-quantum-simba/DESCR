@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+
+# SImBA - Systematic Inference of Bosonic quAntum systems
+
+[![](https://img.shields.io/badge/github-joebentley%2Fsimba-brightgreen)](https://github.com/joebentley/simba)
+[![](https://img.shields.io/badge/pypi-quantum--simba-brightgreen)](https://pypi.org/project/quantum-simba/)
+[![](https://github.com/joebentley/simba/workflows/Python%20application/badge.svg)](https://github.com/joebentley/simba/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/simbapy/badge/?version=latest)](https://simbapy.readthedocs.io/en/latest/?badge=latest)
+
+[>>Documentation<<](https://simbapy.readthedocs.io/en/latest/)
+
+*Compute graphical quantum system representations from transfer functions*
+
+```python
+from simba import transfer_function_to_graph, tf2rss, adiabatically_eliminate
+from sympy import symbols
+
+s = symbols('s')
+gamma_f, lmbda = symbols('gamma_f lambda', real=True, positive=True)
+tf = (s**2 + s * gamma_f - lmbda) / (s**2 - s * gamma_f - lmbda)
+...
