@@ -2,10 +2,10 @@
 
 DISTNAME=	chempy-0.7.12
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	biology python
 MASTER_SITES=	https://files.pythonhosted.org/packages/b4/f2/b2d10356dfeb2c48d123af3a1b717bcdfefd5c1cd8fb59a256eb042ddc78/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/bjodah/chempy
 COMMENT=	ChemPy is a Python package useful for solving problems in chemistry
 #LICENSE=	BSD # TODO: from setup.py; needs to be adjusted
