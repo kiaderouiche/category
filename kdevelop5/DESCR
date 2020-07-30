@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# KDevelop
+
+This repository contains the source code for the KDevelop IDE.
+
+The idea that this repository contains
+- Every plugin related to C/C++ development
+- Every plugin only specific for KDevelop (e.g. the Welcome Page plugin)
+
+## User Documentation
+
+User documentation is available from:
+https://userbase.kde.org/KDevelop4/Manual
+
+## Compile
+
+KDevelop is built the same way as most KDE projects, using CMake to set up a build directory and build options.
+For detailed instructions how to compile KDevelop, please refer to the Wiki:
+https://community.kde.org/KDevelop/HowToCompile_v5 .
+
+### Optional dependencies
+...
