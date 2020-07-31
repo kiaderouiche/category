@@ -1,0 +1,19 @@
+$NetBSD$
+
+--- CMakeLists.txt.orig	2011-04-05 22:20:14.000000000 +0000
++++ CMakeLists.txt
+@@ -19,11 +19,12 @@ endif(NOT KDE4_FOUND)
+ SET(CMAKE_COLOR_MAKEFILE ON)
+ 
+ # FIXME: find a way to make this portable
+-add_definitions(-std=c++0x)
++add_definitions(-std=c++11)
++SET (CMAKE_CXX_FLAGS "-fPIC")
+ 
+ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include ${QT_INCLUDE_DIR} ${QT_QTCORE_INCLUDE_DIR})
+ 
+-set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)
++set (CMAKE_MODULE_PATH "/usr/work/category/kdevelop-pg-qt/work/.buildlink/cmake-Modules" "/usr/work/category/kdevelop-pg-qt/work/.buildlink/cmake-Modules" "/usr/work/category/kdevelop-pg-qt/work/.buildlink/cmake-Modules" ${CMAKE_SOURCE_DIR}/cmake/modules)
+ 
+ add_subdirectory(cmake)
+ add_subdirectory(include)

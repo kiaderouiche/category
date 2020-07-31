@@ -1,0 +1,8 @@
+$NetBSD$
+
+SHA1 (kdevelop-pg-qt-0.9.5.tar.bz2) = b5bcb46a490bfb6a2d04c48cb28e0c77cdde183f
+RMD160 (kdevelop-pg-qt-0.9.5.tar.bz2) = e7b01a182da7162b0cc9034e70b06c8196420462
+SHA512 (kdevelop-pg-qt-0.9.5.tar.bz2) = 4bc29693d3760554ce9098d3a906c47e160210d4b31d65bc22bda775300bacfdb721f4438d34ea294412f104da2ff1a7934236a9a3f511154bb6a2f7baa42ee7
+Size (kdevelop-pg-qt-0.9.5.tar.bz2) = 179637 bytes
+SHA1 (patch-CMakeLists.txt) = ce74ad00f9a50c6b8be9b00733224957103b3593
+SHA1 (patch-kdev-pg_ASFormatter.cpp) = 6595eea04bc5a0ba28de2a4b57542380da40dde2
