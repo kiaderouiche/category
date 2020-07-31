@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pycvodes-0.13.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	category
 MASTER_SITES=	https://files.pythonhosted.org/packages/da/52/99456ff813a22d90e46c2fd2c543cea7ab00e151d4292c6896b7f1a62e57/
 
