@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://pypi.org/project/pox
-COMMENT=	utilities for filesystem exploration and automated builds
+COMMENT=	Utilities for filesystem exploration and automated builds
 LICENSE=	2-clause-bsd
 
 USE_LANGUAGES=	# none

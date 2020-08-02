@@ -7,7 +7,7 @@ $NetBSD$
  setup_code += """    
        zip_safe=False,
 -      scripts=['scripts/pox'])
-+      scripts=['scripts/pox'+'sys.version[0:3]')
++      scripts=['scripts/pox'+sys.version[0:3]])
  """
  
  # exec the 'setup' code
