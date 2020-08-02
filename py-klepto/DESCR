@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+-------------------------------------------------------
+klepto: persistent caching to memory, disk, or database
+-------------------------------------------------------
+
+About Klepto
+============
+
+``klepto`` extends python's ``lru_cache`` to utilize different keymaps and
+alternate caching algorithms, such as ``lfu_cache`` and ``mru_cache``.
+While caching is meant for fast access to saved results, ``klepto`` also
+has archiving capabilities, for longer-term storage. ``klepto`` uses a
+simple dictionary-sytle interface for all caches and archives, and all
+caches can be applied to any python function as a decorator. Keymaps
+are algorithms for converting a function's input signature to a unique
+dictionary, where the function's results are the dictionary value.
+Thus for ``y = f(x)``, ``y`` will be stored in ``cache[x]`` (e.g. ``{x:y}``).
+
+``klepto`` provides both standard and *"safe"* caching, where *"safe"* caches
+are slower but can recover from hashing errors. ``klepto`` is intended
+to be used for distributed and parallel computing, where several of
+...

@@ -2,7 +2,7 @@
 
 DISTNAME=	mystic-0.3.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	math python
 MASTER_SITES=	https://files.pythonhosted.org/packages/2a/b2/41d3503725a7fe223a8082b330dad5ebeeb352ca36f0d15a5b00d5bcdc45/
 EXTRACT_SUFX=	.zip
 
