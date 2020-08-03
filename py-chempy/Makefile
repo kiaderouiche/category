@@ -10,13 +10,13 @@ HOMEPAGE=	https://github.com/bjodah/chempy
 COMMENT=	ChemPy is a Python package useful for solving problems in chemistry
 #LICENSE=	BSD # TODO: from setup.py; needs to be adjusted
 
-DEPENDS+=	py-scipy>=1.0.1:../../math/py-scipy
-DEPENDS+=	py-matplotlib>=2.2.3:../../graphics/py-matplotlib
-DEPENDS+=	py-sympy>=1.1.1,!=1.2:../../math/py-sympy
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.0.1:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-matplotlib>=2.2.3:../../graphics/py-matplotlib
+DEPENDS+=	${PYPKGPREFIX}-sympy>=1.1.1,!=1.2:../../math/py-sympy
 DEPENDS+=	# TODO: quantities>=0.12.1
 DEPENDS+=	# TODO: pyneqsys>=0.5.5
 DEPENDS+=	# TODO: pyodesys>=0.13.1
-DEPENDS+=	py-pyparsing>=2.0.3:../../devel/py-pyparsing
+DEPENDS+=	${PYPKGPREFIX}-pyparsing>=2.0.3:../../devel/py-pyparsing
 DEPENDS+=	# TODO: sym>=0.3.4
 DEPENDS+=	# TODO: jupyter>=0
 DEPENDS+=	# TODO: pulp>=1.6.8

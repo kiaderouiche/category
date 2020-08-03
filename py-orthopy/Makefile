@@ -1,14 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	orthopy-0.8.2
+DISTNAME=	orthopy-0.8.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
-MASTER_SITES=	https://files.pythonhosted.org/packages/75/0e/76e7283932a9194abd3476749752a9c1f8495ee008ef0f27348b3c804a11/
+MASTER_SITES=	https://files.pythonhosted.org/packages/79/d6/3197aa1e689fe22dd8b1d43d628d5ad9cf841ac656646cda597b0396ba95/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/75/0e/76e7283932a9194abd3476749752a9c1f8495ee008ef0f27348b3c804a11/
+HOMEPAGE=	https://files.pythonhosted.org/packages/79/d6/3197aa1e689fe22dd8b1d43d628d5ad9cf841ac656646cda597b0396ba95/
 COMMENT=	Tools for orthogonal polynomials
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES=	# none
 

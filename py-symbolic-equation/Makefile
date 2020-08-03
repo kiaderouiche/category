@@ -11,24 +11,24 @@ COMMENT=	A class for multiline symbolic equations in the Jupyter Notebook
 #LICENSE=	BSD license # TODO: from setup.py; needs to be adjusted
 
 BUILD_DEPENDS+=	# TODO: black>=0
-BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=0:../../devel/py-coverage
 BUILD_DEPENDS+=	# TODO: coveralls>=0
-BUILD_DEPENDS+=	py-flake8>=0:../../devel/py-flake8
+BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
 BUILD_DEPENDS+=	# TODO: gitpython>=0
-BUILD_DEPENDS+=	py-isort>=0:../../devel/py-isort
-BUILD_DEPENDS+=	py-ipython>=0:../../devel/py-ipython
+BUILD_DEPENDS+=	${PYPKGPREFIX}-isort>=0:../../devel/py-isort
+BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=0:../../devel/py-ipython
 BUILD_DEPENDS+=	# TODO: jupyter>=0
 BUILD_DEPENDS+=	# TODO: nbsphinx>=0
 BUILD_DEPENDS+=	# TODO: nbval>=0
 BUILD_DEPENDS+=	# TODO: pre-commit>=0
-BUILD_DEPENDS+=	py-pylint>=0:../../devel/py-pylint
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pylint>=0:../../devel/py-pylint
 BUILD_DEPENDS+=	# TODO: pytest>=0
 BUILD_DEPENDS+=	# TODO: pytest-cov>=0
 BUILD_DEPENDS+=	# TODO: pytest-xdist>=0
-BUILD_DEPENDS+=	py-sympy>=0:../../math/py-sympy
-BUILD_DEPENDS+=	py-twine>=0:../../net/py-twine
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sympy>=1.5.1:../../math/py-sympy
+BUILD_DEPENDS+=	${PYPKGPREFIX}-twine>=1.13.0:../../net/py-twine
 BUILD_DEPENDS+=	# TODO: watermark>=0
-BUILD_DEPENDS+=	py-wheel>=0:../../devel/py-wheel
+BUILD_DEPENDS+=	${PYPKGPREFIX}-wheel>=0:../../devel/py-wheel
 DEPENDS+=	# TODO: uniseg>=0
 
 USE_LANGUAGES=	# none
