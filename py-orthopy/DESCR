@@ -1,5 +1,0 @@
-orthopy provides various orthogonal polynomial classes for lines, triangles,
-disks, spheres, n-cubes, the nD space with weight function exp(-r2)
-and more. All computations are done using numerically stable recurrence
-schemes. Furthermore, all functions are fully vectorized and can return
-results in exact arithmetic

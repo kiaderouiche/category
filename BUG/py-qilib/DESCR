@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Coverage Status](https://coveralls.io/repos/github/QuTech-Delft/qilib/badge.svg?branch=dev)](https://coveralls.io/github/QuTech-Delft/qilib?branch=dev)
+
+# QILib
+
+Quantum Library for the Quantum Inspire platform
+
+## Installation
+
+The Quantum Inspire Library can be installed from PyPI via pip:
+
+```
+$ pip install qilib
+```
+
+### Installing from source
+Clone the qilib repository from https://github.com/QuTech-Delft/qilib and install using pip:
+```
+$ git clone git@github.com:QuTech-Delft/qilib.git
+$ cd qilib
+$ python3 -m venv env
+...
