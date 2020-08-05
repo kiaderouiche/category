@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Qt Creator
+
+Qt Creator is a cross-platform IDE for development with the Qt framework.
+
+## Supported Platforms
+
+The standalone binary packages support the following platforms:
+
+* Windows 7 or later
+* (K)Ubuntu Linux 16.04 (64-bit) or later
+* macOS 10.13 or later
+
+## Contributing
+
+For instructions on how to set up the Qt Creator repository to contribute
+patches back to Qt Creator, please check:
+
+https://wiki.qt.io/Setting_up_Gerrit
+
+See the following page for information about our coding standard:
+...
