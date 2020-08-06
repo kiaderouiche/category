@@ -1,18 +1,3 @@
-TODO: Adjust the following lines from README
-
----------------------------
-KLatexFormula - README file
----------------------------
-
-
-KLatexFormula is an easy-to-use graphical application for generating
-images (that you can drag and drop, copy and paste or save to disk) from
-LaTeX equations.
-
-
-DESCRIPTION
------------
-
 This application provides an easy-to-use graphical user interface
 for generating images from LaTeX equations. These images can be
 dragged and dropped or copied and pasted into external applications
@@ -20,4 +5,3 @@ dragged and dropped or copied and pasted into external applications
 disk in a variety of formats (PNG, JPG, BMP, EPS, PDF, etc.). In
 addition to the graphical user interface, a command-line interface
 and a C++ library is provided to perform the same job.
-...
