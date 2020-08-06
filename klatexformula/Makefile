@@ -7,7 +7,7 @@ MASTER_SITES=	https://netix.dl.sourceforge.net/project/klatexformula/klatexformu
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://klatexformula.sourceforge.io
 COMMENT=	Convert LaTeX formula to image
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v2
 
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
