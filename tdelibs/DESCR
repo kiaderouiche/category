@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+In this file:
+
+* About tdelibs
+* Licensing
+* Common Mistakes
+* Upgrading
+* Compile Problems
+* More Info
+
+
+About tdelibs
+-------------
+This is version R14.0.8 of the Trinity Desktop Environment (TDE) libraries.
+
+This package includes libraries that are central to the development and 
+execution of a KDE program, as well as internationalization files for these 
+libraries, misc HTML documentation, theme modules, and regression tests. 
+Here is an alphabetical list:
+
+* arts
+...

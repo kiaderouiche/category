@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (tdelibs-trinity-14.0.8.tar.xz) = 34a2610ee6d5fed9c9c738b28745e689d4102df2
+RMD160 (tdelibs-trinity-14.0.8.tar.xz) = 0bf23beb385aa58815de3caa680dd6d59e616379
+SHA512 (tdelibs-trinity-14.0.8.tar.xz) = 82c06d17aef37b5f562d1f56ea7e21b750216831da41a4975145ed0f517b1a49cf079918491d9943f6b997decaa2df26d4fdcffd3c40fd1ed7d8058b3697fab4
+Size (tdelibs-trinity-14.0.8.tar.xz) = 15286968 bytes
+SHA1 (patch-kate_tests_highlight.sh) = aabaea6d6d80202f92935e126f62757e80f26333
