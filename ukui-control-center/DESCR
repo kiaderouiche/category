@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+UKUI Control Center
+====================
+
+About -
+
+The control center is UKUI's main interface for configuration of various
+aspects of your desktop.
+
+Installation -
+
+See the file 'INSTALL'
+
+How to report bugs -
+
+Bugs should be reported to the UKUI bug tracking system under github:
+	https://github.com/ukui/ukui-control-center/issues
+
+In the report please include the following information -
+
+	Operating system and version
+...
