@@ -13,5 +13,9 @@ COMMENT=	TODO: Short description of the package
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 
+
+.include "../../databases/sqlite3/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../security/polkit/buildlink3.mk"
 .include "../../devel/meson/build.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Aspcud - A solver for package problems in CUDF format using ASP
+---------------------------------------------------------------
+
+The aspcud project provides the converter/preprocessor `cudf2lp` to translate a
+CUDF specification into a set of facts. These facts together with an encoding
+can then be passed to an ASP grounder and solver to solve the package problem.
+The small C program `aspcud` takes care of this, calling the necessary tools
+and printing the result in CUDF format.
+
+To run aspcud, use the installed aspcud binary (take a look at the examples
+folder to get started):
+
+    aspcud problem.cudf solution.cudf <criteria>
+
+For this to work, clasp and gringo have to be installed.  Solver and grounder
+are available at:
+
+- https://github.com/potassco/clasp
+- https://github.com/potassco/clingo
+
+...
