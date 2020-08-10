@@ -8,13 +8,17 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=potassco/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/potassco/aspcud/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Advanced solver for package dependencies
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/aspcud-1.9.4
+
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
+
+BUILD_DEPENDS+=	re2c>=1.1.1:../../devel/re2c
+
 
 .include "../../mk/bsd.pkg.mk"
