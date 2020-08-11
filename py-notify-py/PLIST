@@ -33,6 +33,9 @@ ${PYSITELIB}/notifypy/os_notifiers/linux.pyo
 ${PYSITELIB}/notifypy/os_notifiers/macos.py
 ${PYSITELIB}/notifypy/os_notifiers/macos.pyc
 ${PYSITELIB}/notifypy/os_notifiers/macos.pyo
+${PYSITELIB}/notifypy/os_notifiers/netbsd.py
+${PYSITELIB}/notifypy/os_notifiers/netbsd.pyc
+${PYSITELIB}/notifypy/os_notifiers/netbsd.pyo
 ${PYSITELIB}/notifypy/os_notifiers/windows.py
 ${PYSITELIB}/notifypy/os_notifiers/windows.pyc
 ${PYSITELIB}/notifypy/os_notifiers/windows.pyo

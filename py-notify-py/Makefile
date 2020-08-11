@@ -16,5 +16,9 @@ DEPENDS+=       ${PYPKGPREFIX}-loguru>=0.5.1:../../wip/py-loguru
 
 REPLACE_BASH+=	notifypy/os_notifiers/binaries/Notificator.app/Contents/Resources/Scripts/notificator
 
+post-extract:
+	${CP} ${FILESDIR}/netbsd.py ${WRKSRC}/notifypy/os_notifiers
+
+.include "../../sysutils/libnotify/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
