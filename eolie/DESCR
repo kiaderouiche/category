@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Eolie
+
+Eolie is a new GNOME web browser.
+
+- For users: https://wiki.gnome.org/Apps/Eolie
+
+- For translators: https://hosted.weblate.org/projects/gnumdk
+
+It provides:
+- Firefox Sync support
+- Secret password store
+- A modern UI
+
+## Depends on
+
+- gtk3 >= 3.22
+- gobject-introspection
+- python3
+- meson >= 0.40
+- python (make)
+...
