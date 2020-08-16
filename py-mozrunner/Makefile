@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/25/85/85289f9df6319328561bbccd344ff32a3c4ffbc2d3b94097d3d760d933a1/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
 COMMENT=	Reliable start/stop/configuration of Mozilla Applications (Firefox, Thunderbird, etc.)
 #LICENSE=	MPL 2.0 # TODO: from setup.py; needs to be adjusted
