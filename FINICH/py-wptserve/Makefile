@@ -8,10 +8,10 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/ea/3c/f225d1601cf4bd2a35c0
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://wptserve.readthedocs.org/
 COMMENT=	Python webserver intended for in web browser testing
-#LICENSE=	BSD # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-six>=1.8:../../lang/py-six
-DEPENDS+=	# TODO: h2==3.0.1>=0
+DEPENDS+=       ${PYPKGPREFIX}-h2>=3.2.0:../../wip/py-h2
 
 USE_LANGUAGES=	# none
 
