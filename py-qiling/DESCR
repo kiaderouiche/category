@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Gitter](https://badges.gitter.im/qilingframework/community.svg)](https://gitter.im/qilingframework/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Build Status](https://travis-ci.com/qilingframework/qiling.svg?branch=dev)](https://travis-ci.com/qilingframework/qiling)
+![Docker Image CI](https://github.com/qilingframework/qiling/workflows/Docker%20Image%20CI/badge.svg?branch=dev)
+---
+
+<p align="center">
+<img width="150" height="150" src="https://raw.githubusercontent.com/qilingframework/qiling/master/docs/qiling_small.png">
+</p>
+
+Qiling is an advanced binary emulation framework, with the following features:
+
+- Cross platform: Windows, MacOS, Linux, BSD, UEFI, DOS
+- Cross architecture: X86, X86_64, Arm, Arm64, MIPS, 8086
+- Multiple file formats: PE, MachO, ELF, COM
+- Emulate & sandbox machine code in a isolated environment
+- Supports cross architecture and platform debugging capabilities
+- Provide high level API to setup & configure the sandbox
+- Fine-grain instrumentation: allow hooks at various levels (instruction/basic-block/memory-access/exception/syscall/IO/etc)
+- Allow dynamic hotpatch on-the-fly running code, including the loaded library
+- True framework in Python, making it easy to build customized security analysis tools on top
+...
