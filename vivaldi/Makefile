@@ -1,7 +1,8 @@
 # $NetBSD$
 
 DISTNAME=	vivaldi-stable-3.2.1967.41-1.x86_64
-CATEGORIES=	category
+PKGNAME=	vivaldi-3.2.1967.41
+CATEGORIES=	www
 MASTER_SITES=	https://downloads.vivaldi.com/stable/
 EXTRACT_SUFX=	.rpm
 
