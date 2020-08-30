@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Welcome to Brackets! [![Build Status](https://travis-ci.org/adobe/brackets.svg?branch=master)](https://travis-ci.org/adobe/brackets)
+-------------------
+
+Brackets is a modern open-source code editor for HTML, CSS
+and JavaScript that's *built* in HTML, CSS and JavaScript. 
+
+What makes Brackets different from other web code editors?
+
+* **Tools shouldn't get in your way.** Instead of cluttering up your coding
+environment with lots of panels and icons, the Quick Edit UI in Brackets puts 
+context-specific code and tools inline.
+* **Brackets is in sync with your browser.** With Live Preview, Brackets
+works directly with your browser to push code edits instantly and jump
+back and forth between your real source code and the browser view.
+* **Do it yourself.** Because Brackets is open source, and built with HTML, CSS
+and JavaScript, you can [help build](https://github.com/adobe/brackets/blob/master/CONTRIBUTING.md) the best code editor for the web.
+
+Brackets may have reached version 1, but we're not stopping there. We have many feature ideas on our
+[trello board](http://bit.ly/BracketsTrelloBoard) that we're anxious to add and other
+innovative web development workflows that we're planning to build into Brackets. 
+...
