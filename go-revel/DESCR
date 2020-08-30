@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Revel Framework
+
+[![Build Status](https://secure.travis-ci.org/revel/revel.svg?branch=master)](http://travis-ci.org/revel/revel) 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/revel/revel)](https://goreportcard.com/report/github.com/revel/revel)
+
+A high productivity, full-stack web framework for the [Go language](http://www.golang.org).
+
+Current Version: 1.0.0 (2020-07-11)
+
+**Supports go.mod package management**
+
+## Quick Start
+
+Install Revel:
+
+	go get -u github.com/revel/cmd/revel
+
+Create & Run your app:
+
+...
