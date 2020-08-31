@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Gizmo Microservice Toolkit [![GoDoc](https://godoc.org/github.com/NYTimes/gizmo?status.svg)](https://godoc.org/github.com/NYTimes/gizmo) [![Build Status](https://travis-ci.org/nytimes/gizmo.svg?branch=master)](https://travis-ci.org/nytimes/gizmo) [![Coverage Status](https://coveralls.io/repos/nytimes/gizmo/badge.svg?branch=master&service=github)](https://coveralls.io/github/nytimes/gizmo?branch=master)
+
+<p align="center">
+  <img src="http://graphics8.nytimes.com/images/blogs/open/2015/gizmo.png"/>
+</p>
+
+This toolkit provides packages to put together server and pubsub daemons with the following features:
+
+* Standardized configuration and logging
+* Health check endpoints with configurable strategies
+* Configuration for managing pprof endpoints and log levels
+* Basic interfaces to define expectations and vocabulary
+* Structured logging containing basic request information
+* Useful metrics for endpoints
+* Graceful shutdowns
+
+
+### Install
+Notice the capitalization!
+
+...

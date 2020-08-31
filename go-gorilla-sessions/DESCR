@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# sessions
+
+[![GoDoc](https://godoc.org/github.com/gorilla/sessions?status.svg)](https://godoc.org/github.com/gorilla/sessions) [![Build Status](https://travis-ci.org/gorilla/sessions.svg?branch=master)](https://travis-ci.org/gorilla/sessions)
+[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/sessions/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/sessions?badge)
+
+gorilla/sessions provides cookie and filesystem sessions and infrastructure for
+custom session backends.
+
+The key features are:
+
+- Simple API: use it as an easy way to set signed (and optionally
+  encrypted) cookies.
+- Built-in backends to store sessions in cookies or the filesystem.
+- Flash messages: session values that last until read.
+- Convenient way to switch session persistency (aka "remember me") and set
+  other attributes.
+- Mechanism to rotate authentication and encryption keys.
+- Multiple sessions per request, even using different backends.
+- Interfaces and infrastructure for custom session backends: sessions from
+  different stores can be retrieved and batch-saved using a common API.
+...

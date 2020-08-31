@@ -1,19 +1,19 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	kit
-GITHUB_TAG=	v0.10.0
-DISTNAME=	v0.10.0
+GITHUB_PROJECT=	mux
+GITHUB_TAG=	v1.8.0
+DISTNAME=	v1.8.0
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=go-kit/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=gorilla/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/go-kit/kit/
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/gorilla/mux/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/kit-0.10.0
+WRKSRC=		${WRKDIR}/mux-1.8.0
 USE_LANGUAGES=	# none
 
 .include "../../mk/bsd.pkg.mk"

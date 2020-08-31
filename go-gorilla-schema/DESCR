@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+schema
+======
+[![GoDoc](https://godoc.org/github.com/gorilla/schema?status.svg)](https://godoc.org/github.com/gorilla/schema) [![Build Status](https://travis-ci.org/gorilla/schema.png?branch=master)](https://travis-ci.org/gorilla/schema)
+[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/schema/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/schema?badge)
+
+
+Package gorilla/schema converts structs to and from form values.
+
+## Example
+
+Here's a quick example: we parse POST form values and then decode them into a struct:
+
+```go
+// Set a Decoder instance as a package global, because it caches
+// meta-data about structs, and an instance can be shared safely.
+var decoder = schema.NewDecoder()
+
+type Person struct {
+    Name  string
+    Phone string
+...
