@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+pgzip
+=====
+
+Go parallel gzip compression/decompression. This is a fully gzip compatible drop in replacement for "compress/gzip".
+
+This will split compression into blocks that are compressed in parallel. 
+This can be useful for compressing big amounts of data. The output is a standard gzip file.
+
+The gzip decompression is modified so it decompresses ahead of the current reader. 
+This means that reads will be non-blocking if the decompressor can keep ahead of your code reading from it. 
+CRC calculation also takes place in a separate goroutine.
+
+You should only use this if you are (de)compressing big amounts of data, 
+say **more than 1MB** at the time, otherwise you will not see any benefit, 
+and it will likely be faster to use the internal gzip library 
+or [this package](https://github.com/klauspost/compress).
+
+It is important to note that this library creates and reads *standard gzip files*. 
+You do not have to match the compressor/decompressor to get the described speedups, 
+and the gzip files are fully compatible with other gzip readers/writers.
+...
