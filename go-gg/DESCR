@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Go Graphics
+
+`gg` is a library for rendering 2D graphics in pure Go.
+
+![Stars](http://i.imgur.com/CylQIJt.png)
+
+## Installation
+
+    go get -u github.com/fogleman/gg
+
+Alternatively, you may use gopkg.in to grab a specific major-version:
+
+    go get -u gopkg.in/fogleman/gg.v1
+
+## Documentation
+
+https://godoc.org/github.com/fogleman/gg
+
+## Hello, Circle!
+
+...

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Attention
+
+The ownership of project is transferred to this new organization. 
+Thus the `import path` for golang should now be `github.com/sciter-sdk/go-sciter`, 
+but the package name is still `sciter`.
+
+# Introduction
+
+This package provides a Golang bindings of [Sciter][] using cgo.
+Using go sciter you must have the platform specified `sciter dynamic library`
+downloaded from [sciter-sdk][], the library itself is rather small
+ (under 5MB, less than 2MB when upxed) .
+
+Most [Sciter][] API are supported, including:
+
+ * Html string/file loading
+ * DOM manipulation/callback/event handling
+ * DOM state/attribute handling
+ * Custom resource loading
+ * Sciter Behavior
+...

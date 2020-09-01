@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+systray is a cross-platform Go library to place an icon and menu in the notification area.
+
+## Features
+
+* Supported on Windows, macOS, and Linux
+* Menu items can be checked and/or disabled
+* Methods may be called from any Goroutine
+
+## API
+
+```go
+func main() {
+	systray.Run(onReady, onExit)
+}
+
+func onReady() {
+	systray.SetIcon(icon.Data)
+	systray.SetTitle("Awesome App")
+	systray.SetTooltip("Pretty awesome超级棒")
+	mQuit := systray.AddMenuItem("Quit", "Quit the whole app")
+...
