@@ -1,10 +1,3 @@
-TODO: Adjust the following lines from README.md
-
-Goji
-====
-
-[![GoDoc](https://godoc.org/github.com/zenazn/goji/web?status.svg)](https://godoc.org/github.com/zenazn/goji/web) [![Build Status](https://travis-ci.org/zenazn/goji.svg?branch=master)](https://travis-ci.org/zenazn/goji)
-
 Goji is a minimalistic web framework that values composability and simplicity.
 
 This project has been superseded by a [new version of Goji][goji2] by the same
@@ -13,11 +6,3 @@ reflect several years of experience with this library and the surrounding Go
 ecosystem. This project is still well-loved and well-maintained, and will be for
 the foreseeable future, but new projects are encouraged to use `goji.io`
 instead.
-
-[goji2]: https://goji.io
-
-Example
--------
-
-```go
-...
