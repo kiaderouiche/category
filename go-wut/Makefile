@@ -1,19 +1,22 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	gowut
-GITHUB_TAG=	v1.4.0
+GITHUB_TAG=	dd528033b08560ee2130dcf81050f2fba234ca0b
 DISTNAME=	v1.4.0
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	www wm
 MASTER_SITES=	${MASTER_SITE_GITHUB:=icza/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/icza/gowut/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/gowut-1.4.0
-USE_LANGUAGES=	# none
 
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/icza/gowut
+
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

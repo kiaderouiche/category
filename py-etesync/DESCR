@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+<p align="center">
+  <img width="120" src="icon.svg" />
+  <h1 align="center">EteSync - Secure Data Sync</h1>
+</p>
+
+This is a python client library for [EteSync](https://www.etesync.com)
+
+![GitHub tag](https://img.shields.io/github/tag/etesync/pyetesync.svg)
+[![PyPI](https://img.shields.io/pypi/v/etesync.svg)](https://pypi.python.org/pypi/etesync/)
+[![Build Status](https://travis-ci.com/etesync/pyetesync.svg?branch=master)](https://travis-ci.com/etesync/pyetesync)
+[![Chat on freenode](https://img.shields.io/badge/irc.freenode.net-%23EteSync-blue.svg)](https://webchat.freenode.net/?channels=#etesync)
+
+This module provides a python API to interact with an EteSync server.
+It currently implements AddressBook and Calendar access, and supports two-way
+sync (both push and pull) to the server.
+It doesn't currently implement pushing raw journal entries which are needed for
+people implementing new EteSync journal types which will be implemented soon.
+
+To install, please run:
+
+...
