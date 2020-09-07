@@ -11,9 +11,9 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/icza/gowut/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-WRKSRC=		${WRKDIR}/gowut-1.4.0
+WRKSRC=		${WRKDIR}/gowut-1.4.0/gwu
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/icza/gowut
