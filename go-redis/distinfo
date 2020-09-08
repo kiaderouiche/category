@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (redis/v8.0.0-beta.10.tar.gz) = dc29143590345313cd944c95694277173bfb6571
+RMD160 (redis/v8.0.0-beta.10.tar.gz) = f6b0c1aa14541867053234fe83a39d5b7b325245
+SHA512 (redis/v8.0.0-beta.10.tar.gz) = b903bdc369a09ef9c621899f29b1dd4b704296b47587b77154e8def55666867d84db5cc218a7b0026d3867f5e46fb8ce1eaa0ea236d6d6da141b92d7462d464a
+Size (redis/v8.0.0-beta.10.tar.gz) = 113931 bytes
