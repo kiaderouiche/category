@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (confluent-kafka-go/v1.4.2.tar.gz) = b2a2806302a487e03b0d77c12e9f020de00965f4
+RMD160 (confluent-kafka-go/v1.4.2.tar.gz) = 64d716bd0656909ce242bbe4a3899da086c8d70d
+SHA512 (confluent-kafka-go/v1.4.2.tar.gz) = 92ffbfedb4d9a6142c1380af44329a8ac76b0f98806fac0bf6d8ed6d1a76359fcdae1fbcb36d6281eedffca0a65edc90e0003efc83031e11424ede9dc37a3586
+Size (confluent-kafka-go/v1.4.2.tar.gz) = 8205506 bytes
