@@ -1,4 +1,0 @@
-mozinfo>=0.7
-mozfile>=1.0
-requests
-six>=1.10.0

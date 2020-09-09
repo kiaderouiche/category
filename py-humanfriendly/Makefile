@@ -10,8 +10,8 @@ HOMEPAGE=	https://humanfriendly.readthedocs.io
 COMMENT=	Human friendly output for text interfaces using Python
 LICENSE=	mit
 
-TEST_DEPENDS+=	# TODO: capturer>=2.1
-TEST_DEPENDS+=	# TODO: coloredlogs>=2.0
+##TEST_DEPENDS+=	py-humanfriendly>=8.0:../../wip/py-humanfriendly
+TEST_DEPENDS+=	#${PYPKGPREFIX}-coloredlogs>=2.0
 
 USE_LANGUAGES=	# none
 
