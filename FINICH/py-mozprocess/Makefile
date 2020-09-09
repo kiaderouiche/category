@@ -2,15 +2,15 @@
 
 DISTNAME=	mozprocess-1.2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	sysutils www python
 MASTER_SITES=	https://files.pythonhosted.org/packages/f6/81/5a9fec38e58d6c29a86867c801cad1b5022f0d14c961b68a729e737623a9/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://firefox-source-docs.mozilla.org/mozbase/mozprocess.html
 COMMENT=	Mozilla-authored process handling
-#LICENSE=	MPL 2.0 # TODO: from setup.py; needs to be adjusted
+LICENSE=	mpl-2.0
 
-DEPENDS+=	py-mozinfo>=0:../../category/py-mozinfo
+DEPENDS+=	${PYPKGPREFIX}-mozinfo>=0:../../wip/py-mozinfo
 
 USE_LANGUAGES=	# none
 

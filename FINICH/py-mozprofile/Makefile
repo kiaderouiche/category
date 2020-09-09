@@ -6,7 +6,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	https://files.pythonhosted.org/packages/0b/39/39c8237a511a26effc53020b801e452a04cf52c2c9d9b71dcc21262903ef/
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+HOMEPAGE=	https://firefox-source-docs.mozilla.org/mozbase/mozprofile.html
 COMMENT=	Library to create and modify Mozilla application profiles
 LICENSE=	mpl-2.0
 
