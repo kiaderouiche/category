@@ -1,0 +1,4 @@
+Composable, observable and performant config handling for Go. Written for larger 
+distributed systems where you may have plenty of configuration sources - it allows
+you to compose configurations from multiple sources with reload hooks making it
+simple to build apps that live in a highly dynamic environment.
