@@ -8,7 +8,7 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/23/7c/16999dcf92689a73932f
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
 COMMENT=	Mozilla-authored device management
-#LICENSE=	MPL # TODO: from setup.py; needs to be adjusted
+LICENSE=	mpl
 
 #DEPENDS+=	${PYPKGPREFIX}-mozlog>=6.0:../../wip/py-mozlog
 

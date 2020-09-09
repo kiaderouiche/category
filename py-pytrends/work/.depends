@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-requests>=0	../../devel/py-requests
+full	py37-pandas>=0.25	../../math/py-pandas
+full	py37-lxml>=0	../../textproc/py-lxml
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37
