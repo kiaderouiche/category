@@ -10,14 +10,13 @@ HOMEPAGE=	https://einsteinpy.org/
 COMMENT=	Python package for General Relativity
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX-numba>=0.51.0:../../graphics/py-sphinx
-DEPENDS+=	${PYPKGPREFIX-numba>=0.51.0:../../math/py-sphinx
-DEPENDS+=	${PYPKGPREFIX-scipy>=1.5.2:../../math/py-scipy
-DEPENDS+=	${PYPKGPREFIX-sympy>=1.5.1:../../math/py-sympy
-#DEPENDS+=       ${PYPKGPREFIX-sstropy>=2.0.2:../../wip/py-astropy
-#DEPENDS+=	${PYPKGPREFIX-plotly>=4.8.1:../../wip/py-plotly
+DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.2.2:../../graphics/py-matplotlib
+#DEPENDS+=	${PYPKGPREFIX}-numba>=0.51.0:../../math/py-numba
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-sympy>=1.5.1:../../math/py-sympy
+#DEPENDS+=      ${PYPKGPREFIX}-astropy>=2.0.2:../../wip/py-astropy
+#DEPENDS+=	${PYPKGPREFIX}-plotly>=4.8.1:../../wip/py-plotly
 
-.include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
