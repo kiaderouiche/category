@@ -12,6 +12,7 @@ LICENSE=	mit
 
 USE_LANGUAGES=	# none
 
+DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../devel/py-colorama
 DEPENDS+=	${PYPKGPREFIX}-six>=1.6:../../lang/py-six
 
 .include "../../lang/python/egg.mk"
