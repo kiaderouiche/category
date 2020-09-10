@@ -8,9 +8,11 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/ac/af/0b1430abcffa44a5376a
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/pavdmyt/yaspin
 COMMENT=	Yet Another Terminal Spinner
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 USE_LANGUAGES=	# none
+
+DEPENDS+=	${PYPKGPREFIX}-six>=1.6:../../lang/py-six
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
