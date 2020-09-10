@@ -1,0 +1,11 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py-flask>=0	../../www/py-flask
+full	py-jsonschema>=0	../../textproc/py-jsonschema
+full	py-pytz>=0	../../time/py-pytz
+full	py-uwsgi>=0	../../www/py-uwsgi
+full	py-boto3>=0	../../net/py-boto3
+full	py-typing-extensions>=0	../../devel/py-typing-extensions
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37
