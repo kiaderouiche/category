@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+
+# The Kraft Project
+
+**Kraft is free software to help to handle documents like quotes and invoices
+in your small business.**
+
+It is a Qt/KF5 based desktop software with a strong focus on ease of use
+and the just enough feature set for the use case. With Kraft, creating documents
+will run smooth and free time for more enjoyable things than office work.
+
+Check out the website http://volle-kraft-voraus.de for more information.
+
+Kraft runs on your Linux desktop. No cloud involved, your data stays with you!
+
+With Kraft, writing documents like quotes and invoices is very easy and fast.
+Repeating tasks are supported, documents can be generated semi automatically,
+ie. invoices from offers sent out before.
+
+For efficient work, Kraft supports catalogs to organize materials and
+template texts. It focuses on high quality printouts because paper is
+...
