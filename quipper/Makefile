@@ -10,7 +10,8 @@ HOMEPAGE=	https://www.mathstat.dal.ca/~selinger/quipper/
 COMMENT=	Embedded, scalable functional programming language for quantum computing
 #LICENSE=	# TODO: (see mk/license.mk)
 
-USE_LANGUAGES=	# none
+USE_TOOLS+=	gmake
+USE_LANGUAGES=	c
 
 DEPENDS+=	xpdf>=4.02:../../print/xpdf4
 
