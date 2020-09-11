@@ -1,19 +1,18 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	brackets
-GITHUB_TAG=	release-1.14.2
-DISTNAME=	release-1.14.2
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
-CATEGORIES=	category
+VERSION=	1.14.2
+DISTNAME=	brackets
+PKGNAME=	${DISTNAME}-${VERSION}
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=adobe/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/adobe/brackets/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/brackets-release-1.14.2
+
 USE_LANGUAGES=	# none
 
 .include "../../mk/bsd.pkg.mk"
