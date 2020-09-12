@@ -2,10 +2,10 @@
 
 DISTNAME=	qilib-0.3.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	lang python
 MASTER_SITES=	https://files.pythonhosted.org/packages/bb/df/65538f69f24053ac9f88ebd6ec19388346a5d947e73f508717e0a6d5345a/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/bb/df/65538f69f24053ac9f88ebd6ec19388346a5d947e73f508717e0a6d5345a/
 COMMENT=	Quantum Library for the Quantum Inspire platform
 #LICENSE=	Other/Proprietary License # TODO: from setup.py; needs to be adjusted
