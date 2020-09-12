@@ -13,6 +13,7 @@ COMMENT=	Embedded, scalable functional programming language for quantum computin
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c
 
+DEPENDS+=	cabal-install>=:../../misc/cabal-install
 DEPENDS+=	xpdf>=4.02:../../print/xpdf4
 
 .include "../../lang/ghc7/buildlink3.mk"
