@@ -1,13 +1,14 @@
 # $NetBSD$
 
 DISTNAME=	ukwm_1.1.11.orig
+PKGNAME=	ukwm-1.1.11
 CATEGORIES=	wm
 MASTER_SITES=	http://deb.debian.org/debian/pool/main/u/ukwm/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.coms
 HOMEPAGE=	http://deb.debian.org/debian/pool/main/u/ukwm/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Lightweight GTK+ window manager
+LICENSE=	gnu-gpl-v2
 
 WRKSRC=			${WRKDIR}/ukwm
 GNU_CONFIGURE=		yes

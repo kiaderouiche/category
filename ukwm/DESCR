@@ -1,2 +1,5 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+ Ukwm is a small window manager, using GTK+ and Clutter to do
+ everything.  Ukwm is the clutter-based evolution of Metacity,
+ which, as the author says, is a "Boring window manager for
+ the adult in you. Many window managers are like Marshmallow
+ Froot Loops; Metacity is like Cheerios." 

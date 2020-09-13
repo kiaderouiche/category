@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Ukwm
+Exec=ukwm
+NoDisplay=true
+# name of loadable control center module
+X-UKUI-WMSettingsModule=metacity
+# name we put on the WM spec check window
+X-UKUI-WMName=Ukwm
+# back compat only 
+X-UkuiWMSettingsLibrary=metacity
+X-UKUI-Autostart-Phase=WindowManager
+X-UKUI-Provides=windowmanager
+X-UKUI-Autostart-Notify=true
