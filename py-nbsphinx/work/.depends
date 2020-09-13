@@ -1,0 +1,11 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-traitlets>=4.3.3	../../devel/py-traitlets
+full	py37-docutils>=0.16	../../textproc/py-docutils
+full	py37-jinja2>=2.11.2	../../textproc/py-jinja2
+full	py37-sphinx>=1.8	../../textproc/py-sphinx
+full	py37-nbconvert>=5.6.1	../../www/py-nbconvert
+full	py37-nbformat>=5.0.7	../../www/py-nbformat
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37

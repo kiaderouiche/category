@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-future>=0:../../devel/py-future
 DEPENDS+=	# TODO: swiglpk>=0
 DEPENDS+=	# TODO: ruamel.yaml>=0.16
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.17.0:../../math/py-pandas
-DEPENDS+=	${PYPKGPREFIX}-optlang>=1.4.2:../../category/py-optlang
+#DEPENDS+=	${PYPKGPREFIX}-optlang>=1.4.2:../../category/py-optlang
 DEPENDS+=	# TODO: depinfo>=0
 DEPENDS+=	# TODO: python-libsbml-experimental==5.18.1>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-jsonschema>2.5:../../textproc/py-jsonschema
