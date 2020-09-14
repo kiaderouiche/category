@@ -1,0 +1,132 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: -O2;-D_FORTIFY_SOURCE=2;-I/usr/pkg/include;-I/usr/include;-I/usr/pkg/include/python3.7
+Id flags:  
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: -O2;-D_FORTIFY_SOURCE=2;-I/usr/pkg/include;-I/usr/include;-I/usr/pkg/include/python3.7
+Id flags: -c 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: -O2;-D_FORTIFY_SOURCE=2;-I/usr/pkg/include;-I/usr/include;-I/usr/pkg/include/python3.7
+Id flags: --c++ 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: -O2;-D_FORTIFY_SOURCE=2;-I/usr/pkg/include;-I/usr/include;-I/usr/pkg/include/python3.7
+Id flags: --ec++ 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: -O2;-D_FORTIFY_SOURCE=2;-I/usr/pkg/include;-I/usr/include;-I/usr/pkg/include/python3.7
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++ 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /usr/pkgsrc/category/py-symengine/work/symengine-0.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_54123/fast && make  -f CMakeFiles/cmTC_54123.dir/build.make CMakeFiles/cmTC_54123.dir/build
+Building CXX object CMakeFiles/cmTC_54123.dir/testCXXCompiler.cxx.o
+/usr/pkgsrc/category/py-symengine/work/.cwrapper/bin/c++    -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.7 -o CMakeFiles/cmTC_54123.dir/testCXXCompiler.cxx.o -c /usr/pkgsrc/category/py-symengine/work/symengine-0.6.1/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+PKGSRC-WARNING: Something is trying to run the c++ compiler,
+PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+make[1]: stopped in /usr/pkgsrc/category/py-symengine/work/symengine-0.6.1/CMakeFiles/CMakeTmp
+gmake: *** [Makefile:141: cmTC_54123/fast] Error 1
+
+
+
