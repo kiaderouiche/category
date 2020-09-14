@@ -1,23 +1,3 @@
-TODO: Adjust the following lines from README.md
-
-[![Build Status](https://travis-ci.org/fhackenberger/ktikz.svg?branch=master)](https://travis-ci.org/fhackenberger/ktikz)
-# KtikZ
-
-KtikZ provides a nice user interface for making pictures using TikZ
-
-# Usage
-
-You write the TikZ code in the editor and KtikZ automatically generates the
-image in a preview panel.
-
-The complete description of the usage is available in the application itself,
-under Help -> KtikZ Manual.
-
-# Installation
-
-See the INSTALL file.
-
-# Screenshots
-
-The main window showing the application in action:
-...
+Ktikz is a small tool to create TikZ graphics (often used in LaTeX). This app
+isn't an official KDE application, but use some KDE libraries to provides
+better integration with Plasma. A pure Qt build is also available. 

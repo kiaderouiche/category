@@ -1,0 +1,11 @@
+py-hiphive
+py-hal-cgp
+py-yaspin
+py-wptserve
+py-grtipy
+py-riccipy
+py-stencils
+py-humanfriendly
+py-instant
+py-gom
+py-locky
