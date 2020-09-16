@@ -1,5 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	xpdf>=4.02	../../print/xpdf4
-full	ghc>=7.10.3nb3	../../lang/ghc7

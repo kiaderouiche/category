@@ -1,9 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	unzip-[0-9]*	../../archivers/unzip
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py37-sympy>=0.6.7	../../math/py-sympy
-full	py37-dill>=0.3.2	../../wip/py-dill
-full	py37-klepto>=0.1.9	../../wip/py-klepto
-full	py37-setuptools-[0-9]*	../../devel/py-setuptools
-full	py37-numpy>=1.0	../../math/py-numpy

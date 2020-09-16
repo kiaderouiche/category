@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	cmake>=2.8.1nb1	cmake-3.17.3
-tool	checkperms>=1.1	checkperms-1.12
-build	cwrappers>=20150314	cwrappers-20180325
-full	py37-setuptools-[0-9]*	py37-setuptools-44.1.1
-full	py37-cython>=0.12.1	py37-cython-0.29.21
-full	python37>=3.7	python37-3.7.9nb1

@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	libtool-base>=2.4.2nb9	../../devel/libtool-base
-tool	automake>=1.9	../../devel/automake
-tool	autoconf>=2.58	../../devel/autoconf
-tool	pkgconf-[0-9]*	../../devel/pkgconf
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
