@@ -10,11 +10,11 @@ HOMEPAGE=	https://github.com/eerimoq/mys
 COMMENT=	Strongly typed Python to C++ transpiler
 LICENSE=	mit
 
-DEPENDS+=	# TODO: ansicolors>=0
-DEPENDS+=	# TODO: humanfriendly>=0
+DEPENDS+=	${PYPKGPREFIX}-pygments>=0:../../textproc/py-pygments# TODO: ansicolors>=0
+DEPENDS+=	${PYPKGPREFIX}-pygments>=0:../../textproc/py-pygments # TODO: humanfriendly>=0
 DEPENDS+=	${PYPKGPREFIX}-pygments>=0:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-toml>=0:../../textproc/py-toml
-DEPENDS+=	# TODO: yaspin>=0
+DEPENDS+=	${PYPKGPREFIX}-pygments>=0:../../textproc/py-pygments # TODO: yaspin>=0
 
 USE_LANGUAGES=	c++
 
