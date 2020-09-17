@@ -2,15 +2,13 @@
 
 DISTNAME=	docker-hub-2.2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	net python
 MASTER_SITES=	https://files.pythonhosted.org/packages/03/c8/1367bbae2dae2cda827caddf3ca6eeb8e314354e7b538e8cfcf7bae038db/
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://github.com/amalfra/docker-hub
+HOMEPAGE=	https://github.com/amalfra/docker-hub
 COMMENT=	Access docker hub from your terminal
 LICENSE=	mit
-
-BUILD_DEPENDS+=	# TODO: pytest-runner>=0
 
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.7:../../textproc/py-tabulate
