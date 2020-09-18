@@ -13,7 +13,7 @@ LICENSE=	mit
 DEPENDS+=	# TODO: apscheduler>=0
 DEPENDS+=	${PYPKGPREFIX}-attrs>=0:../../devel/py-attrs
 DEPENDS+=	${PYPKGPREFIX}-dulwich>=0:../../devel/py-dulwich
-DEPENDS+=	py-h5py>=0:../../devel/py-h5py
+DEPENDS+=	${PYPKGPREFIX-h5py>=0:../../devel/py-h5py
 DEPENDS+=	# TODO: hickle>=0
 DEPENDS+=	# TODO: IPython>=0.1
 DEPENDS+=	${PYPKGPREFIX}-lmfit>=0:../../math/py-lmfit
@@ -43,7 +43,6 @@ DEPENDS+=	# TODO: Polygon3>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-coverage>=0:../../devel/py-coverage
 TEST_DEPENDS+=	# TODO: jupyter>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-mypy>=0:../../lang/py-mypy
-TEST_DEPENDS+=	# TODO: pytest>=0
 
 USE_LANGUAGES=	# none
 
