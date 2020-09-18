@@ -15,9 +15,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-nbconvert>=5.6.1,:../../www/py-nbconvert
 #BUILD_DEPENDS+=	${PYPKGPREFIX}-nbsphinx>=0:../../www/py-nbconvert
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=7.16.1:../../devel/py-ipython
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipykernel>=5.3.4:../../devel/py-ipykernel
-BUILD_DEPENDS+=	# TODO: pytest-runner>=2.6.2
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=3.5.0:../../devel/py-setuptools_scm
-
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.2.2:../../graphics/py-matplotlib
 DEPENDS+=       ${PYPKGPREFIX}-sympy>=1.5.1:../../math/py-sympy
 DEPENDS+=	${PYPKGPREFIX}-six>=1.10.0:../../lang/py-six
