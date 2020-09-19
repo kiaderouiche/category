@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Quandl Python Client
+[![Build Status](https://travis-ci.org/quandl/quandl-python.svg?branch=master)](https://travis-ci.org/quandl/quandl-python)
+[![PyPI version](https://badge.fury.io/py/Quandl.svg)](https://badge.fury.io/py/Quandl)
+
+This is the official documentation for Quandl's Python Package. The package can be used to interact with the latest version of the [Quandl RESTful API](https://www.quandl.com/docs/api). This package is compatible with python v2.7.x and v3.x+.
+
+## Deprecation of old package
+
+Please see this readme for more information and upgrade instructions: [2.x series transition notes](./2_SERIES_UPGRADE.md)
+
+## Installation
+
+The installation process varies depending on your python version and system used. However in most cases the following should work:
+
+```shell
+pip install quandl
+```
+
+Alternatively on some systems python3 may use a different pip executable and may need to be installed via an alternate pip command. For example:
+
+...
