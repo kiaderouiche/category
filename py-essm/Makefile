@@ -11,10 +11,10 @@ COMMENT=	Environmental Science using Symbolic Math
 LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-jupyter_core>=4.6.3:../../devel/py-jupyter_core
-BUILD_DEPENDS+=	${PYPKGPREFIX}-nbconvert>=5.6.1,:../../www/py-nbconvert
-BUILD_DEPENDS+=	${PYPKGPREFIX}-nbsphinx>=0:../../wip/py-nbsphinx
-BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=7.16.1:../../devel/py-ipython
-BUILD_DEPENDS+=	${PYPKGPREFIX}-ipykernel>=5.3.4:../../devel/py-ipykernel
+#BUILD_DEPENDS+=	${PYPKGPREFIX}-nbconvert>=5.6.1,:../../www/py-nbconvert
+#BUILD_DEPENDS+=	${PYPKGPREFIX}-nbsphinx>=0:../../wip/py-nbsphinx
+#BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=7.16.1:../../devel/py-ipython
+#BUILD_DEPENDS+=	${PYPKGPREFIX}-ipykernel>=5.3.4:../../devel/py-ipykernel
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=3.5.0:../../devel/py-setuptools_scm
 
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.2.2:../../graphics/py-matplotlib
