@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Typing Inspect
+==============
+
+[![Build Status](https://travis-ci.org/ilevkivskyi/typing_inspect.svg)](https://travis-ci.org/ilevkivskyi/typing_inspect)
+
+The ``typing_inspect`` module defines experimental API for runtime
+inspection of types defined in the Python standard ``typing`` module.
+Works with ``typing`` version ``3.7.4`` and later. Example usage:
+
+```python
+from typing import Generic, TypeVar, Iterable, Mapping, Union
+from typing_inspect import is_generic_type
+
+T = TypeVar('T')
+
+class MyCollection(Generic[T]):
+    content: T
+
+assert is_generic_type(Mapping)
+assert is_generic_type(Iterable[int])
+...

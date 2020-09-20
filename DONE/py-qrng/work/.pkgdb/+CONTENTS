@@ -1,0 +1,12 @@
+@cwd /usr/pkg
+@name py37-qrng-0.1.2
+@blddep py37-setuptools-44.1.1
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb1
+@pkgdep python37>=3.7
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/bin/make package"
+@comment TODO: 2. run "/usr/bin/make print-PLIST"
