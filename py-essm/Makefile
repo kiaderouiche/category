@@ -12,24 +12,14 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-jupyter_core>=4.6.3:../../devel/py-jupyter_core
 BUILD_DEPENDS+=	${PYPKGPREFIX}-nbconvert>=5.6.1,:../../www/py-nbconvert
-#BUILD_DEPENDS+=	${PYPKGPREFIX}-nbsphinx>=0:../../www/py-nbconvert
+BUILD_DEPENDS+=	${PYPKGPREFIX}-nbsphinx>=0:../../wip/py-nbsphinx
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=7.16.1:../../devel/py-ipython
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipykernel>=5.3.4:../../devel/py-ipykernel
-BUILD_DEPENDS+=	# TODO: pytest-runner>=2.6.2
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=3.5.0:../../devel/py-setuptools_scm
 
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.2.2:../../graphics/py-matplotlib
 DEPENDS+=       ${PYPKGPREFIX}-sympy>=1.5.1:../../math/py-sympy
 DEPENDS+=	${PYPKGPREFIX}-six>=1.10.0:../../lang/py-six
-
-#TEST_DEPENDS+=	# TODO: check-manifest>=0.25
-TEST_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.2.1:../../devel/py-coverage
-TEST_DEPENDS+=	${PYPKGPREFIX}-isort>=4.3.21:../../devel/py-isort
-#TEST_DEPENDS+=	# TODO: pydocstyle>=1.0.0,<4.0.0
-#TEST_DEPENDS+=	# TODO: pytest-cache>=1.0
-#TEST_DEPENDS+=	# TODO: pytest-cov>=1.8.0
-#TEST_DEPENDS+=	# TODO: pytest-pep8>=1.0.6
-#TEST_DEPENDS+=	# TODO: pytest>=2.8.0,<5.0.0
 
 USE_LANGUAGES=	# none
 

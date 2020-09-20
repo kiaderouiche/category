@@ -10,6 +10,7 @@ HOMEPAGE=	https://github.com/biosustain/swiglpk
 COMMENT=	Plain python bindings for the GNU Linear Programming Kit
 LICENSE=	gnu-gpl-v3
 
+USE_LANGUAGES=	c c++
 
 BUILDLINK_API_DEPENDS.glpk+=    glpk>=4.8nb1
 .include "../../math/glpk/buildlink3.mk"
