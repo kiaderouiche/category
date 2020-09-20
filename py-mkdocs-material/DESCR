@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+<p align="center">
+  <a href="https://squidfunk.github.io/mkdocs-material/">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.png" width="320" alt="Material for MkDocs">
+  </a>
+</p>
+
+<p align="center">
+  <strong>
+    A 
+    <a href="https://material.io/">Material Design</a> 
+    theme for 
+    <a href="https://www.mkdocs.org/">MkDocs</a>
+  </strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/squidfunk/mkdocs-material/actions"><img
+    src="https://github.com/squidfunk/mkdocs-material/workflows/ci/badge.svg?branch=master"
+    alt="GitHub Action"
+  /></a>
+...
