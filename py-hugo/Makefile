@@ -8,11 +8,11 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/68/28/bcdaf2fab2ee08f7f1d1
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/Roolat/hugo
 COMMENT=	Discord bot library
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
-DEPENDS+=	# TODO: discord.py>=0
+DEPENDS+=	${PYPKGPREFIX}-discord.py>=0:../../wip/py-discord.py
 
-USE_LANGUAGES=	# none
+PYTHON_VERSIONS_ACCEPTED=	38 37 36
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
