@@ -11,11 +11,11 @@ COMMENT=	Genomics is a robust materials analysis for structures and molecules
 #LICENSE=	# TODO: (see mk/license.mk)
 
 DEPENDS+=	${PYPKGPREFIX}-ipython>=7.18.1:../../devel/py-ipython
-DEPENDS+=	${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-ipython
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.2.2:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-networkx>=2.4:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-pandas>=0.25.3:../../math/py-pandas
-DEPENDS+=	${PYPKGPREFIX}-scipy>=1.0.1:../../math/py-scipy
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.25.3:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-scipy>=1.0.1:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-sympy>=1.6.2:../../math/py-sympy
 DEPENDS+=	${PYPKGPREFIX}-uncertainties>=3.1.4:../../math/py-uncertainties
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.9.1:../../www/py-beautifulsoup4

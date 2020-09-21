@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (orthopy-0.8.3.tar.gz) = 1ae6a4b23349423206b99a4e4e85a48fb0748961
-RMD160 (orthopy-0.8.3.tar.gz) = c0567e15fdd4f017acf94e0f07ded3b30a1a83da
-SHA512 (orthopy-0.8.3.tar.gz) = 8e61e650ee318d3f233b281dc668ac4284f6b7e75cfad560469dc2ab9ee745aa411a284771b1902f5543fb904b749e5273cb81c2856141925e2af1a26c3c954e
-Size (orthopy-0.8.3.tar.gz) = 51539 bytes
+SHA1 (orthopy-0.8.4.tar.gz) = 13e0da30f8631921f0c5567f3c52f2146f633a20
+RMD160 (orthopy-0.8.4.tar.gz) = e7500264421d76d446037362ab9ec3c14f55ba62
+SHA512 (orthopy-0.8.4.tar.gz) = 6d5cfdfedb839f9f7ceff0368cde18c1f46246e516569ebc6e6a620e5de79a4a6b5d3dd345ac075b7cad12d1ffcd25953098268b70477dec1a883b16b9efcd69
+Size (orthopy-0.8.4.tar.gz) = 51662 bytes
