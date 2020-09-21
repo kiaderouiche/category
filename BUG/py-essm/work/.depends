@@ -1,0 +1,11 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	py37-jupyter_core>=4.6.3	../../devel/py-jupyter_core
+build	py37-setuptools_scm>=3.5.0	../../devel/py-setuptools_scm
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-matplotlib>=3.2.2	../../graphics/py-matplotlib
+full	py37-sympy>=1.5.1	../../math/py-sympy
+full	py37-six>=1.10.0	../../lang/py-six
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	pandoc>=2.9.1.1	../../converters/pandoc
+full	python37>=3.7	../../lang/python37
