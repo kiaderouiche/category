@@ -1,0 +1,4 @@
+qtmodern is a Python package aimed to make PyQt/PySide applications
+look better and consistent on multiple platforms. It provides a
+custom frameless window and a dark theme. In order to be compatible
+with multiple Python Qt wrappers QtPy is used
