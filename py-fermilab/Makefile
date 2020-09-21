@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/e0/08/cce26340c8a2f2bca318e3c566f458f893c49cd8542a8e84984c8871f04e/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.projectq.ch
 COMMENT=	Analyzing, compiling and emulating quantum algorithm for fermions
 LICENSE=	apache-2.0

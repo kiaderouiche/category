@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/open-cogsci/QNotifications
 COMMENT=	Pretty in-app notifications for PyQt
 LICENSE=	gnu-lgpl-v3
 
-#DEPENDS+=	${PYPKGPREFIX}-qtpy>=1.1.1:../../wip/py-qtpy
+DEPENDS+=	${PYPKGPREFIX}-qtpy>=1.1.1:../../wip/py-qtpy
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
