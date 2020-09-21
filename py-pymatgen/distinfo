@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (pymatgen-2020.7.18.tar.gz) = 802aa1e8b163e16b01cb07ad320699b0a953dfbb
-RMD160 (pymatgen-2020.7.18.tar.gz) = da5a29171da3145bab69d463ecb367d074ffc438
-SHA512 (pymatgen-2020.7.18.tar.gz) = 7cec99fbdf11ec2280aaac9baecc2718b9fe5e3e801a64a4bd3fe516949e273f421035ff14f5b4af61fba06b39f7ace143cf9ffd2b470bfa2fc97791ed111183
-Size (pymatgen-2020.7.18.tar.gz) = 2706450 bytes
+SHA1 (pymatgen-2020.9.14.tar.gz) = a79d8c15d48ac6898c3dcfe1e665b00c07b0e4c7
+RMD160 (pymatgen-2020.9.14.tar.gz) = b912f2819881ec084960c2aa5905975ff676cc36
+SHA512 (pymatgen-2020.9.14.tar.gz) = 280cd1448e6b15e9a126da1b796a185ecc6224f05c7319b1e8f551d8aa0c12095dc58f7631daa82734cf81722a2e3971056cb5c7f11a55c609121c07f9e6e2ce
+Size (pymatgen-2020.9.14.tar.gz) = 2757633 bytes
