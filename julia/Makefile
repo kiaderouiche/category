@@ -6,9 +6,9 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=JuliaLang/}
 GITHUB_RELEASE=	v1.5.1
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/JuliaLang/julia/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Julia Language: A fresh approach to technical computing
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	c c++
