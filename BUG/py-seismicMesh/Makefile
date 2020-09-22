@@ -9,5 +9,7 @@ HOMEPAGE=	https://files.pythonhosted.org/packages/f6/90/a8fc27ef48096a96fd962725
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+USE_LANGUAGES=	c c++
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

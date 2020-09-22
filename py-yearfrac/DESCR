@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/kmedian/yearfrac/master?urlpath=lab)
+
+# yearfrac
+
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Commands](#commands)
+* [Support](#support)
+* [Contributing](#contributors)
+
+
+## Installation
+The `yearfrac` [git repo](http://github.com/kmedian/yearfrac) is available as [PyPi package](https://pypi.org/project/yearfrac)
+
+```
+pip install yearfrac
+```
+
+...
