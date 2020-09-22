@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=JuliaLang/}
 GITHUB_RELEASE=	v1.5.1
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/JuliaLang/julia/
+HOMEPAGE=	https://julialang.org/
 COMMENT=	Julia Language: A fresh approach to technical computing
 #LICENSE=	# TODO: (see mk/license.mk)
 
