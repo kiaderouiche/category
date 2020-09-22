@@ -21,9 +21,9 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test-doctestplus>=0.8.0:../../devel/py-test-docte
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-mpl>=0.11:../../devel/py-test-mpl
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-mypy>=0:../../devel/py-test-mypy
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-remotedata>=0:../../devel/py-test-remotedata
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=0:../../textproc/py-sphinx
-BUILD_DEPENDS+=	${PYPKGPREFIX}-labaster>=0:../../textproc/py-alabaster
-BUILD_DEPENDS+=	${PYPKGPREFIX}-ox>=0:../../devel/py-tox
+BUILD_DEPENDS+=	${PYPKGPREFIX}-alabaster>=0.7.12:../../textproc/py-alabaster
+BUILD_DEPENDS+=	${PYPKGPREFIX}-tox>=3.12.1:../../devel/py-tox
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.8.5:../../textproc/py-sphinx
 BUILD_DEPENDS+=	${PYPKGPREFIX}-black-[0-9]*:../../wip/py-black
 
 USE_LANGUAGES=	# none
