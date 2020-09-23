@@ -1,19 +1,19 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	seed
-GITHUB_TAG=	v0.2.2
-DISTNAME=	v0.2.2
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+DISTNAME=	go-seed-0.2.2
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=qlova/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_PROJECT=	seed
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/qlova/seed/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Cross-platform Go framework for building apps
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/seed-0.2.2
+
 USE_LANGUAGES=	# none
 
+.include "../../lang/go/go-module.mk"
 .include "../../mk/bsd.pkg.mk"

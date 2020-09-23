@@ -1,18 +1,17 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	fyne
-GITHUB_TAG=	v1.3.3
-DISTNAME=	v1.3.3
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+DISTNAME=	go-fyne-1.3.3
 MASTER_SITES=	${MASTER_SITE_GITHUB:=fyne-io/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+CATEGORIES=	x11
+GITHUB_PROJECT=	fyne
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fyne-io/fyne/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Cross platform GUI in Go based on Material Design
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=	${WRKDIR}/fyne-1.3.3
 
+.include "../../lang/go/go-module.mk"
 .include "../../mk/bsd.pkg.mk"

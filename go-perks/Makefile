@@ -8,10 +8,17 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=beorn7/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+
+DISTNAME=	go-jira-1.0.26
+CATEGORIES=	net
+MASTER_SITES=	${MASTER_SITE_GITHUB:=go-jira/}
+GITHUB_PROJECT=	jira
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/beorn7/perks/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/perks-1.0.1
 USE_LANGUAGES=	# none
