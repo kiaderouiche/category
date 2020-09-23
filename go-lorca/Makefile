@@ -1,17 +1,15 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	lorca
-GITHUB_TAG=	v0.1.9
-DISTNAME=	v0.1.9
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+DISTNAME=	go-lorca-0.1.9
 MASTER_SITES=	${MASTER_SITE_GITHUB:=zserge/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+CATEGORIES=	x11
+GITHUB_PROJECT=	lorca
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/zserge/lorca/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Build cross-platform modern desktop apps in Go + HTML5
+LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/zserge/lorca/
