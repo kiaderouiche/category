@@ -1,0 +1,14 @@
+jobs:
+  - website-docker-image:
+      context: static-sites
+      filters:
+        branches:
+          only:
+            - master
+
+  - algolia_index:
+      context: static-sites
+      filters:
+        branches:
+          only:
+            - stable-website
