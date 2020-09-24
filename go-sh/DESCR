@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# sh
+
+[![GoDoc](https://godoc.org/mvdan.cc/sh?status.svg)](https://godoc.org/mvdan.cc/sh)
+[![fuzzit](https://app.fuzzit.dev/badge?org_id=mvdan)](https://fuzzit.dev)
+
+A shell parser, formatter, and interpreter. Supports [POSIX Shell], [Bash], and
+[mksh]. Requires Go 1.13 or later.
+
+### Quick start
+
+To parse shell scripts, inspect them, and print them out, see the [syntax
+examples](https://godoc.org/mvdan.cc/sh/syntax#pkg-examples).
+
+For high-level operations like performing shell expansions on strings, see the
+[shell examples](https://godoc.org/mvdan.cc/sh/shell#pkg-examples).
+
+### shfmt
+
+	GO111MODULE=on go get mvdan.cc/sh/v3/cmd/shfmt
+
+...
