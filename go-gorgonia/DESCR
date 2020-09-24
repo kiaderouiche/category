@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+![Logo](https://raw.githubusercontent.com/gorgonia/gorgonia/master/media/Logo_horizontal_small.png)
+
+[![GoDoc](https://godoc.org/gorgonia.org/gorgonia?status.svg)](https://godoc.org/gorgonia.org/gorgonia) [![GitHub version](https://badge.fury.io/gh/gorgonia%2Fgorgonia.svg)](https://badge.fury.io/gh/gorgonia%2Fgorgonia) ![test and build](https://github.com/gorgonia/gorgonia/workflows/test%20and%20build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/gorgonia/gorgonia/badge.svg?branch=master)](https://coveralls.io/github/gorgonia/gorgonia?branch=master) [![Go Report Card](https://goreportcard.com/badge/gorgonia.org/gorgonia)](https://goreportcard.com/report/gorgonia.org/gorgonia) [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
+
+#
+
+Gorgonia is a library that helps facilitate machine learning in Go. Write and evaluate mathematical equations involving multidimensional arrays easily. If this sounds like [Theano](http://deeplearning.net/software/theano/) or [TensorFlow](https://www.tensorflow.org/), it's because the idea is quite similar. Specifically, the library is pretty low-level, like Theano, but has higher goals like Tensorflow.
+
+Gorgonia:
+
+* Can perform automatic differentiation
+* Can perform symbolic differentiation
+* Can perform gradient descent optimizations
+* Can perform numerical stabilization
+* Provides a number of convenience functions to help create neural networks
+* Is fairly quick (comparable to Theano and Tensorflow's speed)
+* Supports CUDA/GPGPU computation (OpenCL not yet supported, send a pull request)
+* Will support distributed computing
+
+# Goals #
+...

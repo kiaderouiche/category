@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Jet Template Engine for Go
+
+[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitter.im/CloudyKit/jet](https://badges.gitter.im/CloudyKit/jet.svg)](https://gitter.im/CloudyKit/jet)
+
+Jet is a template engine developed to be easy to use, powerful, dynamic, yet secure and very fast.
+
+* simple and familiar syntax
+* supports template inheritance (`extends`) and composition (`block`/`yield`, `import`, `include`)
+* descriptive error messages with filename and line number
+* auto-escaping
+* simple C-like expressions
+* very fast execution – Jet can execute templates faster than some pre-compiled template engines
+* very light in terms of allocations and memory footprint
+
+## v4
+
+Version 4 brings a lot of bug fixes and improvements as well as [updated documentation](./docs/index.md), but make sure to read through the [breaking changes](./docs/changes.md) before making the jump.
+
+## Docs
+
+...

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Zero Allocation JSON Logger
+
+[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://travis-ci.org/rs/zerolog.svg?branch=master)](https://travis-ci.org/rs/zerolog) [![Coverage](http://gocover.io/_badge/github.com/rs/zerolog)](http://gocover.io/github.com/rs/zerolog)
+
+The zerolog package provides a fast and simple logger dedicated to JSON output.
+
+Zerolog's API is designed to provide both a great developer experience and stunning [performance](#performance). Its unique chaining API allows zerolog to write JSON log events by avoiding allocations and reflection.
+
+The uber's [zap](https://godoc.org/go.uber.org/zap) library pioneered this approach. Zerolog is taking this concept to the next level with simpler to use API and even better performance.
+
+To keep the code base and the API simple, zerolog focuses on JSON logging only. As [suggested on reddit](https://www.reddit.com/r/golang/comments/6c9k7n/zerolog_is_now_faster_than_zap/), you may use tools like [humanlog](https://github.com/aybabtme/humanlog) to pretty print JSON on the console during development.
+
+
+## Features
+
+* Level logging
+* Sampling
+* Contextual fields
+* `context.Context` integration
+* `net/http` helpers
+...

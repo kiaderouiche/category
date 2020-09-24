@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# go-parameters
+> Parameter multi-tool that parses json, msg pack, or multi-part form data into a parameter object.
+
+[![Release](https://img.shields.io/github/release-pre/mrz1836/go-parameters.svg?logo=github&style=flat)](https://github.com/mrz1836/go-parameters/releases)
+[![Build Status](https://travis-ci.com/mrz1836/go-parameters.svg?branch=master)](https://travis-ci.com/mrz1836/go-parameters)
+[![Report](https://goreportcard.com/badge/github.com/mrz1836/go-parameters?style=flat&p=1)](https://goreportcard.com/report/github.com/mrz1836/go-parameters)
+[![codecov](https://codecov.io/gh/mrz1836/go-parameters/branch/master/graph/badge.svg)](https://codecov.io/gh/mrz1836/go-parameters)
+[![Go](https://img.shields.io/github/go-mod/go-version/mrz1836/go-parameters)](https://golang.org/)
+[![Sponsor](https://img.shields.io/badge/sponsor-MrZ-181717.svg?logo=github&style=flat&v=3)](https://github.com/sponsors/mrz1836)
+[![Donate](https://img.shields.io/badge/donate-bitcoin-ff9900.svg?logo=bitcoin&style=flat)](https://mrz1818.com/?tab=tips&af=go-parameters)
+
+<br/>
+
+## Table of Contents
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Examples & Tests](#examples--tests)
+- [Benchmarks](#benchmarks)
+- [Code Standards](#code-standards)
+- [Usage](#usage)
+...

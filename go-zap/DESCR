@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# :zap: zap [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov]
+
+Blazing fast, structured, leveled logging in Go.
+
+## Installation
+
+`go get -u go.uber.org/zap`
+
+Note that zap only supports the two most recent minor versions of Go.
+
+## Quick Start
+
+In contexts where performance is nice, but not critical, use the
+`SugaredLogger`. It's 4-10x faster than other structured logging
+packages and includes both structured and `printf`-style APIs.
+
+```go
+logger, _ := zap.NewProduction()
+defer logger.Sync() // flushes buffer, if any
+sugar := logger.Sugar()
+...

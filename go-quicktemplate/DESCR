@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)
+[![GoDoc](https://godoc.org/github.com/valyala/quicktemplate?status.svg)](http://godoc.org/github.com/valyala/quicktemplate)
+[![Go Report Card](https://goreportcard.com/badge/github.com/valyala/quicktemplate)](https://goreportcard.com/report/github.com/valyala/quicktemplate)
+
+# quicktemplate
+
+A fast, powerful, yet easy to use template engine for Go.
+Inspired by the [Mako templates](http://www.makotemplates.org/) philosophy.
+
+# Features
+
+  * [Extremely fast](#performance-comparison-with-htmltemplate).
+    Templates are converted into Go code and then compiled.
+  * Quicktemplate syntax is very close to Go - there is no need to learn
+    yet another template language before starting to use quicktemplate.
+  * Almost all bugs are caught during template compilation, so production
+    suffers less from template-related bugs.
+  * Easy to use. See [quickstart](#quick-start) and [examples](https://github.com/valyala/quicktemplate/tree/master/examples)
+    for details.
+  * Powerful. Arbitrary Go code may be embedded into and mixed with templates.
+...
