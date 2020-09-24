@@ -10,5 +10,7 @@ HOMEPAGE=	https://downloads.vivaldi.com/stable/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR} # TODO: one of etc opt usr, or leave it as-is
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
