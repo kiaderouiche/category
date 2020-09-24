@@ -1,19 +1,18 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	errwrap
-GITHUB_TAG=	v1.0.0
-DISTNAME=	v1.0.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+DISTNAME=	go-errwrap-1.0.0
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=hashicorp/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_PROJECT=	errwrap
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/hashicorp/errwrap/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mpl-2.0
 
-WRKSRC=		${WRKDIR}/errwrap-1.0.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/hashicorp/errwrap/
+GO_DIST_BASE=	errwrap-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

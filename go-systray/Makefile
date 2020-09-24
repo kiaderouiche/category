@@ -17,6 +17,6 @@ WRKSRC=	${WRKDIR}/systray-1.0.4
 
 USE_TOOLS+=	gmake
 
-.include "../../devel/libappindicator3/buildlink3.mk"
+#.include "../../devel/libappindicator3/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
