@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+![Benthos](icon.png "Benthos")
+
+[![godoc for Jeffail/benthos][godoc-badge]][godoc-url]
+[![goreportcard for Jeffail/benthos][goreport-badge]][goreport-url]
+[![Build Status][drone-badge]][drone-url]
+
+Benthos is a high performance and resilient stream processor, able to connect various [sources][inputs] and [sinks][outputs] in a range of brokering patterns and perform [hydration, enrichments, transformations and filters][processors] on payloads.
+
+It comes with a [powerful mapping language][bloblang-about], is easy to deploy and monitor, and ready to drop into your pipeline either as a static binary, docker image, or [serverless function][serverless].
+
+Stream pipelines are defined in a single config file, allowing you to declare
+connectors and a list of processing stages:
+
+```yaml
+input:
+  gcp_pubsub:
+    project: foo
+    subscription: bar
+
+pipeline:
+...

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Gota: DataFrames, Series and Data Wrangling for Go
+==================================================
+
+This is an implementation of DataFrames, Series and data wrangling
+methods for the Go programming language. The API is still in flux so
+*use at your own risk*.
+
+DataFrame
+---------
+
+The term DataFrame typically refers to a tabular dataset that can be
+viewed as a two dimensional table. Often the columns of this dataset
+refers to a list of features, while the rows represent a number of
+measurements. As the data on the real world is not perfect, DataFrame
+supports non measurements or NaN elements.
+
+Common examples of DataFrames can be found on Excel sheets, CSV files
+or SQL database tables, but this data can come on a variety of other
+formats, like a collection of JSON objects or XML files.
+
+...

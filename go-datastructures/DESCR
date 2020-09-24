@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+
+go-datastructures
+=================
+
+Go-datastructures is a collection of useful, performant, and threadsafe Go
+datastructures.
+
+### NOTE: only tested with Go 1.3+.
+
+#### Augmented Tree
+
+Interval tree for collision in n-dimensional ranges.  Implemented via a
+red-black augmented tree.  Extra dimensions are handled in simultaneous
+inserts/queries to save space although this may result in suboptimal time
+complexity.  Intersection determined using bit arrays.  In a single dimension,
+inserts, deletes, and queries should be in O(log n) time.
+
+#### Bitarray
+
+Bitarray used to detect existence without having to resort to hashing with
+...
