@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)
+[![GoDoc](https://godoc.org/github.com/DATA-DOG/go-sqlmock?status.svg)](https://godoc.org/github.com/DATA-DOG/go-sqlmock)
+[![Go Report Card](https://goreportcard.com/badge/github.com/DATA-DOG/go-sqlmock)](https://goreportcard.com/report/github.com/DATA-DOG/go-sqlmock)
+[![codecov.io](https://codecov.io/github/DATA-DOG/go-sqlmock/branch/master/graph/badge.svg)](https://codecov.io/github/DATA-DOG/go-sqlmock)
+
+# Sql driver mock for Golang
+
+**sqlmock** is a mock library implementing [sql/driver](https://godoc.org/database/sql/driver). Which has one and only
+purpose - to simulate any **sql** driver behavior in tests, without needing a real database connection. It helps to
+maintain correct **TDD** workflow.
+
+- this library is now complete and stable. (you may not find new changes for this reason)
+- supports concurrency and multiple connections.
+- supports **go1.8** Context related feature mocking and Named sql parameters.
+- does not require any modifications to your source code.
+- the driver allows to mock any sql driver method behavior.
+- has strict by default expectation order matching.
+- has no third party dependencies.
+
+**NOTE:** in **v1.2.0** **sqlmock.Rows** has changed to struct from interface, if you were using any type references to that
+...

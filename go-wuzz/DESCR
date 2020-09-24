@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# wuzz
+
+Interactive cli tool for HTTP inspection
+
+Wuzz command line arguments are similar to cURL's arguments,
+so it can be used to inspect/modify requests copied from the
+browser's network inspector with the "copy as cURL" feature.
+
+![wuzz screencast](docs/images/screencast.gif)
+
+
+## Installation and usage
+
+```
+$ go get github.com/asciimoo/wuzz
+$ "$GOPATH/bin/wuzz" --help
+```
+
+Note: golang >= 1.7 required.
+
+...

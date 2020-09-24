@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+gomock [![Build Status][travis-ci-badge]][travis-ci] [![GoDoc][godoc-badge]][godoc]
+======
+
+GoMock is a mocking framework for the [Go programming language][golang]. It
+integrates well with Go's built-in `testing` package, but can be used in other
+contexts too.
+
+Installation
+------------
+
+Once you have [installed Go][golang-install], install the `mockgen` tool.
+
+To get the latest released version use:
+
+```bash
+GO111MODULE=on go get github.com/golang/mock/mockgen@latest
+```
+
+If you use `mockgen` in your CI pipeline, it may be more appropriate to fixate
+on a specific mockgen version.
+...

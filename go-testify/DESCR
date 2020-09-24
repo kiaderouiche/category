@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Testify - Thou Shalt Write Tests
+================================
+
+[![Build Status](https://travis-ci.org/stretchr/testify.svg)](https://travis-ci.org/stretchr/testify) [![Go Report Card](https://goreportcard.com/badge/github.com/stretchr/testify)](https://goreportcard.com/report/github.com/stretchr/testify) [![GoDoc](https://godoc.org/github.com/stretchr/testify?status.svg)](https://godoc.org/github.com/stretchr/testify)
+
+Go code (golang) set of packages that provide many tools for testifying that your code will behave as you intend.
+
+Features include:
+
+  * [Easy assertions](#assert-package)
+  * [Mocking](#mock-package)
+  * [Testing suite interfaces and functions](#suite-package)
+
+Get started:
+
+  * Install testify with [one line of code](#installation), or [update it with another](#staying-up-to-date)
+  * For an introduction to writing test code in Go, see http://golang.org/doc/code.html#Testing
+  * Check out the API Documentation http://godoc.org/github.com/stretchr/testify
+  * To make your testing life easier, check out our other project, [gorc](http://github.com/stretchr/gorc)
+  * A little about [Test-Driven Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development)
+...

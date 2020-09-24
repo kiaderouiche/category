@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# bluemonday [![Build Status](https://travis-ci.org/microcosm-cc/bluemonday.svg?branch=master)](https://travis-ci.org/microcosm-cc/bluemonday) [![GoDoc](https://godoc.org/github.com/microcosm-cc/bluemonday?status.png)](https://godoc.org/github.com/microcosm-cc/bluemonday) [![Sourcegraph](https://sourcegraph.com/github.com/microcosm-cc/bluemonday/-/badge.svg)](https://sourcegraph.com/github.com/microcosm-cc/bluemonday?badge)
+
+bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.
+
+bluemonday takes untrusted user generated content as an input, and will return HTML that has been sanitised against a whitelist of approved HTML elements and attributes so that you can safely include the content in your web page.
+
+If you accept user generated content, and your server uses Go, you **need** bluemonday.
+
+The default policy for user generated content (`bluemonday.UGCPolicy().Sanitize()`) turns this:
+```html
+Hello <STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>World
+```
+
+Into a harmless:
+```html
+Hello World
+```
+
+And it turns this:
+```html
+...
