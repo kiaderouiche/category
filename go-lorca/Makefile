@@ -1,8 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	go-lorca-0.1.9
-CATEGORIES=	x11
+DISTNAME=	lorca-0.1.9
+PKGNAME=	go-${DISTNAME}
 MASTER_SITES=	${MASTER_SITE_GITHUB:=zserge/}
+CATEGORIES=	x11
 GITHUB_PROJECT=	lorca
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
@@ -11,13 +12,12 @@ HOMEPAGE=	https://github.com/zserge/lorca/
 COMMENT=	Build cross-platform modern desktop apps in Go + HTML5
 LICENSE=	mit
 
+#For Linux
+#DEPENDS+=	zenity>=2.32.1:../../x11/zenity
+
+GO_DIST_BASE=	${DISTNAME}
 GO_SRCPATH=	github.com/zserge/lorca
-#GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
-GO_DIST_BASE=	${DISTNAME:S,go-,,}
 
-WRKSRC=		${WRKDIR}/lorca-0.1.9
-
-USE_LANGUAGES=	# none
-
+#.include "../../net/go-websocket/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

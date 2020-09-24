@@ -1,8 +1,8 @@
 worklog=/usr/pkgsrc/category/go-lorca/work/.work.log
 wrksrc=/usr/pkgsrc/category/go-lorca/work/src/github.com/zserge/lorca
-path=/usr/pkgsrc/category/go-lorca/work/.buildlink/bin:/usr/pkgsrc/category/go-lorca/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+path=/usr/pkgsrc/category/go-lorca/work/.buildlink/bin:/usr/pkgsrc/category/go-lorca/work/.gcc/bin:/usr/pkgsrc/category/go-lorca/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
 exec_path=/usr/pkgsrc/category/go-lorca/work/.cwrapper/bin/cc
-exec=/usr/pkgsrc/category/go-lorca/work/.compiler/bin/c-fail-wrapper
+exec=/usr/pkgsrc/category/go-lorca/work/.gcc/bin/gcc
 transform=L:/lib64/:
 transform=L:/usr/lib64/:
 transform=I:/usr/include/:
