@@ -1,4 +1,0 @@
-PAWpySeed is a parallelized Python and C tool for reading and analyzing the 
-optimized band structure and wave functions of VASP DFT calculations.
-The code is written for the PAW formalism developed by P.E. Blochl and
-implemented in VASP.
