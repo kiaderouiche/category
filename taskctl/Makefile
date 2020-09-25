@@ -2,7 +2,6 @@
 
 DISTNAME=	taskctl-1.2.2                                                               
 MASTER_SITES=   ${MASTER_SITE_GITHUB:=taskctl/}                                              
-PKGREVISION=    22                                                                          
 CATEGORIES=     databases                                                                   
 GITHUB_TAG=     v${PKGVERSION_NOREV}                                                        
 
