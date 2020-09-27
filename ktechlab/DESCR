@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+KTechLab 0.50.0
+=============
+
+KTechLab is an IDE for microcontrollers and electronics.
+It supports circuit simulation,
+program development for microcontrollers and
+simulating the programmed microcontroller together with its application circuit.
+
+Introduction
+-------------
+
+Resources
+-------------
+- KTechLab is joining KDE, all of its assets will be available there.
+    https://community.kde.org/Incubator/Projects/KTechLab
+
+    - current webpage:
+        https://userbase.kde.org/KTechlab
+        TODO better webpage at KDE
+
+...

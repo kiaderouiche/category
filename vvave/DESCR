@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Building
+
+### Build for Android
+Use `qmake`:
+
+```bash
+# Clone the code
+git clone https://invent.kde.org/kde/vvave.git
+cd vvave
+# Create build dir
+mkdir build && cd build
+# Build
+qmake -o Makefile ../vvave.pro
+make
+```
+
+### Build for Desktop
+Use `cmake`:
+```bash
+# Clone the code
+...
