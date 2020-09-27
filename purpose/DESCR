@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Purpose
+
+Offers available actions for a specific purpose
+
+## Introduction
+
+This framework offers the possibility to create integrate services and actions
+on any application without having to implement them specifically. Purpose will
+offer them mechanisms to list the different alternatives to execute given the
+requested action type and will facilitate components so that all the plugins
+can receive all the information they need.
+
+## Usage
+
+There's 2 main ways of using Purpose: from C++ and QML/QtQuick.
+
+To import it from QML, import
+
+    import org.kde.purpose 1.0
+
+...
