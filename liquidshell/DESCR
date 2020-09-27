@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+Author: Martin Koller, kollix@aon.at
+First release: Oktober 2017
+
+liquidshell is a basic Desktop Shell implemented using QtWidgets.
+
+Main Features:
+- Wallpaper per virtual desktop
+- Weather, Disk Usage, Picture Frame Applets (per virtual desktop or on all)
+- No animations, low memory and CPU footprint
+- Instant startup
+- QtWidgets based, therefore follows widget style from systemsettings
+- Icons are used from your globally defined icon theme from systemsettings
+- Colors are used from your globally defined color theme from systemsettings
+- Can additionally be styled with css by passing the commandline option -stylesheet filename.css
+  (see included example stylesheet.css)
+- uses existing KDE Frameworks dialogs for most configurations, e.g. StartMenu, Virtual Desktops, Bluetooth, Network
+- Just one bottom DesktopPanel, containing:
+  StartMenu (allowing drag of entries into konqueror/dolphin to configure QuickLaunch or AppMenu entries)
+  QuickLaunch (showing icons for .desktop files from a configurable folder)
+  AppMenu (showing .desktop files in a menu from a configurable folder, defaults to users desktop folder)
+...
