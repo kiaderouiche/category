@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-      <file>main.qml</file>
-      <file>PaModelView.qml</file>
-      <file>PaModelHeader.qml</file>
-  </qresource>
-</RCC>
