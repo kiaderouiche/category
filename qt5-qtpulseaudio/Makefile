@@ -10,8 +10,8 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/pulseaudio-qt/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Qt bindings for libpulse
+LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/pulseaudio-qt-1.2.0
 
