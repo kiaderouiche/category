@@ -4,13 +4,13 @@ GITHUB_PROJECT=	elisa
 GITHUB_TAG=	v20.08.1
 DISTNAME=	v20.08.1
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/elisa/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Audio player with QML and KDE Plasma integration
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/elisa-20.08.1
@@ -24,6 +24,9 @@ USE_TOOLS+=	pkg-config
 .include "../../multimedia/vlc/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/kirigami2/buildlink3.mk"
+.include "../../x11/kxmlgui/buildlink3.mk"
+.include "../../x11/qt5-qtdeclarative/buildlink3.mk"
+.include "../../x11/qt5-qtquickcontrols2/buildlink3.mk"
 .include "../../x11/qt5-qtsvg/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../x11/qt5-qtmultimedia/buildlink3.mk"
