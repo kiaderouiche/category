@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+<p align="center">
+  <img alt="golangci-lint logo" src="assets/go.png" height="150" />
+  <h3 align="center">golangci-lint</h3>
+  <p align="center">Fast linters runner for Go</p>
+</p>
+
+---
+
+`golangci-lint` is a fast Go linters runner. It runs linters in parallel, uses caching, supports `yaml` config, has integrations
+with all major IDE and has dozens of linters included.
+
+## Install `golangci-lint`
+
+- [On my machine](https://golangci-lint.run/usage/install/#local-installation);
+- [On CI/CD systems](https://golangci-lint.run/usage/install/#ci-installation).
+
+## Documentation
+
+Documentation is hosted at https://golangci-lint.run.
+
+...
