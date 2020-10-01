@@ -17,5 +17,10 @@ WRKSRC=		${WRKDIR}/pulseaudio-qt-1.2.0
 
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
+USE_TOOLS+=	pkg-config
 
+BUILDLINK_API_DEPENDS.pulseaudio+=      pulseaudio>=13.0
+.include "../../audio/pulseaudio/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
