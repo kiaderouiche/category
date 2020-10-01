@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Citing](http://joss.theoj.org/papers/10.21105/joss.01370/status.svg)](https://doi.org/10.21105/joss.01370)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2555438.svg)](https://doi.org/10.5281/zenodo.2555438)  
+![CI: CMake on development](https://github.com/AMReX-codes/amrex/workflows/cmake/badge.svg?branch=development)
+![CI: Travis on development](https://img.shields.io/travis/AMReX-codes/amrex/development)
+
+## License
+
+AMReX Copyright (c) 2017, The Regents of the University of California,
+through Lawrence Berkeley National Laboratory and the Alliance for
+Sustainable Energy, LLC., through National Renewable Energy Laboratory
+(subject to receipt of any required approvals from the U.S. Dept. of
+Energy).  All rights reserved.
+
+If you have questions about your rights to use or distribute this
+software, please contact Berkeley Lab's Innovation & Partnerships
+Office at IPO@lbl.gov.
+
+NOTICE.  This Software was developed under funding from the
+U.S. Department of Energy and the U.S. Government consequently retains
+certain rights. As such, the U.S. Government has been granted for
+...

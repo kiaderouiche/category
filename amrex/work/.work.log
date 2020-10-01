@@ -1,0 +1,98 @@
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/amrex/work/.tools/bin/true
+<.> true 
+[*] cc -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_276d7.dir/testCCompiler.c.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testCCompiler.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_276d7.dir/testCCompiler.c.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testCCompiler.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib CMakeFiles/cmTC_276d7.dir/testCCompiler.c.o -o cmTC_276d7
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib CMakeFiles/cmTC_276d7.dir/testCCompiler.c.o -o cmTC_276d7 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_c65cf.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_c65cf.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.17/Modules/CMakeCCompilerABI.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v CMakeFiles/cmTC_c65cf.dir/CMakeCCompilerABI.c.o -o cmTC_c65cf
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v CMakeFiles/cmTC_c65cf.dir/CMakeCCompilerABI.c.o -o cmTC_c65cf -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_afc70.dir/testCXXCompiler.cxx.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_afc70.dir/testCXXCompiler.cxx.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib CMakeFiles/cmTC_afc70.dir/testCXXCompiler.cxx.o -o cmTC_afc70
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib CMakeFiles/cmTC_afc70.dir/testCXXCompiler.cxx.o -o cmTC_afc70 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_6e094.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_6e094.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v CMakeFiles/cmTC_6e094.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6e094
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v CMakeFiles/cmTC_6e094.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6e094 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] f77 -O -v CMakeFortranCompilerId.F
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -O -v CMakeFortranCompilerId.F -fstack-protector
+[*] f77 -E /usr/pkg/share/cmake-3.17/Modules/CMakeTestGNU.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -E /usr/pkg/share/cmake-3.17/Modules/CMakeTestGNU.c -fstack-protector
+[*] f77 -O -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_93320.dir/testFortranCompiler.f.o
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -O -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_93320.dir/testFortranCompiler.f.o -fstack-protector
+[*] f77 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -O CMakeFiles/cmTC_93320.dir/testFortranCompiler.f.o -o cmTC_93320
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -O CMakeFiles/cmTC_93320.dir/testFortranCompiler.f.o -o cmTC_93320 -fstack-protector
+[*] f77 -O -v -c /usr/pkg/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_8857a.dir/CMakeFortranCompilerABI.F.o
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -O -v -c /usr/pkg/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_8857a.dir/CMakeFortranCompilerABI.F.o -fstack-protector
+[*] f77 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v -O CMakeFiles/cmTC_8857a.dir/CMakeFortranCompilerABI.F.o -o cmTC_8857a
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v -O CMakeFiles/cmTC_8857a.dir/CMakeFortranCompilerABI.F.o -o cmTC_8857a -fstack-protector
+[*] f77 -O -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_c66b2.dir/testFortranCompilerF90.f90.o
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -O -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_c66b2.dir/testFortranCompilerF90.f90.o -fstack-protector
+[*] f77 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -O CMakeFiles/cmTC_c66b2.dir/testFortranCompilerF90.f90.o -o cmTC_c66b2
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gfortran -m64 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -O CMakeFiles/cmTC_c66b2.dir/testFortranCompilerF90.f90.o -o cmTC_c66b2 -fstack-protector
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_c6de3.dir/CheckIncludeFile.c.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_c6de3.dir/CheckIncludeFile.c.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/CheckIncludeFile.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib CMakeFiles/cmTC_c6de3.dir/CheckIncludeFile.c.o -o cmTC_c6de3
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib CMakeFiles/cmTC_c6de3.dir/CheckIncludeFile.c.o -o cmTC_c6de3 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_14a35.dir/src.c.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/src.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_14a35.dir/src.c.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/CMakeTmp/src.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib CMakeFiles/cmTC_14a35.dir/src.c.o -o cmTC_14a35
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib CMakeFiles/cmTC_14a35.dir/src.c.o -o cmTC_14a35 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_e7b0b.dir/CheckForPthreads.c.o -c /usr/pkg/share/cmake-3.17/Modules/CheckForPthreads.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_e7b0b.dir/CheckForPthreads.c.o -c /usr/pkg/share/cmake-3.17/Modules/CheckForPthreads.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib CMakeFiles/cmTC_e7b0b.dir/CheckForPthreads.c.o -o cmTC_e7b0b -pthread
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib CMakeFiles/cmTC_e7b0b.dir/CheckForPthreads.c.o -o cmTC_e7b0b -pthread -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_546eb.dir/test_mpi.c.o -c /usr/pkg/share/cmake-3.17/Modules/FindMPI/test_mpi.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_546eb.dir/test_mpi.c.o -c /usr/pkg/share/cmake-3.17/Modules/FindMPI/test_mpi.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_5aecb.dir/test_mpi.c.o -c /usr/pkg/share/cmake-3.17/Modules/FindMPI/test_mpi.c
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_5aecb.dir/test_mpi.c.o -c /usr/pkg/share/cmake-3.17/Modules/FindMPI/test_mpi.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_80e8e.dir/test_mpi.cpp.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/FindMPI/test_mpi.cpp
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_80e8e.dir/test_mpi.cpp.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/FindMPI/test_mpi.cpp -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_7cb1a.dir/test_mpi.cpp.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/FindMPI/test_mpi.cpp
+<.> /usr/pkgsrc/category/amrex/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_7cb1a.dir/test_mpi.cpp.o -c /usr/pkgsrc/category/amrex/work/amrex-20.09/CMakeFiles/FindMPI/test_mpi.cpp -fstack-protector -I/usr/pkgsrc/category/amrex/work/.buildlink/include

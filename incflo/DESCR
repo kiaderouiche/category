@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Directory overview
+
+| File       | Description                                         |
+| -----------| --------------------------------------------------- |
+| test       | Directory for building EB executable                |
+| test_no_eb | Directory for building non-EB executable            |
+| src        | C++/Fortran source files                            |
+
+
+# Using incflo
+
+## Build AMReX Library
+
+Clone AMReX from the official Git repository and checkout the _development_ branch.
+```shell
+> git clone https://github.com/AMReX-Codes/amrex.git
+> cd amrex
+> git checkout development
+```
+
+...
