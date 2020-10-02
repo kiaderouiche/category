@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+**[<img src="https://img.shields.io/badge/pypi-selenium--base-22AAEE.svg" alt="pypi" />](https://pypi.python.org/pypi/selenium-base) is a proxy for [<img src="https://img.shields.io/badge/pypi-seleniumbase-22AAEE.svg" alt="pypi" />](https://pypi.python.org/pypi/seleniumbase)**
+****
+
+<meta property="og:site_name" content="SeleniumBase | Docs">
+<meta property="og:title" content="SeleniumBase | Python Web Testing" />
+<meta property="og:description" content="Build fast, reliable, end-to-end tests." />
+<meta property="og:image" content="https://seleniumbase.io/cdn/img/sb_logo_dh.png" />
+<link rel="icon" href="https://seleniumbase.io/img/logo3a.png" />
+
+<p align="center"><a href="https://github.com/seleniumbase/SeleniumBase/">
+<img src="https://seleniumbase.io/img/sb_logo_10.png" alt="SeleniumBase" width="284" /></a><a href="https://github.com/seleniumbase/SeleniumBase/">
+<img src="https://seleniumbase.io/cdn/img/sb_demo_site.png" alt="SeleniumBase" width="284" />
+</a></p>
+<p align="center"><b>Build fast, reliable, end-to-end tests.</b></p>
+<p align="center">Extends <a href="https://www.w3.org/TR/webdriver/">Selenium/WebDriver</a> & <a href="https://docs.pytest.org/en/latest/index.html">pytest</a>.</p>
+<!-- View on GitHub -->
+<p align="center">
+<a href="https://github.com/seleniumbase/SeleniumBase/releases">
+<img src="https://img.shields.io/github/v/release/seleniumbase/SeleniumBase.svg?color=2277EE" alt="Latest Release on GitHub" /></a> <a href="https://pypi.python.org/pypi/seleniumbase">
+<img src="https://img.shields.io/pypi/v/seleniumbase.svg?color=22AAEE" alt="Latest Release on PyPI" /></a> <a href="https://seleniumbase.io">
+...
