@@ -20,6 +20,13 @@ USE_CMAKE=	yes
 USE_LANGUAGES=	c c++ fortran
 
 REPLACE_PYTHON+=	Tools/libamrex/configure.py
+REPLACE_PYTHON+=	Tools/C_scripts/describe_sources.py
+REPLACE_PYTHON+=	Tools/C_scripts/makebuildinfo_C.py
+REPLACE_PYTHON+=	Tools/typechecker/typechecker.py
+REPLACE_PERL+=		Tools/C_scripts/mkdep
+REPLACE_PERL+=		Tools/C_scripts/strip72
+
+#Sample portage
 
 .include "../../lang/python/application.mk"
 .include "../../mk/mpi.buildlink3.mk"

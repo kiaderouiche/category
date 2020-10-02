@@ -1,15 +1,15 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	Castro
-GITHUB_TAG=	20.10
-DISTNAME=	20.10
+GITHUB_PROJECT=	PelePhysics
+GITHUB_TAG=	production_run
+DISTNAME=	production_run
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=AMReX-Astro/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=AMReX-Combustion/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/AMReX-Astro/Castro/
+HOMEPAGE=	https://github.com/AMReX-Combustion/PelePhysics/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 

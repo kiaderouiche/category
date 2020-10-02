@@ -13,5 +13,7 @@ HOMEPAGE=	https://github.com/AMReX-Codes/IAMR/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/IAMR-20.10
+USE_LANGUAGES=	c++
+
 .include "../../mk/bsd.pkg.mk"

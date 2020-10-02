@@ -8,9 +8,9 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/2e/a2/7b66eea0efca49203b32
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/moble/quaternionic
 COMMENT=	Interpret numpy arrays as quaternionic arrays with numba acceleration
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-scipy>=1.0:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.1:../../math/py-scipy
 
 USE_LANGUAGES=	# none
 

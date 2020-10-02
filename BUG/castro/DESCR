@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2301848.svg)](https://doi.org/10.5281/zenodo.2301848)
+[![AMReX](https://amrex-codes.github.io/badges/powered%20by-AMReX-red.svg)](https://amrex-codes.github.io)
+[![github pages](https://github.com/AMReX-Astro/Castro/workflows/github%20pages/badge.svg)](https://github.com/AMReX-Astro/Castro/actions?query=workflow%3A%22github+pages%22)
+
+![Castro](https://github.com/AMReX-Astro/Castro/blob/development/Util/logo/castro_logo_hot_200.png)
+
+*an adaptive mesh, astrophysical radiation hydrodynamics simulation code*
+
+`Castro` is an adaptive-mesh compressible radiation / MHD / hydrodynamics
+code for astrophysical flows.  `Castro` supports a general equation of
+state, full Poisson gravity, and reactive flows, and is parallelized
+with MPI + OpenMP for CPUs and MPI + CUDA for GPUs.
+
+More information on Castro can be found here:
+
+http://amrex-astro.github.io/Castro/
+
+
+## Getting Started
+
+...

@@ -7,11 +7,11 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/9c/da/4c52bc7bc809004f2fde
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/appliedgeometry/poisson_geometry
-COMMENT=	A Python module for (local) Poisson-Nijenhuis calculus on Poisson manifolds
+COMMENT=	Local Poisson-Nijenhuis calculus on Poisson manifolds
 LICENSE=	mit
 
-DEPENDS+=	py-sympy>=0:../../math/py-sympy
-DEPENDS+=	py-galgebra>=0:../../wip/py-galgebra
+DEPENDS+=	${PYPKGPREFIX}-sympy>=1.6.2:../../math/py-sympy
+DEPENDS+=	${PYPKGPREFIX}-galgebra>=0.5.0:../../wip/py-galgebra
 
 USE_LANGUAGES=	# none
 
