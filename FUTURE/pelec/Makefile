@@ -13,5 +13,8 @@ HOMEPAGE=	https://github.com/AMReX-Combustion/PeleC/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/PeleC-0.1.5
+USE_CMAKE=	yes
+USE_LANGUAGES=	c++ fortran
+
 .include "../../mk/bsd.pkg.mk"

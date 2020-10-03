@@ -2,15 +2,56 @@
 
 DISTNAME=	selenium-base-1.49.23
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	www python
 MASTER_SITES=	https://files.pythonhosted.org/packages/a7/86/6783ab822a18296a3baeaf186c6361c6d9e4f9b18bd2b57097a83ce3e2ac/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/seleniumbase/SeleniumBase
-COMMENT=	A complete framework for Web-UI testing | seleniumbase.io
+COMMENT=	Complete framework for Web-UI testing
 LICENSE=	mit
 
-DEPENDS+=	# TODO: seleniumbase>=1.49.23
+DEPENDS+=       ${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
+DEPENDS+=       ${PYPKGPREFIX}-packaging>=20.4:../../devel/py-packaging
+DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
+DEPENDS+=       ${PYPKGPREFIX}-six>=1.15.1:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-cssselect>=1.1.0:../../textproc/py-cssselect
+DEPENDS+=       ${PYPKGPREFIX}-wheel>=:../../devel/py-wheel
+DEPENDS+=       ${PYPKGPREFIX}-test-html>=:../../wip/py-test-html
+DEPENDS+=       ${PYPKGPREFIX}-soupsieve>=:../../www/py-soupsieve
+DEPENDS+=       ${PYPKGPREFIX}-boto-[0-9]*:../../net/py-boto
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
+DEPENDS+=       ${PYPKGPREFIX}-more-itertools>=8.5.0:../../wip/py-more-itertools
+DEPENDS+=       ${PYPKGPREFIX}-parameterized>=0.7.4:../../devel/py-parameterized
+DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
+
+
 
 USE_LANGUAGES=	# none
 
