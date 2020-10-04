@@ -1,0 +1,1 @@
+Interpret numpy arrays as quaternionic arrays with numba acceleration
