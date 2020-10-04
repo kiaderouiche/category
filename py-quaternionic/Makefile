@@ -10,7 +10,11 @@ HOMEPAGE=	https://github.com/moble/quaternionic
 COMMENT=	Interpret numpy arrays as quaternionic arrays with numba acceleration
 LICENSE=	mit
 
+<<<<<<< HEAD:py-quaternionic/Makefile
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
+=======
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.1:../../math/py-scipy
+>>>>>>> a91416307c74d27c8a0ada48f7b1fbd2c114a36f:DONE/py-quaternionic/Makefile
 
 USE_LANGUAGES=	# none
 

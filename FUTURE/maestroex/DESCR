@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Build Status](https://travis-ci.com/AMReX-Astro/MAESTROeX.svg?branch=development)](https://travis-ci.com/AMReX-Astro/MAESTROeX)
+[![DOI](https://zenodo.org/badge/104002862.svg)](https://zenodo.org/badge/latestdoi/104002862)
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.01757/status.svg)](https://doi.org/10.21105/joss.01757)
+[![AMReX](https://amrex-codes.github.io/badges/powered%20by-AMReX-red.svg)](https://amrex-codes.github.io)
+![github pages](https://github.com/AMReX-Astro/MAESTROeX/workflows/github%20pages/badge.svg)
+
+![MAESTROeX](https://github.com/AMReX-Astro/MAESTROeX/blob/development/Util/logo/maestroex_200px.png)
+
+*a C++ low Mach number stellar hydrodynamics code*
+
+MAESTROeX solves the equations of low Mach number hydrodynamics for
+stratified atmospheres/full spherical stars with a general equation of state,
+and nuclear reaction networks in an adaptive-grid finite-volume framework. It
+includes reactions and thermal diffusion and can be used on anything
+from a single core to 100,000s of processor cores with MPI + OpenMP or 1,000s
+of GPUs.
+
+A description of the algorithm and links to the algorithm papers can be found here:
+
+...

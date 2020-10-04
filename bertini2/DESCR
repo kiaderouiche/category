@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Quick links
+
+- [Wiki](https://github.com/bertiniteam/b2/wiki)
+- [Overview](#Overview)
+- [Current capabilites](#Current-capabilites)
+- [Building and installing](#Building-and-installing)
+- [Other information](#Other-information)
+
+Thanks for checking out Bertini 2!
+
+==
+
+### Important note on cloning
+
+The recommended method for getting the code for Bertini 2 is to clone from command line using git:
+
+`git clone https://github.com/bertiniteam/b2 --recursive`
+
+This ensures that any other repo's we depend on get cloned into their correct locations.  We have at least one for the Python bindings -- [MiniEigen](https://github.com/eudoxos/minieigen).
+
+...

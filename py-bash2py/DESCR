@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.txt
+
+Current version: 3.0
+
+Bash2py is a tool designed to automate the translation from Bash to Python.
+
+Coding has attempted to ensure that the source code for Bash 4.3.30 remains
+entact within this distribution. All changes to this source code (by intent)
+are to be compiled if and only if the BASH2PY macro is defined.  This
+allows ready discovery of how the original source code has been changed.
+
+The three main files changed are:
+1.  Added:  fix_string.c
+    This attempts to mimic the bash command line transforms performed on the
+    input prior to execution.
+
+2.  Added:  translate.c
+    This attempts to translate high level bash commands. It is derived
+    from print_cmd.c
+
+3.  Changed: expr.c
+    This parses arithmetic expressions.  While the original code did this
+...

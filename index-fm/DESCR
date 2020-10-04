@@ -1,23 +1,7 @@
-TODO: Adjust the following lines from README.md
-
-# Index
-Maui File manager
-
-Index is a file manager that works on desktops, Android and Plasma Mobile.
-Index lets you browse your system files and applications and preview your music, text, image and video files and share them with external applications.
-
-## Build
-
-### Dependencies
-#### Qt core deps:
-QT += qml, quick, sql
-
-#### KF5 deps:
-QT += KService KNotifications KNotifications KI18n KIOCore KIOFileWidgets KIOWidgets KNTLM
-
-#### Submodules
-
-##### MauiKit:
+Index is a file manager that works on desktops, Android and
+Plasma Mobile. Index lets you browse your system files and
+applications and preview your music, text, image and video
+files and share them with external applications.
 
 https://invent.kde.org/kde/mauikit/
 ...

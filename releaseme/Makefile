@@ -14,6 +14,7 @@ COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/releaseme-2.4.3
+
 USE_LANGUAGES=	# none
 
 .include "../../mk/bsd.pkg.mk"
