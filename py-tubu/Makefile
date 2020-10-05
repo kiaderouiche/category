@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/76/f8/36c0cc7994f93a75c53ada950176b69563049eb46225db88cc5a0552048f/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/sergiocorreia/tupu
 COMMENT=	Fast geodesic distances between sets
 LICENSE=	mit
