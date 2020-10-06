@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+pytest-ordering
+===============
+
+pytest plugin to run your tests in a specific order
+
+[![Build Status](https://travis-ci.org/ftobia/pytest-ordering.svg?branch=develop)](https://travis-ci.org/ftobia/pytest-ordering)
+
+Have you ever wanted to easily run one of your tests before any others run?
+Or run some tests last? Or run this one test before that other test? Or
+make sure that this group of tests runs after this other group of tests?
+
+Now you can.
+
+Install with:
+
+    pip install pytest-ordering
+
+This defines some pytest markers that you can use in your code.
+
+For example, this:
+...

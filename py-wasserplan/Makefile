@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/vrdi/geometry-of-graph-partitions
 COMMENT=	1-Wasserstein distances between districting plans
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	# TODO: gerrychain>=0
+DEPENDS+=	#${PYPKGPREFIX}-gerrychain>=0
 DEPENDS+=	${PYPKGPREFIX}-cvxpy>=0:../../wip/py-cvxpy
 
 USE_LANGUAGES=	# none
