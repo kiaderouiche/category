@@ -1,13 +1,21 @@
 # $NetBSD$
 
 DISTNAME=	geopandas-0.8.1
-CATEGORIES=	category
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	geography python
 MASTER_SITES=	https://files.pythonhosted.org/packages/c7/b2/ba3c57affe4acf1a8b39ee4fc0d281b4a0c8dd51466af8326bcd5f07108a/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/c7/b2/ba3c57affe4acf1a8b39ee4fc0d281b4a0c8dd51466af8326bcd5f07108a/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://geopandas.org/
+COMMENT=	Geographic pandas extensions
+LICENSE=	modified-bsd
 
-# url2pkg-marker (please do not remove this line.)
+PYTHON_VERSIONS_INCOMPATIBLE= 27
+
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.25.3:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-py-fiona>=1.6.0:../../wip/py-fiona
+#DEPENDS+=	${PYPKGPREFIX}-shapely>=1.7.0:../../wip/py-shapely
+
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
