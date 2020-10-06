@@ -1,0 +1,26 @@
+TODO: Adjust the following lines from README.txt
+
+.. -*- mode: rst -*-
+
+***************
+postgresfixture
+***************
+
+A Python fixture for creating PostgreSQL clusters and databases, and
+tearing them down again, intended for use during development and
+testing.
+
+For more information see the `Launchpad project page`_.
+
+.. _Launchpad project page: https://launchpad.net/postgresfixture
+
+
+Getting started
+===============
+
+Use like any other fixture::
+
+...
+
+Homepage:
+https://files.pythonhosted.org/packages/d9/23/9c687e856c9d378580e93fe13b57ff7222fcb92ab98592cf8fbe378a36a9/

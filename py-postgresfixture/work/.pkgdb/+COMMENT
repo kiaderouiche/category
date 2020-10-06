@@ -1,0 +1,1 @@
+A fixture for creating PostgreSQL clusters and databases, and tearing them down again, intended for use during development and testing
