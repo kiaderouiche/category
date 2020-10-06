@@ -35,7 +35,7 @@ DEPENDS+=       ${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-requests
 DEPENDS+=       ${PYPKGPREFIX}-more-itertools>=8.5.0:../../wip/py-more-itertools
 DEPENDS+=       ${PYPKGPREFIX}-coverage>=0.7.4:../../devel/py-coverage
 DEPENDS+=       ${PYPKGPREFIX}-brython>=0.7.4:../../devel/py-brython
-DEPENDS+=       ${PYPKGPREFIX}-pdfminer.six>=0.7.4:../../devel/py-pdfminer.six
+DEPENDS+=       ${PYPKGPREFIX}-pdfminer-six-[0-9]*:../../wip/py-pdfminer-six
 DEPENDS+=       ${PYPKGPREFIX}-nose>=1.3.7:../../devel/py-nose
 DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
 DEPENDS+=       ${PYPKGPREFIX}-parameterized>=0.7.4:../../devel/py-parameterized
@@ -49,13 +49,13 @@ DEPENDS+=       ${PYPKGPREFIX}-openssl>=0.7.4:../../security/py-openssl
 DEPENDS+=       ${PYPKGPREFIX}-pygments>=0.7.4:../../devel/py-pygments
 DEPENDS+=       ${PYPKGPREFIX}-beautifulsoup4>=0.7.4:../../www/py-beautifulsoup4
 DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
-.include "../../lang/python/pyversion.mk"
-.if ${_PYTHON_VERSION} < 38
-DEPENDS+=	${PYPKGPREFIX}-importlib-metadata-[0-9]*:../../devel/py-importlib-metadata
-.endif
-.if ${_PYTHON_VERSION} < 37
-DEPENDS+=	${PYPKGPREFIX}-importlib-resources-[0-9]*:../../devel/py-importlib-resources
-.endif
+# .include "../../lang/python/pyversion.mk"
+# .if ${_PYTHON_VERSION} < 38
+# DEPENDS+=	${PYPKGPREFIX}-importlib-metadata-[0-9]*:../../devel/py-importlib-metadata
+# .endif
+# .if ${_PYTHON_VERSION} < 37
+# DEPENDS+=	${PYPKGPREFIX}-importlib-resources-[0-9]*:../../devel/py-importlib-resources
+# .endif
 
 
 
