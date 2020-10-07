@@ -10,5 +10,7 @@ HOMEPAGE=	https://github.com/ihavenonickname/geometry-utils
 COMMENT=	TODO: Short description of the package
 LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+DEPENDS+=       ${PYPKGPREFIX}-wheel>=0.35.1:../../devel/py-wheel
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
