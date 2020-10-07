@@ -55,7 +55,6 @@ DEPENDS+=       ${PYPKGPREFIX}-pdfminer-six-[0-9]*:../../wip/py-pdfminer-six
 DEPENDS+=       ${PYPKGPREFIX}-beautifulsoup4>=0.7.4:../../www/py-beautifulsoup4
 DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
 
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
