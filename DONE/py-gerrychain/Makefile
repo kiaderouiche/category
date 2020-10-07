@@ -7,10 +7,10 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/79/76/0ad276d1eda834f6a9e4
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/79/76/0ad276d1eda834f6a9e42f62488cf394548b88a25f44a1b57b386acb6b86/
-COMMENT=	Use Markov chain Monte Carlo to analyze districting plans and gerrymanders
+COMMENT=	Markov chain Monte Carlo to analyze districting plans and gerrymanders
 LICENSE=	modified-bsd
 
-PYTHON_VERSIONS_INCOMPATIBLE= 27
+PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.2.2:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-networkx>=2.4:../../math/py-networkx
