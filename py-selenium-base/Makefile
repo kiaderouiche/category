@@ -15,6 +15,9 @@ DEPENDS+=       ${PYPKGPREFIX}-zipp>=1.2.0:../../archivers/py-zipp
 DEPENDS+=       ${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=       ${PYPKGPREFIX}-pymysql>=0.10.0:../../databases/py-pymysql
 DEPENDS+=       ${PYPKGPREFIX}-packaging>=20.4:../../devel/py-packaging
+DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
+DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.04:../../devel/py-test-metadata
+DEPENDS+=       ${PYPKGPREFIX}-test-rerunfailures>=9.0:../../devel/py-test-rerunfailures
 DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
 DEPENDS+=       ${PYPKGPREFIX}-six>=1.15.1:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-cssselect>=1.1.0:../../textproc/py-cssselect
@@ -39,8 +42,6 @@ DEPENDS+=       ${PYPKGPREFIX}-brython>=0.7.4:../../devel/py-brython
 DEPENDS+=       ${PYPKGPREFIX}-nose>=1.3.7:../../devel/py-nose
 DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
 DEPENDS+=       ${PYPKGPREFIX}-parameterized>=0.7.4:../../devel/py-parameterized
-DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.04:../../devel/py-test-metadata
-DEPENDS+=       ${PYPKGPREFIX}-test-rerunfailures>=9.0:../../devel/py-test-rerunfailures
 DEPENDS+=       ${PYPKGPREFIX}-prompt_toolkit-3.0.7>=1.0.3:../../devel/py-prompt_toolkit
 DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.04:../../devel/py-test-metadata
 DEPENDS+=       ${PYPKGPREFIX}-setuptools-scm>=4.1.2:../../devel/py-setuptools-scm
@@ -53,8 +54,6 @@ DEPENDS+=       ${PYPKGPREFIX}-pygments>=0.7.4:../../devel/py-pygments
 DEPENDS+=       ${PYPKGPREFIX}-pdfminer-six-[0-9]*:../../wip/py-pdfminer-six
 DEPENDS+=       ${PYPKGPREFIX}-beautifulsoup4>=0.7.4:../../www/py-beautifulsoup4
 DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
-
-
 
 
 USE_LANGUAGES=	# none
