@@ -7,10 +7,13 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/05/f4/0ca9d716fd937996a613
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/ihavenonickname/geometry-utils
-COMMENT=	TODO: Short description of the package
+COMMENT=	Functions for bidimensional and tridimensional arithmetic geometry
 LICENSE=	mit
 
+DEPENDS+=       ${PYPKGPREFIX}-pkginfo>=1.5.0.1:../../devel/py-pkginfo
 DEPENDS+=       ${PYPKGPREFIX}-wheel>=0.35.1:../../devel/py-wheel
+DEPENDS+=       ${PYPKGPREFIX}-twine>=1.13.0:../../net/py-twine
+
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
