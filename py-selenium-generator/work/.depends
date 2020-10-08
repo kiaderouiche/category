@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	nbpatch-[0-9]*	../../devel/nbpatch
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py37-unittest2>=0.5.1	../../devel/py-unittest2
-full	py37-setuptools-[0-9]*	../../devel/py-setuptools
-full	python37>=3.7	../../lang/python37
