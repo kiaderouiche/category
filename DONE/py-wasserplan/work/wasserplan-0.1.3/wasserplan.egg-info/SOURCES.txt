@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+wasserplan/__init__.py
+wasserplan/wasserplan.py
+wasserplan.egg-info/PKG-INFO
+wasserplan.egg-info/SOURCES.txt
+wasserplan.egg-info/dependency_links.txt
+wasserplan.egg-info/requires.txt
+wasserplan.egg-info/top_level.txt
