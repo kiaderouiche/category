@@ -37,19 +37,19 @@ DEPENDS+=       ${PYPKGPREFIX}-urllib3>=1.25.10:../../www/py-urllib3
 DEPENDS+=       ${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-requests
 DEPENDS+=       ${PYPKGPREFIX}-more-itertools>=8.5.0:../../devel/py-more-itertools
 DEPENDS+=       ${PYPKGPREFIX}-coverage>=0.7.4:../../devel/py-coverage
-DEPENDS+=       ${PYPKGPREFIX}-brython>=0.7.4:../../wip/py-brython
+#DEPENDS+=       ${PYPKGPREFIX}-brython>=0.7.4:../../wip/py-brython
 DEPENDS+=       ${PYPKGPREFIX}-nose>=1.3.7:../../devel/py-nose
 DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
 DEPENDS+=       ${PYPKGPREFIX}-parameterized>=0.7.4:../../devel/py-parameterized
-DEPENDS+=       ${PYPKGPREFIX}-prompt_toolkit-3.0.7>=1.0.3:../../devel/py-prompt_toolkit
+#DEPENDS+=       ${PYPKGPREFIX}-prompt_toolkit>=3.0.7:../../devel/py-prompt_toolkit
 DEPENDS+=       ${PYPKGPREFIX}-rich>=7.1.0:../../wip/py-rich
 DEPENDS+=       ${PYPKGPREFIX}-certifi>=2020.6.20:../../security/py-certifi
 DEPENDS+=       ${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
-DEPENDS+=       ${PYPKGPREFIX}-cryptography>=3.1.1:../../security/py-cryptography
+DEPENDS+=       ${PYPKGPREFIX}-cryptography>=2.9.2:../../security/py-cryptography
 DEPENDS+=       ${PYPKGPREFIX}-OpenSSL>=0.7.4:../../security/py-OpenSSL
 DEPENDS+=       ${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 DEPENDS+=       ${PYPKGPREFIX}-pdfminer-six-[0-9]*:../../wip/py-pdfminer-six
-DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.04:../../wip/py-test-metadata
+DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.0:../../wip/py-test-metadata
 DEPENDS+=       ${PYPKGPREFIX}-beautifulsoup4>=0.7.4:../../www/py-beautifulsoup4
 DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
 
