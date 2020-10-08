@@ -1,12 +1,9 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	SeleniumBase
-GITHUB_TAG=	v1.49.25
-DISTNAME=	v1.49.25
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	devel python
-MASTER_SITES=	${MASTER_SITE_GITHUB:=seleniumbase/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+DISTNAME=	selenium-base-1.49.23
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	www python
+MASTER_SITES=	https://files.pythonhosted.org/packages/a7/86/6783ab822a18296a3baeaf186c6361c6d9e4f9b18bd2b57097a83ce3e2ac/
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/seleniumbase/SeleniumBase
@@ -38,7 +35,7 @@ DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
 DEPENDS+=       ${PYPKGPREFIX}-importlib-metadata>=1.7.0:../../devel/py-importlib-metadata
 DEPENDS+=       ${PYPKGPREFIX}-virtualenv>=16.7.9:../../devel/py-virtualenv
 DEPENDS+=       ${PYPKGPREFIX}-jedi>=0.17.2:../../editors/py-jedi
-DEPENDS+=       ${PYPKGPREFIX}-pip>=20.2.3:../../devel/py-pip
+DEPENDS+=       ${PYPKGPREFIX}-pip>=2.4.0:../../devel/py-pip
 DEPENDS+=       ${PYPKGPREFIX}-urllib3>=1.25.10:../../www/py-urllib3
 DEPENDS+=       ${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-requests
 DEPENDS+=       ${PYPKGPREFIX}-more-itertools>=8.5.0:../../devel/py-more-itertools
@@ -59,9 +56,7 @@ DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.0:../../wip/py-test-metadata
 DEPENDS+=       ${PYPKGPREFIX}-beautifulsoup4>=0.7.4:../../www/py-beautifulsoup4
 DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
 
-WRKSRC=		${WRKDIR}/SeleniumBase-1.49.25
 USE_LANGUAGES=	# none
 
-# TODO: Migrate MASTER_SITES to MASTER_SITE_PYPI
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
