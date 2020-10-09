@@ -15,7 +15,7 @@ LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/krename-5.0.0
 
-USE_TOOLS=	pkg-config msgmerge
+USE_TOOLS=	msgmerge
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
