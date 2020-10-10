@@ -12,7 +12,7 @@ USE_LANGUAGES=	# empty
 NO_BUILD=	yes
 
 SCRIPT=		${PKGNAME:C/-.*$//}
-#SCRIPTS=	${SCRIPT} substplistbasedirs
+SCRIPTS=	${SCRIPT} substplistbasedirs
 REPLACE_SH+=	${SCRIPTS}
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man8

@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-#	$NetBSD: createbuildlink,v 1.39 2020/05/16 06:28:52 rillig Exp $
+#	$NetBSD: pkgoptions,v 1.0 2020/05/16 06:28:52 jihbed Exp $
 #
-# Copyright (c) 2002 The NetBSD Foundation, Inc.
+# Copyright (c) 2020 The NetBSD Foundation, Inc.
 # All rights reserved.
 #
 # This code is derived from software contributed to The NetBSD Foundation
@@ -29,7 +29,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Create an initial buildlink3.mk from a package's Makefile and PLIST
+# Create an initial options.mk from a package's Makefile and PLIST
 #
 
 REV=`echo '$Revision: 1.0 $' | sed 's/\\$//g'`
@@ -64,8 +64,8 @@ done
 ## some simple integrity checking
 ##
 if [ ! -f $makefile ]; then
-	echo "===> Incomplete package! To create a buildlink file <==="
-	echo "===> a working $makefile is required!                <==="
+	echo "===> Incomplete package! To create a options file <==="
+	echo "===> a working $makefile is required!             <==="
 	exit 1
 fi
 
@@ -107,7 +107,7 @@ sed -f $sedrules <<EOF
 # XXX This file was created automatically using createbuildlink-@PKGVERSION@.
 # XXX After this file has been verified as correct, the comment lines
 # XXX beginning with "XXX" should be removed.  Please do not commit
-# XXX unverified buildlink3.mk files.
+# XXX unverified options.mk files.
 # XXX
 # XXX Packages that only install static libraries or headers should
 # XXX include the following line:
@@ -162,10 +162,10 @@ grep -l '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $makefile $commons \
 	>/dev/null 2>&1 && cat <<EOF
 
 # XXX
-# XXX Uncomment and keep only the buildlink3 lines below which are directly
+# XXX Uncomment and keep only the options lines below which are directly
 # XXX needed for dependencies to compile, link, and run.  If this package
 # XXX provides a wrappered API or otherwise does not expose the APIs of the
-# XXX buildlink3 lines below to dependencies, remove them.
+# XXX options lines below to dependencies, remove them.
 # XXX
 EOF
 for i in $makefile $commons ; do
