@@ -32,17 +32,17 @@
 # Create an initial buildlink3.mk from a package's Makefile and PLIST
 #
 
-REV=`echo '$Revision: 1.39 $' | sed 's/\\$//g'`
+REV=`echo '$Revision: 1.0 $' | sed 's/\\$//g'`
 tmpdir=/tmp
 spacesintab=8
 makefile=Makefile
-sedrules=$tmpdir/sedrules.buildlink.$$
+sedrules=$tmpdir/sedrules.options.$$
 PLIST=PLIST
 CREATEPLSUBST=false
 
 args=`getopt 3p $*`
 if [ $? != 0 ]; then
-	echo "Usage: $0 [-p] > buildlink3.mk"
+	echo "Usage: $0 [-p] > options.mk"
 	exit 2
 fi
 set -- $args
@@ -99,7 +99,7 @@ echo >>$sedrules "s|@@PREFIX@@|$PREFIX|g"
 echo >>$sedrules "s|@@REV@@|$REV|g"
 
 #
-# buildlink header
+# options header
 #
 sed -f $sedrules <<EOF
 # @@ID@@
@@ -156,7 +156,7 @@ if [ $CREATEPLSUBST = "true" ]; then
 fi
 
 ##
-## buildlinked dependencies
+## options dependencies
 ##
 grep -l '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $makefile $commons \
 	>/dev/null 2>&1 && cat <<EOF
