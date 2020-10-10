@@ -20,10 +20,7 @@ USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../devel/kio/buildlink3.mk"
-BUILDLINK_API_DEPENDS.taglib+=	taglib>=1.0
-.include "../../audio/taglib/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../graphics/freetype2/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../www/kjs/buildlink3.mk"
