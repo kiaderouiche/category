@@ -1,6 +1,0 @@
-anyci
-appveyor
-ci_addons
-circle
-travis
-windows
