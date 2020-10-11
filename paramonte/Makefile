@@ -13,5 +13,8 @@ HOMEPAGE=	https://github.com/cdslaborg/paramonte/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/paramonte-1.3.0
+USE_CMAKE=	yes
+USE_LANGUAGES=	c c++ fortran
+
 .include "../../mk/bsd.pkg.mk"
