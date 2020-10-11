@@ -1,0 +1,26 @@
+TODO: Adjust the following lines from README.md
+
+# `tupu` - Fast geodesic distances in Python
+
+This is a **personal project** centered around geodesic distances.
+Its goal is to be able to quickly compute, for every coordinate in a list:
+
+- Distances to a given point (e.g. distances from each point to NYC)
+- Nearest neighbors: distances to the closest point in another list (e.g. distances from each point to a city), and the identity of such point
+- Number of neighbors: number of points of another list within a certain distance or buffer.
+
+
+## Dev Install
+
+After cloning the repo and opening the panflute folder:
+
+`python setup.py install`
+: installs the package locally
+
+`python setup.py develop`
+: installs locally with a symlink so changes are automatically updated
+
+...
+
+Homepage:
+https://github.com/sergiocorreia/tupu
