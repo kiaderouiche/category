@@ -125,10 +125,17 @@ for i in 1 2 3; do
 done
 
 sed -f $sedrules <<EOF
-BUILDLINK_TREE+=	$PKGNOVER
+PKG_OPTIONS_VAR=	PKG_OPTIONS.$PKGNOVER
+PKG_SUPPORTED_OPTIONS=	$PKGNOVER
+PKG_SUGGESTED_OPTIONS=	$PKGNOVER
 
-.if !defined(${PKGUPPER}_BUILDLINK3_MK)
-${PKGUPPER}_BUILDLINK3_MK:=
+.include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:M${PKGUPPER})
+CONFIGURE_ARGS+=		--with-${PKGUPPER}
+.else
+CONFIGURE_ARGS+=		--without-${PKGUPPER}
+.endif
 
 EOF
 

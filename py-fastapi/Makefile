@@ -13,8 +13,8 @@ COMMENT=	FastAPI framework, high performance, easy to learn, fast to code, ready
 BUILD_DEPENDS+=	# TODO: python-jose[cryptography]>=3.1.0,<4.0.0
 BUILD_DEPENDS+=	# TODO: passlib[bcrypt]>=1.7.2,<2.0.0
 BUILD_DEPENDS+=	# TODO: autoflake>=1.3.1,<2.0.0
-BUILD_DEPENDS+=	py-flake8>=3.8.3,<4.0.0:../../devel/py-flake8
-BUILD_DEPENDS+=	py-uvicorn>=0.11.5,<0.12.0:../../www/py-uvicorn
+BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.8.3,<4.0.0:../../devel/py-flake8
+BUILD_DEPENDS+=	${PYPKGPREFIX}-uvicorn>=0.11.5,<0.12.0:../../www/py-uvicorn
 BUILD_DEPENDS+=	# TODO: graphene>=2.1.8,<3.0.0
 DEPENDS+=	# TODO: starlette==0.13.6>=0
 DEPENDS+=	# TODO: pydantic>=1.0.0,<2.0.0
