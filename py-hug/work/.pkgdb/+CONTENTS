@@ -1,0 +1,17 @@
+@cwd /usr/pkg
+@name py37-hug-2.6.1
+@blddep py37-falcon-2.0.0
+@pkgdep py37-falcon>=2.0.0
+@blddep py37-requests-2.24.0
+@pkgdep py37-requests>=2.24.0
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb1
+@pkgdep python37>=3.7
+@blddep digest-20190127
+@blddep py37-test-runner-5.2
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"

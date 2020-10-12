@@ -17,7 +17,7 @@ TEST_DEPENDS+=	${PYPKGPREFIX}-test>=6.0.2:../../devel/py-test-runner
 TEST_DEPENDS+=	${PYPKGPREFIX}-mock>=3.0.5:../../devel/py-mock
 TEST_DEPENDS+=	${PYPKGPREFIX}-marshmallow>=3.0.0:../../wip/py-marshmallow
 
-USE_LANGUAGES=	# none
+USE_LANGUAGES=	c
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
