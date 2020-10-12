@@ -35,7 +35,7 @@
 REV=`echo '$Revision: 0.1 $' | sed 's/\\$//g'`
 tmpdir=/tmp
 spacesintab=8
-makefile=Makefile
+MAKEFILE=Makefile
 sedrules=$tmpdir/sedrules.options.$$
 PLIST=PLIST
 CREATEPLSUBST=false
@@ -61,30 +61,27 @@ while [ $# -gt 0 ]; do
 done
 
 ##
-## some simple integrity checking
+## Some simple intergrity checking
 ##
-if [ ! -f $makefile ]; then
-	echo "===> Incomplete package! To create a options file <==="
-	echo "===> a working $makefile is required!             <==="
-	exit 1
+if  [ ! -f $MAKEFILE ]; then
+        echo "===> Incomplete package! To create a options file <==="
+        echo "===> a working $MAKEFILE is required!             <==="
 fi
 
 ##
 ## try to find any included Makefile.common's
 ## 
-commons=`grep '^.include.*Makefile.common\"' $makefile |		\
+commons=`grep '^.include.*Makefile.common\"' $MAKEFILE |	\
 	sed 's/^.*"\(.*\)".*/\1/'`
 
 ##
-## package specific variables
+## package variables
 ##
 CURDIR=`pwd | sed 's|^.*/\([^/]*/[^/]*\)$|\1|'`
 PKGNAME=`@MAKE@ show-var VARNAME=PKGNAME`
-CATEGORIES=`@MAKE@ show-var VARNAME=CATEGORIES`
-PKGVER=`echo $PKGNAME | sed -e 's/^.*-//'`
+PKGVERS=`echo $PKGNAME | sed -e 's/^.*-//'`
 PKGNOVER=`echo $PKGNAME | sed -e 's/-[^-]*$//'`
 PKGUPPER=`echo $PKGNOVER | tr '[:lower:]' '[:upper:]' | tr - _`
-CATEGORYUPPER=`echo $CATEGORIES | tr '[:lower:]' '[:upper:]' | tr - _`
 GO_PACKAGE=`@MAKE@ show-var VARNAME=GO_SRCPATH`
 PREFIX=LOCALBASE
 
@@ -111,80 +108,59 @@ sed -f $sedrules <<EOF
 # XXX beginning with "XXX" should be removed.  Please do not commit
 # XXX unverified options.mk files.
 # XXX
-# XXX Packages that only install default options or headers should
-# XXX include the following line:
 # XXX
-# XXX	BUILDLINK_DEPMETHOD.$PKGNOVER?=	build
 
 EOF
 
-gap="	"
-for i in 1 2 3; do
-	n=`expr $i \* $spacesintab`
-	if [ ${#PKGUPPER} -ge $n ]; then
-		gap="	$gap"
-	fi
-done
-
+#
+# body template
+#
 sed -f $sedrules <<EOF
-PKG_OPTIONS_VAR=	PKG_OPTIONS.$PKGNOVER
-PKG_SUPPORTED_OPTIONS=	$PKGNOVER
-PKG_OPTIONS_OPTIONAL_GROUPS=    category
-PKG_OPTIONS_GROUP.category=     option1 option2
-PKG_SUGGESTED_OPTIONS=	$PKGNOVER
-PKG_SUGGESTED_OPTIONS.$PKGNOVER+=	$PKGNOVER
+PKG_OPTIONS_VAR=	 PKG_OPTIONS.$PKGNOVER
+PKG_SUPPORTED_OPTIONS=	 $PKGNOVER
+PKG_OPTIONS_OPTIONAL_GROUPS=        category
+PKG_OPTIONS_GROUP.category=     option1 option2 option3
+PKG_SUGGESTED_OPTIONS=      $PKGNOVER
+PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       $PKGNOVER
 PKG_OPTIONS_LEGACY_VARS+=       ${PKGUPPER}_USE_OPTION_CATEGORY:option1
 PKG_OPTIONS_LEGACY_OPTS+=       foo:$PKGNOVER-foo
 
 .include "../../mk/bsd.prefs.mk"
 
-# this package was previously named $PKGNOVER
-.if defined(PKG_OPTIONS.wibble2)
-PKG_LEGACY_OPTIONS+=            ${PKG_OPTIONS.wibble2}
-PKG_OPTIONS_DEPRECATED_WARNINGS+= \
-        "Deprecated variable PKG_OPTIONS.wibble2 used, use ${PKG_OPTIONS_VAR} instead."
+#this package was previously named $PKGNOVER
+.if defined(PKG_OPTIONS.option1)
+PKG_LEGACY_OPTIONS+=        ${PKG_OPTIONS.option1}
+PKG_OPTIONS_DEPRECATED_WARNINGS+=   \
+    "Deprecated variable PKG_OPTIONS.option1 used, use ${PKG_OPTION_VAR} instead"
 .endif
 
 .include "../../mk/bsd.options.mk"
 
-# Package-specific option-handling
-
-# @@ID@@
 #
 # option1 SUPPORT
 #
-.if !empty(PKG_OPTIONS:Mwibble-foo)
-CONFIGURE_ARGS+=    --enable-option1
+.if !empty(PKG_OPTIONS:Moption1)
+CONFIGURE_ARGS+=        --enable-option1
 .endif
 
-# @@ID@@
 #
 # option2 SUPPORT
 #
-.if !empty(PKG_OPTIONS:Moption2)
-.  include "../../databases/openldap-client/buildlink3.mk"
-CONFIGURE_ARGS+=    --enable-option2=${BUILDLINK_PREFIX.openldap-client}
+if !empty(PKG_OPTIONS:Moption2)
+.   include "../../category/option2/buildlink3.mk"
+CONFIGURE_ARGS+=        --enable-option2=${BUILDINK_PREFIX.option2}
+.else
+CONFIGURE_ARGS+=        --disable-option2=${BUILDINK_PREFIX.option2}
 .endif
 
-# @@ID@@
 #
-# option3 SUPPORT
+#  option3 SUPPORT
 #
 .if !empty(PKG_OPTIONS:Moption3)
-.  include "../../mk/mysql.buildlink3.mk"
-.endif
-.if !empty(PKG_OPTIONS:Mpgsql)
-.  include "../../mk/pgsql.buildlink3.mk"
-.endif
-
-# @@ID@@
-#
-# OPTION SUPPORT
-#
-.if !empty(PKG_OPTIONS:M${PKGNOVER})
-CONFIGURE_ARGS+=		--with/enable-${PKGNOVER}
+DEPENDS+=   option3>=$REV:../../category/option3
+CONFIGURE_ARGS+=        --with-option3
 .else
-CONFIGURE_ARGS+=		--without/disable-${PKGNOVER}
+CONFIGURE_ARGS+=        --without-option3
 .endif
 
 EOF

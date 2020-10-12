@@ -44,7 +44,7 @@ and
 .Pa PLIST
 of a package and creates
 an initial
-.Pa buildlink3.mk
+.Pa options.mk
 file on stdout.
 .Pp
 The following options are available:
@@ -71,15 +71,16 @@ package directory without some scrutiny.
 .Pp
 Using
 .Nm
-helps maneuver through the initial process of creating a buildlink
+helps maneuver through the initial process of creating a options
 file for a package to be included by depending packages.
 Using
 .Nm
-is less error-prone than copying an existing buildlink file
+is less error-prone than copying an existing options file
 as a template and renaming the entries in there.
 .Sh SEE ALSO
 .Xr packages 7 ,
-.Xr url2pkg 8
+.Xr url2pkg 8  ,
+.Xr createbuildlink 8  ,
 .Sh AUTHORS
 .Nm
 was written by
