@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-#	$NetBSD: substplistbasedirs,v 1.4 2018/08/22 20:48:37 maya Exp $
+#	$NetBSD: pkgoptions,v 0.1 2020/05/16 06:28:52 jihbed Exp $
 #
-# Copyright (c) 2002 The NetBSD Foundation, Inc.
+# Copyright (c) 2020 The NetBSD Foundation, Inc.
 # All rights reserved.
 #
 # This code is derived from software contributed to The NetBSD Foundation
@@ -29,25 +29,29 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Create substitution patterns for dependent packages for directories listed
-# in a base package
+# Create an initial options.mk from a package's Makefile and PLIST
 #
 
-REV=`echo '$Revision: 1.4 $' | sed 's/\\$//g'`
-CURDIR=`pwd | sed 's|^.*/\([^/]*/[^/]*\)$|\1|'`
+REV=`echo '$Revision: 0.1 $' | sed 's/\\$//g'`
+tmpdir=/tmp
+spacesintab=8
+MAKEFILE=Makefile
+sedrules=$tmpdir/sedrules.options.$$
 PLIST=PLIST
-MDFLAG=true
+CREATEPLSUBST=false
 
-args=`getopt n $*`
+args=`getopt 3p $*`
 if [ $? != 0 ]; then
-	echo "Usage: $0 [-n]"
+	echo "Usage: $0 [-p] > options.mk"
 	exit 2
 fi
 set -- $args
 while [ $# -gt 0 ]; do
 	case "$1" in
-	-n)
-		MDFLAG=no_mkdir_patterns
+	-3)
+		shift;;
+	-p)
+		CREATEPLSUBST=true
 		shift;;
 	--)
 		shift; break
@@ -57,10 +61,26 @@ while [ $# -gt 0 ]; do
 done
 
 ##
-## some simple integrity checking
+## Some simple intergrity checking
 ##
-if [ ! -f $PLIST ]; then
-	echo "###> Incomplete package! To create a substitution pattern  <###"
-	echo "###> a working $PLIST is required!                         <###"
-	exit 1
+if  [ ! -f $MAKEFILE ]; then
+        echo "===> Incomplete package! To create a options file <==="
+        echo "===> a working $MAKEFILE is required!             <==="
 fi
+
+##
+## try to find any included Makefile.common's
+## 
+commons=`grep '^.include.*Makefile.common\"' $MAKEFILE |	\
+	sed 's/^.*"\(.*\)".*/\1/'`
+
+##
+## package variables
+##
+CURDIR=`pwd | sed 's|^.*/\([^/]*/[^/]*\)$|\1|'`
+PKGNAME=`@MAKE@ show-var VARNAME=PKGNAME`
+PKGVERS=`echo $PKGNAME | sed -e 's/^.*-//'`
+PKGNOVER=`echo $PKGNAME | sed -e 's/-[^-]*$//'`
+
+
+
