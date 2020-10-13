@@ -5,8 +5,6 @@
 # Copyright (c) 2020 The NetBSD Foundation, Inc.
 # All rights reserved.
 #
-# This code is derived from software contributed to The NetBSD Foundation
-# by Rene Hexel.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -29,20 +27,20 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Create an initial options.mk from a package's Makefile and PLIST
+# Create an initial buildlink3.mk from a package's Makefile and PLIST
 #
 
 REV=`echo '$Revision: 0.1 $' | sed 's/\\$//g'`
 tmpdir=/tmp
 spacesintab=8
-MAKEFILE=Makefile
-sedrules=$tmpdir/sedrules.options.$$
+makefile=Makefile
+sedrules=$tmpdir/sedrules.buildlink.$$
 PLIST=PLIST
 CREATEPLSUBST=false
 
 args=`getopt 3p $*`
 if [ $? != 0 ]; then
-	echo "Usage: $0 [-p] > options.mk"
+	echo "Usage: $0 [-p] > buildlink3.mk"
 	exit 2
 fi
 set -- $args
@@ -61,25 +59,26 @@ while [ $# -gt 0 ]; do
 done
 
 ##
-## Some simple intergrity checking
+## some simple integrity checking
 ##
-if  [ ! -f $MAKEFILE ]; then
-        echo "===> Incomplete package! To create a options file <==="
-        echo "===> a working $MAKEFILE is required!             <==="
+if [ ! -f $makefile ]; then
+	echo "===> Incomplete package! To create a options file <==="
+	echo "===> a working $makefile is required!                <==="
+	exit 1
 fi
 
 ##
 ## try to find any included Makefile.common's
 ## 
-commons=`grep '^.include.*Makefile.common\"' $MAKEFILE |	\
+commons=`grep '^.include.*Makefile.common\"' $makefile |		\
 	sed 's/^.*"\(.*\)".*/\1/'`
 
 ##
-## package variables
+## package specific variables
 ##
 CURDIR=`pwd | sed 's|^.*/\([^/]*/[^/]*\)$|\1|'`
 PKGNAME=`@MAKE@ show-var VARNAME=PKGNAME`
-PKGVERS=`echo $PKGNAME | sed -e 's/^.*-//'`
+PKGVER=`echo $PKGNAME | sed -e 's/^.*-//'`
 PKGNOVER=`echo $PKGNAME | sed -e 's/-[^-]*$//'`
 PKGUPPER=`echo $PKGNOVER | tr '[:lower:]' '[:upper:]' | tr - _`
 GO_PACKAGE=`@MAKE@ show-var VARNAME=GO_SRCPATH`
@@ -98,7 +97,7 @@ echo >>$sedrules "s|@@PREFIX@@|$PREFIX|g"
 echo >>$sedrules "s|@@REV@@|$REV|g"
 
 #
-# options header
+# buildlink header
 #
 sed -f $sedrules <<EOF
 # @@ID@@
@@ -112,57 +111,38 @@ sed -f $sedrules <<EOF
 
 EOF
 
-#
-# body template
-#
+gap="	"
+for i in 1 2 3; do
+	n=`expr $i \* $spacesintab`
+	if [ ${#PKGUPPER} -ge $n ]; then
+		gap="	$gap"
+	fi
+done
+
 sed -f $sedrules <<EOF
-PKG_OPTIONS_VAR=	PKG_OPTIONS.$PKGNOVER
+PKG_OPTIONS_VAR=		PKG_OPTIONS.$PKGNOVER
 PKG_SUPPORTED_OPTIONS=	 $PKGNOVER
-PKG_OPTIONS_OPTIONAL_GROUPS=        category
+PKG_OPTIONS_OPTIONAL_GROUPS=		category
 PKG_OPTIONS_GROUP.category=     option1 option2 option3
 PKG_SUGGESTED_OPTIONS=      $PKGNOVER
 PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       $PKGNOVER
-#PKG_OPTIONS_LEGACY_VARS+=       ${PKGUPPER}_USE_OPTION_CATEGORY:option1
-#PKG_OPTIONS_LEGACY_OPTS+=       foo:$PKGNOVER-foo
-
-.include "../../mk/bsd.prefs.mk"
-
-#this package was previously named $PKGNOVER
-.if defined(PKG_OPTIONS.option1)
-PKG_LEGACY_OPTIONS+=        ${PKG_OPTIONS.option1}
-PKG_OPTIONS_DEPRECATED_WARNINGS+=   \
-    "Deprecated variable PKG_OPTIONS.option1 used, use ${PKG_OPTION_VAR} instead"
-.endif
 
 .include "../../mk/bsd.options.mk"
 
-#
-# option1 SUPPORT
-#
+##
+## option1 SUPPORT
+##
 .if !empty(PKG_OPTIONS:Moption1)
-CONFIGURE_ARGS+=        --enable-option1
+CONFIGURE_ARGS+=		--enable-option1
 .endif
 
-#
-# option2 SUPPORT
-#
-if !empty(PKG_OPTIONS:Moption2)
-.   include "../../category/option2/buildlink3.mk"
-CONFIGURE_ARGS+=        --enable-option2=${BUILDINK_PREFIX.option2}
-.else
-CONFIGURE_ARGS+=        --disable-option2=${BUILDINK_PREFIX.option2}
-.endif
-
-#
-#  option3 SUPPORT
-#
-.if !empty(PKG_OPTIONS:Moption3)
-DEPENDS+=   option3>=$REV:../../category/option3
-CONFIGURE_ARGS+=        --with-option3
-.else
-CONFIGURE_ARGS+=        --without-option3
-.endif
-
+##
+## option2 SUPPORT
+##
+#.if !empty(PKG_OPTIONS:option2)
+#.   include "../../category/option2/buildlink3.mk"
+#CONFIGURE_ARGS+=        --enable-option2=${BUILDLINK_PREFIX.option2}
+#.endif
 EOF
 
 if [ -n "$GO_PACKAGE" ]
@@ -185,16 +165,16 @@ if [ $CREATEPLSUBST = "true" ]; then
 fi
 
 ##
-## options dependencies
+## buildlinked dependencies
 ##
 grep -l '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $makefile $commons \
 	>/dev/null 2>&1 && cat <<EOF
 
 # XXX
-# XXX Uncomment and keep only the options lines below which are directly
+# XXX Uncomment and keep only the buildlink3 lines below which are directly
 # XXX needed for dependencies to compile, link, and run.  If this package
 # XXX provides a wrappered API or otherwise does not expose the APIs of the
-# XXX options lines below to dependencies, remove them.
+# XXX buildlink3 lines below to dependencies, remove them.
 # XXX
 EOF
 for i in $makefile $commons ; do

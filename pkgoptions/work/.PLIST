@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/pkgoptions
+bin/substplistbasedirs
+man/man8/pkgoptions.8

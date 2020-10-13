@@ -1,0 +1,10 @@
+@cwd /usr/pkg
+@name pkgoptions-1.0
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/pkgoptions
+@comment MD5:1ae351a770d35e1e6dd77175f9832782
+bin/substplistbasedirs
+@comment MD5:9438c179508f208ec81fe7401269457a
+man/man8/pkgoptions.8
+@comment MD5:1d9e3263eb1c7547188d71a6be6d478e
