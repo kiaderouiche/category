@@ -193,10 +193,4 @@ for i in $makefile $commons ; do
 		egrep -v '/devel/pkg-config/|/textproc/intltool/|/graphics/hicolor-icon-theme/' | sed 's,^,#,'
 done
 
-sed -f $sedrules <<EOF
-.endif	# ${PKGUPPER}_BUILDLINK3_MK
-
-BUILDLINK_TREE+=	-$PKGNOVER
-EOF
-
 rm -f $sedrules
