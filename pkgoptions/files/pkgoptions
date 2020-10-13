@@ -116,7 +116,7 @@ EOF
 # body template
 #
 sed -f $sedrules <<EOF
-PKG_OPTIONS_VAR=	PKG_OPTIONS.$PKGNOVER
+# PKG_OPTIONS_VAR=	PKG_OPTIONS.$PKGNOVER
 PKG_SUPPORTED_OPTIONS=	 $PKGNOVER
 PKG_OPTIONS_OPTIONAL_GROUPS=        category
 PKG_OPTIONS_GROUP.category=     option1 option2 option3
@@ -127,7 +127,7 @@ PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       $PKGNOVER
 
 .include "../../mk/bsd.prefs.mk"
 
-#this package was previously named $PKGNOVER
+# this package was previously named $PKGNOVER
 .if defined(PKG_OPTIONS.option1)
 PKG_LEGACY_OPTIONS+=        ${PKG_OPTIONS.option1}
 PKG_OPTIONS_DEPRECATED_WARNINGS+=   \
