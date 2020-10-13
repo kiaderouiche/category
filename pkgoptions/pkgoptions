@@ -146,7 +146,7 @@ CONFIGURE_ARGS+=        --enable-option1
 #
 # option2 SUPPORT
 #
-.if !empty(PKG_OPTIONS:Moption2)
+if !empty(PKG_OPTIONS:Moption2)
 .   include "../../category/option2/buildlink3.mk"
 CONFIGURE_ARGS+=        --enable-option2=${BUILDINK_PREFIX.option2}
 .else
