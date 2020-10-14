@@ -1,6 +1,0 @@
---- /usr/pkgsrc/category/pkgoptions/work/.prefix.pre	2020-10-13 16:43:42.078489310 +0100
-+++ /usr/pkgsrc/category/pkgoptions/work/.prefix.post	2020-10-13 16:43:42.306496110 +0100
-@@ -0,0 +1,3 @@
-+/usr/pkgsrc/category/pkgoptions/work/.destdir/usr/pkg/bin/pkgoptions
-+/usr/pkgsrc/category/pkgoptions/work/.destdir/usr/pkg/bin/substplistbasedirs
-+/usr/pkgsrc/category/pkgoptions/work/.destdir/usr/pkg/man/man8/pkgoptions.8

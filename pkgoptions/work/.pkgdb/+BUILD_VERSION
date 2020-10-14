@@ -1,7 +1,0 @@
-category/pkgoptions/files/createbuildlink:	$NetBSD: pkgoptions,v 0.1 2020/05/16 06:28:52 jihbed Exp $
-category/pkgoptions/files/pkgoptions:	$NetBSD: pkgoptions,v 0.1 2020/05/16 06:28:52 jihbed Exp $
-category/pkgoptions/files/pkgoptions.8:	$NetBSD: pkgoptions.8,v 0.1 2020/11/11 20:48:37 jihbed Exp $
-category/pkgoptions/files/substplistbasedirs:	$NetBSD: substplistbasedirs,v 1.4 2018/08/22 20:48:37 maya Exp $
-category/pkgoptions/Makefile:	$NetBSD: Makefile,v 1.56 2020/05/16 06:28:52 rillig Exp $
-category/pkgoptions/options.mk:	$NetBSD$
-category/pkgoptions/PLIST:	$NetBSD$

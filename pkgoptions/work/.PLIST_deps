@@ -1,6 +1,0 @@
-@name pkgoptions-1.0
-@blddep cwrappers-20180325
-@comment $NetBSD$
-bin/pkgoptions
-bin/substplistbasedirs
-man/man8/pkgoptions.8
