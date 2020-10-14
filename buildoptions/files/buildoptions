@@ -1,0 +1,197 @@
+#!/bin/sh
+#
+#	$NetBSD: pkgoptions,v 0.1 2020/05/16 06:28:52 jihbed Exp $
+#
+# Copyright (c) 2020 The NetBSD Foundation, Inc.
+# All rights reserved.
+#
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the
+#    documentation and/or other materials provided with the distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS
+# ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+# TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+# PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+#
+# Create an initial buildlink3.mk from a package's Makefile and PLIST
+#
+
+REV=`echo '$Revision: 0.1 $' | sed 's/\\$//g'`
+tmpdir=/tmp
+spacesintab=8
+makefile=Makefile
+sedrules=$tmpdir/sedrules.buildlink.$$
+PLIST=PLIST
+CREATEPLSUBST=false
+
+args=`getopt 3p $*`
+if [ $? != 0 ]; then
+	echo "Usage: $0 [-p] > buildlink3.mk"
+	exit 2
+fi
+set -- $args
+while [ $# -gt 0 ]; do
+	case "$1" in
+	-3)
+		shift;;
+	-p)
+		CREATEPLSUBST=true
+		shift;;
+	--)
+		shift; break
+		;;
+	esac
+	shift
+done
+
+##
+## some simple integrity checking
+##
+if [ ! -f $makefile ]; then
+	echo "===> Incomplete package! To create a options file <==="
+	echo "===> a working $makefile is required!                <==="
+	exit 1
+fi
+
+##
+## try to find any included Makefile.common's
+## 
+commons=`grep '^.include.*Makefile.common\"' $makefile |		\
+	sed 's/^.*"\(.*\)".*/\1/'`
+
+##
+## package specific variables
+##
+CURDIR=`pwd | sed 's|^.*/\([^/]*/[^/]*\)$|\1|'`
+PKGNAME=`@MAKE@ show-var VARNAME=PKGNAME`
+PKGVER=`echo $PKGNAME | sed -e 's/^.*-//'`
+PKGNOVER=`echo $PKGNAME | sed -e 's/-[^-]*$//'`
+PKGUPPER=`echo $PKGNOVER | tr '[:lower:]' '[:upper:]' | tr - _`
+GO_PACKAGE=`@MAKE@ show-var VARNAME=GO_SRCPATH`
+PREFIX=LOCALBASE
+
+##
+## create sed rules
+##
+echo  >$sedrules "s|@@CURDIR@@|$CURDIR|g"
+echo >>$sedrules "s|@@ID@@|\$Net""BSD\$|g"
+echo >>$sedrules "s|@@PKGNAME@@|$PKGNAME|g"
+echo >>$sedrules "s|@@PKGNOVER@@|$PKGNOVER|g"
+echo >>$sedrules "s|@@PKGUPPER@@|$PKGUPPER|g"
+echo >>$sedrules "s|@@PKGVER@@|$PKGVER|g"
+echo >>$sedrules "s|@@PREFIX@@|$PREFIX|g"
+echo >>$sedrules "s|@@REV@@|$REV|g"
+
+#
+# buildlink header
+#
+sed -f $sedrules <<EOF
+# @@ID@@
+# XXX
+# XXX This file was created automatically using pkgoptions-@PKGVERSION@.
+# XXX After this file has been verified as correct, the comment lines
+# XXX beginning with "XXX" should be removed.  Please do not commit
+# XXX unverified options.mk files.
+# XXX
+# XXX
+
+EOF
+
+gap="	"
+for i in 1 2 3; do
+	n=`expr $i \* $spacesintab`
+	if [ ${#PKGUPPER} -ge $n ]; then
+		gap="	$gap"
+	fi
+done
+
+sed -f $sedrules <<EOF
+PKG_OPTIONS_VAR=		PKG_OPTIONS.$PKGNOVER
+PKG_SUPPORTED_OPTIONS=	 $PKGNOVER
+PKG_OPTIONS_OPTIONAL_GROUPS=		category
+PKG_OPTIONS_GROUP.category=     option1 option2 option3
+PKG_SUGGESTED_OPTIONS=      $PKGNOVER
+PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       $PKGNOVER
+
+.include "../../mk/bsd.options.mk"
+
+##
+## option1 SUPPORT
+##
+.if !empty(PKG_OPTIONS:Moption1)
+CONFIGURE_ARGS+=		--enable-option1
+.endif
+
+##
+## option2 SUPPORT
+##
+.if !empty(PKG_OPTIONS:option2)
+##CONFIGURE_ARGS+=	--with-option2=${BUILDLINK_PREFIX.option2}
+.   include "../../category/option2/buildlink3.mk"
+.endif
+EOF
+
+sed -f $sedrules <<EOF
+##
+## option3 SUPPORT
+##
+.if !empty(PKG_OPTIONS:Moption3)
+.   include "../../category/option3/buildlink3.mk"
+CONFIGURE_ARGS+=    --with-option3
+.else
+CONFIGURE_ARGS+=    --without-option3
+.endif
+EOF
+
+if [ -n "$GO_PACKAGE" ]
+then
+	sed -f $sedrules <<EOF
+BUILDLINK_CONTENTS_FILTER.$PKGNOVER=	\${EGREP} gopkg/
+BUILDLINK_DEPMETHOD.$PKGNOVER?=		build
+
+EOF
+fi
+
+sed -f $sedrules <<EOF
+BUILDLINK_PKGSRCDIR.$PKGNOVER?=	../../$CURDIR
+EOF
+
+if [ $CREATEPLSUBST = "true" ]; then
+	echo ""
+	substplistbasedirs
+	echo ""
+fi
+
+##
+## buildlinked dependencies
+##
+grep -l '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $makefile $commons \
+	>/dev/null 2>&1 && cat <<EOF
+
+# XXX
+# XXX Uncomment and keep only the buildlink3 lines below which are directly
+# XXX needed for dependencies to compile, link, and run.  If this package
+# XXX provides a wrappered API or otherwise does not expose the APIs of the
+# XXX buildlink3 lines below to dependencies, remove them.
+# XXX
+EOF
+for i in $makefile $commons ; do
+	[ ! -f $i ] || grep '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $i |
+		egrep -v '/devel/pkg-config/|/textproc/intltool/|/graphics/hicolor-icon-theme/' | sed 's,^,#,'
+done
+
+rm -f $sedrules
