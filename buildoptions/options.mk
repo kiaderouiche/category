@@ -7,6 +7,28 @@
 # XXX
 # XXX
 
+PKG_OPTIONS_VAR=		PKG_OPTIONS.buildoptions
+PKG_SUPPORTED_OPTIONS=	 buildoptions
+PKG_OPTIONS_OPTIONAL_GROUPS=		category
+PKG_OPTIONS_GROUP.category=     option1 option2 option3
+PKG_SUGGESTED_OPTIONS=      buildoptions
+PKG_SUGGESTED_OPTIONS.buildoptions+=       buildoptions
+
+.include "../../mk/bsd.options.mk"
+
+##
+## option1 SUPPORT
+##
+.if !empty(PKG_OPTIONS:Moption1)
+CONFIGURE_ARGS+=		--enable-option1
+.endif
+
+##
+## option2 SUPPORT
+##
+.if !empty(PKG_OPTIONS:option2)
+.   include "../../category/option2/buildlink3.mk"
+.endif
 ##
 ## option3 SUPPORT
 ##
@@ -16,4 +38,4 @@ CONFIGURE_ARGS+=    --with-option3
 .else
 CONFIGURE_ARGS+=    --without-option3
 .endif
-BUILDLINK_PKGSRCDIR.pkgoptions?=	../../category/pkgoptions
+BUILDLINK_PKGSRCDIR.buildoptions?=	../../category/buildoptions

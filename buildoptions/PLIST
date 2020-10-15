@@ -1,4 +1,4 @@
 @comment $NetBSD$
-bin/pkgoptions
+bin/buildoptions
 bin/substplistbasedirs
-man/man8/pkgoptions.8
+man/man8/buildoptions.8

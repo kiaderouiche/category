@@ -34,13 +34,13 @@ REV=`echo '$Revision: 0.1 $' | sed 's/\\$//g'`
 tmpdir=/tmp
 spacesintab=8
 makefile=Makefile
-sedrules=$tmpdir/sedrules.buildlink.$$
+sedrules=$tmpdir/sedrules.options.$$
 PLIST=PLIST
 CREATEPLSUBST=false
 
 args=`getopt 3p $*`
 if [ $? != 0 ]; then
-	echo "Usage: $0 [-p] > buildlink3.mk"
+	echo "Usage: $0 [-p] > options.mk"
 	exit 2
 fi
 set -- $args
@@ -62,7 +62,7 @@ done
 ## some simple integrity checking
 ##
 if [ ! -f $makefile ]; then
-	echo "===> Incomplete package! To create a options file <==="
+	echo "===> Incomplete package! To create a options file    <==="
 	echo "===> a working $makefile is required!                <==="
 	exit 1
 fi
@@ -129,6 +129,7 @@ PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       $PKGNOVER
 
 .include "../../mk/bsd.options.mk"
 
+PLIST_VARS+=    option1
 ##
 ## option1 SUPPORT
 ##
@@ -140,12 +141,10 @@ CONFIGURE_ARGS+=		--enable-option1
 ## option2 SUPPORT
 ##
 .if !empty(PKG_OPTIONS:option2)
-##CONFIGURE_ARGS+=	--with-option2=${BUILDLINK_PREFIX.option2}
 .   include "../../category/option2/buildlink3.mk"
 .endif
-EOF
 
-sed -f $sedrules <<EOF
+
 ##
 ## option3 SUPPORT
 ##
