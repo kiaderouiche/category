@@ -121,15 +121,15 @@ done
 
 sed -f $sedrules <<EOF
 PKG_OPTIONS_VAR=		PKG_OPTIONS.$PKGNOVER
-PKG_SUPPORTED_OPTIONS=	 $PKGNOVER
+PKG_SUPPORTED_OPTIONS=	 option1 option2 option3
 PKG_OPTIONS_OPTIONAL_GROUPS=		category
 PKG_OPTIONS_GROUP.category=     option1 option2 option3
-PKG_SUGGESTED_OPTIONS=      $PKGNOVER
-PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       $PKGNOVER
+PKG_SUGGESTED_OPTIONS=      option1 option2 option3
+PKG_SUGGESTED_OPTIONS.$PKGNOVER+=       option1 option2 option3
 
 .include "../../mk/bsd.options.mk"
 
-PLIST_VARS+=    option1
+PLIST_VARS+=    option3
 ##
 ## option1 SUPPORT
 ##
@@ -142,6 +142,7 @@ CONFIGURE_ARGS+=		--enable-option1
 ##
 .if !empty(PKG_OPTIONS:option2)
 .   include "../../category/option2/buildlink3.mk"
+.   include "../../category/option21/buildlink3.mk"
 .endif
 
 
@@ -149,6 +150,7 @@ CONFIGURE_ARGS+=		--enable-option1
 ## option3 SUPPORT
 ##
 .if !empty(PKG_OPTIONS:Moption3)
+PLIST.option3=  yes
 .   include "../../category/option3/buildlink3.mk"
 CONFIGURE_ARGS+=    --with-option3
 .else
@@ -175,19 +177,6 @@ if [ $CREATEPLSUBST = "true" ]; then
 	echo ""
 fi
 
-##
-## buildlinked dependencies
-##
-grep -l '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $makefile $commons \
-	>/dev/null 2>&1 && cat <<EOF
-
-# XXX
-# XXX Uncomment and keep only the buildlink3 lines below which are directly
-# XXX needed for dependencies to compile, link, and run.  If this package
-# XXX provides a wrappered API or otherwise does not expose the APIs of the
-# XXX buildlink3 lines below to dependencies, remove them.
-# XXX
-EOF
 for i in $makefile $commons ; do
 	[ ! -f $i ] || grep '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $i |
 		egrep -v '/devel/pkg-config/|/textproc/intltool/|/graphics/hicolor-icon-theme/' | sed 's,^,#,'
