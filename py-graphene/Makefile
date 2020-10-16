@@ -12,9 +12,8 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-aniso8601>=8.0.0:../../time/py-aniso8601
-DEPENDS+=	${PYPKGPREFIX}-graphql-core>=0:../../lang/py-graphql-core
-DEPENDS+=	${PYPKGPREFIX}-graphql-relay>=0:../../lang/py-graphql-relay
-
+DEPENDS+=	${PYPKGPREFIX}-graphql-core>=3.1.2:../../wip/py-graphql-core
+DEPENDS+=	${PYPKGPREFIX}-graphql-relay>=3.0.0:../../wip/py-graphql-relay
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
