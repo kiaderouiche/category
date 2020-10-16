@@ -6,7 +6,7 @@ CATEGORIES=	security python
 MASTER_SITES=	https://files.pythonhosted.org/packages/26/09/f60aa2a21dec4960fef468dea6ba7c2adb15d9662bb79ca349bec2feeb67/
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://github.com/mpdavis/python-jose
+HOMEPAGE=	http://github.com/mpdavis/python-jose/
 COMMENT=	JOSE implementation in Python
 LICENSE=	mit
 
