@@ -12,7 +12,7 @@ LICENSE=	mit
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-tox>=3.7.0:../../devel/py-tox
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coveralls>=2.4.2:../../wip/py-coveralls
-BUILD_DEPENDS+=	# TODO: pre-commit==1.14.4>=0
+BUILD_DEPENDS+=	pre-commit>=2.7.1:../../wip/pre-commit
 DEPENDS+=	${PYPKGPREFIX}-graphene>=2.1.3:../../wip/py-graphene
 DEPENDS+=	${PYPKGPREFIX}-promise>=2.3:../../wip/py-promise
 DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=1.2:../../databases/py-sqlalchemy
@@ -21,7 +21,7 @@ DEPENDS+=	${PYPKGPREFIX}-singledispatch>=3.4.0.3:../../devel/py-singledispatch
 TEST_DEPENDS+=	${PYPKGPREFIX}-test>=6.0.2:../../devel/py-test
 TEST_DEPENDS+=	${PYPKGPREFIX}-mock>=2.0.0:../../devel/py-mock
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
-TEST_DEPENDS+=	${PYPKGPREFIX}-sqlalchemy-utils>=0.33.9:../../databases/py-sqlalchemy-utils
+TEST_DEPENDS+=	${PYPKGPREFIX}-sqlalchemy-utils>=0.36.8:../../databases/py-sqlalchemy-utils
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark>=3.2.1:../../devel/py-test-benchmark
 
 USE_LANGUAGES=	# none
