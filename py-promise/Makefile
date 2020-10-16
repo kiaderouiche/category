@@ -10,7 +10,6 @@ HOMEPAGE=	https://github.com/syrusakbary/promise
 COMMENT=	Promises/A+ implementation for Python
 LICENSE=	mit
 
-DEPENDS+=	py-typing>=3.6.4;python_version<'3.5':../../devel/py-typing
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 TEST_DEPENDS+=	${PYPKGPREFIX}-test>=6.0.2:../../devel/py-test
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
