@@ -20,7 +20,7 @@ DEPENDS+=	${PYPKGPREFIX}-six>=1.10.0,<2:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-singledispatch>=3.4.0.3,<4:../../devel/py-singledispatch
 TEST_DEPENDS+=	${PYPKGPREFIX}-test==4.3.1>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-mock==2.0.0>=0
-TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov==2.6.1>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
 TEST_DEPENDS+=	${PYPKGPREFIX}-sqlalchemy_utils==0.33.9>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark==3.2.1>=0
 

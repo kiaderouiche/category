@@ -1,12 +1,9 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	promise
-GITHUB_TAG=	v2.3.0
-DISTNAME=	v2.3.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+DISTNAME=	promise-2.3
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-MASTER_SITES=	${MASTER_SITE_GITHUB:=syrusakbary/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+MASTER_SITES=	https://files.pythonhosted.org/packages/cf/9c/fb5d48abfe5d791cd496e4242ebcf87a4bb2e0c3dcd6e0ae68c11426a528/
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/syrusakbary/promise
@@ -14,16 +11,15 @@ COMMENT=	Promises/A+ implementation for Python
 LICENSE=	mit
 
 DEPENDS+=	py-typing>=3.6.4;python_version<'3.5':../../devel/py-typing
-DEPENDS+=	py-six>=0:../../lang/py-six
-TEST_DEPENDS+=	# TODO: pytest>=2.7.3
-TEST_DEPENDS+=	# TODO: pytest-cov>=0
-TEST_DEPENDS+=	py-coveralls>=0:../../wip/py-coveralls
-TEST_DEPENDS+=	py-futures>=0:../../devel/py-futures
-TEST_DEPENDS+=	# TODO: pytest-benchmark>=0
-TEST_DEPENDS+=	py-mock>=0:../../devel/py-mock
-TEST_DEPENDS+=	# TODO: pytest-asyncio>=0
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=6.0.2:../../devel/py-test
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
+TEST_DEPENDS+=	${PYPKGPREFIX}-coveralls>=0:../../wip/py-coveralls
+TEST_DEPENDS+=	${PYPKGPREFIX}-futures>=0:../../devel/py-futures
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark>=0:../../devel/py-benchmark
+TEST_DEPENDS+=	${PYPKGPREFIX}-mock>=0:../../devel/py-mock
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-asyncio>=0.14.0:../../devel/py-test-asyncio
 
-WRKSRC=		${WRKDIR}/promise-2.3.0
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
