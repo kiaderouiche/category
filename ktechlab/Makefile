@@ -10,8 +10,8 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/ktechlab/
-COMMENT=	 IDE for microcontrollers and electronics
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	IDE for microcontrollers and electronics
+LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/ktechlab-0.50.0
 USE_CMAKE=	yes
