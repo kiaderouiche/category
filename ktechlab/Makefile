@@ -10,7 +10,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/ktechlab/
-COMMENT=	TODO: Short description of the package
+COMMENT=	 IDE for microcontrollers and electronics
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/ktechlab-0.50.0
