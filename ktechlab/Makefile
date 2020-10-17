@@ -23,6 +23,10 @@ USE_LANGUAGES=	c c++
 
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../devel/kio/buildlink3.mk"
 .include "../../devel/kparts/buildlink3.mk"
+.include "../../devel/ktexteditor/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../www/khtml/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
