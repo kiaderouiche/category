@@ -5,10 +5,13 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_KDE:=kronometer/2.2.3/src/}
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://download.kde.org/stable/kronometer/2.2.3/src/ # TODO: check
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=     kamelderouiche@yahoo.com
+HOMEPAGE=       https://userbase.kde.org/Kronometer
+COMMENT=        Stopwatch application by KDE
+LICENSE=        gnu-gpl-v2
 
-# url2pkg-marker (please do not remove this line.)
+USE_CMAKE=		yes
+USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c++
+
 .include "../../mk/bsd.pkg.mk"
