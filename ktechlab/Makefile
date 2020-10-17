@@ -19,6 +19,7 @@ BUILD_DEPENDS+= kdoctools>=5.19.0:../../devel/kdoctools
 DEPENDS+=	gpsim>=0.26.1:../../emulators/gpsim
 
 USE_CMAKE=	yes
+USE_TOOLS=      msgmerge
 USE_LANGUAGES=	c c++
 
 
