@@ -14,7 +14,14 @@ COMMENT=	IDE for microcontrollers and electronics
 LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/ktechlab-0.50.0
+
+BUILD_DEPENDS+= kdoctools>=5.19.0:../../devel/kdoctools
+
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../devel/kparts/buildlink3.mk"
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
