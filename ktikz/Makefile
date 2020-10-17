@@ -10,7 +10,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fhackenberger/ktikz/
-COMMENT=	KtikZ provides a nice user interface for making pictures using TikZ
+COMMENT=	Provides a nice user interface for making pictures using TikZ
 LICENSE=	gnu-gpl-v2
 
 WRKSRC=			${WRKDIR}/ktikz-0.12
