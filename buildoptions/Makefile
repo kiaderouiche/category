@@ -4,7 +4,7 @@ PKGNAME=	buildoptions-0.1
 CATEGORIES=	pkgtools sysutils
 
 MAINTAINER=	kamelderouiche@yahoo.com
-COMMENT=	Shell script to help creating buildoptions files
+COMMENT=	Shell script to help creating options files
 LICENSE=	original-bsd
 
 WRKSRC=		${WRKDIR}
