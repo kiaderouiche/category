@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/KDE/ktechlab/
+HOMEPAGE=	https://userbase.kde.org/KTechlab
 COMMENT=	IDE for microcontrollers and electronics
 LICENSE=	gnu-gpl-v2
 
