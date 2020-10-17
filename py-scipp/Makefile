@@ -2,11 +2,10 @@
 
 GITHUB_PROJECT=	scipp
 GITHUB_TAG=	0.4.0
-DISTNAME=	0.4.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
+DISTNAME=	${GITHUB_TAG}
+PKGNAME=	${PYPKGPREFIX}-${GITHUB_PROJECT}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_GITHUB:=scipp/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/scipp/scipp/
@@ -15,7 +14,11 @@ COMMENT=	TODO: Short description of the package
 
 WRKSRC=		${WRKDIR}/scipp-0.4.0
 
+DEPENDS+=       ${PYPKGPREFIX}-ipython>=7.18.1:../../devel/py-ipython
+DEPENDS+=	${PYPKGPREFIX}-pybind11>=:../../devel/py-pybind11
+
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
