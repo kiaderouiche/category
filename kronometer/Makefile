@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/kronometer/
 COMMENT=	Stopwatch application by KDE
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/kronometer-2.2.3
 
