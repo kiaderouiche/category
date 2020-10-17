@@ -34,5 +34,6 @@ USE_LANGUAGES=	c c++
 .include "../../www/khtml/buildlink3.mk"
 .include "../../x11/ktextwidgets/buildlink3.mk"
 .include "../../x11/kxmlgui/buildlink3.mk"
+.include "../../x11/kwidgetsaddons/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
