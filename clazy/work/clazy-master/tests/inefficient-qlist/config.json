@@ -1,0 +1,8 @@
+{
+    "tests" : [
+        {
+            "filename" : "main.cpp",
+            "should_run_on_32bit" : false
+        }
+    ]
+}

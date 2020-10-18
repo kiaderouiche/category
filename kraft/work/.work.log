@@ -1,0 +1,70 @@
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/kraft/work/.tools/bin/true
+<.> true 
+[*] cc -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] cc -print-sysroot
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/gcc -fcommon -m64 -print-sysroot -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -print-sysroot
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -print-sysroot -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_f1c50.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_f1c50.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCCompilerABI.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_f1c50.dir/CMakeCCompilerABI.c.o -o cmTC_f1c50
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_f1c50.dir/CMakeCCompilerABI.c.o -o cmTC_f1c50 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_8b639.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_8b639.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_8b639.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8b639
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_8b639.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8b639 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_cae17.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/kraft/work/kraft-0.95/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_cae17.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/kraft/work/kraft-0.95/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_cae17.dir/CheckSymbolExists.c.o -o cmTC_cae17
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_cae17.dir/CheckSymbolExists.c.o -o cmTC_cae17 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -O2 -D_FORTIFY_SOURCE=2 -D_OFFT_IS_64BIT -o CMakeFiles/cmTC_faf5a.dir/src.cxx.o -c /usr/pkgsrc/category/kraft/work/kraft-0.95/CMakeFiles/CMakeTmp/src.cxx
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -O2 -D_FORTIFY_SOURCE=2 -D_OFFT_IS_64BIT -o CMakeFiles/cmTC_faf5a.dir/src.cxx.o -c /usr/pkgsrc/category/kraft/work/kraft-0.95/CMakeFiles/CMakeTmp/src.cxx -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -D_OFFT_IS_64BIT -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_faf5a.dir/src.cxx.o -o cmTC_faf5a
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -D_OFFT_IS_64BIT -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_faf5a.dir/src.cxx.o -o cmTC_faf5a -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -DHAVE_DATE_TIME -Wdate-time -o CMakeFiles/cmTC_f23ce.dir/src.cxx.o -c /usr/pkgsrc/category/kraft/work/kraft-0.95/CMakeFiles/CMakeTmp/src.cxx
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -DHAVE_DATE_TIME -Wdate-time -o CMakeFiles/cmTC_f23ce.dir/src.cxx.o -c /usr/pkgsrc/category/kraft/work/kraft-0.95/CMakeFiles/CMakeTmp/src.cxx -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -DHAVE_DATE_TIME -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_f23ce.dir/src.cxx.o -o cmTC_f23ce
+<.> /usr/pkgsrc/category/kraft/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -DHAVE_DATE_TIME -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_f23ce.dir/src.cxx.o -o cmTC_f23ce -fstack-protector -I/usr/pkgsrc/category/kraft/work/.buildlink/include

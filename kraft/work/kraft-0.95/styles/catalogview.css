@@ -1,0 +1,30 @@
+
+* { 
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h2 {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+tr {
+}
+
+td.bigfont {
+  font-size: x-large;
+  color: #323432;
+  font-weight: bold;
+  background: #dffdd0;
+  padding-right: 20px;
+}
+
+td.sub {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  font-size: small;
+}

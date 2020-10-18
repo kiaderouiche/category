@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# ELF Dissector
+
+Static analysis tool for ELF libraries and executables.
+
+## Main Use-Cases
+
+ELF Dissector is useful if you need to do one or more of the following tasks:
+
+* Inspecting forward and backward dependencies, on library and symbol level.
+* Identifying load-time performance bottlenecks such as expensive static constructors or excessive relocations.
+* Size profiling of ELF files.
+
+## Features
+
+* ELF structure browser.
+* Tree map visualization of the size of the various parts of an ELF file.
+* Relocation heatmap.
+* Built-in disassmbler for x86 and AArch64.
+* Browser for data type memory layouts extracted from DWARF debug information.
+* Forward and backward dependency viewer.
+...

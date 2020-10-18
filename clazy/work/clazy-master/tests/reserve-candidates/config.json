@@ -1,0 +1,12 @@
+{
+    "blacklist_platforms" : ["darwin"],
+    "tests" : [
+        {
+            "filename" : "main.cpp"
+        },
+        {
+            "filename" : "main2.cpp",
+            "minimum_qt_version" : 50300
+        }
+    ]
+}

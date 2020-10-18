@@ -1,0 +1,32 @@
+body { margin:20px; 
+       background-image:url(pics/docoverviewbg.png);
+       color: #4e4e4e;
+       font-size:x-small;
+       font-family: 'Source Sans Pro', sans-serif;
+}
+
+td { 
+  vertical-align:top;
+}
+
+div {
+  border-style:none;
+  border-width:0px;
+  border-color:#00008B;
+  margin: 1px 0px 1px 0px;
+  padding: 1px;
+}
+
+.negative {
+  color: #800040;
+}
+
+.positive {
+
+}
+
+div.header {
+  margin-top: 120;
+  margin-bottom: 20px;
+  vertical-align:bottom;
+}

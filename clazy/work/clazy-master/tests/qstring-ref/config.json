@@ -1,0 +1,10 @@
+{
+    "tests" : [
+        {
+            "filename" : "main.cpp"
+        },
+        {
+            "filename" : "bug376737.cpp"
+        }
+    ]
+}
