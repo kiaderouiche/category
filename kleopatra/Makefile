@@ -1,8 +1,8 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	kleopatra
-GITHUB_TAG=	v20.08.1
-DISTNAME=	v20.08.1
+GITHUB_TAG=	v20.08.2
+DISTNAME=	v20.08.2
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
@@ -13,7 +13,7 @@ HOMEPAGE=	https://github.com/KDE/kleopatra/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/kleopatra-20.08.1
+WRKSRC=		${WRKDIR}/kleopatra-20.08.2
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
