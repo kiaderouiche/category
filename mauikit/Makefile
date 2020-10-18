@@ -2,16 +2,17 @@
 
 DISTNAME=	mauikit-v1.1.1
 PKGNAME=	${DISTNAME:S,-v,-,}
-CATEGORIES=	category
+CATEGORIES=	multimedia
 MASTER_SITES=	https://invent.kde.org/maui/mauikit/-/archive/v1.1.1/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://invent.kde.org/maui/mauikit/-/archive/v1.1.1/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://mauikit.org/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 USE_CMAKE=	yes
-USE_LANGUAGES=	c++
+USE_LANGUAGES=	c c++
 
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
