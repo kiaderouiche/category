@@ -1,22 +1,16 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	kproperty
-GITHUB_TAG=	v3.2.0
-DISTNAME=	${GITHUB_TAG}
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+DISTNAME=	kproperty-3.0.0.tar.xz
+CATEGORIES=	category
+MASTER_SITES=	${MASTER_SITE_KDE:=kproperty/src/}
+EXTRACT_SUFX=	.mirrorlist
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/KDE/kproperty/
-COMMENT=	Editing framework with an editor widget similar to Qt Designer 
-LICENSE=	gnu-gpl-v2
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://download.kde.org/stable/kproperty/src/ # TODO: check
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/kproperty-3.2.0
+WRKSRC=		${WRKDIR}
+USE_LANGUAGES=	# none
 
-USE_CMAKE=	yes
-USE_LANGUAGES=	c c++
-
-.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

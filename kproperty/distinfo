@@ -1,7 +1,7 @@
 $NetBSD$
 
-SHA1 (kproperty/v3.2.0.tar.gz) = be0f083be404f3266fb1e66bd9b4ffa4791c5605
-RMD160 (kproperty/v3.2.0.tar.gz) = b04f47c2d608295709c3ee6217ae6b461099e27b
-SHA512 (kproperty/v3.2.0.tar.gz) = b49b67c6421d547ffc3917490e43917c4d438b02b0275227c11fbadca40cc0bb7fef3646d460f6a67fbcb279e4c830b19379b12d326a97011b83d3cd5eec4586
-Size (kproperty/v3.2.0.tar.gz) = 137676 bytes
+SHA1 (kproperty-3.0.0.tar.xz.mirrorlist) = 523572a03c361f9a2bd7ff90420e2c8cbfd5d631
+RMD160 (kproperty-3.0.0.tar.xz.mirrorlist) = dd01b9dc43b2ec6f74d6e7ac52067175d6761c10
+SHA512 (kproperty-3.0.0.tar.xz.mirrorlist) = a0fdbd66980d16d983f8877692480f034960fd74290c67be55d4da1f34e73102ffd6c01c97f269213c576e3f4fdafaed951883cabc98e3666f6152830758f623
+Size (kproperty-3.0.0.tar.xz.mirrorlist) = 12916 bytes
 SHA1 (patch-src_Messages.sh) = 4589d4b74364c5cc5fac02152d6700509a5e5255
