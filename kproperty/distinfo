@@ -4,3 +4,4 @@ SHA1 (kproperty/v3.2.0.tar.gz) = be0f083be404f3266fb1e66bd9b4ffa4791c5605
 RMD160 (kproperty/v3.2.0.tar.gz) = b04f47c2d608295709c3ee6217ae6b461099e27b
 SHA512 (kproperty/v3.2.0.tar.gz) = b49b67c6421d547ffc3917490e43917c4d438b02b0275227c11fbadca40cc0bb7fef3646d460f6a67fbcb279e4c830b19379b12d326a97011b83d3cd5eec4586
 Size (kproperty/v3.2.0.tar.gz) = 137676 bytes
+SHA1 (patch-src_Messages.sh) = 4589d4b74364c5cc5fac02152d6700509a5e5255

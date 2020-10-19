@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/qxmpp-project/qxmpp/
 COMMENT=	XMPP client library based on Qt and C++
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/qxmpp-1.3.1
 

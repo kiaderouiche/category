@@ -18,5 +18,7 @@ WRKSRC=		${WRKDIR}/liquidshell-1.7.1
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../devel/kcrash/buildlink3.mk"
+.include "../../devel/kio/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
