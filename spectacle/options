@@ -1,0 +1,35 @@
+# $NetBSD$
+# XXX
+# XXX This file was created automatically using pkgoptions-1.0.
+# XXX After this file has been verified as correct, the comment lines
+# XXX beginning with "XXX" should be removed.  Please do not commit
+# XXX unverified options.mk files.
+# XXX
+# XXX
+
+## .endif
+##
+## option3 SUPPORT
+##
+.if !empty(PKG_OPTIONS:Moption3)
+.   include "../../category/option3/buildlink3.mk"
+CONFIGURE_ARGS+=    --with-option3
+.else
+CONFIGURE_ARGS+=    --without-option3
+.endif
+BUILDLINK_PKGSRCDIR.spectacle?=	../../category/spectacle
+
+# XXX
+# XXX Uncomment and keep only the buildlink3 lines below which are directly
+# XXX needed for dependencies to compile, link, and run.  If this package
+# XXX provides a wrappered API or otherwise does not expose the APIs of the
+# XXX buildlink3 lines below to dependencies, remove them.
+# XXX
+#.include "../../devel/kio/buildlink3.mk"
+#.include "../../devel/knotifications/buildlink3.mk"
+#.include "../../x11/qt5-qtsvg/buildlink3.mk"
+#.include "../../x11/libxcb/buildlink3.mk"
+#.include "../../x11/xcb-util-cursor/buildlink3.mk"
+#.include "../../x11/xcb-util-image/buildlink3.mk"
+#.include "../../x11/xcb-util/buildlink3.mk"
+#.include "../../x11/qt5-qtbase/buildlink3.mk"
