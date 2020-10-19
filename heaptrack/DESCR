@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# heaptrack - a heap memory profiler for Linux
+
+![heaptrack_gui summary page](screenshots/gui_summary.png?raw=true "heaptrack_gui summary page")
+
+Heaptrack traces all memory allocations and annotates these events with stack traces.
+Dedicated analysis tools then allow you to interpret the heap memory profile to:
+
+- find hotspots that need to be optimized to reduce the **memory footprint** of your application
+- find **memory leaks**, i.e. locations that allocate memory which is never deallocated
+- find **allocation hotspots**, i.e. code locations that trigger a lot of memory allocation calls
+- find **temporary allocations**, which are allocations that are directly followed by their deallocation
+
+## Using heaptrack
+
+The recommended way is to launch your application and start tracing from the beginning:
+
+    heaptrack <your application and its parameters>
+
+    heaptrack output will be written to "/tmp/heaptrack.APP.PID.gz"
+    starting application, this might take some time...
+...

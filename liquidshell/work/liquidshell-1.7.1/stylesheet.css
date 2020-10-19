@@ -1,0 +1,53 @@
+/* some examples ...
+
+DesktopPanel
+{
+  min-height: 65px;
+  max-height: 65px;
+}
+
+ClockWidget QLabel#time
+{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+ClockWidget
+{
+  qproperty-dayFormat: "dddd";
+  qproperty-dateFormat: "dd.MM.yyyy";
+}
+
+SysLoad
+{
+  qproperty-cpuUserColor: orange;
+  qproperty-cpuSystemColorColor: red;
+  qproperty-cpuNiceColorColor: yellow;
+  qproperty-cpuSummaryBar: true;
+
+  qproperty-memUsedColor: blue;
+  qproperty-memCachedColor: darkGreen;
+  qproperty-memSwapColor: cyan;
+
+  qproperty-netReceivedColor: green;
+  qproperty-netSentColor: red;
+}
+
+StartMenu
+{
+  qproperty-themeIcon: "start-here-kde"
+}
+
+WeatherApplet
+{
+  background: rgba(32, 56, 92, 75%);
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+WeatherApplet QLabel#city
+{
+  font-size: 28px;
+}
+*/

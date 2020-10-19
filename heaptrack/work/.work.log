@@ -1,0 +1,136 @@
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/heaptrack/work/.tools/bin/true
+<.> true 
+[*] cc -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -print-sysroot
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -print-sysroot -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -print-sysroot
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -print-sysroot -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_8aed6.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_8aed6.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCCompilerABI.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_8aed6.dir/CMakeCCompilerABI.c.o -o cmTC_8aed6
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_8aed6.dir/CMakeCCompilerABI.c.o -o cmTC_8aed6 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_7f7a4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_7f7a4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_7f7a4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7f7a4
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v -rdynamic CMakeFiles/cmTC_7f7a4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7f7a4 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_e87fc.dir/CheckIncludeFile.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_e87fc.dir/CheckIncludeFile.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_e87fc.dir/CheckIncludeFile.c.o -o cmTC_e87fc
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_e87fc.dir/CheckIncludeFile.c.o -o cmTC_e87fc -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_5ef28.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_5ef28.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_5ef28.dir/src.c.o -o cmTC_5ef28
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_5ef28.dir/src.c.o -o cmTC_5ef28 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e69fa.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e69fa.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_e69fa.dir/CheckFunctionExists.c.o -o cmTC_e69fa -lpthreads
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_e69fa.dir/CheckFunctionExists.c.o -o cmTC_e69fa -lpthreads -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e6344.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e6344.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_e6344.dir/CheckFunctionExists.c.o -o cmTC_e6344 -lpthread
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_e6344.dir/CheckFunctionExists.c.o -o cmTC_e6344 -lpthread -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_CXX11_SUPPORT -o CMakeFiles/cmTC_79fb4.dir/src.cxx.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.cxx
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_CXX11_SUPPORT -o CMakeFiles/cmTC_79fb4.dir/src.cxx.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.cxx -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_CXX11_SUPPORT -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_79fb4.dir/src.cxx.o -o cmTC_79fb4
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_CXX11_SUPPORT -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_79fb4.dir/src.cxx.o -o cmTC_79fb4 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_97aed.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_97aed.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_362c9.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_362c9.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_362c9.dir/CheckSymbolExists.c.o -o cmTC_362c9
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_362c9.dir/CheckSymbolExists.c.o -o cmTC_362c9 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_LINUX_HEADERS -o CMakeFiles/cmTC_8bfb7.dir/src.cxx.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.cxx
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_LINUX_HEADERS -o CMakeFiles/cmTC_8bfb7.dir/src.cxx.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.cxx -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_LINUX_HEADERS -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_8bfb7.dir/src.cxx.o -o cmTC_8bfb7
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -std=c++11 -Wall -Wpedantic -DHAVE_LINUX_HEADERS -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_8bfb7.dir/src.cxx.o -o cmTC_8bfb7 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DFLAG_UNWIND_TABLES -funwind-tables -o CMakeFiles/cmTC_7fdc7.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DFLAG_UNWIND_TABLES -funwind-tables -o CMakeFiles/cmTC_7fdc7.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DFLAG_UNWIND_TABLES -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_7fdc7.dir/src.c.o -o cmTC_7fdc7
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DFLAG_UNWIND_TABLES -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_7fdc7.dir/src.c.o -o cmTC_7fdc7 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DHAVE_SYNC_FUNCTIONS -o CMakeFiles/cmTC_6bcbd.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DHAVE_SYNC_FUNCTIONS -o CMakeFiles/cmTC_6bcbd.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DHAVE_SYNC_FUNCTIONS -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_6bcbd.dir/src.c.o -o cmTC_6bcbd
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DHAVE_SYNC_FUNCTIONS -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_6bcbd.dir/src.c.o -o cmTC_6bcbd -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DHAVE_ATOMIC_FUNCTIONS -o CMakeFiles/cmTC_5429e.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DHAVE_ATOMIC_FUNCTIONS -o CMakeFiles/cmTC_5429e.dir/src.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/src.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DHAVE_ATOMIC_FUNCTIONS -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_5429e.dir/src.c.o -o cmTC_5429e
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DHAVE_ATOMIC_FUNCTIONS -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_5429e.dir/src.c.o -o cmTC_5429e -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_d93d8.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_d93d8.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_d93d8.dir/CheckSymbolExists.c.o -o cmTC_d93d8
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_d93d8.dir/CheckSymbolExists.c.o -o cmTC_d93d8 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_8aec3.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_8aec3.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_8aec3.dir/CheckSymbolExists.c.o -o cmTC_8aec3
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_8aec3.dir/CheckSymbolExists.c.o -o cmTC_8aec3 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_d4ba5.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_d4ba5.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_d4ba5.dir/CheckSymbolExists.c.o -o cmTC_d4ba5
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_d4ba5.dir/CheckSymbolExists.c.o -o cmTC_d4ba5 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_5334f.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_5334f.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_5334f.dir/CheckSymbolExists.c.o -o cmTC_5334f
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_5334f.dir/CheckSymbolExists.c.o -o cmTC_5334f -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_518bb.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_518bb.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_518bb.dir/CheckSymbolExists.c.o -o cmTC_518bb
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_518bb.dir/CheckSymbolExists.c.o -o cmTC_518bb -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_a040b.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_a040b.dir/CheckSymbolExists.c.o -c /usr/pkgsrc/category/heaptrack/work/heaptrack-1.2.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_a040b.dir/CheckSymbolExists.c.o -o cmTC_a040b
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_a040b.dir/CheckSymbolExists.c.o -o cmTC_a040b -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_0aa8e.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_0aa8e.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=fcntl -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_0aa8e.dir/CheckFunctionExists.c.o -o cmTC_0aa8e
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=fcntl -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_0aa8e.dir/CheckFunctionExists.c.o -o cmTC_0aa8e -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=strnlen -o CMakeFiles/cmTC_2f5b8.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=strnlen -o CMakeFiles/cmTC_2f5b8.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=strnlen -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_2f5b8.dir/CheckFunctionExists.c.o -o cmTC_2f5b8
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=strnlen -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_2f5b8.dir/CheckFunctionExists.c.o -o cmTC_2f5b8 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=getexecname -o CMakeFiles/cmTC_d4c0b.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -D_GNU_SOURCE -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=getexecname -o CMakeFiles/cmTC_d4c0b.dir/CheckFunctionExists.c.o -c /usr/pkg/share/cmake-3.18/Modules/CheckFunctionExists.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=getexecname -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -rdynamic CMakeFiles/cmTC_d4c0b.dir/CheckFunctionExists.c.o -o cmTC_d4c0b
+<.> /usr/pkgsrc/category/heaptrack/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=getexecname -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -rdynamic CMakeFiles/cmTC_d4c0b.dir/CheckFunctionExists.c.o -o cmTC_d4c0b -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/heaptrack/work/.buildlink/include
