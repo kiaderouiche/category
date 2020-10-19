@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Build Status](https://github.com/nu-book/zxing-cpp/workflows/CI/badge.svg?branch=master)](https://github.com/nu-book/zxing-cpp/actions?query=workflow%3ACI)
+
+# ZXing-C++
+
+This project is a C++ port of [ZXing Library](https://github.com/zxing/zxing).
+
+## Features
+
+* In pure C++14, no third-party dependencies
+* Stateless, thread-safe readers/generators
+* Wrapper to create WinRT component
+* Wrapper for Android
+* Wrapper for WebAssembly
+* Python binding
+
+## Supported Formats
+
+Same as ZXing, following barcode are supported:
+
+| 1D product | 1D industrial | 2D
+...

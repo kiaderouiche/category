@@ -1,5 +1,0 @@
-File=databasesettings.kcfg
-ClassName=DatabaseSettings
-Singleton=true
-Mutators=true
-

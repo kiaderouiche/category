@@ -5,7 +5,7 @@ CATEGORIES=	print
 MASTER_SITES=	https://netix.dl.sourceforge.net/project/klatexformula/klatexformula/klatexformula-4.1.0/
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://klatexformula.sourceforge.io
+HOMEPAGE=	https://klatexformula.sourceforge.io/
 COMMENT=	Convert LaTeX formula to image
 LICENSE=	gnu-gpl-v2
 
