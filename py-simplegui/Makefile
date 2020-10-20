@@ -7,7 +7,7 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/85/12/2233fc192c2b4f219198
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/PySimpleGUI/PySimpleGUI
-COMMENT=	GUI SDK Launched in 2018. It's 2020 and PySimpleGUI is actively developed and supported. 
+COMMENT=	 
 #LICENSE=	# TODO: (see mk/license.mk)
 
 DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
