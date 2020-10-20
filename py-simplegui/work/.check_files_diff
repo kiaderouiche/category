@@ -1,0 +1,13 @@
+--- /usr/pkgsrc/category/py-simplegui/work/.prefix.pre	2020-10-20 15:41:51.760386779 +0100
++++ /usr/pkgsrc/category/py-simplegui/work/.prefix.post	2020-10-20 15:42:05.336770626 +0100
+@@ -0,0 +1,10 @@
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI-4.30.0-py3.7.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI-4.30.0-py3.7.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI-4.30.0-py3.7.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI-4.30.0-py3.7.egg-info/top_level.txt
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI/__init__.py
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI/__pycache__/__init__.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI/__pycache__/__init__.cpython-37.pyc
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI/__pycache__/PySimpleGUI.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI/__pycache__/PySimpleGUI.cpython-37.pyc
++/usr/pkgsrc/category/py-simplegui/work/.destdir/usr/pkg/lib/python3.7/site-packages/PySimpleGUI/PySimpleGUI.py
