@@ -77,11 +77,11 @@ commons=`grep '^.include.*Makefile.common\"' $MAKEFILE |		\
 ## package specific variables
 ##
 CURDIR=`pwd | sed 's|^.*/\([^/]*/[^/]*\)$|\1|'`
-PKGNAME=`@MAKE@ show-var VARNAME=PKGNAME`
+PKGNAME=`/usr/bin/bmake show-var VARNAME=PKGNAME`
 PKGVER=`echo $PKGNAME | sed -e 's/^.*-//'`
 PKGNOVER=`echo $PKGNAME | sed -e 's/-[^-]*$//'`
 PKGUPPER=`echo $PKGNOVER | tr '[:lower:]' '[:upper:]' | tr - _`
-GO_PACKAGE=`@MAKE@ show-var VARNAME=GO_SRCPATH`
+GO_PACKAGE=`/usr/bin/bmake show-var VARNAME=GO_SRCPATH`
 PREFIX=LOCALBASE
 
 ##
@@ -102,7 +102,7 @@ echo >>$sedrules "s|@@REV@@|$REV|g"
 sed -f $sedrules <<EOF
 # @@ID@@
 # XXX
-# XXX This file was created automatically using pkgoptions-@PKGVERSION@.
+# XXX This file was created automatically using pkgoptions-0.1.
 # XXX After this file has been verified as correct, the comment lines
 # XXX beginning with "XXX" should be removed.  Please do not commit
 # XXX unverified options.mk files.
