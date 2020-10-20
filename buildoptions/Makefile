@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.56 2020/05/16 06:28:52 rillig Exp $
 
-PKGNAME=	buildoptions-0.1
+PKGNAME=	buildoptions-0.2
 CATEGORIES=	pkgtools sysutils
 
 MAINTAINER=	kamelderouiche@yahoo.com

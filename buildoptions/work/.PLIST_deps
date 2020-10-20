@@ -1,4 +1,4 @@
-@name buildoptions-0.1
+@name buildoptions-0.2
 @blddep cwrappers-20180325
 @comment $NetBSD$
 bin/buildoptions

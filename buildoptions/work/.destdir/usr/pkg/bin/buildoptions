@@ -97,12 +97,12 @@ echo >>$sedrules "s|@@PREFIX@@|$PREFIX|g"
 echo >>$sedrules "s|@@REV@@|$REV|g"
 
 #
-# buildlink header
+# options header
 #
 sed -f $sedrules <<EOF
 # @@ID@@
 # XXX
-# XXX This file was created automatically using pkgoptions-0.1.
+# XXX This file was created automatically using pkgoptions-0.2.
 # XXX After this file has been verified as correct, the comment lines
 # XXX beginning with "XXX" should be removed.  Please do not commit
 # XXX unverified options.mk files.
@@ -121,10 +121,6 @@ done
 
 
 sed -f $sedrules <<EOF
-# @@ID@@
-# XXX
-# XXX Please replace word option1, 2, ... by options package.
-# XXX
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.$PKGNOVER
 PKG_SUPPORTED_OPTIONS=	 option1 option2 option3
@@ -147,8 +143,21 @@ CONFIGURE_ARGS+=		--enable-option1
 ## option2 SUPPORT
 ##
 .if !empty(PKG_OPTIONS:option2)
-.   include "../../category/option2/buildlink3.mk"
-.   include "../../category/option21/buildlink3.mk"
+sed -f $sedrules <<EOF
+BUILDLINK_PKGSRCDIR.$PKGNOVER?=	../../$CURDIR
+EOF
+
+if [ $CREATEPLSUBST = "true" ]; then
+	echo ""
+	substplistbasedirs
+	echo ""
+fi
+
+for i in $MAKEFILE $commons ; do
+	[ ! -f $i ] || grep '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $i |
+		egrep -v '/devel/pkg-config/|/textproc/intltool/|/graphics/hicolor-icon-theme/' | sed 's,^,#,'
+done
+
 .endif
 
 
