@@ -7,10 +7,12 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/85/12/2233fc192c2b4f219198
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/PySimpleGUI/PySimpleGUI
-COMMENT=	GUI SDK Launched in 2018. It's 2020 and PySimpleGUI is actively developed and supported. Super-simple to create custom GUI's. 200+ Demo programs & Cookbook for rapid start. Extensive documentation. Main doc is www.PySimpleGUI.org.  Examples using Machine Learning(GUI, OpenCV Integration,  Chatterbot), Rainmeter Style Floating Desktop Widgets, Matplotlib + Pyplot integration, add GUI to command line scripts, PDF & Image Viewer. Great for beginners as well as advanced GUI programmers
+COMMENT=	GUI SDK Launched in 2018. It's 2020 and PySimpleGUI is actively developed and supported. 
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
