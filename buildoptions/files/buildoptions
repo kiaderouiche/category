@@ -52,7 +52,8 @@ while [ $# -gt 0 ]; do
 		CREATEPLSUBST=true
 		shift;;
     -v)
-        Version();;
+        Version()
+        ;;
 	--)
 		shift; break
 		;;
@@ -99,8 +100,9 @@ echo >>$sedrules "s|@@PREFIX@@|$PREFIX|g"
 echo >>$sedrules "s|@@REV@@|$REV|g"
 
 Version(){
-    echo "0.2"
+    echo $REV
 }
+
 #
 # options header
 #

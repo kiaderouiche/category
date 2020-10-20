@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+![Kedro Logo Banner](https://raw.githubusercontent.com/quantumblacklabs/kedro/develop/static/img/kedro_banner.png)
+
+-----------------
+
+| Theme | Status |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Python Version | [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue.svg)](https://pypi.org/project/kedro/) |
+| Latest PyPI Release | [![PyPI version](https://badge.fury.io/py/kedro.svg)](https://pypi.org/project/kedro/) |
+| Latest Conda Release | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kedro.svg)](https://anaconda.org/conda-forge/kedro) |
+| `master` Branch Build | [![CircleCI](https://circleci.com/gh/quantumblacklabs/kedro/tree/master.svg?style=shield)](https://circleci.com/gh/quantumblacklabs/kedro/tree/master) |
+| `develop` Branch Build | [![CircleCI](https://circleci.com/gh/quantumblacklabs/kedro/tree/develop.svg?style=shield)](https://circleci.com/gh/quantumblacklabs/kedro/tree/develop) |
+| Documentation Build | [![Documentation](https://readthedocs.org/projects/kedro/badge/?version=latest)](https://kedro.readthedocs.io/) |
+| License | [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
+| Code Style | [![Code Style: Black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/ambv/black) |
+| Questions | [![Questions: Stackoverflow "kedro"](https://img.shields.io/badge/stackoverflow%20tag-kedro-yellow)](https://stackoverflow.com/questions/tagged/kedro) |
+
+
+## What is Kedro?
+
+> "The centre of your data pipeline."
+...

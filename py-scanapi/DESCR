@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+![](https://github.com/scanapi/design/raw/master/images/github-hero-dark.png)
+
+<p align="center">
+  <a href="https://app.circleci.com/pipelines/github/scanapi/scanapi?branch=master">
+    <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/scanapi/scanapi">
+  </a>
+  <a href="https://codecov.io/gh/scanapi/scanapi">
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/github/scanapi/scanapi">
+  </a>
+  <a href="https://badge.fury.io/py/scanapi">
+    <img alt="PyPI version" src="https://badge.fury.io/py/scanapi.svg">
+  </a>
+  <a href="https://spectrum.chat/scanapi">
+    <img alt="Join the community on Spectrum" src="https://withspectrum.github.io/badge/badge.svg" />
+  </a>
+</p>
+
+A library for **your API** that provides:
+
+- Automated Integration Testing
+...
