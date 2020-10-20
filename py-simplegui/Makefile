@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/PySimpleGUI/PySimpleGUI
 COMMENT=	GUI SDK Launched in 2018. It's 2020 and PySimpleGUI is actively developed and supported. 
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*../../x11/py-Tk
+DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
