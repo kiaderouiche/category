@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/buildoptions
-bin/substplistbasedirs
-man/man8/buildoptions.8
