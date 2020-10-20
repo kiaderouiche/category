@@ -1,5 +1,0 @@
-
-include CHANGES.md
-include README.md
-include LICENSE
-global-exclude *.pyc

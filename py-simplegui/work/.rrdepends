@@ -1,6 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	checkperms>=1.1	checkperms-1.12
-build	cwrappers>=20150314	cwrappers-20180325
-full	py37-Tk-[0-9]*	py37-Tk-3.7.9nb6
-full	py37-setuptools-[0-9]*	py37-setuptools-50.3.0
-full	python37>=3.7	python37-3.7.9nb1
