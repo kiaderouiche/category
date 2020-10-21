@@ -102,7 +102,6 @@ echo >>$sedrules "s|@@REV@@|$REV|g"
 Version(){
     echo $REV
 }
-
 #
 # options header
 #
