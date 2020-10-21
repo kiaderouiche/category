@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# pySBD: Python Sentence Boundary Disambiguation (SBD)
+
+![Python package](https://github.com/nipunsadvilkar/pySBD/workflows/Python%20package/badge.svg) [![codecov](https://codecov.io/gh/nipunsadvilkar/pySBD/branch/master/graph/badge.svg)](https://codecov.io/gh/nipunsadvilkar/pySBD) [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/nipunsadvilkar/pySBD/blob/master/LICENSE) [![PyPi](https://img.shields.io/pypi/v/pysbd?color=blue&logo=pypi&logoColor=white)](https://pypi.python.org/pypi/pysbd) [![GitHub](https://img.shields.io/github/v/release/nipunsadvilkar/pySBD.svg?include_prereleases&logo=github&style=flat)](https://github.com/nipunsadvilkar/pySBD)
+
+pySBD - python Sentence Boundary Disambiguation (SBD) - is a rule-based sentence boundary detection module that works out-of-the-box.
+
+This project is a direct port of ruby gem - [Pragmatic Segmenter](https://github.com/diasks2/pragmatic_segmenter) which provides rule-based sentence boundary detection.
+
+![pysbd_code](artifacts/pysbd_code.png?raw=true "pysbd_code")
+
+## Install
+
+**Python**
+
+    pip install pysbd
+
+## Usage
+
+-   Currently pySBD supports only English language. Support for more languages will be released soon.
+
+...
