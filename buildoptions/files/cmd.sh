@@ -1,64 +1,26 @@
-#!/bin/bash
-
-# filename: commandLine.sh
-# author: @theBuzzyCoder
-
-showHelp() {
-# `cat << EOF` This means that cat should stop reading when EOF is detected
-cat << EOF  
-Usage: ./installer -v <espo-version> [-hrV]
-Install Pre-requisites for EspoCRM with docker in Development mode
-
--h, -help,          --help                  Display help
-
--v, -espo-version,  --espo-version          Set and Download specific version of EspoCRM
-
--r, -rebuild,       --rebuild               Rebuild php vendor directory using composer and compiled css using grunt
-
--V, -verbose,       --verbose               Run script in verbose mode. Will print out each step of execution.
-
-EOF
-# EOF is found above and hence cat command stops reading. This is equivalent to echo but much neater when printing out.
+#!/bin/sh
+#
+usage(){
+    echo $"Usage: $0 [-v <15|75>] [-p <chaine de string>]"
+    1>&2 exit1;
 }
 
-
-export version=0
-export verbose=0
-export rebuilt=0
-
-# $@ is all command line parameters passed to the script.
-# -o is for short options like -v
-# -l is for long options with double dash like --version
-# the comma separates different long options
-# -a is for long options with single dash like -version
-options=$(getopt -l "help,version:,verbose,rebuild,dryrun" -o "hv:Vrd" -a -- "$@")
-
-# set --:
-# If no arguments follow this option, then the positional parameters are unset. Otherwise, the positional parameters 
-# are set to the arguments, even if some of them begin with a ‘-’.
-eval set -- "$options"
-
-while true
-do
-case $1 in
--h|--help) 
-    showHelp
-    exit 0
+while getopts ":v:g:" option; do
+    case "${option}" in
+    v)
+        v=${OPTARG} 
+        ((v== 15 || v == 75)) || usage
+        ;;
+    g)
+    g=${OPTARG}
     ;;
--v|--version) 
-    shift
-    export version=$1
-    ;;
--V|--verbose)
-    export verbose=1
-    set -xv  # Set xtrace and verbose mode.
-    ;;
--r|--rebuild)
-    export rebuild=1
-    ;;
---)
-    shift
-    break;;
+    *)
+    usage;;
 esac
-shift
 done
+shift $((OPTIND-1))
+if [ -z "${v}"] || [ -z "${g}"] ; then
+    usage
+fi
+echo "v=${v}"
+echo "g=${g}"
