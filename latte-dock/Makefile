@@ -11,6 +11,7 @@ COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_CMAKE=	yes
-USE_LANGUAGES=	c++
+USE_LANGUAGES=	c c++
 
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

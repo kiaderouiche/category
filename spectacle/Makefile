@@ -19,6 +19,7 @@ USE_CMAKE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
+.include "../../devel/ki18n/buildlink3.mk"
 .include "../../devel/kio/buildlink3.mk"
 .include "../../devel/knotifications/buildlink3.mk"
 .include "../../devel/kservice/buildlink3.mk"
