@@ -2,7 +2,7 @@
 #
 usage(){
     echo $"Usage: $0 [-v <15|75>] [-p <chaine de string>]"
-    1>&2 exit1;
+    1>&2 exit 1;
 }
 
 while getopts ":v:g:" option; do

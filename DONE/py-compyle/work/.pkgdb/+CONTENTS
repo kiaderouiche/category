@@ -1,0 +1,19 @@
+@cwd /usr/pkg
+@name py37-compyle-0.7
+@blddep py37-mako-1.1.3nb1
+@pkgdep py37-mako>=1.1.3
+@blddep py37-pytools-2019.1.1
+@pkgdep py37-pytools-[0-9]*
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep py37-cython-0.29.21
+@pkgdep py37-cython>=0.12.1
+@blddep py37-numpy-1.19.2nb1
+@pkgdep py37-numpy>=1.19.2nb1
+@blddep digest-20190127
+@blddep py37-sphinx-2.4.4
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
