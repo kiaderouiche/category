@@ -8,7 +8,7 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/68/55/1e8d1dd068239cde9602
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://pypi.org/project/import-linter/
 COMMENT=	Enforces rules for the imports within and between Python packages
-LICENSE=	2-bsd-claused
+LICENSE=	2-clause-bsd
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
