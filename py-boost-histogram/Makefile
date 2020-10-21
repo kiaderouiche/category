@@ -1,13 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	boost-histogram-0.11.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/41/74/452f5d854d0dff178b81ddca6e94067e2f214a59a3a3debea1f0cbc3beee/
+MASTER_SITES=	${MASTER_SITE_PYPI:=b/boost-histogram/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/41/74/452f5d854d0dff178b81ddca6e94067e2f214a59a3a3debea1f0cbc3beee/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
