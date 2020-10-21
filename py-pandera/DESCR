@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+<br>
+<div align="center"><img src="https://raw.githubusercontent.com/pandera-dev/pandera/master/docs/source/_static/pandera-banner.png" width="400"></div>
+
+<hr>
+
+*A data validation library for scientists, engineers, and analysts seeking
+correctness.*
+
+<br>
+
+[![Build Status](https://travis-ci.org/pandera-dev/pandera.svg?branch=master)](https://travis-ci.org/pandera-dev/pandera)
+[![Documentation Status](https://readthedocs.org/projects/pandera/badge/?version=stable)](https://pandera.readthedocs.io/en/stable/?badge=stable)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/pandera.svg)](https://pypi.org/project/pandera/)
+[![PyPI license](https://img.shields.io/pypi/l/pandera.svg)](https://pypi.python.org/pypi/)
+[![pyOpenSci](https://tinyurl.com/y22nb8up)](https://github.com/pyOpenSci/software-review/issues/12)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Documentation Status](https://readthedocs.org/projects/pandera/badge/?version=latest)](https://pandera.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/pandera-dev/pandera/branch/master/graph/badge.svg)](https://codecov.io/gh/pandera-dev/pandera)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pandera.svg)](https://pypi.python.org/pypi/pandera/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3926689.svg)](https://doi.org/10.5281/zenodo.3926689)
+...

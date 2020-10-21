@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-kenv/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-kenv/work/kenv-0.1.9.31
-path=/usr/pkgsrc/category/py-kenv/work/.buildlink/bin:/usr/pkgsrc/category/py-kenv/work/.gcc/bin:/usr/pkgsrc/category/py-kenv/work/.tools/bin:/usr/pkg/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin:/usr/local/sbin
+path=/usr/pkgsrc/category/py-kenv/work/.buildlink/bin:/usr/pkgsrc/category/py-kenv/work/.gcc/bin:/usr/pkgsrc/category/py-kenv/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
 exec_path=/usr/pkgsrc/category/py-kenv/work/.cwrapper/bin/c++
 exec=/usr/pkgsrc/category/py-kenv/work/.compiler/bin/c++-fail-wrapper
 transform=L:/lib64/:
