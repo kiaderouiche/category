@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-import-linter/work/.prefix.pre	2020-10-21 10:08:52.604512294 +0100
-+++ /usr/pkgsrc/category/py-import-linter/work/.prefix.post	2020-10-21 10:08:55.340583919 +0100
+--- /usr/pkgsrc/category/py-import-linter/work/.prefix.pre	2020-10-21 10:51:14.782792705 +0100
++++ /usr/pkgsrc/category/py-import-linter/work/.prefix.post	2020-10-21 10:51:18.422903728 +0100
 @@ -0,0 +1,101 @@
 +/usr/pkgsrc/category/py-import-linter/work/.destdir/usr/pkg/bin/lint-imports
 +/usr/pkgsrc/category/py-import-linter/work/.destdir/usr/pkg/lib/python3.7/site-packages/import_linter-1.2-py3.7.egg-info/dependency_links.txt

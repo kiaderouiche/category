@@ -1,3 +1,4 @@
+PKG-INFO
 README.rst
 pyproject.toml
 setup.cfg
