@@ -15,8 +15,8 @@ DEPENDS+=	# TODO: cachetools~=4.1>=0
 DEPENDS+=	# TODO: click<8.0>=0
 DEPENDS+=	py-cookiecutter>=1.6.0,<1.7.0#1.7.1releasepinnedpython-slugifytobe>=4.0.0,whichconflictswithairflowsubdependencyinKedro-airflow:../../devel/py-cookiecutter
 DEPENDS+=	# TODO: fsspec>=0.5.1,<0.7.0#Thereisabreakingchangein0.7.0
-DEPENDS+=	py-jmespath>=0.9.5,<1.0:../../textproc/py-jmespath
-DEPENDS+=	py-jupyter_client>=5.1,<7.0:../../devel/py-jupyter_client
+DEPENDS+=	${PYPKGPREFIX}-jmespath>=0.9.5,<1.0:../../textproc/py-jmespath
+DEPENDS+=	${PYPKGPREFIX}-jupyter_client>=5.1,<7.0:../../devel/py-jupyter_client
 DEPENDS+=	# TODO: pip-tools~=5.0>=0
 DEPENDS+=	# TODO: pluggy~=0.13.0>=0
 DEPENDS+=	# TODO: python-json-logger~=0.1.9>=0
@@ -24,7 +24,7 @@ DEPENDS+=	# TODO: PyYAML>=4.2,<6.0
 DEPENDS+=	py-setuptools>=38.0:../../devel/py-setuptools
 DEPENDS+=	# TODO: toposort~=1.5#Needstobeatleast1.5tobeabletoraiseCircularDependencyError>=0
 TEST_DEPENDS+=	# TODO: adlfs~=0.2.4>=0
-TEST_DEPENDS+=	py-bandit>=1.6.2,<2.0:../../wip/py-bandit
+TEST_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.6.2,<2.0:../../wip/py-bandit
 TEST_DEPENDS+=	# TODO: behave==1.2.6>=0
 TEST_DEPENDS+=	# TODO: biopython~=1.73>=0
 TEST_DEPENDS+=	# TODO: black==v19.10.b0>=0
@@ -36,9 +36,9 @@ TEST_DEPENDS+=	# TODO: hdfs>=2.5.8,<3.0
 TEST_DEPENDS+=	# TODO: holoviews~=1.13.0>=0
 TEST_DEPENDS+=	# TODO: import-linter==1.0>=0
 TEST_DEPENDS+=	# TODO: ipython~=7.0>=0
-TEST_DEPENDS+=	py-joblib>=0.14:../../devel/py-joblib
-TEST_DEPENDS+=	py-matplotlib>=3.0.3,<4.0:../../graphics/py-matplotlib
-TEST_DEPENDS+=	py-memory_profiler>=0.50.0,<1.0:../../wip/py-memory_profiler
+TEST_DEPENDS+=	${PYPKGPREFIX}-joblib>=0.14:../../devel/py-joblib
+TEST_DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.0.3,<4.0:../../graphics/py-matplotlib
+TEST_DEPENDS+=	${PYPKGPREFIX}-memory_profiler>=0.50.0,<1.0:../../wip/py-memory_profiler
 TEST_DEPENDS+=	# TODO: moto==1.3.7>=0
 TEST_DEPENDS+=	# TODO: mypy<=1.0>=0
 TEST_DEPENDS+=	py-nbconvert>=5.3.1,<6.0:../../www/py-nbconvert
