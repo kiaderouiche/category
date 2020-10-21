@@ -1,8 +1,0 @@
-name: fsspec
-channels:
-  - defaults
-dependencies:
-  - python=3.7
-  - paramiko
-  - requests
-  - numpydoc

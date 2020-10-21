@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 usage(){
     echo $"Usage: $0 [-v <15|75>] [-p <chaine de string>]"
@@ -19,7 +19,7 @@ while getopts ":v:g:" option; do
 esac
 done
 shift $((OPTIND-1))
-if [ -z "${v}"] || [ -z "${g}"] ; then
+if [ -z "${v}" ] || [ -z "${g}" ] ; then
     usage
 fi
 echo "v=${v}"

@@ -3,7 +3,7 @@
 DISTNAME=	truffleHog3-2.0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/28/db/95047cf9db1ad454ddcee695db23ae02b3bd6f6c0156cf230322256b025d/
+MASTER_SITES=	${MASTER_SITE_PYPI:=m/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/feeltheajf/truffleHog3

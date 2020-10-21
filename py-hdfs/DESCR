@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# HdfsCLI [![Build badge](https://travis-ci.org/mtth/hdfs.png?branch=master)](https://travis-ci.org/mtth/hdfs) [![Pypi badge](https://badge.fury.io/py/hdfs.svg)](https://pypi.python.org/pypi/hdfs/) [![Downloads badge](https://img.shields.io/pypi/dm/hdfs.svg)](https://pypistats.org/packages/hdfs)
+
+API and command line interface for HDFS.
+
+```
+$ hdfscli --alias=dev
+
+Welcome to the interactive HDFS python shell.
+The HDFS client is available as `CLIENT`.
+
+In [1]: CLIENT.list('models/')
+Out[1]: ['1.json', '2.json']
+
+In [2]: CLIENT.status('models/2.json')
+Out[2]: {
+  'accessTime': 1439743128690,
+  'blockSize': 134217728,
+  'childrenNum': 0,
+  'fileId': 16389,
+  'group': 'supergroup',
+...

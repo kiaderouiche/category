@@ -1,9 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	py37-sphinx>=1.8.5	../../textproc/py-sphinx
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py37-mako>=1.1.3	../../devel/py-mako
-full	py37-pytools-[0-9]*	../../wip/py-pytools
-full	py37-setuptools-[0-9]*	../../devel/py-setuptools
-full	py37-cython>=0.12.1	../../devel/py-cython
-full	py37-numpy>=1.19.2nb1	../../math/py-numpy
