@@ -40,7 +40,7 @@ CREATEPLSUBST=false
 
 args=`getopt 3p $*`
 if [ $? != 0 ]; then
-	echo "Usage: $0 [-p] > options.mk"
+	echo "Usage: $0 [-p] >options.mk"
 	exit 2
 fi
 set -- $args
