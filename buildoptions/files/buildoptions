@@ -52,7 +52,7 @@ while [ $# -gt 0 ]; do
 		CREATEPLSUBST=true
 		shift;;
     -v)
-        Version()
+        Version
         shift;;
 	--)
 		shift; break
