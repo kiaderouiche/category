@@ -1,0 +1,10 @@
+@cwd /usr/pkg
+@name buildoptions-0.2
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/buildoptions
+@comment MD5:c8a6a0dee574dba8499d5bed4d259fb0
+bin/substplistbasedirs
+@comment MD5:9438c179508f208ec81fe7401269457a
+man/man8/buildoptions.8
+@comment MD5:1643f5387770cfe63007fd9ad5eaaeb8
