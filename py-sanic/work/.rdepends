@@ -1,0 +1,12 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	checkperms>=1.1	checkperms-1.12
+build	cwrappers>=20150314	cwrappers-20180325
+full	py37-multidict>=4.7.6	py37-multidict-4.7.6
+full	py37-aiofiles>=0.5.0	py37-aiofiles-0.5.0
+full	py37-uvloop>=0.14.0	py37-uvloop-0.14.0
+full	py37-ujson>=2.0.3	py37-ujson-2.0.3
+full	py37-httptools>=0.1.1	py37-httptools-0.1.1
+full	py37-httpx>=0.16.1	py37-httpx-0.16.1
+full	py37-websockets>=8.1	py37-websockets-8.1
+full	py37-setuptools-[0-9]*	py37-setuptools-50.3.0
+full	python37>=3.7	python37-3.7.9nb1

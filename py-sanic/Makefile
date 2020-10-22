@@ -1,13 +1,25 @@
 # $NetBSD$
 
-DISTNAME=	sanic-20.9.0
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/1a/60/3645ca33cd25e7b4941ea482db4249261a1aaff782d01c0579d2bde4e44a/
+VERS=		20.9.0
+DISTNAME=	sanic-${VERS}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	www
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/${DISTNAME:S/${VERS}//}/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/1a/60/3645ca33cd25e7b4941ea482db4249261a1aaff782d01c0579d2bde4e44a/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	http://github.com/huge-success/sanic/
+COMMENT=	Web server and web framework that's written to go fast
+LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
+DEPENDS+=	${PYPKGPREFIX}-multidict>=4.7.6:../../databases/py-multidict
+DEPENDS+=	${PYPKGPREFIX}-aiofiles>=0.5.0:../../devel/py-aiofiles
+DEPENDS+=	${PYPKGPREFIX}-uvloop>=0.14.0:../../devel/py-uvloop
+DEPENDS+=	${PYPKGPREFIX}-ujson>=2.0.3:../../textproc/py-ujson
+DEPENDS+=	${PYPKGPREFIX}-httptools>=0.1.1:../../www/py-httptools
+DEPENDS+=	${PYPKGPREFIX}-httpx>=0.16.1:../../www/py-httpx
+DEPENDS+=	${PYPKGPREFIX}-websockets>=8.1:../../www/py-websockets
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
