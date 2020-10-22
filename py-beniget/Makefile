@@ -1,16 +1,17 @@
 # $NetBSD$
 
-DISTNAME=	beniget-0.3.0
+VERS=		0.3.0
+DISTNAME=	beniget-${VERS}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/50/b9/7d864a50d5d2821686d4374400de45c8e0678e553657343f5f0ea6aff98d/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=g/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/serge-sans-paille/beniget/
 COMMENT=	Extract semantic information about static Python code
-#LICENSE=	BSD 3-Clause # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
-DEPENDS+=	# TODO: gast~=0.4.0>=0
+DEPENDS+=	${PYPKGPREFIX}-gast>=0.4:../../wip/py-gast
 
 USE_LANGUAGES=	# none
 

@@ -1,0 +1,11 @@
+.DS_Store
+.go-version
+.nvimlog
+tags*
+moc*
+cmd/goneovim/goneovim
+cmd/goneovim/debug
+cmd/goneovim/deploy/*
+cmd/goneovim/deploy*
+cmd/goneovim/windows/*
+cmd/goneovim/rcc*
