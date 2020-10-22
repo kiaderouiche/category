@@ -51,9 +51,6 @@ while [ $# -gt 0 ]; do
 	-p)
 		CREATEPLSUBST=true
 		shift;;
-    -v)
-        Version
-        shift;;
 	--)
 		shift; break
 		;;
