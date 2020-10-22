@@ -12,12 +12,15 @@ LICENSE=	mit
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
+DEPENDS+=	${PYPKGPREFIX}-autopep8>=1.5.4:../../devel/py-autopep8
+DEPENDS+=	${PYPKGPREFIX}-wrapt>=1.12.1:../../devel/py-wrapt
+.if ${_PYTHON_VERSION} < 38
+DEPENDS+=	${PYPKGPREFIX}-typing-inspect:../../wip/py-typing-inspect
+.endif
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
-DEPENDS+=	${PYPKGPREFIX}-wrapt>=0:../../devel/py-wrapt
-DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../devel/py-yaml
-DEPENDS+=	${PYPKGPREFIX}-scipy:../../devel/py-scipy
-DEPENDS+=	${PYPKGPREFIX}-black:../../devel/py-black
-DEPENDS+=	${PYPKGPREFIX}-autopep8:../../devel/py-autopep8
+DEPENDS+=	${PYPKGPREFIX}-scipy:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-black>=2.8:../../textproc/py-black
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-typing-inspect:../../wip/py-typing-inspect
 
 
