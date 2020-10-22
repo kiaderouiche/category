@@ -19,15 +19,12 @@ PKG_SUGGESTED_OPTIONS.py37-fastavro+=       option1 option2 option3
 
 PLIST_VARS+=    option3
 ##
-## option1 SUPPORT
+## option3 SUPPORT
 ##
-.if !empty(PKG_OPTIONS:Moption1)
-CONFIGURE_ARGS+=		--enable-option1
+.if !empty(PKG_OPTIONS:Moption3)
+PLIST.option3=  yes
+.   include "../../category/option3/buildlink3.mk"
+CONFIGURE_ARGS+=    --with-option3
+.else
+CONFIGURE_ARGS+=    --without-option3
 .endif
-
-##
-## option2 SUPPORT
-##
-.if !empty(PKG_OPTIONS:option2)
-sed -f /tmp/sedrules.options.1700 <<EOF
-BUILDLINK_PKGSRCDIR.py37-fastavro?=	../../category/py-fastavro
