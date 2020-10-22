@@ -29,5 +29,5 @@ CONFIGURE_ARGS+=		--enable-option1
 ## option2 SUPPORT
 ##
 .if !empty(PKG_OPTIONS:option2)
-sed -f /tmp/sedrules.options.28704 <<EOF
+sed -f /tmp/sedrules.options.1700 <<EOF
 BUILDLINK_PKGSRCDIR.py37-fastavro?=	../../category/py-fastavro

@@ -148,8 +148,10 @@ CONFIGURE_ARGS+=		--enable-option1
 .if !empty(PKG_OPTIONS:option2)
 sed -f $sedrules <<EOF
 BUILDLINK_PKGSRCDIR.$PKGNOVER?=	../../$CURDIR
+.endif
 EOF
 
+sed -f $sedrules <<EOF
 if [ $CREATEPLSUBST = "true" ]; then
 	echo ""
 	substplistbasedirs
@@ -160,9 +162,6 @@ for i in $MAKEFILE $commons ; do
 	[ ! -f $i ] || grep '^.include.*\.\.\/.*\/.*/buildlink3.mk\"' $i |
 		egrep -v '/devel/pkg-config/|/textproc/intltool/|/graphics/hicolor-icon-theme/' | sed 's,^,#,'
 done
-
-.endif
-
 
 ##
 ## option3 SUPPORT
