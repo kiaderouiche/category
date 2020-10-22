@@ -12,7 +12,7 @@ LICENSE=	mit
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
-#DEPENDS+=	${PYPKGPREFIX}-scipy>=1.2.3:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.2.3:../../math/py-scipy
 
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
