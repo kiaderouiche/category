@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://github.com/huge-success/sanic/
+HOMEPAGE=	https://github.com/huge-success/sanic/
 COMMENT=	Web server and web framework that's written to go fast
 LICENSE=	mit
 

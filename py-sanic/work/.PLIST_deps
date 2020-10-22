@@ -1,0 +1,25 @@
+@name py37-sanic-20.9.0
+@blddep py37-multidict-4.7.6
+@pkgdep py37-multidict>=4.7.6
+@blddep py37-aiofiles-0.5.0
+@pkgdep py37-aiofiles>=0.5.0
+@blddep py37-uvloop-0.14.0
+@pkgdep py37-uvloop>=0.14.0
+@blddep py37-ujson-2.0.3
+@pkgdep py37-ujson>=2.0.3
+@blddep py37-httptools-0.1.1
+@pkgdep py37-httptools>=0.1.1
+@blddep py37-httpx-0.16.1
+@pkgdep py37-httpx>=0.16.1
+@blddep py37-websockets-8.1
+@pkgdep py37-websockets>=8.1
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb1
+@pkgdep python37>=3.7
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
