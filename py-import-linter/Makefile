@@ -1,9 +1,10 @@
 # $NetBSD$
 
+VERS=		1.2
 DISTNAME=	import-linter-1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-MASTER_SITES=	https://files.pythonhosted.org/packages/68/55/1e8d1dd068239cde9602d214e1f092cfd17cbbe55841574b84a814a3056b/
+MASTER_SITES=	${MASTER_SITE_PYPI:=i/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://pypi.org/project/import-linter/
