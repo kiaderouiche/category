@@ -7,7 +7,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=h/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://hdfscli.readthedocs.io
+HOMEPAGE=	https://hdfscli.readthedocs.io/
 COMMENT=	HdfsCLI: API and command line interface for HDFS
 LICENSE=	mit
 

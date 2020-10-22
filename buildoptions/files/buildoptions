@@ -53,7 +53,7 @@ while [ $# -gt 0 ]; do
 		shift;;
     -v)
         Version()
-        ;;
+        shift;;
 	--)
 		shift; break
 		;;
