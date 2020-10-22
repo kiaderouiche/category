@@ -2,7 +2,7 @@
 
 DISTNAME=	kenv-0.1.9.31
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	math
+CATEGORIES=	math python
 MASTER_SITES=	https://files.pythonhosted.org/packages/a5/75/316ce14e86bd6ab681ab0f1e14c9a2484cfbda7f6e6822a2b45e6959acbc/
 
 MAINTAINER=	jihbed.research@gmail.com
