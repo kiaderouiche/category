@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (clazy-master.tar.bz2) = b27093ebfa30210bca0003f0302f58b1a5a985cf
-RMD160 (clazy-master.tar.bz2) = 3551cf8990c1e4b8dadfa93eb98a512c62731d7b
-SHA512 (clazy-master.tar.bz2) = 127b19e01539fd53cb3e694a806405951705a079ddd3d701874bd91a174d19100c8ae57951a147eb5c169ff8021a945f2f64b6e338e6f2a23207da569a142b92
-Size (clazy-master.tar.bz2) = 414850 bytes
+SHA1 (clazy/v1.7.tar.gz) = f3804a2f1ea6add4f5cf80a05428a19fd481c79c
+RMD160 (clazy/v1.7.tar.gz) = aa963c5425a1f263a8e7516626be94c18ac8c7a5
+SHA512 (clazy/v1.7.tar.gz) = db54b889e77ce2e9643da9c7d738eed13029b0b7daafce5fa4f4a05a3ee4f43fcb826ee43d424b84f918438f8c4cc632362124aeb1a37ee25a9ef311c1640916
+Size (clazy/v1.7.tar.gz) = 464202 bytes

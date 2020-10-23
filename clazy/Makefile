@@ -1,16 +1,22 @@
 # $NetBSD$
 
-DISTNAME=	clazy-master
-CATEGORIES=	category
-MASTER_SITES=	https://invent.kde.org/sdk/clazy/-/archive/master/
-EXTRACT_SUFX=	.tar.bz2
+GITHUB_PROJECT=	clazy
+GITHUB_TAG=	v1.7
+DISTNAME=	v1.7
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.comive/master/
-HOMEPAGE=	https://invent.kde.org/sdk/clazy/-/arch
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://apps.kde.org/en/clazy
+COMMENT=	Clang plugin for additional warnings
+LICENSE=	gnu-lgpl-v2.1
+
+WRKSRC=		${WRKDIR}/clazy-1.7
 
 USE_CMAKE=	yes
-USE_LANGUAGES=	c++
+USE_LANGUAGES=	c c++
 
+.include "../../lang/llvm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
