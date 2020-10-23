@@ -13,7 +13,7 @@ COMMENT=	Python network visualization library
 DEPENDS+=	${PYPKGPREFIX}-ipython>=5.3.0:../../devel/py-ipython
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.9.6:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-networkx>=1.11:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-jsonpickle>=1.4.1:../../textproc/py-jsonpickle
 
 USE_LANGUAGES=	# none
