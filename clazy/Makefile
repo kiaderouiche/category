@@ -18,5 +18,6 @@ WRKSRC=		${WRKDIR}/clazy-1.7
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../lang/clang/buildlink3.mk"
 .include "../../lang/llvm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
