@@ -22,7 +22,9 @@ USE_TOOLS+=	pkg-config msgmerge
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../devel/ki18n/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
 .include "../../security/polkit-qt5/buildlink3.mk"
+.include "../../x11/kwidgetsaddons/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
