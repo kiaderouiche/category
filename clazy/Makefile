@@ -5,8 +5,8 @@ CATEGORIES=	category
 MASTER_SITES=	https://invent.kde.org/sdk/clazy/-/archive/master/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://invent.kde.org/sdk/clazy/-/archive/master/
+MAINTAINER=	kamelderouiche@yahoo.comive/master/
+HOMEPAGE=	https://invent.kde.org/sdk/clazy/-/arch
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
