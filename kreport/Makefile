@@ -1,7 +1,8 @@
 # $NetBSD$
 
 DISTNAME=	kreport-3.0.0.tar.xz
-CATEGORIES=	category
+PKGNAME=	${DISTNAME:S/.tar.xz//}
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_KDE:=kreport/src/}
 EXTRACT_SUFX=	.mirrorlist
 
