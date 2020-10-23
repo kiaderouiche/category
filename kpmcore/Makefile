@@ -22,6 +22,7 @@ USE_TOOLS+=	pkg-config msgmerge
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../devel/kcoreaddons/buildlink3.mk"
 .include "../../devel/ki18n/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
 .include "../../security/kauth/buildlink3.mk"
