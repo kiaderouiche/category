@@ -12,6 +12,11 @@ LICENSE=	gnu-gpl-v2
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+DEPENDS+=	tex-amsfonts-[0-9]*:../../fonts/tex-amsfonts
+DEPENDS+=	tex-amsmath-[0-9]*:../../print/tex-amsmath
+DEPENDS+=	tex-latex-[0-9]*:../../print/tex-latex
+DEPENDS+=	tex-latex-bin-[0-9]*:../../print/tex-latex-bin
+
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../x11/qt5-qttools/buildlink3.mk"
