@@ -3,7 +3,7 @@
 VERS=		1.1.0
 DISTNAME=	IoTPy-${VERS}
 PKGNAME=	${PYPKGPREFIX}-ioTPy-${VERS}
-CATEGORIES=	category
+CATEGORIES=	parallel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=I/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
