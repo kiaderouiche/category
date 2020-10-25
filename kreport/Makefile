@@ -9,9 +9,11 @@ EXTRACT_SUFX=	.mirrorlist
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.kexi-project.org/
 COMMENT=	Framework for creation of reports in multiple formats
-LICENSE=	# TODO: (see mk/license.mk)
+#LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}
+
 USE_LANGUAGES=	# none
 
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
