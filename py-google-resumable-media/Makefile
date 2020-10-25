@@ -10,9 +10,9 @@ HOMEPAGE=	https://github.com/googleapis/google-resumable-media-python
 COMMENT=	Utilities for Google Media Downloads and Resumable Uploads
 LICENSE=	apache-2.0
 
+#FORCE SUPPORT PYTHON3X,
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
-DEPENDS+=	# TODO: google-crc32c>=1.0,<2.0dev;python_version>="3.5"
-DEPENDS+=	${PYPKGPREFIX}-crcmod>=1.7;python_version=="2.7":../../security/py-crcmod
+DEPENDS+=	${PYPKGPREFIX}-google-crc32c>=1.0.0:../../wip/py-google-crc32c
 
 USE_LANGUAGES=	# none
 
