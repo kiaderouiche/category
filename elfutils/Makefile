@@ -19,4 +19,5 @@ PKGCONFIG_OVERRIDE+=	config/libdebuginfod.pc.in
 PKGCONFIG_OVERRIDE+=	config/libdw.pc.in
 PKGCONFIG_OVERRIDE+=	config/libelf.pc.in
 
+.include "../../devel/libargparse/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
