@@ -16,6 +16,7 @@ LICENSE=	gnu-lgpl-v2.1
 WRKSRC=		${WRKDIR}/heaptrack-1.2.0
 
 USE_CMAKE=	yes
+USE_TOOLS=      msgmerge
 USE_LANGUAGES=	c c++
 
 .include "../../devel/zlib/buildlink3.mk"
