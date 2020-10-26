@@ -19,6 +19,11 @@ USE_CMAKE=	yes
 USE_TOOLS=      msgmerge
 USE_LANGUAGES=	c c++
 
+DEPENDS+=	kqtquickcharts>=20.04.1:../../graphics/kqtquickcharts
+
+.include "../../archivers/zstd/buildlink3.mk"
+BUILDLINK_API_DEPENDS.boost-headers+=   boost-headers-1.73.*
+.include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../lang/libunwind/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
