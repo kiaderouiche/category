@@ -1,0 +1,12 @@
+--- /usr/pkgsrc/category/py-test-repeat/work/.prefix.pre	2020-10-26 10:32:27.865718865 +0100
++++ /usr/pkgsrc/category/py-test-repeat/work/.prefix.post	2020-10-26 10:32:32.141833695 +0100
+@@ -0,0 +1,9 @@
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/pytest_repeat.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/pytest_repeat.cpython-37.pyc
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat-0.8.0-py3.7.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat-0.8.0-py3.7.egg-info/entry_points.txt
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat-0.8.0-py3.7.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat-0.8.0-py3.7.egg-info/requires.txt
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat-0.8.0-py3.7.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat-0.8.0-py3.7.egg-info/top_level.txt
++/usr/pkgsrc/category/py-test-repeat/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytest_repeat.py
