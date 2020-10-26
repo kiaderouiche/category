@@ -1,14 +1,13 @@
 # $NetBSD$
 
-VERS=		0.14.0
-DISTNAME=	pandas-gbq-${VERS}
+DISTNAME=	pandas-gbq-0.14.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	math
-MASTER_SITES=	${MASTER_SITE_PYPI:=g/${DISTNAME:S/${VERS}//}/}
+CATEGORIES=	math python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pandas-gbq/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/pydata/pandas-gbq/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Interface to the Google BigQuery API from pandas
 LICENSE=	modified-bsd
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
