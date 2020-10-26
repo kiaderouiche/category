@@ -1,17 +1,17 @@
 # $NetBSD$
 
 DISTNAME=	pytest-repeat-0.8.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/1a/ef/a721646e592e834ad93e1c880956b3d6ff060c623c2e317170f5747d9c71/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pytest-repeat/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/pytest-dev/pytest-repeat
 COMMENT=	pytest plugin for repeating tests
-#LICENSE=	Mozilla Public License 2.0 (MPL 2.0) # TODO: from setup.py; needs to be adjusted
+LICENSE=	mpl-2.0
 
-BUILD_DEPENDS+=	py-setuptools_scm>=0:../../devel/py-setuptools_scm
-DEPENDS+=	# TODO: pytest>=3.6
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=0:../../devel/py-setuptools_scm
+DEPENDS+=	${PYPKGPREFIX}-test>=6.1.1:../../devel/py-test
 
 USE_LANGUAGES=	# none
 
