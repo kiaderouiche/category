@@ -10,7 +10,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/heaptrack/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Heap memory profiler
 LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/heaptrack-1.2.0
@@ -18,4 +18,7 @@ WRKSRC=		${WRKDIR}/heaptrack-1.2.0
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../devel/zlib/buildlink3.mk"
+.include "../../lang/libunwind/buildlink3.mk"
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
