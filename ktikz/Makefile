@@ -4,20 +4,19 @@ GITHUB_PROJECT=	ktikz
 GITHUB_TAG=	0.12
 DISTNAME=	0.12
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
-CATEGORIES=	category
+CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_GITHUB:=fhackenberger/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fhackenberger/ktikz/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Nice user interface for making pictures using ktikz
+LICENSE=	gnu-gpl-v2
 
-#.include "../../meta-pkgs/kde/applications.mk"
+BUILD_DEPENDS+=	kdoctools>=5.19.0:../../devel/kdoctools
 
-BUILD_DEPENDS+= kdoctools>=5.19.0:../../devel/kdoctools
+WRKSRC=		${WRKDIR}/ktikz-0.12
 
-WRKSRC=			${WRKDIR}/ktikz-0.12
 USE_CMAKE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++

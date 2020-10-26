@@ -1,4 +1,4 @@
 Ktikz is a small tool to create TikZ graphics.
 This app isn't an official KDE application,but
 use some KDE libraries to provides better integration
-with Plasma. A pure Qt build is also available. 
+with Plasma. A pure Qt build is also available.
