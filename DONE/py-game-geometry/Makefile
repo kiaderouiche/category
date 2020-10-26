@@ -3,7 +3,7 @@
 DISTNAME=	pygame_geometry-0.1.2
 PKGNAME=	${PYPKGPREFIX}-game-geometry-0.1.2
 CATEGORIES=	math python
-MASTER_SITES=	https://files.pythonhosted.org/packages/cf/8b/cf1b2b409fe5ee52e952f638b1b5ce87dc2e6929b1cc79e6f17afd473132/
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pygame_geometry/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/MarcPartensky/Pygame-Geometry
