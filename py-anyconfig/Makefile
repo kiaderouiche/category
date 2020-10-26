@@ -3,11 +3,11 @@
 DISTNAME=	anyconfig-0.9.11
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-MASTER_SITES=	https://files.pythonhosted.org/packages/6f/93/0749cca282f0bd772b17a218315009da89546f9c9ff1f5f88e6c8f9bc230/
+MASTER_SITES=	${MASTER_SITE_PYPI:=a/anyconfig/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://pypi.org/project/anyconfig/
-COMMENT=	Library provides common APIs to load and dump configuration files in various formats
+COMMENT=	APIs to load and dump configuration files in various formats
 LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
