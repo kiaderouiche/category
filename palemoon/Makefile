@@ -7,17 +7,12 @@ MASTER_SITES=	http://linux.palemoon.org/datastore/release/
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://linux.palemoon.org/datastore/release/
+HOMEPAGE=	http://www.palemoon.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/palemoon
 
 PALEMOON_VERSION=	20.0.0a6
-
-EMUL_PLATFORMS=		linux-i386 linux-x86_64
-EMUL_REQD=		suse>=13.1
-
-INSTALLATION_DIRS=	bin share/applications
 
 .include "../../mk/bsd.pkg.mk"
