@@ -1,0 +1,6 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	cmake>=2.8.1nb1	../../devel/cmake
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	clang>=9.0.1	../../lang/clang
+full	llvm>=10.0.1	../../lang/llvm
