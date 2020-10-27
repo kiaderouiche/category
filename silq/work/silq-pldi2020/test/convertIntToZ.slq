@@ -1,7 +1,0 @@
-// args: --run
-
-def main(){
-	x:=8:!int[3];
-	y:=x as !ℤ;
-	return y;
-}

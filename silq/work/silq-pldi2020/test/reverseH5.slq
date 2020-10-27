@@ -1,6 +1,0 @@
-// args: --run
-
-def main()qfree{
-	f:=λ(a:int[2],b:int[2]). (a,b);
-	return reverse(H);
-}

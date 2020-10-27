@@ -1,7 +1,0 @@
-// args: --run
-
-def main(){
-	x:=12;
-	y:=x as int[32];
-	return y;
-}

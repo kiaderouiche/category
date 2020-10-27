@@ -1,6 +1,0 @@
-// args: --run
-
-def main(){
-	x:=[1,2,3];
-	return x[3]; // error
-}

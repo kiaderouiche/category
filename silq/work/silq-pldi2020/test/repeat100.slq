@@ -1,5 +1,0 @@
-// args: --run
-
-def main(){
-    repeat 100{ }
-}

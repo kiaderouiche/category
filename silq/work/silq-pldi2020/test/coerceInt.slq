@@ -1,5 +1,0 @@
-// args: --run
-
-def main(){
-	return (2:!int[32]) coerce !ℚ;
-}
