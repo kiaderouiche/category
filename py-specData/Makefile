@@ -3,7 +3,7 @@
 DISTNAME=	pySpecData-0.9.5.3.1
 PKGNAME=	${PYPKGPREFIX}-specData-0.9.5.3.1
 CATEGORIES=	math python
-MASTER_SITES=	https://files.pythonhosted.org/packages/e2/2e/86411e6d086caea73d050c7ead529d73555b65153d194e2092fd1197c8df/
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pySpecData/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://github.com/jmfranck/pyspecdata
