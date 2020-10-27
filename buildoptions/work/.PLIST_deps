@@ -1,6 +1,0 @@
-@name buildoptions-0.2
-@blddep cwrappers-20180325
-@comment $NetBSD$
-bin/buildoptions
-bin/substplistbasedirs
-man/man8/buildoptions.8
