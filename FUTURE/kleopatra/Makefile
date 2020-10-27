@@ -2,7 +2,7 @@
 
 GITHUB_PROJECT=	kleopatra
 GITHUB_TAG=	v20.08.2
-DISTNAME=	v20.08.2
+DISTNAME=	${GITHUB_TAG}
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
@@ -16,7 +16,7 @@ LICENSE=	gnu-gpl-v2
 WRKSRC=		${WRKDIR}/kleopatra-20.08.2
 
 BUILD_DEPENDS+= kdoctools>=5.19.0:../../devel/kdoctools
-#DEPENDS+=	paperkey>=:../../security/paperkey
+DEPENDS+=	paperkey>=:../../security/paperkey
 
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
