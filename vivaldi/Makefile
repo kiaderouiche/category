@@ -1,0 +1,16 @@
+# $NetBSD$
+
+DISTNAME=	vivaldi-stable-3.3.2022.47-1.x86_64
+CATEGORIES=	category
+MASTER_SITES=	https://downloads.vivaldi.com/stable/
+EXTRACT_SUFX=	.rpm
+
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://downloads.vivaldi.com/stable/
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
+
+WRKSRC=		${WRKDIR} # TODO: one of etc opt usr, or leave it as-is
+USE_LANGUAGES=	# none
+
+.include "../../mk/bsd.pkg.mk"

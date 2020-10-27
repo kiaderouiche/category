@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Min
+
+Min is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions, and features such as:
+
+* Information from [DuckDuckGo](https://duckduckgo.com) in the search bar.
+* Full-text search for visited pages
+* Ad and tracker blocking
+* Automatic reader view
+* Tasks (tab groups)
+* Password manager integration
+* Dark theme
+
+More information, and prebuilt binaries are available [here](https://minbrowser.org/).
+
+## Screenshots
+
+<img alt="The search bar, showing information from DuckDuckGo" src="http://minbrowser.org/tour/img/searchbar_duckduckgo_answers.png" width="700"/>
+
+<img alt="The Tasks Overlay" src="http://minbrowser.org/tour/img/tasks.png" width="700"/>
+
+...
