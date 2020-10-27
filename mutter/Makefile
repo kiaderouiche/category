@@ -1,11 +1,11 @@
 # $NetBSD$
 
 DISTNAME=	mutter-3.28.4
-CATEGORIES=	category
+CATEGORIES=	x11 gnome
 MASTER_SITES=	https://ftp.gnome.org/pub/gnome/sources/mutter/3.28/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://ftp.gnome.org/pub/gnome/sources/mutter/3.28/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
