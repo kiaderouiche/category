@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/KDE/kpmcore/
 COMMENT=	KDE Partition Manager core library
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3 AND mit AND cc0-1.0-universal AND cc-by-v4.0
 
 WRKSRC=		${WRKDIR}/kpmcore-4.2.0
 
