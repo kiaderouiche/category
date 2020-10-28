@@ -2,7 +2,7 @@
 
 DISTNAME=	storm-0.24
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	python # TODO: add primary category
+CATEGORIES=	python devel
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/storm/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
@@ -23,7 +23,7 @@ DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 #TEST_DEPENDS+=	${PYPKGPREFIX}-ZopeComponent>=4.6.2../../devel/py-ZopeComponent
 #TEST_DEPENDS+=	${PYPKGPREFIX}-ZopeConfiguration>=4.4.0../../devel/py-ZopeConfiguration
 #TEST_DEPENDS+=	${PYPKGPREFIX}-ZopeInterface>=5.1.2../../devel/py-ZopeInterface
-#TEST_DEPENDS+=	${PYPKGPREFIX}-zope.security>=3.7.2../../devel/py-fixtures
+#TEST_DEPENDS+=	${PYPKGPREFIX}-ZopeSecurity>=5.1.1../../devel/py-zopeSecurity
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
