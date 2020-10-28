@@ -1,0 +1,396 @@
+@cwd /usr/pkg
+@name py37-storm-0.24
+@blddep py37-six-1.15.0
+@pkgdep py37-six>=1.15.0
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb1
+@pkgdep python37>=3.7
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/PKG-INFO
+@comment MD5:b72fb5481dda085d9f938a3ca9f50195
+lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/SOURCES.txt
+@comment MD5:ed5a81709a9f5aea328c26db82edf6a8
+lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/not-zip-safe
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/top_level.txt
+@comment MD5:3f01150bb9dfa96498cc502848b9949a
+lib/python3.7/site-packages/storm/__init__.py
+@comment MD5:e8fa5a4b23cecbc1b15e7018fedb1f83
+lib/python3.7/site-packages/storm/__pycache__/__init__.cpython-37.pyc
+@comment MD5:b0f6ec3cd76f3001902703d9319d19a1
+lib/python3.7/site-packages/storm/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:04053be720b1767a8788380ee0c6a846
+lib/python3.7/site-packages/storm/base.py
+@comment MD5:37509b4d01d85c187fea3d8d41223d2a
+lib/python3.7/site-packages/storm/__pycache__/base.cpython-37.pyc
+@comment MD5:35d7dfb66717a993b8d1639be32ee26b
+lib/python3.7/site-packages/storm/__pycache__/base.cpython-37.opt-1.pyc
+@comment MD5:9000a122dfb35c9bce90bc85bd588a0b
+lib/python3.7/site-packages/storm/cache.py
+@comment MD5:b1dfe3be2d0f23725bdc169f2a017504
+lib/python3.7/site-packages/storm/__pycache__/cache.cpython-37.pyc
+@comment MD5:3557c3da4d040a3dc65de8bcc3725b23
+lib/python3.7/site-packages/storm/__pycache__/cache.cpython-37.opt-1.pyc
+@comment MD5:62bc27b42526ca0afb492180ba9228c7
+lib/python3.7/site-packages/storm/cextensions.c
+@comment MD5:862eb012dcf000c1b6a5b9a46b126dae
+lib/python3.7/site-packages/storm/cextensions.so
+@comment MD5:e22c720df9c79af17a1749ab09629a45
+lib/python3.7/site-packages/storm/compat.py
+@comment MD5:b094ad6e124baf943577ecd19b390e93
+lib/python3.7/site-packages/storm/__pycache__/compat.cpython-37.pyc
+@comment MD5:a3c116971273798017c781bdda2a070b
+lib/python3.7/site-packages/storm/__pycache__/compat.cpython-37.opt-1.pyc
+@comment MD5:88a26bf2f22068e3292bff1114f66e96
+lib/python3.7/site-packages/storm/database.py
+@comment MD5:6f0841b1b6ea211b4986447360f60a7c
+lib/python3.7/site-packages/storm/__pycache__/database.cpython-37.pyc
+@comment MD5:bd5f7f416a03016508009b30bf7046c4
+lib/python3.7/site-packages/storm/__pycache__/database.cpython-37.opt-1.pyc
+@comment MD5:e3e4f6ea351cb8c71b0737074be5ef22
+lib/python3.7/site-packages/storm/databases/__init__.py
+@comment MD5:96e202b8d13bfb0d43b690b5dd877a42
+lib/python3.7/site-packages/storm/databases/__pycache__/__init__.cpython-37.pyc
+@comment MD5:fcc190602188f8a5985c965b8c0921cc
+lib/python3.7/site-packages/storm/databases/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:6bd1b31f668e6ca57b308acfa604686e
+lib/python3.7/site-packages/storm/databases/mysql.py
+lib/python3.7/site-packages/storm/databases/__pycache__/mysql.cpython-37.pyc
+lib/python3.7/site-packages/storm/databases/__pycache__/mysql.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/storm/databases/postgres.py
+@comment MD5:a307f61a4d96d9a93e91aa90dcb399fc
+lib/python3.7/site-packages/storm/databases/__pycache__/postgres.cpython-37.pyc
+@comment MD5:9a46de688971b90ceab61e7115e46e4b
+lib/python3.7/site-packages/storm/databases/__pycache__/postgres.cpython-37.opt-1.pyc
+@comment MD5:89c806182bbaeefde8f1cf323c65973f
+lib/python3.7/site-packages/storm/databases/sqlite.py
+@comment MD5:fdac6d1b54f2b8468a9297d28a2089ce
+lib/python3.7/site-packages/storm/databases/__pycache__/sqlite.cpython-37.pyc
+@comment MD5:79d0d2e48277568d3c6d3f6b67107b2b
+lib/python3.7/site-packages/storm/databases/__pycache__/sqlite.cpython-37.opt-1.pyc
+@comment MD5:cedb21afecb48c51f04e9c6ef4c123d8
+lib/python3.7/site-packages/storm/django/__init__.py
+lib/python3.7/site-packages/storm/django/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/storm/django/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/storm/django/backend/__init__.py
+lib/python3.7/site-packages/storm/django/backend/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/storm/django/backend/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/storm/django/backend/base.py
+lib/python3.7/site-packages/storm/django/backend/__pycache__/base.cpython-37.pyc
+lib/python3.7/site-packages/storm/django/backend/__pycache__/base.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/storm/django/middleware.py
+lib/python3.7/site-packages/storm/django/__pycache__/middleware.cpython-37.pyc
+lib/python3.7/site-packages/storm/django/__pycache__/middleware.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/storm/django/stores.py
+lib/python3.7/site-packages/storm/django/__pycache__/stores.cpython-37.pyc
+lib/python3.7/site-packages/storm/django/__pycache__/stores.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/storm/event.py
+@comment MD5:0a96ac169d927bc3b1297ebfd48b2327
+lib/python3.7/site-packages/storm/__pycache__/event.cpython-37.pyc
+@comment MD5:aca8974215e024043d6abf80ad903812
+lib/python3.7/site-packages/storm/__pycache__/event.cpython-37.opt-1.pyc
+@comment MD5:44b48b0fedde893e9213282cd617a324
+lib/python3.7/site-packages/storm/exceptions.py
+@comment MD5:c8bd7104691eed42b2d71ad7c99ee062
+lib/python3.7/site-packages/storm/__pycache__/exceptions.cpython-37.pyc
+@comment MD5:9e078b8108b84338c62be092acb44ae1
+lib/python3.7/site-packages/storm/__pycache__/exceptions.cpython-37.opt-1.pyc
+@comment MD5:7e47bd05075eae0f858db68ef0dcf6af
+lib/python3.7/site-packages/storm/expr.py
+@comment MD5:4e9ec8f0acf5071f3f6c23be393c6590
+lib/python3.7/site-packages/storm/__pycache__/expr.cpython-37.pyc
+@comment MD5:0a87c2a87d95ba8ffbe2a5ff02393573
+lib/python3.7/site-packages/storm/__pycache__/expr.cpython-37.opt-1.pyc
+@comment MD5:e40f67a67acf59fddf55ca3bfe7970b2
+lib/python3.7/site-packages/storm/info.py
+@comment MD5:4cb9a7e46a707cd592b9e3a89b02d1fd
+lib/python3.7/site-packages/storm/__pycache__/info.cpython-37.pyc
+@comment MD5:3e29f377e95b29c2cb6f0587e1797586
+lib/python3.7/site-packages/storm/__pycache__/info.cpython-37.opt-1.pyc
+@comment MD5:2518562823211e164c0dc8a551c4cd75
+lib/python3.7/site-packages/storm/locals.py
+@comment MD5:890e6d6d6b3645fae9f12e57a47564a5
+lib/python3.7/site-packages/storm/__pycache__/locals.cpython-37.pyc
+@comment MD5:8df166154fb2fda6152d9923fa9a0053
+lib/python3.7/site-packages/storm/__pycache__/locals.cpython-37.opt-1.pyc
+@comment MD5:88203e9abc351bdf75e5f2d9b9b71246
+lib/python3.7/site-packages/storm/properties.py
+@comment MD5:df19e4d77cd24d6337cb03388fb01d8d
+lib/python3.7/site-packages/storm/__pycache__/properties.cpython-37.pyc
+@comment MD5:dd573bc688fa4917ccde70ca4d9d7214
+lib/python3.7/site-packages/storm/__pycache__/properties.cpython-37.opt-1.pyc
+@comment MD5:5bd0facb1245fab20e3d7670781e57ed
+lib/python3.7/site-packages/storm/references.py
+@comment MD5:2f54052bfa12b3d7dc2dc1873b8f6bd7
+lib/python3.7/site-packages/storm/__pycache__/references.cpython-37.pyc
+@comment MD5:2d15306c80312de7ae666ff93796c7d3
+lib/python3.7/site-packages/storm/__pycache__/references.cpython-37.opt-1.pyc
+@comment MD5:985ca3262876153e102aa7e8055f2f0f
+lib/python3.7/site-packages/storm/schema/__init__.py
+@comment MD5:9c7c271d2e3c45e2d94523fe86a25519
+lib/python3.7/site-packages/storm/schema/__pycache__/__init__.cpython-37.pyc
+@comment MD5:0552ee10988ee18850b9833864edb17c
+lib/python3.7/site-packages/storm/schema/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:33fd09c89bce643028f41480de1ae993
+lib/python3.7/site-packages/storm/schema/patch.py
+@comment MD5:f02238eadd0f15c6e80e0ac5cd7cce6a
+lib/python3.7/site-packages/storm/schema/__pycache__/patch.cpython-37.pyc
+@comment MD5:43656d5ed76d409caa11af22f9fec8f3
+lib/python3.7/site-packages/storm/schema/__pycache__/patch.cpython-37.opt-1.pyc
+@comment MD5:57e652f89f4119b368a106dab2482a5f
+lib/python3.7/site-packages/storm/schema/schema.py
+@comment MD5:4b38dde600ce05ee989a934c18bd291a
+lib/python3.7/site-packages/storm/schema/__pycache__/schema.cpython-37.pyc
+@comment MD5:8d4a242b66e994301e6d293536ee0d83
+lib/python3.7/site-packages/storm/schema/__pycache__/schema.cpython-37.opt-1.pyc
+@comment MD5:99e765bee4ef961774d46c650f02da46
+lib/python3.7/site-packages/storm/sqlobject.py
+@comment MD5:590cba6e6d199e23fabb502fe1c50745
+lib/python3.7/site-packages/storm/__pycache__/sqlobject.cpython-37.pyc
+@comment MD5:4938a875e797d4925bb5289ec4169970
+lib/python3.7/site-packages/storm/__pycache__/sqlobject.cpython-37.opt-1.pyc
+@comment MD5:f1fe4a6bc5c7983c68538a7a5bd1dab1
+lib/python3.7/site-packages/storm/store.py
+@comment MD5:7102e0367e7d180d4c17756bcdf8a06c
+lib/python3.7/site-packages/storm/__pycache__/store.cpython-37.pyc
+@comment MD5:95527965a790823fcd5a35c6e0ce8bdd
+lib/python3.7/site-packages/storm/__pycache__/store.cpython-37.opt-1.pyc
+@comment MD5:358660047d8153eb5507412022262010
+lib/python3.7/site-packages/storm/testing.py
+@comment MD5:1c9cccc940f916f0a0d19177977a0496
+lib/python3.7/site-packages/storm/__pycache__/testing.cpython-37.pyc
+@comment MD5:345dfdc816e7ff023904ad6acac60144
+lib/python3.7/site-packages/storm/__pycache__/testing.cpython-37.opt-1.pyc
+@comment MD5:f912a2d6ec2fea048c12a3a4fdeee833
+lib/python3.7/site-packages/storm/tracer.py
+@comment MD5:61e5eb03cdf84a350e8f4c7853563434
+lib/python3.7/site-packages/storm/__pycache__/tracer.cpython-37.pyc
+@comment MD5:d7892808f602942372eb5aaec3be9477
+lib/python3.7/site-packages/storm/__pycache__/tracer.cpython-37.opt-1.pyc
+@comment MD5:cdf84a7e8d648e8e33d61d38703753b2
+lib/python3.7/site-packages/storm/twisted/__init__.py
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.7/site-packages/storm/twisted/__pycache__/__init__.cpython-37.pyc
+@comment MD5:e771e08510970c0aa2d50d0986586439
+lib/python3.7/site-packages/storm/twisted/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:e771e08510970c0aa2d50d0986586439
+lib/python3.7/site-packages/storm/twisted/testing.py
+@comment MD5:429fe8a01c0cd73af3c40a5779d86f6a
+lib/python3.7/site-packages/storm/twisted/__pycache__/testing.cpython-37.pyc
+@comment MD5:3ac8727e33ab6bc737db30dd15a935d4
+lib/python3.7/site-packages/storm/twisted/__pycache__/testing.cpython-37.opt-1.pyc
+@comment MD5:c0e9f1dbf3de1cd4f78754865e5f9a8b
+lib/python3.7/site-packages/storm/twisted/transact.py
+@comment MD5:7a345a689a298486b584b9fb02806bbd
+lib/python3.7/site-packages/storm/twisted/__pycache__/transact.cpython-37.pyc
+@comment MD5:67023d3699195f4530911cc328568ce1
+lib/python3.7/site-packages/storm/twisted/__pycache__/transact.cpython-37.opt-1.pyc
+@comment MD5:4ed4cc9d546ddf72b0dc31977824799d
+lib/python3.7/site-packages/storm/tz.py
+@comment MD5:6f1ac854bb06952e76a858548835effd
+lib/python3.7/site-packages/storm/__pycache__/tz.cpython-37.pyc
+@comment MD5:e92799c8d3423987d3043b2cde037373
+lib/python3.7/site-packages/storm/__pycache__/tz.cpython-37.opt-1.pyc
+@comment MD5:6cff1ff6fdfabb867099d4b2b24b5a7a
+lib/python3.7/site-packages/storm/uri.py
+@comment MD5:05c450344ae5303f28473c2845f6ee78
+lib/python3.7/site-packages/storm/__pycache__/uri.cpython-37.pyc
+@comment MD5:b22e49089b2710a0631d41c71a9d0501
+lib/python3.7/site-packages/storm/__pycache__/uri.cpython-37.opt-1.pyc
+@comment MD5:4ae581858dea36d6e0acba9c84ac2349
+lib/python3.7/site-packages/storm/variables.py
+@comment MD5:1f15e7cf08a065de82f5ba9124f52aec
+lib/python3.7/site-packages/storm/__pycache__/variables.cpython-37.pyc
+@comment MD5:bcc9837be355c2b11487e795366030f3
+lib/python3.7/site-packages/storm/__pycache__/variables.cpython-37.opt-1.pyc
+@comment MD5:5b0e8e5d6e758c797ed23acf47725c98
+lib/python3.7/site-packages/storm/wsgi.py
+@comment MD5:4538e459dc2fb0802503c3cff302d8fb
+lib/python3.7/site-packages/storm/__pycache__/wsgi.cpython-37.pyc
+@comment MD5:09b0045d0f2ec54cefc8dc595080a375
+lib/python3.7/site-packages/storm/__pycache__/wsgi.cpython-37.opt-1.pyc
+@comment MD5:f77bfaea080487868c603f355c743c6d
+lib/python3.7/site-packages/storm/xid.py
+@comment MD5:01dd6c9fdafa1904f15a298c6d3ae489
+lib/python3.7/site-packages/storm/__pycache__/xid.cpython-37.pyc
+@comment MD5:3fa607522967567cb01bf2fb729f474a
+lib/python3.7/site-packages/storm/__pycache__/xid.cpython-37.opt-1.pyc
+@comment MD5:a1bb9a22d11661847eda1abf8791f78f
+lib/python3.7/site-packages/storm/zope/__init__.py
+@comment MD5:d2694b9ebb3b7872701dca1623d97149
+lib/python3.7/site-packages/storm/zope/__pycache__/__init__.cpython-37.pyc
+@comment MD5:9f3932511eb4f68c1a748ca02de90fc5
+lib/python3.7/site-packages/storm/zope/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:0c98b12ef7ea0cabe7f3eb386193793a
+lib/python3.7/site-packages/storm/zope/adapters.py
+@comment MD5:5789b7f16cf6957cf4a1845abce5eccd
+lib/python3.7/site-packages/storm/zope/__pycache__/adapters.cpython-37.pyc
+@comment MD5:8ad3eebede50a2d6f371dfb80197a5cf
+lib/python3.7/site-packages/storm/zope/__pycache__/adapters.cpython-37.opt-1.pyc
+@comment MD5:c82294f1249db63479cfc27df0dd4f75
+lib/python3.7/site-packages/storm/zope/configure.zcml
+@comment MD5:6d333b0265fe1b0ff122f5ee7e3fc491
+lib/python3.7/site-packages/storm/zope/interfaces.py
+@comment MD5:967b0b4b3797894e48950a4a68b115da
+lib/python3.7/site-packages/storm/zope/__pycache__/interfaces.cpython-37.pyc
+@comment MD5:2e11ba6364c10677f81aaebf9b8ddc51
+lib/python3.7/site-packages/storm/zope/__pycache__/interfaces.cpython-37.opt-1.pyc
+@comment MD5:5e9a5eef7392776af3f5304d1c601774
+lib/python3.7/site-packages/storm/zope/meta.zcml
+@comment MD5:1de390b32298457f38a93620528bf665
+lib/python3.7/site-packages/storm/zope/metaconfigure.py
+@comment MD5:c9ffbbe9cfe7224eb2eddf1ab0979c20
+lib/python3.7/site-packages/storm/zope/__pycache__/metaconfigure.cpython-37.pyc
+@comment MD5:91eb869011bf6865353aa511a6c79b6f
+lib/python3.7/site-packages/storm/zope/__pycache__/metaconfigure.cpython-37.opt-1.pyc
+@comment MD5:1a46c2e12cfe683ebf333c77f6097f06
+lib/python3.7/site-packages/storm/zope/metadirectives.py
+@comment MD5:d7bb44d542260f3c69f5b9d8ce0b912e
+lib/python3.7/site-packages/storm/zope/__pycache__/metadirectives.cpython-37.pyc
+@comment MD5:550d672bff6f65d98b85674057aa662a
+lib/python3.7/site-packages/storm/zope/__pycache__/metadirectives.cpython-37.opt-1.pyc
+@comment MD5:2da9b5db788a1c924d0125f80ab100a5
+lib/python3.7/site-packages/storm/zope/schema.py
+@comment MD5:e22cce8299e735613a530eeeca50ecd2
+lib/python3.7/site-packages/storm/zope/__pycache__/schema.cpython-37.pyc
+@comment MD5:324be921b6ef46bf76ee2ec91c165a25
+lib/python3.7/site-packages/storm/zope/__pycache__/schema.cpython-37.opt-1.pyc
+@comment MD5:e50bfa5e0c3bccfa4ec94fef83d47c41
+lib/python3.7/site-packages/storm/zope/testing.py
+@comment MD5:d731366724aa1981f13f81dd455c28ac
+lib/python3.7/site-packages/storm/zope/__pycache__/testing.cpython-37.pyc
+@comment MD5:11dff14a11573a1dde5b4fca20232bc9
+lib/python3.7/site-packages/storm/zope/__pycache__/testing.cpython-37.opt-1.pyc
+@comment MD5:1c9f89df5ad90477e0b8aebf2708a312
+lib/python3.7/site-packages/storm/zope/zstorm.py
+@comment MD5:1f498ea19f05e3c6b6ff09e42ac4e095
+lib/python3.7/site-packages/storm/zope/__pycache__/zstorm.cpython-37.pyc
+@comment MD5:5b340057c39f9a755eaec58309fa9337
+lib/python3.7/site-packages/storm/zope/__pycache__/zstorm.cpython-37.opt-1.pyc
+@comment MD5:c9e68ab578ed6e1e4036a51afc828d87
+lib/python3.7/site-packages/tests/__init__.py
+lib/python3.7/site-packages/tests/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/base.py
+lib/python3.7/site-packages/tests/__pycache__/base.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/base.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/cache.py
+lib/python3.7/site-packages/tests/__pycache__/cache.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/cache.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/database.py
+lib/python3.7/site-packages/tests/__pycache__/database.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/database.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/databases/__init__.py
+lib/python3.7/site-packages/tests/databases/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/databases/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/databases/base.py
+lib/python3.7/site-packages/tests/databases/__pycache__/base.cpython-37.pyc
+lib/python3.7/site-packages/tests/databases/__pycache__/base.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/databases/mysql.py
+lib/python3.7/site-packages/tests/databases/__pycache__/mysql.cpython-37.pyc
+lib/python3.7/site-packages/tests/databases/__pycache__/mysql.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/databases/postgres.py
+lib/python3.7/site-packages/tests/databases/__pycache__/postgres.cpython-37.pyc
+lib/python3.7/site-packages/tests/databases/__pycache__/postgres.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/databases/proxy.py
+lib/python3.7/site-packages/tests/databases/__pycache__/proxy.cpython-37.pyc
+lib/python3.7/site-packages/tests/databases/__pycache__/proxy.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/databases/sqlite.py
+lib/python3.7/site-packages/tests/databases/__pycache__/sqlite.cpython-37.pyc
+lib/python3.7/site-packages/tests/databases/__pycache__/sqlite.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/django/__init__.py
+lib/python3.7/site-packages/tests/django/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/django/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/django/backend.py
+lib/python3.7/site-packages/tests/django/__pycache__/backend.cpython-37.pyc
+lib/python3.7/site-packages/tests/django/__pycache__/backend.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/django/middleware.py
+lib/python3.7/site-packages/tests/django/__pycache__/middleware.cpython-37.pyc
+lib/python3.7/site-packages/tests/django/__pycache__/middleware.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/django/stores.py
+lib/python3.7/site-packages/tests/django/__pycache__/stores.cpython-37.pyc
+lib/python3.7/site-packages/tests/django/__pycache__/stores.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/event.py
+lib/python3.7/site-packages/tests/__pycache__/event.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/event.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/expr.py
+lib/python3.7/site-packages/tests/__pycache__/expr.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/expr.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/helper.py
+lib/python3.7/site-packages/tests/__pycache__/helper.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/helper.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/info.py
+lib/python3.7/site-packages/tests/__pycache__/info.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/info.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/infoheritance.txt
+lib/python3.7/site-packages/tests/mocker.py
+lib/python3.7/site-packages/tests/__pycache__/mocker.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/mocker.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/properties.py
+lib/python3.7/site-packages/tests/__pycache__/properties.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/properties.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/schema/__init__.py
+lib/python3.7/site-packages/tests/schema/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/schema/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/schema/patch.py
+lib/python3.7/site-packages/tests/schema/__pycache__/patch.cpython-37.pyc
+lib/python3.7/site-packages/tests/schema/__pycache__/patch.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/schema/schema.py
+lib/python3.7/site-packages/tests/schema/__pycache__/schema.cpython-37.pyc
+lib/python3.7/site-packages/tests/schema/__pycache__/schema.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/sqlobject.py
+lib/python3.7/site-packages/tests/__pycache__/sqlobject.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/sqlobject.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/store/__init__.py
+lib/python3.7/site-packages/tests/store/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/store/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/store/base.py
+lib/python3.7/site-packages/tests/store/__pycache__/base.cpython-37.pyc
+lib/python3.7/site-packages/tests/store/__pycache__/base.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/store/mysql.py
+lib/python3.7/site-packages/tests/store/__pycache__/mysql.cpython-37.pyc
+lib/python3.7/site-packages/tests/store/__pycache__/mysql.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/store/postgres.py
+lib/python3.7/site-packages/tests/store/__pycache__/postgres.cpython-37.pyc
+lib/python3.7/site-packages/tests/store/__pycache__/postgres.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/store/sqlite.py
+lib/python3.7/site-packages/tests/store/__pycache__/sqlite.cpython-37.pyc
+lib/python3.7/site-packages/tests/store/__pycache__/sqlite.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/tracer.py
+lib/python3.7/site-packages/tests/__pycache__/tracer.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/tracer.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/tutorial.txt
+lib/python3.7/site-packages/tests/twisted/__init__.py
+lib/python3.7/site-packages/tests/twisted/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/twisted/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/twisted/transact.py
+lib/python3.7/site-packages/tests/twisted/__pycache__/transact.cpython-37.pyc
+lib/python3.7/site-packages/tests/twisted/__pycache__/transact.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/uri.py
+lib/python3.7/site-packages/tests/__pycache__/uri.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/uri.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/variables.py
+lib/python3.7/site-packages/tests/__pycache__/variables.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/variables.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/wsgi.py
+lib/python3.7/site-packages/tests/__pycache__/wsgi.cpython-37.pyc
+lib/python3.7/site-packages/tests/__pycache__/wsgi.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/zope/README.txt
+lib/python3.7/site-packages/tests/zope/__init__.py
+lib/python3.7/site-packages/tests/zope/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/tests/zope/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/zope/adapters.py
+lib/python3.7/site-packages/tests/zope/__pycache__/adapters.cpython-37.pyc
+lib/python3.7/site-packages/tests/zope/__pycache__/adapters.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/zope/testing.py
+lib/python3.7/site-packages/tests/zope/__pycache__/testing.cpython-37.pyc
+lib/python3.7/site-packages/tests/zope/__pycache__/testing.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/tests/zope/zstorm.py
+lib/python3.7/site-packages/tests/zope/__pycache__/zstorm.cpython-37.pyc
+lib/python3.7/site-packages/tests/zope/__pycache__/zstorm.cpython-37.opt-1.pyc
+share/doc/py-storm/README
