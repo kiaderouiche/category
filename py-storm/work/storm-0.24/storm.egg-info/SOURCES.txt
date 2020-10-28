@@ -2,6 +2,7 @@ LICENSE
 MANIFEST.in
 Makefile
 NEWS
+PKG-INFO
 README
 TODO
 setup.cfg

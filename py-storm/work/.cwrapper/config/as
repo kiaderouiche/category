@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-storm/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-storm/work/storm-0.24
-path=/usr/pkgsrc/category/py-storm/work/.buildlink/bin:/usr/pkgsrc/category/py-storm/work/.gcc/bin:/usr/pkgsrc/category/py-storm/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+path=/usr/pkgsrc/category/py-storm/work/.buildlink/bin:/usr/pkgsrc/category/py-storm/work/.gcc/bin:/usr/pkgsrc/category/py-storm/work/.tools/bin:/usr/pkg/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin:/usr/local/sbin
 exec_path=/usr/pkgsrc/category/py-storm/work/.cwrapper/bin/as
 exec=as
 transform=L:/lib64/:

@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-storm/work/.prefix.pre	2020-10-28 15:31:36.952516076 +0100
-+++ /usr/pkgsrc/category/py-storm/work/.prefix.post	2020-10-28 15:31:46.784787588 +0100
+--- /usr/pkgsrc/category/py-storm/work/.prefix.pre	2020-10-28 15:34:04.428745974 +0100
++++ /usr/pkgsrc/category/py-storm/work/.prefix.post	2020-10-28 15:34:14.437034149 +0100
 @@ -0,0 +1,247 @@
 +/usr/pkgsrc/category/py-storm/work/.destdir/usr/pkg/lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/dependency_links.txt
 +/usr/pkgsrc/category/py-storm/work/.destdir/usr/pkg/lib/python3.7/site-packages/storm-0.24-py3.7.egg-info/not-zip-safe
