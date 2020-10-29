@@ -11,7 +11,7 @@ COMMENT=	Programmable client library that takes advantage
 #LICENSE=	LGPL v3 # TODO: from setup.py; needs to be adjusted
 
 DEPENDS+=	${PYPKGPREFIX}-distro>=0:../../devel/py-distro
-DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.7.7;python_version>="3":../../www/py-httplib2
+DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.6.0:../../www/py-httplib2
 DEPENDS+=	${PYPKGPREFIX}-oauthlib>=0:../../security/py-oauthlib
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-wadllib>=1.1.4:../../wip/py-wadllib
