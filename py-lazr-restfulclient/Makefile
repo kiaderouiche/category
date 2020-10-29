@@ -1,9 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	lazr.restfulclient-0.14.3
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-lazr-restfulclient-0.14.3
 CATEGORIES=	devel python
-MASTER_SITES=	https://files.pythonhosted.org/packages/4a/2f/14812d3b0808c594c1e090505229d5ae31d55eb93c23417d91b3a1f57853/
+MASTER_SITES=   ${MASTER_SITE_PYPI:=l/lazr.restfulclient/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/lazr.restfulclient
