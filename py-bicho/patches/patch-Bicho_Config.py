@@ -22,7 +22,7 @@ $NetBSD$
  
  
  class ErrorLoadingConfig(Exception):
-@@ -51,9 +54,9 @@ class Config:
+@@ -51,16 +54,16 @@ class Config:
      def load_from_file (config_file):
          try:
              f = open (config_file, 'r')
@@ -34,6 +34,14 @@ $NetBSD$
              raise ErrorLoadingConfig ("Error reading config file %s (%s)" % (\
                      config_file, str (e)))
  
+     @staticmethod        
+     def load ():
+         # FIXME: a hack to avoid circular dependencies. 
+-        from utils import bicho_dot_dir, printout
++        from .utils import bicho_dot_dir, printout
+ 
+         # First look in /etc
+         # FIXME /etc is not portable
 @@ -97,19 +100,19 @@ class Config:
              raise InvalidConfig('Backend "'+ Config.backend + '" does not exist')
  
