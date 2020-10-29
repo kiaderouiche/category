@@ -19,6 +19,7 @@ WRKSRC=		${WRKDIR}/Bicho-0.9.1
 
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.3.2:../../www/py-beautifulsoup4
 #DEPENDS+=	${PYPKGPREFIX}-storm>=0.20:../../wip/py-storm
+DEPENDS+=	${PYPKGPREFIX}-lazr-restfulclient>=0.14.3:../../wip/py-lazr-restfulclient
 
 post-extract:
 	${MV} ${WRKSRC}/bin/bicho ${WRKSRC}/bin/bicho${PYVERSSUFFIX}
