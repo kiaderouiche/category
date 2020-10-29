@@ -66,4 +66,6 @@ ${PYSITELIB}/Bicho/post_processing/logtable.py
 ${PYSITELIB}/Bicho/post_processing/logtable.pyc
 ${PYSITELIB}/Bicho/post_processing/logtable.pyo
 ${PYSITELIB}/Bicho/utils.py
+${PYSITELIB}/Bicho/utils.pyc
+${PYSITELIB}/Bicho/utils.pyo
 man/man1/bicho.1

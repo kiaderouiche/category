@@ -2,7 +2,7 @@ $NetBSD$
 
 --- Bicho/Config.py.orig	2013-05-03 10:33:44.000000000 +0000
 +++ Bicho/Config.py
-@@ -22,8 +22,8 @@
+@@ -22,13 +22,16 @@
  #
  # We should migrate to argparse. optparse is deprecated since Python 2.7
  
@@ -13,7 +13,16 @@ $NetBSD$
  from optparse import OptionGroup, OptionParser
  import os
  import pprint
-@@ -51,9 +51,9 @@ class Config:
+ import sys
+-from urllib2 import Request, urlopen, urlparse, URLError, HTTPError
++from urllib.error import HTTPError, URLError
++from urllib.request import urlopen, Request
++import urllib.parse
++
+ 
+ 
+ class ErrorLoadingConfig(Exception):
+@@ -51,9 +54,9 @@ class Config:
      def load_from_file (config_file):
          try:
              f = open (config_file, 'r')
@@ -25,7 +34,15 @@ $NetBSD$
              raise ErrorLoadingConfig ("Error reading config file %s (%s)" % (\
                      config_file, str (e)))
  
-@@ -103,13 +103,13 @@ class Config:
+@@ -97,19 +100,19 @@ class Config:
+             raise InvalidConfig('Backend "'+ Config.backend + '" does not exist')
+ 
+ 
+-        url = urlparse.urlparse(Config.url)
+-        check_url = urlparse.urljoin(url.scheme + '://' + url.netloc,'')
++        url = urllib.parse.urlparse(Config.url)
++        check_url = urllib.parse.urljoin(url.scheme + '://' + url.netloc,'')
+         print("Checking URL: " + check_url)
          req = Request(check_url)
          try:
              response = urlopen(req)
@@ -42,7 +59,7 @@ $NetBSD$
              print ("Not an URL: "  + Config.url)
              
                  
-@@ -134,8 +134,8 @@ class Config:
+@@ -134,8 +137,8 @@ class Config:
          """
          """
          

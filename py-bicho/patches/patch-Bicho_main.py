@@ -2,15 +2,23 @@ $NetBSD$
 
 --- Bicho/main.py.orig	2013-05-03 10:33:44.000000000 +0000
 +++ Bicho/main.py
-@@ -26,7 +26,7 @@
+@@ -26,12 +26,12 @@
  import pprint
  import sys
  
 -from Config import Config, ErrorLoadingConfig, InvalidConfig
 +from .Config import Config, ErrorLoadingConfig, InvalidConfig
  
- from backends import Backend
- from utils import printerr, printdbg
+-from backends import Backend
+-from utils import printerr, printdbg
++from .backends import Backend
++from .utils import printerr, printdbg
+ 
+-from post_processing import IssueLogger
++from .post_processing import IssueLogger
+ 
+ 
+ def main():
 @@ -43,13 +43,13 @@ def main():
  
      try:
