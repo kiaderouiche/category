@@ -1,9 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	wsgi_intercept-1.9.2
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-wsgi-intercept-1.9.2
 CATEGORIES=	www python
-MASTER_SITES=	https://files.pythonhosted.org/packages/8b/a2/2dec56a11e174d3ad6397a01118f6d7eaf3cc0fd3387f1b60d0f9df6ff96/
+MASTER_SITES=   ${MASTER_SITE_PYPI:=w/wsgi_intercept/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/wsgi_intercept
