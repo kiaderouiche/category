@@ -2,6 +2,17 @@ $NetBSD$
 
 --- Bicho/Config.py.orig	2013-05-03 10:33:44.000000000 +0000
 +++ Bicho/Config.py
+@@ -22,8 +22,8 @@
+ #
+ # We should migrate to argparse. optparse is deprecated since Python 2.7
+ 
+-from backends import Backend
+-import info
++from .backends import Backend
++import .info
+ from optparse import OptionGroup, OptionParser
+ import os
+ import pprint
 @@ -51,9 +51,9 @@ class Config:
      def load_from_file (config_file):
          try:
