@@ -22,6 +22,7 @@ BUILDLINK_API_DEPENDS.pulseaudio+=	pulseaudio>=13.0
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../devel/meson/build.mk"
 .include "../../devel/libpeas/buildlink3.mk"
+.include "../../devel/libuuid/buildlink3.mk"
 .include "../../devel/libwnck3/buildlink3.mk"
 .include "../../inputmethod/ibus/buildlink3.mk"
 BUILDLINK_API_DEPENDS.vala+=	vala>=0.48

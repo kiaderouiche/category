@@ -8,17 +8,17 @@ CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=MetricsGrimoire/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=     jihbed.research@gmail.com
-HOMEPAGE=       https://github.com/MetricsGrimoire/Bicho
-COMMENT=        Bug tracking system tool analyzer
-LICENSE=        gnu-gpl-v2
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://github.com/MetricsGrimoire/Bicho
+COMMENT=	Bug tracking system tool analyzer
+LICENSE=	gnu-gpl-v2
 
-WRKSRC=         ${WRKDIR}/Bicho-0.9.1
+WRKSRC=		${WRKDIR}/Bicho-0.9.1
 
-#PYTHON_VERSIONS_ACCEPTED=       27
+#PYTHON_VERSIONS_ACCEPTED=	27
 
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.3.2:../../www/py-beautifulsoup4
-DEPENDS+=	${PYPKGPREFIX}-storm>=0.20:../../wip/py-storm
+#DEPENDS+=	${PYPKGPREFIX}-storm>=0.20:../../wip/py-storm
 
 post-extract:
 	${MV} ${WRKSRC}/bin/bicho ${WRKSRC}/bin/bicho${PYVERSSUFFIX}

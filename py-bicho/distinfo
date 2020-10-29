@@ -4,4 +4,6 @@ SHA1 (Bicho/0.9.1.tar.gz) = b4cb70e06b854705367e32b0143b90f33022afd4
 RMD160 (Bicho/0.9.1.tar.gz) = 3fbcfc94ea0e6fdfe72c276aa9b0c03620fa0a05
 SHA512 (Bicho/0.9.1.tar.gz) = 6f4893fac8f3bde2f0017c2e277b998afa0db9f4011e0f22d77a0c670ad1532ef0fd6443ac58576b79f5158a17bf5fb6903ef74bd9c5ab12bbc10663f37e3485
 Size (Bicho/0.9.1.tar.gz) = 207998 bytes
-SHA1 (patch-setup.py) = 431d420634906675fb9fe7c8dfe4aba93d2bd2c9
+SHA1 (patch-Bicho_main.py) = fcdab41500f7476d5240ffbb7f4c0d57d8321ca8
+SHA1 (patch-bin_bicho3.7) = 0db40f792cac8dde20e5ad9737984644e403be6e
+SHA1 (patch-setup.py) = e23dec6fab02fc07c8272ce0a82b000a2cadc50d
