@@ -2,6 +2,8 @@
 bin/bicho${PYVERSSUFFIX}
 ${PYSITELIB}/Bicho-0.9-py${PYVERSSUFFIX}.egg-info
 ${PYSITELIB}/Bicho/Config.py
+${PYSITELIB}/Bicho/Config.pyc
+${PYSITELIB}/Bicho/Config.pyo
 ${PYSITELIB}/Bicho/__init__.py
 ${PYSITELIB}/Bicho/__init__.pyc
 ${PYSITELIB}/Bicho/__init__.pyo
