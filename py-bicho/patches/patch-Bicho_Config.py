@@ -83,5 +83,5 @@ $NetBSD$
  
          # Not remove config file options with empty default values
 -        Config.__dict__.update(Config.clean_empty_options(options))
-+        Config.__dict__.(Config.clean_empty_options(options))
++        Config.__dict__(Config.clean_empty_options(options))
          Config.check_config ()
