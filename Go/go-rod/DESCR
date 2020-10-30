@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Overview
+
+[![GoDoc](https://godoc.org/github.com/go-rod/rod?status.svg)](https://pkg.go.dev/github.com/go-rod/rod?tab=doc)
+[![Discord Chat](https://img.shields.io/discord/719933559456006165.svg)][discord room]
+
+Rod is a high-level driver directly based on [DevTools Protocol][devtools protocol]. It's designed for web automation and scraping.
+
+## Features
+
+- Chained context design, intuitive to timeout or cancel the long-running task
+- Debugging friendly, auto input tracing, remote monitoring headless browser
+- Thread-safe for all operations
+- Automatically find or download [browser](lib/launcher)
+- Lightweight, no third-party dependencies, [CI](https://github.com/go-rod/rod/actions) tested on Linux, Mac, and Windows
+- High-level helpers like WaitStable, WaitRequestIdle, HijackRequests, GetDownloadFile, etc
+- Two-step WaitEvent design, never miss an event ([how it works](https://github.com/ysmood/goob))
+- Correctly handles nested iframes
+- No zombie browser process after the crash ([how it works](https://github.com/ysmood/leakless))
+
+## Examples
+...
