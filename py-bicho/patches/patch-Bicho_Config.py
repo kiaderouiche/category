@@ -78,3 +78,10 @@ $NetBSD$
  
          # General options
          parser.add_option('-b', '--backend', dest='backend',
+@@ -220,5 +223,5 @@ class Config:
+             Config.url=args[1]
+ 
+         # Not remove config file options with empty default values
+-        Config.__dict__.update(Config.clean_empty_options(options))
++        Config.__dict__.(Config.clean_empty_options(options))
+         Config.check_config ()
