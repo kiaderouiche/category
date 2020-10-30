@@ -22,6 +22,8 @@ ${PYSITELIB}/Bicho/backends/bg.pyc
 ${PYSITELIB}/Bicho/backends/bg.pyo
 ${PYSITELIB}/Bicho/backends/gerrit.py
 ${PYSITELIB}/Bicho/backends/github.py
+${PYSITELIB}/Bicho/backends/github.pyc
+${PYSITELIB}/Bicho/backends/github.pyo
 ${PYSITELIB}/Bicho/backends/googlecode.py
 ${PYSITELIB}/Bicho/backends/jira.py
 ${PYSITELIB}/Bicho/backends/lp.py
