@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/microsoft/vcpkg/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/vcpkg-2020.07
 
