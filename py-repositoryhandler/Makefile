@@ -1,36 +1,22 @@
-# $NetBSD: Makefile,v 1.5 2013/09/09 14:05:31 thomasklausner Exp $
+# $NetBSD$
 
-DISTNAME=	repositoryhandler-0.3
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel
-MASTER_SITES=	http://forge.morfeo-project.org/frs/download.php/530/
-EXTRACT_SUFX=	.tar.bz2
+GITHUB_PROJECT=	RepositoryHandler
+GITHUB_TAG=	0.5
+DISTNAME=	0.5
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_GITHUB:=MetricsGrimoire/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://forge.morfeo-project.org/projects/libresoft-tools/
-COMMENT=	RepositoryHandler is a python library for handling code repositories
+HOMEPAGE=	https://projects.libresoft.es/projects/repositoryhandler
+COMMENT=	Python library for handling code repositories
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	bzr>=2.0.3:../../devel/bzr
-DEPENDS+=	git>=1.7.0.5:../../devel/git
+WRKSRC=		${WRKDIR}/RepositoryHandler-0.5
 
-GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	# none
 
-PKGCONFIG_OVERRIDE+=	repositoryhandler.pc.in
-
-PY_PATCHPLIST=		yes
-CONFIGURE_ENV+=		PYTHON=${PYTHONBIN}
-
-DOCDIR=	${PREFIX}/share/doc/repositoryhandler
-INSTALLATION_DIRS=	${DOCDIR}
-
-post-install:
-	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${DOCDIR}
-
-.include "../../devel/subversion-base/buildlink3.mk"
-.include "../../lang/python/application.mk"
-.include "../../lang/python/extension.mk"
-.include "../../www/curl/buildlink3.mk"
+# TODO: Migrate MASTER_SITES to MASTER_SITE_PYPI
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
