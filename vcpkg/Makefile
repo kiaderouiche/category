@@ -8,12 +8,13 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=microsoft/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/microsoft/vcpkg/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/vcpkg-2020.07
+
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
