@@ -2,16 +2,19 @@
 
 GITHUB_PROJECT=	MailingListStats
 GITHUB_TAG=	0.4.1
-DISTNAME=	0.4.1
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
-CATEGORIES=	category
+DISTNAME=	${GITHUB_TAG}
+PKGNAME=	${PYPKGPREFIX}-${GITHUB_PROJECT:tl}-${DISTNAME}
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=MetricsGrimoire/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/MetricsGrimoire/MailingListStats/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://github.com/MetricsGrimoire/MailingListStats
+COMMENT=	Mailing List Stats is a tool to parse and analyze mail boxes
+LICENSE=	gnu-gpl-v2
 
-# url2pkg-marker (please do not remove this line.)
+DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=1.0.9:../../databases/py-sqlalchemy
+
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
