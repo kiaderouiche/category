@@ -21,8 +21,6 @@ DEPENDS+=       ${PYPKGPREFIX}-flake8>=3.8.4:../../devel/py-flake8
 DEPENDS+=       ${PYPKGPREFIX}-ipython>=7.18.1:../../devel/py-ipython
 DEPENDS+=       ${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
 DEPENDS+=       ${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=       ${PYPKGPREFIX}-test-rerunfailures>=9.0:../../devel/py-test-rerunfailur\
-es
 DEPENDS+=       ${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
 DEPENDS+=       ${PYPKGPREFIX}-test-forked>=1.1.3:../../devel/py-test-forked
 DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
@@ -32,8 +30,6 @@ DEPENDS+=       ${PYPKGPREFIX}-wheel>=:../../devel/py-wheel
 DEPENDS+=       ${PYPKGPREFIX}-test-html>=1.17.0:../../wip/py-test-html
 DEPENDS+=       ${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
 DEPENDS+=       ${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=       ${PYPKGPREFIX}-test-rerunfailures>=9.0:../../devel/py-test-rerunfailur\
-es
 DEPENDS+=       ${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
 DEPENDS+=       ${PYPKGPREFIX}-test-forked>=1.1.3:../../devel/py-test-forked
 DEPENDS+=       ${PYPKGPREFIX}-parso>=0.8.0:../../lang/py-parso
@@ -48,8 +44,6 @@ DEPENDS+=       ${PYPKGPREFIX}-pluggy>=0.13.1:../../devel/py-pluggy
 DEPENDS+=       ${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs
 DEPENDS+=       ${PYPKGPREFIX}-traitlets>=4.3.3:../../devel/py-traitlets
 DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
-DEPENDS+=       ${PYPKGPREFIX}-importlib-metadata>=1.7.0:../../devel/py-importlib-meta\
-data
 DEPENDS+=       ${PYPKGPREFIX}-virtualenv>=16.7.9:../../devel/py-virtualenv
 DEPENDS+=       ${PYPKGPREFIX}-jedi>=0.17.2:../../editors/py-jedi
 DEPENDS+=       ${PYPKGPREFIX}-pip>=20.2.3:../../devel/py-pip
