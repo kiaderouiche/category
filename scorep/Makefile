@@ -9,5 +9,7 @@ HOMEPAGE=	https://www.vi-hps.org/cms/upload/packages/scorep/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+GNU_CONFIGURE=	yes
+USE_LANGUAGES=	c c++ fortran
+
 .include "../../mk/bsd.pkg.mk"
