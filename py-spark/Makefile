@@ -1,8 +1,8 @@
 # $NetBSD$
 
 DISTNAME=	pyspark-${VERS}
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/${DISTNAME:S/${VERS}//}/}
 
 MAINTAINER=	kamel.derouiche@gmail.com
