@@ -53,8 +53,7 @@ DEPENDS+=       ${PYPKGPREFIX}-pluggy>=0.13.1:../../devel/py-pluggy
 DEPENDS+=       ${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs
 DEPENDS+=       ${PYPKGPREFIX}-traitlets>=4.3.3:../../devel/py-traitlets
 DEPENDS+=       ${PYPKGPREFIX}-otp>=2.4.0:../../wip/py-otp
-DEPENDS+=       ${PYPKGPREFIX}-importlib-metadata>=1.7.0:../../devel/py-importlib-meta\
-data
+DEPENDS+=       ${PYPKGPREFIX}-importlib-metadata>=1.7.0:../../devel/py-importlib-metadata
 DEPENDS+=       ${PYPKGPREFIX}-virtualenv>=16.7.9:../../devel/py-virtualenv
 DEPENDS+=       ${PYPKGPREFIX}-jedi>=0.17.2:../../editors/py-jedi
 DEPENDS+=       ${PYPKGPREFIX}-pip>=20.2.3:../../devel/py-pip
