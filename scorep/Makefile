@@ -1,10 +1,10 @@
 # $NetBSD$
 
 DISTNAME=	scorep-6.0
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	https://www.vi-hps.org/cms/upload/packages/scorep/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://www.vi-hps.org/cms/upload/packages/scorep/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
