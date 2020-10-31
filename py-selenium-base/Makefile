@@ -88,7 +88,7 @@ DEPENDS+=       ${PYPKGPREFIX}-test-metadata>=1.7.0:../../wip/py-test-metadata
 DEPENDS+=       ${PYPKGPREFIX}-beautifulsoup4>=0.7.4:../../www/py-beautifulsoup4
 DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
 DEPENDS+=	${PYPKGPREFIX}-torando>=5.1.1:../../www/py-tornado
-DEPENDS+=       ${PYPKGPREFIX}-msedge-selenium-tools>=3.141.2:../../wip/py-msedge-selenium-tools-3.141.2
+DEPENDS+=       ${PYPKGPREFIX}-msedge-selenium-tools>=3.141.2:../../wip/py-msedge-selenium-tools
 
 
 .include "../../lang/python/egg.mk"
