@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=MetricsGrimoire/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://projects.libresoft.es/projects/repositoryhandler
+HOMEPAGE=	http://metricsgrimoire.github.io/RepositoryHandler/
 COMMENT=	Python library for handling code repositories
 LICENSE=	gnu-gpl-v2
 
