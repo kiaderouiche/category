@@ -13,7 +13,7 @@ LICENSE=	apache-2.0
 VERS=		3.0.1
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
-DEPENDS+=	${PYPKGPREFIX}-py4j>=0.10.90:../../wip/py-py4j
+DEPENDS+=	${PYPKGPREFIX}-py4j>=0.10.9.1:../../wip/py-py4j
 
 USE_LANGUAGES=	# none
 
