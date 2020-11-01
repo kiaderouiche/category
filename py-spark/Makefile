@@ -18,9 +18,23 @@ DEPENDS+=	${PYPKGPREFIX}-py4j>=0.10.9.1:../../wip/py-py4j
 
 USE_LANGUAGES=	# none
 
-REPLACE_BASH+=	deps/sbin/spark-daemon.sh
-REPLACE_BASH+=	deps/sbin/start-history-server.sh
-REPLACE_BASH+=	deps/sbin/stop-history-server.sh
+REPLACE_BASH+=	\
+	deps/bin/beeline		\
+	deps/bin/docker-image-tool.sh	\
+	deps/bin/find-spark-home	\
+	deps/bin/load-spark-env.sh	\
+	deps/bin/pyspark		\
+	deps/bin/run-example		\
+	deps/bin/spark-class		\
+	deps/bin/spark-shell		\
+	deps/bin/spark-sql		\
+	deps/bin/spark-submit		\
+	deps/bin/sparkR
+
+REPLACE_BASH+=	\
+	deps/sbin/spark-daemon.sh	 \
+	deps/sbin/start-history-server.sh \
+	deps/sbin/stop-history-server.sh
 
 post-extract:
 	${RM} -f ${WRKSRC}/deps/bin/*.cmd
