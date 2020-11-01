@@ -36,6 +36,24 @@ REPLACE_BASH+=	\
 	deps/sbin/start-history-server.sh \
 	deps/sbin/stop-history-server.sh
 
+SUBST_CLASSES+=         prefix
+SUBST_STAGE.prefix=     pre-configure
+SUBST_MESSAGE.prefix=   Setting path to PREFIX in source files.
+SUBST_FILES.prefix+=    deps/bin/beeline
+SUBST_FILES.prefix+=    deps/bin/docker-image-tool.sh
+SUBST_FILES.prefix+=    deps/bin/find-spark-home
+SUBST_FILES.prefix+=    deps/bin/find_spark_home.py
+SUBST_FILES.prefix+=    deps/bin/load-spark-env.sh
+SUBST_FILES.prefix+=    deps/bin/pyspark
+SUBST_FILES.prefix+=    deps/bin/run-example
+SUBST_FILES.prefix+=    deps/bin/spark-class
+SUBST_FILES.prefix+=    deps/bin/spark-shell
+SUBST_FILES.prefix+=    deps/bin/spark-sql
+SUBST_FILES.prefix+=    deps/bin/spark-submit
+SUBST_FILES.prefix+=    deps/bin/sparkR
+SUBST_SED.prefix+=      -e "s|/usr/lib/ladspa|${PREFIX}/lib/ladspa|g"
+SUBST_SED.prefix+=      -e "s|/usr/share/ladspa|${PREFIX}/share/ladspa|g"
+
 post-extract:
 	${RM} -f ${WRKSRC}/deps/bin/*.cmd
 
