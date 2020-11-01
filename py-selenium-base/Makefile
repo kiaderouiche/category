@@ -10,10 +10,12 @@ HOMEPAGE=       https://github.com/seleniumbase/SeleniumBase
 COMMENT=        Complete framework for Web-UI testing
 LICENSE=        mit
 
+USE_TOOLS+=	bash
+
 #FORCED REFUSED= PY27!
 PYTHON_VERSIONS_INCOMPATIBLE=   27
 
-#DEPENDENCY FOR Python>=3.7
+
 DEPENDS+=       ${PYPKGPREFIX}-zipp>=1.2.0:../../archivers/py-zipp
 DEPENDS+=       ${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=       ${PYPKGPREFIX}-pymysql>=0.10.0:../../databases/py-pymysql
@@ -90,6 +92,6 @@ DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
 #DEPENDS+=	${PYPKGPREFIX}-torando>=5.1.1:../../www/py-tornado
 DEPENDS+=       ${PYPKGPREFIX}-msedge-selenium-tools>=3.141.2:../../wip/py-msedge-selenium-tools
 
-
+REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/start-grid-hub.sh
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
