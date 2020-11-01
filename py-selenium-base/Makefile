@@ -96,6 +96,7 @@ REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/start-grid-hub.sh
 REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/register-grid-node.sh
 REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/grid-node
 REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/grid-hub
+REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/font_color
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
