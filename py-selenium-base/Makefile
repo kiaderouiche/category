@@ -93,5 +93,9 @@ DEPENDS+=       ${PYPKGPREFIX}-selenium>=3.141.0:../../www/py-selenium
 DEPENDS+=       ${PYPKGPREFIX}-msedge-selenium-tools>=3.141.2:../../wip/py-msedge-selenium-tools
 
 REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/start-grid-hub.sh
+REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/register-grid-node.sh
+REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/grid-node
+REPLACE_BASH+=	seleniumbase/utilities/selenium_grid/grid-hub
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
