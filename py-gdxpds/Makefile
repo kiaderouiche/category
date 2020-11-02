@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=   ${MASTER_SITE_PYPI:=g/gdxpds/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/NREL/gdx-pandas
 COMMENT=	Python package to translate between gdx (GAMS data) and pandas
 #LICENSE=	# TODO: (see mk/license.mk)
@@ -20,5 +20,6 @@ DEPENDS+=	# TODO: 7>=0
 
 USE_LANGUAGES=	# none
 
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
