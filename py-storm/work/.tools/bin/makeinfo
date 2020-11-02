@@ -1,0 +1,38 @@
+#!/bin/sh
+tools_wrapper_sed=/bin/sed
+shquote()
+{
+	shquoted=$1
+	case $shquoted in
+	*\'*)
+		shquoted=`$tools_wrapper_sed -e "s,','\\\\\\\\'',g" <<EOF
+$shquoted
+EOF`
+	esac
+	case $shquoted in
+	(*[!!%+,\-./0-9:=@A-Z_a-z]*|'')
+		case $shquoted in
+		(*=*)	lhs=${shquoted%%=*}
+			case $lhs in
+			(*[!!%+,\-./0-9:=@A-Z_a-z]*|'') ;;
+			(*)	shquoted="$lhs='${shquoted#*=}'"
+				return
+			esac
+		esac
+		shquoted="'$shquoted'"
+	esac
+}
+shquote_args() {
+	shquoted_args=''
+	for arg in "$@"; do
+		shquote "$arg"
+		shquoted_args="$shquoted_args $shquoted"
+	done
+}
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/category/py-storm/work/.work.log}"
+shquote_args "$@"
+echo "[*] "/usr/pkgsrc/category/py-storm/work/.tools/bin/makeinfo"$shquoted_args" >> $wrapperlog
+logprefix="set args$shquoted_args; shift; "
+logmain=for\ arg\ in\ \"\$@\"\;\ do\ case\ \"\$arg\"\ in\ --version\)\ exit\ 1\ \;\;\ esac\;\ done\;\ /usr/pkgsrc/mk/gnu-config/missing\ makeinfo\ \"\$@\"
+echo '<.>' "$logprefix$logmain" >> $wrapperlog
+for arg in "$@"; do case "$arg" in --version) exit 1 ;; esac; done; /usr/pkgsrc/mk/gnu-config/missing makeinfo "$@"

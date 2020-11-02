@@ -1,0 +1,4 @@
+category/py-storm/$:	$NetBSD$
+category/py-storm/distinfo:	$NetBSD: distinfo,v 1.2 2010/05/07 22:41:52 jihbed Exp $
+category/py-storm/Makefile:	$NetBSD$
+category/py-storm/PLIST:	$NetBSD$
