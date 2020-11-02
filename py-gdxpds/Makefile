@@ -10,13 +10,10 @@ HOMEPAGE=	https://github.com/NREL/gdx-pandas
 COMMENT=	Python package to translate between gdx (GAMS data) and pandas
 #LICENSE=	# TODO: (see mk/license.mk)
 
+PYTHON_VERSIONS_INCOMPATIBLE=   27
 
-DEPENDS+=	# TODO: p>=0
-DEPENDS+=	# TODO: y>=0
-DEPENDS+=	# TODO: =>=0
-DEPENDS+=	# TODO: 1>=0
-DEPENDS+=	# TODO: .>=0
-DEPENDS+=	# TODO: 7>=0
+DEPENDS+=	${PYPKGPREFIX}-future>=0.18.2:../../devel/py-future
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
 
 USE_LANGUAGES=	# none
 

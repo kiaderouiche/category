@@ -14,3 +14,65 @@
 <.> true 
 [*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
 <.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] cc -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include/python3.7 -I/usr/include -I/usr/pkg/include/python3.7 -fPIC -DPYPREFIXGDX -D_CRT_SECURE_NO_WARNINGS -Igdxcc/C -I/usr/pkg/include/python3.7 -c gdxcc/C/gdxcc_wrap.c -o build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc_wrap.o -m64
+<.> /usr/pkgsrc/category/py-gdxcc/work/.gcc/bin/gcc -fcommon -m64 -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include/db4 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include/python3.7 -fPIC -DPYPREFIXGDX -D_CRT_SECURE_NO_WARNINGS -Igdxcc/C -c gdxcc/C/gdxcc_wrap.c -o build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc_wrap.o -m64 -D_FORTIFY_SOURCE=2 -fstack-protector
+[*] cc -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include/python3.7 -I/usr/include -I/usr/pkg/include/python3.7 -fPIC -DPYPREFIXGDX -D_CRT_SECURE_NO_WARNINGS -Igdxcc/C -I/usr/pkg/include/python3.7 -c gdxcc/C/gdxcc.c -o build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc.o -m64
+<.> /usr/pkgsrc/category/py-gdxcc/work/.gcc/bin/gcc -fcommon -m64 -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include/db4 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include/python3.7 -fPIC -DPYPREFIXGDX -D_CRT_SECURE_NO_WARNINGS -Igdxcc/C -c gdxcc/C/gdxcc.c -o build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc.o -m64 -D_FORTIFY_SOURCE=2 -fstack-protector
+[*] cc -pthread -shared -L. -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -Wl,-R/usr/pkg/lib -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include/python3.7 -I/usr/include -I/usr/pkg/include/python3.7 build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc_wrap.o build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc.o -L/usr/pkg/lib -lpython3.7 -o build/lib.linux-x86_64-3.7/_gdxcc.so -m64
+<.> /usr/pkgsrc/category/py-gdxcc/work/.gcc/bin/gcc -fcommon -m64 -pthread -shared -L. -Wl,-z -Wl,relro -Wl,-z -Wl,now -L/usr/pkgsrc/category/py-gdxcc/work/.buildlink/lib -Wl,-rpath,/usr/pkg/lib -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include/python3.7 build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc_wrap.o build/temp.linux-x86_64-3.7/gdxcc/C/gdxcc.o -lpython3.7 -o build/lib.linux-x86_64-3.7/_gdxcc.so -m64 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/py-gdxcc/work/.buildlink/include
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-gdxcc/work/.tools/bin/true
+<.> true 
