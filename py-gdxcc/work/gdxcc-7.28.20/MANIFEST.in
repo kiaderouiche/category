@@ -1,3 +1,0 @@
-include *.rst *.txt LICENSE
-graft gdxcc
-global-exclude *.py[co] __pycache__
