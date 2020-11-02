@@ -22,6 +22,7 @@ USE_CMAKE=	yes
 USE_TOOLS=      msgmerge
 USE_LANGUAGES=	c c++
 
+DEPENDS+=	zig>=0.6.0:../../lang/zig
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/glib2/buildlink3.mk"
