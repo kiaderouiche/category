@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/dd/7d/5e4ad784f4cdabab244487f543876a8887f28f162bbb925f8b73b4411dfb/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/RazerM/parver
 COMMENT=	Parse and manipulate version numbers
 LICENSE=	mit
