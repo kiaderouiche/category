@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-towncrie/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-towncrie/work/towncrier-19.2.0
-path=/usr/pkgsrc/category/py-towncrie/work/.buildlink/bin:/usr/pkgsrc/category/py-towncrie/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+path=/usr/pkgsrc/category/py-towncrie/work/.buildlink/bin:/usr/pkgsrc/category/py-towncrie/work/.tools/bin:/usr/pkg/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin:/usr/local/sbin
 exec_path=/usr/pkgsrc/category/py-towncrie/work/.cwrapper/bin/f77
 exec=/usr/pkgsrc/category/py-towncrie/work/.compiler/bin/fortran-fail-wrapper
 transform=L:/lib64/:

@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-towncrie/work/.prefix.pre	2020-11-03 10:17:33.460641078 +0100
-+++ /usr/pkgsrc/category/py-towncrie/work/.prefix.post	2020-11-03 10:17:36.824730923 +0100
+--- /usr/pkgsrc/category/py-towncrie/work/.prefix.pre	2020-11-03 10:21:09.210415159 +0100
++++ /usr/pkgsrc/category/py-towncrie/work/.prefix.post	2020-11-03 10:21:12.078492027 +0100
 @@ -0,0 +1,57 @@
 +/usr/pkgsrc/category/py-towncrie/work/.destdir/usr/pkg/bin/towncrier
 +/usr/pkgsrc/category/py-towncrie/work/.destdir/usr/pkg/lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/dependency_links.txt

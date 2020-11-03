@@ -2,6 +2,8 @@
 @name py37-towncrier-19.2.0
 @blddep py37-click-7.1.2
 @pkgdep py37-click>=7.1.2
+@blddep py37-incremental-17.5.0
+@pkgdep py37-incremental>=17.5.0
 @blddep py37-jinja2-2.11.2
 @pkgdep py37-jinja2>=2.11.2
 @blddep py37-setuptools-50.3.0
@@ -11,6 +13,117 @@
 @blddep digest-20190127
 @blddep cwrappers-20180325
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/bin/make package"
-@comment TODO: 2. run "/usr/bin/make print-PLIST"
+bin/towncrier
+@comment MD5:bf3ce23c7cfbfdf55bd0b07ce93ded20
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/PKG-INFO
+@comment MD5:04272bb78ab947aa9f31d4a7be6d9f8c
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/SOURCES.txt
+@comment MD5:56a728115bee47db1fefef72b587069a
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/entry_points.txt
+@comment MD5:5ee6b1d6ca61aa62554ee3a373879284
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/not-zip-safe
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/requires.txt
+@comment MD5:ff8c4b5bd1ecc3cd9fe16d2198570fc3
+lib/python3.7/site-packages/towncrier-19.2.0-py3.7.egg-info/top_level.txt
+@comment MD5:29f522108e0402a984ca79df4e3fe5a4
+lib/python3.7/site-packages/towncrier/__init__.py
+@comment MD5:a848c4d714babd6ebc0c6554005f9702
+lib/python3.7/site-packages/towncrier/__pycache__/__init__.cpython-37.pyc
+@comment MD5:8cc1738a59dff786df3e0c093db9500b
+lib/python3.7/site-packages/towncrier/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:dbca6b277921ecf5ababb62eaeb36b90
+lib/python3.7/site-packages/towncrier/__main__.py
+@comment MD5:75ab399c7dab665e555c23e4adb00d19
+lib/python3.7/site-packages/towncrier/__pycache__/__main__.cpython-37.pyc
+@comment MD5:61096478a0d0919beb7a2c797d901543
+lib/python3.7/site-packages/towncrier/__pycache__/__main__.cpython-37.opt-1.pyc
+@comment MD5:d199d9b0025c3279b0b2ddaacee0b055
+lib/python3.7/site-packages/towncrier/_builder.py
+@comment MD5:18684ca6dee99c78e867317b6a358fec
+lib/python3.7/site-packages/towncrier/__pycache__/_builder.cpython-37.pyc
+@comment MD5:c3c23f4d1b447a1920d8ec0eb2d66c22
+lib/python3.7/site-packages/towncrier/__pycache__/_builder.cpython-37.opt-1.pyc
+@comment MD5:093006931c515bc03c8dd5b8fa55f054
+lib/python3.7/site-packages/towncrier/_git.py
+@comment MD5:f111d3f4e2f41ef979128449a674f58c
+lib/python3.7/site-packages/towncrier/__pycache__/_git.cpython-37.pyc
+@comment MD5:4c84e1f227294ad2f1d302e75df697b1
+lib/python3.7/site-packages/towncrier/__pycache__/_git.cpython-37.opt-1.pyc
+@comment MD5:d1602f4dc393d08a43421ed24e4ca4b9
+lib/python3.7/site-packages/towncrier/_project.py
+@comment MD5:24e2fca17ce76ed8504dc77cec8acfab
+lib/python3.7/site-packages/towncrier/__pycache__/_project.cpython-37.pyc
+@comment MD5:a3c1d211d36c0a83e989ece00e6420fc
+lib/python3.7/site-packages/towncrier/__pycache__/_project.cpython-37.opt-1.pyc
+@comment MD5:53f8c4d6ed6311fb3a3742dd93b83cb9
+lib/python3.7/site-packages/towncrier/_settings.py
+@comment MD5:bf1ff46dd24cd5c174e5bfdffb7e3949
+lib/python3.7/site-packages/towncrier/__pycache__/_settings.cpython-37.pyc
+@comment MD5:04ebc4fde69578ce33e9e584b71fc60f
+lib/python3.7/site-packages/towncrier/__pycache__/_settings.cpython-37.opt-1.pyc
+@comment MD5:156e0944d2f2adeb52793f9d1e4a69f6
+lib/python3.7/site-packages/towncrier/_version.py
+@comment MD5:e0966fdeb9305cbe7206ade0e2cf3a6d
+lib/python3.7/site-packages/towncrier/__pycache__/_version.cpython-37.pyc
+@comment MD5:eb03567ef9db3ac5f48acf3de3bf6f5f
+lib/python3.7/site-packages/towncrier/__pycache__/_version.cpython-37.opt-1.pyc
+@comment MD5:a50a64ac69e803d2e7f558c63770c9d2
+lib/python3.7/site-packages/towncrier/_writer.py
+@comment MD5:e09256facf5205574ad2bb1279d21603
+lib/python3.7/site-packages/towncrier/__pycache__/_writer.cpython-37.pyc
+@comment MD5:b20e637f8e7ecbcac93a116e8f8243bd
+lib/python3.7/site-packages/towncrier/__pycache__/_writer.cpython-37.opt-1.pyc
+@comment MD5:4ffae6f99ca3d92be8a5a788df71d2a6
+lib/python3.7/site-packages/towncrier/check.py
+@comment MD5:8c1a72aca867e356c1c1ce1f73b6aec0
+lib/python3.7/site-packages/towncrier/__pycache__/check.cpython-37.pyc
+@comment MD5:aecd09f8a7e2301267e0c7625033efd4
+lib/python3.7/site-packages/towncrier/__pycache__/check.cpython-37.opt-1.pyc
+@comment MD5:1b738cab650c408eb3ca7e8c0c46e08c
+lib/python3.7/site-packages/towncrier/templates/template.rst
+@comment MD5:6711a017646a787b91213721872006c3
+lib/python3.7/site-packages/towncrier/test/__init__.py
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.7/site-packages/towncrier/test/__pycache__/__init__.cpython-37.pyc
+@comment MD5:437035a432f42f249bae957882db30e0
+lib/python3.7/site-packages/towncrier/test/__pycache__/__init__.cpython-37.opt-1.pyc
+@comment MD5:437035a432f42f249bae957882db30e0
+lib/python3.7/site-packages/towncrier/test/test_check.py
+@comment MD5:71c4e400649c6247c0d80da161a71ded
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_check.cpython-37.pyc
+@comment MD5:90eced1f760f34f27fc7eb0f6cf86300
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_check.cpython-37.opt-1.pyc
+@comment MD5:df7194a576c772b0c41395e25e3a5024
+lib/python3.7/site-packages/towncrier/test/test_cli.py
+@comment MD5:95283193b64dc1de4b0e2a65f68bf7fd
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_cli.cpython-37.pyc
+@comment MD5:24faafb1b59636c3f8ee91628e4c909a
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_cli.cpython-37.opt-1.pyc
+@comment MD5:2a36e71c0007098dadb88282e96f672b
+lib/python3.7/site-packages/towncrier/test/test_format.py
+@comment MD5:60d2acedc8ab20d49f92d5ab14c825b0
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_format.cpython-37.pyc
+@comment MD5:3b6f9fb0f05da4bc6a663fb8695ffd1d
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_format.cpython-37.opt-1.pyc
+@comment MD5:e95deb539f719ee4c5f6dc98fbc14037
+lib/python3.7/site-packages/towncrier/test/test_project.py
+@comment MD5:091dd3c9f7b1b139ecaedb52034300c9
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_project.cpython-37.pyc
+@comment MD5:65a177eef0814ad6968ae00ad1373868
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_project.cpython-37.opt-1.pyc
+@comment MD5:65a177eef0814ad6968ae00ad1373868
+lib/python3.7/site-packages/towncrier/test/test_settings.py
+@comment MD5:c322a49c2807e5f0d6378562580a1eb4
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_settings.cpython-37.pyc
+@comment MD5:452da14a6c15039c3470a3e156d1ea98
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_settings.cpython-37.opt-1.pyc
+@comment MD5:0e18cca4a9915e8c44c2e60bcfa018ec
+lib/python3.7/site-packages/towncrier/test/test_write.py
+@comment MD5:84b9ea8d57904dc3edf94d930f3e51ef
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_write.cpython-37.pyc
+@comment MD5:13aee69aadab64e7ed5bf56587d4354d
+lib/python3.7/site-packages/towncrier/test/__pycache__/test_write.cpython-37.opt-1.pyc
+@comment MD5:13aee69aadab64e7ed5bf56587d4354d
