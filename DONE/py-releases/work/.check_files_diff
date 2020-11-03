@@ -1,0 +1,23 @@
+--- /usr/pkgsrc/category/py-releases/work/.prefix.pre	2020-11-03 14:50:41.470315641 +0100
++++ /usr/pkgsrc/category/py-releases/work/.prefix.post	2020-11-03 14:50:46.570454915 +0100
+@@ -0,0 +1,20 @@
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases-1.6.3-py3.7.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases-1.6.3-py3.7.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases-1.6.3-py3.7.egg-info/requires.txt
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases-1.6.3-py3.7.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases-1.6.3-py3.7.egg-info/top_level.txt
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__init__.py
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/line_manager.py
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/models.py
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/__init__.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/__init__.cpython-37.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/line_manager.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/line_manager.cpython-37.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/models.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/models.cpython-37.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/util.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/util.cpython-37.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/_version.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/__pycache__/_version.cpython-37.pyc
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/util.py
++/usr/pkgsrc/category/py-releases/work/.destdir/usr/pkg/lib/python3.7/site-packages/releases/_version.py

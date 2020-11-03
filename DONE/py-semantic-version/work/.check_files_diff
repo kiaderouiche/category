@@ -1,0 +1,17 @@
+--- /usr/pkgsrc/category/py-semantic-version/work/.prefix.pre	2020-11-03 14:47:59.457891413 +0100
++++ /usr/pkgsrc/category/py-semantic-version/work/.prefix.post	2020-11-03 14:48:06.442082137 +0100
+@@ -0,0 +1,14 @@
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version-2.8.5-py3.7.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version-2.8.5-py3.7.egg-info/not-zip-safe
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version-2.8.5-py3.7.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version-2.8.5-py3.7.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version-2.8.5-py3.7.egg-info/top_level.txt
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/base.py
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/django_fields.py
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__init__.py
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__pycache__/base.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__pycache__/base.cpython-37.pyc
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__pycache__/django_fields.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__pycache__/django_fields.cpython-37.pyc
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__pycache__/__init__.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-semantic-version/work/.destdir/usr/pkg/lib/python3.7/site-packages/semantic_version/__pycache__/__init__.cpython-37.pyc
