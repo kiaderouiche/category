@@ -2,17 +2,17 @@
 
 DISTNAME=	parver-0.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/dd/7d/5e4ad784f4cdabab244487f543876a8887f28f162bbb925f8b73b4411dfb/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/parver/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/RazerM/parver
 COMMENT=	Parse and manipulate version numbers
 LICENSE=	mit
 
-DEPENDS+=	# TODO: arpeggio~=1.7>=0
-DEPENDS+=	py-attrs>=19.2:../../devel/py-attrs
-DEPENDS+=	# TODO: six~=1.13>=0
+#DEPENDS+=	${PYPKGPREFIX}-arpeggio>=1.10.1:../../wip/py-arpeggio
+DEPENDS+=	${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 
 USE_LANGUAGES=	# none
 
