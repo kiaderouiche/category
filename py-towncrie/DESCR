@@ -1,2 +1,5 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+towncrier is a utility to produce useful, summarised news
+files for your project. Rather than reading the Git history
+as some newer tools to produce it, or having one single file
+which developers all write to, towncrier reads news fragments
+which contain information useful to end users

@@ -10,10 +10,10 @@ HOMEPAGE=	https://github.com/hawkowl/towncrier
 COMMENT=	Building newsfiles for your project
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-click>=0:../../devel/py-click
-DEPENDS+=	${PYPKGPREFIX}-incremental>=0:../../devel/py-incremental
-DEPENDS+=	${PYPKGPREFIX}-jinja2>=0:../../textproc/py-jinja2
-DEPENDS+=	${PYPKGPREFIX}-toml>=0:../../textproc/py-toml
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
+#DEPENDS+=	${PYPKGPREFIX}-incremental>=17.5.0:../../devel/py-incremental
+DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.11.2:../../textproc/py-jinja2
+DEPENDS+=	${PYPKGPREFIX}-toml>=0.10.2:../../textproc/py-toml
 
 USE_LANGUAGES=	# none
 
