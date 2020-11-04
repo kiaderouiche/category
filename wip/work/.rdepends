@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	checkperms>=1.1	checkperms-1.12
-build	cwrappers>=20150314	cwrappers-20180325
-full	py37-click>=7.1.2	py37-click-7.1.2
-full	py37-incremental>=17.5.0	py37-incremental-17.5.0
-full	py37-jinja2>=2.11.2	py37-jinja2-2.11.2
-full	py37-setuptools-[0-9]*	py37-setuptools-50.3.0
-full	python37>=3.7	python37-3.7.9nb1
