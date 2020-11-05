@@ -14,7 +14,7 @@ LICENSE=        gnu-gpl-v2
 
 USE_CMAKE=		yes
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	pkg-config msgmerge
 USE_LANGUAGES=		c c++
 
 DEPENDS+=	doxygen>=1.8.20:../../devel/doxygen
