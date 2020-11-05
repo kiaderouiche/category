@@ -21,4 +21,5 @@ USE_LANGUAGES=	c++
 
 PKGCONFIG_OVERRIDE+=	zxing.pc.in
 
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
