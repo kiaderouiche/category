@@ -19,6 +19,7 @@ USE_LANGUAGES=		c c++
 
 DEPENDS+=	doxygen>=1.8.20:../../devel/doxygen
 
+.include "../../devel/kcrash/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
