@@ -1,4 +1,5 @@
 MANIFEST.in
+PKG-INFO
 Pipfile
 setup.cfg
 setup.py

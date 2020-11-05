@@ -1,3 +1,0 @@
-[httpie.plugins.auth.v1]
-httpie_jwt_auth = httpie_jwt_auth:JWTAuthPlugin
-
