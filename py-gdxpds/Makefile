@@ -7,7 +7,7 @@ MASTER_SITES=   ${MASTER_SITE_PYPI:=g/gdxpds/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/NREL/gdx-pandas
-COMMENT=	Python package to translate between gdx (GAMS data) and pandas
+COMMENT=	Translate between gdx (GAMS data) and pandas
 #LICENSE=	# TODO: (see mk/license.mk)
 
 PYTHON_VERSIONS_INCOMPATIBLE=   27
