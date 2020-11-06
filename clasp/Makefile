@@ -16,6 +16,5 @@ WRKSRC=		${WRKDIR}/clasp-3.3.5
 
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
-USE_LANGUAGES=	c++
 
 .include "../../mk/bsd.pkg.mk"

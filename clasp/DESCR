@@ -1,7 +1,8 @@
-clasp is an answer set solver for (extended) normal and disjunctive logic
-programs. It is part of the [Potassco](https://potassco.org) project for
-*Answer Set Programming* (ASP). The primary algorithm of clasp relies on
-conflict-driven nogood learning, a technique that proved very successful
-for satisfiability checking (SAT). clasp has been genuinely developed for
-answer set solving but can also be applied as a (Max-)SAT or PB solver or
-as a C++ library in another program.
+clasp is an answer set solver for extended normal
+and disjunctive logic programs. It is part of the
+Potassco project for Answer Set Programming (ASP).
+The primary algorithm of clasp relies on conflict-driven
+nogood learning, a technique that proved very successful
+for satisfiability checking (SAT). clasp has been genuinely
+developed for answer set solving but can also be applied
+as a (Max-)SAT or PB solver or as a C++ library in another program.
