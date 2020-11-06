@@ -1,0 +1,2 @@
+This program tries to detect potential candidate clones
+that arise in dex class files, by matching pcode against pcode
