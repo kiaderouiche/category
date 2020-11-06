@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (osquery-4.5.1_1.linux_x86_64.tar.gz) = d17b37c6d0fa9c29e88b6d5b69af9a8ca002b63b
-RMD160 (osquery-4.5.1_1.linux_x86_64.tar.gz) = 3710f62d9d07c7e3088be307f217cb1e4e7b2d98
-SHA512 (osquery-4.5.1_1.linux_x86_64.tar.gz) = d3e0f444b2867adab036214699f9f9c21ad7975890ca736fd4edbf35502e16efa19dd900cd35d8a3879571b1f7ce47bd9e4c9d50a034dfe6d136009a38042b64
-Size (osquery-4.5.1_1.linux_x86_64.tar.gz) = 10663669 bytes
+SHA1 (osquery/4.5.1.tar.gz) = 28e4e120541371f898d977f64c8c75a5877c6704
+RMD160 (osquery/4.5.1.tar.gz) = f5c50ceedc91ed145fb53a974cd48ed9ac0efdc9
+SHA512 (osquery/4.5.1.tar.gz) = f4603665c0102216ca5914d25c010247f88e3625593fe53bc4335ec328d1f6ba3c806c0e9ec6f88bc1f8b367b7ef5fa0a02f6c59ef4e9671d1f5b45aabf2932d
+Size (osquery/4.5.1.tar.gz) = 2993149 bytes

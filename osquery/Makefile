@@ -1,17 +1,20 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	osquery
-DISTNAME=	osquery-4.5.1_1.linux_x86_64
-CATEGORIES=	sysutils
+GITHUB_TAG=	4.5.1
+DISTNAME=	4.5.1
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=osquery/}
-GITHUB_RELEASE=	4.5.1
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/osquery/osquery/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR} # TODO: one of usr etc var, or leave it as-is
-USE_LANGUAGES=	# none
+WRKSRC=		${WRKDIR}/osquery-4.5.1
+USE_CMAKE=	yes
+USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"
