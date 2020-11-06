@@ -24,8 +24,8 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=6.1.2:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-recommonmark>=0.6:../../wip/py-recommonmark
 BUILD_DEPENDS+=	${PYPKGPREFIX}-watchdog>=0.9:../../sysutils/py-watchdog
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.3.1:../../textproc/py-pygments
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pexpect>=4:../../devel/py-pexpect
-BUILD_DEPENDS+=	${PYPKGPREFIX}-mypy>=0.761,<0.762:../../lang/py-mypy
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pexpect>=4.8.0:../../devel/py-pexpect
+BUILD_DEPENDS+=	${PYPKGPREFIX}-mypy>=0.761:../../lang/py-mypy
 BUILD_DEPENDS+=	pre-commit>=1:../../wip/pre-commit
 DEPENDS+=	${PYPKGPREFIX}-cPyparsing>=2.4.5.0.1.1,<2.4.5.0.1.2
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.3.1:../../textproc/py-pygments
