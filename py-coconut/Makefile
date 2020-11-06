@@ -15,12 +15,12 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-jupyter-console>=5.2:../../devel/py-jupyter-conso
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pyparsing>=2.4.5:../../devel/py-pyparsing
 BUILD_DEPENDS+=	${PYPKGPREFIX}-psutil>=5:../../sysutils/py-psutil
 BUILD_DEPENDS+=	${PYPKGPREFIX}-vprof>=0.36:../../wip/py-vprof
-BUILD_DEPENDS+=	${PYPKGPREFIX}-requests>=2:../../devel/py-requests
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.7.4,<1.7.5:../../textproc/py-sphinx
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx_bootstrap_theme>=0.4,<0.5
-BUILD_DEPENDS+=	${PYPKGPREFIX}-jupyter>=1.0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-requests>=2.24.0:../../devel/py-requests
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.7.4:../../textproc/py-sphinx
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx_bootstrap_theme>=0.4,<0.5:../../textproc/py-sphix
+BUILD_DEPENDS+=	${PYPKGPREFIX}-jupyter>=1.0:../../devel/py-jupyter
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipykernel>=5.1:../../devel/py-ipykernel
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=3
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=3:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-recommonmark>=0.6:../../wip/py-recommonmark
 BUILD_DEPENDS+=	${PYPKGPREFIX}-watchdog>=0.9:../../sysutils/py-watchdog
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.3.1:../../textproc/py-pygments
