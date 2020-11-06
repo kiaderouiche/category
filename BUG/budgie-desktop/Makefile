@@ -11,6 +11,7 @@ COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=			${WRKDIR}/budgie-desktop-10.5
+
 USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=	yes
 
@@ -32,7 +33,7 @@ BUILDLINK_API_DEPENDS.accountsservice+=	accountsservice>=0.6.40
 .include "../../sysutils/accountsservice/buildlink3.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"
 BUILDLINK_API_DEPENDS.gnome-desktop3+=	gnome-desktop3>=3.4.2
-.include "../../wip/gnome-desktop3/buildlink3.mk"
+.include "../../x11/gnome-desktop3/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
 BUILDLINK_API_DEPENDS.mutter+=  mutter>=3.36.3
 .include "../../wip/mutter/buildlink3.mk"

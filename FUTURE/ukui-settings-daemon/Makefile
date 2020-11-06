@@ -1,15 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	ukui-settings-daemon_1.1.6.orig
+GITHUB_PROJECT=	ukui-settings-daemon
+GITHUB_TAG=	v1.1.7
+DISTNAME=	v1.1.7
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
-MASTER_SITES=	http://deb.debian.org/debian/pool/main/u/ukui-settings-daemon/
+MASTER_SITES=	${MASTER_SITE_GITHUB:=ukui/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://deb.debian.org/debian/pool/main/u/ukui-settings-daemon/
+HOMEPAGE=	https://github.com/ukui/ukui-settings-daemon/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=			${WRKDIR}/ukui-settings-daemon
+WRKSRC=			${WRKDIR}/ukui-settings-daemon-1.1.7
 USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=	yes
 
