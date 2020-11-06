@@ -1,13 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	vprof-0.38
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/ee/3e/80bebf83110f1919a876efca66d0812fde9905e926c740bb75382f2ac626/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	www python
+MASTER_SITES=	${MASTER_SITE_PYPI:=v/vprof/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/ee/3e/80bebf83110f1919a876efca66d0812fde9905e926c740bb75382f2ac626/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/nvdv/vprof
+COMMENT=	Visual profiler for Python
+LICENSE=	2-clause-bsd
 
-# url2pkg-marker (please do not remove this line.)
+DEPENDS+=	${PYPKGPREFIX}-psutil>=5.7.2:../../sysutils/py-psutil
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
