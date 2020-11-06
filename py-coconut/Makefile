@@ -24,17 +24,17 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=6.1.2:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-recommonmark>=0.6:../../wip/py-recommonmark
 BUILD_DEPENDS+=	${PYPKGPREFIX}-watchdog>=0.9:../../sysutils/py-watchdog
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.3.1:../../textproc/py-pygments
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pexpect>=4:../../devel/py-pexpect
-BUILD_DEPENDS+=	${PYPKGPREFIX}-mypy>=0.761,<0.762:../../lang/py-mypy
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pexpect>=4.8.0:../../devel/py-pexpect
+BUILD_DEPENDS+=	${PYPKGPREFIX}-mypy>=0.761:../../lang/py-mypy
 BUILD_DEPENDS+=	pre-commit>=1:../../wip/pre-commit
 DEPENDS+=	${PYPKGPREFIX}-cPyparsing>=2.4.5.0.1.1,<2.4.5.0.1.2
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.3.1:../../textproc/py-pygments
-DEPENDS+=	${PYPKGPREFIX}-prompt_toolkit>=1:../../devel/py-prompt_toolkit
+DEPENDS+=	${PYPKGPREFIX}-prompt_toolkit>=3.0.8:../../devel/py-prompt_toolkit
 
 USE_LANGUAGES=	# none
 
-BUILDLINK_DEPENDS.py-numpy+=	build
-BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1
+BUILDLINK_DEPENDS.${PYPKGPREFIX}-numpy+=	build
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.0
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
