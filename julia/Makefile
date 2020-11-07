@@ -2,7 +2,7 @@
 
 GITHUB_PROJECT=	julia
 DISTNAME=	julia-1.5.1
-CATEGORIES=	category
+CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GITHUB:=JuliaLang/}
 GITHUB_RELEASE=	v1.5.1
 
@@ -11,7 +11,7 @@ HOMEPAGE=	https://julialang.org/
 COMMENT=	Julia Language: A fresh approach to technical computing
 #LICENSE=	# TODO: (see mk/license.mk)
 
-USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake perl
+USE_LANGUAGES=	c c++ fortran
 
 .include "../../mk/bsd.pkg.mk"
