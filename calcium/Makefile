@@ -15,6 +15,7 @@ COMMENT=	TODO: Short description of the package
 
 WRKSRC=		${WRKDIR}/calcium-0.2.0
 
+USE_TOOLS+=	gmake
 HAS_CONFIGURE=	yes
 
 .include "../../mk/bsd.pkg.mk"
