@@ -7,7 +7,7 @@ MASTER_SITES=	http://www.flintlib.org/
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.flintlib.org/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v2.1
 
 HAS_CONFIGURE=	yes
 USE_CMAKE=	yes
