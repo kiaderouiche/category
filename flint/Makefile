@@ -13,8 +13,10 @@ HAS_CONFIGURE=	yes
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+CONFIGURE_ARGS+=	--with-gmp=${PREFIX}
 BUILDLINK_API_DEPENDS.gmp+=	gmp>=6.0
 .include "../../devel/gmp/buildlink3.mk"
-BUILDLINK_API_DEPENDS.gmp+=	mpfr>=6.0
+CONFIGURE_ARGS+=	--with-mpfr=${PREFIX}
+BUILDLINK_API_DEPENDS.mpfr+=    mpfr>=2.0.3
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
