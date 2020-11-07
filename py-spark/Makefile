@@ -37,6 +37,13 @@ REPLACE_BASH+=	\
 	deps/sbin/start-history-server.sh \
 	deps/sbin/stop-history-server.sh
 
+
+
+SUBST_CLASSES+=                 py_interpreter
+SUBST_STAGE.py_interpreter=     post-extract
+SUBST_FILES.py_interpreter+=	deps/bin/find-spark-home
+SUBST_SED.py_interpreter=       -e "s,python,python${PYVERSSUFFIX},g"
+
 #SUBST_CLASSES+=         prefix
 #pSUBST_STAGE.prefix=     pre-configure
 #SUBST_MESSAGE.prefix=   Setting path to PREFIX in source files.
