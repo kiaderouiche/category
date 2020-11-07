@@ -38,11 +38,11 @@ REPLACE_BASH+=	\
 	deps/sbin/stop-history-server.sh
 
 #SUBST_CLASSES+=         prefix
-#SUBST_STAGE.prefix=     pre-configure
+#pSUBST_STAGE.prefix=     pre-configure
 #SUBST_MESSAGE.prefix=   Setting path to PREFIX in source files.
 #SUBST_FILES.prefix+=    deps/bin/beeline
 #SUBST_FILES.prefix+=    deps/bin/docker-image-tool.sh
-#SUBST_FILES.prefix+=    deps/bin/find-spark-home
+#SUBST_FILES.prefix+=	 deps/bin/find-spark-home
 #SUBST_FILES.prefix+=    deps/bin/find_spark_home.py
 #SUBST_FILES.prefix+=    deps/bin/load-spark-env.sh
 #SUBST_FILES.prefix+=    deps/bin/pyspark
@@ -52,12 +52,13 @@ REPLACE_BASH+=	\
 #SUBST_FILES.prefix+=    deps/bin/spark-sql
 #SUBST_FILES.prefix+=    deps/bin/spark-submit
 #SUBST_FILES.prefix+=    deps/bin/sparkR
-#SUBST_SED.paths+=       -e 's,${SPARK_HOME},${PYVERSSUFFIX},g'
+#SUBST_SED.paths+=       -e 's,python,python${PYVERSSUFFIX},g'
 #SUBST_SED.prefix+=      -e "s|/usr/share/ladspa|${PREFIX}/share/ladspa|g"
 
 post-extract:
 	${RM} -f ${WRKSRC}/deps/bin/*.cmd
 
 
+.include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
