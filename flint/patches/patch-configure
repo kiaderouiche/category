@@ -1,0 +1,23 @@
+$NetBSD$
+
+--- configure.orig	2020-08-12 03:00:32.000000000 +0000
++++ configure
+@@ -5,12 +5,12 @@
+ # (C) 2012, William Hart, Jean-Pierre Flori, Thomas DuBuisson
+ # (C) 2012, Jan Engelhardt
+ 
+-PREFIX="/usr/local"
+-GMP_DIR="/usr/local"
+-MPFR_DIR="/usr/local"
+-NTL_DIR="/usr/local"
+-GC_DIR="/usr/local"
+-BLAS_DIR="/usr/local"
++PREFIX="/usr/pkg"
++GMP_DIR="/usr/pkg"
++MPFR_DIR="/usr/pkg"
++NTL_DIR="/usr/pkg"
++GC_DIR="/usr/pkg"
++BLAS_DIR="/usr/pkg"
+ WANT_NTL=0
+ WANT_BLAS=0
+ SHARED=1
