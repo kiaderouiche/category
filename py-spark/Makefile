@@ -6,7 +6,7 @@ CATEGORIES=	devel python
 MASTER_SITES=   ${MASTER_SITE_PYPI:=p/pyspark/}
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	https://github.com/apache/spark/tree/master/python
+HOMEPAGE=	https://spark.apache.org/
 COMMENT=	Apache Spark Python API
 LICENSE=	apache-2.0
 
@@ -15,9 +15,11 @@ USE_TOOLS+=	bash
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-py4j>=0.10.9.1:../../wip/py-py4j
 
-USE_LANGUAGES=	# none
+USE_JAVA=	run
+USE_JAVA2=	8
 
 REPLACE_BASH+=	\
 	deps/bin/beeline		\
@@ -47,7 +49,8 @@ SUBST_SED.py_interpreter=       -e "s,python,python${PYVERSSUFFIX},g"
 post-extract:
 	${RM} -f ${WRKSRC}/deps/bin/*.cmd
 
-
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
