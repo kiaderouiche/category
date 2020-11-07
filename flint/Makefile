@@ -13,6 +13,9 @@ HAS_CONFIGURE=	yes
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+CONFIGURE_ARGS+=	--without-ntl
+CONFIGURE_ARGS+=	--without-blas
+
 CONFIGURE_ARGS+=	--with-gmp=${PREFIX}
 BUILDLINK_API_DEPENDS.gmp+=	gmp>=6.0
 .include "../../devel/gmp/buildlink3.mk"
