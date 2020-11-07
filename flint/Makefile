@@ -14,4 +14,5 @@ USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../devel/gmp/buildlink3.mk"
+.include "../../math/mpfr/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
