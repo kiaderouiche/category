@@ -1,10 +1,10 @@
 # $NetBSD$
 
 DISTNAME=	flint-2.6.3
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	http://www.flintlib.org/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.flintlib.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
