@@ -14,8 +14,8 @@ LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/julia-1.5.2
 
-USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake
+USE_LANGUAGES=	c c++ fortran
+USE_TOOLS+=	gmake pkg-config
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
