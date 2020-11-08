@@ -1,0 +1,58 @@
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-mxnet/work/.tools/bin/true
+<.> true 
+[*] cc -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCCompilerId.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] cc -print-sysroot
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/gcc -fcommon -m64 -print-sysroot -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 CMakeCXXCompilerId.cpp -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] c++ -print-sysroot
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/g++ -m64 -print-sysroot -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_cf817.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_cf817.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCCompilerABI.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v CMakeFiles/cmTC_cf817.dir/CMakeCCompilerABI.c.o -o cmTC_cf817
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v CMakeFiles/cmTC_cf817.dir/CMakeCCompilerABI.c.o -o cmTC_cf817 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_c8f0b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -v -o CMakeFiles/cmTC_c8f0b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/pkg/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -v CMakeFiles/cmTC_c8f0b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c8f0b
+<.> /usr/pkgsrc/category/py-mxnet/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -v CMakeFiles/cmTC_c8f0b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c8f0b -fstack-protector -I/usr/pkgsrc/category/py-mxnet/work/.buildlink/include
