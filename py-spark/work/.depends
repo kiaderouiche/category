@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-pandas>=0.23.0	../../math/py-pandas
+full	py37-py4j>=0.10.9.1	../../wip/py-py4j
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	py37-numpy>=1.19.2nb1	../../math/py-numpy
+full	oracle-jre8>=8.0.45	../../lang/oracle-jre8
