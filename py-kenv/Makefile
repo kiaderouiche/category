@@ -10,7 +10,10 @@ HOMEPAGE=	https://github.com/fuodorov/kenv
 COMMENT=	Solver of the Kapchinsky-Vladimirsky envelope equation
 LICENSE=	mit
 
-USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	27
 
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.2.3:../../math/py-scipy
+
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
