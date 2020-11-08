@@ -4,12 +4,12 @@ GITHUB_PROJECT=	incubator-mxnet
 GITHUB_TAG=	1.7.0
 DISTNAME=	1.7.0
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
-CATEGORIES=	category
+CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=apache/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research]@gmail.com
-HOMEPAGE=	https://github.com/apache/incubator-mxnet/
+HOMEPAGE=	https://mxnet.apache.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
