@@ -1,4 +1,0 @@
-include README.md
-include Pipfile
-include streamlit/config/config.yaml
-recursive-include streamlit/static *
