@@ -1,0 +1,21 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv-0.2.0.0-py3.7.egg-info/dependency_links.txt
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv-0.2.0.0-py3.7.egg-info/PKG-INFO
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv-0.2.0.0-py3.7.egg-info/SOURCES.txt
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv-0.2.0.0-py3.7.egg-info/top_level.txt
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/accelerator.py
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/beam.py
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/constants.py
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__init__.py
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/accelerator.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/accelerator.cpython-37.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/beam.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/beam.cpython-37.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/constants.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/constants.cpython-37.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/__init__.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/__init__.cpython-37.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/solver.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/__pycache__/solver.cpython-37.pyc
+        /usr/pkgsrc/category/py-kenv/work/.destdir/usr/pkg/lib/python3.7/site-packages/kenv/solver.py

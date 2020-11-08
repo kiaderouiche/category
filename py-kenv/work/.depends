@@ -1,3 +1,6 @@
 bootstrap	digest>=20010302	../../pkgtools/digest
 tool	checkperms>=1.1	../../sysutils/checkperms
 build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-scipy>=1.2.3	../../math/py-scipy
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	py37-numpy>=1.19.2nb1	../../math/py-numpy
