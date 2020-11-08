@@ -1,19 +1,20 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	sh
-GITHUB_TAG=	v3.1.2
-DISTNAME=	v3.1.2
+GITHUB_TAG=	v3.2.0
+DISTNAME=	v3.2.0
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	shells
 MASTER_SITES=	${MASTER_SITE_GITHUB:=mvdan/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mvdan/sh/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Shell parser, formatter, and interpreter with bash support
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/sh-3.1.2
+WRKSRC=		${WRKDIR}/sh-3.2.0
+
 USE_LANGUAGES=	# none
 
 .include "../../mk/bsd.pkg.mk"
