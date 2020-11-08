@@ -17,4 +17,5 @@ WRKSRC=		${WRKDIR}/julia-1.5.2
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
