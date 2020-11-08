@@ -10,7 +10,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research]@gmail.com
 HOMEPAGE=	https://mxnet.apache.org/
-COMMENT=	TODO: Short description of the package
+COMMENT=	MXNet is an ultra-scalable deep learning framework
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/incubator-mxnet-1.7.0
