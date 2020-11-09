@@ -18,5 +18,8 @@ DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 
 USE_LANGUAGES=	# none
 
+do-test:
+	${RUN} cd ${WRKSRC}/tests; ${SETENV} ${TEST_ENV} ${PYTHONBIN} run_tests.py
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
