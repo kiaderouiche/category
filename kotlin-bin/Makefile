@@ -25,4 +25,5 @@ REPLACE_BASH+=	bin/cinterop 		\
 
 USE_LANGUAGES=	# none
 
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
