@@ -23,7 +23,9 @@ REPLACE_BASH+=	bin/cinterop 		\
 		bin/kotlinc-native	\
 		run_konan
 
-USE_LANGUAGES=	# none
+NO_BUILD=	yes
+USE_JAVA=       run
+USE_JAVA2=      8
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
