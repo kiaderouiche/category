@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-appdirs>=1.4.4	../../devel/py-appdirs
+full	py37-jedi>=0.9.0	../../editors/py-jedi
+full	py37-pygments>=2.5.2	../../textproc/py-pygments
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37
