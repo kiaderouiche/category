@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=v/vistir/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/4f/82/aea5cb3f4153a66c24437290b06a0dd16acf56b49075f8381b136aba716b/
 COMMENT=	Setup / utilities which most projects eventually need
-LICENSE=	apache-2.0
+#LICENSE=	apache-2.0
 
 USE_LANGUAGES=	# none
 
