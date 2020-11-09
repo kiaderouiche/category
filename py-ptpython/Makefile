@@ -3,7 +3,7 @@
 DISTNAME=	ptpython-3.0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/6e/e4/a80136cd9830b7eb80105443118f455c1e22c68f08d6b4a7c2d32e40604d/
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/ptpython/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/prompt-toolkit/ptpython
