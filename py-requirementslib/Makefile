@@ -6,8 +6,8 @@ CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=r/requirementslib/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/c2/a2/587233357d5ffc1acbdeb1276e080c7ac43a706cae52087c5c6d52032aff/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://github.com/sarugaku/requirementslib/
+COMMENT=	Tool for converting between pip-style and pipfile requirements
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	# none
