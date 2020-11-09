@@ -9,7 +9,7 @@ GITHUB_RELEASE=	v1.4.10
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/JetBrains/kotlin/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 USE_TOOLS+=	bash
 
