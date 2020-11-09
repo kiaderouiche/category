@@ -2,6 +2,7 @@
 
 GITHUB_PROJECT=	kotlin
 DISTNAME=	kotlin-native-linux-1.4.10
+PKGNAME=	${DISTNAME:S/-native-linux/-bin/}
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GITHUB:=JetBrains/}
 GITHUB_RELEASE=	v1.4.10
