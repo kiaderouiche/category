@@ -2,7 +2,7 @@
 
 DISTNAME=	ptpython-3.0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/ptpython/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
