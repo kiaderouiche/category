@@ -12,5 +12,9 @@ LICENSE=	mit
 
 USE_LANGUAGES=	# none
 
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.15.0:../../textproc/py-sphinx
+DEPENDS+=	${PYPKGPREFIX}-sphinx-rtd-theme>=0.4.3:../../textproc/py-sphinx-rtd-theme
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
