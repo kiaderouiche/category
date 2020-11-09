@@ -9,7 +9,7 @@ GITHUB_RELEASE=	v1.4.10
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://kotlinlang.org/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Modern programming language that makes developers happier
 LICENSE=	apache-2.0
 
 USE_LANGUAGES=          # empty
@@ -29,6 +29,8 @@ REPLACE_BASH+=	bin/cinterop 		\
 
 USE_JAVA=       run
 USE_JAVA2=      8
+
+INSTALLATION_DIRS=	bin
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
