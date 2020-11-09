@@ -7,8 +7,8 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=b/bpytop/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/aristocratos/bpytop
-COMMENT=	Shows usage and stats for processor, memory, disks, network and processes
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Stats for processor, memory, disks, network and processes
+#LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-psutil>=5.7.0:../../sysutils/py-psutil
 
