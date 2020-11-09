@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=JetBrains/}
 GITHUB_RELEASE=	v1.4.10
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/JetBrains/kotlin/
+HOMEPAGE=	https://kotlinlang.org/
 COMMENT=	TODO: Short description of the package
 LICENSE=	apache-2.0
 
