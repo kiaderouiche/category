@@ -1,0 +1,11 @@
+Makefile
+build/*
+libcalcium.so*
+libcalcium.a
+doc/build/*
+*.ppm
+*.lo
+*.deps/
+*.libs/
+*.dirstamp
+*__pycache__*

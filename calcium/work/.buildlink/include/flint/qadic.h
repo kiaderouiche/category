@@ -1,0 +1,1 @@
+/usr/pkg/include/flint/qadic.h
