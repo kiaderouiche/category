@@ -12,6 +12,9 @@ HOMEPAGE=	https://kotlinlang.org/
 COMMENT=	TODO: Short description of the package
 LICENSE=	apache-2.0
 
+USE_LANGUAGES=          # empty
+NO_BUILD=       yes
+
 USE_TOOLS+=	bash
 
 REPLACE_BASH+=	bin/cinterop 		\
@@ -24,7 +27,6 @@ REPLACE_BASH+=	bin/cinterop 		\
 		bin/kotlinc-native	\
 		run_konan
 
-NO_BUILD=	yes
 USE_JAVA=       run
 USE_JAVA2=      8
 
