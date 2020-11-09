@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=r/requirementslib/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/sarugaku/requirementslib/
 COMMENT=	Tool for converting between pip-style and pipfile requirements
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 USE_LANGUAGES=	# none
 
