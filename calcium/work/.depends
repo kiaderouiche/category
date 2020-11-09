@@ -1,0 +1,6 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	gmp>=6.0	../../devel/gmp
+full	mpfr>=4.0.0	../../math/mpfr
+full	flint>=2.6.3	../../wip/flint
