@@ -15,7 +15,7 @@ USE_LANGUAGES=	# none
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=2.4.4:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-sphinx-rtd-theme>=0.4.3:../../textproc/py-sphinx-rtd-theme
-#DEPENDS+=	${PYPKGPREFIX}-ptpython>=3.0.7:../../wip/py-ptpython
+DEPENDS+=	${PYPKGPREFIX}-ptpython>=3.0.7:../../wip/py-ptpython
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

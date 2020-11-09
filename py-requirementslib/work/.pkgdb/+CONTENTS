@@ -1,0 +1,18 @@
+@cwd /usr/pkg
+@name py37-requirementslib-1.5.15
+@blddep py37-six-1.15.0
+@pkgdep py37-six>=1.15.0
+@blddep py37-sphinx-2.4.4
+@pkgdep py37-sphinx>=2.4.4
+@blddep py37-sphinx-rtd-theme-0.4.3
+@pkgdep py37-sphinx-rtd-theme>=0.4.3
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb1
+@pkgdep python37>=3.7
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"

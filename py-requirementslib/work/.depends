@@ -1,3 +1,8 @@
 bootstrap	digest>=20010302	../../pkgtools/digest
 tool	checkperms>=1.1	../../sysutils/checkperms
 build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-six>=1.15.0	../../lang/py-six
+full	py37-sphinx>=2.4.4	../../textproc/py-sphinx
+full	py37-sphinx-rtd-theme>=0.4.3	../../textproc/py-sphinx-rtd-theme
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37
