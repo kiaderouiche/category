@@ -2,7 +2,7 @@
 
 DISTNAME=	requirementslib-1.5.15
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=r/requirementslib/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
