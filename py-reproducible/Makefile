@@ -14,13 +14,12 @@ COMMENT=	Reproducible library
 #LICENSE=	BSD # TODO: from setup.py; needs to be adjusted
 
 DEPENDS+=	${PYPKGPREFIX}-gitpython>=0:../../devel/py-gitpython
-DEPENDS+=	${PYPKGPREFIX}-yaml>=0
-DEPENDS+=	${PYPKGPREFIX}-cpuinfo<5.0.0>=0
+DEPENDS+=	${PYPKGPREFIX}-yaml>=0:../../textproc/py-yaml
+DEPENDS+=	${PYPKGPREFIX}-cpuinfo>=6.0.0:../../sysutils//py-cpuinfo
 
 WRKSRC=		${WRKDIR}/reproducible-0.4.0
 
 USE_LANGUAGES=	# none
 
-# TODO: Migrate MASTER_SITES to MASTER_SITE_PYPI
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
