@@ -28,6 +28,7 @@ REPLACE_BASH+=	bin/cinterop 		\
 		run_konan
 
 USE_JAVA=       run
+PKG_JVMS_ACCEPTED=      sun-jdk7 oracle-jdk8 openjdk8
 USE_JAVA2=      8
 
 INSTALLATION_DIRS=	bin
