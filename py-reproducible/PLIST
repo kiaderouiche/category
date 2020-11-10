@@ -1,4 +1,14 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/bin/make package"
-@comment TODO: 2. run "/usr/bin/make print-PLIST"
+${PYSITELIB}/reproducible-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/PKG-INFO
+${PYSITELIB}/reproducible-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
+${PYSITELIB}/reproducible-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
+${PYSITELIB}/reproducible-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/requires.txt
+${PYSITELIB}/reproducible-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/top_level.txt
+${PYSITELIB}/reproducible/__init__.py
+${PYSITELIB}/reproducible/__init__.pyc
+${PYSITELIB}/reproducible/__init__.pyo
+${PYSITELIB}/reproducible/reproducible.py
+${PYSITELIB}/reproducible/reproducible.pyc
+${PYSITELIB}/reproducible/reproducible.pyo
+license.md
+readme.md

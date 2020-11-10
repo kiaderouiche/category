@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py37-gitpython>=0	../../devel/py-gitpython
-full	py37-yaml>=0	../../textproc/py-yaml
-full	py37-cpuinfo>=6.0.0	../../sysutils//py-cpuinfo
-full	py37-setuptools-[0-9]*	../../devel/py-setuptools
-full	python37>=3.7	../../lang/python37
