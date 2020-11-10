@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/oist-cnru/reproducible
 COMMENT=	Reproducible library
-LICENSE=	modified-bsd
+LICENSE=	gnu-lgpl-v3
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
