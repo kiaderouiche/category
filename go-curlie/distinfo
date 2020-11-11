@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (curlie_1.6.0_linux_amd64.tar.gz) = cdccc7c9921a02942a1be105627f63c9ef78b486
-RMD160 (curlie_1.6.0_linux_amd64.tar.gz) = 43366a169128516ba2d3640dc10f4d561ff4ee92
-SHA512 (curlie_1.6.0_linux_amd64.tar.gz) = 5ba261d9c60412f302434337a34541a6b3adcb6e4e233978f6695f34b405c3704f60a686d350c7f6c53e28f89a336e72013cfcee2f92ea8f61016ddb0b64b714
-Size (curlie_1.6.0_linux_amd64.tar.gz) = 930824 bytes
+SHA1 (curlie/v1.6.0.tar.gz) = 72fe37be3f67b373648640187f9067f5a601b329
+RMD160 (curlie/v1.6.0.tar.gz) = f9b9eadfc8657bdfdefd44a501d247b8a4499c7a
+SHA512 (curlie/v1.6.0.tar.gz) = 653e586960300556c92716fba2d8abb9a0b413a8be1d2ba249c8dc4dd51aa253bd67d6024526f753720a37edd3f80002bd0db7da10af71974efa73a8f11d364d
+Size (curlie/v1.6.0.tar.gz) = 440484 bytes
