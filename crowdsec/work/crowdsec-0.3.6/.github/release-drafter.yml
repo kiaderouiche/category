@@ -1,0 +1,27 @@
+categories:
+  - title: 'New Features'
+    labels:
+      - 'new feature'
+  - title: 'Improvements'
+    labels:
+      - 'enhancement'
+      - 'improvement'
+  - title: 'Bug Fixes'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: 'Documentation'
+    labels:
+      - 'documentation'
+      - 'doc'
+tag-template: "- $TITLE @$AUTHOR (#$NUMBER)"
+template: |
+  ## Changes
+
+  $CHANGES
+
+  ## Geolite2 notice
+
+  This product includes GeoLite2 data created by MaxMind, available from <a href="https://www.maxmind.com">https://www.maxmind.com</a>.
+  
