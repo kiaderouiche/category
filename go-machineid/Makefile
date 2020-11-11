@@ -4,16 +4,17 @@ GITHUB_PROJECT=	machineid
 GITHUB_TAG=	v1.0.1
 DISTNAME=	v1.0.1
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GITHUB:=denisbrodbeck/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/denisbrodbeck/machineid/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/machineid-1.0.1
+
 USE_LANGUAGES=	# none
 
 .include "../../mk/bsd.pkg.mk"
