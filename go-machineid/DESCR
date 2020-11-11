@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# machineid provides support for reading the unique machine id of most host OS's (without admin privileges)
+
+![Image of Gopher 47](logo.png)
+
+… because sometimes you just need to reliably identify your machines.
+
+[![GoDoc](https://godoc.org/github.com/denisbrodbeck/machineid?status.svg)](https://godoc.org/github.com/denisbrodbeck/machineid) [![Go Report Card](https://goreportcard.com/badge/github.com/denisbrodbeck/machineid)](https://goreportcard.com/report/github.com/denisbrodbeck/machineid)
+
+## Main Features
+
+* Cross-Platform (tested on Win7+, Debian 8+, Ubuntu 14.04+, OS X 10.6+, FreeBSD 11+)
+* No admin privileges required
+* Hardware independent (no usage of MAC, BIOS or CPU — those are too unreliable, especially in a VM environment)
+* IDs are unique<sup>[1](#unique-key-reliability)</sup> to the installed OS
+
+## Installation
+
+Get the library with
+
+```bash
+...

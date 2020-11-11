@@ -11,5 +11,7 @@ HOMEPAGE=	https://github.com/rs/curlie/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
