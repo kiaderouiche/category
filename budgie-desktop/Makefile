@@ -14,4 +14,9 @@ USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=	yes
 
 .include "../../devel/meson/build.mk"
+.include "../../devel/libpeas/buildlink3.mk"
+.include "../../devel/libuuid/buildlink3.mk"
+.include "../../devel/libwnck3/buildlink3.mk"
+.include "../../inputmethod/ibus/buildlink3.mk"
+.include "../../x11/gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
