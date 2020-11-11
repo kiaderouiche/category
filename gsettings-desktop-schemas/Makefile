@@ -8,9 +8,14 @@ EXTRACT_SUFX=	.tar.xz
 MAINTAINER=     pkgsrc-users@NetBSD.org
 HOMEPAGE=       https://www.gnome.org/
 COMMENT=        Collection of GSettings schemas for the GNOME desktop
-LICENSE=	
+LICENSE=	gnu-lgpl-v2.1
 
 USE_TOOLS+=             msgfmt pkg-config
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../devel/glib2/schemas.mk"
+BUILDLINK_DEPMETHOD.gobject-introspection:=     build
+BUILDLINK_API_DEPENDS.gobject-introspection+=   gobject-introspection>=1.31
+.include "../../devel/gobject-introspection/buildlink3.mk"
+.include "../../devel/meson/build.mk"
+.include "../../lang/python/tool.mk"
 .include "../../mk/bsd.pkg.mk"
