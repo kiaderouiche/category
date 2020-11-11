@@ -19,4 +19,6 @@ USE_PKGLOCALEDIR=	yes
 .include "../../devel/libwnck3/buildlink3.mk"
 .include "../../inputmethod/ibus/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
+BUILDLINK_API_DEPENDS.mutter+=  mutter>=3.36.3
+.include "../../wm/mutter/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
