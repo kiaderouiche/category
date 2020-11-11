@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/crowdsecurity/crowdsec/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
