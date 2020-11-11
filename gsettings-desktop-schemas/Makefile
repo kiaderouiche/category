@@ -1,19 +1,21 @@
 # $NetBSD$
 
 DISTNAME=	gsettings-desktop-schemas-3.38.0
-CATEGORIES=	category
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gsettings-desktop-schemas/3.38/}
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://download.gnome.org/sources/gsettings-desktop-schemas/3.38/ # TODO: check
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://www.gnome.org/
+COMMENT=	Collection of GSettings schemas for the GNOME desktop
+LICENSE=	gnu-lgpl-v2.1
 
 USE_TOOLS+=		msgfmt pkg-config
 USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	gsettings-desktop-schemas.pc.in
+
+PYTHON_FOR_BUILD_ONLY=  tool
 
 .include "../../devel/glib2/schemas.mk"                                       
 BUILDLINK_DEPMETHOD.gobject-introspection:=     build                         
