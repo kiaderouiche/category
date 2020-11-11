@@ -12,8 +12,8 @@ HOMEPAGE=	https://kotlinlang.org/
 COMMENT=	Modern programming language that makes developers happier
 LICENSE=	apache-2.0
 
-USE_LANGUAGES=          # empty
-NO_BUILD=       yes
+USE_LANGUAGES=	# empty
+NO_BUILD=	yes
 
 USE_TOOLS+=	bash
 
