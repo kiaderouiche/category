@@ -15,12 +15,12 @@ USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	gsettings-desktop-schemas.pc.in
 
-PYTHON_FOR_BUILD_ONLY=  tool
+PYTHON_FOR_BUILD_ONLY=	tool
 
-.include "../../devel/glib2/schemas.mk"                                       
-BUILDLINK_DEPMETHOD.gobject-introspection:=     build                         
-BUILDLINK_API_DEPENDS.gobject-introspection+=   gobject-introspection>=1.31   
-.include "../../devel/gobject-introspection/buildlink3.mk"                    
+.include "../../devel/glib2/schemas.mk"
+BUILDLINK_DEPMETHOD.gobject-introspection:=     build
+BUILDLINK_API_DEPENDS.gobject-introspection+=   gobject-introspection>=1.31
+.include "../../devel/gobject-introspection/buildlink3.mk"
 .include "../../lang/python/tool.mk"
 .include "../../devel/meson/build.mk"
 .include "../../mk/bsd.pkg.mk"
