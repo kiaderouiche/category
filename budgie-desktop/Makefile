@@ -27,7 +27,7 @@ BUILDLINK_API_DEPENDS.vala+=    vala>=0.48
 BUILDLINK_API_DEPENDS.accountsservice+= accountsservice>=0.6.40               
 .include "../../sysutils/accountsservice/buildlink3.mk"                       
 BUILDLINK_API_DEPENDS.gsettings-desktop-schemas+=       gsettings-desktop-schemas>=3.36.1
-.include "../../sysutils/gsettings-desktop-schemas/buildlink3.mk"
+.include "../../wip/gsettings-desktop-schemas/buildlink3.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"                             
 BUILDLINK_API_DEPENDS.gnome-desktop3+=  gnome-desktop3>=3.4.2                 
 .include "../../x11/gnome-desktop3/buildlink3.mk"
