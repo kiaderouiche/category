@@ -27,9 +27,13 @@ REPLACE_BASH+=	bin/cinterop 		\
 		bin/kotlinc-native	\
 		run_konan
 
-#USE_JAVA=	run
 PKG_JVMS_ACCEPTED=	oracle-jdk8
-#USE_JAVA2=	8
+
+SUBST_CLASSES+=         jdk
+SUBST_STAGE.jdk=        pre-install
+SUBST_MESSAGE.jdk=      Adding JVM options
+SUBST_FILES.jdk=        bin/run_konan
+SUBST_VARS.jdk=         PKG_JAVA_HOME
 
 INSTALLATION_DIRS=	bin
 
