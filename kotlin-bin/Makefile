@@ -27,6 +27,8 @@ REPLACE_BASH+=	bin/cinterop 		\
 		bin/kotlinc-native	\
 		run_konan
 
+REPLACE_PYTHON+=	tools/konan_lldb.py
+
 PKG_JVMS_ACCEPTED=	oracle-jdk8
 
 SUBST_CLASSES+=		prefix
@@ -57,6 +59,6 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/run_konan ${DESTDIR}${PREFIX}/bin/run_konan
 
 
+.include "../../lang/python/application.mk"
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
-

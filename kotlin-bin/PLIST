@@ -1,2 +1,10 @@
 @comment $NetBSD$
+bin/generate-platform
+bin/jsinterop
+bin/klib
+bin/konan-lldb
+bin/konanc
+bin/kotlinc
+bin/kotlinc-native
+bin/rcinterop
 bin/run_konan
