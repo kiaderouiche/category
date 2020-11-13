@@ -27,7 +27,7 @@ REPLACE_BASH+=	bin/cinterop 		\
 		bin/kotlinc-native	\
 		run_konan
 
-REPLACE_PYTHON+=	tools/konan_lldb.py
+#REPLACE_PYTHON+=	tools/konan_lldb.py
 
 PKG_JVMS_ACCEPTED=	oracle-jdk8
 
