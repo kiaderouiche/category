@@ -4,3 +4,4 @@ SHA1 (kotlin-native-linux-1.4.10.tar.gz) = 7808f33ff5433a266e10d03f324491e8f85e5
 RMD160 (kotlin-native-linux-1.4.10.tar.gz) = 03c4b46d07de4101770817a63e76efffd2fe0505
 SHA512 (kotlin-native-linux-1.4.10.tar.gz) = 5accd612886f7ef1eac6b63da9eb1f438ad9ef21292c83de2b6e041f66183bcb4307baf16fafd70aea657d4773fe159cb4fd1d21afd852a248084f6eca5ba2d5
 Size (kotlin-native-linux-1.4.10.tar.gz) = 85550709 bytes
+SHA1 (patch-bin_run__konan) = c37bfbea3bcb1a6de273425eb969992a24b00800

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- bin/run_konan.orig	2020-09-03 16:30:08.000000000 +0000
++++ bin/run_konan
+@@ -71,7 +71,7 @@ java_opts=(-ea \
+ # Unset some environment variables which are set by XCode and may potentially affect the tool executed.
+ while IFS=$'\r' read -r line || [[ -n "$line" ]]; do
+     unset $line
+-done < "${KONAN_HOME}/tools/env_blacklist"
++done #< "${KONAN_HOME}/tools/env_blacklist"
+ 
+ KONAN_JAR="${KONAN_HOME}/konan/lib/kotlin-native.jar"
+ TROVE_JAR="${KONAN_HOME}/konan/lib/trove4j.jar"

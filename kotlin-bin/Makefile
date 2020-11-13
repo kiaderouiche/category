@@ -29,11 +29,17 @@ REPLACE_BASH+=	bin/cinterop 		\
 
 PKG_JVMS_ACCEPTED=	oracle-jdk8
 
+SUBST_CLASSES+=		prefix
+SUBST_FILES.prefix=	bin/run_konan
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+
 SUBST_CLASSES+=		launcher
 SUBST_FILES.launcher=	bin/run_konan
 SUBST_STAGE.launcher=	post-configure
 SUBST_VARS.launcher=	PREFIX
-SUBST_SED.launcher+=	-e 's,JAVA_HOME,${PKG_JAVA_HOME},g'
+SUBST_SED.launcher+=	-e 's,$JAVA_HOME,${PKG_JAVA_HOME},g'
 
 INSTALLATION_DIRS=	bin
 
