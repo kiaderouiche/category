@@ -1,16 +1,19 @@
 # $NetBSD$
 
 DISTNAME=	factory_boy-3.1.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/b5/b8/595a6447eed1f9fecdc490c9dca3e1b376700f1bbfc33ab1aa748397e9a5/
+PKGNAME=	${PYPKGPREFIX}-factory-boy-3.1.0
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=f/factory_boy/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/b5/b8/595a6447eed1f9fecdc490c9dca3e1b376700f1bbfc33ab1aa748397e9a5/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/FactoryBoy/factory_boy	
+COMMENT=	Test fixtures replacement for Python
+LICENSE=	mit
 
 USE_LANGUAGES=	# none
+
+DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../databases/py-sqlalchemy
+DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=1.3.20:../../databases/py-sqlalchemy
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
