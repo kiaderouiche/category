@@ -45,6 +45,7 @@ SUBST_STAGE.prefix=	post-configure
 SUBST_VARS.prefix=	PREFIX
 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
+AUTO_MKDIRS=	yes
 SHAREDIR=	${PREFIX}/share/${PKGBASE}/licenses
 INSTALLATION_DIRS=	bin SHAREDIR
 
