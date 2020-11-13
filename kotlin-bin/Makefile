@@ -35,11 +35,11 @@ SUBST_FILES.prefix=	bin/cinterop
 35 SUBST_VARS.prefix=	PREFIX
 36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_CLASSES+=		prefix
+33 SUBST_FILES.prefix=	bin/generate-platform
+34 SUBST_STAGE.prefix=	post-configure
+35 SUBST_VARS.prefix=	PREFIX
+36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
 SUBST_CLASSES+=         prefix                                                
 33 SUBST_FILES.prefix=     bin/run_konan                                         
