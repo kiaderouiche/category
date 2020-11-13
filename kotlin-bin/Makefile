@@ -31,81 +31,52 @@ PKG_JVMS_ACCEPTED=	oracle-jdk8
 
 SUBST_CLASSES+=		prefix
 SUBST_FILES.prefix=	bin/cinterop
-34 SUBST_STAGE.prefix=	post-configure
-35 SUBST_VARS.prefix=	PREFIX
-36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
 SUBST_CLASSES+=		prefix
-33 SUBST_FILES.prefix=	bin/generate-platform
-34 SUBST_STAGE.prefix=	post-configure
-35 SUBST_VARS.prefix=	PREFIX
-36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_FILES.prefix=	bin/generate-platform
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
 SUBST_CLASSES+=		prefix
-33 SUBST_FILES.prefix=	bin/jsinterop
-34 SUBST_STAGE.prefix=	post-configure
-35 SUBST_VARS.prefix=	PREFIX
-36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_FILES.prefix=	bin/jsinterop
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
 SUBST_CLASSES+=		prefix
-33 SUBST_FILES.prefix=	bin/klib
-34 SUBST_STAGE.prefix=	post-configure
-35 SUBST_VARS.prefix=	PREFIX
-36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_FILES.prefix=	bin/klib
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
 SUBST_CLASSES+=		prefix
-33 SUBST_FILES.prefix=	bin/konan-lldb
-34 SUBST_STAGE.prefix=	post-configure
-35 SUBST_VARS.prefix=	PREFIX
-36 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_FILES.prefix=	bin/konan-lldb
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_CLASSES+=		prefix
+SUBST_FILES.prefix=	bin/konanc
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_CLASSES+=		prefix
+SUBST_FILES.prefix=	bin/kotlinc
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
+SUBST_CLASSES+=		prefix
+SUBST_FILES.prefix=	bin/kotlinc-native
+SUBST_STAGE.prefix=	post-configure
+SUBST_VARS.prefix=	PREFIX
+SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
-
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
-
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
-
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
-
-SUBST_CLASSES+=         prefix                                                
-33 SUBST_FILES.prefix=     bin/run_konan                                         
-34 SUBST_STAGE.prefix=     post-configure                                        
-35 SUBST_VARS.prefix=      PREFIX                                                
-36 SUBST_SED.prefix+=      -e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 SUBST_CLASSES+=		prefix
 SUBST_FILES.prefix=	bin/run_konan
 SUBST_STAGE.prefix=	post-configure
