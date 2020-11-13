@@ -105,3 +105,4 @@ do-install:
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
+
