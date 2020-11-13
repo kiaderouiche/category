@@ -92,7 +92,16 @@ SUBST_SED.launcher+=	-e 's,$JAVA_HOME,${PKG_JAVA_HOME},g'
 INSTALLATION_DIRS=	bin
 
 do-install:
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/cinterop ${DESTDIR}${PREFIX}/bin/rcinterop
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/generate-platform ${DESTDIR}${PREFIX}/bin/generate-platform
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/jsinterop ${DESTDIR}${PREFIX}/bin/jsinterop
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/klib ${DESTDIR}${PREFIX}/bin/klib
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/konan-lldb ${DESTDIR}${PREFIX}/bin/konan-lldb
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/konanc ${DESTDIR}${PREFIX}/bin/konanc
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/kotlinc ${DESTDIR}${PREFIX}/bin/kotlinc
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/kotlinc-native ${DESTDIR}${PREFIX}/bin/kotlinc-native
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/run_konan ${DESTDIR}${PREFIX}/bin/run_konan
+
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
