@@ -9,7 +9,7 @@ GITHUB_RELEASE=	v1.4.10
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://kotlinlang.org/
-COMMENT=	Modern programming language that makes developers happier
+COMMENT=	Statically typed programming language that can interoperate with Java
 LICENSE=	apache-2.0
 
 USE_LANGUAGES=	# empty
@@ -29,7 +29,7 @@ REPLACE_BASH+=	bin/cinterop 		\
 
 #REPLACE_PYTHON+=	tools/konan_lldb.py
 
-PKG_JVMS_ACCEPTED=	oracle-jdk8
+PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
 
 SUBST_CLASSES+=		prefix
 SUBST_FILES.prefix=	bin/cinterop
@@ -45,7 +45,8 @@ SUBST_STAGE.prefix=	post-configure
 SUBST_VARS.prefix=	PREFIX
 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
-INSTALLATION_DIRS=	bin
+SHAREDIR=	${PREFIX}/share/${PKGBASE}/licenses
+INSTALLATION_DIRS=	bin SHAREDIR
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/cinterop ${DESTDIR}${PREFIX}/bin/rcinterop
@@ -57,6 +58,8 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/kotlinc ${DESTDIR}${PREFIX}/bin/kotlinc
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/kotlinc-native ${DESTDIR}${PREFIX}/bin/kotlinc-native
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/run_konan ${DESTDIR}${PREFIX}/bin/run_konan
+
+	cd ${WRKSRC}/licenses && pax -rw -pp * ${DESTDIR}${SHAREDIR}
 
 
 .include "../../lang/python/application.mk"
