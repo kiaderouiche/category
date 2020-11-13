@@ -33,34 +33,29 @@ PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
 
 SUBST_CLASSES+=		prefix
 SUBST_FILES.prefix=	bin/cinterop
-SUBST_FILES.prefix=	bin/generate-platform
-SUBST_FILES.prefix=	bin/jsinterop
-SUBST_FILES.prefix=	bin/konan-lldb
-SUBST_FILES.prefix=	bin/konanc
-SUBST_FILES.prefix=	bin/klib
-SUBST_FILES.prefix=	bin/konanc
-SUBST_FILES.prefix=	bin/kotlinc-native
-SUBST_FILES.prefix=	bin/run_konan
+SUBST_FILES.prefix+=	bin/generate-platform
+SUBST_FILES.prefix+=	bin/jsinterop
+SUBST_FILES.prefix+=	bin/konan-lldb
+SUBST_FILES.prefix+=	bin/konanc
+SUBST_FILES.prefix+=	bin/klib
+SUBST_FILES.prefix+=	bin/konanc
+SUBST_FILES.prefix+=	bin/kotlinc-native
+SUBST_FILES.prefix+=	bin/run_konan
 SUBST_STAGE.prefix=	post-configure
 SUBST_VARS.prefix=	PREFIX
 SUBST_SED.prefix+=	-e 's,/usr/bin/env bash,${PREFIX}/bin/bash,g'
 
 AUTO_MKDIRS=	yes
-SHAREDIR=	${PREFIX}/share/${PKGBASE}/licenses
+
+SHAREDIR=		${PREFIX}/share/${PKGBASE}/licenses
 INSTALLATION_DIRS=	bin SHAREDIR
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/cinterop ${DESTDIR}${PREFIX}/bin/rcinterop
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/generate-platform ${DESTDIR}${PREFIX}/bin/generate-platform
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/jsinterop ${DESTDIR}${PREFIX}/bin/jsinterop
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/klib ${DESTDIR}${PREFIX}/bin/klib
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/konan-lldb ${DESTDIR}${PREFIX}/bin/konan-lldb
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/konanc ${DESTDIR}${PREFIX}/bin/konanc
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/kotlinc ${DESTDIR}${PREFIX}/bin/kotlinc
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/kotlinc-native ${DESTDIR}${PREFIX}/bin/kotlinc-native
-	${INSTALL_SCRIPT} ${WRKSRC}/bin/run_konan ${DESTDIR}${PREFIX}/bin/run_konan
-
+	${RUN} ${INSTALL_DATA_DIR}	${DESTDIR}${SHAREDIR}
 	cd ${WRKSRC}/licenses && pax -rw -pp * ${DESTDIR}${SHAREDIR}
+.for ff in cinterop generate-platform jsinterop klib konan-lldb konanc kotlinc kotlinc-native run_konan
+	${INSTALL_SCRIPT} ${WRKSRC}/bin/${ff} ${DESTDIR}${PREFIX}/bin/${ff}
+.endfor
 
 
 .include "../../lang/python/application.mk"

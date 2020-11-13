@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/cinterop
 bin/generate-platform
 bin/jsinterop
 bin/klib
@@ -6,7 +7,6 @@ bin/konan-lldb
 bin/konanc
 bin/kotlinc
 bin/kotlinc-native
-bin/rcinterop
 bin/run_konan
 share/kotlin-bin/licenses/LICENSE.txt
 share/kotlin-bin/licenses/NOTICE.txt
