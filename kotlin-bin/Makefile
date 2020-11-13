@@ -39,5 +39,6 @@ INSTALLATION_DIRS=	bin
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/run_konan ${DESTDIR}${PREFIX}/bin/run_konan
+
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
