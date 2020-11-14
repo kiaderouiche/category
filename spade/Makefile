@@ -30,9 +30,9 @@ TEST_DEPENDS+=	${PYPKGPREFIX}-tox>2.3.1:../../devel/py-tox
 TEST_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.0.3:../../devel/py-coverage
 TEST_DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.4.8:../../textproc/py-sphinx
 TEST_DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
-TEST_DEPENDS+=	# TODO: asynctest==0.13.0>=0
-TEST_DEPENDS+=	# TODO: pytest-asyncio==0.8.0>=0
-TEST_DEPENDS+=	# TODO: pytest-cov==2.5.1>=0
+#TEST_DEPENDS+=	# TODO: asynctest==0.13.0>=0
+#TEST_DEPENDS+=	# TODO: pytest-asyncio==0.8.0>=0
+#TEST_DEPENDS+=	# TODO: pytest-cov==2.5.1>=0
 TEST_DEPENDS+=	# TODO: pytest-mock==1.10.0>=0
 TEST_DEPENDS+=	# TODO: pluggy<0.7,>=0.5
 TEST_DEPENDS+=	# TODO: python-coveralls==2.9.1>=0
