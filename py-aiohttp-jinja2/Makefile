@@ -3,12 +3,17 @@
 DISTNAME=	aiohttp-jinja2-1.4.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc www
-MASTER_SITES=	https://files.pythonhosted.org/packages/be/cf/2fecf127b910d3ae2a6d1e744b814d3e8bc4985888da78b6350a02d429c4/
+MASTER_SITES=	${MASTER_SITE_PYPI:=a/aiohttp-jinja2/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://aiohttp-jinja2.readthedocs.io/en/stable/
 COMMENT=	Jinja2 template renderer for aiohttp.web
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
+
+PYTHON_VERSIONS_INCOMPATIBLE=   27
+
+DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.9.6:../../textproc/py-jinja2
+DEPENDS+=	${PYPKGPREFIX}-aiohttp>=3.5.4:../../www/py-aiohttp
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
