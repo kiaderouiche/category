@@ -12,11 +12,11 @@ LICENSE=	mit
 
 BUILD_DEPENDS+=	# ${PYPKGPREFIX}-test-runner>=0
 DEPENDS+=	${PYPKGPREFIX}multidict>=5.0.0:../../devel/py-multidict
-DEPENDS+=	# ${PYPKGPREFIX}-asn1-modules==0.2.7>=0
-DEPENDS+=	# ${PYPKGPREFIX}-asn1==0.4.7>=0
+DEPENDS+=	${PYPKGPREFIX}-asn1-modules>=0.2.8:../../security/py-asn1-modules
+DEPENDS+=	${PYPKGPREFIX}-asn1>=0.4.7:../../security/py-asn1
 DEPENDS+=	${PYPKGPREFIX}-aioxmpp>=0.10:../../wip/py-aioxmpp
-DEPENDS+=	${PYPKGPREFIX}-aiohttp==3.5.4>=0
-DEPENDS+=	${PYPKGPREFIX}-aiohttp_jinja2>=0.14.0
+DEPENDS+=	${PYPKGPREFIX}-aiohttp==3.5.4>=0:../../net/py-aiohttp
+DEPENDS+=	${PYPKGPREFIX}-aiohttp-jinja2>=0.14.0:../../textproc/py-aiohttp-jinja2
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.9.6:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-jinja2-time>=0.2.0:../../time/py-jinja2-time
 DEPENDS+=	${PYPKGPREFIX}-timeago>=1.0.8:../../wip/py-timeago
