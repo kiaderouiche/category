@@ -29,7 +29,7 @@ TEST_DEPENDS+=	${PYPKGPREFIX}-pyflakes>=1.6.0:../../devel/py-pyflakes
 TEST_DEPENDS+=	${PYPKGPREFIX}-tox>2.3.1:../../devel/py-tox
 TEST_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.0.3:../../devel/py-coverage
 TEST_DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.4.8:../../textproc/py-sphinx
-TEST_DEPENDS+=	${PYPKGPREFIX}-yaml>=4.2b1
+TEST_DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
 TEST_DEPENDS+=	# TODO: asynctest==0.13.0>=0
 TEST_DEPENDS+=	# TODO: pytest-asyncio==0.8.0>=0
 TEST_DEPENDS+=	# TODO: pytest-cov==2.5.1>=0
