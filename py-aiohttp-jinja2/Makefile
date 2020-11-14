@@ -12,6 +12,7 @@ LICENSE=	apache-2.0
 
 PYTHON_VERSIONS_INCOMPATIBLE=   27
 
+DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=3.7.4.3:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.9.6:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-aiohttp>=3.5.4:../../www/py-aiohttp
 
