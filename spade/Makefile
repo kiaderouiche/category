@@ -3,7 +3,7 @@
 DISTNAME=	spade-3.1.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel net python
-MASTER_SITES=	https://files.pythonhosted.org/packages/4f/3b/94e1239bbf40805c5d4640d1099ed05ccb8b2d499b59d93ab3c5498a07fd/
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/spade/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/javipalanca/spade
@@ -39,6 +39,10 @@ TEST_DEPENDS+=	# TODO: python-coveralls==2.9.1>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.20.0:../../devel/py-requests
 TEST_DEPENDS+=	${PYPKGPREFIX}-parsel-1.6.0:../../www/py-parsel
 TEST_DEPENDS+=	${PYPKGPREFIX}-sphinx-rtd-theme==0.4.0>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.20.0:../../devel/py-requests
+TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.20.0:../../devel/py-requests
+TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.20.0:../../devel/py-requests
+TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.20.0:../../devel/py-requests
 TEST_DEPENDS+=	# TODO: testfixtures==6.3.0>=0
 TEST_DEPENDS+=	# TODO: pytest-aiohttp==0.3.0>=0
 TEST_DEPENDS+=	# TODO: docutils==0.12>=0
