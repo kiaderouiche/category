@@ -3,7 +3,7 @@
 DISTNAME=	dnspython-2.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net python
-MASTER_SITES=	https://files.pythonhosted.org/packages/67/d0/639a9b5273103a18c5c68a7a9fc02b01cffa3403e72d553acec444f85d5b/
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/dnspython/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=     kamelderouiche@yahoo.com

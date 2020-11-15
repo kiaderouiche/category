@@ -1,4 +1,42 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/bin/make package"
-@comment TODO: 2. run "/usr/bin/make print-PLIST"
+bin/spade
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/entry_points.txt
+${PYSITELIB}/${EGG_INFODIR}/not-zip-safe
+${PYSITELIB}/${EGG_INFODIR}/requires.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt
+${PYSITELIB}/spade/__init__.py
+${PYSITELIB}/spade/__init__.pyc
+${PYSITELIB}/spade/__init__.pyo
+${PYSITELIB}/spade/agent.py
+${PYSITELIB}/spade/agent.pyc
+${PYSITELIB}/spade/agent.pyo
+${PYSITELIB}/spade/behaviour.py
+${PYSITELIB}/spade/behaviour.pyc
+${PYSITELIB}/spade/behaviour.pyo
+${PYSITELIB}/spade/container.py
+${PYSITELIB}/spade/container.pyc
+${PYSITELIB}/spade/container.pyo
+${PYSITELIB}/spade/message.py
+${PYSITELIB}/spade/message.pyc
+${PYSITELIB}/spade/message.pyo
+${PYSITELIB}/spade/presence.py
+${PYSITELIB}/spade/presence.pyc
+${PYSITELIB}/spade/presence.pyo
+${PYSITELIB}/spade/template.py
+${PYSITELIB}/spade/template.pyc
+${PYSITELIB}/spade/template.pyo
+${PYSITELIB}/spade/templates/internal_tpl_agent.html
+${PYSITELIB}/spade/templates/internal_tpl_base.html
+${PYSITELIB}/spade/templates/internal_tpl_behaviour.html
+${PYSITELIB}/spade/templates/internal_tpl_index.html
+${PYSITELIB}/spade/templates/internal_tpl_macros.html
+${PYSITELIB}/spade/templates/internal_tpl_messages.html
+${PYSITELIB}/spade/trace.py
+${PYSITELIB}/spade/trace.pyc
+${PYSITELIB}/spade/trace.pyo
+${PYSITELIB}/spade/web.py
+${PYSITELIB}/spade/web.pyc
+${PYSITELIB}/spade/web.pyo
