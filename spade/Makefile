@@ -11,7 +11,7 @@ COMMENT=	Smart Python Agent Development Environment
 LICENSE=	mit
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-runner>=5.2:../../devel/py-test-runner
-DEPENDS+=	${PYPKGPREFIX}multidict>=5.0.0:../../devel/py-multidict
+DEPENDS+=	${PYPKGPREFIX}-multidict>=5.0.0:../../databases/py-multidict
 DEPENDS+=	${PYPKGPREFIX}-asn1-modules>=0.2.8:../../security/py-asn1-modules
 DEPENDS+=	${PYPKGPREFIX}-asn1>=0.4.7:../../security/py-asn1
 DEPENDS+=	${PYPKGPREFIX}-aioxmpp>=0.10:../../wip/py-aioxmpp
