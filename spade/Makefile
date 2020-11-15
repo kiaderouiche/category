@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/javipalanca/spade
 COMMENT=	Smart Python Agent Development Environment
 LICENSE=	mit
 
-BUILD_DEPENDS+=	# ${PYPKGPREFIX}-test-runner>=0
+BUILD_DEPENDS+=	# ${PYPKGPREFIX}-test-runner>=5.2:../../devel/py-test-runner
 DEPENDS+=	${PYPKGPREFIX}multidict>=5.0.0:../../devel/py-multidict
 DEPENDS+=	${PYPKGPREFIX}-asn1-modules>=0.2.8:../../security/py-asn1-modules
 DEPENDS+=	${PYPKGPREFIX}-asn1>=0.4.7:../../security/py-asn1
@@ -37,7 +37,7 @@ TEST_DEPENDS+=	# TODO: pytest-mock==1.10.0>=0
 TEST_DEPENDS+=	# TODO: pluggy<0.7,>=0.5
 TEST_DEPENDS+=	# TODO: python-coveralls==2.9.1>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.20.0:../../devel/py-requests
-TEST_DEPENDS+=	# TODO: parsel==1.4.0>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-parsel-1.6.0:../../www/py-parsel
 TEST_DEPENDS+=	${PYPKGPREFIX}-sphinx-rtd-theme==0.4.0>=0
 TEST_DEPENDS+=	# TODO: testfixtures==6.3.0>=0
 TEST_DEPENDS+=	# TODO: pytest-aiohttp==0.3.0>=0
