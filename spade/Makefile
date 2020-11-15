@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	spade-3.1.6
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel net python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/spade/}
 
