@@ -1,4 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	unzip-[0-9]*	../../archivers/unzip
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
