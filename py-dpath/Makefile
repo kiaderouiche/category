@@ -2,10 +2,10 @@
 
 DISTNAME=	dpath-2.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/60/3f/562b045ad2542ab1279bbc5a05a62511c1ea1d8b5987fb0a50ee78704621/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/dpath/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://www.github.com/akesterson/dpath-python
 COMMENT=	Filesystem-like pathing and searching for dictionaries
 LICENSE=	mit
