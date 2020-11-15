@@ -11,7 +11,11 @@ HOMEPAGE=	http://www.dnspython.org
 COMMENT=	DNS toolkit
 LICENSE=	isc
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 USE_LANGUAGES=	# none
 
+BUILDLINK_API_DEPENDS.py-cython+=       ${PYPKGPREFIX}-cython>=0.12.1
+.include "../../devel/py-cython/buidlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

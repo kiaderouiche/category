@@ -9,6 +9,8 @@ HOMEPAGE=	https://github.com/javipalanca/spade
 COMMENT=	Smart Python Agent Development Environment
 LICENSE=	mit
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-runner>=5.2:../../devel/py-test-runner
 DEPENDS+=	${PYPKGPREFIX}-multidict>=5.0.0:../../databases/py-multidict
 DEPENDS+=	${PYPKGPREFIX}-asn1-modules>=0.2.8:../../security/py-asn1-modules
