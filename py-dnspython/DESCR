@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# dnspython
+
+[![Build Status](https://travis-ci.org/rthalley/dnspython.svg?branch=master)](https://travis-ci.org/rthalley/dnspython)
+[![Documentation Status](https://readthedocs.org/projects/dnspython/badge/?version=latest)](https://dnspython.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/dnspython.svg)](https://badge.fury.io/py/dnspython)
+[![PyPI Statistics](https://img.shields.io/pypi/dm/dnspython.svg)](https://pypistats.org/packages/dnspython)
+[![Build Status](https://dev.azure.com/halley0415/halley/_apis/build/status/rthalley.dnspython?branchName=master)](https://dev.azure.com/halley0415/halley/_build/latest?definitionId=1&branchName=master)
+[![Coverage](https://codecov.io/github/rthalley/dnspython/coverage.svg?branch=master)](https://codecov.io/gh/rthalley/dnspython)
+[![License: ISC](https://img.shields.io/badge/License-ISC-brightgreen.svg)](https://opensource.org/licenses/ISC)
+
+## INTRODUCTION
+
+dnspython is a DNS toolkit for Python. It supports almost all record types. It
+can be used for queries, zone transfers, and dynamic updates. It supports TSIG
+authenticated messages and EDNS0.
+
+dnspython provides both high and low level access to DNS. The high level classes
+perform queries for data of a given name, type, and class, and return an answer
+set. The low level classes allow direct manipulation of DNS zones, messages,
+names, and records.
+...

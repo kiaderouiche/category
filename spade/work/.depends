@@ -1,0 +1,16 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	py37-test-runner>=5.2	../../devel/py-test-runner
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-multidict>=5.0.0	../../databases/py-multidict
+full	py37-asn1-modules>=0.2.8	../../security/py-asn1-modules
+full	py37-asn1>=0.4.7	../../security/py-asn1
+full	py37-aioxmpp>=0.10	../../wip/py-aioxmpp
+full	py37-aiohttp>=3.5.4	../../www/py-aiohttp
+full	py37-aiohttp-jinja2>=0.14.0	../../wip/py-aiohttp-jinja2
+full	py37-jinja2>=2.9.6	../../textproc/py-jinja2
+full	py37-jinja2-time>=0.2.0	../../time/py-jinja2-time
+full	py37-timeago>=1.0.8	../../wip/py-timeago
+full	py37-singletonify>=0.2.3	../../wip/py-singletonify
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37

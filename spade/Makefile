@@ -16,7 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-asn1-modules>=0.2.8:../../security/py-asn1-modules
 DEPENDS+=	${PYPKGPREFIX}-asn1>=0.4.7:../../security/py-asn1
 DEPENDS+=	${PYPKGPREFIX}-aioxmpp>=0.10:../../wip/py-aioxmpp
 DEPENDS+=	${PYPKGPREFIX}-aiohttp>=3.5.4:../../www/py-aiohttp
-DEPENDS+=	${PYPKGPREFIX}-aiohttp-jinja2>=0.14.0:../../textproc/py-aiohttp-jinja2
+DEPENDS+=	${PYPKGPREFIX}-aiohttp-jinja2>=0.14.0:../../wip/py-aiohttp-jinja2
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.9.6:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-jinja2-time>=0.2.0:../../time/py-jinja2-time
 DEPENDS+=	${PYPKGPREFIX}-timeago>=1.0.8:../../wip/py-timeago
