@@ -1,2 +1,2 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+Testfixtures is a collection of helpers and mock objects
+that are useful when writing automated tests in Python
