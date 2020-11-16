@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/amplify-education/python-hcl2
 COMMENT=	Parser for HCL2
 LICENSE=	mit
 
-DEPENDS+=	py-lark-parser>=0.7.8,<0.8.0:../../wip/py-lark-parser
+DEPENDS+=	${PYPKGPREFIX}-lark-parser>=0.7.8:../../wip/py-lark-parser
 
 USE_LANGUAGES=	# none
 
