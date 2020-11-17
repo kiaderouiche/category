@@ -12,8 +12,10 @@ LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
-jeepney-0.5.0
-cryptography
+DEPENDS+=	${PYPKGPREFIX}-cryptography>=2.9.2:../../security/py-cryptography
+DEPENDS+=	${PYPKGPREFIX}-jeepney>=0.5.0:../../wip/py-jeepney
+
+
 
 do-test:
  ${RUN}
