@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/SecretStorage/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mitya57/secretstorage
 COMMENT=	Python bindings to FreeDesktop.org Secret Service API
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
