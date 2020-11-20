@@ -17,4 +17,5 @@ WRKSRC=		${WRKDIR}/npefix-0.5
 
 USE_LANGUAGES=	# none
 
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
