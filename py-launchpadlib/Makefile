@@ -14,7 +14,7 @@ DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.18.1:../../www/py-httplib2
 DEPENDS+=	${PYPKGPREFIX}-keyring>=21.2.1:../../security/py-keyring
 DEPENDS+=	${PYPKGPREFIX}-lazr.restfulclient>=0.14.2:../..//py-lazr.restfulclient
 DEPENDS+=	${PYPKGPREFIX}-lazr.uri>=1.0.3:../../wip/py-lazr.uri
-DEPENDS+=	${PYPKGPREFIX}-six>=0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-testresources>=0:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-wadllib>=0:../../wip/py-wadllib
 
