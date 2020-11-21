@@ -17,4 +17,5 @@ WRKSRC=		${WRKDIR}/checkmake-0.1.0
 
 USE_LANGUAGES=	# none
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
