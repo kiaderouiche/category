@@ -7,8 +7,8 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=d/dpath/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://help.launchpad.net/API/launchpadlib
-COMMENT=	Script Launchpad through its web services interfaces.  Officially supported
-#LICENSE=	LGPL v3 # TODO: from setup.py; needs to be adjusted
+COMMENT=	Script Launchpad through its web services interfaces
+LICENSE=	gnu-lgpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-httplib2>=0:../../www/py-httplib2
 DEPENDS+=	${PYPKGPREFIX}-keyring>=0:../../security/py-keyring
