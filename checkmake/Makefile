@@ -15,8 +15,8 @@ LICENSE=	mit
 
 
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-GO_SRCPATH=     github.com/docker/cli
+GO_SRCPATH=	github.com/mrtazz/checkmake
 
-
+.include "../../converters/pandoc/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
