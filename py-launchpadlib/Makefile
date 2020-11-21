@@ -12,8 +12,8 @@ LICENSE=	gnu-lgpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-httplib2>=0:../../www/py-httplib2
 DEPENDS+=	${PYPKGPREFIX}-keyring>=0:../../security/py-keyring
-DEPENDS+=	${PYPKGPREFIX}-lazr.restfulclient>=0.9.19:../../wip/py-lazr.restfulclient
-DEPENDS+=	${PYPKGPREFIX}-lazr.uri>=0:../../wip/py-lazr.uri
+DEPENDS+=	${PYPKGPREFIX}-lazr.restfulclient>=0.14.2:../..//py-lazr.restfulclient
+DEPENDS+=	${PYPKGPREFIX}-lazr.uri>=1.0.3:../../wip/py-lazr.uri
 DEPENDS+=	${PYPKGPREFIX}-six>=0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-testresources>=0:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-wadllib>=0:../../wip/py-wadllib
