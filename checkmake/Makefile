@@ -13,9 +13,10 @@ HOMEPAGE=	https://github.com/mrtazz/checkmake/
 COMMENT=	Experimental linter/analyzer for Makefiles
 LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/checkmake-0.1.0
 
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+GO_SRCPATH=     github.com/docker/cli
+
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
