@@ -16,7 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-lazr.restfulclient>=0.14.2:../..//py-lazr.restfulclient
 DEPENDS+=	${PYPKGPREFIX}-lazr.uri>=1.0.3:../../wip/py-lazr.uri
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
-DEPENDS+=	${PYPKGPREFIX}-wadllib>=1.3.3:../../wip/py-wadllib
+DEPENDS+=	${PYPKGPREFIX}-wadllib-[0-9]*:../../wip/py-wadllib
 
 USE_LANGUAGES=	# none
 
