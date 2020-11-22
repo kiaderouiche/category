@@ -13,9 +13,9 @@ HOMEPAGE=	https://github.com/simonw/db-to-sqlite
 COMMENT=	Exporting tables or queries from any SQL database to a SQLite file
 LICENSE=	apache-2.0
 
-DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=0:../../databases/py-sqlalchemy
-DEPENDS+=	# TODO: sqlite-utils>=2.9.1
-DEPENDS+=	${PYPKGPREFIX}-click>=0:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=1.3.20:../../databases/py-sqlalchemy
+DEPENDS+=	${PYPKGPREFIX}-sqlite-utils>=2.9.1:../../wip/sqlite-utils
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 TEST_DEPENDS+=	${PYPKGPREFIX}-db-to-sqlite[test]>=0
 
 WRKSRC=		${WRKDIR}/db-to-sqlite-1.3
