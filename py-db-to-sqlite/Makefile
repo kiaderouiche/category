@@ -15,7 +15,6 @@ DEPENDS+=	# TODO: sqlite-fts4>=0
 DEPENDS+=	py-click>=0:../../devel/py-click
 DEPENDS+=	# TODO: click-default-group>=0
 DEPENDS+=	py-tabulate>=0:../../textproc/py-tabulate
-TEST_DEPENDS+=	# TODO: sqlite-utils[test]>=0
 
 USE_LANGUAGES=	# none
 
