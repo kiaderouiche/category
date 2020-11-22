@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 tools_wrapper_sed=/bin/sed
 shquote()
 {
@@ -33,6 +33,6 @@ wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/category/py-db-to-sqlite/work/.work.
 shquote_args "$@"
 echo "[*] "/usr/pkgsrc/category/py-db-to-sqlite/work/.tools/bin/perl"$shquoted_args" >> $wrapperlog
 logprefix="set args$shquoted_args; shift; "
-logmain=echo\ \>\>\ /usr/pkgsrc/category/py-db-to-sqlite/work/.warning/perl\ \"Please\ add\ USE_TOOLS+=perl\ to\ the\ package\ Makefile.\"\;\ \ /bin/bash\ /usr/pkgsrc/mk/scripts/fail\ echo\ 1\>\&2\ \"ERROR:\"\ \"To\ use\ this\ tool,\ add\ USE_TOOLS+=perl\ to\ the\ package\ Makefile.\"
+logmain=echo\ \>\>\ /usr/pkgsrc/category/py-db-to-sqlite/work/.warning/perl\ \"Please\ add\ USE_TOOLS+=perl\ to\ the\ package\ Makefile.\"\;\ \ /bin/sh\ /usr/pkgsrc/mk/scripts/fail\ echo\ 1\>\&2\ \"ERROR:\"\ \"To\ use\ this\ tool,\ add\ USE_TOOLS+=perl\ to\ the\ package\ Makefile.\"
 echo '<.>' "$logprefix$logmain" >> $wrapperlog
-echo >> /usr/pkgsrc/category/py-db-to-sqlite/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/bash /usr/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."
+echo >> /usr/pkgsrc/category/py-db-to-sqlite/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /usr/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."

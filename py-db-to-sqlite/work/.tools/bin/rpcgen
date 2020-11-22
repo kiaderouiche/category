@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 tools_wrapper_sed=/bin/sed
 shquote()
 {
@@ -33,6 +33,6 @@ wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/category/py-db-to-sqlite/work/.work.
 shquote_args "$@"
 echo "[*] "/usr/pkgsrc/category/py-db-to-sqlite/work/.tools/bin/rpcgen"$shquoted_args" >> $wrapperlog
 logprefix="set args$shquoted_args; shift; "
-logmain=CPP=/usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin/cpp\ /bin/rpcgen\ -Y\ /usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin\ \"\$@\"
+logmain=CPP=/usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin/cpp\ false\ -Y\ /usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin\ \"\$@\"
 echo '<.>' "$logprefix$logmain" >> $wrapperlog
-CPP=/usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin/cpp /bin/rpcgen -Y /usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin "$@"
+CPP=/usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin/cpp false -Y /usr/pkgsrc/category/py-db-to-sqlite/work/.cwrapper/bin "$@"

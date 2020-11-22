@@ -1,27 +1,23 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	db-to-sqlite
-GITHUB_TAG=	1.3
-DISTNAME=	1.3
-PKGNAME=	${PYPKGPREFIX}-${GITHUB_PROJECT}-${DISTNAME}
-CATEGORIES=	databases python
-MASTER_SITES=	${MASTER_SITE_GITHUB:=simonw/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+DISTNAME=	sqlite-utils-3.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	category python
+MASTER_SITES=	https://files.pythonhosted.org/packages/cd/4a/696969f1bb9ab58f0bbaca862814544d0fbf456ced0cb1c6e5bcb95f04a0/
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/simonw/db-to-sqlite
-COMMENT=	Exporting tables or queries from any SQL database to a SQLite file
-LICENSE=	apache-2.0
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/simonw/sqlite-utils
+COMMENT=	CLI tool and Python utility functions for manipulating SQLite databases
+#LICENSE=	Apache License, Version 2.0 # TODO: from setup.py; needs to be adjusted
 
-DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=1.3.20:../../databases/py-sqlalchemy
-DEPENDS+=	${PYPKGPREFIX}-sqlite-utils>=2.9.1:../../wip/sqlite-utils
-DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
-TEST_DEPENDS+=	${PYPKGPREFIX}-db-to-sqlite[test]>=0
-
-WRKSRC=		${WRKDIR}/db-to-sqlite-1.3
+BUILD_DEPENDS+=	# TODO: pytest-runner>=0
+DEPENDS+=	# TODO: sqlite-fts4>=0
+DEPENDS+=	py-click>=0:../../devel/py-click
+DEPENDS+=	# TODO: click-default-group>=0
+DEPENDS+=	py-tabulate>=0:../../textproc/py-tabulate
+TEST_DEPENDS+=	# TODO: sqlite-utils[test]>=0
 
 USE_LANGUAGES=	# none
-
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

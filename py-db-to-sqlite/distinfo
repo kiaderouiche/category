@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (db-to-sqlite/1.3.tar.gz) = b719f2048e953fba3b01c4a5cd7430077cc6f3df
-RMD160 (db-to-sqlite/1.3.tar.gz) = 22525c87d18a7673c418c5a4e4635711d67ae90a
-SHA512 (db-to-sqlite/1.3.tar.gz) = d1d287c2d38f456eb00580f2aa564ba8422c0f515bb5b4b6261078ba2e4d6331257a7afe0f00992d19cdaac7ec8659aa8d4cdbb405d7d24549c8185712eed826
-Size (db-to-sqlite/1.3.tar.gz) = 11252 bytes
+SHA1 (sqlite-utils-3.0.tar.gz) = 4dd8699b9b862a8cfc199bf6645f41da1f2561eb
+RMD160 (sqlite-utils-3.0.tar.gz) = e10e481df8cad47f49fd3a9bf4594f18a639d4fd
+SHA512 (sqlite-utils-3.0.tar.gz) = 01bc32620f21c8d972ebd5de253ce8810d3d68bc413f709b5a216ff0563a73671b0aea5ffd3a8e105ffe2c2b540b6fad5066e8fb1ff73383f005c097480807af
+Size (sqlite-utils-3.0.tar.gz) = 101634 bytes
