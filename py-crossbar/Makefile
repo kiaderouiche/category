@@ -32,7 +32,8 @@ DEPENDS+=	${PYPKGPREFIX}-autobahn-[0-9]*:../../www/py-autobahn
 py-ubjson-0.16.1
 py-vmprof
 py-PyTrie3 0.2
-py-PyHamcrest 2.0.2 
+py-PyHamcrest 2.0.2
+py-zlmdb 20.8.1 
 www/py-hyperframe
 www/py-hyperlink
 
