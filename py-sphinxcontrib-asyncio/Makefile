@@ -1,10 +1,10 @@
 # $NetBSD$
 
 DISTNAME=	sphinxcontrib-asyncio-0.3.0
-CATEGORIES=	category
+CATEGORIES=	textproc
 MASTER_SITES=	https://files.pythonhosted.org/packages/e3/04/5bfea4f0658dba09f910919f96b6445fb0d984bc9c2e6f7fc6448345e42a/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/e3/04/5bfea4f0658dba09f910919f96b6445fb0d984bc9c2e6f7fc6448345e42a/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
