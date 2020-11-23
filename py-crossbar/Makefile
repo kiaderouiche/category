@@ -29,6 +29,7 @@ DEPENDS+=	${PYPKGPREFIX}-priority>=1.0.3:../../wip/py-priority
 DEPENDS+=	${PYPKGPREFIX}-setproctitle>=1.15.0:../../sysutils/py-setproctitle
 DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-autobahn-[0-9]*:../../www/py-autobahn
+py-ubjson-0.16.1
 www/py-hyperframe
 www/py-hyperlink
 
