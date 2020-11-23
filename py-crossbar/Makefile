@@ -31,6 +31,8 @@ DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-autobahn-[0-9]*:../../www/py-autobahn
 py-ubjson-0.16.1
 py-vmprof
+py-PyTrie3 0.2
+py-PyHamcrest 2.0.2 
 www/py-hyperframe
 www/py-hyperlink
 
