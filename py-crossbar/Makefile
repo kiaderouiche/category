@@ -1,8 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	crossbar-20.8.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_PYPI:=d/crossbar/}
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/crossbar/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://crossbar.io/
