@@ -1,0 +1,61 @@
+/*** BEGIN file-header ***/
+#include "pui-types.h"
+/*** END file-header ***/
+
+/*** BEGIN file-production ***/
+
+/* enumerations from "@filename@" */
+#include "@filename@"
+/*** END file-production ***/
+
+/*** BEGIN value-header ***/
+
+GType
+@enum_name@_get_type (void)
+{
+	static volatile gsize g_define_type_id__volatile;
+	GType		g_@type@_type_id;
+
+	if (g_once_init_enter(&g_define_type_id__volatile)) {
+		static const G@Type@Value values[] = {
+/*** END value-header ***/
+
+/*** BEGIN value-production ***/
+		    { @VALUENAME@, "@VALUENAME@", "@valuenick@" },
+/*** END value-production ***/
+
+/*** BEGIN value-tail ***/
+		    { 0 }
+		};
+
+		g_@type@_type_id = g_@type@_register_static(
+		    g_intern_static_string("@EnumName@"), values);
+
+		g_once_init_leave(&g_define_type_id__volatile,
+		    g_@type@_type_id);
+	}
+
+	return (g_define_type_id__volatile);
+}
+/*** END value-tail ***/
+
+/*** BEGIN file-tail ***/
+
+gchar *
+pui_types_enum_to_string(GType type, gint value)
+{
+	GTypeClass	*type_class;
+	GEnumValue	*enum_value;
+
+	type_class = g_type_class_ref(type);
+
+	g_return_val_if_fail(G_IS_ENUM_CLASS(type_class), NULL);
+
+	enum_value = g_enum_get_value(G_ENUM_CLASS(type_class), value);
+	if (enum_value == NULL) {
+		return (g_strdup_printf("%d", value));
+	}
+
+	return (g_strdup(enum_value->value_nick));
+}
+/*** END file-tail ***/

@@ -1,0 +1,14 @@
+org.guido-berhoerster.code.package-update-indicator.desktop.in
+org.guido-berhoerster.code.package-update-indicator.gschema.xml
+org.guido-berhoerster.code.package-update-indicator.preferences.desktop.in
+package-update-indicator-prefs.c
+package-update-indicator.c
+pui-about-dialog.ui
+pui-application.c
+pui-backend.c
+pui-get-updates.c
+pui-menu.ui
+pui-prefs-application.c
+pui-prefs-window.ui
+pui-settings.c
+pui-types.c.in

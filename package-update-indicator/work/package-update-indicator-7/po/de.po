@@ -1,0 +1,228 @@
+# German translations for package-update-indicator package.
+# Copyright (C) 2018 Guido Berhoerster
+# This file is distributed under the same license as the package-update-indicator package.
+# Guido Berhoerster <guido+pui@berhoerster.name>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: package-update-indicator 1\n"
+"Report-Msgid-Bugs-To: guido+pui@berhoerster.name\n"
+"POT-Creation-Date: 2018-12-08 08:50+0000\n"
+"PO-Revision-Date: 2018-07-06 12:10+0000\n"
+"Last-Translator: Guido Berhoerster <guido+pui@berhoerster.name>\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: org.guido-berhoerster.code.package-update-indicator.desktop.in:3
+#: org.guido-berhoerster.code.package-update-indicator.desktop.in:4
+#: package-update-indicator.c:59 pui-application.c:489
+msgid "Package Update Indicator"
+msgstr "Paketaktualisierungsanzeige"
+
+#: org.guido-berhoerster.code.package-update-indicator.desktop.in:5
+#: pui-about-dialog.ui:12
+msgid "Notify about available software updates"
+msgstr "Benachrichtigung über verfügbare Softwareaktualisierungen"
+
+#: org.guido-berhoerster.code.package-update-indicator.desktop.in:6
+msgid "system-software-update"
+msgstr ""
+
+#: org.guido-berhoerster.code.package-update-indicator.gschema.xml:7
+msgid "Update command"
+msgstr "Aktualisierungsbefehl"
+
+#: org.guido-berhoerster.code.package-update-indicator.gschema.xml:8
+msgid "Command for installing updates."
+msgstr "Befehl zu Installieren von Aktualisierungen."
+
+#: org.guido-berhoerster.code.package-update-indicator.gschema.xml:12
+msgid "Refresh interval"
+msgstr "Aktualisierungsintervall"
+
+#: org.guido-berhoerster.code.package-update-indicator.gschema.xml:13
+msgid "The interval in seconds for refreshing metadata."
+msgstr "Das Aktualisierungsintervall für Metadaten."
+
+#: org.guido-berhoerster.code.package-update-indicator.gschema.xml:18
+msgid "Whether to use a mobile connection"
+msgstr "Ob eine Mobilfunkverbindung benutzt werden kann"
+
+#: org.guido-berhoerster.code.package-update-indicator.gschema.xml:19
+msgid "If enabled, use a mobile connection refreshing the package cache."
+msgstr ""
+"Wenn aktiviert, wird der Paket-Cache über eine mobile Verbindung "
+"aktualisiert."
+
+#: org.guido-berhoerster.code.package-update-indicator.preferences.desktop.in:3
+#: org.guido-berhoerster.code.package-update-indicator.preferences.desktop.in:4
+#: package-update-indicator-prefs.c:43
+msgid "Package Update Indicator Preferences"
+msgstr "Einstellungen der Paketaktualisierungsanzeige"
+
+#: org.guido-berhoerster.code.package-update-indicator.preferences.desktop.in:5
+msgid "Edit the Preferences for Package Update Indicator"
+msgstr "Bearbeite Einstellungen der Paketaktualisierungsanzeige"
+
+#: org.guido-berhoerster.code.package-update-indicator.preferences.desktop.in:6
+msgid "updates;preferences;"
+msgstr "Aktualisierungen;Updates;Einstellungen;"
+
+#: org.guido-berhoerster.code.package-update-indicator.preferences.desktop.in:7
+msgid "preferences-other"
+msgstr ""
+
+#: pui-about-dialog.ui:7
+msgid "About Package Update Indicator"
+msgstr "Über Paketaktualisierungsanzeige"
+
+#: pui-about-dialog.ui:11
+msgid "Copyright © 2018 Guido Berhörster"
+msgstr "Copyright © 2018 Guido Berhörster"
+
+#. Place your name here.
+#: pui-about-dialog.ui:15
+msgid "Translator"
+msgstr "Guido Berhörster"
+
+#: pui-application.c:73
+msgid "Enable debugging messages"
+msgstr "Debugging-Nachrichten aktivieren"
+
+#: pui-application.c:75
+msgid "Quit running instance of Package Update Indicator"
+msgstr "Beende laufende Instanz der Paketaktualisierungsanzeige"
+
+#: pui-application.c:77
+msgid "Print the version number and quit"
+msgstr "Versionsnummer zeigen und beenden"
+
+#: pui-application.c:232
+msgid "Up to Date"
+msgstr "Auf dem neuesten Stand"
+
+#: pui-application.c:233
+msgid "The system is up to date."
+msgstr "Das System ist auf dem neuesten Stand"
+
+#: pui-application.c:236
+msgid "Software Update"
+msgid_plural "Software Updates"
+msgstr[0] "Softwareaktualisierung"
+msgstr[1] "Softwareaktualisierungen"
+
+#: pui-application.c:239
+msgid "There is a software update available."
+msgstr "Es ist eine Softwareaktualisierung verfügbar."
+
+#: pui-application.c:242
+#, c-format
+msgid "There are %u software updates available."
+msgstr "Es sind %u Softwareaktualisierungen verfügbar."
+
+#: pui-application.c:247
+msgid "Important Software Update"
+msgid_plural "Important Software Updates"
+msgstr[0] "Wichtige Softwareaktualisierung"
+msgstr[1] "Wichtige Softwareaktualisierungen"
+
+#: pui-application.c:250
+msgid "There is an important software update available."
+msgstr "Es ist eine wichtige Softwareaktualisierung verfügbar."
+
+#: pui-application.c:253
+#, c-format
+msgid "There are %u important software updates available."
+msgstr "Es sind %u wichtige Softwareaktualisierungen verfügbar."
+
+#: pui-application.c:257
+#, c-format
+msgid "There are %u software updates available, one of them is important."
+msgstr "Es sind %u Softwareaktualisierungen verfügbar, eine davon ist wichtig."
+
+#: pui-application.c:262
+#, c-format
+msgid "There are %u software updates available, %u of them are important."
+msgstr "Es sind %u Softwareaktualisierungen verfügbar, %u davon sind wichtig."
+
+#: pui-application.c:270
+msgid "Logout Required"
+msgstr "Abmeldung erforderlich"
+
+#: pui-application.c:271
+msgid "You need to log out and back in for the update to take effect."
+msgstr ""
+"Sie müssen sich aus- und wieder einloggen, damit die Aktualisierung wirksam wird."
+
+#: pui-application.c:275
+msgid "Restart Required"
+msgstr "Neutstart Erforderlich"
+
+#: pui-application.c:276
+msgid "The computer has to be restarted for the updates to take effect."
+msgstr ""
+"Der Computer muss neu gestarte werden damit die Aktualisierungen wirksam werden."
+
+#: pui-application.c:324
+msgid "Install Updates"
+msgstr "Installiere Aktualisierungen"
+
+#: pui-application.c:434
+msgid "Update notifications are not supported."
+msgstr "Aktualisierungsbenachrichtigungen werden nicht unterstützt."
+
+#: pui-menu.ui:13
+msgid "_Install updates"
+msgstr "_Installiere Aktualisierungen"
+
+#: pui-menu.ui:22
+msgid "_Preferences…"
+msgstr "_Einstellungen…"
+
+#: pui-menu.ui:31
+msgid "_About…"
+msgstr "Ü_ber…"
+
+#: pui-prefs-window.ui:17
+msgid "always"
+msgstr "immer"
+
+#: pui-prefs-window.ui:22
+msgid "every hour"
+msgstr "einmal die Stunde"
+
+#: pui-prefs-window.ui:27
+msgid "every 8 hours"
+msgstr "alle 8 Stunden"
+
+#: pui-prefs-window.ui:32
+msgid "twice a day"
+msgstr "zweimal täglich"
+
+#: pui-prefs-window.ui:37
+msgid "daily"
+msgstr "täglich"
+
+#: pui-prefs-window.ui:42
+msgid "weekly"
+msgstr "wöchentlich"
+
+#: pui-prefs-window.ui:47
+msgid "never"
+msgstr "nie"
+
+#: pui-prefs-window.ui:76
+msgid "_Refresh cache:"
+msgstr "Cache _aktualisieren:"
+
+#: pui-prefs-window.ui:89
+msgid "_Command for installing updates:"
+msgstr "_Befehl zum Installieren von Aktualisierungen:"
+
+#: pui-prefs-window.ui:130
+msgid "Use _mobile connection"
+msgstr "Benutze _Mobilfunkverbindung"

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/guido-berhoerster/code/package-update-indicator">
+    <file compressed="true">pui-menu.ui</file>
+    <file compressed="true">pui-about-dialog.ui</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,28 @@
+/*** BEGIN file-header ***/
+#ifndef	PUI_TYPES_H
+#define	PUI_TYPES_H
+
+#include <glib-object.h>
+
+G_BEGIN_DECLS
+/*** END file-header ***/
+
+/*** BEGIN file-production ***/
+
+/* enumerations from "@filename@" */
+/*** END file-production ***/
+
+/*** BEGIN value-header ***/
+
+#define	@ENUMPREFIX@_TYPE_@ENUMSHORT@	(@enum_name@_get_type())
+GType	@enum_name@_get_type(void) G_GNUC_CONST;
+/*** END value-header ***/
+
+/*** BEGIN file-tail ***/
+
+gchar *	pui_types_enum_to_string(GType, gint);
+
+G_END_DECLS
+
+#endif /* !PUI_TYPES_H */
+/*** END file-tail ***/

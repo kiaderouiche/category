@@ -1,0 +1,65 @@
+News
+====
+
+package-update-indicator 7 (2020-11-17T12:21:47+01:00)
+------------------------------------------------------
+
+- Explicitly schedule the initial check for updates after a fixed short delay
+- Add debug logging when periodic checks are inhibited
+- Update Russin translations
+- Add Russian translations
+
+package-update-indicator 6 (2020-08-21T15:47:00+02:00)
+------------------------------------------------------
+
+- Add Italian translations
+- Correct translations
+- Add French translations
+- Fix incorrect translation
+- Add Danish translations
+- Back out fallback icon support which does not work as intended
+
+package-update-indicator 5 (2019-08-30T13:32:52+02:00)
+------------------------------------------------------
+
+- Reduce delay before checking for updates after an "updates-changed" signal
+- Fix continuos loop of update checks if the refresh cache interval is 0
+- Add fallback icons for KDE-based themes
+
+package-update-indicator 4 (2019-07-24T16:27:25+02:00)
+------------------------------------------------------
+
+- Fix support for libayatana-appindicator
+
+package-update-indicator 3 (2019-07-24T10:33:37+02:00)
+------------------------------------------------------
+
+- Use consistent vocabulary in German translations
+- Add support for libayantana-indicator
+- Fix typo in German translations
+- Add missing changelog entries
+
+package-update-indicator 2 (2018-12-08T10:09:35+01:00)
+------------------------------------------------------
+
+- Add keywords to desktop files
+- Fix typo in notification message
+- Do not run glib-compile-schemas if schemas are installed into staging
+  directory
+- Set application indicator title
+- Add note for vendors on how to override default settings
+
+package-update-indicator 1 (2018-07-06T14:21:28+02:00)
+------------------------------------------------------
+
+- Notify about required session or system restarts
+- Add Indonesian translations
+- Add German translations
+- Add English translations
+- Make PackagKit use the user's network proxies
+- Do not check for updates if the battery is low
+- Add setting to control whether to use a mobile connection
+- Add menu item to launch the preferences application
+- Use GtkBuilder for all widgets
+- Add preferences application
+- Initial revision

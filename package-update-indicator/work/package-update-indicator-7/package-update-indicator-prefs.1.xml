@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--
+
+Copyright (C) 2018 Guido Berhoerster <guido+pui@berhoerster.name>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:lang="en">
+  <info>
+    <author>
+      <personname>
+        <firstname>Guido</firstname>
+        <surname>Berhoerster</surname>
+      </personname>
+      <email>guido+pui@berhoerster.name</email>
+      <personblurb/>
+    </author>
+    <date>17 June, 2018</date>
+  </info>
+  <refmeta>
+    <refentrytitle>package-update-indicator-prefs</refentrytitle>
+    <manvolnum>1</manvolnum>
+    <refmiscinfo class="source"/>
+    <refmiscinfo class="version"/>
+    <refmiscinfo class="manual">User Commands</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>package-update-indicator-prefs</refname>
+    <refpurpose>edit preferences for package-update-indicator</refpurpose>
+  </refnamediv>
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>package-update-indicator-prefs</command>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+  <refsect1>
+    <title>Description</title>
+    <para>The <command>package-update-indicator-prefs</command> utility can be
+    used to edit the preferences for
+    <command>package-update-indicator</command>.</para>
+  </refsect1>
+  <refsect1>
+    <title>Preferences</title>
+    <variablelist>
+      <varlistentry>
+        <term>Cache refresh interval</term>
+        <listitem>
+          <para>The interval in which package metadata is refreshed.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Update installer command</term>
+        <listitem>
+          <para>The command for installing updates.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Use mobile connection</term>
+        <listitem>
+          <para>Whether to use a mobile connection for refreshing the package
+            cache.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </refsect1>
+  <refsect1>
+    <title>Exit Status</title>
+    <para>The following exit values are returned:</para>
+    <variablelist>
+      <varlistentry>
+        <term>0</term>
+        <listitem>
+          <para>Command successfully executed.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>1</term>
+        <listitem>
+          <para>An unspecified error has occured.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>2</term>
+        <listitem>
+          <para>Invalid command line options were specified.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </refsect1>
+  <refsect1>
+    <title>See Also</title>
+    <para><citerefentry><refentrytitle>package-update-indicator</refentrytitle>
+      <manvolnum>1</manvolnum></citerefentry></para>
+  </refsect1>
+</refentry>

@@ -1,0 +1,118 @@
+package-update-indicator
+========================
+
+Description
+-----------
+
+The package-update-indicator utility regularly checks for software updates and
+notifies the user about available updates using desktop notifications and
+either a status notifier icon or a system tray icon.
+
+Build Instructions
+------------------
+
+package-update-indicator requires a POSIX:2004 compatible operating system, it
+has been tested to work on Linux distributions.  The following tools and
+shared libraries are required to build package-update-indicator:
+
+- GNU make 3.81 or later
+- pkg-config
+- GNU gettext 0.19 or later
+- GNU or BSD install
+- GLib version 2.48 or later
+- GTK+ version 3.18 or later
+- libappindicator 12.10.0 or later
+- PackageKit-glib2 0.8.17 or later
+- upower-glib 0.99.0 or later
+- polkit 0.105 or later
+- the xsltproc tool from libxml2
+
+Before building package-update-indicator check the commented macros in the
+Makefile for any macros you may need to override depending on the used
+toolchain and operating system.
+
+By default the "update-command" setting is empty which means users will not be
+offered to install updates from a notification or the indicator menu.
+Distribution vendors may override this or any other default setting by
+installing a vendor override file alongside the schema file.  An example for
+is distributed with package-update-indicator, see the file
+"examples/10_vendor_update_command.gschema.override.example".  For details on
+how to install a vendor override file see the manual page for
+glib-compile-schemas.
+
+By default, all files will be installed under the "/usr/local" directory, a
+different installation path prefix can be set via the `prefix` macro.  In
+addition, a second path prefix can be specified via the `DESTDIR` macro which
+will be prepended to any path, incuding the `prefix` macro path prefix.  In
+contrast to `prefix`, the path specified via the `DESTDIR` macro will only be
+prepended to paths during installation and not be used for constructing
+internal paths.
+
+The following instructions assume that `make` is GNU make, on some platforms
+it may be installed under a different name or a non-default path.  In order to
+start the build process run `make all`.  After a successful build, run `make
+install` to install the program, any associated data files and the
+documentation.
+
+Previously built binaries, object files, generated data files and
+documentation can be removed by running `make clean`, any additional,
+generated files which are not removed by the `clean` target can be removed by
+running `make clobber`.
+
+Contact
+-------
+
+Please send any feedback, translations or bug reports via email to
+<guido+pui@berhoerster.name>.
+
+Bug Reports
+-----------
+
+When sending bug reports, please always mention the exact version of
+package-update-indicator with which the issue occurs as well as the version of
+the operating system you are using and make sure that you provide sufficient
+information to reproduce the issue and include any input, output, any error
+messages.
+
+In case of build issues, please also specify the implementations and versions
+of the tools and shared libraries used to build the program, in particular the
+compiler.
+
+In case of crashes, please generate a stack trace with a suitable debugger
+such as gdb, lldb, dbx, or debug after a crash has occurred either by
+examining the resulting core file or by running the program from the debugger
+and attach it to the bug report.  In order to generate a meaningful stack
+trace the program as well as any dynamically linked libraries need to be built
+with debugging information, see the documentation of the used compiler for the
+required compiler flags.  If any of the dynamically linked shared libraries do
+not contain debugging information, please either install debugging information
+for these libraries using mechanisms provided by your operating system or
+rebuild the libraries accordingly.  Please refer to the documentation of the
+debugger for detailed instructions on generating backtraces.
+
+License
+-------
+
+Except otherwise noted, all files are Copyright (C) 2018 Guido Berhoerster and
+distributed under the following license terms:
+
+Copyright (C) 2018 Guido Berhoerster <guido+pui@berhoerster.name>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
