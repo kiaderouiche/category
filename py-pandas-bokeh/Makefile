@@ -6,8 +6,8 @@ CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pandas-bokeh/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/d9/00/c071450b7d7b1797f22e469c892aab8538a090326ccd81d2e3d397a8c4bd/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	
+COMMENT=	Interactive plots and applications in the browser
 #LICENSE=	# TODO: (see mk/license.mk)
 
 # url2pkg-marker (please do not remove this line.)
