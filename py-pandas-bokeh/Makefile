@@ -6,9 +6,12 @@ CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pandas-bokeh/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	Bokeh plotting backend for Pandas, GeoPandas & Pyspark
-COMMENT=	Interactive plots and applications in the browser
+HOMEPAGE=	https://github.com/PatrikHlobil/Pandas-Bokeh
+COMMENT=	Bokeh plotting backend for Pandas, GeoPandas & Pyspark
 LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.22.0:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-bokeh-[0-9]*:../../wip/py-bokeh
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
