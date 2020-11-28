@@ -1,8 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	pandas-bokeh-0.5.2
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/d9/00/c071450b7d7b1797f22e469c892aab8538a090326ccd81d2e3d397a8c4bd/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	math
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pandas-bokeh/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://files.pythonhosted.org/packages/d9/00/c071450b7d7b1797f22e469c892aab8538a090326ccd81d2e3d397a8c4bd/
