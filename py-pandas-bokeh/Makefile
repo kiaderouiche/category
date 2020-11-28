@@ -6,9 +6,9 @@ CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pandas-bokeh/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	
+HOMEPAGE=	Bokeh plotting backend for Pandas, GeoPandas & Pyspark
 COMMENT=	Interactive plots and applications in the browser
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	# TODO: (see mk/license.mk)
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
