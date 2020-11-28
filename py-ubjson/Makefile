@@ -1,13 +1,14 @@
 # $NetBSD$
 
 DISTNAME=	py-ubjson-0.16.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py-//}
 CATEGORIES=	converters python
-MASTER_SITES=	https://files.pythonhosted.org/packages/1d/c7/28220d37e041fe1df03e857fe48f768dcd30cd151480bf6f00da8713214a/
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/py-ubjson/}
 
-MAINTAINER=	MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/1d/c7/28220d37e041fe1df03e857fe48f768dcd30cd151480bf6f00da8713214a/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/Iotic-Labs/py-ubjson
 COMMENT=	Universal Binary JSON encoder/decoder
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
