@@ -7,7 +7,7 @@ MASTER_SITES=	https://files.pythonhosted.org/packages/ce/d8/9fdc36b2a912bf78106d
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/bb4242/sdnotify
-COMMENT=	Python implementation of systemd's service notification protocol
+COMMENT=	Python implementation of systemd service notification protocol
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	# none
