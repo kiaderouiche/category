@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	wsaccel-0.6.2
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_PYPI:=w/wsaccel/}
 
