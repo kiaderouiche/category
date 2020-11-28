@@ -1,11 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	upower-0.99.11
-CATEGORIES=	category
+PKGNAME=	upower-glib-0.99.11
+CATEGORIES=	sysutils
 MASTER_SITES=	https://upower.freedesktop.org/releases/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://upower.freedesktop.org/releases/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
@@ -16,4 +17,5 @@ USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	upower-glib.pc.in
 
+.include "../../devel/glib2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
