@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/aio-libs/sphinxcontrib-asyncio
 COMMENT=	Sphinx extension to support coroutines in markup
 LICENSE=	apache-2.0
 
-
+PYTHON_VERSIONS_INCOMPATIBLE=   27
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
