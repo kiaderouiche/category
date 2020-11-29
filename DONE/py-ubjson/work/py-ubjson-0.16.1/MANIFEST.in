@@ -1,3 +1,0 @@
-include README.md NOTICE LICENSE CHANGELOG UBJSON-Specification.md
-include ez_setup.py
-include src/*.[ch]
