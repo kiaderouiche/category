@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=d/django-reactive/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/tyomo4ka/django-reactive
 COMMENT=	Django JSON form field on steroids using react-json-schema-form
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-psycopg2-binary>=2.7,<3.0:../../textproc/py-psycopg2-binary
 DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
