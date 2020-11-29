@@ -1,0 +1,7 @@
+--- /usr/pkgsrc/category/py-trie3/work/.prefix.pre	2020-11-29 21:52:43.384353191 +0100
++++ /usr/pkgsrc/category/py-trie3/work/.prefix.post	2020-11-29 21:52:43.916357464 +0100
+@@ -0,0 +1,4 @@
++/usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/pytrie.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/pytrie.cpython-37.pyc
++/usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/PyTrie3-0.2-py3.7.egg-info
++/usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytrie.py

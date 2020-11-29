@@ -1,0 +1,6 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/pytrie.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/pytrie.cpython-37.pyc
+        /usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/PyTrie3-0.2-py3.7.egg-info
+        /usr/pkgsrc/category/py-trie3/work/.destdir/usr/pkg/lib/python3.7/site-packages/pytrie.py

@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=P/PyTrie3/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/datapublica/pytrie3
 COMMENT=	Python implementation of the trie data structure
-LICENSE=	modfiied-bsd
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
