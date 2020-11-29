@@ -8,7 +8,9 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/sphinxcontrib-asyncio/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/aio-libs/sphinxcontrib-asyncio
 COMMENT=	Sphinx extension to support coroutines in markup
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
+
+
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
