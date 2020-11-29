@@ -1,10 +1,10 @@
---- /usr/pkgsrc/category/py-flatbuffers/work/.prefix.pre	2020-11-29 14:23:25.360188459 +0100
-+++ /usr/pkgsrc/category/py-flatbuffers/work/.prefix.post	2020-11-29 14:23:28.992286178 +0100
+--- /usr/pkgsrc/category/py-flatbuffers/work/.prefix.pre	2020-11-29 14:32:32.006895688 +0100
++++ /usr/pkgsrc/category/py-flatbuffers/work/.prefix.post	2020-11-29 14:32:35.150980278 +0100
 @@ -0,0 +1,28 @@
-+/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129132327-py3.7.egg-info/dependency_links.txt
-+/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129132327-py3.7.egg-info/PKG-INFO
-+/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129132327-py3.7.egg-info/SOURCES.txt
-+/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129132327-py3.7.egg-info/top_level.txt
++/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129133233-py3.7.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129133233-py3.7.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129133233-py3.7.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129133233-py3.7.egg-info/top_level.txt
 +/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers/builder.py
 +/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers/compat.py
 +/usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers/encode.py

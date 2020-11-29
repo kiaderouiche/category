@@ -1,9 +1,10 @@
 # $NetBSD$
 
 DISTNAME=	flatbuffers-1.12
+EGG_NAME=	flatbuffers-20201129133132-py
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-MASTER_SITES=	https://files.pythonhosted.org/packages/4d/c4/7b995ab9bf0c7eaf10c386d29a03408dfcf72648df4102b1f18896c3aeea/
+MASTER_SITES=	${MASTER_SITE_PYPI:=f/flatbuffers/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://google.github.io/flatbuffers/
