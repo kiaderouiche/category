@@ -5,15 +5,15 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/8a/fa/218a3ff0ede43b18356a7c9de44fc922b7ac32a2856ea27ece439fe8eb6c/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/projectmesa/mesa
 COMMENT=	Agent-based modeling (ABM) in Python 3+
 LICENSE=	apache-2.0
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=0:../../devel/py-coverage
 BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
-BUILD_DEPENDS+=	# TODO: pytest>=4.6
-BUILD_DEPENDS+=	# TODO: pytest-cov>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=4.6:../../devel/py-flake8
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov>=0:../../devel/py-flake8
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=0:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-click>=0:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-cookiecutter>=0:../../devel/py-cookiecutter
