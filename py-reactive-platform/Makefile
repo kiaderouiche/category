@@ -8,7 +8,9 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=r/reactive-platform/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://www.reactiveexchange.com/
 COMMENT=	Reactive Platform Python API
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
+
+DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=:../../devel/py-setuptools_scm
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
