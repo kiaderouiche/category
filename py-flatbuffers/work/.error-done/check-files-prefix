@@ -1,0 +1,12 @@
+************************************************************
+The following files are in the PLIST but not in /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg:
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/dependency_links.txt
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/PKG-INFO
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/SOURCES.txt
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/top_level.txt
+************************************************************
+The following files are in /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143556-py3.7.egg-info/dependency_links.txt
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143556-py3.7.egg-info/PKG-INFO
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143556-py3.7.egg-info/SOURCES.txt
+        /usr/pkgsrc/category/py-flatbuffers/work/.destdir/usr/pkg/lib/python3.7/site-packages/flatbuffers-20201129143556-py3.7.egg-info/top_level.txt

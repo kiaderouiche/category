@@ -1,0 +1,19 @@
+# $NetBSD$
+
+GITHUB_PROJECT=	RxGo
+GITHUB_TAG=	v2.4.0
+DISTNAME=	v2.4.0
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+CATEGORIES=	category
+MASTER_SITES=	${MASTER_SITE_GITHUB:=ReactiveX/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
+
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/ReactiveX/RxGo/
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
+
+WRKSRC=		${WRKDIR}/RxGo-2.4.0
+USE_LANGUAGES=	# none
+
+.include "../../mk/bsd.pkg.mk"

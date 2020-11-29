@@ -1,8 +1,8 @@
 @comment $NetBSD$
-${PYSITELIB}/flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info/PKG-INFO
-${PYSITELIB}/flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
-${PYSITELIB}/flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
-${PYSITELIB}/flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info/top_level.txt
+${PYSITELIB}/flatbuffers-20201129143556-py${PYVERSSUFFIX}.egg-info/PKG-INFO
+${PYSITELIB}/flatbuffers-20201129143556-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
+${PYSITELIB}/flatbuffers-20201129143556-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
+${PYSITELIB}/flatbuffers-20201129143556-py${PYVERSSUFFIX}.egg-info/top_level.txt
 ${PYSITELIB}/flatbuffers/__init__.py
 ${PYSITELIB}/flatbuffers/__init__.pyc
 ${PYSITELIB}/flatbuffers/__init__.pyo

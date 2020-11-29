@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	flatbuffers-1.12
-EGG_INFODIR=	flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info
+#EGG_NAME=	flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=f/flatbuffers/}
