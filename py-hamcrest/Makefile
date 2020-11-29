@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/hamcrest/PyHamcrest
 COMMENT=	Hamcrest framework for matcher objects
 LICENSE=	modified-bsd
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
