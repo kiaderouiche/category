@@ -12,5 +12,8 @@ LICENSE=	modfiied-bsd
 
 USE_LANGUAGES=	# none
 
-.include "../../lang/python/disutils.mk"
+do-test:
+        ${RUN} cd ${WRKSRC}; ${SETENV} ${TEST_ENV} ${PYTHONBIN} test_trie.py
+
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
