@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	flatbuffers-1.12
+EGG_INFODIR?=	flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info
 #EGG_NAME=	flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
@@ -11,7 +12,9 @@ HOMEPAGE=	https://google.github.io/flatbuffers/
 COMMENT=	The FlatBuffers serialization format for Python
 LICENSE=	apache-2.0
 
-USE_LANGUAGES=	# none
+PLIST_SUBST+=	EGG_INFODIR=flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info
+PLIST_SUBST+=	PYSITELIB=${PYSITELIB}
+PLIST_SUBST+=	EGG_INFODIR=${EGG_INFODIR}
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -7,10 +7,10 @@
 @blddep digest-20190127
 @blddep cwrappers-20180325
 @comment $NetBSD$
-lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/PKG-INFO
-lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/SOURCES.txt
-lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/dependency_links.txt
-lib/python3.7/site-packages/flatbuffers-20201129143357-py3.7.egg-info/top_level.txt
+lib/python3.7/site-packages/flatbuffers-20201129144246-py3.7.egg-info/PKG-INFO
+lib/python3.7/site-packages/flatbuffers-20201129144246-py3.7.egg-info/SOURCES.txt
+lib/python3.7/site-packages/flatbuffers-20201129144246-py3.7.egg-info/dependency_links.txt
+lib/python3.7/site-packages/flatbuffers-20201129144246-py3.7.egg-info/top_level.txt
 lib/python3.7/site-packages/flatbuffers/__init__.py
 @comment MD5:0b34c98faeca103311fb9f385c6543e7
 lib/python3.7/site-packages/flatbuffers/__pycache__/__init__.cpython-37.pyc

@@ -1,3 +1,4 @@
+PKG-INFO
 setup.cfg
 setup.py
 flatbuffers/__init__.py

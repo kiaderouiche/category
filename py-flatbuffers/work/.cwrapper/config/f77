@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-flatbuffers/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-flatbuffers/work/flatbuffers-1.12
-path=/usr/pkgsrc/category/py-flatbuffers/work/.buildlink/bin:/usr/pkgsrc/category/py-flatbuffers/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+path=/usr/pkgsrc/category/py-flatbuffers/work/.buildlink/bin:/usr/pkgsrc/category/py-flatbuffers/work/.gcc/bin:/usr/pkgsrc/category/py-flatbuffers/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
 exec_path=/usr/pkgsrc/category/py-flatbuffers/work/.cwrapper/bin/f77
 exec=/usr/pkgsrc/category/py-flatbuffers/work/.compiler/bin/fortran-fail-wrapper
 transform=L:/lib64/:
