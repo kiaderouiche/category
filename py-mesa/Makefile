@@ -2,8 +2,8 @@
 
 DISTNAME=	Mesa-0.8.8.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/8a/fa/218a3ff0ede43b18356a7c9de44fc922b7ac32a2856ea27ece439fe8eb6c/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/django-reactive/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/projectmesa/mesa
@@ -16,11 +16,11 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=6.2:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=2.4.4:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
-DEPENDS+=	${PYPKGPREFIX}-cookiecutter>=0:../../devel/py-cookiecutter
-DEPENDS+=	${PYPKGPREFIX}-networkx>=0:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-pandas>=0:../../math/py-pandas
-DEPENDS+=	${PYPKGPREFIX}-tornado>=0:../../www/py-tornado
-DEPENDS+=	${PYPKGPREFIX}-tqdm>=0:../../misc/py-tqdm
+DEPENDS+=	${PYPKGPREFIX}-cookiecutter>=1.7.2:../../devel/py-cookiecutter
+DEPENDS+=	${PYPKGPREFIX}-networkx>=2.4:../../math/py-networkx
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.22.0:../../math/py-pandas
+DEPENDS+=	${PYPKGPREFIX}-tornado>=5.1.1:../../www/py-tornado
+DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.50.2:../../misc/py-tqdm
 
 USE_LANGUAGES=	# none
 
