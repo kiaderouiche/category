@@ -12,5 +12,7 @@ LICENSE=	apache-2.0
 
 PYTHON_VERSIONS_INCOMPATIBLE=   27
 
+DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
