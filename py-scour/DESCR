@@ -1,23 +1,10 @@
-TODO: Adjust the following lines from README.md
+Scour is an SVG optimizer/cleaner that reduces the size
+of scalable vector graphics by optimizing structure and
+removing unnecessary data written in Python.It can be
+used to create streamlined vector graphics suitable for
+web deployment, publishing/sharing or further processing.
 
-# Scour
-
-[![PyPI](https://img.shields.io/pypi/v/scour.svg)](https://pypi.python.org/pypi/scour "Package listing on PyPI")
- 
-[![Build status](https://img.shields.io/travis/scour-project/scour.svg)](https://travis-ci.org/scour-project/scour "Build status (via TravisCI)")
-[![Codecov](https://img.shields.io/codecov/c/github/scour-project/scour.svg)](https://codecov.io/gh/scour-project/scour "Code coverage (via Codecov)")
-
----
-
-Scour is an SVG optimizer/cleaner that reduces the size of scalable vector graphics by optimizing structure and removing unnecessary data written in Python.
-
-It can be used to create streamlined vector graphics suitable for web deployment, publishing/sharing or further processing.
-
-The goal of Scour is to output a file that renderes identically at a fraction of the size by removing a lot of redundant information created by most SVG editors. Optimization options are typically lossless but can be tweaked for more agressive cleaning.
-
-Scour is open-source and licensed under [Apache License 2.0](https://github.com/codedread/scour/blob/master/LICENSE).
-
-Scour was originally developed by Jeff "codedread" Schiller and Louis Simard in in 2010.
-The project moved to GitLab in 2013 an is now maintained by Tobias "oberstet" Oberstein and Patrick "Ede_123" Storz.
-
-...
+The goal of Scour is to output a file that renderes identically
+at a fraction of the size by removing a lot of redundant
+information created by most SVG editors. Optimization options
+are typically lossless but can be tweaked for more agressive cleaning.
