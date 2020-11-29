@@ -3,7 +3,7 @@
 DISTNAME=	sphinxcontrib-asyncio-0.3.0
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
-MASTER_SITES=	
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/sphinxcontrib-asyncio/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/e3/04/5bfea4f0658dba09f910919f96b6445fb0d984bc9c2e6f7fc6448345e42a/
