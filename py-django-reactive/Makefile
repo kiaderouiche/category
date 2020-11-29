@@ -10,7 +10,9 @@ HOMEPAGE=	https://github.com/tyomo4ka/django-reactive
 COMMENT=	Django JSON form field on steroids using react-json-schema-form
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-psycopg2-binary>=2.7,<3.0:../../textproc/py-psycopg2-binary
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
+DEPENDS+=	${PYPKGPREFIX}-psycopg2>=2.7:../../databases/py-psycopg2
 DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
 DEPENDS+=	${PYPKGPREFIX}-test-django>=4.1.0:../../devel/py-test-django
 DEPENDS+=	${PYPKGPREFIX}-test>=6.1.2:../../devel/py-test
