@@ -1,2 +1,3 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+This repository renames the package references
+for RxPY3 from rx to rx3 so that you can install
+both rx and rx3 at the same time to ease with transitioning
