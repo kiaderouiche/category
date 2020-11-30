@@ -16,23 +16,23 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.3.0:../../devel/py-flake8
 BUILD_DEPENDS+=	${PYPKGPREFIX}-isort>=4.2.15:../../devel/py-isort
 BUILD_DEPENDS+=	${PYPKGPREFIX}-mccabe>=0.6.1:../../devel/py-mccabe
 BUILD_DEPENDS+=	${PYPKGPREFIX}-codestyle>=2.3.1:../../devel/py-codestyle
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pyflakes==1.5.0>=:0../../devel/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-lint==1.7.1>=:0../../devel/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test==4.3.1>=:0../../devel/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov==2.5.1>=:0../../devel/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test-timeout==1.3.3>=:0../../devel/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-urllib3==1.23>=:0../../www/py-websocket-client
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pyflakes>=1.5.0:../../devel/py-pyflakes
+BUILD_DEPENDS+=	${PYPKGPREFIX}-lint>=1.7.1:../../devel/py-lint
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=4.3.1:../../devel/py-test
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.5.1:../../devel/py-test-cov
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test-timeout>=1.3.3:../../devel/py-test-timeout
+BUILD_DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 BUILD_DEPENDS+=	${PYPKGPREFIX}-websocket-client>=0.48.0:../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-dns>=0:../../net/py-dns../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-eventlet>=0.20.1:../../wip/py-eventlet../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-kombu>=4.2.0,<5:../../net/py-kombu../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-mock>=1.2:../../devel/py-mock../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-path.py>=6.2:../../devel/py-path.py../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-six>=1.9.0:../../lang/py-six../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-werkzeug>=0.9:../../www/py-werkzeug../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-wrapt>=1.0.0:../../devel/py-wrapt../../www/py-websocket-client
+DEPENDS+=	${PYPKGPREFIX}-dns>=0:../../net/py-dns
+DEPENDS+=	${PYPKGPREFIX}-eventlet>=0.20.1:../../wip/py-eventlet
+DEPENDS+=	${PYPKGPREFIX}-kombu>=4.2.0,<5:../../net/py-kombu
+DEPENDS+=	${PYPKGPREFIX}-mock>=1.2:../../devel/py-mock
+DEPENDS+=	${PYPKGPREFIX}-path.py>=6.2:../../devel/py-path.py
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
+DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-six>=1.9.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-werkzeug>=0.9:../../www/py-werkzeug
+DEPENDS+=	${PYPKGPREFIX}-wrapt>=1.0.0:../../devel/py-wrapt
 
 USE_LANGUAGES=	# none
 
