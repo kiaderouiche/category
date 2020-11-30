@@ -10,17 +10,17 @@ HOMEPAGE=	http://github.com/nameko/nameko
 COMMENT=	Microservices framework for Python
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-astroid>=2.4.2:../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.5.1:../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.3.0:../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-isort>=4.2.15:../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-mccabe==0.6.1>=:0../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-codestyle==2.3.1>=:0../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pyflakes==1.5.0>=:0../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-lint==1.7.1>=:0../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test==4.3.1>=:0../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov==2.5.1>=:0../../www/py-websocket-client
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test-timeout==1.3.3>=:0../../www/py-websocket-client
+BUILD_DEPENDS+=	${PYPKGPREFIX}-astroid>=2.4.2:../../devel/py-astroid
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.5.1:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.3.0:../../devel/py-flake8
+BUILD_DEPENDS+=	${PYPKGPREFIX}-isort>=4.2.15:../../devel/py-isort
+BUILD_DEPENDS+=	${PYPKGPREFIX}-mccabe>=0.6.1:../../devel/py-mccabe
+BUILD_DEPENDS+=	${PYPKGPREFIX}-codestyle>=2.3.1:../../devel/py-codestyle
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pyflakes==1.5.0>=:0../../devel/py-websocket-client
+BUILD_DEPENDS+=	${PYPKGPREFIX}-lint==1.7.1>=:0../../devel/py-websocket-client
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test==4.3.1>=:0../../devel/py-websocket-client
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov==2.5.1>=:0../../devel/py-websocket-client
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test-timeout==1.3.3>=:0../../devel/py-websocket-client
 BUILD_DEPENDS+=	${PYPKGPREFIX}-urllib3==1.23>=:0../../www/py-websocket-client
 BUILD_DEPENDS+=	${PYPKGPREFIX}-websocket-client>=0.48.0:../../www/py-websocket-client
 DEPENDS+=	${PYPKGPREFIX}-dns>=0:../../net/py-dns../../www/py-websocket-client
