@@ -32,16 +32,10 @@ DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson-0.16.1
 DEPENDS+=	${PYPKGPREFIX}-trie3>=0.2:../../wip/py-trie3
 DEPENDS+=	${PYPKGPREFIX}-hamcrest>=2.0.2:../../wip/py-hamcrest
-DEPENDS+=	${PYPKGPREFIX}-autobahn-[0-9]*:../../www/py-autobahn
-DEPENDS+=
-DEPENDS+=
-DEPENDS+=
-DEPENDS+=
+DEPENDS+=	${PYPKGPREFIX}-zlmdb>=20.8.1:../../wip/py-zlmdb
+DEPENDS+=	www/py-hyperframe
+DEPENDS+=	www/py-hyperlink
 
-py-Py
-py-zlmdb 20.8.1 
-www/py-hyperframe
-www/py-hyperlink
 
 
 .include "../../lang/python/distutils.mk"
