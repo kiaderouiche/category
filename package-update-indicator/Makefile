@@ -6,7 +6,7 @@ MASTER_SITES=	https://code.guido-berhoerster.org/projects/package-update-indicat
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://code.guido-berhoerster.org/projects/package-update-indicator/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Notify about available software updates
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_PKGLOCALEDIR=	yes
