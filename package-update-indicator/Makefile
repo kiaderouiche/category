@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	package-update-indicator-7
+PKGNAME=	package-update-indicator-7.0
 CATEGORIES=	sysutils
 MASTER_SITES=	https://code.guido-berhoerster.org/projects/package-update-indicator/downloads/
 
@@ -12,4 +13,5 @@ COMMENT=	Notify about available software updates
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake
 
+.include "../../devel/libappindicator/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
