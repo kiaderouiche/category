@@ -1,11 +1,11 @@
 # $NetBSD$
 
 DISTNAME=	package-update-indicator-7
-CATEGORIES=	category
+CATEGORIES=	sysutils
 MASTER_SITES=	https://code.guido-berhoerster.org/projects/package-update-indicator/downloads/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://code.guido-berhoerster.org/projects/package-update-indicator/downloads/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://code.guido-berhoerster.org/projects/package-update-indicator/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 

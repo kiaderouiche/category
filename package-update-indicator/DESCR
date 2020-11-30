@@ -1,23 +1,4 @@
-TODO: Adjust the following lines from README
-
-package-update-indicator
-========================
-
-Description
------------
-
-The package-update-indicator utility regularly checks for software updates and
-notifies the user about available updates using desktop notifications and
+The package-update-indicator utility regularly checks
+for software updates and notifies the user about
+available updates using desktop notifications and
 either a status notifier icon or a system tray icon.
-
-Build Instructions
-------------------
-
-package-update-indicator requires a POSIX:2004 compatible operating system, it
-has been tested to work on Linux distributions.  The following tools and
-shared libraries are required to build package-update-indicator:
-
-- GNU make 3.81 or later
-- pkg-config
-- GNU gettext 0.19 or later
-...
