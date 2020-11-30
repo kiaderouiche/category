@@ -29,11 +29,16 @@ textproc/py-mistune
 DEPENDS+=	${PYPKGPREFIX}-priority>=1.0.3:../../wip/py-priority
 DEPENDS+=	${PYPKGPREFIX}-setproctitle>=1.15.0:../../sysutils/py-setproctitle
 DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
+DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson-0.16.1
+DEPENDS+=	${PYPKGPREFIX}-trie3>=0.2:../../wip/py-trie3
+DEPENDS+=	${PYPKGPREFIX}-hamcrest>=2.0.2:../../wip/py-hamcrest
 DEPENDS+=	${PYPKGPREFIX}-autobahn-[0-9]*:../../www/py-autobahn
-py-ubjson-0.16.1
-py-vmprof
-py-PyTrie3 0.2
-py-PyHamcrest 2.0.2
+DEPENDS+=
+DEPENDS+=
+DEPENDS+=
+DEPENDS+=
+
+py-Py
 py-zlmdb 20.8.1 
 www/py-hyperframe
 www/py-hyperlink
