@@ -14,4 +14,6 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake
 
 .include "../../devel/libappindicator/buildlink3.mk"
+.include "../../textproc/libxslt/buildlink3.mk"
+.include "../../x11/gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
