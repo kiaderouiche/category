@@ -11,7 +11,7 @@ COMMENT=	Object-relational zero-copy in-memory database layer for LMDB
 LICENSE=	mit
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-runner>=0
-DEPENDS+=	${PYPKGPREFIX}-cbor2>=5.1.0
+DEPENDS+=	${PYPKGPREFIX}-cbor2>=5.1.0:../../wip/py-cbor2
 DEPENDS+=	${PYPKGPREFIX}-click>=7.0:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.98:../../databases/py-lmdb
 DEPENDS+=	${PYPKGPREFIX}-nacl>=1.3.0:../../security/py-nacl
