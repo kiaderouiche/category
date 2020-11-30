@@ -10,7 +10,7 @@ HOMEPAGE=	https://www.reactiveexchange.com/
 COMMENT=	Reactive Platform Python API
 LICENSE=	apache-2.0
 
-DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=:../../devel/py-setuptools_scm
+DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
