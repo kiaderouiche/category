@@ -1,6 +1,6 @@
 @name py37-reactive-platform-0.3.0
 @blddep py37-setuptools_scm-4.1.2
-@pkgdep py37-setuptools_scm>=
+@pkgdep py37-setuptools_scm>=4.1.2
 @blddep py37-setuptools-50.3.0
 @pkgdep py37-setuptools-[0-9]*
 @blddep python37-3.7.9nb1
@@ -8,6 +8,95 @@
 @blddep digest-20190127
 @blddep cwrappers-20180325
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+lib/python3.7/site-packages/reactive/platform/__init__.py
+lib/python3.7/site-packages/reactive/platform/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__init__.py
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/domain/asset.py
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/asset.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/asset.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/domain/instr.py
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/instr.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/instr.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/domain/market.py
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/market.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/market.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/domain/util.py
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/util.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/util.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/domain/venue.py
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/venue.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/domain/__pycache__/venue.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__init__.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/client.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/client.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/client.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/decode.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/decode.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/decode.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/feedaccept.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/feedaccept.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/feedaccept.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/feedrequest.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/feedrequest.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/feedrequest.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/feedrequestreject.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/feedrequestreject.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/feedrequestreject.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/handler.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/handler.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/handler.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/liquidation.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/liquidation.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/liquidation.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/mdsnapshotl2.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/mdsnapshotl2.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/mdsnapshotl2.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/feed/publictrade.py
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/publictrade.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/feed/__pycache__/publictrade.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/rest/__init__.py
+lib/python3.7/site-packages/reactive/platform/rest/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/rest/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/rest/client.py
+lib/python3.7/site-packages/reactive/platform/rest/__pycache__/client.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/rest/__pycache__/client.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/rest/constant.py
+lib/python3.7/site-packages/reactive/platform/rest/__pycache__/constant.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/rest/__pycache__/constant.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/util/__init__.py
+lib/python3.7/site-packages/reactive/platform/util/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/util/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/util/cache.py
+lib/python3.7/site-packages/reactive/platform/util/__pycache__/cache.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/util/__pycache__/cache.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/util/error.py
+lib/python3.7/site-packages/reactive/platform/util/__pycache__/error.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/util/__pycache__/error.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/__init__.py
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/__init__.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/client.py
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/client.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/client.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/decode.py
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/decode.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/decode.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/handler.py
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/handler.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/handler.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/websocket.py
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/websocket.cpython-37.pyc
+lib/python3.7/site-packages/reactive/platform/websocket/__pycache__/websocket.cpython-37.opt-1.pyc
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7-nspkg.pth
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/PKG-INFO
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/SOURCES.txt
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/dependency_links.txt
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/namespace_packages.txt
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/not-zip-safe
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/requires.txt
+lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/top_level.txt

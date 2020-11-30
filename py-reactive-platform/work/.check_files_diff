@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-reactive-platform/work/.prefix.pre	2020-11-30 11:52:42.935714356 +0100
-+++ /usr/pkgsrc/category/py-reactive-platform/work/.prefix.post	2020-11-30 11:52:47.715844098 +0100
+--- /usr/pkgsrc/category/py-reactive-platform/work/.prefix.pre	2020-11-30 14:39:26.044920028 +0100
++++ /usr/pkgsrc/category/py-reactive-platform/work/.prefix.post	2020-11-30 14:39:32.861108634 +0100
 @@ -0,0 +1,92 @@
 +/usr/pkgsrc/category/py-reactive-platform/work/.destdir/usr/pkg/lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/dependency_links.txt
 +/usr/pkgsrc/category/py-reactive-platform/work/.destdir/usr/pkg/lib/python3.7/site-packages/reactive_platform-0.3.0-py3.7.egg-info/namespace_packages.txt
