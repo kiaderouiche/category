@@ -6,7 +6,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=n/nameko/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://github.com/nameko/nameko
+HOMEPAGE=	https://www.nameko.io/
 COMMENT=	Microservices framework for Python
 LICENSE=	apache-2.0
 

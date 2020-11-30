@@ -14,6 +14,7 @@ build	py37-urllib3>=1.23	py37-urllib3-1.25.10
 build	py37-websocket-client>=0.48.0	py37-websocket-client-0.57.0
 build	cwrappers>=20150314	cwrappers-20180325
 full	py37-dns>=1.16.0	py37-dns-1.16.0nb1
+full	py37-amqp>=2.5.2	py37-amqp-2.5.2
 full	py37-eventlet>=0.29.1	py37-eventlet-0.29.1
 full	py37-kombu>=4.2.0,<5	py37-kombu-4.6.8
 full	py37-mock>=1.2	py37-mock-3.0.5
