@@ -10,11 +10,11 @@ HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	# TODO: alabaster==0.7.12>=0
-BUILD_DEPENDS+=	# TODO: attrs==19.3.0>=0
-BUILD_DEPENDS+=	# TODO: babel==2.7.0>=0
-BUILD_DEPENDS+=	# TODO: certifi==2019.11.28>=0
-BUILD_DEPENDS+=	# TODO: chardet==3.0.4>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-alabaster==0.7.12>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-attrs==19.3.0>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-babel==2.7.0>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-certifi==2019.11.28>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-chardet==3.0.4>=0
 BUILD_DEPENDS+=	# TODO: coverage==4.5.4>=0
 BUILD_DEPENDS+=	# TODO: coverage-badge==1.0.1>=0
 BUILD_DEPENDS+=	# TODO: docopt==0.6.2>=0
