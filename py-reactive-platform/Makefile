@@ -12,5 +12,5 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=:../../devel/py-setuptools_scm
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
