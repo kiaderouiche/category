@@ -3,7 +3,7 @@
 DISTNAME=	zlmdb-20.8.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/a2/67/b4c3f62799157eb4e89462c280e0e790600b775e43c985d58000cf4829a0/
+MASTER_SITES=	${MASTER_SITE_PYPI:=z/zlmdb/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/crossbario/zlmdb
