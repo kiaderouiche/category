@@ -16,7 +16,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.3.0:../../devel/py-flake8
 BUILD_DEPENDS+=	${PYPKGPREFIX}-isort>=4.2.15:../../devel/py-isort
 BUILD_DEPENDS+=	${PYPKGPREFIX}-mccabe>=0.6.1:../../devel/py-mccabe
 BUILD_DEPENDS+=	${PYPKGPREFIX}-codestyle>=2.3.1:../../devel/py-codestyle
-BUILD_DEPENDS+=	${PYPKGPREFIX}-lint>=1.7.1:../../devel/py-lint
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pylint>=1.7.1:../../devel/py-lint
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=4.3.1:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.5.1:../../devel/py-test-cov
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-timeout>=1.3.3:../../devel/py-test-timeout
