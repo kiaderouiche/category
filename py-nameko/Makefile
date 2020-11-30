@@ -23,7 +23,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.5.1:../../devel/py-test-cov
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-timeout>=1.3.3:../../devel/py-test-timeout
 BUILD_DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 BUILD_DEPENDS+=	${PYPKGPREFIX}-websocket-client>=0.48.0:../../www/py-websocket-client
-DEPENDS+=	${PYPKGPREFIX}-dns>=0:../../net/py-dns
+DEPENDS+=	${PYPKGPREFIX}-dns>=1.16.0:../../net/py-dns
 DEPENDS+=	${PYPKGPREFIX}-eventlet>=0.20.1:../../wip/py-eventlet
 DEPENDS+=	${PYPKGPREFIX}-kombu>=4.2.0,<5:../../net/py-kombu
 DEPENDS+=	${PYPKGPREFIX}-mock>=1.2:../../devel/py-mock
