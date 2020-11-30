@@ -18,7 +18,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=2.4.4:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-cookiecutter>=1.7.2:../../devel/py-cookiecutter
 DEPENDS+=	${PYPKGPREFIX}-networkx>=2.4:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-pandas>=0.22.0:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.22.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-tornado>=5.1.1:../../www/py-tornado
 DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.50.2:../../misc/py-tqdm
 
