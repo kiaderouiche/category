@@ -10,10 +10,9 @@ HOMEPAGE=	https://crossbar.io/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-devel/py-constantly
+
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=21.2.1:../../databases/py-lmdb
-DEPENDS+=	${PYPKGPREFIX}-lmdb>=21.2.1:../../databases/py-lmdb
-constantly-15.1.0
+DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
 DEPENDS+=	${PYPKGPREFIX}-incremental>=21.2.1:../../devel/py-incremental
 devel/flatbuffers
 DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/py-treq
