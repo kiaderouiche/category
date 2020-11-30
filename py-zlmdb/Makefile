@@ -14,7 +14,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test-runner>=0
 DEPENDS+=	${PYPKGPREFIX}-cbor2>=5.1.0
 DEPENDS+=	${PYPKGPREFIX}-click>=7.0:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.98:../../databases/py-lmdb
-DEPENDS+=	${PYPKGPREFIX}-nacl>=1.3.0:../../
+DEPENDS+=	${PYPKGPREFIX}-nacl>=1.3.0:../../security/py-nacl
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-txaio>=20.3.1:../../devel/py-txaio
 DEPENDS+=	${PYPKGPREFIX}-numpy>=1.15.4:../../math/py-numpy
