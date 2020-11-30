@@ -11,6 +11,8 @@ COMMENT=	Reactive Platform Python API
 LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
+DEPENDS+=	${PYPKGPREFIX}-reactive-papi>=1.2.0:../../wip/py-reactive-papi
+
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
