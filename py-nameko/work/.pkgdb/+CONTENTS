@@ -1,0 +1,44 @@
+@cwd /usr/pkg
+@name py37-nameko-2.13.0
+@blddep py37-dns-1.16.0nb1
+@pkgdep py37-dns>=1.16.0
+@blddep py37-eventlet-0.29.1
+@pkgdep py37-eventlet>=0.29.1
+@blddep py37-kombu-4.6.8
+@pkgdep py37-kombu>=4.2.0,<5
+@blddep py37-mock-3.0.5
+@pkgdep py37-mock>=1.2
+@blddep py37-path.py-11.5.2
+@pkgdep py37-path.py>=6.2
+@blddep py37-yaml-5.3.1
+@pkgdep py37-yaml>=5.1
+@blddep py37-requests-2.24.0
+@pkgdep py37-requests>=1.2.0
+@blddep py37-six-1.15.0
+@pkgdep py37-six>=1.9.0
+@blddep py37-werkzeug-1.0.1
+@pkgdep py37-werkzeug>=0.9
+@blddep py37-wrapt-1.12.1
+@pkgdep py37-wrapt>=1.0.0
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb1
+@pkgdep python37>=3.7
+@blddep digest-20190127
+@blddep py37-astroid-2.4.2
+@blddep py37-coverage-5.2.1
+@blddep py37-flake8-3.8.4
+@blddep py37-isort-4.3.21
+@blddep py37-mccabe-0.6.1
+@blddep py37-codestyle-2.6.0
+@blddep py37-pylint-2.6.0
+@blddep py37-test-6.1.2
+@blddep py37-test-cov-2.10.1
+@blddep py37-test-timeout-1.4.2
+@blddep py37-urllib3-1.25.10
+@blddep py37-websocket-client-0.57.0
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
