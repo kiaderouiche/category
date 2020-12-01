@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- configure.orig	2020-11-17 15:31:54.000000000 +0000
++++ configure
+@@ -13837,7 +13837,7 @@ else
+   ENABLE_ALWAYS_BUILD_TESTS_FALSE=
+ fi
+ 
+-  if test "$ENABLE_INSTALLED_TESTS" == "1"; then
++  if test "$ENABLE_INSTALLED_TESTS" = "1"; then
+     installed_test_metadir=${datadir}/installed-tests/libostree
+ 
+     installed_testdir=${libexecdir}/installed-tests/libostree

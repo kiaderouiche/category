@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (libostree-2020.8.tar.xz) = 4efeb7f0cfa70ddf9f25c87cfab09d2a06abfa93
+RMD160 (libostree-2020.8.tar.xz) = 8e19e0c363fb0de80ad2fef5542b78646cde76de
+SHA512 (libostree-2020.8.tar.xz) = 2523f5742c4472f8e64614bb99edc5aec1a8f8a837b54f67efba9760aefc3385014e1296c9246ac81b361f4588deb4794768a231bf8f338c24a14255ab63da04
+Size (libostree-2020.8.tar.xz) = 2081080 bytes
+SHA1 (patch-configure) = f43019390da2bf9fb5d7ef3f523c779897123b60
