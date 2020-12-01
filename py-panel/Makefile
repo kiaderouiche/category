@@ -1,13 +1,18 @@
 # $NetBSD$
 
 DISTNAME=	panel-0.10.2
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/91/c0/8227f85084e0adf28009703e34409a59df97605f584ecd1fca870c86a217/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	graphics
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/panel/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/91/c0/8227f85084e0adf28009703e34409a59df97605f584ecd1fca870c86a217/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	http://panel.holoviz.org
+COMMENT=	High level app and dashboarding solution for Python
+LICENSE=	modified-bsd
 
-# url2pkg-marker (please do not remove this line.)
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
+DEPENDS+=	${PYPKGPREFIX}-tornado>=5.1.1:../../www/py-tornado
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
