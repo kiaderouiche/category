@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# svu
+
+[![Build Status](https://img.shields.io/github/workflow/status/caarlos0/svu/build?style=for-the-badge)](https://github.com/caarlos0/svu/actions?workflow=build)
+
+Semantic Version Util is a tool to manage semantic versions at ease!
+
+You can print the current version, increase patch/minor/major manually or just
+get the next tag based on your git log!
+
+## Example usage:
+
+### `svu`
+
+Based on the log between the latest tag and `HEAD`, prints the next tag.
+
+> aliases: `svu next` and `svu n`
+
+```sh
+$ svu
+v1.3.0
+...
