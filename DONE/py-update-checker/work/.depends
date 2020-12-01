@@ -1,0 +1,9 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	py37-black>=0	../../textproc/py-black
+build	py37-flake8>=0	../../devel/py-flake8
+build	py37-test>=2.7.3	../../devel/py-test
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py37-requests>=2.3.0	../../devel/py-requests
+full	py37-setuptools-[0-9]*	../../devel/py-setuptools
+full	python37>=3.7	../../lang/python37
