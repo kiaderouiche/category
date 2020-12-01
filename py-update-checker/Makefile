@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/bboe/update_checker
 COMMENT=	Python module that will check for package updates
 LICENSE=	modified-bsd
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-black>=0:../../textproc/py-black
 BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=2.7.3:../../devel/py-test
