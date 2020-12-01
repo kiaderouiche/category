@@ -34,9 +34,6 @@ BUILD_DEPENDS+=	# TODO: pyparsing==2.4.5>=0
 BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
 BUILD_DEPENDS+=	# TODO: bc-python-hcl2>=0.3.10
 BUILD_DEPENDS+=	# TODO: pytz==2019.3>=0
-BUILD_DEPENDS+=	# TODO: pyyaml==5.3.1>=0
-BUILD_DEPENDS+=	# TODO: requests==2.22.0>=0
-BUILD_DEPENDS+=	# TODO: six==1.15.0>=0
 BUILD_DEPENDS+=	# TODO: snowballstemmer==2.0.0>=0
 BUILD_DEPENDS+=	# TODO: sphinx==2.2.1>=0
 BUILD_DEPENDS+=	# TODO: sphinxcontrib-applehelp==1.0.1>=0
@@ -62,8 +59,8 @@ DEPENDS+=	# TODO: junit-xml==1.8>=0
 DEPENDS+=	# TODO: lark-parser==0.7.8>=0
 DEPENDS+=	# TODO: bc-python-hcl2>=0.3.11
 DEPENDS+=	# TODO: pyyaml==5.3.1>=0
-DEPENDS+=	# TODO: requests==2.22.0>=0
-DEPENDS+=	# TODO: six==1.15.0>=0
+DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-six>=1.9.0:../../lang/py-six
 DEPENDS+=	# TODO: tabulate==0.8.6>=0
 DEPENDS+=	# TODO: termcolor==1.1.0>=0
 DEPENDS+=	# TODO: urllib3==1.25.10>=0

@@ -2,7 +2,7 @@
 
 DISTNAME=	crossbar-20.8.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=c/crossbar/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
