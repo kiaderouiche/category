@@ -47,26 +47,26 @@ BUILD_DEPENDS+=	# TODO: wcwidth==0.1.7>=0
 BUILD_DEPENDS+=	# TODO: zipp==0.6.0>=0
 BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
 BUILD_DEPENDS+=	# TODO: gitdb==4.0.5>=0
-DEPENDS+=	# TODO: update-checker==0.18.0>=0
-DEPENDS+=	# TODO: tqdm==4.49.0>=0
-DEPENDS+=	# TODO: boto3==1.12.43>=0
-DEPENDS+=	# TODO: chardet==3.0.4>=0
-DEPENDS+=	# TODO: colorama==0.4.3>=0
-DEPENDS+=	# TODO: docopt==0.6.2>=0
-DEPENDS+=	# TODO: idna==2.8>=0
-DEPENDS+=	# TODO: jmespath==0.10.0>=0
-DEPENDS+=	# TODO: junit-xml==1.8>=0
-DEPENDS+=	# TODO: lark-parser==0.7.8>=0
+DEPENDS+=	${PYPKGPREFIX}-update-checker>=0.18.0
+DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0
+DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43
+DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4
+DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3
+DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2
+DEPENDS+=	# TODO: idna>=2.8
+DEPENDS+=	# TODO: jmespath==0.10.0>=
+DEPENDS+=	# TODO: junit-xml==1.8>=
+DEPENDS+=	# TODO: lark-parser==0.7.8>=
 DEPENDS+=	# TODO: bc-python-hcl2>=0.3.11
 DEPENDS+=	# TODO: pyyaml==5.3.1>=0
 DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-six>=1.9.0:../../lang/py-six
-DEPENDS+=	# TODO: tabulate==0.8.6>=0
-DEPENDS+=	# TODO: termcolor==1.1.0>=0
-DEPENDS+=	# TODO: urllib3==1.25.10>=0
-DEPENDS+=	# TODO: dpath==1.5.0>=0
-DEPENDS+=	# TODO: GitPython==3.1.7>=0
-DEPENDS+=	# TODO: gitdb==4.0.5>=0
+DEPENDS+=	# TODO: tabulate==0.8.6>=
+DEPENDS+=	# TODO: termcolor==1.1.0>=
+DEPENDS+=	# TODO: urllib3==1.25.10>=
+DEPENDS+=	# TODO: dpath==1.5.0>=
+DEPENDS+=	# TODO: GitPython==3.1.7>=
+DEPENDS+=	# TODO: gitdb==4.0.5>=
 
 USE_LANGUAGES=	# none
 
