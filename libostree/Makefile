@@ -15,6 +15,7 @@ USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	src/libostree/ostree-1.pc.in
 
+MAKE_FLAGS+=		CWARNFLAGS.clang=-Wno-error=missing-noreturn
 
 #.include "../../archivers/zlib/buildlink3.mk"
 #xz>= 5.0.5

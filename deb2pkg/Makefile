@@ -4,7 +4,7 @@ PKGNAME=	rpm2pkg-3.3.0
 CATEGORIES=	pkgtools
 NO_CHECKSUM=	yes
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://www.pkgsrc.org/
 COMMENT=	Convert RPM archives to NetBSD packages
 LICENSE=	modified-bsd
