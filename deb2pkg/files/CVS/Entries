@@ -1,0 +1,15 @@
+/package-list.h/1.1/Wed Jan 12 00:26:33 2011//
+/package-list.c/1.2/Thu Jan 13 01:01:06 2011//
+/rpm2pkg.c/1.21/Wed Apr 13 01:05:19 2011//
+/Makefile/1.5/Sun Dec  1 01:01:14 2019//
+/parse-rpm.c/1.2/Sun Dec  1 01:01:14 2019//
+/fileio-bzlib.c/1.2/Mon Dec  2 01:01:07 2019//
+/fileio-lzma.c/1.2/Mon Dec  2 01:01:07 2019//
+/fileio-plain.c/1.2/Mon Dec  2 01:01:07 2019//
+/fileio-zlib.c/1.3/Mon Dec  2 01:01:07 2019//
+/fileio-zstd.c/1.3/Mon Dec  2 01:01:07 2019//
+/fileio.c/1.2/Mon Dec  2 01:01:07 2019//
+/fileio.h/1.3/Mon Dec  2 01:01:07 2019//
+/parse-rpm.h/1.2/Mon Dec  2 01:01:07 2019//
+/rpm2pkg.8/1.10/Thu Aug 27 18:43:56 2020//
+D
