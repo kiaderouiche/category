@@ -1,0 +1,12 @@
+@comment $NetBSD$
+lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/PKG-INFO
+lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/SOURCES.txt
+lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/dependency_links.txt
+lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/requires.txt
+lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/top_level.txt
+lib/python3.7/site-packages/update_checker.py
+lib/python3.7/site-packages/update_checker.pyc
+lib/python3.7/site-packages/update_checker.pyo
+lib/python3.7/site-packages/update_checker_test.py
+lib/python3.7/site-packages/update_checker_test.pyc
+lib/python3.7/site-packages/update_checker_test.pyo

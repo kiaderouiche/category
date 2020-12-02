@@ -1,0 +1,14 @@
+--- /usr/pkgsrc/category/py-update-checker/work/.prefix.pre	2020-12-01 09:50:48.858274619 +0100
++++ /usr/pkgsrc/category/py-update-checker/work/.prefix.post	2020-12-01 09:50:52.766377597 +0100
+@@ -0,0 +1,11 @@
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/update_checker.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/update_checker.cpython-37.pyc
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/update_checker_test.cpython-37.opt-1.pyc
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/__pycache__/update_checker_test.cpython-37.pyc
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/requires.txt
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker-0.18.0-py3.7.egg-info/top_level.txt
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker.py
++/usr/pkgsrc/category/py-update-checker/work/.destdir/usr/pkg/lib/python3.7/site-packages/update_checker_test.py
