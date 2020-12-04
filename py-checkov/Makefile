@@ -28,45 +28,42 @@ BUILD_DEPENDS+=	# TODO: markupsafe==1.1.1>=0
 BUILD_DEPENDS+=	# TODO: more-itertools==8.0.0>=0
 BUILD_DEPENDS+=	# TODO: packaging==19.2>=0
 BUILD_DEPENDS+=	# TODO: pluggy==0.13.1>=0
-BUILD_DEPENDS+=	# TODO: py==1.8.0>=0
-BUILD_DEPENDS+=	# TODO: pygments==2.5.2>=0
-BUILD_DEPENDS+=	# TODO: pyparsing==2.4.5>=0
-BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
-BUILD_DEPENDS+=	# TODO: bc-python-hcl2>=0.3.10
-BUILD_DEPENDS+=	# TODO: pytz==2019.3>=0
-BUILD_DEPENDS+=	# TODO: snowballstemmer==2.0.0>=0
-BUILD_DEPENDS+=	# TODO: sphinx==2.2.1>=0
-BUILD_DEPENDS+=	# TODO: sphinxcontrib-applehelp==1.0.1>=0
-BUILD_DEPENDS+=	# TODO: sphinxcontrib-devhelp==1.0.1>=0
-BUILD_DEPENDS+=	# TODO: sphinxcontrib-htmlhelp==1.0.2>=0
-BUILD_DEPENDS+=	# TODO: sphinxcontrib-jsmath==1.0.1>=0
-BUILD_DEPENDS+=	# TODO: sphinxcontrib-qthelp==1.0.2>=0
-BUILD_DEPENDS+=	# TODO: sphinxcontrib-serializinghtml==1.1.3>=0
-BUILD_DEPENDS+=	# TODO: urllib3==1.25.10>=0
-BUILD_DEPENDS+=	# TODO: wcwidth==0.1.7>=0
-BUILD_DEPENDS+=	# TODO: zipp==0.6.0>=0
-BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
-BUILD_DEPENDS+=	# TODO: gitdb==4.0.5>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-py==1.8.0>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments==2.5.2>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pyparsing==2.4.5>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test==5.3.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-TODO: bc-python-hcl2>=0.3.10
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pytz==2019.3>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-snowballstemmer==2.0.0>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx==2.2.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-applehelp==1.0.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-devhelp==1.0.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-htmlhelp==1.0.2>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-jsmath==1.0.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-qthelp==1.0.2>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-serializinghtml==1.1.3>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-wcwidth==0.1.7>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-zipp==0.6.0>=0
 DEPENDS+=	${PYPKGPREFIX}-update-checker>=0.18.0
 DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0
 DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43
 DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3
 DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2
-DEPENDS+=	# TODO: idna>=2.8
-DEPENDS+=	# TODO: jmespath==0.10.0>=
-DEPENDS+=	# TODO: junit-xml==1.8>=
-DEPENDS+=	# TODO: lark-parser==0.7.8>=
-DEPENDS+=	# TODO: bc-python-hcl2>=0.3.11
-DEPENDS+=	# TODO: pyyaml==5.3.1>=0
+DEPENDS+=	${PYPKGPREFIX}- idna>=2.8
+DEPENDS+=	${PYPKGPREFIX}-jmespath>=0.10.0:../../textproc/py-jmespath
+DEPENDS+=	${PYPKGPREFIX}-junit-xml==1.8>=
+DEPENDS+=	${PYPKGPREFIX}-lark-parser==0.7.8>=
+DEPENDS+=	${PYPKGPREFIX}-bc-python-hcl2>=0.3.11
+DEPENDS+=	${PYPKGPREFIX}-pyyaml==5.3.1>=0
 DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests
-DEPENDS+=	${PYPKGPREFIX}-six>=1.9.0:../../lang/py-six
-DEPENDS+=	# TODO: tabulate==0.8.6>=
-DEPENDS+=	# TODO: termcolor==1.1.0>=
-DEPENDS+=	# TODO: urllib3==1.25.10>=
-DEPENDS+=	# TODO: dpath==1.5.0>=
-DEPENDS+=	# TODO: GitPython==3.1.7>=
-DEPENDS+=	# TODO: gitdb==4.0.5>=
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-tabulate==0.8.6>=
+DEPENDS+=	${PYPKGPREFIX}-termcolor==1.1.0>=
+DEPENDS+=	${PYPKGPREFIX}-urllib3==1.25.10>=
+DEPENDS+=	${PYPKGPREFIX}-dpath==1.5.0>=
+DEPENDS+=	${PYPKGPREFIX}-GitPython==3.1.7>=
+DEPENDS+=	${PYPKGPREFIX}-gitdb==4.0.5>=
 
 USE_LANGUAGES=	# none
 
