@@ -17,7 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-incremental>=17.5.0:../../devel/py-incremental
 DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/py-treq
 DEPENDS+=	${PYPKGPREFIX}-txaio>=1.0.3:../../devel/py-txaio
 DEPENDS+=	${PYPKGPREFIX}-msgpack>=1.0.0:../../devel/py-msgpack
-DEPENDS+=	${PYPKGPREFIX}-argon2-cffi>=21.2.1:../../security/py-argon2-cffi
+DEPENDS+=	${PYPKGPREFIX}-argon2-cffi>=20.1.0:../../security/py-argon2-cffi
 DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/py-treq
 DEPENDS+=	${PYPKGPREFIX}-netaddr>=1.0.3:../../net/py-netaddr
 DEPENDS+=	${PYPKGPREFIX}-txtorcon>=1.15.0:../../net/py-txtorcon
