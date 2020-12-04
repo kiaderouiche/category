@@ -7,8 +7,8 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=c/crossbar/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://crossbar.io/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Crossbar.io multi-protocol application router for microservices
+LICENSE=	gnu-lgpl-v3
 
 
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=21.2.1:../../databases/py-lmdb
@@ -29,7 +29,7 @@ DEPENDS+=	${PYPKGPREFIX}-priority>=1.0.3:../../wip/py-priority
 DEPENDS+=	${PYPKGPREFIX}-setproctitle>=1.15.0:../../sysutils/py-setproctitle
 DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-mistune>=0.8.4:../../textproc/py-mistune
-DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson-0.16.1
+DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson
 DEPENDS+=	${PYPKGPREFIX}-trie3>=0.2:../../wip/py-trie3
 DEPENDS+=	${PYPKGPREFIX}-hamcrest>=2.0.2:../../wip/py-hamcrest
 DEPENDS+=	${PYPKGPREFIX}-zlmdb>=20.8.1:../../wip/py-zlmdb
