@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	caer-1.9.2
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	category
 MASTER_SITES=	https://files.pythonhosted.org/packages/ba/f9/2a759ab17ca2a27cb6e9dc6dd422239bfdba5c0c2ba85e8506ab272e7029/
 
