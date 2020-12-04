@@ -11,7 +11,7 @@ COMMENT=	Crossbar.io multi-protocol application router for microservices
 LICENSE=	gnu-lgpl-v3
 
 
-DEPENDS+=	${PYPKGPREFIX}-lmdb>=21.2.1:../../databases/py-lmdb
+DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
 DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
 DEPENDS+=	${PYPKGPREFIX}-incremental>=21.2.1:../../devel/py-incremental
 DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/py-treq
