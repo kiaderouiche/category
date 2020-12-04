@@ -3,7 +3,7 @@
 DISTNAME=	bc-python-hcl2-0.3.11
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/2e/dd/4f826a3aaa2f6b64f055e9294c797f6b1a9b8035ac07b6fd943684c1dd55/
+MASTER_SITES=	${MASTER_SITE_PYPI:=b/bc-python-hcl2/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/amplify-education/python-hcl2
