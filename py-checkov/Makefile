@@ -10,24 +10,24 @@ HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-alabaster==0.7.12>=0
-BUILD_DEPENDS+=	${PYPKGPREFIX}-attrs==19.3.0>=0
-BUILD_DEPENDS+=	${PYPKGPREFIX}-babel==2.7.0>=0
-BUILD_DEPENDS+=	${PYPKGPREFIX}-certifi==2019.11.28>=0
-BUILD_DEPENDS+=	${PYPKGPREFIX}-chardet==3.0.4>=0
-BUILD_DEPENDS+=	# TODO: coverage==4.5.4>=0
-BUILD_DEPENDS+=	# TODO: coverage-badge==1.0.1>=0
-BUILD_DEPENDS+=	# TODO: docopt==0.6.2>=0
-BUILD_DEPENDS+=	# TODO: docutils==0.15.2>=0
-BUILD_DEPENDS+=	# TODO: idna==2.8>=0
-BUILD_DEPENDS+=	# TODO: imagesize==1.1.0>=0
-BUILD_DEPENDS+=	# TODO: importlib-metadata==1.1.0;python_version<'3.8'>=0
-BUILD_DEPENDS+=	# TODO: jinja2==2.10.3>=0
-BUILD_DEPENDS+=	# TODO: lark-parser==0.7.8>=0
-BUILD_DEPENDS+=	# TODO: markupsafe==1.1.1>=0
-BUILD_DEPENDS+=	# TODO: more-itertools==8.0.0>=0
-BUILD_DEPENDS+=	# TODO: packaging==19.2>=0
-BUILD_DEPENDS+=	# TODO: pluggy==0.13.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-alabaster==0.7.12>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-attrs==19.3.0>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-babel==2.7.0>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-certifi==2019.11.28>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-chardet==3.0.4>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage==4.5.4>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge==1.0.1>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-docopt==0.6.2>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils==0.15.2>=0:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-idna==2.8>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-imagesize==1.1.0>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-importlib-metadata==1.1.0;python_version<'3.8'>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-jinja2==2.10.3>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-lark-parser==0.7.8>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-markupsafe==1.1.1>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-more-itertools==8.0.0>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-packaging==19.2>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pluggy==0.13.1>=0
 BUILD_DEPENDS+=	${PYPKGPREFIX}-py==1.8.0>=0
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments==2.5.2>=0
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pyparsing==2.4.5>=0
