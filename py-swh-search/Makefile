@@ -12,7 +12,7 @@ COMMENT=	Software Heritage search service
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
+
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-elasticsearch>=7.0.0:../../databases/py-elasticsearch
 DEPENDS+=	# TODO: swh.core[http]>=0.3.0
