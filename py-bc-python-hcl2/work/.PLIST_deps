@@ -1,0 +1,13 @@
+@name py37-bc-python-hcl2-0.3.11
+@blddep py37-lark-parser-0.10.1
+@pkgdep py37-lark-parser>=0.7.8
+@blddep py37-setuptools-44.1.1
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.9nb2
+@pkgdep python37>=3.7.0
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
