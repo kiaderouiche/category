@@ -14,6 +14,6 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_s
 
 USE_LANGUAGES=	# none
 
-.include "../../math/py-numpy/buildlinkk3.mk"
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
