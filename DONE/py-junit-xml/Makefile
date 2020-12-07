@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	junit-xml-2-1.9
+EGG_INFODIR=	junit_xml_2-${PKGVERSION}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=j/junit-xml/}
