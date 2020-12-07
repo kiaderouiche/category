@@ -1,0 +1,12 @@
+{
+    "realm": "akhil-poc",
+    "auth-server-url": "https://keycloak-server.com/auth",
+    "ssl-required": "external",
+    "resource": "flask-app",
+    "verify-token-audience": true,
+    "credentials": {
+      "secret": "e2013b04-b8e1-417d-a416-f8e02b1c8554"
+    },
+    "confidential-port": 0,
+    "policy-enforcer": {}
+  }
