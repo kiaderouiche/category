@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	swh.storage-0.18.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-swh-storage-0.18.0
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/cf/8d/cbab620104dfb7e14e117c2e3e3254473f24120438d84833411e5f330652/
 
