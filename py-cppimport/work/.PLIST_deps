@@ -1,0 +1,12 @@
+@name py37-cppimport-20.8.4.2
+@blddep py37-mako-1.1.3nb1
+@pkgdep py37-mako>=0
+@blddep py37-setuptools-50.3.0
+@pkgdep py37-setuptools-[0-9]*
+@blddep digest-20190127
+@blddep py37-pybind11-2.5.0
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
