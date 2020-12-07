@@ -1,0 +1,16 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/bin/coverage-badge
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge-1.0.1-py3.7.egg-info/dependency_links.txt
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge-1.0.1-py3.7.egg-info/entry_points.txt
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge-1.0.1-py3.7.egg-info/PKG-INFO
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge-1.0.1-py3.7.egg-info/SOURCES.txt
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge-1.0.1-py3.7.egg-info/top_level.txt
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge-1.0.1-py3.7.egg-info/zip-safe
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/__init__.py
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/__main__.py
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/__pycache__/__init__.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/__pycache__/__init__.cpython-37.pyc
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/__pycache__/__main__.cpython-37.opt-1.pyc
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/__pycache__/__main__.cpython-37.pyc
+        /usr/pkgsrc/category/py-coverage-badge/work/.destdir/usr/pkg/lib/python3.7/site-packages/coverage_badge/templates/flat.svg
