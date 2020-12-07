@@ -1,0 +1,14 @@
+@name py37-munch-2.5.0
+@blddep py37-six-1.15.0
+@pkgdep py37-six>=1.15.0
+@blddep py37-setuptools-44.1.1
+@pkgdep py37-setuptools-[0-9]*
+@blddep python37-3.7.8
+@pkgdep python37>=3.7.0
+@blddep digest-20190127
+@blddep py37-pbr-5.4.5
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
