@@ -2,7 +2,7 @@
 
 DISTNAME=	panel-0.10.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	graphics
+CATEGORIES=	graphics python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/panel/}
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -12,6 +12,11 @@ LICENSE=	modified-bsd
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-bokeh>=2.2.2:../../wip/py-bokeh
+DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.8:../../wip/py-ct
+DEPENDS+=	${PYPKGPREFIX}-markdown>=3.1.1:../../textproc/py-markdown
+DEPENDS+=	${PYPKGPREFIX}-param>=5.1.1:../../wip/py-param
 DEPENDS+=	${PYPKGPREFIX}-tornado>=5.1.1:../../www/py-tornado
 
 .include "../../lang/python/egg.mk"

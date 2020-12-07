@@ -1,3 +1,0 @@
-[tox]
-DEBIAN = tox_DEBIAN
-
