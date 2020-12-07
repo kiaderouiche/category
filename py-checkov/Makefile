@@ -25,19 +25,19 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-lark-parser>=0.7.8:../../wip/py-lark-parser
 BUILD_DEPENDS+=	${PYPKGPREFIX}-markupsafe>=1.1.1:../../textproc/py-markupsafe
 BUILD_DEPENDS+=	${PYPKGPREFIX}-more-itertools>=8.0.0:../../devel/py-more-itertools
 BUILD_DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pluggy>=0.13.1
-BUILD_DEPENDS+=	${PYPKGPREFIX}-py>=1.8.0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pluggy>=0.13.1:../../devel/py-pluggy
+BUILD_DEPENDS+=	${PYPKGPREFIX}-py>=1.8.0:../../devel/py-py
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../devel/py-pygments
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pyparsing>=2.4.5:../../devel/py-pyparsing
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
-BUILD_DEPENDS+=	${PYPKGPREFIX}-snowballstemmer>=2.0.0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-snowballstemmer>=2.0.0:../../textproc/py-snowballstemmer
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=2.2.1:../../textproc/py-sphinx
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-applehelp>=1.0.1
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-devhelp>=1.0.1
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-htmlhelp>=1.0.2
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-jsmath>=1.0.1
-BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-qthelp>=1.0.2
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-applehelp>=1.0.1:../../textproc/py-sphinxcontrib-applehelp
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-devhelp>=1.0.1:../../textproc/py-sphinxcontrib-devhelp
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-htmlhelp>=1.0.2:../../textproc/py-sphinxcontrib-htmlhelp
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-jsmath>=1.0.1:../../textproc/py-sphinxcontrib-jsmath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-qthelp>=1.0.2:../../textproc/py-sphinxcontrib-qthelp
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-serializinghtml>=:../../textproc/py-sphinxcontrib-serializinghtml
 BUILD_DEPENDS+=	${PYPKGPREFIX}-wcwidth>=0.1.7:../../devel/py-wcwidth
 DEPENDS+=	${PYPKGPREFIX}-update-checker-[0-9]*:../../wip/py-update-checker
@@ -55,10 +55,10 @@ DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../devel/py-tabulate
 DEPENDS+=	${PYPKGPREFIX}-termcolor>=1.1.0:../../devel/py-termcolor
-DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.25.10
+DEPENDS+=	${PYPKGPREFIX}-gitpython>=3.1.7:../../devel/py-gitpython
+DEPENDS+=	${PYPKGPREFIX}-gitdb>=4.0.5:../../devel/py-gitdb
 DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
-DEPENDS+=	${PYPKGPREFIX}-GitPython>=3.1.7
-DEPENDS+=	${PYPKGPREFIX}-gitdb>=4.0.5
+DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.25.10:../../www/py-urllib3
 
 USE_LANGUAGES=	# none
 
