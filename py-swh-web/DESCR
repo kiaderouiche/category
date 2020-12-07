@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# swh-web
+
+This repository holds the development of Software Heritage web applications:
+
+* swh-web API (https://archive.softwareheritage.org/api): enables to query the content of the archive through HTTP requests and get responses in JSON or YAML.
+
+* swh-web browse (https://archive.softwareheritage.org/browse): graphical interface that eases the navigation in the archive.
+
+Documentation about how to use these components but also the details of their URI schemes
+can be found in the docs folder. The produced HTML documentation can be read and browsed
+at https://docs.softwareheritage.org/devel/swh-web/index.html.
+
+## Technical details
+
+Those applications are powered by:
+
+  * [Django Web Framework](https://www.djangoproject.com/) on the backend side with the following extensions enabled:
+
+    * [django-rest-framework](http://www.django-rest-framework.org/)
+    * [django-webpack-loader](https://github.com/owais/django-webpack-loader)
+...
