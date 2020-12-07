@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	swh.web-0.0.273
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-swh-web-0.0.273
 CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/79/5f/f077d4dd953f686ec0f0fa7183246d0d80c472c51ce7243bb66d0ef0ee4d/
 
@@ -10,12 +10,12 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DWUI/
 COMMENT=	Software Heritage Web UI
 #LICENSE=	# TODO: (see mk/license.mk)
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
-DEPENDS+=	py-beautifulsoup4>=0:../../www/py-beautifulsoup4
-DEPENDS+=	py-cryptography>=0:../../security/py-cryptography
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools-scm>=0
+DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=0:../../www/py-beautifulsoup4
+DEPENDS+=	${PYPKGPREFIX}-cryptography>=0:../../security/py-cryptography
 DEPENDS+=	# TODO: django<3>=0
-DEPENDS+=	py-django-cors-headers>=0:../../www/py-django-cors-headers
-DEPENDS+=	# TODO: django-js-reverse>=0
+DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=0:../../www/py-django-cors-headers
+DEPENDS+=	${PYPKGPREFIX}-django-js-reverse>=0
 DEPENDS+=	py-djangorestframework>=0:../../www/py-djangorestframework
 DEPENDS+=	# TODO: django-webpack-loader>=0
 DEPENDS+=	py-docutils>=0:../../textproc/py-docutils
