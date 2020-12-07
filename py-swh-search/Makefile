@@ -15,11 +15,11 @@ PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-elasticsearch>=7.0.0:../../databases/py-elasticsearch
-DEPENDS+=	# TODO: swh.core[http]>=0.3.0
-DEPENDS+=	# TODO: swh.journal>=0.1.0
-DEPENDS+=	# TODO: swh.model>=0
-TEST_DEPENDS+=	${PYPKGPREFIX}-test>=0
-TEST_DEPENDS+=	${PYPKGPREFIX}-test-mock>=0
+DEPENDS+=	# TODO: swh.core[http]>=0.3.0:../../
+DEPENDS+=	# TODO: swh.journal>=0.1.0:../../
+DEPENDS+=	# TODO: swh.model>=0:../../
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-mock>=0:../../
 
 USE_LANGUAGES=	# none
 
