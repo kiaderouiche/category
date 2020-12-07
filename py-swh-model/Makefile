@@ -8,17 +8,17 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.model/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DMOD/
 COMMENT=	Software Heritage data model
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs
+DEPENDS+=	${PYPKGPREFIX}-Deprecated>=1.2.7:../../devel/py-Deprecated
+DEPENDS+=	${PYPKGPREFIX}-hypothesis>=5.41.5:../../devel/py-hypothesis
+DEPENDS+=	${PYPKGPREFIX}-typing_extensions>=3.7.4.3:../../devel/py-typing_extensions
+DEPENDS+=	${PYPKGPREFIX}-blake2>=1.1.2:../../wip/py-blake2
+DEPENDS+=	${PYPKGPREFIX}-iso8601>=0.1.13:../../time/py-iso8601
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=2.8.1:../../time/py-dateutil
 DEPENDS+=	${PYPKGPREFIX}-attrs_strict>=0.2.0:../../wip/py-attrs-strict
-DEPENDS+=	${PYPKGPREFIX}-deprecated>=0:../../devel/py-Deprecated
-DEPENDS+=	${PYPKGPREFIX}-hypothesis>=0:../../devel/py-hypothesis
-DEPENDS+=	${PYPKGPREFIX}-iso8601>=0:../../time/py-iso8601
-DEPENDS+=	${PYPKGPREFIX}-dateutil>=0:../../time/py-dateutil
-DEPENDS+=	${PYPKGPREFIX}-typing_extensions>=0:../../
-DEPENDS+=	${PYPKGPREFIX}-pyblake2;python_version<"3.6">=0
 
 USE_LANGUAGES=	# none
 
