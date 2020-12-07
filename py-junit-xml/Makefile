@@ -7,10 +7,10 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=j/junit-xml/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/returntocorp/python-junit-xml
-COMMENT=	Fork of https://github.com/kyrus/python-junit-xml that has tarball published to pypi
+COMMENT=	Creating JUnit XML test result documents
 LICENSE=	mit
 
-DEPENDS+=	py-six>=0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 
 USE_LANGUAGES=	# none
 
