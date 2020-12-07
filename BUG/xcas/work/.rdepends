@@ -1,0 +1,4 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	bison>=1.0	bison-3.4.2
+tool	checkperms>=1.1	checkperms-1.12
+build	cwrappers>=20150314	cwrappers-20180325

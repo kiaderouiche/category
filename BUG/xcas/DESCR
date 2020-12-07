@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+General Information
+===================
+See giac homepage:
+http://www-fourier.ujf-grenoble.fr/~parisse/giac.html (English)
+http://www-fourier.ujf-grenoble.fr/~parisse/giac_fr.html (French)
+
+LICENSES
+========
+* The giac library and the Xcas program are released under the GPL license,
+version 3 or above, as published by the Free Software Foundation, 
+see <http://www.gnu.org/licenses/> or the COPYING file.
+The copyright holders are
+(c) B. Parisse, Institut Fourier, 2002-2014
+    R. De Graeve, 2002-2014
+except for:
+a/ The first GNUification of the giac package (automake,autoconf) is
+(c) Richard Kreckel, Universitat Mainz, 10/2000 and the complete
+rewrite 10/2008 of the auto-tool files 
+(c) A. Sheplyakov 
+b/ The very first version of the expression parser was a modification from 
+...
