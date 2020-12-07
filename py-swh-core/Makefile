@@ -1,20 +1,20 @@
 # $NetBSD$
 
 DISTNAME=	swh.core-0.10.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/bc/48/875d9c86fc19ad1349b70a775683df21cd39e01846c6da7de4443a1f7a7d/
+PKGNAME=	${PYPKGPREFIX}-swh-core-0.10.0
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.model/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DCORE/
 COMMENT=	Software Heritage core utilities
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
-DEPENDS+=	# TODO: Click>=0
-DEPENDS+=	py-Deprecated>=0:../../devel/py-Deprecated
-DEPENDS+=	# TODO: PyYAML>=0
-DEPENDS+=	py-sentry-sdk>=0:../../wip/py-sentry-sdk
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-Deprecated>=1.2.7:../../devel/py-Deprecated
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
+#DEPENDS+=	${PYPKGPREFIX}-sentry-sdk>=0.19.4:../../wip/py-sentry-sdk
 
 USE_LANGUAGES=	# none
 

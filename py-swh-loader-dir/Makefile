@@ -1,23 +1,22 @@
 # $NetBSD$
 
 DISTNAME=	swh.loader.dir-0.0.35
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/b3/f3/bcaa6af8ecd803e9e58cd7e0022ad280c0fa0dc7115b364321fc7448f974/
+PKGNAME=	${PYPKGPREFIX}-swh-loader-dir-0.0.35
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.model/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDDIR
 COMMENT=	Software Heritage Directory Loader
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	py-vcversioner>=0:../../devel/py-vcversioner
-DEPENDS+=	py-vcversioner>=0:../../devel/py-vcversioner
-DEPENDS+=	py-retrying>=0:../../wip/py-retrying
-DEPENDS+=	py-click>=0:../../devel/py-click
-DEPENDS+=	# TODO: swh.model>=0.0.27
-DEPENDS+=	# TODO: swh.scheduler>=0.0.39
-DEPENDS+=	# TODO: swh.storage>=0.0.83
-DEPENDS+=	# TODO: swh.loader.core>=0.0.35
+DEPENDS+=	${PYPKGPREFIX}-vcversioner>=0:../../devel/py-vcversioner
+DEPENDS+=	${PYPKGPREFIX}-retrying>=0:../../wip/py-retrying
+DEPENDS+=	${PYPKGPREFIX}-click>=0:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.0.27:../../wip/py-swh-model
+DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.0.39:../../wip/py-swh-scheduler
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.0.83:../../wip/py-swh-storage
+DEPENDS+=	${PYPKGPREFIX}-swh-loader-core>=0.0.35:../../wip/py-swh-loader-core
 
 USE_LANGUAGES=	# none
 
