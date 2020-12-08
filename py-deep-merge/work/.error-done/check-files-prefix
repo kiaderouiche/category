@@ -1,0 +1,21 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge-0.0.4-py3.8.egg-info/dependency_links.txt
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge-0.0.4-py3.8.egg-info/PKG-INFO
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge-0.0.4-py3.8.egg-info/SOURCES.txt
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge-0.0.4-py3.8.egg-info/top_level.txt
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/about.py
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__init__.py
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/merge.py
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__pycache__/about.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__pycache__/about.cpython-38.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__pycache__/__init__.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__pycache__/__init__.cpython-38.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__pycache__/merge.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/__pycache__/merge.cpython-38.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/tests/__init__.py
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/tests/__pycache__/__init__.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/tests/__pycache__/__init__.cpython-38.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/tests/__pycache__/test_merge.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/tests/__pycache__/test_merge.cpython-38.pyc
+        /usr/pkgsrc/category/py-deep-merge/work/.destdir/usr/pkg/lib/python3.8/site-packages/deep_merge/tests/test_merge.py
