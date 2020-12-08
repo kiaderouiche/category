@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.journal/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DJNL/
 COMMENT=	Software Heritage Journal utilities
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-msgpack>=0:../../devel/py-msgpack
