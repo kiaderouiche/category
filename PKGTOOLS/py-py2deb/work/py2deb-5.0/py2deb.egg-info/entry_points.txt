@@ -1,3 +1,0 @@
-[console_scripts]
-py2deb = py2deb.cli:main
-

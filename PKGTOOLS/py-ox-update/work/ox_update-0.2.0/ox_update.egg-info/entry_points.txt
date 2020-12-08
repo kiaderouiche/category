@@ -1,3 +1,0 @@
-[console_scripts]
-ox_update = ox_update.ui.cmd_line:main
-

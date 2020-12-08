@@ -1,4 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	bison>=1.0	../../devel/bison
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers

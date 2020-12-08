@@ -1,6 +1,0 @@
-click
-flask
-psycopg2
-python-dateutil
-fastimport
-typing-extensions
