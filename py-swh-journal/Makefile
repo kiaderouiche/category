@@ -8,13 +8,13 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.journal/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DJNL/
 COMMENT=	Software Heritage Journal utilities
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=	py-msgpack>=0:../../devel/py-msgpack
-DEPENDS+=	# TODO: tenacity>=0
-DEPENDS+=	# TODO: swh.core[db,http]>=0.0.60
-DEPENDS+=	# TODO: swh.model>=0.7.2
+DEPENDS+=	${PYPKGPREFIX}-msgpack>=1.0.0:../../devel/py-msgpack
+DEPENDS+=	${PYPKGPREFIX}-tenacity>=6.2.0:../../wip/py-tenacity
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 
 USE_LANGUAGES=	# none
 
