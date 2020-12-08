@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-swh-core/work/.prefix.pre	2020-12-08 11:26:30.510560685 +0100
-+++ /usr/pkgsrc/category/py-swh-core/work/.prefix.post	2020-12-08 11:26:33.786651182 +0100
+--- /usr/pkgsrc/category/py-swh-core/work/.prefix.pre	2020-12-08 11:48:25.025715352 +0100
++++ /usr/pkgsrc/category/py-swh-core/work/.prefix.post	2020-12-08 11:48:29.289827204 +0100
 @@ -0,0 +1,190 @@
 +/usr/pkgsrc/category/py-swh-core/work/.destdir/usr/pkg/bin/swh
 +/usr/pkgsrc/category/py-swh-core/work/.destdir/usr/pkg/bin/swh-db-init

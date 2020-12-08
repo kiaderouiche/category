@@ -5,6 +5,8 @@
 @pkgdep py38-Deprecated>=1.2.7
 @blddep py38-yaml-5.3.1
 @pkgdep py38-yaml>=5.3.1
+@blddep py38-sentry-sdk-0.19.4
+@pkgdep py38-sentry-sdk>=0.19.4
 @blddep py38-setuptools-50.3.2
 @pkgdep py38-setuptools-[0-9]*
 @blddep python38-3.8.6nb1

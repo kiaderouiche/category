@@ -60,5 +60,6 @@ do-install:
 
 
 .include "../../lang/python/application.mk"
+.include "../../mk/java-env.mk"
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
