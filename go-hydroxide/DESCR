@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# hydroxide
+
+A third-party, open-source ProtonMail bridge. For power users only, designed to
+run on a server.
+
+hydroxide supports CardDAV, IMAP and SMTP.
+
+Rationale:
+
+* No GUI, only a CLI (so it runs in headless environments)
+* Standard-compliant (we don't care about Microsoft Outlook)
+* Fully open-source
+
+Feel free to join the IRC channel: ##emersion on irc.freenode.net.
+
+## How does it work?
+
+hydroxide is a server that translates standard protocols (SMTP, IMAP, CardDAV)
+into ProtonMail API requests. It allows you to use your preferred e-mail clients
+and `git-send-email` with ProtonMail.
+...

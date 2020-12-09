@@ -3,4 +3,4 @@ that can be read by tools such as Jenkins. If you are ever
 working with test tool or test suite written in Python and
 want to take advantage of Jenkins' pretty graphs and test
 reporting capabilities, this module will let you generate
-the XML test reports. 
+the XML test reports.
