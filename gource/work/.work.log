@@ -1,0 +1,212 @@
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir conf26879.dir
+<.> /bin/mkdir -p conf26879.dir
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir -p .
+<.> /bin/mkdir -p -p .
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir --version
+<.> /bin/mkdir -p --version
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir .tst
+<.> /bin/mkdir -p .tst
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/true
+<.> true 
+[*] c++ --version
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 --version -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -v
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -v -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -V
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -V -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -qversion
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -qversion -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -c -O2 -D_FORTIFY_SOURCE=2 conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -c -O2 -D_FORTIFY_SOURCE=2 conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -c -g conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -c -g conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/echo this is the am__doit target
+<.> echo  this is the am__doit target
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir conftest.dir
+<.> /bin/mkdir -p conftest.dir
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir sub
+<.> /bin/mkdir -p sub
+[*] c++ -MT sub/conftest.o -MD -MP -MF sub/conftest.TPo -c -o sub/conftest.o sub/conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -MT sub/conftest.o -MD -MP -MF sub/conftest.TPo -c -o sub/conftest.o sub/conftest.c -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -E conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -E conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -E conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -E conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -E conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -E conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -E conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -E conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir conftest.dir
+<.> /bin/mkdir -p conftest.dir
+[*] c++ -E conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -E conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.cpp -lX11
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.cpp -lX11 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc --version
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 --version -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -v
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -v -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -V
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -V -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -qversion
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -qversion -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -g conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -g conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c conftest.c -o conftest2.o
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c conftest.c -o conftest2.o -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c conftest.c -o conftest2.o
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c conftest.c -o conftest2.o -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir conftest.dir
+<.> /bin/mkdir -p conftest.dir
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/mkdir sub
+<.> /bin/mkdir -p sub
+[*] cc -MT sub/conftest.o -MD -MP -MF sub/conftest.TPo -c -o sub/conftest.o sub/conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -MT sub/conftest.o -MD -MP -MF sub/conftest.TPo -c -o sub/conftest.o sub/conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.c -lpthreads
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.c -lpthreads -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Kthread -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Kthread -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -kthread -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -kthread -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.c -llthread
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.c -llthread -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.c
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib conftest.c -lopengl32
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib conftest.c -lopengl32 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib -L/usr/lib64/nvidia conftest.c -lopengl32
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib -L/usr/lib64/nvidia conftest.c -lopengl32 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib -dylib_file /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib:/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib conftest.c -lopengl32
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib -dylib_file /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib:/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib conftest.c -lopengl32 -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib conftest.c -lGL
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib conftest.c -lGL -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib conftest.c -lGL
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib conftest.c -lGL -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -c -O2 -D_FORTIFY_SOURCE=2 -pthread conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib -lGL conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib -lGL conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib -lGL conftest.cpp -lglu32
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib -lGL conftest.cpp -lglu32 -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-R/usr/pkg/lib -lGL conftest.cpp -lGLU
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -pthread -Wl,-rpath,/usr/pkg/lib -lGL conftest.cpp -lGLU -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] c++ -c -pthread -O2 -D_FORTIFY_SOURCE=2 conftest.cpp
+<.> /usr/pkgsrc/category/gource/work/.gcc/bin/g++ -m64 -c -pthread -O2 -D_FORTIFY_SOURCE=2 conftest.cpp -fstack-protector -I/usr/pkgsrc/category/gource/work/.buildlink/include
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/pkg-config --atleast-pkgconfig-version 0.9.0
+<.> set args --atleast-pkgconfig-version 0.9.0; shift; PKG_CONFIG_LIBDIR=/usr/pkgsrc/category/gource/work/.buildlink/lib64/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/share/pkgconfig /usr/pkg/bin/pkg-config  "$@"
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/pkg-config --exists --print-errors 'freetype2 >= 9.0.3'
+<.> set args --exists --print-errors 'freetype2 >= 9.0.3'; shift; PKG_CONFIG_LIBDIR=/usr/pkgsrc/category/gource/work/.buildlink/lib64/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/share/pkgconfig /usr/pkg/bin/pkg-config  "$@"
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/pkg-config --exists --print-errors 'freetype2 >= 9.0.3'
+<.> set args --exists --print-errors 'freetype2 >= 9.0.3'; shift; PKG_CONFIG_LIBDIR=/usr/pkgsrc/category/gource/work/.buildlink/lib64/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/share/pkgconfig /usr/pkg/bin/pkg-config  "$@"
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/pkg-config --atleast-pkgconfig-version 0.20
+<.> set args --atleast-pkgconfig-version 0.20; shift; PKG_CONFIG_LIBDIR=/usr/pkgsrc/category/gource/work/.buildlink/lib64/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/share/pkgconfig /usr/pkg/bin/pkg-config  "$@"
+[*] /usr/pkgsrc/category/gource/work/.tools/bin/pkg-config --short-errors --errors-to-stdout --print-errors 'freetype2 >= 9.0.3'
+<.> set args --short-errors --errors-to-stdout --print-errors 'freetype2 >= 9.0.3'; shift; PKG_CONFIG_LIBDIR=/usr/pkgsrc/category/gource/work/.buildlink/lib64/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/category/gource/work/.buildlink/share/pkgconfig /usr/pkg/bin/pkg-config  "$@"
