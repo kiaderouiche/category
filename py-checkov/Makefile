@@ -27,7 +27,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-more-itertools>=8.0.0:../../devel/py-more-itertoo
 BUILD_DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pluggy>=0.13.1:../../devel/py-pluggy
 BUILD_DEPENDS+=	${PYPKGPREFIX}-py>=1.8.0:../../devel/py-py
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../devel/py-pygments
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pyparsing>=2.4.5:../../devel/py-pyparsing
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
@@ -41,9 +41,9 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-qthelp>=1.0.2:../../textproc/py-sph
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-serializinghtml>=:../../textproc/py-sphinxcontrib-serializinghtml
 BUILD_DEPENDS+=	${PYPKGPREFIX}-wcwidth>=0.1.7:../../devel/py-wcwidth
 DEPENDS+=	${PYPKGPREFIX}-update-checker-[0-9]*:../../wip/py-update-checker
-DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../devel/py-tqdm
+DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../misc/py-tqdm
 DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
-DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../devel/py-chardet
+DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
 DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2:../../devel/py-docopt
 DEPENDS+=	${PYPKGPREFIX}-idna>=2.8:../../www/py-idna
