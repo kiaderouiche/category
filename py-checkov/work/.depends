@@ -48,6 +48,7 @@ full	py38-gitpython>=3.1.7	../../devel/py-gitpython
 full	py38-gitdb>=4.0.5	../../devel/py-gitdb
 full	py38-dpath>=1.5.0	../../wip/py-dpath
 full	py38-deep-merge>=0.0.4	../../wip/py-deep-merge
+full	py38-junit-xml>=2-1.9	../../wip/py-junit-xml
 full	py38-urllib3>=1.25.10	../../www/py-urllib3
 full	py38-setuptools-[0-9]*	../../devel/py-setuptools
 full	python38>=3.8	../../lang/python38
