@@ -17,7 +17,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-babel>=2.7.0:../../devel/py-babel
 BUILD_DEPENDS+=	${PYPKGPREFIX}-certifi-[0-9]*:../../security/py-certifi
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.5.4:../../devel/py-coverage
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
-BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils==0.15.2>=:../../textproc/py-jmespath
+BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils>=0.15.2:../../textproc/py-docutils
 BUILD_DEPENDS+=	${PYPKGPREFIX}-imagesize>=1.1.0:../../graphics/py-imagesize
 BUILD_DEPENDS+=	${PYPKGPREFIX}-importlib-metadata>=2.0.0:../../devel/py-importlib-metadata
 BUILD_DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.10.3:../../textproc/py-jinja2
