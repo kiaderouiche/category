@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
+PYTHON_VERSIONS_ACCEPTED=	39 38 37
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-zipp>=0.6.0:../../archivers/py-zipp
 BUILD_DEPENDS+=	${PYPKGPREFIX}-alabaster-[0-9]*:../../textproc/py-alabaster
 BUILD_DEPENDS+=	${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs

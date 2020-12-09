@@ -36,6 +36,5 @@ DEPENDS+=	${PYPKGPREFIX}-hyperframe>=6.0.0:../../www/py-hyperframe
 DEPENDS+=	${PYPKGPREFIX}-hyperlink-[0-9]*:../../www/py-hyperlink
 
 
-
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
