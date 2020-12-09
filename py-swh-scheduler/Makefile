@@ -11,9 +11,8 @@ COMMENT=	Software Heritage Scheduler
 LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=	${PYPKGPREFIX}-attrs>=0:../../devel/py-attrs
-DEPENDS+=	# TODO: attrs-strict>=0
-DEPENDS+=	${PYPKGPREFIX}-celery>=4.3,!=5.0.3:../../net/py-celery
+DEPENDS+=	${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs
+DEPENDS+=	${PYPKGPREFIX}-celery>=4.3:../../net/py-celery
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-elasticsearch>5.4:../../databases/py-elasticsearch
 DEPENDS+=	${PYPKGPREFIX}-flask>=0:../../www/py-flask
@@ -22,8 +21,9 @@ DEPENDS+=	${PYPKGPREFIX}-pika>=1.1.0:../../net/py-pika
 DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
-DEPENDS+=	# TODO: swh.core[db,http]>=0.5
-DEPENDS+=	# TODO: swh.storage>=0.11.1
+DEPENDS+=	${PYPKGPREFIX}-attrs-strict>=0.2.0:../../wip/py-attrs-strict
+DEPENDS+=	${PYPKGPREFIX}-swh-core[db,http]>=0.5:../../devel/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.11.1:../../devel/py-swh-storage
 
 USE_LANGUAGES=	# none
 

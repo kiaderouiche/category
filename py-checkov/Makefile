@@ -63,5 +63,8 @@ DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.25.10:../../www/py-urllib3
 
 USE_LANGUAGES=	# none
 
+post-extract:
+	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -4,3 +4,4 @@ SHA1 (checkov-1.0.665.tar.gz) = 5e34a4f78b96161300c346ae35b815fdb36aa906
 RMD160 (checkov-1.0.665.tar.gz) = 1595efb77efd46f42eac87c39c9ffec71b97544b
 SHA512 (checkov-1.0.665.tar.gz) = 6f57049d91eca7a6609269b02efd1dcbaf3d2d93187a40be92600d8cba872a9c0dce626fef1829dc7ef26ec1d2432d7a047276cbe433db8ac41c34d601f392aa
 Size (checkov-1.0.665.tar.gz) = 153058 bytes
+SHA1 (patch-setup.py) = 9bbc504993d950a10596bc8cb3a2f81c52219fea
