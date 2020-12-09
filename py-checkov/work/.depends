@@ -38,7 +38,6 @@ full	py38-colorama>=0.4.3	../../comms/py-colorama
 full	py38-docopt>=0.6.2	../../devel/py-docopt
 full	py38-idna>=2.8	../../www/py-idna
 full	py38-jmespath>=0.10.0	../../textproc/py-jmespath
-full	py38-lark-parser>=0.7.8	../../wip/py-lark-parser
 full	py38-bc-python-hcl2>=0.3.1	../../wip/py-bc-python-hcl2
 full	py38-yaml>=5.1	../../textproc/py-yaml
 full	py38-requests>=1.2.0	../../devel/py-requests

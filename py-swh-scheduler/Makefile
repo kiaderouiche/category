@@ -1,16 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	swh.scheduler-0.8.2
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/1f/62/7af2a5869646b276b75164304677934495b8b440a12b9adcca407138066c/
+PKGNAME=	${PYPKGPREFIX}-swh-scheduler-0.8.2
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.scheduler/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DSCH/
 COMMENT=	Software Heritage Scheduler
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	py-attrs>=0:../../devel/py-attrs
 DEPENDS+=	# TODO: attrs-strict>=0
 DEPENDS+=	py-celery>=4.3,!=5.0.3:../../net/py-celery
