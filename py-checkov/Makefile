@@ -2,10 +2,10 @@
 
 DISTNAME=	checkov-1.0.665
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel python
-MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov/}
+CATEGORIES=	category python
+MASTER_SITES=	https://files.pythonhosted.org/packages/55/d3/17704ef36c80e1d6c9a7ed6486d883d6e6b8e957aa544f0b203e5e0cb441/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
