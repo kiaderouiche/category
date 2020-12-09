@@ -7,11 +7,10 @@ build	py38-babel>=2.7.0	../../devel/py-babel
 build	py38-certifi-[0-9]*	../../security/py-certifi
 build	py38-coverage>=4.5.4	../../devel/py-coverage
 build	py38-coverage-badge>=1.0.1	../../wip/py-coverage-badge
-build	py38-docutils==0.15.2>=	../../textproc/py-jmespath
+build	py38-docutils>=0.15.2	../../textproc/py-docutils
 build	py38-imagesize>=1.1.0	../../graphics/py-imagesize
 build	py38-importlib-metadata>=2.0.0	../../devel/py-importlib-metadata
 build	py38-jinja2>=2.10.3	../../textproc/py-jinja2
-build	py38-lark-parser>=0.7.8	../../wip/py-lark-parser
 build	py38-markupsafe>=1.1.1	../../textproc/py-markupsafe
 build	py38-more-itertools>=8.0.0	../../devel/py-more-itertools
 build	py38-packaging>=19.2	../../devel/py-packaging
