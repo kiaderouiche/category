@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	checkov-1.0.626
+DISTNAME=	checkov-1.0.665
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov/}
