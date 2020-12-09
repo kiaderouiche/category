@@ -61,6 +61,7 @@ DEPENDS+=	${PYPKGPREFIX}-gitpython>=3.1.7:../../devel/py-gitpython
 DEPENDS+=	${PYPKGPREFIX}-gitdb>=4.0.5:../../devel/py-gitdb
 DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
 DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
+DEPENDS+=	${PYPKGPREFIX}-junit-xml>=2-1.9:../../wip/py-junit-xml
 DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.25.10:../../www/py-urllib3
 
 USE_LANGUAGES=	# none
