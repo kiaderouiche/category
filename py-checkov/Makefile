@@ -49,7 +49,7 @@ DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2:../../devel/py-docopt
 DEPENDS+=	${PYPKGPREFIX}-idna>=2.8:../../www/py-idna
 DEPENDS+=	${PYPKGPREFIX}-jmespath>=0.10.0:../../textproc/py-jmespath
 #DEPENDS+=	${PYPKGPREFIX}-lark-parser>=0.7.8:../../wip/py-lark-parser
-DEPENDS+=	${PYPKGPREFIX}-bc-python-hcl2>=0.3.1:../../wip/py-bc-python-hcl2
+#DEPENDS+=	${PYPKGPREFIX}-bc-python-hcl2>=0.3.1:../../wip/py-bc-python-hcl2
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-requests>=1.2.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
