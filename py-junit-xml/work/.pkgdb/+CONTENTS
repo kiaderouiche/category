@@ -9,6 +9,19 @@
 @blddep digest-20190127
 @blddep cwrappers-20180325
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/PKG-INFO
+@comment MD5:98847633cca4c48dae007b2235258eae
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/SOURCES.txt
+@comment MD5:dbe858f1b37a71c7959aa76c339dddc4
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/requires.txt
+@comment MD5:5d2dfbea120f23e84e689374aa2ba84f
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/top_level.txt
+@comment MD5:31365dfba331fdc89c5fc2cb9503059e
+lib/python3.8/site-packages/junit_xml/__init__.py
+@comment MD5:facabcdc99d75e511ce82096f7e985ba
+lib/python3.8/site-packages/junit_xml/__pycache__/__init__.cpython-38.pyc
+@comment MD5:2ad04baf7573b775d78da1e164f6d282
+lib/python3.8/site-packages/junit_xml/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:535c6a1d27bff30cb6536fcdbfb29aa8

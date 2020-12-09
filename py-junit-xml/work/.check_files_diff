@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-junit-xml/work/.prefix.pre	2020-12-09 16:32:24.715962210 +0100
-+++ /usr/pkgsrc/category/py-junit-xml/work/.prefix.post	2020-12-09 16:32:39.368349274 +0100
+--- /usr/pkgsrc/category/py-junit-xml/work/.prefix.pre	2020-12-09 16:35:08.348284797 +0100
++++ /usr/pkgsrc/category/py-junit-xml/work/.prefix.post	2020-12-09 16:35:13.572422800 +0100
 @@ -0,0 +1,8 @@
 +/usr/pkgsrc/category/py-junit-xml/work/.destdir/usr/pkg/lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/dependency_links.txt
 +/usr/pkgsrc/category/py-junit-xml/work/.destdir/usr/pkg/lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/PKG-INFO

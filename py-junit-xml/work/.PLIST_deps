@@ -8,6 +8,11 @@
 @blddep digest-20190127
 @blddep cwrappers-20180325
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/PKG-INFO
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/SOURCES.txt
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/dependency_links.txt
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/requires.txt
+lib/python3.8/site-packages/junit_xml-1.9-py3.8.egg-info/top_level.txt
+lib/python3.8/site-packages/junit_xml/__init__.py
+lib/python3.8/site-packages/junit_xml/__pycache__/__init__.cpython-38.pyc
+lib/python3.8/site-packages/junit_xml/__pycache__/__init__.cpython-38.opt-1.pyc

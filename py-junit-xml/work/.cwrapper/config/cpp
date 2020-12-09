@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-junit-xml/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-junit-xml/work/python-junit-xml-1.9
-path=/usr/pkgsrc/category/py-junit-xml/work/.buildlink/bin:/usr/pkgsrc/category/py-junit-xml/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.gvm/bin:/home/jihbed/.gvm/bin:/home/jihbed/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+path=/usr/pkgsrc/category/py-junit-xml/work/.buildlink/bin:/usr/pkgsrc/category/py-junit-xml/work/.tools/bin:/usr/pkg/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 exec_path=/usr/pkgsrc/category/py-junit-xml/work/.cwrapper/bin/cpp
 exec=/usr/pkgsrc/category/py-junit-xml/work/.gcc/bin/cpp
 transform=L:/lib64/:
