@@ -1,7 +1,0 @@
-************************************************************
-The following files are in the PLIST but not in /usr/pkgsrc/category/py-checkov/work/.destdir/usr/pkg:
-        /usr/pkgsrc/category/py-checkov/work/.destdir/usr/pkg/bin/checkov
-        /usr/pkgsrc/category/py-checkov/work/.destdir/usr/pkg/bin/checkov.cmd
-************************************************************
-The following files are in /usr/pkgsrc/category/py-checkov/work/.destdir/usr/pkg but not in the PLIST:
-        /usr/pkgsrc/category/py-checkov/work/.destdir/usr/pkg/bin/checkov3.8
