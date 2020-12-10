@@ -24,6 +24,7 @@ transform=L:/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu
 transform=L:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu
 transform=R:/usr/pkgsrc/category/gource/work/.buildlink:/usr/pkg
 transform=R:/usr/pkg/lib:/usr/pkg/lib
+transform=R:/usr/pkg/lib:/usr/pkg/lib
 transform=P:/usr/pkg:/usr/pkgsrc/category/gource/work/.buildlink
 transform=I:/usr/pkg:/usr/pkgsrc/category/gource/work/.buildlink
 transform=L:/usr/pkg:/usr/pkgsrc/category/gource/work/.buildlink

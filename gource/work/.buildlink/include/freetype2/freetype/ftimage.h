@@ -1,0 +1,1 @@
+/usr/pkg/include/freetype2/freetype/ftimage.h
