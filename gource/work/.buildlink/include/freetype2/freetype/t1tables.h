@@ -1,1 +1,0 @@
-/usr/pkg/include/freetype2/freetype/t1tables.h
