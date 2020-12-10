@@ -32,6 +32,7 @@ DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson
 DEPENDS+=	${PYPKGPREFIX}-trie3>=0.2:../../wip/py-trie3
 DEPENDS+=	${PYPKGPREFIX}-hamcrest>=2.0.2:../../wip/py-hamcrest
 DEPENDS+=	${PYPKGPREFIX}-zlmdb>=20.8.1:../../wip/py-zlmdb
+DEPENDS+=	${PYPKGPREFIX}-autobahn>=20.1.2:../../www/py-autobahn
 DEPENDS+=	${PYPKGPREFIX}-hyperframe>=6.0.0:../../www/py-hyperframe
 DEPENDS+=	${PYPKGPREFIX}-hyperlink-[0-9]*:../../www/py-hyperlink
 
