@@ -16,6 +16,7 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
+.include "../../graphics/freetype2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.freetype2+=       freetype2>=2.8.
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
