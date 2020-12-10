@@ -1,4 +1,5 @@
 bootstrap	digest>=20010302	../../pkgtools/digest
+tool	nbpatch-[0-9]*	../../devel/nbpatch
 tool	checkperms>=1.1	../../sysutils/checkperms
 build	cwrappers>=20150314	../../pkgtools/cwrappers
 full	py38-lmdb>=0.94	../../databases/py-lmdb

@@ -4,3 +4,4 @@ SHA1 (crossbar-20.8.1.tar.gz) = 8783664cd59b48926f9522cce56a84c3f86d5286
 RMD160 (crossbar-20.8.1.tar.gz) = c52ae7e750d1ea397c6133d6973d39360d7d7511
 SHA512 (crossbar-20.8.1.tar.gz) = d936f565668ea5dd5df912d2c95185e7f421ccc18c83ff5fb4db0d23cbca3d421beb4d4cb030ea3dec64aa50c23b3e8371416f770d3882a68514d8d6a9660e0d
 Size (crossbar-20.8.1.tar.gz) = 382515 bytes
+SHA1 (patch-setup.py) = caa4a165f4a5a4efab685b1b26bd27059af55a31
