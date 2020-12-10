@@ -6,7 +6,6 @@ build	py38-alabaster-[0-9]*	../../textproc/py-alabaster
 build	py38-attrs>=19.3.0	../../devel/py-attrs
 build	py38-babel>=2.7.0	../../devel/py-babel
 build	py38-certifi-[0-9]*	../../security/py-certifi
-build	py38-coverage>=4.5.4	../../devel/py-coverage
 build	py38-coverage-badge>=1.0.1	../../wip/py-coverage-badge
 build	py38-docutils>=0.15.2	../../textproc/py-docutils
 build	py38-imagesize>=1.1.0	../../graphics/py-imagesize
@@ -20,7 +19,6 @@ build	py38-py>=1.8.0	../../devel/py-py
 build	py38-pygments>=2.5.2	../../textproc/py-pygments
 build	py38-pyparsing>=2.4.5	../../devel/py-pyparsing
 build	py38-test>=5.3.1	../../devel/py-test
-build	py38-pytz-[0-9]*	../../time/py-pytz
 build	py38-snowballstemmer>=2.0.0	../../textproc/py-snowballstemmer
 build	py38-sphinx>=2.2.1	../../textproc/py-sphinx
 build	py38-sphinxcontrib-applehelp>=1.0.1	../../textproc/py-sphinxcontrib-applehelp
@@ -50,4 +48,4 @@ full	py38-dpath>=1.5.0	../../wip/py-dpath
 full	py38-deep-merge>=0.0.4	../../wip/py-deep-merge
 full	py38-urllib3>=1.25.10	../../www/py-urllib3
 full	py38-setuptools-[0-9]*	../../devel/py-setuptools
-full	python38>=3.8	../../lang/python38
+full	python38>=3.8.0	../../lang/python38

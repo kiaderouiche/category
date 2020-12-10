@@ -17,7 +17,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-alabaster-[0-9]*:../../textproc/py-alabaster
 BUILD_DEPENDS+=	${PYPKGPREFIX}-attrs>=19.3.0:../../devel/py-attrs
 BUILD_DEPENDS+=	${PYPKGPREFIX}-babel>=2.7.0:../../devel/py-babel
 BUILD_DEPENDS+=	${PYPKGPREFIX}-certifi-[0-9]*:../../security/py-certifi
-BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.5.4:../../devel/py-coverage
+#BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.5.4:../../devel/py-coverage
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils>=0.15.2:../../textproc/py-docutils
 BUILD_DEPENDS+=	${PYPKGPREFIX}-imagesize>=1.1.0:../../graphics/py-imagesize
@@ -32,7 +32,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-py>=1.8.0:../../devel/py-py
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 BUILD_DEPENDS+=	${PYPKGPREFIX}-pyparsing>=2.4.5:../../devel/py-pyparsing
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
+#BUILD_DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 BUILD_DEPENDS+=	${PYPKGPREFIX}-snowballstemmer>=2.0.0:../../textproc/py-snowballstemmer
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=2.2.1:../../textproc/py-sphinx
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinxcontrib-applehelp>=1.0.1:../../textproc/py-sphinxcontrib-applehelp
@@ -61,7 +61,7 @@ DEPENDS+=	${PYPKGPREFIX}-gitpython>=3.1.7:../../devel/py-gitpython
 DEPENDS+=	${PYPKGPREFIX}-gitdb>=4.0.5:../../devel/py-gitdb
 DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
 DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
-#DEPENDS+=	${PYPKGPREFIX}-junit-xml-2>=1.9:../../wip/py-junit-xml-2
+#DEPENDS+=	${PYPKGPREFIX}-junit-xml>=1.9:../../wip/py-junit-xml
 DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.25.10:../../www/py-urllib3
 
 USE_LANGUAGES=	# none
