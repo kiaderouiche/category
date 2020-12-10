@@ -1,9 +1,0 @@
-@comment $NetBSD$
-lib/python3.8/site-packages/junit_xml_2-1.9-py3.8.egg-info/PKG-INFO
-lib/python3.8/site-packages/junit_xml_2-1.9-py3.8.egg-info/SOURCES.txt
-lib/python3.8/site-packages/junit_xml_2-1.9-py3.8.egg-info/dependency_links.txt
-lib/python3.8/site-packages/junit_xml_2-1.9-py3.8.egg-info/requires.txt
-lib/python3.8/site-packages/junit_xml_2-1.9-py3.8.egg-info/top_level.txt
-lib/python3.8/site-packages/junit_xml_2/__init__.py
-lib/python3.8/site-packages/junit_xml_2/__init__.pyc
-lib/python3.8/site-packages/junit_xml_2/__init__.pyo
