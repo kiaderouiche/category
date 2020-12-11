@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Prometheus Python Client
+
+The official Python 2 and 3 client for [Prometheus](http://prometheus.io).
+
+## Three Step Demo
+
+**One**: Install the client:
+```
+pip install prometheus_client
+```
+
+**Two**: Paste the following into a Python interpreter:
+```python
+from prometheus_client import start_http_server, Summary
+import random
+import time
+
+# Create a metric to track time spent and requests made.
+REQUEST_TIME = Summary('request_processing_seconds', 'Time spent processing request')
+
+...
