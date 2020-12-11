@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-swh-model/work/.prefix.pre	2020-12-11 18:47:27.951810709 +0100
-+++ /usr/pkgsrc/category/py-swh-model/work/.prefix.post	2020-12-11 18:47:29.583828433 +0100
+--- /usr/pkgsrc/category/py-swh-model/work/.prefix.pre	2020-12-11 18:48:04.664207935 +0100
++++ /usr/pkgsrc/category/py-swh-model/work/.prefix.post	2020-12-11 18:48:06.356226169 +0100
 @@ -0,0 +1,115 @@
 +/usr/pkgsrc/category/py-swh-model/work/.destdir/usr/pkg/bin/swh-identify
 +/usr/pkgsrc/category/py-swh-model/work/.destdir/usr/pkg/lib/python3.8/site-packages/swh/__init__.py

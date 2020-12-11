@@ -24,6 +24,233 @@
 @blddep py38-setuptools_scm-4.1.2
 @blddep cwrappers-20180325
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+bin/swh-identify
+@comment MD5:a24ac14c5e38a967a03930c37ea40bf6
+lib/python3.8/site-packages/swh.model-0.9.0-py3.8.egg-info/PKG-INFO
+@comment MD5:8b32a3a1892ade6244b6cf016c7e9245
+lib/python3.8/site-packages/swh.model-0.9.0-py3.8.egg-info/SOURCES.txt
+@comment MD5:c1a86309cad14893eac516fffcf5b242
+lib/python3.8/site-packages/swh.model-0.9.0-py3.8.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/swh.model-0.9.0-py3.8.egg-info/entry_points.txt
+@comment MD5:240b6834ce0909fbe13b05a5b3779d97
+lib/python3.8/site-packages/swh.model-0.9.0-py3.8.egg-info/requires.txt
+@comment MD5:81eaf495e43bfad0e71a812f611f51c5
+lib/python3.8/site-packages/swh.model-0.9.0-py3.8.egg-info/top_level.txt
+@comment MD5:8153af10ccc753455107cd507c9f54b6
+lib/python3.8/site-packages/swh/__init__.py
+@comment MD5:b884af759340bb5b4f8b556dc10a299d
+lib/python3.8/site-packages/swh/__pycache__/__init__.cpython-38.pyc
+@comment MD5:0e630cb3c4ea64f197de48a834a2cfca
+lib/python3.8/site-packages/swh/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:5ef5c170826dbc1f231bc43a62d4ada3
+lib/python3.8/site-packages/swh/model/__init__.py
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.8/site-packages/swh/model/__pycache__/__init__.cpython-38.pyc
+@comment MD5:6f25466ef9370179fcfc86018365f402
+lib/python3.8/site-packages/swh/model/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:6f25466ef9370179fcfc86018365f402
+lib/python3.8/site-packages/swh/model/cli.py
+@comment MD5:49125cd81a3793cb8df5a335c5cba0e0
+lib/python3.8/site-packages/swh/model/__pycache__/cli.cpython-38.pyc
+@comment MD5:4fba53f273fe5b012c04b55ee70f4407
+lib/python3.8/site-packages/swh/model/__pycache__/cli.cpython-38.opt-1.pyc
+@comment MD5:9ebf97e789bc8c8e3fbc67a136b0b403
+lib/python3.8/site-packages/swh/model/collections.py
+@comment MD5:1fc273448b99fa731a3e5c90018855bf
+lib/python3.8/site-packages/swh/model/__pycache__/collections.cpython-38.pyc
+@comment MD5:c114f522bc8b669aef7dba2d08351390
+lib/python3.8/site-packages/swh/model/__pycache__/collections.cpython-38.opt-1.pyc
+@comment MD5:c114f522bc8b669aef7dba2d08351390
+lib/python3.8/site-packages/swh/model/exceptions.py
+@comment MD5:d14172bcc8a91c5db3df350e96f2a99c
+lib/python3.8/site-packages/swh/model/__pycache__/exceptions.cpython-38.pyc
+@comment MD5:1e64be76e2085c2398fa9ea7f20986d0
+lib/python3.8/site-packages/swh/model/__pycache__/exceptions.cpython-38.opt-1.pyc
+@comment MD5:1e64be76e2085c2398fa9ea7f20986d0
+lib/python3.8/site-packages/swh/model/fields/__init__.py
+@comment MD5:68f7379c2441aa78890720c6fdddf6b1
+lib/python3.8/site-packages/swh/model/fields/__pycache__/__init__.cpython-38.pyc
+@comment MD5:9e3d33abe3a86cd899d6d1f73fc935d7
+lib/python3.8/site-packages/swh/model/fields/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:9e3d33abe3a86cd899d6d1f73fc935d7
+lib/python3.8/site-packages/swh/model/fields/compound.py
+@comment MD5:8e4d624c947c72538f29816cd429dba2
+lib/python3.8/site-packages/swh/model/fields/__pycache__/compound.cpython-38.pyc
+@comment MD5:44887a765e301cae7620a171abffe770
+lib/python3.8/site-packages/swh/model/fields/__pycache__/compound.cpython-38.opt-1.pyc
+@comment MD5:2665d40d72833573638bb7fc9b381c80
+lib/python3.8/site-packages/swh/model/fields/hashes.py
+@comment MD5:dddcc2159d18ad6d6bb314cbc8074b20
+lib/python3.8/site-packages/swh/model/fields/__pycache__/hashes.cpython-38.pyc
+@comment MD5:3252bf04b0fdbfabe78c007905f0d182
+lib/python3.8/site-packages/swh/model/fields/__pycache__/hashes.cpython-38.opt-1.pyc
+@comment MD5:73281917c50448fed98183d92b695c58
+lib/python3.8/site-packages/swh/model/fields/simple.py
+@comment MD5:3a1c840810a8c10e969e60ce5e5f46b2
+lib/python3.8/site-packages/swh/model/fields/__pycache__/simple.cpython-38.pyc
+@comment MD5:a5f90d2a617caa0f0c16dcacc5c8651b
+lib/python3.8/site-packages/swh/model/fields/__pycache__/simple.cpython-38.opt-1.pyc
+@comment MD5:368661a009adaf1e0acbe2161c20e48e
+lib/python3.8/site-packages/swh/model/from_disk.py
+@comment MD5:c1d9f8ce9d4013d6a412231e93c52581
+lib/python3.8/site-packages/swh/model/__pycache__/from_disk.cpython-38.pyc
+@comment MD5:073a9eabc0e9e5cdf53cfbb507af0e23
+lib/python3.8/site-packages/swh/model/__pycache__/from_disk.cpython-38.opt-1.pyc
+@comment MD5:d1a06f7572731f564631ec304adc0ef5
+lib/python3.8/site-packages/swh/model/hashutil.py
+@comment MD5:1ccc567a1dffd686770f2455b99dbe02
+lib/python3.8/site-packages/swh/model/__pycache__/hashutil.cpython-38.pyc
+@comment MD5:8340a9afcf9e80d5947e7d25641f6c22
+lib/python3.8/site-packages/swh/model/__pycache__/hashutil.cpython-38.opt-1.pyc
+@comment MD5:09493d0aa34b4f9d600f8977705de7cf
+lib/python3.8/site-packages/swh/model/hypothesis_strategies.py
+@comment MD5:0b95fa00b167362cbd5073199d3253f9
+lib/python3.8/site-packages/swh/model/__pycache__/hypothesis_strategies.cpython-38.pyc
+@comment MD5:d06496ccfa210494417298d7c7725509
+lib/python3.8/site-packages/swh/model/__pycache__/hypothesis_strategies.cpython-38.opt-1.pyc
+@comment MD5:a469f5264ca358f4486f9586f3731eef
+lib/python3.8/site-packages/swh/model/identifiers.py
+@comment MD5:03dbd44fd1f4899335bec84fcae616f4
+lib/python3.8/site-packages/swh/model/__pycache__/identifiers.cpython-38.pyc
+@comment MD5:0b83b67d187e61f05274ec39820430f4
+lib/python3.8/site-packages/swh/model/__pycache__/identifiers.cpython-38.opt-1.pyc
+@comment MD5:8baa7a6c6e365f94736a30044186d2e1
+lib/python3.8/site-packages/swh/model/merkle.py
+@comment MD5:b468d9653781c06bf7f5a38e37bad6bd
+lib/python3.8/site-packages/swh/model/__pycache__/merkle.cpython-38.pyc
+@comment MD5:c242514542953798639b390161430a9f
+lib/python3.8/site-packages/swh/model/__pycache__/merkle.cpython-38.opt-1.pyc
+@comment MD5:1b4f7abd233c68960e299ac94ee017e7
+lib/python3.8/site-packages/swh/model/model.py
+@comment MD5:71704f441afd97e865d6d23652aff14a
+lib/python3.8/site-packages/swh/model/__pycache__/model.cpython-38.pyc
+@comment MD5:9064ec522962584e2b21c647a2f35255
+lib/python3.8/site-packages/swh/model/__pycache__/model.cpython-38.opt-1.pyc
+@comment MD5:604deb2a165c6fca53c04b6acce822aa
+lib/python3.8/site-packages/swh/model/py.typed
+@comment MD5:48734178084ef7f5c250997c28f8bdee
+lib/python3.8/site-packages/swh/model/tests/__init__.py
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.8/site-packages/swh/model/tests/__pycache__/__init__.cpython-38.pyc
+@comment MD5:f62e433ed93536158f399e7a88f9510b
+lib/python3.8/site-packages/swh/model/tests/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:f62e433ed93536158f399e7a88f9510b
+lib/python3.8/site-packages/swh/model/tests/data/dir-folders/sample-folder.tgz
+@comment MD5:b28cc0fe02bf7b639b5679b2a9a50eca
+lib/python3.8/site-packages/swh/model/tests/data/repos/sample-repo.tgz
+@comment MD5:3a95e6e4feba7caee8ef2a81243ad633
+lib/python3.8/site-packages/swh/model/tests/fields/__init__.py
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/__init__.cpython-38.pyc
+@comment MD5:72eaf3b35b79085f5814cc550a244f7f
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:72eaf3b35b79085f5814cc550a244f7f
+lib/python3.8/site-packages/swh/model/tests/fields/test_compound.py
+@comment MD5:5a2eaeb8e9717cfbfa423e722f76db97
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/test_compound.cpython-38.pyc
+@comment MD5:432b6cfd3fdc77c797e6bb4ef764f659
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/test_compound.cpython-38.opt-1.pyc
+@comment MD5:abc8d7936d5a506afb5c590e6c3da1df
+lib/python3.8/site-packages/swh/model/tests/fields/test_hashes.py
+@comment MD5:f59812ab3017cda1a3c30e8ea5b06e4b
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/test_hashes.cpython-38.pyc
+@comment MD5:6cb8b7b0c2e24ecfe5cb6ac04fff468e
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/test_hashes.cpython-38.opt-1.pyc
+@comment MD5:6cb8b7b0c2e24ecfe5cb6ac04fff468e
+lib/python3.8/site-packages/swh/model/tests/fields/test_simple.py
+@comment MD5:87fc9213208c03ea01ae1d71002835e3
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/test_simple.cpython-38.pyc
+@comment MD5:1b38d1e53cf6211a3d7edf013a4dff90
+lib/python3.8/site-packages/swh/model/tests/fields/__pycache__/test_simple.cpython-38.opt-1.pyc
+@comment MD5:ce1bc6e421a7748c058b91a7b77bbbe3
+lib/python3.8/site-packages/swh/model/tests/generate_testdata.py
+@comment MD5:f03e2cdb220faae386d52090a056a3dd
+lib/python3.8/site-packages/swh/model/tests/__pycache__/generate_testdata.cpython-38.pyc
+@comment MD5:71ddc08a0b86a34ec3383b6b1ae1a333
+lib/python3.8/site-packages/swh/model/tests/__pycache__/generate_testdata.cpython-38.opt-1.pyc
+@comment MD5:0cf8e1f454982d0c2ba9155ac2b055ed
+lib/python3.8/site-packages/swh/model/tests/generate_testdata_from_disk.py
+@comment MD5:32cda5a2680098e5e5d12fb7be98e5ec
+lib/python3.8/site-packages/swh/model/tests/__pycache__/generate_testdata_from_disk.cpython-38.pyc
+@comment MD5:b69891f38bfa9c3c3e8e61e2cd01d613
+lib/python3.8/site-packages/swh/model/tests/__pycache__/generate_testdata_from_disk.cpython-38.opt-1.pyc
+@comment MD5:f4d15a3bd9ebacd51fbf0fa0a4068f65
+lib/python3.8/site-packages/swh/model/tests/test_cli.py
+@comment MD5:4a76804a0ce61661332a89e1e2f022fc
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_cli.cpython-38.pyc
+@comment MD5:97050baadcf8a3ee91a7739fefad6aac
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_cli.cpython-38.opt-1.pyc
+@comment MD5:9a80ff18443a9945e12d829f7e2d86ab
+lib/python3.8/site-packages/swh/model/tests/test_collections.py
+@comment MD5:a586d825af64d8f70e931a18f4f3910d
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_collections.cpython-38.pyc
+@comment MD5:da46f270c79a02b094ac443dba60254d
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_collections.cpython-38.opt-1.pyc
+@comment MD5:16ba718f746e633ccbe962b721eb5c51
+lib/python3.8/site-packages/swh/model/tests/test_from_disk.py
+@comment MD5:c28b6c5c09075d245ea2484cb7e3671c
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_from_disk.cpython-38.pyc
+@comment MD5:39f5c3ca9411e04f94c507756141d2f0
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_from_disk.cpython-38.opt-1.pyc
+@comment MD5:f16da24fc095bf7e68afd228d4ab80ea
+lib/python3.8/site-packages/swh/model/tests/test_generate_testdata.py
+@comment MD5:56a958b96ca5d6276eeaec831fa71d9a
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_generate_testdata.cpython-38.pyc
+@comment MD5:4c08474fe442c5a0ef6f38838a41b0ca
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_generate_testdata.cpython-38.opt-1.pyc
+@comment MD5:69cd43783e004fae32227b2e1214b712
+lib/python3.8/site-packages/swh/model/tests/test_hashutil.py
+@comment MD5:d2e5a394533e5cc94b7aeddf0656679c
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_hashutil.cpython-38.pyc
+@comment MD5:2756a311692f7ed7115e992a5f9adec2
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_hashutil.cpython-38.opt-1.pyc
+@comment MD5:e07e4693670f19160f6b88012274a037
+lib/python3.8/site-packages/swh/model/tests/test_hypothesis_strategies.py
+@comment MD5:c3ac15ac422841bea1a609ee366d8abc
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_hypothesis_strategies.cpython-38.pyc
+@comment MD5:07f4c41fe10c3803a4c08e92d688f273
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_hypothesis_strategies.cpython-38.opt-1.pyc
+@comment MD5:ba458ca95b8fc557b87f605996eea433
+lib/python3.8/site-packages/swh/model/tests/test_identifiers.py
+@comment MD5:c879b085dbb57d78170555001cd7c1c0
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_identifiers.cpython-38.pyc
+@comment MD5:7608c542ae2eebc7ef3a829fc70f14ae
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_identifiers.cpython-38.opt-1.pyc
+@comment MD5:807ee08efe2980caf94eb5346bd1daf8
+lib/python3.8/site-packages/swh/model/tests/test_merkle.py
+@comment MD5:6db9c1009016d31f5d7c7fd50e6fccbc
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_merkle.cpython-38.pyc
+@comment MD5:0236e06d25b16839d3a666bd7d5954c2
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_merkle.cpython-38.opt-1.pyc
+@comment MD5:067fb9163493477c7a01c8c1997499cf
+lib/python3.8/site-packages/swh/model/tests/test_model.py
+@comment MD5:f5a73e9e14bf4bb28ac4be9b4b885eb4
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_model.cpython-38.pyc
+@comment MD5:8a69789fb33c158373018b81adb985e4
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_model.cpython-38.opt-1.pyc
+@comment MD5:2bc0a2ec327764f5d456c24552b5336f
+lib/python3.8/site-packages/swh/model/tests/test_toposort.py
+@comment MD5:4d62a0d7cf80af9f64e2385f2b2ea42f
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_toposort.cpython-38.pyc
+@comment MD5:a3d0b9db5bd63445a326be74903580f6
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_toposort.cpython-38.opt-1.pyc
+@comment MD5:d2b8134470836a712774a016f53671a2
+lib/python3.8/site-packages/swh/model/tests/test_validators.py
+@comment MD5:b63a07bf646bcdad797c4810c0ea08ad
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_validators.cpython-38.pyc
+@comment MD5:020cf56092d7efc0fb293f9e14c083bf
+lib/python3.8/site-packages/swh/model/tests/__pycache__/test_validators.cpython-38.opt-1.pyc
+@comment MD5:95f75d524d3ea3e7b9baf3f89ae7241c
+lib/python3.8/site-packages/swh/model/toposort.py
+@comment MD5:2eac20dfc7662b9566940f9590b4b738
+lib/python3.8/site-packages/swh/model/__pycache__/toposort.cpython-38.pyc
+@comment MD5:289f54462c426feab18e099c25c35651
+lib/python3.8/site-packages/swh/model/__pycache__/toposort.cpython-38.opt-1.pyc
+@comment MD5:2fa81c7ca18b3648f1e6ef06a5ef9075
+lib/python3.8/site-packages/swh/model/validators.py
+@comment MD5:682f2b27655728bf5c460ede0f8e6311
+lib/python3.8/site-packages/swh/model/__pycache__/validators.cpython-38.pyc
+@comment MD5:8fc70fdb3a7f83a90195313116266c0d
+lib/python3.8/site-packages/swh/model/__pycache__/validators.cpython-38.opt-1.pyc
+@comment MD5:a520add386ce02072ef38db81fe1b4f7

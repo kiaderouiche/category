@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-swh-model/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-swh-model/work/swh.model-0.9.0
-path=/usr/pkgsrc/category/py-swh-model/work/.buildlink/bin:/usr/pkgsrc/category/py-swh-model/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+path=/usr/pkgsrc/category/py-swh-model/work/.buildlink/bin:/usr/pkgsrc/category/py-swh-model/work/.tools/bin:/usr/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 exec_path=/usr/pkgsrc/category/py-swh-model/work/.cwrapper/bin/as
 exec=as
 transform=L:/lib64/:
