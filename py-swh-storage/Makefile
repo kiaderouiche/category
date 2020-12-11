@@ -3,7 +3,7 @@
 DISTNAME=	swh.storage-0.18.0
 PKGNAME=	${PYPKGPREFIX}-swh-storage-0.18.0
 CATEGORIES=	devel python
-MASTER_SITES=	h${MASTER_SITE_PYPI:=s/swh.storage/}
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.storage/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DSTO/
