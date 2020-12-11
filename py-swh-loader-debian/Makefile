@@ -1,23 +1,22 @@
 # $NetBSD$
 
 DISTNAME=	swh.loader.debian-0.0.13
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/f0/ff/d52fff2be1c91b772c7ad413de5d608b165adedf7e4aaa79e5864f12fbe6/
+PKGNAME=	${PYPKGPREFIX}-swh-loader-debian-0.0.13
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.loader.debian/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDDEB/
 COMMENT=	Software Heritage Debian loader
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	py-vcversioner>=0:../../devel/py-vcversioner
-DEPENDS+=	# TODO: python-debian>=0
-DEPENDS+=	py-vcversioner>=0:../../devel/py-vcversioner
-DEPENDS+=	# TODO: swh.core>=0
-DEPENDS+=	# TODO: swh.loader.core>=0.0.37
-DEPENDS+=	# TODO: swh.model>=0.0.27
-DEPENDS+=	# TODO: swh.scheduler>=0.0.39
-DEPENDS+=	# TODO: swh.storage[schemata]>=0
+DEPENDS+=	${PYPKGPREFIX}-debian>=1.3.8:../../wip/py-debian
+DEPENDS+=	${PYPKGPREFIX}-vcversioner>=2.16.0.0:../../devel/py-vcversioner
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
+DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.0.39:../../wip/py-swh-scheduler
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.0.83:../../wip/py-swh-storage
 
 USE_LANGUAGES=	# none
 
