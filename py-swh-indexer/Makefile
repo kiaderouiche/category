@@ -1,16 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	swh.indexer-0.6.3
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-swh-indexer-0.6.3
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/3e/01/3d4febfb8eeb00afe4e024ee6115fcefcaaf20754ed9067f7724bcb90b6c/
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.indexer/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/78/
 COMMENT=	Software Heritage Content Indexer
 #LICENSE=	# TODO: (see mk/license.mk)
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	py-click>=0:../../devel/py-click
 DEPENDS+=	# TODO: python-magic>=0.4.13
 DEPENDS+=	# TODO: pyld>=0
