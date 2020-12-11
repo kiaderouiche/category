@@ -1,0 +1,228 @@
+@cwd /usr/pkg
+@name py38-lark-parser-0.11.1
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+lib/python3.8/site-packages/lark-stubs/__init__.pyi
+@comment MD5:1e84f9c8fca4d07cccaa804afb56a205
+lib/python3.8/site-packages/lark-stubs/exceptions.pyi
+@comment MD5:309c9bdc9d4b7d24a4d39b51c30b642e
+lib/python3.8/site-packages/lark-stubs/indenter.pyi
+@comment MD5:e27a52ce57d2049f84a25dcbb6c2d6a3
+lib/python3.8/site-packages/lark-stubs/lark.pyi
+@comment MD5:b41381716d8165aa73f4b2c7e29c7bec
+lib/python3.8/site-packages/lark-stubs/lexer.pyi
+@comment MD5:873304dbaa9a7a685f3076083e2a1fc3
+lib/python3.8/site-packages/lark-stubs/reconstruct.pyi
+@comment MD5:780ac8c18a497e560f83d56cc2b7af79
+lib/python3.8/site-packages/lark-stubs/tree.pyi
+@comment MD5:eb11a8357ab2983b5e6ca0981fac7725
+lib/python3.8/site-packages/lark-stubs/visitors.pyi
+@comment MD5:e591c94c63712fcf6370f17271c232c9
+lib/python3.8/site-packages/lark/__init__.py
+@comment MD5:9dc5841643888faf7c7240d4b7f02d75
+lib/python3.8/site-packages/lark/__pycache__/__init__.cpython-38.pyc
+@comment MD5:60ba3143f948ebc5ac900e197f3f67a0
+lib/python3.8/site-packages/lark/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:829217d1ed353e1f5de8b47bba2d5e9f
+lib/python3.8/site-packages/lark/__pyinstaller/__init__.py
+@comment MD5:a140b07cb137e282740a0ba98d02d7db
+lib/python3.8/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-38.pyc
+@comment MD5:b784237053bd31eff34d68ec1f387e8b
+lib/python3.8/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:b784237053bd31eff34d68ec1f387e8b
+lib/python3.8/site-packages/lark/__pyinstaller/hook-lark.py
+@comment MD5:9d91ba2f212d2402b13f7073b350e47c
+lib/python3.8/site-packages/lark/__pyinstaller/__pycache__/hook-lark.cpython-38.pyc
+@comment MD5:c7f650e01839ce0d0fe1e32b48fa75ca
+lib/python3.8/site-packages/lark/__pyinstaller/__pycache__/hook-lark.cpython-38.opt-1.pyc
+@comment MD5:2921b1f2c45ce842271b488e72d42b6a
+lib/python3.8/site-packages/lark/common.py
+@comment MD5:e5b103643fff2162d6833bed6a3daeab
+lib/python3.8/site-packages/lark/__pycache__/common.cpython-38.pyc
+@comment MD5:9d0f8f9dcf1b5f0960b86fe5e6369949
+lib/python3.8/site-packages/lark/__pycache__/common.cpython-38.opt-1.pyc
+@comment MD5:ee5e4644a74f3a900fe696813920f3be
+lib/python3.8/site-packages/lark/exceptions.py
+@comment MD5:16569e50754a7daf95cdc2d53b7343b5
+lib/python3.8/site-packages/lark/__pycache__/exceptions.cpython-38.pyc
+@comment MD5:44acc959b8f89e1951e6b62df74f07ee
+lib/python3.8/site-packages/lark/__pycache__/exceptions.cpython-38.opt-1.pyc
+@comment MD5:8bd417e8fc8862d6a199f02a6d177503
+lib/python3.8/site-packages/lark/grammar.py
+@comment MD5:d81444a02b60f28ad9bb090b84e139e2
+lib/python3.8/site-packages/lark/__pycache__/grammar.cpython-38.pyc
+@comment MD5:791230c6743b02a158433d17428f278f
+lib/python3.8/site-packages/lark/__pycache__/grammar.cpython-38.opt-1.pyc
+@comment MD5:4dc0ff4966b91fb2d28c2eac108acd59
+lib/python3.8/site-packages/lark/grammars/common.lark
+@comment MD5:5a4481a807fa484c6f90fecf89b67af3
+lib/python3.8/site-packages/lark/grammars/python.lark
+@comment MD5:0731d4a392a02e422c585ee0129011cb
+lib/python3.8/site-packages/lark/grammars/unicode.lark
+@comment MD5:0a1cdeb166c3ce0abd198e0986fbceeb
+lib/python3.8/site-packages/lark/indenter.py
+@comment MD5:5c73f04a76c260e7ced8eab416bba8e0
+lib/python3.8/site-packages/lark/__pycache__/indenter.cpython-38.pyc
+@comment MD5:d9cc2b16c495974e83a259b57e7d0ec0
+lib/python3.8/site-packages/lark/__pycache__/indenter.cpython-38.opt-1.pyc
+@comment MD5:524cfdf4270ce9cafbddb460dc086f4c
+lib/python3.8/site-packages/lark/lark.py
+@comment MD5:d30970717394b595c3ce87af16d2d69e
+lib/python3.8/site-packages/lark/__pycache__/lark.cpython-38.pyc
+@comment MD5:0206d5376555353152cb7f1b7fcc4390
+lib/python3.8/site-packages/lark/__pycache__/lark.cpython-38.opt-1.pyc
+@comment MD5:4f838eddfb0cd36298770278def6c347
+lib/python3.8/site-packages/lark/lexer.py
+@comment MD5:ed0bad43f7ccb7aee41f1e5f15322841
+lib/python3.8/site-packages/lark/__pycache__/lexer.cpython-38.pyc
+@comment MD5:cc0ba9f800bfe2a4748098179e60d048
+lib/python3.8/site-packages/lark/__pycache__/lexer.cpython-38.opt-1.pyc
+@comment MD5:8876bcb34a9f4c5ee55c7a260c9f028d
+lib/python3.8/site-packages/lark/load_grammar.py
+@comment MD5:fb075a29cc88579b0aeadf80bb0fc2bf
+lib/python3.8/site-packages/lark/__pycache__/load_grammar.cpython-38.pyc
+@comment MD5:db390c962838c6fd53e22dab3a837034
+lib/python3.8/site-packages/lark/__pycache__/load_grammar.cpython-38.opt-1.pyc
+@comment MD5:191b94ca22e539953b32bc890df2168d
+lib/python3.8/site-packages/lark/parse_tree_builder.py
+@comment MD5:35cf93e5f4d96f1325044bb57595681c
+lib/python3.8/site-packages/lark/__pycache__/parse_tree_builder.cpython-38.pyc
+@comment MD5:da5ead0103db75b8604d167fab67fe31
+lib/python3.8/site-packages/lark/__pycache__/parse_tree_builder.cpython-38.opt-1.pyc
+@comment MD5:ed826a0ac56b0fef0a58f6d0db7bf630
+lib/python3.8/site-packages/lark/parser_frontends.py
+@comment MD5:e33fd6f3a4f9ea4eaef5b3ded7f91dcd
+lib/python3.8/site-packages/lark/__pycache__/parser_frontends.cpython-38.pyc
+@comment MD5:41e446efab4c69f9761e399c1500d7c8
+lib/python3.8/site-packages/lark/__pycache__/parser_frontends.cpython-38.opt-1.pyc
+@comment MD5:49cdb499b09b5c26a2d5c20d5184367b
+lib/python3.8/site-packages/lark/parsers/__init__.py
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.8/site-packages/lark/parsers/__pycache__/__init__.cpython-38.pyc
+@comment MD5:ad1dcdabd832b14a255e62cacb940971
+lib/python3.8/site-packages/lark/parsers/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:ad1dcdabd832b14a255e62cacb940971
+lib/python3.8/site-packages/lark/parsers/cyk.py
+@comment MD5:0b4f58a6cf68bc0ce42f634918b5196b
+lib/python3.8/site-packages/lark/parsers/__pycache__/cyk.cpython-38.pyc
+@comment MD5:336433cea229872e0e7bb17239d28201
+lib/python3.8/site-packages/lark/parsers/__pycache__/cyk.cpython-38.opt-1.pyc
+@comment MD5:b9ec7213b0d3ea7890c5e7e5215dd82a
+lib/python3.8/site-packages/lark/parsers/earley.py
+@comment MD5:3f88e574873de8d4ed3bdccaa506dcc8
+lib/python3.8/site-packages/lark/parsers/__pycache__/earley.cpython-38.pyc
+@comment MD5:01bde50a7c1e98880f963a02a2bafcce
+lib/python3.8/site-packages/lark/parsers/__pycache__/earley.cpython-38.opt-1.pyc
+@comment MD5:25d96cb718231282d0c8510e9d8fbbd4
+lib/python3.8/site-packages/lark/parsers/earley_common.py
+@comment MD5:8284b08d47275d6c88ddd2c9ffcba4c9
+lib/python3.8/site-packages/lark/parsers/__pycache__/earley_common.cpython-38.pyc
+@comment MD5:d7a7755ff7cfcd189072b373f0101618
+lib/python3.8/site-packages/lark/parsers/__pycache__/earley_common.cpython-38.opt-1.pyc
+@comment MD5:c223ec121d699eb9de2b642ecf918a2e
+lib/python3.8/site-packages/lark/parsers/earley_forest.py
+@comment MD5:94bdf9915263dc7f01550460f7dfc705
+lib/python3.8/site-packages/lark/parsers/__pycache__/earley_forest.cpython-38.pyc
+@comment MD5:ed5a680b26e133d1e63a4e8aafd08567
+lib/python3.8/site-packages/lark/parsers/__pycache__/earley_forest.cpython-38.opt-1.pyc
+@comment MD5:1d0429c04058bb9a72e4d372a8b55f01
+lib/python3.8/site-packages/lark/parsers/grammar_analysis.py
+@comment MD5:f161b8cc0e320a6d0690ac7dddfb89d7
+lib/python3.8/site-packages/lark/parsers/__pycache__/grammar_analysis.cpython-38.pyc
+@comment MD5:c2682471c7e487524336230526fff5e2
+lib/python3.8/site-packages/lark/parsers/__pycache__/grammar_analysis.cpython-38.opt-1.pyc
+@comment MD5:6036adc178d0ce08c34df3fbb1c1f804
+lib/python3.8/site-packages/lark/parsers/lalr_analysis.py
+@comment MD5:da544533f0263e5dc646b2ea443c5a48
+lib/python3.8/site-packages/lark/parsers/__pycache__/lalr_analysis.cpython-38.pyc
+@comment MD5:6282518e6f96d53cda81c0097c732b90
+lib/python3.8/site-packages/lark/parsers/__pycache__/lalr_analysis.cpython-38.opt-1.pyc
+@comment MD5:2eb93e0dd58407c141f1e55349c27fa6
+lib/python3.8/site-packages/lark/parsers/lalr_parser.py
+@comment MD5:ff6446e5c1b7e1c60b60e3a853a0a36e
+lib/python3.8/site-packages/lark/parsers/__pycache__/lalr_parser.cpython-38.pyc
+@comment MD5:96083dc2e0c1093e0001dd57453696a6
+lib/python3.8/site-packages/lark/parsers/__pycache__/lalr_parser.cpython-38.opt-1.pyc
+@comment MD5:ace8041bed9375277f8393bb93505e1f
+lib/python3.8/site-packages/lark/parsers/lalr_puppet.py
+@comment MD5:9b84cafb9063bc795bf2328748767760
+lib/python3.8/site-packages/lark/parsers/__pycache__/lalr_puppet.cpython-38.pyc
+@comment MD5:aeaddc935666f842f815a440e19e17c5
+lib/python3.8/site-packages/lark/parsers/__pycache__/lalr_puppet.cpython-38.opt-1.pyc
+@comment MD5:d61495a32aa76310566b707871fa196a
+lib/python3.8/site-packages/lark/parsers/xearley.py
+@comment MD5:7a02d38bfdc60183a11c5060499a0007
+lib/python3.8/site-packages/lark/parsers/__pycache__/xearley.cpython-38.pyc
+@comment MD5:846208ace22aed828ab1230f26032176
+lib/python3.8/site-packages/lark/parsers/__pycache__/xearley.cpython-38.opt-1.pyc
+@comment MD5:0063791f6946d9960f8913e8075e2c94
+lib/python3.8/site-packages/lark/reconstruct.py
+@comment MD5:933067b33826b6db809113566f4dbfd0
+lib/python3.8/site-packages/lark/__pycache__/reconstruct.cpython-38.pyc
+@comment MD5:2500deabe46ec59d02f0d9a59b894630
+lib/python3.8/site-packages/lark/__pycache__/reconstruct.cpython-38.opt-1.pyc
+@comment MD5:59b0d6e6b80fe7ebb50b44d56d94c819
+lib/python3.8/site-packages/lark/reconstruct2.py
+@comment MD5:dda6039c3873b0e05528bf4cd17606d2
+lib/python3.8/site-packages/lark/__pycache__/reconstruct2.cpython-38.pyc
+@comment MD5:085ab7e0aad7ba485fad36acb1357e55
+lib/python3.8/site-packages/lark/__pycache__/reconstruct2.cpython-38.opt-1.pyc
+@comment MD5:f5984fa44a20ff7c673d5c7ba8684b4e
+lib/python3.8/site-packages/lark/tools/__init__.py
+@comment MD5:43cd125bb95964d4751b444ef91f8a0a
+lib/python3.8/site-packages/lark/tools/__pycache__/__init__.cpython-38.pyc
+@comment MD5:2acae60f5517674f821bd0485363cc50
+lib/python3.8/site-packages/lark/tools/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:ee6ed6f0c0ab221f00791c0d9878446f
+lib/python3.8/site-packages/lark/tools/nearley.py
+@comment MD5:ca5078c82294b5cbf03ec18331797a5e
+lib/python3.8/site-packages/lark/tools/__pycache__/nearley.cpython-38.pyc
+@comment MD5:103874fde5bc87e6bd3bbd759550feb7
+lib/python3.8/site-packages/lark/tools/__pycache__/nearley.cpython-38.opt-1.pyc
+@comment MD5:9deab84b885a2f17d9f3ceaacbb731d4
+lib/python3.8/site-packages/lark/tools/serialize.py
+@comment MD5:add19272083c913c5161649ebc2a3ecf
+lib/python3.8/site-packages/lark/tools/__pycache__/serialize.cpython-38.pyc
+@comment MD5:585ae296152d3bc9827ea5556f20f17a
+lib/python3.8/site-packages/lark/tools/__pycache__/serialize.cpython-38.opt-1.pyc
+@comment MD5:235fd121e6aa8f7fbd29b4dd35f09f43
+lib/python3.8/site-packages/lark/tools/standalone.py
+@comment MD5:522c207f89dc61aa34029f94230c1867
+lib/python3.8/site-packages/lark/tools/__pycache__/standalone.cpython-38.pyc
+@comment MD5:1553d14b4cbfd608a49e65086d4bab94
+lib/python3.8/site-packages/lark/tools/__pycache__/standalone.cpython-38.opt-1.pyc
+@comment MD5:69820872f3dccabb9fd59b2493393b33
+lib/python3.8/site-packages/lark/tree.py
+@comment MD5:000d84b62048657a76812a64b3ee648c
+lib/python3.8/site-packages/lark/__pycache__/tree.cpython-38.pyc
+@comment MD5:ba970c5dde84f1c97ba219b40183ef3d
+lib/python3.8/site-packages/lark/__pycache__/tree.cpython-38.opt-1.pyc
+@comment MD5:933260a5b091389e23e1b88ac34fba87
+lib/python3.8/site-packages/lark/tree_matcher.py
+@comment MD5:9613ce7ebf76b1110a0efb5559257c97
+lib/python3.8/site-packages/lark/__pycache__/tree_matcher.cpython-38.pyc
+@comment MD5:5e3d331f038634006e39ce153e4b4a9c
+lib/python3.8/site-packages/lark/__pycache__/tree_matcher.cpython-38.opt-1.pyc
+@comment MD5:85ff9d6e80147d7ece555e28a0e8c81b
+lib/python3.8/site-packages/lark/utils.py
+@comment MD5:9bac411a10b0c0b85180717c24df8b83
+lib/python3.8/site-packages/lark/__pycache__/utils.cpython-38.pyc
+@comment MD5:4f57fdbcbbcabf05e040f09c1445c487
+lib/python3.8/site-packages/lark/__pycache__/utils.cpython-38.opt-1.pyc
+@comment MD5:77d17c284b7baf9ab751ddb8779d63c8
+lib/python3.8/site-packages/lark/visitors.py
+@comment MD5:9c3a64e2dbfe46b831d02c1541b9fac8
+lib/python3.8/site-packages/lark/__pycache__/visitors.cpython-38.pyc
+@comment MD5:bc816a27b333d97f9fd57a70fd4d6e9e
+lib/python3.8/site-packages/lark/__pycache__/visitors.cpython-38.opt-1.pyc
+@comment MD5:0a09abe5d4d48339def3c82b5e014243
+lib/python3.8/site-packages/${EGG_INFODIR}/PKG-INFO
+lib/python3.8/site-packages/${EGG_INFODIR}/SOURCES.txt
+lib/python3.8/site-packages/${EGG_INFODIR}/dependency_links.txt
+lib/python3.8/site-packages/${EGG_INFODIR}/entry_points.txt
+lib/python3.8/site-packages/${EGG_INFODIR}/not-zip-safe
+lib/python3.8/site-packages/${EGG_INFODIR}/requires.txt
+lib/python3.8/site-packages/${EGG_INFODIR}/top_level.txt
