@@ -12,8 +12,8 @@ LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
-DEPENDS+=	${PYPKGPREFIX}-flask>=0:../../www/py-flask
-DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
+DEPENDS+=	${PYPKGPREFIX}-flask>=1.1.2:../../www/py-flask
+#DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
 DEPENDS+=	${PYPKGPREFIX}-aiohttp>=3.7.3:../../www/py-aiohttp
 DEPENDS+=	${PYPKGPREFIX}-cassandra-driver>=3.19.0:../../databases/py-cassandra-driver
 DEPENDS+=	${PYPKGPREFIX}-Deprecated>=1.2.7:../../devel/py-Deprecated
