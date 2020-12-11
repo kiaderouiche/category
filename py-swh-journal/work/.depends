@@ -1,0 +1,10 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	py38-setuptools_scm>=4.1.2	../../devel/py-setuptools_scm
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-msgpack>=1.0.0	../../devel/py-msgpack
+full	py38-tenacity>=6.2.0	../../wip/py-tenacity
+full	py38-swh-core>=0.10.0	../../wip/py-swh-core
+full	py38-swh-model>=0.7.2	../../wip/py-swh-model
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8.0	../../lang/python38
