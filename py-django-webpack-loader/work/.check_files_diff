@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-django-webpack-loader/work/.prefix.pre	2020-12-11 22:31:42.712220766 +0100
-+++ /usr/pkgsrc/category/py-django-webpack-loader/work/.prefix.post	2020-12-11 22:31:45.124237905 +0100
+--- /usr/pkgsrc/category/py-django-webpack-loader/work/.prefix.pre	2020-12-11 22:53:24.173526391 +0100
++++ /usr/pkgsrc/category/py-django-webpack-loader/work/.prefix.post	2020-12-11 22:53:25.509535970 +0100
 @@ -0,0 +1,40 @@
 +/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/django_webpack_loader-0.7.0-py3.8.egg-info/dependency_links.txt
 +/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/django_webpack_loader-0.7.0-py3.8.egg-info/PKG-INFO
