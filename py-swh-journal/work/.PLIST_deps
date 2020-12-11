@@ -1,0 +1,20 @@
+@name py38-swh-journal-0.5.1
+@blddep py38-msgpack-1.0.0
+@pkgdep py38-msgpack>=1.0.0
+@blddep py38-tenacity-6.2.0
+@pkgdep py38-tenacity>=6.2.0
+@blddep py38-swh-core-0.10.0
+@pkgdep py38-swh-core>=0.10.0
+@blddep py38-swh-model-0.9.0
+@pkgdep py38-swh-model>=0.7.2
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep py38-setuptools_scm-4.1.2
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
