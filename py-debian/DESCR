@@ -1,2 +1,4 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+The debian Python modules work with Debian-related data formats,
+providing a means to read data from files involved in Debian packaging,
+and the distribution of Debian packages. The ability to create or edit
+the files is also available for some formats.

@@ -1,17 +1,17 @@
 # $NetBSD$
 
 DISTNAME=	python-debian-0.1.38
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/99/b6/5c748994f5085f419bbc0c508a9265c56544e853f7d6aa31316cf9e327af/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/python-debian/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://salsa.debian.org/python-debian-team/python-debian
-COMMENT=	Debian package related modules
-#LICENSE=	GPL-2+ # TODO: from setup.py; needs to be adjusted
+COMMENT=	Python modules to work with Debian-related data formats
+LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	py-six>=0:../../lang/py-six
-DEPENDS+=	py-chardet>=0:../../converters/py-chardet
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 
 USE_LANGUAGES=	# none
 
