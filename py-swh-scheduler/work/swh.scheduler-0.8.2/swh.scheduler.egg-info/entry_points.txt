@@ -1,4 +1,0 @@
-
-        [swh.cli.subcommands]
-        scheduler=swh.scheduler.cli
-    

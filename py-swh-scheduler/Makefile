@@ -22,7 +22,7 @@ DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-attrs-strict>=0.2.0:../../wip/py-attrs-strict
-DEPENDS+=	${PYPKGPREFIX}-swh-core[db,http]>=0.5:../../devel/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.5:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.11.1:../../devel/py-swh-storage
 
 USE_LANGUAGES=	# none

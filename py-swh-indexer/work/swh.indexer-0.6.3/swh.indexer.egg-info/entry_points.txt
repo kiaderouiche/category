@@ -1,4 +1,0 @@
-
-        [swh.cli.subcommands]
-        indexer=swh.indexer.cli
-    

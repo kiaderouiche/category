@@ -12,7 +12,7 @@ COMMENT=	Software Heritage Content Indexer
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
-DEPENDS+=	${PYPKGPREFIX}-magic>=0.4.13:../../wip/py-magic
+DEPENDS+=	${PYPKGPREFIX}-magic>=0.4.13:../../sysutils/py-magic
 DEPENDS+=	${PYPKGPREFIX}-ld>=2.0.3:../../wip/py-ld
 DEPENDS+=	${PYPKGPREFIX}-xmltodict>=0.12.0:../../textproc/py-xmltodict
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=3.7.4.3:../../devel/py-typing-extensions
