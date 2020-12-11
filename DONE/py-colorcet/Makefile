@@ -10,6 +10,8 @@ HOMEPAGE=	https://colorcet.pyviz.org
 COMMENT=	Collection of perceptually uniform colormaps
 #LICENSE=	CC-BY License # TODO: from setup.py; needs to be adjusted
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 EPENDS+=	${PYPKGPREFIX}-param>=1.10.0:../../wip/py-param
 DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.8:../../wip/py-ct
 
