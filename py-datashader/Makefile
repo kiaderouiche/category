@@ -1,13 +1,40 @@
 # $NetBSD$
 
 DISTNAME=	datashader-0.11.1
-CATEGORIES=	category
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	category python
 MASTER_SITES=	https://files.pythonhosted.org/packages/14/7a/2729f4210977e15b0c47e583fc3ef0cbfa53d91651fe8e55b36782ea3405/
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/14/7a/2729f4210977e15b0c47e583fc3ef0cbfa53d91651fe8e55b36782ea3405/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	http://datashader.org
+COMMENT=	Data visualization toolchain based on aggregating into a grid
+#LICENSE=	New BSD # TODO: from setup.py; needs to be adjusted
 
-# url2pkg-marker (please do not remove this line.)
+DEPENDS+=	# TODO: dask[complete]>=0.18.0
+DEPENDS+=	py-toolz>=0.7.4:../../devel/py-toolz
+DEPENDS+=	# TODO: datashape>=0.5.1
+DEPENDS+=	py-numba>=0.37.0,!=0.49.*,!=0.50.*:../../math/py-numba
+DEPENDS+=	py-pandas>=0.24.1:../../math/py-pandas
+DEPENDS+=	# TODO: pillow>=3.1.1
+DEPENDS+=	py-xarray>=0.9.6:../../math/py-xarray
+DEPENDS+=	# TODO: colorcet>=0.9.0
+DEPENDS+=	py-param>=1.6.0:../../wip/py-param
+DEPENDS+=	# TODO: pyct[cmd]==0.4.6>=0
+DEPENDS+=	py-bokeh>=0:../../wip/py-bokeh
+DEPENDS+=	py-scipy>=0:../../math/py-scipy
+TEST_DEPENDS+=	# TODO: pytest>=3.9.3,<6.0
+TEST_DEPENDS+=	# TODO: pytest-benchmark>=3.0.0
+TEST_DEPENDS+=	# TODO: pytest-cov>=0
+TEST_DEPENDS+=	py-codecov>=0:../../wip/py-codecov
+TEST_DEPENDS+=	py-flake8>=0:../../devel/py-flake8
+TEST_DEPENDS+=	# TODO: nbsmoke[all]>=0.4.0
+TEST_DEPENDS+=	# TODO: fastparquet>=0.1.6
+TEST_DEPENDS+=	py-holoviews>=1.10.0:../../category/py-holoviews
+TEST_DEPENDS+=	# TODO: pyarrow>=0
+
+USE_LANGUAGES=	# none
+
+BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.7
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
