@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-lark-parser/work/.prefix.pre	2020-12-11 01:18:03.754239793 +0100
-+++ /usr/pkgsrc/category/py-lark-parser/work/.prefix.post	2020-12-11 01:18:05.682254930 +0100
+--- /usr/pkgsrc/category/py-lark-parser/work/.prefix.pre	2020-12-11 01:18:41.762538467 +0100
++++ /usr/pkgsrc/category/py-lark-parser/work/.prefix.post	2020-12-11 01:18:43.250550171 +0100
 @@ -0,0 +1,114 @@
 +/usr/pkgsrc/category/py-lark-parser/work/.destdir/usr/pkg/lib/python3.8/site-packages/lark/common.py
 +/usr/pkgsrc/category/py-lark-parser/work/.destdir/usr/pkg/lib/python3.8/site-packages/lark/exceptions.py
