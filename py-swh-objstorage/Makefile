@@ -1,9 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	swh.objstorage-0.2.2
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/0a/18/3f765ad1bc4ebed4e0660a308705bee50c9cdfeadaa32cfdaa3fd4f9d83d/
+PKGNAME=	${PYPKGPREFIX}-swh-objstorage-0.2.2
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.objstorage/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DOBJS
