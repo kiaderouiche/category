@@ -13,12 +13,12 @@ LICENSE=	gnu-gpl-v3
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools-scm>=0
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=0:../../www/py-beautifulsoup4
 DEPENDS+=	${PYPKGPREFIX}-cryptography>=0:../../security/py-cryptography
-DEPENDS+=	# TODO: django<3>=0
+DEPENDS+=	${PYPKGPREFIX}-django<3>=0
 DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=0:../../www/py-django-cors-headers
 DEPENDS+=	${PYPKGPREFIX}-django-js-reverse>=0
-DEPENDS+=	py-djangorestframework>=0:../../www/py-djangorestframework
+DEPENDS+=	${PYPKGPREFIX}-djangorestframework>=0:../../www/py-djangorestframework
 DEPENDS+=	# TODO: django-webpack-loader>=0
-DEPENDS+=	py-docutils>=0:../../textproc/py-docutils
+DEPENDS+=	${PYPKGPREFIX}-docutils>=0:../../textproc/py-docutils
 DEPENDS+=	# TODO: htmlmin>=0
 DEPENDS+=	py-iso8601>=0:../../time/py-iso8601
 DEPENDS+=	py-lxml>=0:../../textproc/py-lxml
