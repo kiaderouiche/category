@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.txt
+
+PyLD
+====
+
+.. image:: https://travis-ci.org/digitalbazaar/pyld.png?branch=master
+   :target: https://travis-ci.org/digitalbazaar/pyld
+   :alt: Build Status
+
+Introduction
+------------
+
+This library is an implementation of the JSON-LD_ specification in Python_.
+
+JSON, as specified in RFC7159_, is a simple language for representing
+objects on the Web. Linked Data is a way of describing content across
+different documents or Web sites. Web resources are described using
+IRIs, and typically are dereferencable entities that may be used to find
+more information, creating a "Web of Knowledge". JSON-LD_ is intended
+to be a simple publishing method for expressing not only Linked Data in
+JSON, but for adding semantics to existing JSON.
+
+...

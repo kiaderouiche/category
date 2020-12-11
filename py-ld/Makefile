@@ -1,0 +1,20 @@
+# $NetBSD$
+
+DISTNAME=	PyLD-2.0.3
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Py//tl}
+CATEGORIES=	converters python
+MASTER_SITES=	${MASTER_SITE_PYPI:=P/PyLD/}
+
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/digitalbazaar/pyld
+COMMENT=	Python implementation of the JSON-LD API
+#LICENSE=	BSD 3-Clause license # TODO: from setup.py; needs to be adjusted
+
+DEPENDS+=	${PYPKGPREFIX}-cachetools>=0:../../devel/py-cachetools
+DEPENDS+=	${PYPKGPREFIX}-frozendict>=0:../../devel/py-frozendict
+DEPENDS+=	${PYPKGPREFIX}-lxml>=0:../../textproc/py-lxml
+
+USE_LANGUAGES=	# none
+
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"
