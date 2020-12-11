@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=P/PyLD/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/digitalbazaar/pyld
 COMMENT=	Python implementation of the JSON-LD API
-LICENSE=	BSD 3-Clause license # TODO: from setup.py; needs to be adjusted
+LICENSE=	2-clause-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-cachetools>=4.1.1:../../devel/py-cachetools
 DEPENDS+=	${PYPKGPREFIX}-frozendict>=1.2:../../devel/py-frozendict
