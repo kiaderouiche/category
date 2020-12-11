@@ -1,6 +1,0 @@
-
-[nearley]
-js2py
-
-[regex]
-regex
