@@ -1,0 +1,43 @@
+--- /usr/pkgsrc/category/py-django-webpack-loader/work/.prefix.pre	2020-12-11 22:31:42.712220766 +0100
++++ /usr/pkgsrc/category/py-django-webpack-loader/work/.prefix.post	2020-12-11 22:31:45.124237905 +0100
+@@ -0,0 +1,40 @@
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/django_webpack_loader-0.7.0-py3.8.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/django_webpack_loader-0.7.0-py3.8.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/django_webpack_loader-0.7.0-py3.8.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/django_webpack_loader-0.7.0-py3.8.egg-info/top_level.txt
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/apps.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/config.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/contrib/__init__.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/contrib/jinja2ext.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/contrib/__pycache__/__init__.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/contrib/__pycache__/__init__.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/contrib/__pycache__/jinja2ext.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/contrib/__pycache__/jinja2ext.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/errors.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/exceptions.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__init__.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/loader.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/apps.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/apps.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/config.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/config.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/errors.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/errors.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/exceptions.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/exceptions.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/__init__.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/__init__.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/loader.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/loader.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/signals.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/signals.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/utils.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/__pycache__/utils.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/signals.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/templatetags/__init__.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/templatetags/__pycache__/__init__.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/templatetags/__pycache__/__init__.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/templatetags/__pycache__/webpack_loader.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/templatetags/__pycache__/webpack_loader.cpython-38.pyc
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/templatetags/webpack_loader.py
++/usr/pkgsrc/category/py-django-webpack-loader/work/.destdir/usr/pkg/lib/python3.8/site-packages/webpack_loader/utils.py
