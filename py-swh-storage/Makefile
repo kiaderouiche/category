@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-flask>=1.1.2:../../www/py-flask
 #DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
 DEPENDS+=	${PYPKGPREFIX}-aiohttp>=3.7.3:../../www/py-aiohttp
-DEPENDS+=	${PYPKGPREFIX}-cassandra-driver>=3.19.0:../../databases/py-cassandra-driver
+DEPENDS+=	${PYPKGPREFIX}-cassandra-driver>=3.15.1:../../databases/py-cassandra-driver
 DEPENDS+=	${PYPKGPREFIX}-Deprecated>=1.2.7:../../devel/py-Deprecated
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=3.7.4.3:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-mypy_extensions>=0.4.3:../../lang/py-mypy_extensions
