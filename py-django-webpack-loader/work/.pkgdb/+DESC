@@ -1,4 +1,0 @@
-Webpack generate your static bundles without django's staticfiles or opaque wrappers
-
-Homepage:
-https://github.com/owais/django-webpack-loader
