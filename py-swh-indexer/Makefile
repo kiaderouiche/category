@@ -11,16 +11,16 @@ COMMENT=	Software Heritage Content Indexer
 #LICENSE=	# TODO: (see mk/license.mk)
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=	py-click>=0:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	# TODO: python-magic>=0.4.13
 DEPENDS+=	# TODO: pyld>=0
 DEPENDS+=	py-xmltodict>=0:../../textproc/py-xmltodict
-DEPENDS+=	py-typing-extensions>=0:../../devel/py-typing-extensions
-DEPENDS+=	# TODO: swh.core[db,http]>=0.3
-DEPENDS+=	# TODO: swh.model>=0.0.15
-DEPENDS+=	# TODO: swh.objstorage>=0.2.2
-DEPENDS+=	# TODO: swh.scheduler>=0.5.2
-DEPENDS+=	# TODO: swh.storage>=0.12.0
+DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=3.7.4.3:../../devel/py-typing-extensions
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
+DEPENDS+=	${PYPKGPREFIX}-swh-objstorage>=0.2.2:../../wip/py-swh-objstorage
+DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.0.39:../../wip/py-swh-scheduler
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.0.83:../../wip/py-swh-storage
 DEPENDS+=	# TODO: swh.journal>=0.1.0
 
 USE_LANGUAGES=	# none
