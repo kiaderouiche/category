@@ -1,0 +1,38 @@
+#!/bin/bash
+tools_wrapper_sed=/bin/sed
+shquote()
+{
+	shquoted=$1
+	case $shquoted in
+	*\'*)
+		shquoted=`$tools_wrapper_sed -e "s,','\\\\\\\\'',g" <<EOF
+$shquoted
+EOF`
+	esac
+	case $shquoted in
+	(*[!!%+,\-./0-9:=@A-Z_a-z]*|'')
+		case $shquoted in
+		(*=*)	lhs=${shquoted%%=*}
+			case $lhs in
+			(*[!!%+,\-./0-9:=@A-Z_a-z]*|'') ;;
+			(*)	shquoted="$lhs='${shquoted#*=}'"
+				return
+			esac
+		esac
+		shquoted="'$shquoted'"
+	esac
+}
+shquote_args() {
+	shquoted_args=''
+	for arg in "$@"; do
+		shquote "$arg"
+		shquoted_args="$shquoted_args $shquoted"
+	done
+}
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/category/py-colorcet/work/.work.log}"
+shquote_args "$@"
+echo "[*] "/usr/pkgsrc/category/py-colorcet/work/.tools/bin/aclocal-1.15"$shquoted_args" >> $wrapperlog
+logprefix="set args$shquoted_args; shift; "
+logmain=/usr/pkgsrc/mk/gnu-config/missing\ aclocal
+echo '<.>' "$logprefix$logmain" >> $wrapperlog
+/usr/pkgsrc/mk/gnu-config/missing aclocal

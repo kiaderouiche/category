@@ -1,0 +1,6 @@
+Colorcet is a collection of perceptually acccurate 256-color colormaps
+for use with Python plotting programs like Bokeh, Matplotlib, HoloViews,
+and Datashader.
+
+Homepage:
+https://colorcet.pyviz.org
