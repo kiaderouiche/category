@@ -2,10 +2,10 @@
 
 DISTNAME=	swh.storage-0.18.0
 PKGNAME=	${PYPKGPREFIX}-swh-storage-0.18.0
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/cf/8d/cbab620104dfb7e14e117c2e3e3254473f24120438d84833411e5f330652/
+CATEGORIES=	devel python
+MASTER_SITES=	h${MASTER_SITE_PYPI:=s/swh.storage/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DSTO/
 COMMENT=	Software Heritage storage manager
 #LICENSE=	# TODO: (see mk/license.mk)
