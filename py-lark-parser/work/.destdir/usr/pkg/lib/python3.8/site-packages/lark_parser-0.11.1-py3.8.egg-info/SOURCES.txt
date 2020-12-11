@@ -1,5 +1,6 @@
 LICENSE
 MANIFEST.in
+PKG-INFO
 README.md
 setup.cfg
 setup.py

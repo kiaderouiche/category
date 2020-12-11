@@ -105,10 +105,10 @@ lib/python3.8/site-packages/lark/__pycache__/utils.cpython-38.opt-1.pyc
 lib/python3.8/site-packages/lark/visitors.py
 lib/python3.8/site-packages/lark/__pycache__/visitors.cpython-38.pyc
 lib/python3.8/site-packages/lark/__pycache__/visitors.cpython-38.opt-1.pyc
-lib/python3.8/site-packages/${EGG_INFODIR}/PKG-INFO
-lib/python3.8/site-packages/${EGG_INFODIR}/SOURCES.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/dependency_links.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/entry_points.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/not-zip-safe
-lib/python3.8/site-packages/${EGG_INFODIR}/requires.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/top_level.txt
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/PKG-INFO
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/SOURCES.txt
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/dependency_links.txt
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/entry_points.txt
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/not-zip-safe
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/requires.txt
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/top_level.txt

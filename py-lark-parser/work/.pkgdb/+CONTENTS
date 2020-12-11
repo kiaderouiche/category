@@ -219,10 +219,17 @@ lib/python3.8/site-packages/lark/__pycache__/visitors.cpython-38.pyc
 @comment MD5:bc816a27b333d97f9fd57a70fd4d6e9e
 lib/python3.8/site-packages/lark/__pycache__/visitors.cpython-38.opt-1.pyc
 @comment MD5:0a09abe5d4d48339def3c82b5e014243
-lib/python3.8/site-packages/${EGG_INFODIR}/PKG-INFO
-lib/python3.8/site-packages/${EGG_INFODIR}/SOURCES.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/dependency_links.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/entry_points.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/not-zip-safe
-lib/python3.8/site-packages/${EGG_INFODIR}/requires.txt
-lib/python3.8/site-packages/${EGG_INFODIR}/top_level.txt
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/PKG-INFO
+@comment MD5:53843291725b7963c0518f21c1f58f1d
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/SOURCES.txt
+@comment MD5:82accaa2c191c770ad5af7f562f0c861
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/entry_points.txt
+@comment MD5:1e1529b8285b3f1dadf620a96886a74b
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/not-zip-safe
+@comment MD5:81051bcc2cf1bedf378224b0a93e2877
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/requires.txt
+@comment MD5:fca435646ef6e31ec23ce1a07e2403de
+lib/python3.8/site-packages/lark_parser-0.11.1-py3.8.egg-info/top_level.txt
+@comment MD5:9a007bb1709ec1ca12b1c6690d42eda2
