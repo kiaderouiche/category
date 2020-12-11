@@ -3,12 +3,12 @@
 DISTNAME=	swh.web-0.0.273
 PKGNAME=	${PYPKGPREFIX}-swh-web-0.0.273
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/79/5f/f077d4dd953f686ec0f0fa7183246d0d80c472c51ce7243bb66d0ef0ee4d/
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.web/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DWUI/
 COMMENT=	Software Heritage Web UI
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools-scm>=0
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=0:../../www/py-beautifulsoup4
