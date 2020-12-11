@@ -1,0 +1,36 @@
+@name py38-swh-storage-0.18.0
+@blddep py38-click-7.1.2
+@pkgdep py38-click>=7.1.2
+@blddep py38-flask-1.1.2
+@pkgdep py38-flask>=1.1.2
+@blddep py38-aiohttp-3.7.3
+@pkgdep py38-aiohttp>=3.7.3
+@blddep py38-cassandra-driver-3.15.1
+@pkgdep py38-cassandra-driver>=3.15.1
+@blddep py38-Deprecated-1.2.7
+@pkgdep py38-Deprecated>=1.2.7
+@blddep py38-typing-extensions-3.7.4.3
+@pkgdep py38-typing-extensions>=3.7.4.3
+@blddep py38-mypy_extensions-0.4.3
+@pkgdep py38-mypy_extensions>=0.4.3
+@blddep py38-iso8601-0.1.13
+@pkgdep py38-iso8601>=0.1.13
+@blddep py38-swh-core-0.10.0
+@pkgdep py38-swh-core>=0.10.0
+@blddep py38-swh-model-0.9.0
+@pkgdep py38-swh-model>=0.7.2
+@blddep py38-swh-objstorage-0.2.2
+@pkgdep py38-swh-objstorage>=0.2.2
+@blddep py38-tenacity-6.2.0
+@pkgdep py38-tenacity>=6.2.0
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep py38-setuptools_scm-4.1.2
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"

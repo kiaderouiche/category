@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-swh-storage/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-swh-storage/work/swh.storage-0.18.0
-path=/usr/pkgsrc/category/py-swh-storage/work/.buildlink/bin:/usr/pkgsrc/category/py-swh-storage/work/.tools/bin:/usr/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+path=/usr/pkgsrc/category/py-swh-storage/work/.buildlink/bin:/usr/pkgsrc/category/py-swh-storage/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
 exec_path=/usr/pkgsrc/category/py-swh-storage/work/.cwrapper/bin/imake
 exec=false
 transform=L:/lib64/:
