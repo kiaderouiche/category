@@ -1,0 +1,1 @@
+/usr/pkg/lib/pkgconfig/python-3.8-embed.pc
