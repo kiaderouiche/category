@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=h/htmlmin/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://htmlmin.readthedocs.io/en/latest/
 COMMENT=	HTML Minifier
-#LICENSE=	BSD # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
