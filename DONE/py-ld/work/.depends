@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py38-cachetools>=4.1.1	../../devel/py-cachetools
-full	py38-frozendict>=1.2	../../devel/py-frozendict
-full	py38-lxml>=4.6.2	../../textproc/py-lxml
-full	py38-setuptools-[0-9]*	../../devel/py-setuptools
-full	python38>=3.8.0	../../lang/python38
