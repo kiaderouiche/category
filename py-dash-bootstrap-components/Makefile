@@ -8,11 +8,11 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.scanner/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://dash-bootstrap-components.opensource.faculty.ai
 COMMENT=	Bootstrap themed components for use in Plotly Dash
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-dash>=1.9.0:../../devel/py-dash
 
 USE_LANGUAGES=	# none
 
-.include "../../lang/python/egg.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
