@@ -13,6 +13,7 @@ LICENSE=	gnu-gpl-v3
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 
 .include "../../math/py-numpy/buildlink3.mk"
