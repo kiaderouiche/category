@@ -10,7 +10,7 @@ HOMEPAGE=	https://files.pythonhosted.org/packages/a6/5b/95b2ed56b61e649b69c9a5b1
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	${PYPKGPREFIX}-multipledispatch>=0.6.0:../../math/py-multipledispatch
+DEPENDS+=	${PYPKGPREFIX}-multipledispatch>=0.6.0:../../devel/py-multipledispatch
 
 BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.7
 .include "../../math/py-numpy/buildlink3.mk"
