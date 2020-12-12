@@ -1,5 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py38-dash>=1.9.0	../../devel/py-dash
-full	python38>=3.8.0	../../lang/python38
