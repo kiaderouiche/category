@@ -18,7 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-elasticsearch>5.4:../../databases/py-elasticsearch
 DEPENDS+=	${PYPKGPREFIX}-flask>=0:../../www/py-flask
 DEPENDS+=	${PYPKGPREFIX}-humanize>=0:../../textproc/py-humanize
 DEPENDS+=	${PYPKGPREFIX}-pika>=1.1.0:../../net/py-pika
-DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
+#DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-attrs-strict>=0.2.0:../../wip/py-attrs-strict
