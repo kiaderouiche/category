@@ -10,16 +10,16 @@ HOMEPAGE=	http://datashader.org
 COMMENT=	Data visualization toolchain based on aggregating into a grid
 #LICENSE=	New BSD # TODO: from setup.py; needs to be adjusted
 
-DEPENDS+=	# TODO: dask[complete]>=0.18.0
+DEPENDS+=	${PYPKGPREFIX}-dask>=0.18.0:../../wip/py-dask
 DEPENDS+=	${PYPKGPREFIX}-toolz>=0.7.4:../../devel/py-toolz
-DEPENDS+=	# TODO: datashape>=0.5.1
+DEPENDS+=	${PYPKGPREFIX}-datashape>=0.5.1:../../wip/py-datashape
 DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0,!=0.49.*,!=0.50.*:../../math/py-numba
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.24.1:../../math/py-pandas
-DEPENDS+=	# TODO: pillow>=3.1.1
+DEPENDS+=	${PYPKGPREFIX}-Pillow>=3.1.1:../../graphics/py-Pillow
 DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
-DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0
+DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0:../../wip/py-colorcet
 DEPENDS+=	${PYPKGPREFIX}-param>=1.6.0:../../wip/py-param
-DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.6
+DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.6:../../devel/py-toolz
 DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
 
