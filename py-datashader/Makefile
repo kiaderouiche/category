@@ -3,34 +3,26 @@
 DISTNAME=	datashader-0.11.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/14/7a/2729f4210977e15b0c47e583fc3ef0cbfa53d91651fe8e55b36782ea3405/
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashader/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://datashader.org
 COMMENT=	Data visualization toolchain based on aggregating into a grid
 #LICENSE=	New BSD # TODO: from setup.py; needs to be adjusted
 
 DEPENDS+=	# TODO: dask[complete]>=0.18.0
-DEPENDS+=	py-toolz>=0.7.4:../../devel/py-toolz
+DEPENDS+=	${PYPKGPREFIX}-toolz>=0.7.4:../../devel/py-toolz
 DEPENDS+=	# TODO: datashape>=0.5.1
-DEPENDS+=	py-numba>=0.37.0,!=0.49.*,!=0.50.*:../../math/py-numba
-DEPENDS+=	py-pandas>=0.24.1:../../math/py-pandas
+DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0,!=0.49.*,!=0.50.*:../../math/py-numba
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.24.1:../../math/py-pandas
 DEPENDS+=	# TODO: pillow>=3.1.1
-DEPENDS+=	py-xarray>=0.9.6:../../math/py-xarray
-DEPENDS+=	# TODO: colorcet>=0.9.0
-DEPENDS+=	py-param>=1.6.0:../../wip/py-param
-DEPENDS+=	# TODO: pyct[cmd]==0.4.6>=0
-DEPENDS+=	py-bokeh>=0:../../wip/py-bokeh
-DEPENDS+=	py-scipy>=0:../../math/py-scipy
-TEST_DEPENDS+=	# TODO: pytest>=3.9.3,<6.0
-TEST_DEPENDS+=	# TODO: pytest-benchmark>=3.0.0
-TEST_DEPENDS+=	# TODO: pytest-cov>=0
-TEST_DEPENDS+=	py-codecov>=0:../../wip/py-codecov
-TEST_DEPENDS+=	py-flake8>=0:../../devel/py-flake8
-TEST_DEPENDS+=	# TODO: nbsmoke[all]>=0.4.0
-TEST_DEPENDS+=	# TODO: fastparquet>=0.1.6
-TEST_DEPENDS+=	py-holoviews>=1.10.0:../../category/py-holoviews
-TEST_DEPENDS+=	# TODO: pyarrow>=0
+DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
+DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0
+DEPENDS+=	${PYPKGPREFIX}-param>=1.6.0:../../wip/py-param
+DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.6
+DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
+DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
+
 
 USE_LANGUAGES=	# none
 
