@@ -1,6 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	checkperms>=1.1	checkperms-1.12
-build	py38-test-runner>=5.2	py38-test-runner-5.2
-build	cwrappers>=20150314	cwrappers-20180325
-full	py38-setuptools-[0-9]*	py38-setuptools-50.3.2
-full	python38>=3.8.0	python38-3.8.6nb1
