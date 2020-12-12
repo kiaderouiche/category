@@ -1,5 +1,5 @@
---- /usr/pkgsrc/category/py-ndjson/work/.prefix.pre	2020-12-12 01:15:54.490320798 +0100
-+++ /usr/pkgsrc/category/py-ndjson/work/.prefix.post	2020-12-12 01:15:56.966345602 +0100
+--- /usr/pkgsrc/category/py-ndjson/work/.prefix.pre	2020-12-12 01:16:39.222768351 +0100
++++ /usr/pkgsrc/category/py-ndjson/work/.prefix.post	2020-12-12 01:16:42.218798286 +0100
 @@ -0,0 +1,14 @@
 +/usr/pkgsrc/category/py-ndjson/work/.destdir/usr/pkg/lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/dependency_links.txt
 +/usr/pkgsrc/category/py-ndjson/work/.destdir/usr/pkg/lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/PKG-INFO

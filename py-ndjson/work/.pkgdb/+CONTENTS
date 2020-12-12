@@ -8,6 +8,31 @@
 @blddep py38-test-runner-5.2
 @blddep cwrappers-20180325
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/PKG-INFO
+@comment MD5:3e47038e209cfe09f387f010bef329cc
+lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/SOURCES.txt
+@comment MD5:0e9584d3a6e56eda84e6772f2d844c0e
+lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/top_level.txt
+@comment MD5:963be6fc671e5ddbe3bcdef0e38c20b2
+lib/python3.8/site-packages/ndjson-0.3.1-py3.8.egg-info/zip-safe
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/ndjson/__init__.py
+@comment MD5:209f33c79424f63ca57fde6470e1fc05
+lib/python3.8/site-packages/ndjson/__pycache__/__init__.cpython-38.pyc
+@comment MD5:4bbbfed73a94a2af646fd2685b29bb37
+lib/python3.8/site-packages/ndjson/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:a3fdaa8b5969c79993f10813958dc1cd
+lib/python3.8/site-packages/ndjson/api.py
+@comment MD5:d73252c64cd3e069586e99c97715fc7d
+lib/python3.8/site-packages/ndjson/__pycache__/api.cpython-38.pyc
+@comment MD5:13a41d8741a501f9295f5de0a07276ce
+lib/python3.8/site-packages/ndjson/__pycache__/api.cpython-38.opt-1.pyc
+@comment MD5:13a41d8741a501f9295f5de0a07276ce
+lib/python3.8/site-packages/ndjson/codecs.py
+@comment MD5:a57272dbb141b26daeb26aee896a61fd
+lib/python3.8/site-packages/ndjson/__pycache__/codecs.cpython-38.pyc
+@comment MD5:85cad5ff99a9f722db009553e579634f
+lib/python3.8/site-packages/ndjson/__pycache__/codecs.cpython-38.opt-1.pyc
+@comment MD5:08046d7a1b5dec61b503c520db96192e

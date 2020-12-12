@@ -1,6 +1,6 @@
 worklog=/usr/pkgsrc/category/py-ndjson/work/.work.log
 wrksrc=/usr/pkgsrc/category/py-ndjson/work/ndjson-0.3.1
-path=/usr/pkgsrc/category/py-ndjson/work/.buildlink/bin:/usr/pkgsrc/category/py-ndjson/work/.tools/bin:/usr/pkg/bin:/home/jihbed/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+path=/usr/pkgsrc/category/py-ndjson/work/.buildlink/bin:/usr/pkgsrc/category/py-ndjson/work/.tools/bin:/usr/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 exec_path=/usr/pkgsrc/category/py-ndjson/work/.cwrapper/bin/c++
 exec=/usr/pkgsrc/category/py-ndjson/work/.compiler/bin/c++-fail-wrapper
 transform=L:/lib64/:
