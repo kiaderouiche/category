@@ -1,0 +1,12 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	checkperms>=1.1	checkperms-1.12
+build	cwrappers>=20150314	cwrappers-20180325
+full	py38-click>=7.1.2	py38-click-7.1.2
+full	py38-dash>=4.7.6	py38-dash-4.7.6
+full	py38-dulwich>=0.18.7	py38-dulwich-0.19.16
+full	py38-requests>=2.25.0	py38-requests-2.25.0
+full	py38-swh-core>=0.10.0	py38-swh-core-0.10.0
+full	py38-ndjson>=0.3.1	py38-ndjson-0.3.1
+full	py38-aiohttp>=3.7.3	py38-aiohttp-3.7.3
+full	py38-setuptools-[0-9]*	py38-setuptools-50.3.2
+full	py38-numpy>=1.19.2nb1	py38-numpy-1.19.4

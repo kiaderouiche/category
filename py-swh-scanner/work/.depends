@@ -1,0 +1,12 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-click>=7.1.2	../../devel/py-click
+full	py38-dash>=4.7.6	../../devel/py-dash
+full	py38-dulwich>=0.18.7	../../devel/py-dulwich
+full	py38-requests>=2.25.0	../../devel/py-requests
+full	py38-swh-core>=0.10.0	../../wip/py-swh-core
+full	py38-ndjson>=0.3.1	../../wip/py-ndjson
+full	py38-aiohttp>=3.7.3	../../www/py-aiohttp
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	py38-numpy>=1.19.2nb1	../../math/py-numpy
