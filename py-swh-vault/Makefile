@@ -12,11 +12,11 @@ COMMENT=	Software Heritage vault
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
-DEPENDS+=	py-flask>=0:../../www/py-flask
-DEPENDS+=	py-psycopg2>=0:../../databases/py-psycopg2
-DEPENDS+=	# TODO: python-dateutil>=0
-DEPENDS+=	py-fastimport>=0:../../devel/py-fastimport
-DEPENDS+=	py-typing-extensions>=0:../../devel/py-typing-extensions
+DEPENDS+=	${PYPKGPREFIX}-flask>=0:../../www/py-flask
+DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=0
+DEPENDS+=	${PYPKGPREFIX}-fastimport>=0:../../devel/py-fastimport
+DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	${PYPKGPREFIX}-swh-objstorage>=0.2.2:../../wip/py-swh-objstorage
