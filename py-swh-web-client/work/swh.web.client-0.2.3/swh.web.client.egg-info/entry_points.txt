@@ -1,4 +1,0 @@
-
-        [swh.cli.subcommands]
-        auth=swh.web.client.cli
-    

@@ -1,4 +1,0 @@
-
-        [swh.cli.subcommands]
-        icinga_plugins=swh.icinga_plugins.cli
-    

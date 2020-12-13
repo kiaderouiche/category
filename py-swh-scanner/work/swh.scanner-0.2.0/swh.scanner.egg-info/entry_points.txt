@@ -1,4 +1,0 @@
-
-        [swh.cli.subcommands]
-        scanner=swh.scanner.cli
-    

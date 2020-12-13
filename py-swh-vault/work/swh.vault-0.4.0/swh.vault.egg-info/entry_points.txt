@@ -1,4 +1,0 @@
-
-        [swh.cli.subcommands]
-        vault=swh.vault.cli
-    
