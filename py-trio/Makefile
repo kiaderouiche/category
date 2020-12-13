@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=t/trio/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/python-trio/trio
-COMMENT=	A friendly Python library for async concurrency and I/O
+COMMENT=	Friendly Python library for async concurrency and I/O
 LICENSE=	mit OR apache-2.0
 
 PYTHON_VERSIONS_INCOMPATIBLE=	37 36 27
