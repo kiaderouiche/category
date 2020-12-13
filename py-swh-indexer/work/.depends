@@ -1,0 +1,17 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	py38-setuptools_scm>=4.1.2	../../devel/py-setuptools_scm
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-click>=7.1.2	../../devel/py-click
+full	py38-magic>=0.4.13	../../sysutils/py-magic
+full	py38-ld>=2.0.3	../../wip/py-ld
+full	py38-xmltodict>=0.12.0	../../textproc/py-xmltodict
+full	py38-typing-extensions>=3.7.4.3	../../devel/py-typing-extensions
+full	py38-swh-core>=0.10.0	../../wip/py-swh-core
+full	py38-swh-model>=0.7.2	../../wip/py-swh-model
+full	py38-swh-objstorage>=0.2.2	../../wip/py-swh-objstorage
+full	py38-swh-scheduler>=0.0.39	../../wip/py-swh-scheduler
+full	py38-swh-storage>=0.0.83	../../wip/py-swh-storage
+full	py38-swh-journal>=0.1.0	../../wip/py-swh-journal
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8.0	../../lang/python38

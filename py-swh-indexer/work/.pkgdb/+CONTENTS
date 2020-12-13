@@ -1,0 +1,35 @@
+@cwd /usr/pkg
+@name py38-swh-indexer-0.6.3
+@blddep py38-click-7.1.2
+@pkgdep py38-click>=7.1.2
+@blddep py38-magic-0.4.18nb1
+@pkgdep py38-magic>=0.4.13
+@blddep py38-ld-2.0.3
+@pkgdep py38-ld>=2.0.3
+@blddep py38-xmltodict-0.12.0
+@pkgdep py38-xmltodict>=0.12.0
+@blddep py38-typing-extensions-3.7.4.3
+@pkgdep py38-typing-extensions>=3.7.4.3
+@blddep py38-swh-core-0.10.0
+@pkgdep py38-swh-core>=0.10.0
+@blddep py38-swh-model-0.9.0
+@pkgdep py38-swh-model>=0.7.2
+@blddep py38-swh-objstorage-0.2.2
+@pkgdep py38-swh-objstorage>=0.2.2
+@blddep py38-swh-scheduler-0.8.2
+@pkgdep py38-swh-scheduler>=0.0.39
+@blddep py38-swh-storage-0.18.0
+@pkgdep py38-swh-storage>=0.0.83
+@blddep py38-swh-journal-0.5.1
+@pkgdep py38-swh-journal>=0.1.0
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep py38-setuptools_scm-4.1.2
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
