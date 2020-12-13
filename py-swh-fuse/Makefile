@@ -14,8 +14,8 @@ PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	# TODO: PyYAML>=0
-DEPENDS+=	py-aiosqlite>=0:../../databases/py-aiosqlite
-DEPENDS+=	py-psutil>=0:../../sysutils/py-psutil
+DEPENDS+=	${PYPKGPREFIX}-aiosqlite>=0:../../databases/py-aiosqlite
+DEPENDS+=	${PYPKGPREFIX}-psutil>=0:../../sysutils/py-psutil
 DEPENDS+=	# TODO: pyfuse3>=0
 DEPENDS+=	# TODO: python-daemon>=0
 DEPENDS+=	py-requests>=0:../../devel/py-requests
