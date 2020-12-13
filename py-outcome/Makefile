@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/python-trio/outcome
 COMMENT=	Capture the outcome of Python function calls
 LICENSE=	mit OR apache-2.0
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 DEPENDS+=	${PYPKGPREFIX}-attrs>=19.2.0:../../devel/py-attrs
 
 USE_LANGUAGES=	# none
