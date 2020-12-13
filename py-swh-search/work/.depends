@@ -7,4 +7,4 @@ full	py38-swh-core>=0.10.0	../../wip/py-swh-core
 full	py38-swh-journal>=0.5.1	../../wip/py-swh-journal
 full	py38-swh-model>=0.0.27	../../wip/py-swh-model
 full	py38-setuptools-[0-9]*	../../devel/py-setuptools
-full	python38>=3.8	../../lang/python38
+full	python38>=3.8.0	../../lang/python38
