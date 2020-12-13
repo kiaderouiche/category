@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# trio-gtk
+
+[![Build Status](https://drone.autonomic.zone/api/badges/decentral1se/trio-gtk/status.svg?ref=refs/heads/master)](https://drone.autonomic.zone/decentral1se/trio-gtk)
+
+## Trio guest mode wrapper for PyGTK
+
+Using the [Trio guest mode](https://trio.readthedocs.io/en/latest/reference-lowlevel.html#using-guest-mode-to-run-trio-on-top-of-other-event-loops) feature, we can run both the Trio and PyGTK event loops alongside each other in a single program. This allows us to make use of the Trio library and the usual `async`/`await` syntax and not have to directly manage thread pools. This library provides a thin wrapper for initialising the guest mode and exposes a single public API function, `trio_gtk.run` into which you can pass your Trio main function.
+
+## Install
+
+```sh
+$ pip install trio-gtk
+```
+
+Please note, `trio-gtk` does install [pygobject](https://gitlab.gnome.org/GNOME/pygobject) directly as a Python package. We use relaxed bounds to ensure that the hard dependency on system packages (see [cairo integration documentation](https://pygobject.readthedocs.io/en/latest/guide/cairo_integration.html) will not stop you having a successful installation. This may not always work out. If you see a build error during your Pip installation, please raise a ticket and we will see what we can do.
+
+## Example
+
+```python
+import gi
+...
