@@ -16,7 +16,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_s
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-flask>=0:../../www/py-flask
 DEPENDS+=	${PYPKGPREFIX}-psycopg2>=0:../../databases/py-psycopg2
-DEPENDS+=	${PYPKGPREFIX}-dateutil>=0
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=0:../../time/py-dateutil
 DEPENDS+=	${PYPKGPREFIX}-fastimport>=0:../../devel/py-fastimport
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
