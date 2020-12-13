@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/python-trio/trio
 COMMENT=	A friendly Python library for async concurrency and I/O
 LICENSE=	mit OR apache-2.0
 
+PYTHON_VERSIONS_INCOMPATIBLE=	37 36 27
+
 DEPENDS+=	${PYPKGPREFIX}-attrs>=19.2.0:../../devel/py-attrs
 DEPENDS+=	${PYPKGPREFIX}-sortedcontainers>=2.2.2:../../devel/py-sortedcontainers
 DEPENDS+=	${PYPKGPREFIX}-async_generator>=1.9:../../devel/py-async_generator
@@ -17,7 +19,6 @@ DEPENDS+=	${PYPKGPREFIX}-idna>=2.10:../../www/py-idna
 #DEPENDS+=	${PYPKGPREFIX}-outcome>=1.1.0:../../wip/py-outcome
 DEPENDS+=	${PYPKGPREFIX}-sniffio>=1.2.0:../../misc/py-sniffio
 DEPENDS+=	${PYPKGPREFIX}-cffi>=1.14:../../devel/py-cffi
-DEPENDS+=	${PYPKGPREFIX}-contextvars>=2.1;python_version<'3.7':../../devel/py-contextvars
 
 USE_LANGUAGES=	# none
 
