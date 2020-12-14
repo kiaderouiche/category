@@ -2,7 +2,7 @@
 
 DISTNAME=	techdebt-0.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=t/techdebt/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
