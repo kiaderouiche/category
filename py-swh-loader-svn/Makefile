@@ -2,13 +2,13 @@
 
 DISTNAME=	swh.loader.svn-0.5.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/8d/d6/30d232ef7b9fc80470b927efe7d3bad3cdbbaaa411e33318b406985e1420/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.loader.svn/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDSVN
 COMMENT=	Software Heritage Loader SVN
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
 DEPENDS+=	py-click>=0:../../devel/py-click
