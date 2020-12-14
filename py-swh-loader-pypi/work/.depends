@@ -1,0 +1,9 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-arrow>=0.15.8	../../time/py-arrow
+full	py38-vcversioner>=2.16.0.0	../../devel/py-vcversioner
+full	py38-requests>=2.25.0	../../devel/py-requests
+full	py38-pkginfo>=1.6.1	../../devel/py-pkginfo
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8.0	../../lang/python38

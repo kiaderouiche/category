@@ -10,10 +10,10 @@ HOMEPAGE=	https://forge.softwareheritage.org/source/swh-loader-pypi
 COMMENT=	Software Heritage PyPI Loader
 LICENSE=	gnu-gpl-v3
 
-DEPENDS+=	${PYPKGPREFIX}-vcversioner>=0:../../devel/py-vcversioner
-DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
-DEPENDS+=	${PYPKGPREFIX}-arrow>=0:../../time/py-arrow
-DEPENDS+=	${PYPKGPREFIX}-pkginfo>=0:../../devel/py-pkginfo
+DEPENDS+=	${PYPKGPREFIX}-arrow>=0.15.8:../../time/py-arrow
+DEPENDS+=	${PYPKGPREFIX}-vcversioner>=2.16.0.0:../../devel/py-vcversioner
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-pkginfo>=1.6.1:../../devel/py-pkginfo
 DEPENDS+=	${PYPKGPREFIX}-swh-loader-core>=0.11.0:../../wip/py-swh-loader-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.0.83:../../wip/py-swh-storage
