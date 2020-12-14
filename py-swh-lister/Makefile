@@ -11,7 +11,7 @@ COMMENT=	Software Heritage lister
 #LICENSE=	# TODO: (see mk/license.mk)
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=	${PYPKGPREFIX}--sqlalchemy>=:../../databases/py-sqlalchemy
+DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-arrow>=0:../../time/py-arrow
 DEPENDS+=	${PYPKGPREFIX}-debian>=0.1.38:../../wip/py-debian
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests

@@ -14,11 +14,11 @@ DEPENDS+=	${PYPKGPREFIX}-vcversioner>=0:../../devel/py-vcversioner
 DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-arrow>=0:../../time/py-arrow
 DEPENDS+=	${PYPKGPREFIX}-pkginfo>=0:../../devel/py-pkginfo
-DEPENDS+=	${PYPKGPREFIX}-swh.core>=0
-DEPENDS+=	${PYPKGPREFIX}-swh.model>=0.0.28
-DEPENDS+=	${PYPKGPREFIX}-swh.storage>=0.0.114
-DEPENDS+=	${PYPKGPREFIX}-swh.scheduler>=0.0.39
-DEPENDS+=	${PYPKGPREFIX}-swh.loader.core>=0.0.37
+DEPENDS+=	${PYPKGPREFIX}-swh-loader-core>=0.11.0:../../wip/py-swh-loader-core
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.0.83:../../wip/py-swh-storage
+DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.0.39:../../wip/py-swh-scheduler
+DEPENDS+=	${PYPKGPREFIX}-swh-loader-core>=0.0.37:../../wip/py-swh-loader-core
 
 USE_LANGUAGES=	# none
 

@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.md
-
-swh-loader-pypi
-====================
-
 SWH PyPI loader's source code repository
 
-# What does the loader do?
-
-The PyPI loader visits and loads a PyPI project [1].
-
-Each visit will result in:
-- 1 snapshot (which targets n revisions ; 1 per release artifact)
-- 1 revision (which targets 1 directory ; the release artifact uncompressed)
-
-[1] https://pypi.org/help/#packages
-
-## First visit
-
-Given a PyPI project (origin), the loader, for the first visit:
-
-- retrieves information for the given project (including releases)
-...
