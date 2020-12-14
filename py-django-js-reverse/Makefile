@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/ierror/django-js-reverse
 COMMENT=	Javascript url handling for Django that doesn't hurt
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=1.5:../../www/py-django
+DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=1.11.29:../../www/py-django
 
 USE_LANGUAGES=	# none
 

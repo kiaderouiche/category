@@ -17,27 +17,27 @@ DEPENDS+=	${PYPKGPREFIX}-django<3>=0:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=0:../../www/py-django-cors-headers
 DEPENDS+=	${PYPKGPREFIX}-django-js-reverse>=0:../../wip/py-django-js-reverse
 DEPENDS+=	${PYPKGPREFIX}-djangorestframework>=0:../../www/py-djangorestframework
-DEPENDS+=	# TODO: django-webpack-loader>=0
+DEPENDS+=	${PYPKGPREFIX}-django-webpack-loader>=0:../../www/py-django-webpack-loader
 DEPENDS+=	${PYPKGPREFIX}-docutils>=0:../../textproc/py-docutils
-DEPENDS+=	# TODO: htmlmin>=0
-DEPENDS+=	py-iso8601>=0:../../time/py-iso8601
-DEPENDS+=	py-lxml>=0:../../textproc/py-lxml
-DEPENDS+=	# TODO: prometheus-client>=0
-DEPENDS+=	# TODO: pybadges>=0
-DEPENDS+=	py-pygments>=0:../../textproc/py-pygments
-DEPENDS+=	# TODO: python-keycloak>=0.19.0
-DEPENDS+=	# TODO: python-magic>=0.4.0
-DEPENDS+=	# TODO: python-memcached>=0
-DEPENDS+=	# TODO: pyyaml>=0
-DEPENDS+=	py-requests>=0:../../devel/py-requests
-DEPENDS+=	py-sentry-sdk>=0:../../wip/py-sentry-sdk
-DEPENDS+=	py-typing-extensions>=0:../../devel/py-typing-extensions
-DEPENDS+=	# TODO: swh.core>=0.0.95
+DEPENDS+=	${PYPKGPREFIX}-htmlmin>=0:../../wip/py-htmlmin
+DEPENDS+=	${PYPKGPREFIX}-iso8601>=0:../../time/py-iso8601
+DEPENDS+=	${PYPKGPREFIX}-lxml>=0:../../textproc/py-lxml
+DEPENDS+=	${PYPKGPREFIX}-prometheus-client>=0:../../wip/py-htmlmin
+DEPENDS+=	${PYPKGPREFIX}-badges>=0:../../wip/py-htmlmin
+DEPENDS+=	${PYPKGPREFIX}-pygments>=0:../../textproc/py-pygments
+DEPENDS+=	${PYPKGPREFIX}-keycloak>=0.19.0:../../wip/py-keycloak
+DEPENDS+=	${PYPKGPREFIX}-magic>=0.4.0:../../wip/py-magic
+DEPENDS+=	${PYPKGPREFIX}-memcached>=0:../../wip/py-memcached
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
+DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-sentry-sdk>=0:../../wip/py-sentry-sdk
+DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	# TODO: swh.indexer>=0.4.1
-DEPENDS+=	# TODO: swh.model>=0.5.0
-DEPENDS+=	# TODO: swh.scheduler>=0.7.0
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
+DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.4.0:../../wip/py-swh-scheduler
 DEPENDS+=	# TODO: swh.search>=0.2.0
-DEPENDS+=	# TODO: swh.storage>=0.11.10
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.13.1:../../wip/py-swh-storage
 DEPENDS+=	# TODO: swh.vault>=0.0.33
 
 USE_LANGUAGES=	c++

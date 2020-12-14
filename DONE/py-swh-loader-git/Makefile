@@ -16,7 +16,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_s
 DEPENDS+=	${PYPKGPREFIX}-dulwich>=0.18.7:../../devel/py-dulwich
 DEPENDS+=	${PYPKGPREFIX}-retrying>=0:../../wip/py-retrying
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
-DEENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-loader-core>=0.11.0:../../wip/py-swh-loader-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	${PYPKGPREFIX}-swh-objstorage>=0.2.2:../../wip/py-swh-objstorage
