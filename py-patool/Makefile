@@ -1,10 +1,11 @@
 # $NetBSD$
 
 DISTNAME=	patool-1.12
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/1b/eb/ad3c94cb8cbc1d8b1c47471d2c43537a05fda2bdff54a7d8248873591691/
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/patool/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/1b/eb/ad3c94cb8cbc1d8b1c47471d2c43537a05fda2bdff54a7d8248873591691/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
