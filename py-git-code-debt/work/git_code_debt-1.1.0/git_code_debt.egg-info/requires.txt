@@ -1,6 +1,0 @@
-cfgv
-flask
-identify
-mako
-markdown-code-blocks
-pyyaml
