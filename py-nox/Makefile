@@ -10,6 +10,8 @@ HOMEPAGE=	https://nox.thea.codes
 COMMENT=	Flexible test automation
 LICENSE=	apache-2.0
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
 DEPENDS+=	${PYPKGPREFIX}-argcomplete>=1.9.4:../../devel/py-argcomplete
 DEPENDS+=	${PYPKGPREFIX}-colorlog>=2.6.1:../../wip/py-colorlog
 DEPENDS+=	${PYPKGPREFIX}-py>=1.4.0:../../devel/py-py

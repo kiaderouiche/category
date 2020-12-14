@@ -1,2 +1,2 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+nox is a command-line tool that automates testing
+in multiple Python environments, similar to tox.
