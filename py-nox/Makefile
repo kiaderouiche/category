@@ -13,10 +13,10 @@ LICENSE=	apache-2.0
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 DEPENDS+=	${PYPKGPREFIX}-argcomplete>=1.9.4:../../devel/py-argcomplete
-DEPENDS+=	${PYPKGPREFIX}-colorlog>=2.6.0:../../wip/py-colorlog
 DEPENDS+=	${PYPKGPREFIX}-py>=1.4.0:../../devel/py-py
 DEPENDS+=	${PYPKGPREFIX}-virtualenv>=14.0.0:../../devel/py-virtualenv
 DEPENDS+=	${PYPKGPREFIX}-importlib-metadata>=2.0.0:../../devel/py-importlib-metadata
+DEPENDS+=	${PYPKGPREFIX}-colorlog>=4.6.2:../../wip/py-colorlog
 
 USE_LANGUAGES=	# none
 
