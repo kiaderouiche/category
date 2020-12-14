@@ -33,12 +33,12 @@ DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-sentry-sdk>=0.19.4:../../wip/py-sentry-sdk
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
-DEPENDS+=	# TODO: swh.indexer>=0.4.1
+DEPENDS+=	${PYPKGPREFIX}-swh-indexer>=0.6.3:../../wip/py-swh-indexer
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.4.0:../../wip/py-swh-scheduler
-DEPENDS+=	# TODO: swh.search>=0.2.0
+DEPENDS+=	${PYPKGPREFIX}-swh-search>=0.2.0:../../wip/py-swh-search
 DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.13.1:../../wip/py-swh-storage
-DEPENDS+=	# TODO: swh.vault>=0.0.33
+DEPENDS+=	${PYPKGPREFIX}-swh-vault>=0.0.33:../../wip/py-swh-vault
 
 USE_LANGUAGES=	c++
 
