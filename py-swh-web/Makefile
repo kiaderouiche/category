@@ -10,12 +10,12 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DWUI/
 COMMENT=	Software Heritage Web UI
 LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools-scm>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=0:../../www/py-beautifulsoup4
 DEPENDS+=	${PYPKGPREFIX}-cryptography>=0:../../security/py-cryptography
-DEPENDS+=	${PYPKGPREFIX}-django<3>=0
+DEPENDS+=	${PYPKGPREFIX}-django<3>=0:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=0:../../www/py-django-cors-headers
-DEPENDS+=	${PYPKGPREFIX}-django-js-reverse>=0
+DEPENDS+=	${PYPKGPREFIX}-django-js-reverse>=0:../../wip/py-django-js-reverse
 DEPENDS+=	${PYPKGPREFIX}-djangorestframework>=0:../../www/py-djangorestframework
 DEPENDS+=	# TODO: django-webpack-loader>=0
 DEPENDS+=	${PYPKGPREFIX}-docutils>=0:../../textproc/py-docutils
