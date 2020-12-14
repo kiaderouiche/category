@@ -40,7 +40,5 @@ DEPENDS+=	${PYPKGPREFIX}-hyperlink-[0-9]*:../../www/py-hyperlink
 DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-werkzeug>=1.0.1:../../www/py-werkzeug
 
-
-
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
