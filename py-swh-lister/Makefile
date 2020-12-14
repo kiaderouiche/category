@@ -3,19 +3,18 @@
 DISTNAME=	swh.lister-0.4.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/89/e3/f458426ec6098042d563806138d2d05d2e62c8873d464d7089910ac1e02b/
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.lister/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLSGH/
 COMMENT=	Software Heritage lister
 #LICENSE=	# TODO: (see mk/license.mk)
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	# TODO: SQLAlchemy>=0
 DEPENDS+=	py-arrow>=0:../../time/py-arrow
 DEPENDS+=	# TODO: python_debian>=0
 DEPENDS+=	py-requests>=0:../../devel/py-requests
-DEPENDS+=	py-setuptools>=0:../../devel/py-setuptools
 DEPENDS+=	py-xmltodict>=0:../../textproc/py-xmltodict
 DEPENDS+=	py-iso8601>=0:../../time/py-iso8601
 DEPENDS+=	py-beautifulsoup4>=0:../../www/py-beautifulsoup4
