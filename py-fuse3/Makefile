@@ -10,7 +10,9 @@ HOMEPAGE=	https://files.pythonhosted.org/packages/af/3a/94f4cdf85ffcb03c80036b42
 COMMENT=	Python 3 bindings for libfuse 3 with async I/O support
 LICENSE=	gnu-lgpl-v3
 
+USE_TOOLS+=	pkg-config
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../lang/python/egg.mk"
+.include "../../mk/fuse.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
