@@ -2,13 +2,20 @@
 
 DISTNAME=	patool-1.12
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category
+CATEGORIES=	archivers python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/patool/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/1b/eb/ad3c94cb8cbc1d8b1c47471d2c43537a05fda2bdff54a7d8248873591691/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	http://wummel.github.io/patool/
+COMMENT=	Portable archive file manager
+LICENSE=	gnu-gpl-v2
 
-# url2pkg-marker (please do not remove this line.)
+SUBST_CLASSES+=         prefix
+SUBST_FILES.prefix+=    setup.py
+SUBST_STAGE.prefix=     pre-configure
+SUBST_VARS.prefix=      PREFIX
+SUBST_SED.prefix+=      -e 's,share/man/man1,${PREFIX}/man/man1,g'
+SUBST_MESSAGE.paths=    Fixing header search paths.
+
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

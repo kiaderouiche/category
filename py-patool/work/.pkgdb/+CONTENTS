@@ -1,0 +1,414 @@
+@cwd /usr/pkg
+@name py38-patool-1.12
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/patool
+@comment MD5:38d6d520873a8157935df483e048ab1a
+lib/python3.8/site-packages/_patool_configdata.py
+@comment MD5:cd9ee765e7f26c92e4ec78dfca554cf3
+lib/python3.8/site-packages/__pycache__/_patool_configdata.cpython-38.pyc
+@comment MD5:ffb563c4c3c132f26f55354b94e13e9f
+lib/python3.8/site-packages/__pycache__/_patool_configdata.cpython-38.opt-1.pyc
+@comment MD5:4b7849d17f7dfe7b739b60e050120af2
+lib/python3.8/site-packages/patool-1.12-py3.8.egg-info/PKG-INFO
+@comment MD5:083b9668ca6fd3c17a9af5332f94b3fb
+lib/python3.8/site-packages/patool-1.12-py3.8.egg-info/SOURCES.txt
+@comment MD5:286f203af086718ab332d2ab72c91721
+lib/python3.8/site-packages/patool-1.12-py3.8.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/patool-1.12-py3.8.egg-info/top_level.txt
+@comment MD5:5f02a48b29d5bd6bd3fac74ddc69dad5
+lib/python3.8/site-packages/patoolib/__init__.py
+@comment MD5:b5a53c521335f965e2cdadd644a0d070
+lib/python3.8/site-packages/patoolib/__pycache__/__init__.cpython-38.pyc
+@comment MD5:3efd3ad30668db4ff700af2f85a3cc16
+lib/python3.8/site-packages/patoolib/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:6f1df7b6a013834cebfd7ec433a78fd6
+lib/python3.8/site-packages/patoolib/configuration.py
+@comment MD5:13a8d2d085554c4dd3e46c6ca81dd98a
+lib/python3.8/site-packages/patoolib/__pycache__/configuration.cpython-38.pyc
+@comment MD5:550951650d2c849825e5b65d8afe7dae
+lib/python3.8/site-packages/patoolib/__pycache__/configuration.cpython-38.opt-1.pyc
+@comment MD5:9db76d4a689cc054ebad3354573a65c9
+lib/python3.8/site-packages/patoolib/programs/__init__.py
+@comment MD5:28f3457a09226cedb30973466f26e795
+lib/python3.8/site-packages/patoolib/programs/__pycache__/__init__.cpython-38.pyc
+@comment MD5:b24edaa4a2bcdba14e903db28d0eb558
+lib/python3.8/site-packages/patoolib/programs/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:14db583652c5a76e064e0f5d1a21b3b4
+lib/python3.8/site-packages/patoolib/programs/ar.py
+@comment MD5:0452b1c3c87830b1fe7e3346ed30710d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/ar.cpython-38.pyc
+@comment MD5:b445a7bb5a4ca69986d0fc2d77e8a5d2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/ar.cpython-38.opt-1.pyc
+@comment MD5:58d44d4af4445d83dac9a32a9abb484b
+lib/python3.8/site-packages/patoolib/programs/arc.py
+@comment MD5:3365ce257d2234e2b325839522f321e5
+lib/python3.8/site-packages/patoolib/programs/__pycache__/arc.cpython-38.pyc
+@comment MD5:f9c54cf40a973786fc6a1ac08fe168ea
+lib/python3.8/site-packages/patoolib/programs/__pycache__/arc.cpython-38.opt-1.pyc
+@comment MD5:598191218f596549a42518e9402c7cbf
+lib/python3.8/site-packages/patoolib/programs/archmage.py
+@comment MD5:df6cdb983df1ddba07d65ad2d78f5035
+lib/python3.8/site-packages/patoolib/programs/__pycache__/archmage.cpython-38.pyc
+@comment MD5:27ec44f310cefd32ced66daffcab264f
+lib/python3.8/site-packages/patoolib/programs/__pycache__/archmage.cpython-38.opt-1.pyc
+@comment MD5:5acd7b4af4f8a5cfb0ea3e9749ddc146
+lib/python3.8/site-packages/patoolib/programs/arj.py
+@comment MD5:ecabe7b144305c267bbf767a3fe6fe20
+lib/python3.8/site-packages/patoolib/programs/__pycache__/arj.cpython-38.pyc
+@comment MD5:8bec4bd1eb7f40559db74315494f4e8b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/arj.cpython-38.opt-1.pyc
+@comment MD5:a018c4b0e61e3e7d91e774403ddcd311
+lib/python3.8/site-packages/patoolib/programs/bsdcpio.py
+@comment MD5:acc4fcbca75e47f3fc73608fd000e2b1
+lib/python3.8/site-packages/patoolib/programs/__pycache__/bsdcpio.cpython-38.pyc
+@comment MD5:40a04b9fea0fb6e27fff2d9fd3ee324b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/bsdcpio.cpython-38.opt-1.pyc
+@comment MD5:40a04b9fea0fb6e27fff2d9fd3ee324b
+lib/python3.8/site-packages/patoolib/programs/bsdtar.py
+@comment MD5:d0b83b522a932ba10cf21a285279c7f7
+lib/python3.8/site-packages/patoolib/programs/__pycache__/bsdtar.cpython-38.pyc
+@comment MD5:9acf1514c642081b38d34a0cde4345e8
+lib/python3.8/site-packages/patoolib/programs/__pycache__/bsdtar.cpython-38.opt-1.pyc
+@comment MD5:0fdd7998a24385f5ae2efb31f2c1cb27
+lib/python3.8/site-packages/patoolib/programs/bzip2.py
+@comment MD5:9d69d8b454a7e0afefe87ddd4cdee21d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/bzip2.cpython-38.pyc
+@comment MD5:952f9a679dc05c426025fcbeda8704b2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/bzip2.cpython-38.opt-1.pyc
+@comment MD5:cf29f7af622a7633724fb3df5a20667e
+lib/python3.8/site-packages/patoolib/programs/cabextract.py
+@comment MD5:dfec54484f786f193551430d2c67d3fb
+lib/python3.8/site-packages/patoolib/programs/__pycache__/cabextract.cpython-38.pyc
+@comment MD5:3e016109382a10fcf6f38e039ebf502b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/cabextract.cpython-38.opt-1.pyc
+@comment MD5:56146680d74de64dca4cdad2eeb189ac
+lib/python3.8/site-packages/patoolib/programs/chmlib.py
+@comment MD5:2275b59cf3691b1e9ee28df1e8d40ab2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/chmlib.cpython-38.pyc
+@comment MD5:65dd6f76a129b77e5d04e8ea196f971b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/chmlib.cpython-38.opt-1.pyc
+@comment MD5:fb30ab2ba12feb8b20db60975ccdff79
+lib/python3.8/site-packages/patoolib/programs/clzip.py
+@comment MD5:9004fb635eab296a0e5b1379a81c85a2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/clzip.cpython-38.pyc
+@comment MD5:9e9e1f35a2d8163a61739f029b88c159
+lib/python3.8/site-packages/patoolib/programs/__pycache__/clzip.cpython-38.opt-1.pyc
+@comment MD5:5834f8cad25c308e26715222fe406b46
+lib/python3.8/site-packages/patoolib/programs/compress.py
+@comment MD5:46077200fcdacbd9b3e70316ba42d1c9
+lib/python3.8/site-packages/patoolib/programs/__pycache__/compress.cpython-38.pyc
+@comment MD5:d96d7072a0243854c0dfaaff727f37df
+lib/python3.8/site-packages/patoolib/programs/__pycache__/compress.cpython-38.opt-1.pyc
+@comment MD5:a7348827c34dbecbf1937968b5ce9623
+lib/python3.8/site-packages/patoolib/programs/cpio.py
+@comment MD5:28b6ec84fbba58acc123473ccb22688b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/cpio.cpython-38.pyc
+@comment MD5:80ac137dcbc4a16a775a38cc06648445
+lib/python3.8/site-packages/patoolib/programs/__pycache__/cpio.cpython-38.opt-1.pyc
+@comment MD5:7bf08f82b394363c46e7e836737c897f
+lib/python3.8/site-packages/patoolib/programs/dpkg.py
+@comment MD5:676845807e91d4eaaf9a1e505dbe94d8
+lib/python3.8/site-packages/patoolib/programs/__pycache__/dpkg.cpython-38.pyc
+@comment MD5:367acf5dd1b2ad72618d93303492e85d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/dpkg.cpython-38.opt-1.pyc
+@comment MD5:62ccf955e68da9cbdfa5948b8e3662c2
+lib/python3.8/site-packages/patoolib/programs/flac.py
+@comment MD5:37d4a9319f48fd26721c6dcddc88cbf3
+lib/python3.8/site-packages/patoolib/programs/__pycache__/flac.cpython-38.pyc
+@comment MD5:5e22a716efe7c80ac32162e4adb8bf02
+lib/python3.8/site-packages/patoolib/programs/__pycache__/flac.cpython-38.opt-1.pyc
+@comment MD5:d08c70f7a96a6e33885400532f049074
+lib/python3.8/site-packages/patoolib/programs/genisoimage.py
+@comment MD5:cede6bed320ac37ff80d961546e642b1
+lib/python3.8/site-packages/patoolib/programs/__pycache__/genisoimage.cpython-38.pyc
+@comment MD5:6fe3231cb323d7e974dbec142043fdc8
+lib/python3.8/site-packages/patoolib/programs/__pycache__/genisoimage.cpython-38.opt-1.pyc
+@comment MD5:3e9e5d22c2bf17da434af8c7e63a8c2e
+lib/python3.8/site-packages/patoolib/programs/gzip.py
+@comment MD5:127f2e1cabf1d0e3bfdecbafa01a3605
+lib/python3.8/site-packages/patoolib/programs/__pycache__/gzip.cpython-38.pyc
+@comment MD5:93a93bdc1deea91ec399c30eccf9314b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/gzip.cpython-38.opt-1.pyc
+@comment MD5:93a93bdc1deea91ec399c30eccf9314b
+lib/python3.8/site-packages/patoolib/programs/isoinfo.py
+@comment MD5:75b5abe97ad3ff18f3473c96e92ed0e2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/isoinfo.cpython-38.pyc
+@comment MD5:7a2f1c9aa822a742d33aaf0b81a24aac
+lib/python3.8/site-packages/patoolib/programs/__pycache__/isoinfo.cpython-38.opt-1.pyc
+@comment MD5:0e2befe48674feec39d13b4940cc04fc
+lib/python3.8/site-packages/patoolib/programs/lbzip2.py
+@comment MD5:37d415472432ec77522d8a3de7b89cc8
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lbzip2.cpython-38.pyc
+@comment MD5:2b9bff70b3135f5cbec03c4dc0211625
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lbzip2.cpython-38.opt-1.pyc
+@comment MD5:1309981a245cc3df5f12740082df0649
+lib/python3.8/site-packages/patoolib/programs/lcab.py
+@comment MD5:504223f3a2d9e715da0cdf2112a5cc6f
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lcab.cpython-38.pyc
+@comment MD5:5f7eb845ac929bf4b6c57750e6f2db90
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lcab.cpython-38.opt-1.pyc
+@comment MD5:bcaa8f8d36a377534a7e3cc725d16fcc
+lib/python3.8/site-packages/patoolib/programs/lha.py
+@comment MD5:0856bb33aeffd6e70655b3efa2a06923
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lha.cpython-38.pyc
+@comment MD5:6828654e02660bf6a713a84c9c9ce36b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lha.cpython-38.opt-1.pyc
+@comment MD5:abc5a48453685473a8476bac6d007f3c
+lib/python3.8/site-packages/patoolib/programs/lhasa.py
+@comment MD5:2c2d70a9cfbe2e06dfac07b9f86820e9
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lhasa.cpython-38.pyc
+@comment MD5:d65496fc52cc2958c06c534f4d2acb0b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lhasa.cpython-38.opt-1.pyc
+@comment MD5:d65496fc52cc2958c06c534f4d2acb0b
+lib/python3.8/site-packages/patoolib/programs/lrzip.py
+@comment MD5:0123428f653fb7f9a0ff4234e3c0fbaf
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lrzip.cpython-38.pyc
+@comment MD5:d506314fa1c20d6b9f6620e072d7db42
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lrzip.cpython-38.opt-1.pyc
+@comment MD5:5d9c53057893e10b9638f48766623103
+lib/python3.8/site-packages/patoolib/programs/lzip.py
+@comment MD5:db7cc42e28ba9ca2d37de2f3a0f0f86f
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lzip.cpython-38.pyc
+@comment MD5:63f9d38935ff3c961c80059f4e27bc37
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lzip.cpython-38.opt-1.pyc
+@comment MD5:63f9d38935ff3c961c80059f4e27bc37
+lib/python3.8/site-packages/patoolib/programs/lzma.py
+@comment MD5:2efe3e31dd71b1db4ecb29100bc42fec
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lzma.cpython-38.pyc
+@comment MD5:3faf3eda6195698e3d3c61f760b39947
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lzma.cpython-38.opt-1.pyc
+@comment MD5:3faf3eda6195698e3d3c61f760b39947
+lib/python3.8/site-packages/patoolib/programs/lzop.py
+@comment MD5:79f0aabfb1145459a8bbd9b37a900e1d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lzop.cpython-38.pyc
+@comment MD5:2fd08024cdbde4e72c8fd586c324aa8d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/lzop.cpython-38.opt-1.pyc
+@comment MD5:2fd08024cdbde4e72c8fd586c324aa8d
+lib/python3.8/site-packages/patoolib/programs/mac.py
+@comment MD5:d31309612b89f381c471d44556612702
+lib/python3.8/site-packages/patoolib/programs/__pycache__/mac.cpython-38.pyc
+@comment MD5:218dc3c87b635b0eacfd61358e620891
+lib/python3.8/site-packages/patoolib/programs/__pycache__/mac.cpython-38.opt-1.pyc
+@comment MD5:024a04c0a3fdd8a85a3ea2c97c13eaf7
+lib/python3.8/site-packages/patoolib/programs/nomarch.py
+@comment MD5:c6cd0efb08d670f32b2ca3e90c36c7e2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/nomarch.cpython-38.pyc
+@comment MD5:5401a3e8958c75b7b0af4f67c79b0faf
+lib/python3.8/site-packages/patoolib/programs/__pycache__/nomarch.cpython-38.opt-1.pyc
+@comment MD5:d7eb2310fa0d96926258ade172efa139
+lib/python3.8/site-packages/patoolib/programs/p7azip.py
+@comment MD5:a7c9ed175eaaf9c203812b2dd2a11709
+lib/python3.8/site-packages/patoolib/programs/__pycache__/p7azip.cpython-38.pyc
+@comment MD5:42111e6d9c4c96335201b9063d7c4a43
+lib/python3.8/site-packages/patoolib/programs/__pycache__/p7azip.cpython-38.opt-1.pyc
+@comment MD5:42111e6d9c4c96335201b9063d7c4a43
+lib/python3.8/site-packages/patoolib/programs/p7rzip.py
+@comment MD5:c8ce19ae80b24c3dddaf956fcec806a7
+lib/python3.8/site-packages/patoolib/programs/__pycache__/p7rzip.cpython-38.pyc
+@comment MD5:9786d03d09385dbf134cbea091f2a6ce
+lib/python3.8/site-packages/patoolib/programs/__pycache__/p7rzip.cpython-38.opt-1.pyc
+@comment MD5:9786d03d09385dbf134cbea091f2a6ce
+lib/python3.8/site-packages/patoolib/programs/p7zip.py
+@comment MD5:150ff3569bbf252feaae773e4bca48e6
+lib/python3.8/site-packages/patoolib/programs/__pycache__/p7zip.cpython-38.pyc
+@comment MD5:e2e88354248fa963cf741e8d87288fdc
+lib/python3.8/site-packages/patoolib/programs/__pycache__/p7zip.cpython-38.opt-1.pyc
+@comment MD5:3eb2f353c220c2476c7ffc25b097fac4
+lib/python3.8/site-packages/patoolib/programs/pbzip2.py
+@comment MD5:7c9987204c8e2120ea612b97489ffd68
+lib/python3.8/site-packages/patoolib/programs/__pycache__/pbzip2.cpython-38.pyc
+@comment MD5:288d82348af1c83f872af5c08576b602
+lib/python3.8/site-packages/patoolib/programs/__pycache__/pbzip2.cpython-38.opt-1.pyc
+@comment MD5:ed66b6a63e74e50c575f04d305650a99
+lib/python3.8/site-packages/patoolib/programs/pdlzip.py
+@comment MD5:a605e38ea013e14f622e798101fa6d61
+lib/python3.8/site-packages/patoolib/programs/__pycache__/pdlzip.cpython-38.pyc
+@comment MD5:ee62865f2479dd4ee37a92c122354177
+lib/python3.8/site-packages/patoolib/programs/__pycache__/pdlzip.cpython-38.opt-1.pyc
+@comment MD5:ee62865f2479dd4ee37a92c122354177
+lib/python3.8/site-packages/patoolib/programs/pigz.py
+@comment MD5:032960c96b4b60da5856d3fbdcf4bf7d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/pigz.cpython-38.pyc
+@comment MD5:53bebfbf78d38ac41dc436bf86d848da
+lib/python3.8/site-packages/patoolib/programs/__pycache__/pigz.cpython-38.opt-1.pyc
+@comment MD5:ec2475cd7a42543dcc185ee7ba88852e
+lib/python3.8/site-packages/patoolib/programs/plzip.py
+@comment MD5:48bbd11d7ff4a55828e881e62692145f
+lib/python3.8/site-packages/patoolib/programs/__pycache__/plzip.cpython-38.pyc
+@comment MD5:66b581b0be10a700252f5d97c077b381
+lib/python3.8/site-packages/patoolib/programs/__pycache__/plzip.cpython-38.opt-1.pyc
+@comment MD5:66b581b0be10a700252f5d97c077b381
+lib/python3.8/site-packages/patoolib/programs/py_bz2.py
+@comment MD5:8d75b69f3f576af38d0cc3f97d746f16
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_bz2.cpython-38.pyc
+@comment MD5:972adbcc473aa4005e6a2e26a1e42aca
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_bz2.cpython-38.opt-1.pyc
+@comment MD5:c313b45eb8ad77e8e2a8bf22416f15be
+lib/python3.8/site-packages/patoolib/programs/py_echo.py
+@comment MD5:52f0de6644775016b353815565bdc83f
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_echo.cpython-38.pyc
+@comment MD5:a7f19f3f0a2219eef619160e1c34d8e3
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_echo.cpython-38.opt-1.pyc
+@comment MD5:7e5ec47844fc59b6daafa4abba59cda3
+lib/python3.8/site-packages/patoolib/programs/py_gzip.py
+@comment MD5:4bc3c17aaf16d921579acffb4643e04e
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_gzip.cpython-38.pyc
+@comment MD5:d9ac54382412ab166d594757f4f29275
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_gzip.cpython-38.opt-1.pyc
+@comment MD5:6e3f42498e9050f9dffdb807cf408edc
+lib/python3.8/site-packages/patoolib/programs/py_lzma.py
+@comment MD5:83eb68485d20de52725dfc28549e0a77
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_lzma.cpython-38.pyc
+@comment MD5:f317bbd9fe74ab82b0dd816d8b65f1c6
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_lzma.cpython-38.opt-1.pyc
+@comment MD5:e4fabc8c3a71711b7224d66c510e3be3
+lib/python3.8/site-packages/patoolib/programs/py_tarfile.py
+@comment MD5:f8ad07cd32fb4164990fd47d84fd010e
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_tarfile.cpython-38.pyc
+@comment MD5:a143d68b313cdab6c4fa590154d92c61
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_tarfile.cpython-38.opt-1.pyc
+@comment MD5:598dc1b6eb07da0f2afe81503eb94ff6
+lib/python3.8/site-packages/patoolib/programs/py_zipfile.py
+@comment MD5:08f0cbb383ad4fefb27ada08f1826b9c
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_zipfile.cpython-38.pyc
+@comment MD5:e0e0355d71562feff74864882e1f00a4
+lib/python3.8/site-packages/patoolib/programs/__pycache__/py_zipfile.cpython-38.opt-1.pyc
+@comment MD5:8c07c5494f13ce25f29c0866377b39e4
+lib/python3.8/site-packages/patoolib/programs/rar.py
+@comment MD5:e9974186e9b1cc1101e49a707652da00
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rar.cpython-38.pyc
+@comment MD5:8dc19e852303bc73b2115b9118a66585
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rar.cpython-38.opt-1.pyc
+@comment MD5:ce5b7c920aea4068707ca5e3f1bddde1
+lib/python3.8/site-packages/patoolib/programs/rpm.py
+@comment MD5:df0c3b8939e240a9681788bb32b620b4
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rpm.cpython-38.pyc
+@comment MD5:d1044a14420b0f6ca32a0956af1c9991
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rpm.cpython-38.opt-1.pyc
+@comment MD5:7b436d4c7077c9df49e57c9506a0e135
+lib/python3.8/site-packages/patoolib/programs/rpm2cpio.py
+@comment MD5:b6bbee6dc54c455491f6169d6c9e41ee
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rpm2cpio.cpython-38.pyc
+@comment MD5:1d475d64bd7fa8bce1a1c420dd613fa7
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rpm2cpio.cpython-38.opt-1.pyc
+@comment MD5:6c14a613a734604f521f65397f12a095
+lib/python3.8/site-packages/patoolib/programs/rzip.py
+@comment MD5:27e9f41e8e80306550a968c89aa14858
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rzip.cpython-38.pyc
+@comment MD5:3a20fd93b4eb0de80d8f0682a06637b0
+lib/python3.8/site-packages/patoolib/programs/__pycache__/rzip.cpython-38.opt-1.pyc
+@comment MD5:d0c002154516ff58c9738adb290f4c50
+lib/python3.8/site-packages/patoolib/programs/shar.py
+@comment MD5:851f414c6af6d323a90397274964501c
+lib/python3.8/site-packages/patoolib/programs/__pycache__/shar.cpython-38.pyc
+@comment MD5:d55e0f57dcbf468d25b7bdab57f41903
+lib/python3.8/site-packages/patoolib/programs/__pycache__/shar.cpython-38.opt-1.pyc
+@comment MD5:0fbba65ed73393d0633951c7021ba6bf
+lib/python3.8/site-packages/patoolib/programs/shorten.py
+@comment MD5:6df2e94a158996134ba8ad497b5f7091
+lib/python3.8/site-packages/patoolib/programs/__pycache__/shorten.cpython-38.pyc
+@comment MD5:7fbd09c31b9f11c3581f71aebe8f550d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/shorten.cpython-38.opt-1.pyc
+@comment MD5:30554a4d832580bbc22083bc4dfdc711
+lib/python3.8/site-packages/patoolib/programs/star.py
+@comment MD5:2320ae50cb8668c2c59edda7fa376bc5
+lib/python3.8/site-packages/patoolib/programs/__pycache__/star.cpython-38.pyc
+@comment MD5:420125acf5d86f93cd68e9188e47f5e8
+lib/python3.8/site-packages/patoolib/programs/__pycache__/star.cpython-38.opt-1.pyc
+@comment MD5:d5ba9f9d857cee1295ba220f98766c14
+lib/python3.8/site-packages/patoolib/programs/tar.py
+@comment MD5:e7b54955920b8143195730a9392ec8b2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/tar.cpython-38.pyc
+@comment MD5:570444e45f705f38d1f290d7886b5aca
+lib/python3.8/site-packages/patoolib/programs/__pycache__/tar.cpython-38.opt-1.pyc
+@comment MD5:72592639f61c5fe242240c544fffaf53
+lib/python3.8/site-packages/patoolib/programs/unace.py
+@comment MD5:c08a61a93053c14d499c490a9e7c547b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unace.cpython-38.pyc
+@comment MD5:f47e6a9d4f3e7e0df221f597e0dad37b
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unace.cpython-38.opt-1.pyc
+@comment MD5:12f0a93b4d9d7a9044b10c7c68e2ab70
+lib/python3.8/site-packages/patoolib/programs/unadf.py
+@comment MD5:b256a7d1ed15c440344c6169a99a918d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unadf.cpython-38.pyc
+@comment MD5:96c64c93ec701833d6243b1400fa9a1e
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unadf.cpython-38.opt-1.pyc
+@comment MD5:daf74ecae600e9f6eafecde461cc7eb7
+lib/python3.8/site-packages/patoolib/programs/unalz.py
+@comment MD5:bc6dffa232c2b690c0347742a6bf7516
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unalz.cpython-38.pyc
+@comment MD5:c8bcf505e5c557c8fd24927872426bc2
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unalz.cpython-38.opt-1.pyc
+@comment MD5:16c69cbfaa823a99a697851613d1bccd
+lib/python3.8/site-packages/patoolib/programs/uncompress.py
+@comment MD5:5bf6bf0012bd61c3ca19b23aa8d0df60
+lib/python3.8/site-packages/patoolib/programs/__pycache__/uncompress.cpython-38.pyc
+@comment MD5:eb6237dbbfadc87cad8f19d671250e3d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/uncompress.cpython-38.opt-1.pyc
+@comment MD5:5f51f58138b16f1780bae23ae26a3b1d
+lib/python3.8/site-packages/patoolib/programs/unrar.py
+@comment MD5:16e45a684f61f368313be8da953e9b2d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unrar.cpython-38.pyc
+@comment MD5:7cab4cd89a4c2cf9cfe00e3d3079cfb7
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unrar.cpython-38.opt-1.pyc
+@comment MD5:7cab4cd89a4c2cf9cfe00e3d3079cfb7
+lib/python3.8/site-packages/patoolib/programs/unshar.py
+@comment MD5:a18bc102b770532ba9aa466b7fcca825
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unshar.cpython-38.pyc
+@comment MD5:4ce8fcc8be63e2d99f9a768d459afe7c
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unshar.cpython-38.opt-1.pyc
+@comment MD5:08fee59c550d3c1a0dddfc45385ff729
+lib/python3.8/site-packages/patoolib/programs/unzip.py
+@comment MD5:4b5746df1fe62bce7e4b020dd5d75715
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unzip.cpython-38.pyc
+@comment MD5:063dfbfc9711c80c5a0a07ec634e530a
+lib/python3.8/site-packages/patoolib/programs/__pycache__/unzip.cpython-38.opt-1.pyc
+@comment MD5:8181227fb5937f4635977a5bc1805914
+lib/python3.8/site-packages/patoolib/programs/xdms.py
+@comment MD5:effc1cfe932a437ec4ee61aa1e0586a1
+lib/python3.8/site-packages/patoolib/programs/__pycache__/xdms.cpython-38.pyc
+@comment MD5:ab697f29f8a90815ca667ba8301003b7
+lib/python3.8/site-packages/patoolib/programs/__pycache__/xdms.cpython-38.opt-1.pyc
+@comment MD5:a6c3d3fc6b652a6828299f26347c28c2
+lib/python3.8/site-packages/patoolib/programs/xz.py
+@comment MD5:690732729196c4b327c01b2607774eb1
+lib/python3.8/site-packages/patoolib/programs/__pycache__/xz.cpython-38.pyc
+@comment MD5:3657a6b95c2da261baf0c2d2f63f5df1
+lib/python3.8/site-packages/patoolib/programs/__pycache__/xz.cpython-38.opt-1.pyc
+@comment MD5:fd9d6ae396f7e319758969d3aec0f39f
+lib/python3.8/site-packages/patoolib/programs/zip.py
+@comment MD5:7aaeba456f574b2269bd2ace5a056d3c
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zip.cpython-38.pyc
+@comment MD5:b8dc0feb57642be8a2ea84c770b8c978
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zip.cpython-38.opt-1.pyc
+@comment MD5:b8dc0feb57642be8a2ea84c770b8c978
+lib/python3.8/site-packages/patoolib/programs/zoo.py
+@comment MD5:4acb995e7546290b5c35b0face4d4b89
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zoo.cpython-38.pyc
+@comment MD5:954da8aac81f7adeaf4355e743e56d3c
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zoo.cpython-38.opt-1.pyc
+@comment MD5:b5376d3663b506eaed245b3d893b5e54
+lib/python3.8/site-packages/patoolib/programs/zopfli.py
+@comment MD5:8632aa738f58f33632395007da4c66f5
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zopfli.cpython-38.pyc
+@comment MD5:887658b671760a6e53f00a3f4fd45b6d
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zopfli.cpython-38.opt-1.pyc
+@comment MD5:298a90e8032a99cedc89774843e37dea
+lib/python3.8/site-packages/patoolib/programs/zpaq.py
+@comment MD5:e90700b0a24bda81302001a5a74d05bf
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zpaq.cpython-38.pyc
+@comment MD5:67249c8a6f74af2c14555e2e0d52d463
+lib/python3.8/site-packages/patoolib/programs/__pycache__/zpaq.cpython-38.opt-1.pyc
+@comment MD5:68e07bab3344f4c09f73b06582fe5dc8
+lib/python3.8/site-packages/patoolib/util.py
+@comment MD5:03b799940ecce803ce71027fc8a52781
+lib/python3.8/site-packages/patoolib/__pycache__/util.cpython-38.pyc
+@comment MD5:a392abe2c8b41aba1c93e2a2c8c5b6c2
+lib/python3.8/site-packages/patoolib/__pycache__/util.cpython-38.opt-1.pyc
+@comment MD5:7068ebc135e63d19bb072bc21a778497
+share/man/man1/patool.1

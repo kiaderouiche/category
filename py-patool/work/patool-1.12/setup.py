@@ -69,7 +69,7 @@ data_files = []
 if os.name == 'nt':
     data_files.append(('share', ['doc/patool.txt']))
 else:
-    data_files.append(('share/man/man1', ['doc/patool.1']))
+    data_files.append(('/usr/pkg/man/man1', ['doc/patool.1']))
 
 
 class MyInstallLib (install_lib, object):

@@ -1,3 +1,4 @@
 bootstrap	digest>=20010302	../../pkgtools/digest
 tool	checkperms>=1.1	../../sysutils/checkperms
 build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	python38>=3.8.0	../../lang/python38
