@@ -2,9 +2,9 @@ bootstrap	digest>=20010302	../../pkgtools/digest
 tool	checkperms>=1.1	../../sysutils/checkperms
 build	cwrappers>=20150314	../../pkgtools/cwrappers
 full	py38-argcomplete>=1.9.4	../../devel/py-argcomplete
-full	py38-colorlog>=2.6.1	../../wip/py-colorlog
 full	py38-py>=1.4.0	../../devel/py-py
 full	py38-virtualenv>=14.0.0	../../devel/py-virtualenv
 full	py38-importlib-metadata>=2.0.0	../../devel/py-importlib-metadata
+full	py38-colorlog>=4.6.2	../../wip/py-colorlog
 full	py38-setuptools-[0-9]*	../../devel/py-setuptools
 full	python38>=3.8.0	../../lang/python38
