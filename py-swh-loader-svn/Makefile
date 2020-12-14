@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v3
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	py-retrying>=0:../../wip/py-retrying
-DEPENDS+=	# TODO: python-dateutil>=0
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=2.8.1:../../time/py-dateutil
 DEPENDS+=	py-subvertpy>=0.9.4:../../devel/py-subvertpy
 DEPENDS+=	# TODO: swh.storage>=0.11.3
 DEPENDS+=	# TODO: swh.model>=0.4.0

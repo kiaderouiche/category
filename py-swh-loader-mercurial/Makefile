@@ -14,8 +14,8 @@ BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
 DEPENDS+=	py-billiard>=0:../../parallel/py-billiard
 DEPENDS+=	py-click>=0:../../devel/py-click
 DEPENDS+=	# TODO: patool>=0
-DEPENDS+=	# TODO: python-dateutil>=0
-DEPENDS+=	# TODO: python-hglib>=0
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=2.8.1:../../time/py-dateutil
+DEPENDS+=	${PYPKGPREFIX}-hglib>=2.6.2:../../devel/py-hglib
 DEPENDS+=	py-retrying>=0:../../wip/py-retrying
 DEPENDS+=	# TODO: sqlitedict>=0
 DEPENDS+=	# TODO: swh.model>=0.4.0
