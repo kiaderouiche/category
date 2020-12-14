@@ -1,5 +1,0 @@
-global-exclude *.py[co]
-include colorlog/tests/
-include doc/
-include LICENSE
-include README.md
