@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=g/git_code_debt/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/asottile/git-code-debt
-OMMENT=	Dashboard for monitoring code debt in a git repository
+COMMENT=	Dashboard for monitoring code debt in a git repository
 #LICENSE=	# TODO: (see mk/license.mk)
 
 DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]:../../databases/py-sqlite3
