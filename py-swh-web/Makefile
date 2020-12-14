@@ -27,10 +27,10 @@ DEPENDS+=	${PYPKGPREFIX}-badges>=0:../../wip/py-htmlmin
 DEPENDS+=	${PYPKGPREFIX}-pygments>=0:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-keycloak>=0.19.0:../../wip/py-keycloak
 DEPENDS+=	${PYPKGPREFIX}-magic>=0.4.0:../../wip/py-magic
-DEPENDS+=	${PYPKGPREFIX}-memcached>=0:../../wip/py-memcached
+DEPENDS+=	${PYPKGPREFIX}-memcached>=1.59:../../devel/py-memcached
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
-DEPENDS+=	${PYPKGPREFIX}-sentry-sdk>=0:../../wip/py-sentry-sdk
+DEPENDS+=	${PYPKGPREFIX}-sentry-sdk>=0.19.4:../../wip/py-sentry-sdk
 DEPENDS+=	${PYPKGPREFIX}-typing-extensions>=0:../../devel/py-typing-extensions
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	# TODO: swh.indexer>=0.4.1
