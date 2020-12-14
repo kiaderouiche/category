@@ -1,0 +1,9 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	py38-setuptools_scm>=4.1.2	../../devel/py-setuptools_scm
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-dulwich>=0.18.7	../../devel/py-dulwich
+full	py38-retrying>=0	../../wip/py-retrying
+full	py38-click>=7.1.2	../../devel/py-click
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8	../../lang/python38
