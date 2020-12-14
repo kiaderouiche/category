@@ -3,7 +3,7 @@
 DISTNAME=	swh.loader.dir-0.0.35
 PKGNAME=	${PYPKGPREFIX}-swh-loader-dir-0.0.35
 CATEGORIES=	devel python
-MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.model/}
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.loader.dir/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDDIR
