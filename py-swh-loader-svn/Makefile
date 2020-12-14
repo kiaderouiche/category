@@ -10,8 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDSVN
 COMMENT=	Software Heritage Loader SVN
 LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
-DEPENDS+=	py-click>=0:../../devel/py-click
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	py-retrying>=0:../../wip/py-retrying
 DEPENDS+=	# TODO: python-dateutil>=0
 DEPENDS+=	py-subvertpy>=0.9.4:../../devel/py-subvertpy

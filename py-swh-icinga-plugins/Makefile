@@ -3,9 +3,9 @@
 DISTNAME=	swh.icinga_plugins-0.2.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/87/d7/4765c213db32ef9ca373870cd2212fd58b5a87b4b9bbdc4eae5b8451c19d/
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.icinga_plugins/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/swh-icinga-plugins
 COMMENT=	Icinga plugins for Software Heritage infrastructure monitoring
 #LICENSE=	# TODO: (see mk/license.mk)

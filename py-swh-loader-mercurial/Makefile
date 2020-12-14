@@ -3,9 +3,9 @@
 DISTNAME=	swh.loader.mercurial-0.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/20/4e/81523df887508918830adae5231d321fc6800322d75cacaf0ad024b10150/
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.loader.mercurial/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDHG/
 COMMENT=	Software Heritage Mercurial Loader
 #LICENSE=	# TODO: (see mk/license.mk)
