@@ -1,0 +1,20 @@
+--- /usr/pkgsrc/category/py-colorlog/work/.prefix.pre	2020-12-14 23:38:57.913171141 +0100
++++ /usr/pkgsrc/category/py-colorlog/work/.prefix.post	2020-12-14 23:38:59.269188139 +0100
+@@ -0,0 +1,17 @@
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog-4.6.2-py3.8.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog-4.6.2-py3.8.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog-4.6.2-py3.8.egg-info/requires.txt
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog-4.6.2-py3.8.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog-4.6.2-py3.8.egg-info/top_level.txt
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/colorlog.py
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/escape_codes.py
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__init__.py
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/logging.py
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/colorlog.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/colorlog.cpython-38.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/escape_codes.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/escape_codes.cpython-38.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/__init__.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/__init__.cpython-38.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/logging.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-colorlog/work/.destdir/usr/pkg/lib/python3.8/site-packages/colorlog/__pycache__/logging.cpython-38.pyc

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Log formatting with colors!
+===========================
+
+[![](https://img.shields.io/pypi/v/colorlog.svg)](https://warehouse.python.org/project/colorlog/)
+[![](https://img.shields.io/pypi/l/colorlog.svg)](https://warehouse.python.org/project/colorlog/)
+[![](https://img.shields.io/travis/borntyping/python-colorlog/master.svg)](https://travis-ci.org/borntyping/python-colorlog)
+
+`colorlog.ColoredFormatter` is a formatter for use with Python's `logging`
+module that outputs records using terminal colors.
+
+* [Source on GitHub](https://github.com/borntyping/python-colorlog)
+* [Packages on PyPI](https://pypi.python.org/pypi/colorlog)
+* [Builds on Travis CI](https://travis-ci.org/borntyping/python-colorlog)
+
+Installation
+------------
+
+Install from PyPI with:
+
+```bash
+...
