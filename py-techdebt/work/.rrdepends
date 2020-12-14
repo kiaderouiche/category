@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	nbpatch-[0-9]*	nbpatch-20151107
-tool	checkperms>=1.1	checkperms-1.12
-build	cwrappers>=20150314	cwrappers-20180325
-full	py38-matplotlib>=3.2.2	py38-matplotlib-3.2.2nb1
-full	py38-yaml>=5.1	py38-yaml-5.3.1
-full	py38-setuptools-[0-9]*	py38-setuptools-50.3.2
-full	python38>=3.8	python38-3.8.6nb1
