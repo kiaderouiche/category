@@ -11,7 +11,7 @@ COMMENT=	Software Heritage Deposit Server
 #LICENSE=	# TODO: (see mk/license.mk)
 
 BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
-DEPENDS+=	${PYPKGPREFIX}-click>=0:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-xmltodict>=0:../../textproc/py-xmltodict
 DEPENDS+=	${PYPKGPREFIX}-iso8601>=0:../../time/py-iso8601
 DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests

@@ -1,18 +1,18 @@
 # $NetBSD$
 
 DISTNAME=	swh.web.client-0.2.3
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/db/0f/a5643463c7472b5dca6b48287ab9896a14125279c9f08b34b138a0343b9e/
+PKGNAME=	${PYPKGPREFIX}-swh-web-client-0.2.3
+CATEGORIES=	www python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.web.client/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/source/swh-web-client/
 COMMENT=	Software Heritage Web client
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
-DEPENDS+=	py-click>=0:../../devel/py-click
-DEPENDS+=	# TODO: python-dateutil>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=2.8.1:../../time/py-dateutil
 DEPENDS+=	py-requests>=0:../../devel/py-requests
 DEPENDS+=	# TODO: swh.core>=0.3
 DEPENDS+=	# TODO: swh.model>=0

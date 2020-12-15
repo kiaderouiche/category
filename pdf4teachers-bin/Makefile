@@ -1,20 +1,15 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	PDF4Teachers
-GITHUB_TAG=	1.2.0
-DISTNAME=	1.2.0
-PKGNAME=	${GITHUB_PROJECT:tl}-${DISTNAME}
-CATEGORIES=	misc
+DISTNAME=	PDF4Teachers-Linux-1.2.0-BIN
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ClementGre/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_RELEASE=	1.2.0
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/ClementGre/PDF4Teachers/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/PDF4Teachers-1.2.0
-
-USE_LANGUAGES=	# none
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
