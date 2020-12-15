@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.loader.mercurial/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDHG/
 COMMENT=	Software Heritage Mercurial Loader
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
 DEPENDS+=	py-billiard>=0:../../parallel/py-billiard
