@@ -13,9 +13,9 @@ LICENSE=	gnu-gpl-v3
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-dateutil>=2.8.1:../../time/py-dateutil
-DEPENDS+=	py-requests>=0:../../devel/py-requests
-DEPENDS+=	# TODO: swh.core>=0.3
-DEPENDS+=	# TODO: swh.model>=0
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 TEST_DEPENDS+=	# TODO: pytest>=0
 TEST_DEPENDS+=	# TODO: pytest-mock>=0
 TEST_DEPENDS+=	# TODO: requests_mock>=0
