@@ -1,0 +1,7 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-mypy>=0.720	../../lang/py-mypy
+full	py38-typing-extensions>=3.7.4	../../devel/py-typing-extensions
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8.0	../../lang/python38

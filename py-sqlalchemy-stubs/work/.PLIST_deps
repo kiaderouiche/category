@@ -1,0 +1,15 @@
+@name py38-sqlalchemy-stubs-0.3
+@blddep py38-mypy-0.790
+@pkgdep py38-mypy>=0.720
+@blddep py38-typing-extensions-3.7.4.3
+@pkgdep py38-typing-extensions>=3.7.4
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
