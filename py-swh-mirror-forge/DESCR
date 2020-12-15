@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+swh-mirror-forge
+================
+
+Mirror swh's forge to github
+
+# Configuration
+
+In **$SWH_CONFIG_PATH/mirror-forge/config.yml** (SWH_CONFIG_PATH being in
+{*/etc/softwareheritage/*,*~/.config/swh*, *~/.swh/*}), add the following
+information:
+
+```yaml
+forge:
+  api_token: <forge-api-token>
+  url: <your-forge-api-url>
+github:
+  api_token: <github-api-token>
+  org: <your-org-in-github>
+```
+
+...
