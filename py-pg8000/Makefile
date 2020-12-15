@@ -2,7 +2,7 @@
 
 DISTNAME=	pg8000-1.16.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	databases
+CATEGORIES=	databases python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pg8000/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
@@ -12,5 +12,5 @@ COMMENT=	TODO: Short description of the package
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
