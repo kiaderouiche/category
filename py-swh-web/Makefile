@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=0:../../www/py-beautifulsoup4
-DEPENDS+=	${PYPKGPREFIX}-cryptography>=3.3.1:../../security/py-cryptography
+DEPENDS+=	${PYPKGPREFIX}-cryptography>=3.2.1:../../security/py-cryptography
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-django-cors-headers>=3.6.0:../../www/py-django-cors-headers
 #DEPENDS+=	${PYPKGPREFIX}-django-js-reverse>=0.9.1:../../wip/py-django-js-reverse
