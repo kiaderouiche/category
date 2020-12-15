@@ -15,8 +15,8 @@ DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	py-retrying>=0:../../wip/py-retrying
 DEPENDS+=	${PYPKGPREFIX}-dateutil>=2.8.1:../../time/py-dateutil
 DEPENDS+=	py-subvertpy>=0.9.4:../../devel/py-subvertpy
-DEPENDS+=	# TODO: swh.storage>=0.11.3
-DEPENDS+=	# TODO: swh.model>=0.4.0
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.0.83:../../wip/py-swh-storage
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	# TODO: swh.scheduler>=0.0.39
 DEPENDS+=	# TODO: swh.loader.core>=0.5.9
 
