@@ -18,13 +18,10 @@ DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 TEST_DEPENDS+=	${PYPKGPREFIX}-test>=6.2.0:../../devel/py-test
-TEST_DEPENDS+=	# TODO: pytest-django>=0
-TEST_DEPENDS+=	# TODO: pytest-mock>=0
-TEST_DEPENDS+=	# TODO: swh.scheduler[testing]>=0
-TEST_DEPENDS+=	# TODO: swh.loader.core[testing]>=0
-TEST_DEPENDS+=	# TODO: pytest-postgresql>=2.1.0
-TEST_DEPENDS+=	# TODO: requests_mock>=0
-TEST_DEPENDS+=	# TODO: django-stubs>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-django>=3.10.0:../../devel/py-test-django
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-mock>=2.0.0:../../devel/py-test-mock
+TEST_DEPENDS+=	${PYPKGPREFIX}-requests-mock>=1.8.0:../../devel/py-requests-mock
+TEST_DEPENDS+=	${PYPKGPREFIX}-django-stubs-1.7.0:../../devel/py-django-stubs
 
 USE_LANGUAGES=	# none
 

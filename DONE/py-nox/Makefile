@@ -14,6 +14,7 @@ PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 DEPENDS+=	${PYPKGPREFIX}-argcomplete>=1.9.4:../../devel/py-argcomplete
 DEPENDS+=	${PYPKGPREFIX}-py>=1.4.0:../../devel/py-py
+DEPENDS+=	${PYPKGPREFIX}-tox>=3.20.1:../../devel/py-tox
 DEPENDS+=	${PYPKGPREFIX}-virtualenv>=14.0.0:../../devel/py-virtualenv
 DEPENDS+=	${PYPKGPREFIX}-importlib-metadata>=2.0.0:../../devel/py-importlib-metadata
 DEPENDS+=	${PYPKGPREFIX}-colorlog>=4.6.2:../../wip/py-colorlog
