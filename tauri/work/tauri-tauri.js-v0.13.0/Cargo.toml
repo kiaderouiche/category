@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "tauri",
+  "tauri-api",
+  "tauri-utils",
+]
+exclude = [
+  "examples",
+]
