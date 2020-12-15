@@ -5,10 +5,10 @@ PKGNAME=	${PYPKGPREFIX}-swh-mirror-forge-0.0.5
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.mirror.forge/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/source/swh-mirror-forge/
 COMMENT=	Mirror swhs forge to github
-#LICENSE=	gnu-gpl-v3
+LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-vcversioner>=2.16.0.0:../../devel/py-vcversioner
 DEPENDS+=	py-requests>=0:../../devel/py-requests
