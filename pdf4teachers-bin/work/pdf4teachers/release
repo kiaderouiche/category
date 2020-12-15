@@ -1,0 +1,2 @@
+JAVA_VERSION="14.0.1"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop java.logging PDF4Teachers.master.merged.module com.fasterxml.jackson.core commons.logging java.management java.transaction.xa java.sql javafx.base jdk.unsupported javafx.graphics javafx.controls java.scripting javafx.fxml jdk.unsupported.desktop javafx.swing jdk.crypto.ec jlatexmath org.apache.fontbox org.apache.pdfbox org.jfxtras.styles.jmetro org.yaml.snakeyaml fr.themsou"

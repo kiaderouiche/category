@@ -1,0 +1,15 @@
+ 1. Extract archive PDF4Teachers-Linux-1.1.1-BIN.tar.gz, and then copy the folder pdf4teachers in /opt (in order to preserve launcher paths) by typing in a terminal :
+  > su
+  > cp -R pdf4teachers /opt
+
+ 2. Copy the launcher /opt/pdf4teachers/lib/PDF4Teachers.desktop in /usr/share/applications by typing :
+   > cp /opt/pdf4teachers/lib/PDF4Teachers.desktop /usr/share/applications
+
+
+   
+Uninstall is done by removing the folder /opt/pdf4teachers and the launcher :
+  > su
+  > rm -R /opt/pdf4teachers
+  > rm /usr/share/applications/PDF4Teachers.desktop
+
+

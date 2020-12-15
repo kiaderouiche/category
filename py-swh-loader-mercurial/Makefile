@@ -19,9 +19,9 @@ DEPENDS+=	${PYPKGPREFIX}-hglib>=2.6.2:../../devel/py-hglib
 DEPENDS+=	${PYPKGPREFIX}-retrying>=1.3.3:../../wip/py-retrying
 #DEPENDS+=	${PYPKGPREFIX}-sqlitedict>=1.7.0:../../wip/py-sqlitedict
 #DEPENDS+=	${PYPKGPREFIX}-swh-loader-core>=0.11.0:../../wip/py-swh-loader-core
-#DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 #DEPENDS+=	${PYPKGPREFIX}-swh-scheduler>=0.4.0:../../wip/py-swh-scheduler
-"DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.13.1:../../wip/py-swh-storage
+DEPENDS+=	${PYPKGPREFIX}-swh-storage>=0.13.1:../../wip/py-swh-storage
 
 USE_LANGUAGES=	# none
 

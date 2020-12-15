@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Education;Office
+Comment[fr_FR]=Annotation de PDFs pour les enseignants
+Comment[fr_BE]=Annotation de PDFs pour les enseignants
+Comment[fr_CH]=Annotation de PDFs pour les enseignants
+Comment[fr_LU]=Annotation de PDFs pour les enseignants
+Comment[fr_CA]=Annotation de PDFs pour les enseignants
+Comment=PDF editor for teachers
+Exec=/opt/pdf4teachers/bin/PDF4Teachers %U
+GenericName[fr_FR]=Annotation de PDFs pour les enseignants
+GenericName[fr_BE]=Annotation de PDFs pour les enseignants
+GenericName[fr_CH]=Annotation de PDFs pour les enseignants
+GenericName[fr_LU]=Annotation de PDFs pour les enseignants
+GenericName[fr_CA]=Annotation de PDFs pour les enseignants
+GenericName=PDF editor for teachers
+Icon=/opt/pdf4teachers/lib/logo.png
+MimeType=application/pdf;
+Name=PDF4Teachers
+StartupNotify=true
+Terminal=false
+Type=Application
