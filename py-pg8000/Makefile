@@ -12,5 +12,7 @@ COMMENT=	TODO: Short description of the package
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
+DEPENDS+=	${PYPKGPREFIX}-scramp>=1.2.0:../../wip/py-scramp
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
