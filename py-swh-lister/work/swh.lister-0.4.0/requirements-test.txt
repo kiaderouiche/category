@@ -1,4 +1,0 @@
-pytest
-requests_mock
-sqlalchemy-stubs
-testing.postgresql

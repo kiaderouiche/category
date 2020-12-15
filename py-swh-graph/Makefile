@@ -2,13 +2,13 @@
 
 DISTNAME=	swh.graph-0.2.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/1c/1f/fc0cb7be3115cba118f25ed282633fdd8d66955dd5e9f85854ea2a71d737/
+CATEGORIES=	graphics python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.graph/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DGRPH
 COMMENT=	Software Heritage graph service
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
 DEPENDS+=	py-aiohttp>=0:../../www/py-aiohttp
