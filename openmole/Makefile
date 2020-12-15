@@ -14,6 +14,6 @@ USE_LANGUAGES=	# none
 
 USE_TOOLS+=	bash
 
-VERSION=	
+VERSION=	10
 
 .include "../../mk/bsd.pkg.mk"
