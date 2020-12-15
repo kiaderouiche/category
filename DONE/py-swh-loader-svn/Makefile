@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	swh.loader.svn-0.5.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-swh-loader-svn-0.5.0
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.loader.svn/}
 
