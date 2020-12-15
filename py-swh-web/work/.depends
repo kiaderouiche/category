@@ -3,7 +3,7 @@ tool	checkperms>=1.1	../../sysutils/checkperms
 build	py38-setuptools_scm>=4.1.2	../../devel/py-setuptools_scm
 build	cwrappers>=20150314	../../pkgtools/cwrappers
 full	py38-beautifulsoup4>=0	../../www/py-beautifulsoup4
-full	py38-cryptography>=3.3.1	../../security/py-cryptography
+full	py38-cryptography>=3.2.1	../../security/py-cryptography
 full	py38-django-[0-9]*	../../www/py-django
 full	py38-django-cors-headers>=3.6.0	../../www/py-django-cors-headers
 full	py38-djangorestframework>=3.12.1	../../www/py-djangorestframework
