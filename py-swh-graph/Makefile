@@ -10,13 +10,13 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DGRPH
 COMMENT=	Software Heritage graph service
 LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	# TODO: setuptools-scm>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	py-aiohttp>=0:../../www/py-aiohttp
-DEPENDS+=	py-click>=0:../../devel/py-click
-DEPENDS+=	py-py4j>=0:../../wip/py-py4j
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
+DEPENDS+=	${PYPKGPREFIX}-py4j>=0.10.9.1:../../wip/py-py4j
 DEPENDS+=	py-psutil>=0:../../sysutils/py-psutil
-DEPENDS+=	# TODO: swh.core[http]>=0.0.79
-DEPENDS+=	# TODO: swh.model>=0
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
+DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 TEST_DEPENDS+=	# TODO: pytest>=0
 
 .include "../../lang/python/egg.mk"
