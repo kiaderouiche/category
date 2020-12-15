@@ -26,7 +26,7 @@ DEPENDS+=	${PYPKGPREFIX}-lxml>=4.6.2:../../textproc/py-lxml
 #DEPENDS+=	${PYPKGPREFIX}-badges>=0:../../wip/py-badges
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-keycloak>=0.19.0:../../wip/py-keycloak
-DEPENDS+=	${PYPKGPREFIX}-magic>=0.4.0:../../devel/py-magic
+DEPENDS+=	${PYPKGPREFIX}-magic>=0.4.0:../../sysutils/py-magic
 DEPENDS+=	${PYPKGPREFIX}-memcached>=1.59:../../devel/py-memcached
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
