@@ -2,16 +2,20 @@
 
 GITHUB_PROJECT=	PDF4Teachers
 DISTNAME=	PDF4Teachers-Linux-1.2.0-BIN
-CATEGORIES=	category
+PKGNAME=	${GITHUB_PROJECT:tl}-1.2.0
+CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ClementGre/}
 GITHUB_RELEASE=	1.2.0
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ClementGre/PDF4Teachers/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/pdf4teachers
-USE_LANGUAGES=	# none
 
+NO_BUILD=	yes
+PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
+
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
