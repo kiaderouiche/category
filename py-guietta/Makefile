@@ -10,9 +10,8 @@ HOMEPAGE=	https://github.com/alfiopuglisi/guietta
 COMMENT=	Simple GUI for Python
 LICENSE=	mit
 
-DEPENDS+=	# TODO: PySide2>=0
-
 USE_LANGUAGES=	# none
 
+BUILDLINK_API_DEPENDS.py-pyside+=	${PYPKGPREFIX}-pyside>=1.2.4
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
