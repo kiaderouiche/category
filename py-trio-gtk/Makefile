@@ -2,10 +2,10 @@
 
 DISTNAME=	trio-gtk-3.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/c8/df/8c8bf5821c5d420fda571a9e301e8c8be2b21f3fa3afeea3e01e8d022323/
+CATEGORIES=	x11 python
+MASTER_SITES=	${MASTER_SITE_PYPI:=t/trio-gtk/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/decentral1se/trio-gtk
 COMMENT=	Trio guest mode wrapper for PyGTK
 #LICENSE=	# TODO: (see mk/license.mk)
