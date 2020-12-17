@@ -12,7 +12,7 @@ COMMENT=	Trio guest mode wrapper for PyGTK
 
 DEPENDS+=	# TODO: pycairo<1.20>=0
 DEPENDS+=	# TODO: pygobject<3.32>=0
-DEPENDS+=	py-trio>=0.17.0,<0.18.0:../../category/py-trio
+DEPENDS+=	${PYPKGPREFIX}-trio>=0.17.0,<0.18.0:../../wip/py-trio
 
 USE_LANGUAGES=	# none
 
