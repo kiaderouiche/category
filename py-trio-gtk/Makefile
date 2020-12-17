@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=t/trio-gtk/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/decentral1se/trio-gtk
 COMMENT=	Trio guest mode wrapper for PyGTK
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-cairo>=01.20:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-gobject>=3.32:../../devel/py-gobject
