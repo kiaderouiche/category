@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-cairo>=01.20:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-gobject>=3.32:../../devel/py-gobject
-DEPENDS+=	${PYPKGPREFIX}-trio>=0.17.0,<0.18.0:../../wip/py-trio
+DEPENDS+=	${PYPKGPREFIX}-trio>=0.17.0:../../wip/py-trio
 
 USE_LANGUAGES=	# none
 
