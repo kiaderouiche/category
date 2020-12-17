@@ -10,7 +10,7 @@ GITHUB_RELEASE=	1.2.0
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ClementGre/PDF4Teachers/
 COMMENT=	PDF editing software in large quantities
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 WRKSRC=		${WRKDIR}/pdf4teachers
 
