@@ -2,13 +2,13 @@
 
 DISTNAME=	datashader-0.11.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	graphics python
 MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashader/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://datashader.org
 COMMENT=	Data visualization toolchain based on aggregating into a grid
-#LICENSE=	New BSD # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-dask>=0.18.0:../../wip/py-dask
 DEPENDS+=	${PYPKGPREFIX}-toolz>=0.7.4:../../devel/py-toolz
@@ -20,8 +20,8 @@ DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
 DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0:../../wip/py-colorcet
 DEPENDS+=	${PYPKGPREFIX}-param>=1.6.0:../../wip/py-param
 DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.6:../../wip/py-ct
-DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
-DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
+#DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
+#DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
 
 
 USE_LANGUAGES=	# none
