@@ -1,0 +1,3 @@
+Aioreactive is RxPY for asyncio. It's an asynchronous and reactive
+Python library for asyncio using async and await. Aioreactive is built
+on the Expression functional library and, integrates naturally with the Python language.
