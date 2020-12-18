@@ -2,7 +2,7 @@
 
 DISTNAME=	Gooey-1.0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
-CATEGORIES=	category python
+CATEGORIES=	x11 python
 MASTER_SITES=	${MASTER_SITE_PYPI:=G/Gooey/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
