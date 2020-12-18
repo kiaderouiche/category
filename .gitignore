@@ -5,6 +5,9 @@
 
 # Temporary files
 Makefile-url2pkg.bak
+Makefile.old
+Makefile.orig
+
 *~
 \#*\#
 *.orig
