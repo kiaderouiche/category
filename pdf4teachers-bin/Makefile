@@ -18,5 +18,6 @@ NO_BUILD=	yes
 
 PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
