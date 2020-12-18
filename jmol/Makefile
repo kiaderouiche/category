@@ -18,6 +18,8 @@ USE_LANGUAGES=	# none
 
 PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
 
+INSTALLATION_DIRS=	bin ${JMOL_HOME} 
+
 JMOL_HOME=	${PREFIX}/share/jmol
 JMOL_FILES=	Jmol.jar JmolApplet.jar           	    \
 			JmolApplet0.jar 		    \
