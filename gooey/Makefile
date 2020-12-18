@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=G/Gooey/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/Gooey/
-COMMENT=	Turn (almost) any command line program into a full GUI application with one line
+COMMENT=	Command line program into a full GUI application with one line
 LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-Pillow>=4.3.0:../../graphics/py-Pillow
