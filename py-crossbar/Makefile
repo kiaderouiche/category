@@ -10,13 +10,16 @@ HOMEPAGE=	https://crossbar.io/
 COMMENT=	Crossbar.io multi-protocol application router for microservices
 LICENSE=	gnu-lgpl-v3
 
+DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
+DEPENDS+=	${PYPKGPREFIX}-bitstring>=3.1.7:../../devel/py-bitstring
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
 DEPENDS+=	${PYPKGPREFIX}-incremental>=17.5.0:../../devel/py-incremental
 DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/pypy-treq
 DEPENDS+=	${PYPKGPREFIX}-txaio>=1.0.3:../../devel/py-txaio
 DEPENDS+=	${PYPKGPREFIX}-msgpack>=1.0.0:../../devel/py-msgpack
-DEPENDS+=	${PYPKGPREFIX}->=:../../devel/py-ZopeInterface
+DEPENDS+=	${PYPKGPREFIX}-ZopeInterface>=5.1.2:../../devel/py-ZopeInterface
 #DEPENDS+=	${PYPKGPREFIX}-argon2-cffi-[0-9]*:../../security/py-argon2-cffi
 DEPENDS+=	${PYPKGPREFIX}-numpy>=1.19.4:../../math/py-numpy
 DEPENDS+=	${PYPKGPREFIX}-hpack>=4.0.0:../../net/py-hpack
