@@ -10,8 +10,8 @@ HOMEPAGE=	https://github.com/h4ck3rk3y/entropy
 COMMENT=	Entropy is a command line friend that helps you reduce entropy in your life
 LICENSE=	mit
 
-DEPENDS+=	py-colorama>=0.4.3:../../comms/py-colorama
-DEPENDS+=	py-docopt>=0.6.2:../../devel/py-docopt
+DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
+DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2:../../devel/py-docopt
 
 USE_LANGUAGES=	# none
 
