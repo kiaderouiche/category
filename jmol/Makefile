@@ -11,6 +11,8 @@ COMMENT=	Jmol: an open-source Java viewer for chemical structures in 3D
 LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/jmol-14.31.20
+
 USE_LANGUAGES=	# none
 
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
