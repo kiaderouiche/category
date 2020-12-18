@@ -16,6 +16,8 @@ ONLY_FOR_PLATFORM=	NetBSD-*-i386 Linux-*-*
 
 USE_LANGUAGES=	# none
 
+PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
+
 JMOL_HOME=	${PREFIX}/share/jmol
 JMOL_FILES=	Jmol.jar JmolApplet.jar           	    \
 			JmolApplet0.jar 		    \
