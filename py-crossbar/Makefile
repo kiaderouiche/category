@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	crossbar-20.8.1
+DISTNAME=	crossbar-20.12.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=c/crossbar/}
@@ -10,7 +10,6 @@ HOMEPAGE=	https://crossbar.io/
 COMMENT=	Crossbar.io multi-protocol application router for microservices
 LICENSE=	gnu-lgpl-v3
 
-
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
 DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
 DEPENDS+=	${PYPKGPREFIX}-incremental>=17.5.0:../../devel/py-incremental
@@ -19,13 +18,15 @@ DEPENDS+=	${PYPKGPREFIX}-txaio>=1.0.3:../../devel/py-txaio
 DEPENDS+=	${PYPKGPREFIX}-msgpack>=1.0.0:../../devel/py-msgpack
 #DEPENDS+=	${PYPKGPREFIX}-argon2-cffi-[0-9]*:../../security/py-argon2-cffi
 DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/py-treq
+DEPENDS+=	${PYPKGPREFIX}-numpy>=1.19.4:../../math/py-numpy
+DEPENDS+=	${PYPKGPREFIX}-hpack>=4.0.0:../../net/py-hpack
 DEPENDS+=	${PYPKGPREFIX}-netaddr>=0.8.0:../../net/py-netaddr
 DEPENDS+=	${PYPKGPREFIX}-txtorcon>=1.15.0:../../net/py-txtorcon
-#DEPENDS+=	${PYPKGPREFIX}-automata>=0.1.4:../../wip/py-automata
 DEPENDS+=	${PYPKGPREFIX}-scour>=0.38.2:../../wip/py-scour
 DEPENDS+=	${PYPKGPREFIX}-passlib>=0.14.3:../../security/py-passlib
 DEPENDS+=	${PYPKGPREFIX}-watchdog>=0.10.4:../../sysutils/py-watchdog
 DEPENDS+=	${PYPKGPREFIX}-priority>=1.0.3:../../wip/py-priority
+DEPENDS+=	${PYPKGPREFIX}-service_identity>=:../../security/py-service_identity
 DEPENDS+=	${PYPKGPREFIX}-setproctitle>=1.2:../../sysutils/py-setproctitle
 DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
@@ -40,5 +41,11 @@ DEPENDS+=	${PYPKGPREFIX}-hyperlink-[0-9]*:../../www/py-hyperlink
 DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-werkzeug>=1.0.1:../../www/py-werkzeug
 
+#twisted[tls,conch,http2]>=20.3.0; sys_platform != 'darwin' and sys_platform != 'win32'
+#twisted[tls,conch,http2,osx_platform]>=20.3.0; sys_platform == 'darwin'
+#twisted[tls,conch,http2,windows_platform]>=20.3.0; sys_platform == 'win32'
+
+BUILDLINK_API_DEPENDS.py-numpy+=	${PYPKGPREFIX}-numpy>=1.0
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
