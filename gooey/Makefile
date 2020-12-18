@@ -10,9 +10,9 @@ HOMEPAGE=	http://pypi.python.org/pypi/Gooey/
 COMMENT=	Turn (almost) any command line program into a full GUI application with one line
 LICENSE=	mit
 
-DEPENDS+=	py-Pillow>=4.3.0:../../graphics/py-Pillow
-DEPENDS+=	py-psutil>=5.4.2:../../sysutils/py-psutil
-DEPENDS+=	py-colored>=1.3.93:../../textproc/py-colored
+DEPENDS+=	${PYPKGPREFIX}-Pillow>=4.3.0:../../graphics/py-Pillow
+DEPENDS+=	${PYPKGPREFIX}-psutil>=5.4.2:../../sysutils/py-psutil
+DEPENDS+=	${PYPKGPREFIX}-colored>=1.3.93:../../textproc/py-colored
 DEPENDS+=	# TODO: pygtrie>=2.3.3
 DEPENDS+=	# TODO: wxpython==4.1.0>=0
 
