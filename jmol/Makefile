@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=jmol/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://jmol.sourceforge.net/
-COMMENT=	Jmol: an open-source Java viewer for chemical structures in 3D
+COMMENT=	Open-source Java viewer for chemical structures in 3D
 LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/jmol-14.31.20
