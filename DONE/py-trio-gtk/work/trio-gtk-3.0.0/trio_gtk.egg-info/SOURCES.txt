@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-setup.py
-trio_gtk.py
-trio_gtk.egg-info/PKG-INFO
-trio_gtk.egg-info/SOURCES.txt
-trio_gtk.egg-info/dependency_links.txt
-trio_gtk.egg-info/requires.txt
-trio_gtk.egg-info/top_level.txt
