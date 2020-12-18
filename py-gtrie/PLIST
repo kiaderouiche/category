@@ -1,4 +1,5 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/pygtrie.py
+${PYSITELIB}/pygtrie.pyc
+${PYSITELIB}/pygtrie.pyo
