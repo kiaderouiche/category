@@ -1,0 +1,7 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-cairo>=01.20	../../graphics/py-cairo
+full	py38-gobject3>=3.36.1	../../devel/py-gobject3
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8.0	../../lang/python38

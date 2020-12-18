@@ -1,0 +1,15 @@
+@name py38-trio-gtk-3.0.0
+@blddep py38-cairo-1.20.0
+@pkgdep py38-cairo>=01.20
+@blddep py38-gobject3-3.36.1nb1
+@pkgdep py38-gobject3>=3.36.1
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
