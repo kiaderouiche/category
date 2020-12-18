@@ -14,5 +14,11 @@ WRKSRC=		${WRKDIR}/jmol-14.31.20
 
 USE_LANGUAGES=	# none
 
+do-install:
+  ${INSTALL_SCRIPT}  ${WRKSRC}/jmol.sh ${DESTDIR}${PREFIX}/bin/jmol
+.for  j in ${JMOL_FILES}
+	${INSTALL_DATA} ${WRKSRC}/${j}  ${DESTDIR}${JMOL_HOME}
+.endfor
+
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
