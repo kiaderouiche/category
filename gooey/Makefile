@@ -14,9 +14,10 @@ DEPENDS+=	${PYPKGPREFIX}-Pillow>=4.3.0:../../graphics/py-Pillow
 DEPENDS+=	${PYPKGPREFIX}-psutil>=5.4.2:../../sysutils/py-psutil
 DEPENDS+=	${PYPKGPREFIX}-colored>=1.3.93:../../textproc/py-colored
 #DEPENDS+=	${PYPKGPREFIX}-gtrie>=2.4.1:../../wip/py-gtrie
-DEPENDS+=	# TODO: wxpython==4.1.0>=0
 
 USE_LANGUAGES=	# none
 
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-wxWidgets+=	${PYPKGPREFIX}-wxWidgets>=2.6.1.0
+.include "../../x11/py-wxWidgets/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
