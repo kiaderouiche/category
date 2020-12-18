@@ -2,7 +2,7 @@
 
 DISTNAME=	pygtrie-2.4.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-CATEGORIES=	category
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pygtrie/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
