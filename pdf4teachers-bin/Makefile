@@ -14,7 +14,7 @@ LICENSE=	apache-2.0
 
 WRKSRC=		${WRKDIR}/pdf4teachers
 
-USE_TOOLS+= bash
+USE_TOOLS+= bash pax
 NO_BUILD=	yes
 
 PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
