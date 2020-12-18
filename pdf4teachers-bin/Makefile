@@ -14,6 +14,8 @@ LICENSE=	apache-2.0
 
 WRKSRC=		${WRKDIR}/pdf4teachers
 
+ONLY_FOR_PLATFORM=	NetBSD-*-i386 Linux-*-*
+
 USE_TOOLS+= bash pax
 NO_BUILD=	yes
 
