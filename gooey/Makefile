@@ -17,7 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-colored>=1.3.93:../../textproc/py-colored
 
 USE_LANGUAGES=	# none
 
-BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-wxWidgets+=	${PYPKGPREFIX}-wxWidgets>=2.6.1.0
-.include "../../x11/py-wxWidgets/buildlink3.mk"
+#BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-wxWidgets+=	${PYPKGPREFIX}-wxWidgets>=2.6.1.0
+#.include "../../x11/py-wxWidgets/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
