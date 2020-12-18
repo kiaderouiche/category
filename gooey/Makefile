@@ -3,7 +3,7 @@
 DISTNAME=	Gooey-1.0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/92/fd/a1e8b77a446af66a368d12e6a71c580112c5288d35af66873455de3c044e/
+MASTER_SITES=	${MASTER_SITE_PYPI:=G/Gooey/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pypi.python.org/pypi/Gooey/
