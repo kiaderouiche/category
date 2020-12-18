@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# entropy
+
+![](https://cdn.pixabay.com/photo/2016/09/16/19/12/atom-1674878_960_720.png)
+
+the natural state of entropy is to increase. we must fight against it. 💪
+
+entropy is a command line friend that helps you reduce entropy
+in your life
+
+
+## Demo
+
+![](https://i.imgur.com/InlyNci.gif)
+
+## Installation
+
+### 1: [PIP](https://pypi.python.org/pypi/entropy)
+
+```bash
+$ pip install entropy
+...
