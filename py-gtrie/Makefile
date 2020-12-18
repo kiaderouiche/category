@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=p/pygtrie/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mina86/pygtrie
 COMMENT=	Pure Python trie data structure implementation
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
