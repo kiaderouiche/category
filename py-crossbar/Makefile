@@ -12,6 +12,7 @@ LICENSE=	gnu-lgpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
+DEPENDS+=	${PYPKGPREFIX}-automat>=0.8.0:../../devel/py-automat
 DEPENDS+=	${PYPKGPREFIX}-bitstring>=3.1.7:../../devel/py-bitstring
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
