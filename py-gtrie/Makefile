@@ -10,5 +10,5 @@ HOMEPAGE=	https://files.pythonhosted.org/packages/3c/93/557455c974a21dd7ec0da309
 COMMENT=	Pure Python trie data structure implementation
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
