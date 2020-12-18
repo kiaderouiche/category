@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	category python
 MASTER_SITES=	${MASTER_SITE_PYPI:=G/Gooey/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/Gooey/
 COMMENT=	Turn (almost) any command line program into a full GUI application with one line
 LICENSE=	mit
