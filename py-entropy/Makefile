@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=e/entropy/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/h4ck3rk3y/entropy
-COMMENT=	Entropy is a command line friend that helps you reduce entropy in your life
+COMMENT=	Command line friend that helps you reduce entropy in your life
 LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
