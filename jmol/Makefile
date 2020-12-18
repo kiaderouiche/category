@@ -12,7 +12,16 @@ LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/jmol-14.31.20
 
+ONLY_FOR_PLATFORM=	NetBSD-*-i386 Linux-*-*
+
 USE_LANGUAGES=	# none
+
+JMOL_HOME=	${PREFIX}/share/jmol
+JMOL_FILES=	Jmol.jar JmolApplet.jar           	    \
+			JmolApplet0.jar 		    \
+			JmolApplet0_*.jar	            \
+			JmolAppletSigned0_*.jar	    	    \
+			JmolData.jar Jmol.js
 
 do-install:
   ${INSTALL_SCRIPT}  ${WRKSRC}/jmol.sh ${DESTDIR}${PREFIX}/bin/jmol
