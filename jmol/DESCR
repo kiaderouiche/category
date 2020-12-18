@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.txt
+
+==============================================================================
+===                                  Jmol                                  ===
+==============================================================================
+      Jmol: an open-source Java viewer for chemical structures in 3D, 
+     with features for chemicals, crystals, materials and biomolecules.
+==============================================================================
+
+Note 3/23/2018: All Jmol Development is moving to GitHub. 
+
+https://github.com/BobHanson/Jmol-SwingJS
+
+Bob Hanson
+
+ 
+
+
+Jmol is an open-source molecule viewer and editor written in Java.
+
+Full information is available at http://www.jmol.org/
+
+...
