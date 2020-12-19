@@ -12,9 +12,11 @@ HOMEPAGE=	https://google.github.io/flatbuffers/
 COMMENT=	The FlatBuffers serialization format for Python
 LICENSE=	apache-2.0
 
-PLIST_SUBST+=	EGG_INFODIR=flatbuffers-20201129142929-py${PYVERSSUFFIX}.egg-info
-PLIST_SUBST+=	PYSITELIB=${PYSITELIB}
-PLIST_SUBST+=	EGG_INFODIR=${EGG_INFODIR}
+# adhoc fix to convert below
+# lark-parser-0.1-py3.8.egg-info
+# lark-parser-0.0.0-py3.8.egg-info
+
+#EGG_INFODIR=	${DISTNAME:S/-/_/:S/0.1/0.0.0/}-py${PYVERSSUFFIX}.egg-info
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -10,13 +10,14 @@ HOMEPAGE=	https://github.com/pixiedust/pixiedust
 COMMENT=	Productivity library for Jupyter Notebook
 LICENSE=	apache-2.0
 
-DEPENDS+=	# TODO: mpld3>=0
-DEPENDS+=	${PYPKGPREFIX}-lxml>=0:../../textproc/py-lxml
-DEPENDS+=	${PYPKGPREFIX}-geojson>=0:../../geography/py-geojson
-DEPENDS+=	${PYPKGPREFIX}-astunparse>=0:../../wip/py-astunparse
-DEPENDS+=	${PYPKGPREFIX}-markdown>=0:../../textproc/py-markdown
-DEPENDS+=	${PYPKGPREFIX}-colour>=0:../../textproc/py-colour
-DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
+
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-geojson>=2.5.0:../../geography/py-geojson
+DEPENDS+=	${PYPKGPREFIX}-markdown>=3.1.1:../../textproc/py-markdown
+DEPENDS+=	${PYPKGPREFIX}-colour>=0.1.5:../../textproc/py-colour
+DEPENDS+=	${PYPKGPREFIX}-lxml>=4.6.2:../../textproc/py-lxml
+DEPENDS+=	${PYPKGPREFIX}-astunparse>=1.6.3:../../wip/py-astunparse
+#DEPENDS+=	${PYPKGPREFIX}-mpld3>=0.5.2:../../wip/py-mpld3
 
 USE_LANGUAGES=	# none
 
