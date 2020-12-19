@@ -9,7 +9,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/acaudwell/Gource/
-COMMENT=	TODO: Short description of the package
+COMMENT=	software version control visualization
 LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes
