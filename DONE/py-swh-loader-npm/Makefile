@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/source/swh-loader-npm.git
 COMMENT=	Software Heritage loader for npm packages
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-vcversioner>=2.16.0.0:../../devel/py-vcversioner
 DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
