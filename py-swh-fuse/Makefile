@@ -21,7 +21,7 @@ DEPENDS+=	${PYPKGPREFIX}-psutil>=5.7.3:../../sysutils/py-psutil
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
-DEPENDS+=	# TODO: swh.web.client>=0.2.3
+DEPENDS+=	${PYPKGPREFIX}-swh-web-client>=0.2.3:../../www/py-swh-web-client
 
 USE_LANGUAGES=	# none
 
