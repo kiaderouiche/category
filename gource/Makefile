@@ -18,6 +18,8 @@ USE_LANGUAGES=	c c++
 
 REPLACE_PERL+=  scripts/gource-ps.pl
 
+CONFIGURE_ARGS+=  --enable-ttf-font-dir
+
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/SDL2_image/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
