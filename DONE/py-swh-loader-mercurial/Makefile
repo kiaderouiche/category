@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDHG/
 COMMENT=	Software Heritage Mercurial Loader
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-billiard>=3.6.3.0:../../parallel/py-billiard
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
