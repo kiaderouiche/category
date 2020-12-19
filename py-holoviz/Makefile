@@ -2,10 +2,10 @@
 
 DISTNAME=	holoviz-0.11.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category
+CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_PYPI:=h/holoviz/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://files.pythonhosted.org/packages/a2/90/a1d1e3ed32c6ec1d52b5adb9effeb0b706dfe734b5306e30c1e055d05d01/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
