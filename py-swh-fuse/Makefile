@@ -14,10 +14,10 @@ PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-aiosqlite>=0:../../databases/py-aiosqlite
-DEPENDS+=	# TODO: pyfuse3>=0
-DEPENDS+=	# TODO: python-daemon>=0
-DEPENDS+=	py-requests>=0:../../devel/py-requests
-DEPENDS+=	${PYPKGPREFIX}-psutil>=0:../../sysutils/py-psutil
+#DEPENDS+=	${PYPKGPREFIX}-fuse3>=0:../../
+DEPENDS+=	${PYPKGPREFIX}-daemon>=2.2.4:../../devel/py-daemon
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-psutil>=5.7.3:../../sysutils/py-psutil
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
