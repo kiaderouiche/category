@@ -25,6 +25,7 @@ BUILDLINK_API_DEPENDS.boost-libs+=      boost-libs-1.73.*
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/SDL2_image/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 BUILDLINK_API_DEPENDS.png+=	png>=1.2.4
 .include "../../graphics/png/buildlink3.mk"
 BUILDLINK_API_DEPENDS.freetype2+=       freetype2>=2.8.
