@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDSVN
 COMMENT=	Software Heritage Loader SVN
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-retrying>=1.3.3:../../wip/py-retrying
