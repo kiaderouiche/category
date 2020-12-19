@@ -8,7 +8,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=tauri-apps/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/tauri-apps/tauri/
+HOMEPAGE=	https://tauri.studio/
 COMMENT=	Build smaller, faster, and more secure desktop applications with a web frontend
 #LICENSE=	# TODO: (see mk/license.mk)
 
