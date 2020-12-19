@@ -13,6 +13,7 @@ COMMENT=	TODO: Short description of the package
 
 WRKSRC=		${WRKDIR}/factor
 
+USE_TOOLS+=	bash
 USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"

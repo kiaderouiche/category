@@ -1,0 +1,46 @@
+Finding OS...
+Finding ARCH...
+Finding num cores...
+Checking for all(clang clang++)...found!
+Finding WORD...
+OS=linux
+ARCH=x86
+NUM_CORES=4
+WORD=64
+DEBUG=
+CURRENT_BRANCH=master
+FACTOR_BINARY=factor
+FACTOR_LIBRARY=libfactor.a
+FACTOR_IMAGE=factor.image
+MAKE_TARGET=linux-x86-64
+BOOT_IMAGE=boot.unix-x86.64.image
+MAKE_IMAGE_TARGET=unix-x86.64
+GIT_PROTOCOL=git
+GIT_URL=git://factorcode.org/git/factor.git
+DOWNLOADER=wget
+CC=clang
+CXX=clang++
+MAKE=make
+COPY=cp
+DELETE=rm
+Checking for any(chmod)...found chmod!
+Checking for any(uname)...found uname!
+Checking for any(git)...found git!
+Checking for any(wget curl)...found wget!
+Checking for any(clang gcc)...found clang!
+Checking for any(clang++ g++ cl)...found clang++!
+Checking for any(make gmake)...found make!
+Checking for any(md5sum md5)...found md5sum!
+Checking for any(cut)...found cut!
+Checking for library GL...found.
+Checking for library X11...found.
+Checking for library pango-1.0...found.
+Checking for library gobject-2.0...found.
+Checking for library gtk-x11-2.0...not found.
+Checking for library gdk-x11-2.0...not found.
+Checking for library gdk_pixbuf-2.0...found.
+Checking for library gtkglext-x11-1.0...not found.
+Checking for library atk-1.0...found.
+Checking for library gio-2.0...found.
+Checking for library gdkglext-x11-1.0...not found.
+Checking for library pango-1.0...found.
