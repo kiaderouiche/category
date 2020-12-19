@@ -13,7 +13,7 @@ COMMENT=	software version control visualization
 LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	perl pkg-config
 USE_LANGUAGES=	c c++
 
 .include "../../devel/pcre/buildlink3.mk"
