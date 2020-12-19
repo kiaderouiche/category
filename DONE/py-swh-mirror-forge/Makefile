@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/source/swh-mirror-forge/
 COMMENT=	Mirror swhs forge to github
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 DEPENDS+=	${PYPKGPREFIX}-vcversioner>=2.16.0.0:../../devel/py-vcversioner
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
