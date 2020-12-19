@@ -13,12 +13,12 @@ LICENSE=	gnu-gpl-v3
 PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
-DEPENDS+=	# TODO: PyYAML>=0
 DEPENDS+=	${PYPKGPREFIX}-aiosqlite>=0:../../databases/py-aiosqlite
-DEPENDS+=	${PYPKGPREFIX}-psutil>=0:../../sysutils/py-psutil
 DEPENDS+=	# TODO: pyfuse3>=0
 DEPENDS+=	# TODO: python-daemon>=0
 DEPENDS+=	py-requests>=0:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-psutil>=0:../../sysutils/py-psutil
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	# TODO: swh.web.client>=0.2.3
