@@ -2,7 +2,7 @@
 
 DISTNAME=	swh.vault-0.4.0
 PKGNAME=	${PYPKGPREFIX}-swh-vault-0.4.0
-CATEGORIES=	category python
+CATEGORIES=	archivers python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.vault/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
