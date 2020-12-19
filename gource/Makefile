@@ -20,6 +20,8 @@ REPLACE_PERL+=  scripts/gource-ps.pl
 
 #CONFIGURE_ARGS+=  --enable-ttf-font-dir
 
+BUILDLINK_API_DEPENDS.boost-libs+=      boost-libs-1.73.*
+.include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/SDL2_image/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
