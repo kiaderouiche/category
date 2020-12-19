@@ -19,7 +19,7 @@ DEPENDS+=	${PYPKGPREFIX}-psutil>=0:../../sysutils/py-psutil
 DEPENDS+=	# TODO: pyfuse3>=0
 DEPENDS+=	# TODO: python-daemon>=0
 DEPENDS+=	py-requests>=0:../../devel/py-requests
-DEPENDS+=	# TODO: swh.core>=0.10.0
+DEPENDS+=	${PYPKGPREFIX}-swh-core>=0.10.0:../../wip/py-swh-core
 DEPENDS+=	${PYPKGPREFIX}-swh-model>=0.7.2:../../wip/py-swh-model
 DEPENDS+=	# TODO: swh.web.client>=0.2.3
 
