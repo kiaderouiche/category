@@ -10,7 +10,7 @@ HOMEPAGE=	https://forge.softwareheritage.org/source/swh-fuse
 COMMENT=	Software Heritage virtual file system
 LICENSE=	gnu-gpl-v3
 
-PYTHON_VERSIONS_INCOMPATIBLE=	27
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	# TODO: PyYAML>=0
