@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLSGH/
 COMMENT=	Software Heritage lister
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=1.3.20:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-arrow>=0.15.8:../../time/py-arrow
