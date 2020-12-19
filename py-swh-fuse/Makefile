@@ -3,7 +3,7 @@
 DISTNAME=	swh.fuse-0.9.3
 PKGNAME=	${PYPKGPREFIX}-swh-fuse-0.9.3
 CATEGORIES=	sysutils python
-MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.indexer/}
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.fuse/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://forge.softwareheritage.org/source/swh-fuse
