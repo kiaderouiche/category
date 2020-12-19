@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/source/swh-deposit/
 COMMENT=	Software Heritage Deposit Server
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-xmltodict>=0:../../textproc/py-xmltodict
