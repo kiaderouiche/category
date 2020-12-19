@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	swh.lister-0.4.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-swh-lister-0.4.0
 CATEGORIES=	databases python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/swh.lister/}
 
