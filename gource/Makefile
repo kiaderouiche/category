@@ -8,7 +8,7 @@ GITHUB_RELEASE=	${DISTNAME}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://github.com/acaudwell/Gource/
+HOMEPAGE=	https://gource.io/
 COMMENT=	software version control visualization
 LICENSE=	gnu-gpl-v3
 
