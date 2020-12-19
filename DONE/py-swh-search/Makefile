@@ -10,7 +10,7 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DSEA
 COMMENT=	Software Heritage search service
 LICENSE=	gnu-gpl-v3
 
-PYTHON_VERSIONS_INCOMPATIBLE=	27
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
 
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
