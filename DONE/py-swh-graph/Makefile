@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DGRPH
 COMMENT=	Software Heritage graph service
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-aiohttp>=3.7.3:../../www/py-aiohttp
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
