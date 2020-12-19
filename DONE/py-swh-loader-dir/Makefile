@@ -10,6 +10,8 @@ HOMEPAGE=	https://forge.softwareheritage.org/diffusion/DLDDIR
 COMMENT=	Software Heritage Directory Loader
 LICENSE=	gnu-gpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 DEPENDS+=	${PYPKGPREFIX}-vcversioner>=2.16.0.0:../../devel/py-vcversioner
 DEPENDS+=	${PYPKGPREFIX}-retrying>=1.3.3:../../wip/py-retrying
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
