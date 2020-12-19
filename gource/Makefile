@@ -20,6 +20,7 @@ REPLACE_PERL+=  scripts/gource-ps.pl
 
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/SDL2_image/buildlink3.mk"
+.include "../../graphics/png/buildlink3.mk"
 BUILDLINK_API_DEPENDS.freetype2+=       freetype2>=2.8.
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
