@@ -6,9 +6,18 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_PYPI:=h/holoviz/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/a2/90/a1d1e3ed32c6ec1d52b5adb9effeb0b706dfe734b5306e30c1e055d05d01/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://holoviz.org/
+COMMENT=	High-level tools to simplify visualization in Python
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
+DEPENDS+=	${PYPKGPREFIX}-numpy>=1.19.4:../../math/py-numpy
+#DEPENDS+=	${PYPKGPREFIX}-xarray>=0.15.1:../../math/py-xarray
+#DEPENDS+=	${PYPKGPREFIX}-colorcet>=2.0.2:../../wip/py-colorcet
+DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.8:../../wip/py-ct
+#DEPENDS+=	${PYPKGPREFIX}-dask-[0-9]*:../../wip/py-dask
+DEPENDS+=	${PYPKGPREFIX}-param>=1.10.0:../../wip/py-param
+	
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
