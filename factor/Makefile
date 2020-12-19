@@ -7,7 +7,7 @@ MASTER_SITES=	https://downloads.factorcode.org/releases/0.98/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://downloads.factorcode.org/releases/0.98/
+HOMEPAGE=	https://factorcode.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
