@@ -2,13 +2,13 @@
 
 DISTNAME=	datashader-0.11.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	cgraphics python
+CATEGORIES=	graphics python
 MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashader/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://datashader.org
 COMMENT=	Data visualization toolchain based on aggregating into a grid
-#LICENSE=	New BSD # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-dask>=0.18.0:../../wip/py-dask
 #DEPENDS+=	${PYPKGPREFIX}-toolz>=0.7.4:../../devel/py-toolz
