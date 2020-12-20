@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (holoviews-1.13.5.tar.gz) = aae1f22e04a8a8d9c26e7110f7927c1df6ca572e
-RMD160 (holoviews-1.13.5.tar.gz) = 2f149f7f2cec3b5ff9c8972940f15a2556d0e379
-SHA512 (holoviews-1.13.5.tar.gz) = 73f69f9b6d50722da9e411e848d373e7fc940c406e6521a21f23714f13b6945c5ce6c0c87d66fbc45ef9b5298f5c3cdec4d00c18918ba8dc492dc11b2d5fd70f
-Size (holoviews-1.13.5.tar.gz) = 6879458 bytes
+SHA1 (holoviews-1.14.0.tar.gz) = f3d6c5c8b9149772b841b403ae9381628b3d83e4
+RMD160 (holoviews-1.14.0.tar.gz) = 0cd2a343f8fb441db327c167fd6c90a5bb533a3f
+SHA512 (holoviews-1.14.0.tar.gz) = 629fbb43939f75a068e01b619eb6e84610455e6bcf372034b59f7670d8338cbcdfaf51243d2a61d8bbac274e5cd4d3382e921786765b27b614441d8421b3cddb
+Size (holoviews-1.14.0.tar.gz) = 6919662 bytes
