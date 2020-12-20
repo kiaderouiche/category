@@ -12,7 +12,7 @@ COMMENT=	Data description language
 
 DEPENDS+=	${PYPKGPREFIX}-multipledispatch>=0.6.0:../../devel/py-multipledispatch
 
-BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.7
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.7
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
