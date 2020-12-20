@@ -1,4 +1,0 @@
-Pandas Bokeh provides a Bokeh plotting backend for Pandas
-and GeoPandas, similar to the already existing Visualization
-feature of Pandas. Importing the library adds a complementary
-plotting method plot_bokeh() on DataFrames and Series
