@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashape/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://datashape.readthedocs.org/en/latest/
 COMMENT=	Data description language
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-multipledispatch>=0.6.0:../../devel/py-multipledispatch
 
