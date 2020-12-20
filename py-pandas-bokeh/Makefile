@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/PatrikHlobil/Pandas-Bokeh
 COMMENT=	Bokeh plotting backend for Pandas, GeoPandas & Pyspark
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-pandas>=0.22.0:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.22.0:../../math/py-pandas
 #DEPENDS+=	${PYPKGPREFIX}-bokeh-[0-9]*:../../wip/py-bokeh
 
 .include "../../lang/python/egg.mk"
