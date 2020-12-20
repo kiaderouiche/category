@@ -13,8 +13,8 @@ LICENSE=	modified-bsd
 DEPENDS+=	${PYPKGPREFIX}-dask>=0.18.0:../../wip/py-dask
 DEPENDS+=	${PYPKGPREFIX}-toolz>=0.7.4:../../devel/py-toolz
 #DEPENDS+=	${PYPKGPREFIX}-datashape>=0.5.1:../../wip/py-datashape
-DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0:../../math/py-numba
-DEPENDS+=	${PYPKGPREFIX}-pandas>=0.24.1:../../math/py-pandas
+#DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0:../../math/py-numba
+#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.24.1:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-Pillow>=3.1.1:../../graphics/py-Pillow
 #DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
 DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0:../../wip/py-colorcet
@@ -26,7 +26,7 @@ DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.6:../../wip/py-ct
 
 USE_LANGUAGES=	# none
 
-BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.7
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.7
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
