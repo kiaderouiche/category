@@ -2,7 +2,7 @@
 
 DISTNAME=	datashader-0.11.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	cgraphics python
 MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashader/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
