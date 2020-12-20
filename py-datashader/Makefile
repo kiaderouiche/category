@@ -24,8 +24,8 @@ LICENSE=	modified-bsd
 #DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
 
-TEST_DEPENDS+=	${PYPKGPREFIX}-test>=3.9.3,<6.0
-TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark>=3.0.0
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=3.9.3:../../devel/py-test
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark>=3.0.0:../../devel/py-test
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=0
 TEST_DEPENDS+=	${PYPKGPREFIX}-codecov>=0:../../wip/py-codecov
 TEST_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
