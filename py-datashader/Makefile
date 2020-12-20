@@ -12,8 +12,6 @@ LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-dask>=0.18.0:../../wip/py-dask
 #DEPENDS+=	${PYPKGPREFIX}-toolz>=0.7.4:../../devel/py-toolz
-#DEPENDS+=	${PYPKGPREFIX}-datashape>=0.5.1:../../wip/py-datashape
-#DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0:../../math/py-numba
 #DEPENDS+=	${PYPKGPREFIX}-pandas>=0.24.1:../../math/py-pandas
 #DEPENDS+=	${PYPKGPREFIX}-Pillow>=3.1.1:../../graphics/py-Pillow
 #DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
@@ -25,8 +23,8 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	# TODO: dask[complete]>=0.18.0
 DEPENDS+=	py-toolz>=0.7.4:../../devel/py-toolz
-DEPENDS+=	py-datashape>=0.5.1:../../category/py-datashape
-DEPENDS+=	py-numba>=0.37.0,!=0.49.*,!=0.50.*:../../math/py-numba
+#DEPENDS+=	${PYPKGPREFIX}-datashape>=0.5.1:../../wip/py-datashape
+#DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0:../../math/py-numba
 DEPENDS+=	py-pandas>=0.24.1:../../math/py-pandas
 DEPENDS+=	# TODO: pillow>=3.1.1
 DEPENDS+=	py-xarray>=0.9.6:../../math/py-xarray
