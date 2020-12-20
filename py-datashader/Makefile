@@ -3,7 +3,7 @@
 DISTNAME=	datashader-0.11.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/14/7a/2729f4210977e15b0c47e583fc3ef0cbfa53d91651fe8e55b36782ea3405/
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashader/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://datashader.org
