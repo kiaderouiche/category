@@ -1,0 +1,6 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-multipledispatch>=0.6.0	../../devel/py-multipledispatch
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	py38-numpy>=1.19.2nb1	../../math/py-numpy

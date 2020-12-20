@@ -1,0 +1,14 @@
+@cwd /usr/pkg
+@name py38-datashape-0.5.2
+@blddep py38-multipledispatch-0.6.0
+@pkgdep py38-multipledispatch>=0.6.0
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep py38-numpy-1.19.4
+@pkgdep py38-numpy>=1.19.2nb1
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
