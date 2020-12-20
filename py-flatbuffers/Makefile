@@ -14,7 +14,5 @@ LICENSE=	apache-2.0
 # lark-parser-0.1-py3.8.egg-info
 # lark-parser-0.0.0-py3.8.egg-info
 
-EGG_INFODIR=	${DISTNAME}-20201220204120-py${PYVERSSUFFIX}.egg-info
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
