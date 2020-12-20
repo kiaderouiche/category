@@ -12,11 +12,6 @@ LICENSE=	modified-bsd
 
 
 
-
-
-#DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
-#DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0:../../wip/py-colorcet
-#DEPENDS+=	${PYPKGPREFIX}-param>=1.6.0:../../wip/py-param
 #DEPENDS+=	${PYPKGPREFIX}-ct>=0.4.6:../../wip/py-ct
 #DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
@@ -28,12 +23,10 @@ LICENSE=	modified-bsd
 #DEPENDS+=	${PYPKGPREFIX}-numba>=0.37.0:../../math/py-numba
 #DEPENDS+=	${PYPKGPREFIX}-pandas>=0.24.1:../../math/py-pandas
 #DEPENDS+=	${PYPKGPREFIX}-Pillow>=3.1.1:../../graphics/py-Pillow
-DEPENDS+=	py-xarray>=0.9.6:../../math/py-xarray
-DEPENDS+=	# TODO: colorcet>=0.9.0
-DEPENDS+=	py-param>=1.6.0:../../wip/py-param
-DEPENDS+=	# TODO: pyct[cmd]==0.4.6>=0
-DEPENDS+=	py-bokeh>=0:../../wip/py-bokeh
-DEPENDS+=	# TODO: scipy>=0
+#DEPENDS+=	${PYPKGPREFIX}-xarray>=0.9.6:../../math/py-xarray
+#DEPENDS+=	${PYPKGPREFIX}-colorcet>=0.9.0:../../wip/py-colorcet
+#DEPENDS+=	${PYPKGPREFIX}-param>=1.6.0:../../wip/py-param
+
 TEST_DEPENDS+=	# TODO: pytest>=3.9.3,<6.0
 TEST_DEPENDS+=	# TODO: pytest-benchmark>=3.0.0
 TEST_DEPENDS+=	# TODO: pytest-cov>=0
