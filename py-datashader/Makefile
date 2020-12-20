@@ -47,7 +47,7 @@ TEST_DEPENDS+=	# TODO: pyarrow>=0
 
 USE_LANGUAGES=	# none
 
-BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.7
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.7
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
