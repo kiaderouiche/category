@@ -24,15 +24,12 @@ LICENSE=	modified-bsd
 #DEPENDS+=	${PYPKGPREFIX}-bokeh>=0:../../wip/py-bokeh
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
 
-TEST_DEPENDS+=	# TODO: pytest>=3.9.3,<6.0
-TEST_DEPENDS+=	# TODO: pytest-benchmark>=3.0.0
-TEST_DEPENDS+=	# TODO: pytest-cov>=0
-TEST_DEPENDS+=	py-codecov>=0:../../wip/py-codecov
-TEST_DEPENDS+=	py-flake8>=0:../../devel/py-flake8
-TEST_DEPENDS+=	# TODO: nbsmoke[all]>=0.4.0
-TEST_DEPENDS+=	# TODO: fastparquet>=0.1.6
-TEST_DEPENDS+=	# TODO: holoviews>=1.10.0
-TEST_DEPENDS+=	# TODO: pyarrow>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=3.9.3,<6.0
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark>=3.0.0
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-codecov>=0:../../wip/py-codecov
+TEST_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
+
 
 USE_LANGUAGES=	# none
 
