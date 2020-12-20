@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	cgraphics python
 MASTER_SITES=	${MASTER_SITE_PYPI:=d/datashader/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://datashader.org
 COMMENT=	Data visualization toolchain based on aggregating into a grid
 #LICENSE=	New BSD # TODO: from setup.py; needs to be adjusted
