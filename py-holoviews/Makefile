@@ -6,8 +6,8 @@ CATEGORIES=	graphics python
 MASTER_SITES=	${MASTER_SITE_PYPI:=h/holoviews/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://www.holoviews.org
-COMMENT=	Stop plotting your data - annotate your data and let it visualize itself
+HOMEPAGE=	https://www.holoviews.org/
+COMMENT=	Plotting your data annotate your data and let it visualize itself
 LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-param>=1.10.0:../../wip/py-param
