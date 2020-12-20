@@ -26,7 +26,7 @@ LICENSE=	modified-bsd
 TEST_DEPENDS+=	${PYPKGPREFIX}-test>=3.9.3:../../devel/py-test
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-benchmark>=3.0.0:../../devel/py-test
 TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.10.1:../../devel/py-test-cov
-TEST_DEPENDS+=	${PYPKGPREFIX}-codecov>=0:../../wip/py-codecov
+TEST_DEPENDS+=	${PYPKGPREFIX}-codecov>=2.0.15:../../wip/py-codecov
 TEST_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
 
 
