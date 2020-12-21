@@ -10,10 +10,13 @@ HOMEPAGE=	https://crossbar.io/
 COMMENT=	Crossbar.io multi-protocol application router for microservices
 LICENSE=	gnu-lgpl-v3
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
 DEPENDS+=	${PYPKGPREFIX}-automat>=0.8.0:../../devel/py-automat
 DEPENDS+=	${PYPKGPREFIX}-bitstring>=3.1.7:../../devel/py-bitstring
+DEPENDS+=	${PYPKGPREFIX}-cffi>=1.14.4:../../devel/py-cffi
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
 DEPENDS+=	${PYPKGPREFIX}-incremental>=17.5.0:../../devel/py-incremental
@@ -51,5 +54,6 @@ DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-werkzeug>=1.0.1:../../www/py-werkzeug
 
 .include "../../math/py-numpy/buildlink3.mk"
+.include "../../security/libsodium/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
