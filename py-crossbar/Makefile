@@ -34,6 +34,7 @@ DEPENDS+=	${PYPKGPREFIX}-priority>=1.0.3:../../wip/py-priority
 DEPENDS+=	${PYPKGPREFIX}-service_identity>=:../../security/py-service_identity
 DEPENDS+=	${PYPKGPREFIX}-setproctitle>=1.2:../../sysutils/py-setproctitle
 DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
+DEPENDS+=	${PYPKGPREFIX}-bcrypt>=3.1.7:../../security/py-bcrypt
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-mistune>=0.8.4:../../textproc/py-mistune
 DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson
@@ -46,4 +47,5 @@ DEPENDS+=	${PYPKGPREFIX}-hyperlink-[0-9]*:../../www/py-hyperlink
 DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-werkzeug>=1.0.1:../../www/py-werkzeug
 
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
