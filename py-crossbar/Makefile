@@ -5,10 +5,10 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=c/crossbar/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/b6/db/f6628c2b1d478427272745ab25b07c4a1f8b552c0c26770a5d3814460c13/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://crossbar.io/
+COMMENT=	Crossbar.io multi-protocol application router for microservices
+LICENSE=	gnu-lgpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
