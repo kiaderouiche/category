@@ -15,5 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 
+.include "../../lang/libunwind/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
