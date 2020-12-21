@@ -19,7 +19,11 @@ USE_PKGLOCALEDIR=	yes
 .include "../../devel/libpeas/buildlink3.mk" 
 .include "../../devel/libuuid/buildlink3.mk" 
 .include "../../devel/meson/build.mk"
+.include "../../inputmethod/ibus/buildlink3.mk"  
 BUILDLINK_API_DEPENDS.vala+=    vala>=0.48                                    
 .include "../../lang/vala/buildlink3.mk"   
+.include "../../sysutils/libnotify/buildlink3.mk"        
+BUILDLINK_API_DEPENDS.gnome-desktop3+=  gnome-desktop3>=3.4.2                 
+.include "../../x11/gnome-desktop3/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
