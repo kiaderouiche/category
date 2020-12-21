@@ -20,4 +20,5 @@ USE_LANGUAGES=	c c++
 
 DEPENDS+= re2c>=1.1.1:../../devel/re2c
 
+.include "../../lang/lua53/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
