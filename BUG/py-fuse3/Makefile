@@ -6,13 +6,15 @@ CATEGORIES=	sysutils python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pyfuse3/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/af/3a/94f4cdf85ffcb03c80036b427f5797e2b70ed0413fcc632a284bd1703fd4/
-COMMENT=	Python 3 bindings for libfuse 3 with async I/O support
+HOMEPAGE=	https://github.com/libfuse/pyfuse3
+COMMENT=	Bindings for libfuse 3 with async I/O support
 LICENSE=	gnu-lgpl-v3
 
 USE_TOOLS+=	pkg-config
 
+#DEPENDS+=	${PYPKGPREFIX}-trio>=0.17.0:../../wip/py-trio
+
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../lang/python/egg.mk"
-.include "../../mk/fuse.buildlink3.mk"
+.include "../../filesystems/fuse/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

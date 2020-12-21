@@ -1,0 +1,21 @@
+/usr/pkg/include/fuse/cuse_lowlevel.h
+/usr/pkg/include/fuse/fuse_common_compat.h
+/usr/pkg/include/fuse/fuse_common.h
+/usr/pkg/include/fuse/fuse_compat.h
+/usr/pkg/include/fuse/fuse.h
+/usr/pkg/include/fuse/fuse_lowlevel_compat.h
+/usr/pkg/include/fuse/fuse_lowlevel.h
+/usr/pkg/include/fuse/fuse_opt.h
+/usr/pkg/include/fuse.h
+/usr/pkg/include/ulockmgr.h
+/usr/pkg/lib/libfuse.a
+/usr/pkg/lib/libfuse.la (created)
+/usr/pkg/lib/libfuse.so
+/usr/pkg/lib/libfuse.so.2
+/usr/pkg/lib/libfuse.so.2.9.3
+/usr/pkg/lib/libulockmgr.a
+/usr/pkg/lib/libulockmgr.la (created)
+/usr/pkg/lib/libulockmgr.so
+/usr/pkg/lib/libulockmgr.so.1
+/usr/pkg/lib/libulockmgr.so.1.0.1
+/usr/pkg/lib/pkgconfig/fuse.pc
