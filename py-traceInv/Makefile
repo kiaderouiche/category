@@ -6,8 +6,8 @@ CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_PYPI:=T/TraceInv/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/7d/7c/83e35adee69a7c090b566eee7f6717e15a51a1e482fd77f16c9c562e39de/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://ameli.github.io/TraceInv
+COMMENT=	Computes the trace of the inverse of matrix or linear matrix function
 LICENSE=	mit
 
 
