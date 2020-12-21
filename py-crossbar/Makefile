@@ -17,7 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-bitstring>=3.1.7:../../devel/py-bitstring
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-constantly>=15.1.0:../../devel/py-constantly
 DEPENDS+=	${PYPKGPREFIX}-incremental>=17.5.0:../../devel/py-incremental
-DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/pypy-treq
+DEPENDS+=	${PYPKGPREFIX}-treq>=0.14.3:../../devel/py-treq
 DEPENDS+=	${PYPKGPREFIX}-txaio>=1.0.3:../../devel/py-txaio
 DEPENDS+=	${PYPKGPREFIX}-msgpack>=1.0.0:../../devel/py-msgpack
 DEPENDS+=	${PYPKGPREFIX}-ZopeInterface>=5.1.2:../../devel/py-ZopeInterface
@@ -37,6 +37,7 @@ DEPENDS+=	${PYPKGPREFIX}-testresources>=2.0.1:../../devel/py-testresources
 DEPENDS+=	${PYPKGPREFIX}-bcrypt>=3.1.7:../../security/py-bcrypt
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.5.2:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-mistune>=0.8.4:../../textproc/py-mistune
+#DEPENDS+=	${PYPKGPREFIX}-flatbuffers>=1.12:../../wip/py-flatbuffers
 DEPENDS+=	${PYPKGPREFIX}-ubjson>=0.16.1:../../wip/py-ubjson
 DEPENDS+=	${PYPKGPREFIX}-trie3>=0.2:../../wip/py-trie3
 DEPENDS+=	${PYPKGPREFIX}-hamcrest>=2.0.2:../../wip/py-hamcrest
@@ -50,4 +51,5 @@ DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-werkzeug>=1.0.1:../../www/py-werkzeug
 
 .include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
