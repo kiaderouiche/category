@@ -1,0 +1,1 @@
+/usr/pkg/include/sodium/crypto_core_ed25519.h
