@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 Homepage=	https://github.com/nu-book/zxing-cpp/
 COMMENT=	C++ port of ZXing
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/zxing-cpp-1.1.1
 

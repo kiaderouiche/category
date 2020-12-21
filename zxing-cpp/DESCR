@@ -1,4 +1,4 @@
-ZXing-C++ ("zebra crossing") is an open-source, multi-format
+ZXing-C++ (zebra crossing) is an open-source, multi-format
 1D/2D barcode image processing library implemented in C++.
 
 It was originally ported from the Java ZXing Library but has
