@@ -15,7 +15,7 @@ USE_TOOLS+=	bash
 
 PYTHON_VERSIONS_INCOMPATIBLE=	27
 
-#DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-py4j>=0.10.9.1:../../wip/py-py4j
 
 USE_JAVA=	run
@@ -38,7 +38,6 @@ REPLACE_BASH+=	\
 	deps/sbin/spark-daemon.sh	 \
 	deps/sbin/start-history-server.sh \
 	deps/sbin/stop-history-server.sh
-
 
 
 SUBST_CLASSES+=                 py_interpreter
