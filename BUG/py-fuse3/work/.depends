@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	pkgconf-[0-9]*	../../devel/pkgconf
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py38-setuptools-[0-9]*	../../devel/py-setuptools
-full	py38-cython>=0.12.1	../../devel/py-cython
-full	python38>=3.8	../../lang/python38
-full	fuse>=2.5.2	../../filesystems/fuse

@@ -1,1 +1,0 @@
-/usr/pkg/include/fuse/fuse.h
