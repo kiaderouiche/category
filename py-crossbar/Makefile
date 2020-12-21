@@ -1,14 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	crossbar-20.12.2
+DISTNAME=	crossbar-20.12.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=c/crossbar/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://crossbar.io/
-COMMENT=	Crossbar.io multi-protocol application router for microservices
-LICENSE=	gnu-lgpl-v3
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://files.pythonhosted.org/packages/b6/db/f6628c2b1d478427272745ab25b07c4a1f8b552c0c26770a5d3814460c13/
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
 
 DEPENDS+=	${PYPKGPREFIX}-chardet>=3.0.4:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-lmdb>=0.94:../../databases/py-lmdb
@@ -46,11 +46,4 @@ DEPENDS+=	${PYPKGPREFIX}-hyperlink-[0-9]*:../../www/py-hyperlink
 DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-werkzeug>=1.0.1:../../www/py-werkzeug
 
-#twisted[tls,conch,http2]>=20.3.0; sys_platform != 'darwin' and sys_platform != 'win32'
-#twisted[tls,conch,http2,osx_platform]>=20.3.0; sys_platform == 'darwin'
-#twisted[tls,conch,http2,windows_platform]>=20.3.0; sys_platform == 'win32'
-
-BUILDLINK_API_DEPENDS.py-numpy+=	${PYPKGPREFIX}-numpy>=1.0
-.include "../../math/py-numpy/buildlink3.mk"
-.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
