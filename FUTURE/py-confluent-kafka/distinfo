@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (confluent-kafka-1.5.0.tar.gz) = cc7ee0157b6fd8c54a4167da0aedaaf7a0f397ab
-RMD160 (confluent-kafka-1.5.0.tar.gz) = fa5ee83b0445cc5b2a2347cdc96762137d0028ec
-SHA512 (confluent-kafka-1.5.0.tar.gz) = 499ab4a3bbe235f64230d8935981155eab410d12e8964084f48cd074903d2d1f503210c0b2ecced454c9e14e2c5ea669cebf6750c9a103c937f4e2fecda7157f
-Size (confluent-kafka-1.5.0.tar.gz) = 97399 bytes
