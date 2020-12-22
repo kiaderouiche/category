@@ -6,12 +6,15 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=giorgisio/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/giorgisio/goav/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/goav-0.1.0
-USE_LANGUAGES=	# none
+EXTRACT_USING=	bsdtar
 
+GO_SRCPATH=	github.com/giorgisio/goav/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
