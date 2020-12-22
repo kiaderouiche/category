@@ -7,7 +7,7 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=uber-go/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/uber-go/zap/
 COMMENT=	Blazing fast, structured, leveled logging in Go
 #LICENSE=	# TODO: (see mk/license.mk)
