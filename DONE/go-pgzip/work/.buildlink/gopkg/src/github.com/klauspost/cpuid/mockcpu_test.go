@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/klauspost/cpuid/mockcpu_test.go

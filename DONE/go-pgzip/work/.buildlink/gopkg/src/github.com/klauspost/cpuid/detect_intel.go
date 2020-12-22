@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/klauspost/cpuid/detect_intel.go

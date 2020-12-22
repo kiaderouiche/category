@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/cespare/xxhash/xxhash_unsafe_test.go

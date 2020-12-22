@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	pax>=20040802	../../archivers/pax
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	go115-1.15.5*	../../lang/go115
-build	go-compress>=1.5.0	../../devel/go-compress
-build	go-cpuid>=1.2.1	../../devel/go-cpuid
-build	go-xxhash>=2.0.0	../../security/go-xxhash
-build	cwrappers>=20150314	../../pkgtools/cwrappers

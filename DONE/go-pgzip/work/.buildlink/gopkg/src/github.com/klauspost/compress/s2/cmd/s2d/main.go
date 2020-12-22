@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/klauspost/compress/s2/cmd/s2d/main.go
