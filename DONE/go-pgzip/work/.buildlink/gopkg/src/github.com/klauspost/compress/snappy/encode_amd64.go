@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/klauspost/compress/snappy/encode_amd64.go

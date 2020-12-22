@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/klauspost/compress/snappy/golden_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/klauspost/cpuid/private/cpuid_amd64.s

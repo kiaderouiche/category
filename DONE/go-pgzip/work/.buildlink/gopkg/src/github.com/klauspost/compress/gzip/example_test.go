@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/klauspost/compress/gzip/example_test.go

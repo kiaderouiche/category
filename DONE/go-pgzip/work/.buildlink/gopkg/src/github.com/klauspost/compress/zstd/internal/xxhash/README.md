@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/klauspost/compress/zstd/internal/xxhash/README.md
