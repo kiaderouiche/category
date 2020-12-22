@@ -1,23 +1,20 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	go-metrics
-GITHUB_TAG=	v0.3.4
-DISTNAME=	v0.3.4
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+PKGNAME=	${GITHUB_PROJECT}-3.0.5
+DISTNAME=	${GITHUB_PROJECT}-${GITHUB_TAG}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=armon/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_PROJECT=	go-metrics
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/armon/go-metrics/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/go-metrics-0.3.4
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/armon/go-metrics/
 
-USE_LANGUAGES=	# none
 
-.include "../../devel/go-immutable-radix/buildlink3.mk"
-.include "../../devel/go-golang-lru/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

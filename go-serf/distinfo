@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (serf/v0.8.5.tar.gz) = 3a1f2c59e0cfbc6daa42a6b3e028b060d2f1fb09
-RMD160 (serf/v0.8.5.tar.gz) = 250f8ebd996ba67a923c8da36aca0e11f4ff30a9
-SHA512 (serf/v0.8.5.tar.gz) = cf42ba3dc512f96a73ab432a5ca88e318ba2142ea89fae36e5cf789ba564f18d61aee25be8fe09608eae7ab86c4a49e8aea08c1e10f3c7882a2e9abf29b463ae
-Size (serf/v0.8.5.tar.gz) = 1972387 bytes
+SHA1 (serf/v0.9.5.tar.gz) = 99d650a0d0c1186b2f0b902e5297a62533cc30c3
+RMD160 (serf/v0.9.5.tar.gz) = 70e95fd0247e1c73193d4d16144d22f5254174a2
+SHA512 (serf/v0.9.5.tar.gz) = a527d9a257365242e307af171f1ead1fd4fa302f6ec7774aeac508f98a422da649533a7b16843656e322b42aa20d900582df5668d14ef2d20c24ec9722d06383
+Size (serf/v0.9.5.tar.gz) = 2301292 bytes

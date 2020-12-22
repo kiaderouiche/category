@@ -1,18 +1,22 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	serf
-GITHUB_TAG=	v0.8.5
-DISTNAME=	v0.8.5
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v0.9.5
+DISTNAME=	${GITHUB_TAG}
+DIST_SUBDIR=	go-serf
+PKGNAME=	${GITHUB_PROJECT}-${GITHUB_TAG:S/v//}
+CATEGORIES=	sysutils devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=hashicorp/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_PROJECT=	serf
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/hashicorp/serf/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=	${WRKDIR}/serf-0.8.5
+WRKSRC=	${WRKDIR}/${PKGNAME}
+GO_DIST_BASE=	go-serf-${GITHUB_TAG:S/v//}
+GO_SRCPATH=	github.com/hashicorp/serf/
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
