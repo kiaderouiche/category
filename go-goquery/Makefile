@@ -12,7 +12,7 @@ HOMEPAGE=	https://github.com/PuerkitoBio/goquery/
 COMMENT=	Little like that j-thing, only in Go
 LICENSE=	2-clause-bsd
 
-GO_SRCPATH=	github.com/uber-go/zap/
+GO_SRCPATH=	github.com/PuerkitoBio/goquery/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../net/go-net/buildlink3.mk"
