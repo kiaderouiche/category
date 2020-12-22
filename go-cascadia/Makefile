@@ -12,7 +12,6 @@ HOMEPAGE=	https://github.com/andybalholm/cascadia/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/cascadia-1.0.0
-USE_LANGUAGES=	# none
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
