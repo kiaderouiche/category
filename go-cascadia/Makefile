@@ -12,6 +12,8 @@ HOMEPAGE=	https://github.com/andybalholm/cascadia/
 COMMENT=	CSS selector library in Go 
 #LICENSE=	# TODO: (see mk/license.mk)
 
+GO_SRCPATH=	github.com/andybalholm/cascadia/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
