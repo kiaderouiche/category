@@ -7,15 +7,14 @@ $NetBSD$
      if sys.platform.startswith('linux'):
          return 'linux'
 -    if sys.platform.startswith('freebsd'):
-+    if sys.platform.startswith('netbsd9'):
++    if sys.platform.startswith('freebsd') and sys.platform.startswith('netbsd9'):
          return 'bsd'
      return False
  
-@@ -50,7 +50,7 @@ else:
-         if _supported_unix() == 'bsd':
+@@ -51,6 +51,7 @@ else:
              libraries = ['unwind']
              extra_compile_args += ['-DVMPROF_BSD=1']
--            extra_compile_args += ['-I/usr/local/include']
+             extra_compile_args += ['-I/usr/local/include']
 +            extra_compile_args += ['-I/usr/pkg/include']
          extra_compile_args += ['-DVMPROF_UNIX=1']
          if platform.machine().startswith("arm"):

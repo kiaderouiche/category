@@ -4,4 +4,4 @@ SHA1 (vmprof-0.4.15.tar.gz) = fc4ff3a40666d4bb7153824a47893d8aa395e161
 RMD160 (vmprof-0.4.15.tar.gz) = 108f844a4801cf427e27f25453f00ba03462b78e
 SHA512 (vmprof-0.4.15.tar.gz) = 52623341ca9ebbd153302fce9ddacba1bb0d8cbab67bed1437475fa3f60904b147b75a47f3e214509a6960420580a4cafcaa8b87d5f8a4f65099148d13e548b8
 Size (vmprof-0.4.15.tar.gz) = 289256 bytes
-SHA1 (patch-setup.py) = 950d03f90556a5ae3a017eea82a06e36b1db6170
+SHA1 (patch-setup.py) = ec9cf0b24109fa71138604c1750e5f87d9e905d2
