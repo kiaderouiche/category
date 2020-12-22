@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.md
-
-# goav
-Golang binding for FFmpeg
-
-A comprehensive binding to the ffmpeg video/audio manipulation library.
-
-Reviving this project -- if you like to contribute, please email me habtom@giorgis.io
-
-
-[![GoDoc](https://godoc.org/github.com/giorgisio/goav?status.svg)](https://godoc.org/github.com/giorgisio/goav)
-
-## Usage
-
-`````go
-
-import "github.com/giorgisio/goav/avformat"
-
-func main() {
-
-	filename := "/home/giorgis/media/sample.mp4"
-
-...
+A comprehensive binding to the ffmpeg video/audio
+manipulation library.
