@@ -1,19 +1,20 @@
 # $NetBSD$
 
+DISTNAME=	go-resty-2.3.0
 GITHUB_PROJECT=	resty
 GITHUB_TAG=	v2.3.0
-DISTNAME=	v2.3.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=go-resty/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/go-resty/resty/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Simple HTTP and REST client library for Go
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/resty-2.3.0
-USE_LANGUAGES=	# none
+EXTRACT_USING=	bsdtar
+
+GO_SRCPATH=	github.com/sendgrid/rest/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../mk/bsd.pkg.mk"
