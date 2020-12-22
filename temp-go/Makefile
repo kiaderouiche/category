@@ -12,6 +12,8 @@ HOMEPAGE=	https://github.com/muquit/mailsend-go/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
+EXTRACT_USING=	bsdtar
+
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/muquit/mailsend-go/
 

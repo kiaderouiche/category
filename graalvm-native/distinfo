@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (native-image-installable-svm-java11-linux-aarch64-20.2.0.jar) = 303a0f1657b8d4b3b1fe659b1832183965c0f537
-RMD160 (native-image-installable-svm-java11-linux-aarch64-20.2.0.jar) = fd9ddab89c737f95cfbcc647280804e20a4073f2
-SHA512 (native-image-installable-svm-java11-linux-aarch64-20.2.0.jar) = 3b8eb62f32f459ad92835168acffcc61584be297fdd5b997b1d92c024c398fd7e48bc4d55a31e4887a52d7dc597f1312bb69289f6b1e3223c43c1f1cf7237fa2
-Size (native-image-installable-svm-java11-linux-aarch64-20.2.0.jar) = 9992641 bytes
