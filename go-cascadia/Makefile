@@ -7,7 +7,7 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=andybalholm/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/andybalholm/cascadia/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
