@@ -1,17 +1,19 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	godot
-GITHUB_TAG=	v1.3.2
-DISTNAME=	v1.3.2
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+DISTNAME=	godot-1.3.2
+PKGNAME=	go-${DISTNAME}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=tetafro/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_PROJECT=	${PKGBASE:S/^go-//}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/tetafro/godot/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/tetafro/godot
+
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

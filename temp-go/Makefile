@@ -1,17 +1,21 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	godotenv
-GITHUB_TAG=	v1.2.0
-DISTNAME=	v1.2.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+DISTNAME=	godotenv-1.2.0
+PKGNAME=	go-${DISTNAME}
+PKGREVISION=	22
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=joho/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_PROJECT=	${PKGBASE:S/^go-//}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/joho/godotenv/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/joho/godotenv
+
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
