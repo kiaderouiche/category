@@ -1,23 +1,23 @@
 TODO: Adjust the following lines from README.md
 
-# GoDotEnv [![Build Status](https://travis-ci.org/joho/godotenv.svg?branch=master)](https://travis-ci.org/joho/godotenv) [![Build status](https://ci.appveyor.com/api/projects/status/9v40vnfvvgde64u4?svg=true)](https://ci.appveyor.com/project/joho/godotenv) [![Go Report Card](https://goreportcard.com/badge/github.com/joho/godotenv)](https://goreportcard.com/report/github.com/joho/godotenv)
+[![Documentation](https://godoc.org/github.com/shuLhan/go-bindata?status.svg)](http://godoc.org/github.com/shuLhan/go-bindata)
+[![Go Report Card](https://goreportcard.com/badge/github.com/shuLhan/go-bindata)](https://goreportcard.com/report/github.com/shuLhan/go-bindata)
 
-A Go (golang) port of the Ruby dotenv project (which loads env vars from a .env file)
+## bindata
 
-From the original Library:
+This package converts any file into managable Go source code. Useful for
+embedding binary data into a go program. The file data is optionally gzip
+compressed before being converted to a raw byte slice.
 
-> Storing configuration in the environment is one of the tenets of a twelve-factor app. Anything that is likely to change between deployment environments–such as resource handles for databases or credentials for external services–should be extracted from the code into environment variables.
->
-> But it is not always practical to set environment variables on development machines or continuous integration servers where multiple projects are run. Dotenv load variables from a .env file into ENV when the environment is bootstrapped.
+It comes with a command line tool in the `go-bindata` sub directory.
+This tool offers a set of command line options, used to customize the
+output being generated.
 
-It can be used as a library (for loading in env for your own daemons etc) or as a bin command.
 
-There is test coverage and CI for both linuxish and windows environments, but I make no guarantees about the bin version working on windows.
+### Installation
 
-## Installation
+To install the library and command line program, use the following:
 
-As a library
+	go get -u github.com/shuLhan/go-bindata/...
 
-```shell
-go get github.com/joho/godotenv
 ...
