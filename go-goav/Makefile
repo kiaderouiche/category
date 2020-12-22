@@ -12,6 +12,8 @@ HOMEPAGE=	https://github.com/giorgisio/goav/
 COMMENT=	Golang bindings for FFmpeg
 LICENSE=	mit
 
+USE_TOOLS=	pkg-config
+
 GO_SRCPATH=	github.com/giorgisio/goav/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
