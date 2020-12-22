@@ -1,8 +1,8 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	jet
-GITHUB_TAG=	v5.0.3
-DISTNAME=	v5.0.3
+GITHUB_TAG=	v6.0.1
+DISTNAME=	v6.0.1
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=CloudyKit/}
@@ -13,7 +13,5 @@ HOMEPAGE=	https://github.com/CloudyKit/jet/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/jet-5.0.3
-USE_LANGUAGES=	# none
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
