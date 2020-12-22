@@ -10,7 +10,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/andybalholm/cascadia/
 COMMENT=	CSS selector library in Go 
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	2-clause-bsd
 
 GO_SRCPATH=	github.com/andybalholm/cascadia/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
