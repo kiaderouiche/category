@@ -1,0 +1,152 @@
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] cc -E -dM -m64 -I /tmp/go-build046376713/b081/ -O2 -Wall -Werror -I . /tmp/cgo-gcc-input-907152514.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -Wall -Werror -I. /tmp/cgo-gcc-input-907152514.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -fno-caret-diagnostics -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -fno-caret-diagnostics -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -Qunused-arguments -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Qunused-arguments -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -fdebug-prefix-map=a=b -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -fdebug-prefix-map=a=b -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -gno-record-gcc-switches -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -gno-record-gcc-switches -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x001.o -c _cgo_export.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x001.o -c _cgo_export.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x002.o -c cgo.cgo2.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x002.o -c cgo.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x003.o -c gcc_context.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x003.o -c gcc_context.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x004.o -c gcc_fatalf.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x004.o -c gcc_fatalf.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x005.o -c gcc_libinit.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x005.o -c gcc_libinit.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x006.o -c gcc_linux_amd64.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x006.o -c gcc_linux_amd64.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x007.o -c gcc_mmap.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x007.o -c gcc_mmap.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x008.o -c gcc_setenv.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x008.o -c gcc_setenv.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x009.o -c gcc_sigaction.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x009.o -c gcc_sigaction.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x010.o -c gcc_traceback.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x010.o -c gcc_traceback.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x011.o -c gcc_util.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x011.o -c gcc_util.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x012.o -c gcc_amd64.S
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_x012.o -c gcc_amd64.S -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b081/ -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_cgo_main.o -c _cgo_main.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build046376713/b081/_cgo_main.o -c _cgo_main.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build046376713/b081/_cgo_.o /tmp/go-build046376713/b081/_cgo_main.o /tmp/go-build046376713/b081/_x001.o /tmp/go-build046376713/b081/_x002.o /tmp/go-build046376713/b081/_x003.o /tmp/go-build046376713/b081/_x004.o /tmp/go-build046376713/b081/_x005.o /tmp/go-build046376713/b081/_x006.o /tmp/go-build046376713/b081/_x007.o /tmp/go-build046376713/b081/_x008.o /tmp/go-build046376713/b081/_x009.o /tmp/go-build046376713/b081/_x010.o /tmp/go-build046376713/b081/_x011.o /tmp/go-build046376713/b081/_x012.o -g -O2 -lpthread
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b081=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build046376713/b081/_cgo_.o /tmp/go-build046376713/b081/_cgo_main.o /tmp/go-build046376713/b081/_x001.o /tmp/go-build046376713/b081/_x002.o /tmp/go-build046376713/b081/_x003.o /tmp/go-build046376713/b081/_x004.o /tmp/go-build046376713/b081/_x005.o /tmp/go-build046376713/b081/_x006.o /tmp/go-build046376713/b081/_x007.o /tmp/go-build046376713/b081/_x008.o /tmp/go-build046376713/b081/_x009.o /tmp/go-build046376713/b081/_x010.o /tmp/go-build046376713/b081/_x011.o /tmp/go-build046376713/b081/_x012.o -g -O2 -lpthread -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build046376713/b077/ -O2 -I . /tmp/cgo-gcc-input-325104856.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-325104856.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build046376713/b077/ -O2 -I . /tmp/cgo-gcc-input-769878103.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-769878103.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -m64 -O0 -I . /tmp/cgo-gcc-input-395627978.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-395627978.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -O2 -m64 -I . /tmp/cgo-gcc-input-431925409.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-431925409.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -m64 -O0 -I . /tmp/cgo-gcc-input-194740620.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-194740620.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -O2 -m64 -I . /tmp/cgo-gcc-input-620713851.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-620713851.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build046376713/b077/ -O2 -I . /tmp/cgo-gcc-input-698981534.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-698981534.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -O2 -m64 -I . /tmp/cgo-gcc-input-805538149.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-805538149.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -m64 -O0 -I . /tmp/cgo-gcc-input-525198720.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-525198720.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -O2 -m64 -I . /tmp/cgo-gcc-input-014450399.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-014450399.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build046376713/b077/ -O2 -I . /tmp/cgo-gcc-input-455976626.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-455976626.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -m64 -O0 -I . /tmp/cgo-gcc-input-570118761.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-570118761.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -O2 -m64 -I . /tmp/cgo-gcc-input-460039860.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-460039860.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -m64 -O0 -I . /tmp/cgo-gcc-input-811668099.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-811668099.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -I /tmp/go-build046376713/b077/ -O2 -m64 -I . /tmp/cgo-gcc-input-137927174.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build046376713/b077//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-137927174.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b077/ -g -O2 -o /tmp/go-build046376713/b077/_x001.o -c _cgo_export.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build046376713/b077/_x001.o -c _cgo_export.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b077/ -g -O2 -o /tmp/go-build046376713/b077/_x002.o -c cgo_linux.cgo2.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build046376713/b077/_x002.o -c cgo_linux.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b077/ -g -O2 -o /tmp/go-build046376713/b077/_x003.o -c cgo_resnew.cgo2.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build046376713/b077/_x003.o -c cgo_resnew.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b077/ -g -O2 -o /tmp/go-build046376713/b077/_x004.o -c cgo_socknew.cgo2.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build046376713/b077/_x004.o -c cgo_socknew.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b077/ -g -O2 -o /tmp/go-build046376713/b077/_x005.o -c cgo_unix.cgo2.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build046376713/b077/_x005.o -c cgo_unix.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build046376713/b077/ -g -O2 -o /tmp/go-build046376713/b077/_cgo_main.o -c _cgo_main.c
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build046376713/b077/_cgo_main.o -c _cgo_main.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build046376713/b077/_cgo_.o /tmp/go-build046376713/b077/_cgo_main.o /tmp/go-build046376713/b077/_x001.o /tmp/go-build046376713/b077/_x002.o /tmp/go-build046376713/b077/_x003.o /tmp/go-build046376713/b077/_x004.o /tmp/go-build046376713/b077/_x005.o -g -O2
+<.> /usr/pkgsrc/category/go-resty/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-resty/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build046376713/b077=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build046376713/b077/_cgo_.o /tmp/go-build046376713/b077/_cgo_main.o /tmp/go-build046376713/b077/_x001.o /tmp/go-build046376713/b077/_x002.o /tmp/go-build046376713/b077/_x003.o /tmp/go-build046376713/b077/_x004.o /tmp/go-build046376713/b077/_x005.o -g -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-resty/work/.buildlink/include
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-resty/work/.tools/bin/true
+<.> true 

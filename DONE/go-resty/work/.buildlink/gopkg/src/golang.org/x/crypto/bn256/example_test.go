@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/bn256/example_test.go

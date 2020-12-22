@@ -1,0 +1,27 @@
+--- /usr/pkgsrc/category/go-resty/work/.prefix.pre	2020-12-22 23:18:46.460528214 +0100
++++ /usr/pkgsrc/category/go-resty/work/.prefix.post	2020-12-22 23:18:46.492528472 +0100
+@@ -0,0 +1,24 @@
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/go-resty/resty.a
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/BUILD.bazel
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/client.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/client_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/context_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/example_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/go.mod
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/LICENSE
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/middleware.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/README.md
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/redirect.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/request.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/request_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/response.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/resty.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/resty_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/retry.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/retry_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/trace.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/transport112.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/transport.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/util.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/util_test.go
++/usr/pkgsrc/category/go-resty/work/.destdir/usr/pkg/gopkg/src/github.com/go-resty/resty/WORKSPACE

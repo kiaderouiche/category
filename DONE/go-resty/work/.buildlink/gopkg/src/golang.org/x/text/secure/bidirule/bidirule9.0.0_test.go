@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/secure/bidirule/bidirule9.0.0_test.go
