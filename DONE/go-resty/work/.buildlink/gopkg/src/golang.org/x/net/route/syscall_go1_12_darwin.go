@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/route/syscall_go1_12_darwin.go

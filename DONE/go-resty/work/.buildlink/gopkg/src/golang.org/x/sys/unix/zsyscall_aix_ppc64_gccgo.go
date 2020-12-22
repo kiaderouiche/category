@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/unix/zsyscall_aix_ppc64_gccgo.go

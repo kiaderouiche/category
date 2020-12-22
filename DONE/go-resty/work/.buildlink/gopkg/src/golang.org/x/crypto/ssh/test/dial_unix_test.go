@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/ssh/test/dial_unix_test.go

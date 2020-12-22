@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/secure/precis/enforce9.0.0_test.go

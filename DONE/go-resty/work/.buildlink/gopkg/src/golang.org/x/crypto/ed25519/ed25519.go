@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/ed25519/ed25519.go

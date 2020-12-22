@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/transform/examples_test.go

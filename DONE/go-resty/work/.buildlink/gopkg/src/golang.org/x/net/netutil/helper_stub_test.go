@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/netutil/helper_stub_test.go

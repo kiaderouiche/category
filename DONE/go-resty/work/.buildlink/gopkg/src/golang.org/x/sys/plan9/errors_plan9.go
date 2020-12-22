@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/plan9/errors_plan9.go

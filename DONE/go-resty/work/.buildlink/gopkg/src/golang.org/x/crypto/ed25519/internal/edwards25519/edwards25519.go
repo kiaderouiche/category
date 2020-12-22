@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/ed25519/internal/edwards25519/edwards25519.go

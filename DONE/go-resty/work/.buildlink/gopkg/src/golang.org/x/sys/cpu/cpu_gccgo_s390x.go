@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/cpu/cpu_gccgo_s390x.go
