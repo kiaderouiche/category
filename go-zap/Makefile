@@ -18,4 +18,5 @@ GO_SRCPATH=	github.com/uber-go/zap/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
