@@ -15,5 +15,8 @@ LICENSE=	mit
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/tetafro/godot
 
+do-install:
+	${INSTALL_PROGRAM} ${WRKDIR}/bin/godot ${DESTDIR}${PREFIX}/bin
+	
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

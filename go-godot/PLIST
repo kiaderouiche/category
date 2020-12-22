@@ -1,20 +1,2 @@
 @comment $NetBSD$
 bin/godot
-gopkg/pkg/${GO_PLATFORM}/github.com/tetafro/godot.a
-gopkg/src/github.com/tetafro/godot/LICENSE
-gopkg/src/github.com/tetafro/godot/Makefile
-gopkg/src/github.com/tetafro/godot/README.md
-gopkg/src/github.com/tetafro/godot/checks.go
-gopkg/src/github.com/tetafro/godot/checks_test.go
-gopkg/src/github.com/tetafro/godot/cmd/godot/main.go
-gopkg/src/github.com/tetafro/godot/getters.go
-gopkg/src/github.com/tetafro/godot/getters_test.go
-gopkg/src/github.com/tetafro/godot/go.mod
-gopkg/src/github.com/tetafro/godot/godot.go
-gopkg/src/github.com/tetafro/godot/godot_test.go
-gopkg/src/github.com/tetafro/godot/settings.go
-gopkg/src/github.com/tetafro/godot/testdata/check/README.md
-gopkg/src/github.com/tetafro/godot/testdata/check/main.go
-gopkg/src/github.com/tetafro/godot/testdata/empty.go
-gopkg/src/github.com/tetafro/godot/testdata/get/README.md
-gopkg/src/github.com/tetafro/godot/testdata/get/main.go
