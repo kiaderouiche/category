@@ -2,14 +2,13 @@
 
 DISTNAME=	go-cascadia-1.0.0
 GITHUB_PROJECT=	cascadia
-GITHUB_TAG=	v1.6.0
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=andybalholm/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/andybalholm/cascadia/
-COMMENT=	CSS selector library in Go 
+COMMENT=	CSS selector library in Go
 LICENSE=	2-clause-bsd
 
 GO_SRCPATH=	github.com/andybalholm/cascadia/
