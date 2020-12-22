@@ -1,19 +1,21 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	golangci-lint
-GITHUB_TAG=	v1.30.0
-DISTNAME=	v1.30.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+GITHUB_TAG=	v1.33.0
+DISTNAME=	${GITHUB_TAG}
 DIST_SUBDIR=	${GITHUB_PROJECT}
+PKGNAME=	${GITHUB_PROJECT}-${GITHUB_TAG:S/v//}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=golangci/}
+GITHUB_PROJECT=	golangci-lint
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/kiaderouiche/golangci-lint/
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/golangci/golangci-lint/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/golangci-lint-1.30.0
-USE_LANGUAGES=	# none
+WRKSRC=		${WRKDIR}/golangci-lint-1.33.0
+GO_DIST_BASE=	golangci-lint-${GITHUB_TAG:S/v//}
+GO_SRCPATH=	github.com/golangci/golangci-lint/
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
