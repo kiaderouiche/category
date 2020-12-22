@@ -17,5 +17,6 @@ WRKSRC=		${WRKDIR}/golangci-lint-1.33.0
 GO_DIST_BASE=	golangci-lint-${GITHUB_TAG:S/v//}
 GO_SRCPATH=	github.com/golangci/golangci-lint/
 
+.include "../../devel/go-testify/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

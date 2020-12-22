@@ -1,21 +1,17 @@
 # $NetBSD$
 
-PKGNAME=	${GITHUB_PROJECT}-1.0.10
-DISTNAME=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GITHUB_PROJECT=	godotenv
+GITHUB_TAG=	v1.2.0
+DISTNAME=	v1.2.0
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=muquit/}
-GITHUB_PROJECT=	mailsend-go
-GITHUB_TAG=	v${PKGVERSION_NOREV}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=joho/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/muquit/mailsend-go/
+HOMEPAGE=	https://github.com/joho/godotenv/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-EXTRACT_USING=	bsdtar
-
-GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=	github.com/muquit/mailsend-go/
-
-.include "../../lang/go/go-package.mk"
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
