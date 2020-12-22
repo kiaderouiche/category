@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/giorgisio/goav/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Golang bindings for FFmpeg
 LICENSE=	mit
 
 EXTRACT_USING=	bsdtar
