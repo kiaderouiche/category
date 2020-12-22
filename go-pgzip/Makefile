@@ -1,7 +1,7 @@
 # $NetBSD$
 
-
-DISTNAME=	go-pgzip-1.2.5
+DISTNAME=	pgzip-1.2.5
+PKGNAME=	go-${DISTNAME}
 CATEGORIES=	archivers parallel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=klauspost/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}	
