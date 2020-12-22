@@ -9,8 +9,8 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/PuerkitoBio/goquery/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Little like that j-thing, only in Go
+LICENSE=	2-clause-bsd
 
 GO_SRCPATH=	github.com/uber-go/zap/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
