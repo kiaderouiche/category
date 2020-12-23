@@ -1,20 +1,19 @@
 # $NetBSD$
 
+DISTNAME=	go-rxgo-2.4.0
 GITHUB_PROJECT=	RxGo
-GITHUB_TAG=	v2.4.0
-DISTNAME=	${GITHUB_TAG}
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ReactiveX/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ReactiveX/RxGo/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/RxGo-2.4.0
+GO_SRCPATH=	github.com/ReactiveX/RxGo/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
-USE_LANGUAGES=	# none
-
+.include "../../devel/go-testify/buildlink3.mk"
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
