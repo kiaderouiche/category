@@ -2,11 +2,11 @@
 
 GITHUB_PROJECT=	libseccomp
 DISTNAME=	libseccomp-2.5.1
-CATEGORIES=	category
+CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_GITHUB:=seccomp/}
 GITHUB_RELEASE=	v2.5.1
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/seccomp/libseccomp/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
