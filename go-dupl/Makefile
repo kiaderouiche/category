@@ -11,6 +11,8 @@ HOMEPAGE=	https://github.com/mibk/dupl/
 COMMENT=	Tool for code clone detection 
 LICENSE=	mit
 
+EXTRACT_USING=	bsdtar
+
 GO_SRCPATH=	github.com/mibk/dupl/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
