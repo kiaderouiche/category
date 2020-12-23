@@ -19,7 +19,7 @@ GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
 do-install:
-  
+	${INSTALL_PROGRAM} ${WRKDIR}/bin/dupl ${DESTDIR}${PREFIX}/bin
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
