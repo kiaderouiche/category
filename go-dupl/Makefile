@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mibk/dupl/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Tool for code clone detection 
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_SRCPATH=	github.com/mibk/dupl/
