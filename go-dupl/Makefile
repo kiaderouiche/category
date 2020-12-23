@@ -16,5 +16,10 @@ EXTRACT_USING=	bsdtar
 GO_SRCPATH=	github.com/mibk/dupl/
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
+
+do-install:
+  
+
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
