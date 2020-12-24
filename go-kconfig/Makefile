@@ -13,5 +13,7 @@ HOMEPAGE=	https://github.com/lalamove/konfig/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/konfig-0.8.3
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
