@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	${MASTER_SITE_PYPI:=a/altair/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://altair-viz.github.io
 COMMENT=	Altair: A declarative statistical visualization library for Python
 #LICENSE=	BSD 3-clause # TODO: from setup.py; needs to be adjusted
@@ -14,10 +14,10 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-black>=0:../../textproc/py-black
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils>=0:../../textproc/py-docutils
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=0:../../devel/py-ipython
 BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
-BUILD_DEPENDS+=	# TODO: pytest>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=0:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=0:../../textproc/py-sphinx
 BUILD_DEPENDS+=	${PYPKGPREFIX}-m2r>=0:../../textproc/py-m2r
-BUILD_DEPENDS+=	# TODO: vega_datasets>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-vega_datasets>=0:../../wip/py-vega_datasets
 BUILD_DEPENDS+=	${PYPKGPREFIX}-recommonmark>=0:../../wip/py-recommonmark
 DEPENDS+=	${PYPKGPREFIX}-entrypoints>=0:../../devel/py-entrypoints
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=0:../../textproc/py-jinja2

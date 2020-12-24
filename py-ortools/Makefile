@@ -11,5 +11,8 @@ HOMEPAGE=	https://github.com/google/or-tools/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+USE_CMAKE=	yes
+USE_LANGUAGES=	c++
+USE_TOOLS+=	gmake
+
 .include "../../mk/bsd.pkg.mk"

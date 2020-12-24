@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (or-tools/v8.1.tar.gz) = cb3f6a82400b1e3818e33d8642d720128fc16d97
-RMD160 (or-tools/v8.1.tar.gz) = 6c95222dd91ac4480f218b3fd0e0372d5e62d213
-SHA512 (or-tools/v8.1.tar.gz) = 15ab57259fceb24ba1674c535155c53a26ec14c32187e1dba5701cc3fb7b67a29885e10a3dbed0601bf9a85b67b1c3aa9d2d750b5f92f5fddd7e82a14d79af00
-Size (or-tools/v8.1.tar.gz) = 87740341 bytes
+SHA1 (or-tools-8.1.tar.gz) = d4d9b436a5392904bfd0c9e7c01ccc76519b758c
+RMD160 (or-tools-8.1.tar.gz) = 7d07fc697e6dfd3b5b50fba3d69116b3b8947800
+SHA512 (or-tools-8.1.tar.gz) = 14e689effa595f01573bb8ca8040cc5bc48547341988371f30f4037ce08be03e78f40d7f4bde6debf0fbed941e5e55830d5ba84815b517b677c1a7ba2fd15bf5
+Size (or-tools-8.1.tar.gz) = 232290953 bytes
