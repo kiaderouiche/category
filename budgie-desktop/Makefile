@@ -16,7 +16,7 @@ WRKSRC=			${WRKDIR}/budgie-desktop-10.5.2
 USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=	yes
 
-.include "../../category/libseccomp/buildlink3.mk"
+#.include "../../category/libseccomp/buildlink3.mk"
 .include "../../devel/libpeas/buildlink3.mk" 
 .include "../../devel/libuuid/buildlink3.mk" 
 .include "../../devel/meson/build.mk"

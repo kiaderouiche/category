@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+![](https://raw.githubusercontent.com/textX/textX/master/art/textX-logo.png)
+
+[![PyPI Version](https://img.shields.io/pypi/v/textX.svg)](https://pypi.python.org/pypi/textX)
+![](https://img.shields.io/pypi/l/textX.svg)
+[![Build status](https://travis-ci.org/textX/textX.svg?branch=master)](https://travis-ci.org/textX/textX)
+[![Code test coverage](https://coveralls.io/repos/github/textX/textX/badge.svg?branch=master)](https://coveralls.io/github/textX/textX?branch=master)
+[![Documentation Status](https://img.shields.io/badge/docs-latest-green.svg)](http://textx.github.io/textX/latest/)
+
+
+textX is a meta-language for building Domain-Specific Languages (DSLs) in
+Python. It is inspired by [Xtext].
+
+In a nutshell, textX will help you build your textual language in an easy way.
+You can invent your own language or build a support for already existing textual
+language or file format.
+
+From a single language description (grammar), textX will build a parser and a
+meta-model (a.k.a. abstract syntax) for the language. See the docs for the
+details.
+
+...

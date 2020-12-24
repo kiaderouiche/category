@@ -1,7 +1,7 @@
 # pkgsrc's work dir
-#*/work
+*/work
 # OBJHOSTNAME=yes use-case
-#*/work.*
+*/work.*
 
 # Temporary files
 Makefile-url2pkg.bak
