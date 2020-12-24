@@ -16,7 +16,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=0:../../devel/py-ipython
 BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.3.0:../../devel/py-flake8
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=4.3.1:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx>=2.4.4:../../textproc/py-sphinx
-BUILD_DEPENDS+=	${PYPKGPREFIX}-m2r>=0:../../textproc/py-m2r
+BUILD_DEPENDS+=	${PYPKGPREFIX}-m2r>=0.2.1:../../textproc/py-m2r
 BUILD_DEPENDS+=	${PYPKGPREFIX}-vega_datasets>=0:../../wip/py-vega_datasets
 BUILD_DEPENDS+=	${PYPKGPREFIX}-recommonmark>=0:../../wip/py-recommonmark
 DEPENDS+=	${PYPKGPREFIX}-entrypoints>=0:../../devel/py-entrypoints
