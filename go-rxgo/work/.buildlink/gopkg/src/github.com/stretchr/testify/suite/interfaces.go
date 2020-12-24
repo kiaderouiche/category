@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/stretchr/testify/suite/interfaces.go
