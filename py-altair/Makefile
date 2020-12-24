@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=a/altair/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://altair-viz.github.io
 COMMENT=	Altair: A declarative statistical visualization library for Python
-LICENSE=	2-bsd-claused
+LICENSE=	2-clause-bsd
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-black>=20.8:../../textproc/py-black
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils>=0.16:../../textproc/py-docutils
