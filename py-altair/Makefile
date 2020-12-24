@@ -23,7 +23,7 @@ DEPENDS+=	${PYPKGPREFIX}-entrypoints>=0.3:../../devel/py-entrypoints
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.11.2:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-jsonschema>=3.2.0:../../textproc/py-jsonschema
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.18:../../math/py-pandas
-DEPENDS+=	${PYPKGPREFIX}-toolz>=0:../../devel/py-toolz
+DEPENDS+=	${PYPKGPREFIX}-toolz>=0.10.0:../../devel/py-toolz
 
 USE_LANGUAGES=	# none
 
