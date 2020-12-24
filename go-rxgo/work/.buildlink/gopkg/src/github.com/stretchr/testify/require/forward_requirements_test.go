@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/stretchr/testify/require/forward_requirements_test.go

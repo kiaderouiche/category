@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	pax>=20040802	../../archivers/pax
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	go115-1.15.5*	../../lang/go115
-build	go-testify>=1.1.3	../../devel/go-testify
-build	go-backoff>=20141124	../../wip/go-backoff
-build	cwrappers>=20150314	../../pkgtools/cwrappers

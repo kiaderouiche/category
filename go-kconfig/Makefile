@@ -8,13 +8,10 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=lalamove/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/lalamove/konfig/
-COMMENT=	Composable, observable and performant config handling for Go
-LICENSE=	mit
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/konfig-0.8.3
-
-USE_LANGUAGES=	# none
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"

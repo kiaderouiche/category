@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/stretchr/testify/http/test_round_tripper.go
