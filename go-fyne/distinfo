@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (fyne/v1.3.3.tar.gz) = 994b9e5387d3d94b86772bd7019d396440c4a384
-RMD160 (fyne/v1.3.3.tar.gz) = f070f2b4dc378aa1f72d3ef58bd4301f6f91a61e
-SHA512 (fyne/v1.3.3.tar.gz) = 36fc4df560c1d942a196b02853a6de87bbf6d3db608456f6c29ebb96dfbb221d34b70d666853ad560ec76592a95411a2c89030b9e25ea12411ee3fb85021138f
-Size (fyne/v1.3.3.tar.gz) = 8024476 bytes
+SHA1 (go-fyne-1.4.2.tar.gz) = 4b97ed2cd1488aadfdb8766a24f9c04ca054c880
+RMD160 (go-fyne-1.4.2.tar.gz) = fe6fa8818cdabdff75c1f1ed80624209d443d4ae
+SHA512 (go-fyne-1.4.2.tar.gz) = 407c3087fe3b84845b7f207d2178dc8475839d2640a722ff464899fd5e92030a581fdc9f736f98cb86ad4a83393e432dfd4c77fe55ac623841e6c04d69c94407
+Size (go-fyne-1.4.2.tar.gz) = 9004984 bytes

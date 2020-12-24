@@ -1,8 +1,8 @@
 # $NetBSD$
 
 GITHUB_PROJECT=	rpcx
-GITHUB_TAG=	v5.7.8
-DISTNAME=	v5.7.8
+GITHUB_TAG=	v6.0.0
+DISTNAME=	v6.0.0
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=smallnest/}
@@ -13,7 +13,5 @@ HOMEPAGE=	https://github.com/smallnest/rpcx/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/rpcx-5.7.8
-USE_LANGUAGES=	# none
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
