@@ -10,7 +10,7 @@ HOMEPAGE=	http://altair-viz.github.io
 COMMENT=	Altair: A declarative statistical visualization library for Python
 #LICENSE=	BSD 3-clause # TODO: from setup.py; needs to be adjusted
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-black>=0:../../textproc/py-black
+BUILD_DEPENDS+=	${PYPKGPREFIX}-black>=20.8:../../textproc/py-black
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils>=0.16:../../textproc/py-docutils
 BUILD_DEPENDS+=	${PYPKGPREFIX}-ipython>=0:../../devel/py-ipython
 BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.3.0:../../devel/py-flake8
