@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (gizmo/v1.3.6.tar.gz) = 5d81417323a7975bc72e02dba82670fdb866430b
-RMD160 (gizmo/v1.3.6.tar.gz) = 7c1ac39a5d9c6609af9021a9eeae1f70792812c8
-SHA512 (gizmo/v1.3.6.tar.gz) = 2c088806beb1b1311a383831b860ed0b925359d3b4b2d511dbb975a7d37dd2ec1dcb4132789ff3fe460fc8d5d6706f2c45f39e9d77e2db2e069c23175b7bdf55
-Size (gizmo/v1.3.6.tar.gz) = 210105 bytes
+SHA1 (go-gizmo-1.3.6.tar.gz) = 5d81417323a7975bc72e02dba82670fdb866430b
+RMD160 (go-gizmo-1.3.6.tar.gz) = 7c1ac39a5d9c6609af9021a9eeae1f70792812c8
+SHA512 (go-gizmo-1.3.6.tar.gz) = 2c088806beb1b1311a383831b860ed0b925359d3b4b2d511dbb975a7d37dd2ec1dcb4132789ff3fe460fc8d5d6706f2c45f39e9d77e2db2e069c23175b7bdf55
+Size (go-gizmo-1.3.6.tar.gz) = 210105 bytes
