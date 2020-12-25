@@ -9,11 +9,12 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://redis.uptrace.dev/
 COMMENT=	Type-safe Redis client for Golang
-LICENSE=	2-claus-bsd
+LICENSE=	2-clause-bsd
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/go-redis/redis/
 
-.include "../../databases/redis/buildlink3.mk"
+DEPENDS+=	redis>=6.0.9:../../databases/redis
+
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
