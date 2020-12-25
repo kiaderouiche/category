@@ -7,9 +7,9 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=go-redis/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/go-redis/redis/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	https://redis.uptrace.dev/
+COMMENT=	Type-safe Redis client for Golang
+LICENSE=	2-claus-bsd
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/go-redis/redis/
