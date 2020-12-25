@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-errlog-0.0.2
 GITHUB_PROJECT=	errlog
-GITHUB_TAG=	0.0.2
-DISTNAME=	0.0.2
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=snwfdhmp/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/snwfdhmp/errlog/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/errlog-0.0.2
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/snwfdhmp/errlog
+GO_DIST_BASE=	errlog-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
