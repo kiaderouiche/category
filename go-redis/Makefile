@@ -11,7 +11,8 @@ HOMEPAGE=	https://github.com/go-redis/redis/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/redis-8.4.4
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/go-redis/redis/
+
 
 .include "../../mk/bsd.pkg.mk"
