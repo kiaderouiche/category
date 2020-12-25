@@ -12,7 +12,8 @@ HOMEPAGE=	https://github.com/rs/zerolog/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/zerolog-72acd6cfe8bbbf5c52bfc805a3889c6941499c95
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	repr-${GITHUB_TAG}
+GO_SRCPATH=	github.com/alecthomas/repr
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
