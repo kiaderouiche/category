@@ -14,10 +14,9 @@ LICENSE=	mit
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/fatih/color
 
-#mattn/go-isatty
-#github.com/fatih/color/vendor/golang.org/x/sys/unix
-#github.com/fatih/color/vendor/github.com/mattn/go-isatty
-#github.com/fatih/color/vendor/github.com/mattn/go-colorable
 
+.include "../../devel/go-colorable/buildlink3.mk"
+.include "../../devel/go-isatty/buildlink3.mk"
+.include "../../devel/go-sys/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
