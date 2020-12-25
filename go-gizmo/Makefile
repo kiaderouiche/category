@@ -11,7 +11,7 @@ HOMEPAGE=	https://github.com/nytimes/gizmo/
 COMMENT=	Microservice Toolkit from The New York Times 
 LICENSE=	apache-2.0
 
-GO_DIST_BASE=	flogo-${PKGVERSION_NOREV}
+GO_DIST_BASE=	gizmo-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/nytimes/gizmo
 
 .include "../../lang/go/go-package.mk"
