@@ -11,7 +11,8 @@ HOMEPAGE=	https://github.com/gonum/gonum/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/gonum-0.8.2
-USE_LANGUAGES=	fortran
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/gonum/gonum
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
