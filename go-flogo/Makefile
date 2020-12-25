@@ -9,7 +9,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/TIBCOSoftware/flogo/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	3-clause-bsd
 
 GO_DIST_BASE=	flogo-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/TIBCOSoftware/flogo/
