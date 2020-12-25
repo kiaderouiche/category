@@ -12,7 +12,7 @@ HOMEPAGE=	https://github.com/go-gota/gota/
 COMMENT=	DataFrames and data wrangling in Go
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/gota-34e54ced8992ba08c4a6cc14a94859b4dfef3dd4
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	gota-${GITHUB_TAG}
+GO_SRCPATH=	github.com/go-gota/gota
 
 .include "../../mk/bsd.pkg.mk"
