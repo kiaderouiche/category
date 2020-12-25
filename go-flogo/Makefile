@@ -2,12 +2,12 @@
 
 DISTNAME=	go-flogo-0.5.6
 GITHUB_PROJECT=	flogo
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=TIBCOSoftware/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/TIBCOSoftware/flogo/
+HOMEPAGE=	https://www.flogo.io/
 COMMENT=	TODO: Short description of the package
 LICENSE=	3-clause-bsd
 
