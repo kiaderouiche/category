@@ -6,7 +6,7 @@ CATEGORIES=	parallel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=t/textX/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://textx.github.io/textX/
+HOMEPAGE=	https://textx.github.io/textX/
 COMMENT=	Domain-Specific Languages and parsers in Python made easy
 LICENSE=	mit
 
