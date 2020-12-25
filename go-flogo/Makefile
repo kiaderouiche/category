@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-flogo-0.5.6
 GITHUB_PROJECT=	flogo
-GITHUB_TAG=	v0.5.8
-DISTNAME=	v0.5.8
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=TIBCOSoftware/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/TIBCOSoftware/flogo/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/flogo-0.5.8
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	flogo-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/TIBCOSoftware/flogo/
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
