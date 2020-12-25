@@ -15,6 +15,7 @@ LICENSE=	mit
 GO_DIST_BASE=	zerolog-${GITHUB_TAG}
 GO_SRCPATH=	github.com/rs/zerolog/
 
-
+.include "../../devel/go-errors/buildlink3.mk"
+.include "../../devel/go-tools/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
