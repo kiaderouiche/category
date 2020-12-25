@@ -15,4 +15,5 @@ COMMENT=	DataFrames and data wrangling in Go
 GO_DIST_BASE=	gota-${GITHUB_TAG}
 GO_SRCPATH=	github.com/go-gota/gota
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
