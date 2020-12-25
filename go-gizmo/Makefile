@@ -9,7 +9,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/nytimes/gizmo/
 COMMENT=	Microservice Toolkit from The New York Times 
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 GO_DIST_BASE=	flogo-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/nytimes/gizmo
