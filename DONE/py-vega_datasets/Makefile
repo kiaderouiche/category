@@ -11,7 +11,7 @@ COMMENT=	Python package for offline access to Vega datasets
 LICENSE=	mit
 
 #DEPENDS+=	${PYPKGPREFIX}-pandas>=0.23.0:../../math/py-pandas
-#TEST_DEPENDS+=	${PYPKGPREFIX}-test>=0
+#TEST_DEPENDS+=	${PYPKGPREFIX}-test>=6.2.1:../../devel/py-test
 
 USE_LANGUAGES=	# none
 
