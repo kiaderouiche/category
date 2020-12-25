@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/nytimes/gizmo/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Microservice Toolkit from The New York Times 
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_DIST_BASE=	flogo-${PKGVERSION_NOREV}
