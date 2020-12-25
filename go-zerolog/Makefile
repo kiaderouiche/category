@@ -12,8 +12,9 @@ HOMEPAGE=	https://github.com/rs/zerolog/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-GO_DIST_BASE=	repr-${GITHUB_TAG}
-GO_SRCPATH=	github.com/alecthomas/repr
+GO_DIST_BASE=	zerolog-${GITHUB_TAG}
+GO_SRCPATH=	github.com/rs/zerolog/
+
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
