@@ -10,7 +10,7 @@ GITHUB_TAG=	34e54ced8992ba08c4a6cc14a94859b4dfef3dd4
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/go-gota/gota/
 COMMENT=	DataFrames and data wrangling in Go
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 GO_DIST_BASE=	gota-${GITHUB_TAG}
 GO_SRCPATH=	github.com/go-gota/gota
