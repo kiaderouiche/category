@@ -4,7 +4,7 @@ DISTNAME=	go-dbus-5.0.3
 GITHUB_PROJECT=	dbus
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GITHUB:=godbus/}
-GITHUB_TAG=	${PKGVERSION_NOREV}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/godbus/dbus/
@@ -13,9 +13,6 @@ COMMENT=	TODO: Short description of the package
 
 GO_SRCPATH=	github.com/godbus/dbus
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-
-GO_DIST_BASE=	dbus-${GITHUB_TAG}
-GO_SRCPATH=	github.com/godbus/dbus
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
