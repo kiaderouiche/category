@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (dkron/v3.0.5.tar.gz) = 18c157a9e6a13340143253c8b6c8c193e351715c
-RMD160 (dkron/v3.0.5.tar.gz) = 08ccd2714120f57ea6f25d22f92829f9299ac9b8
-SHA512 (dkron/v3.0.5.tar.gz) = 474bc60159d97e00272cabd4b28ba868c567fcfa1d4b17a4b4bb5fb531db78d9fb9ef367197f95b306ccb0fe576d5c3db18e59370d3606b5a2b4cab34836d796
-Size (dkron/v3.0.5.tar.gz) = 10243122 bytes
+SHA1 (go-dkron-3.1.1.tar.gz) = 0d97d7645fecb1d7fa164270e42a6b8a048a6107
+RMD160 (go-dkron-3.1.1.tar.gz) = c3dc2c999d6fca9aafa8f8253cb9381c3baefd50
+SHA512 (go-dkron-3.1.1.tar.gz) = a4a751cf3a6fc813d2ac8d92df943947a3892e2a51222d454beb43433fabbbb0f8a060f76e5c4ba6ad7410d60429b2b8347b177954e35edccf119d39f877b58e
+Size (go-dkron-3.1.1.tar.gz) = 12825027 bytes
