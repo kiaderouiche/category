@@ -11,5 +11,7 @@ HOMEPAGE=	https://github.com/gonum/plot/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/plot-0.8.1
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
