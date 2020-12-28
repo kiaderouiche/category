@@ -12,7 +12,7 @@ COMMENT=	Buffer/Byte pool for Go
 LICENSE=	apache-2.0
 
 GO_SRCPATH=	github.com/oxtoacart/bpool
-GO_DIST_BASE=	golog-${GITHUB_TAG}
+GO_DIST_BASE=	bpool-${GITHUB_TAG}
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
