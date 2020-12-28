@@ -14,5 +14,6 @@ LICENSE=	mit
 GO_DIST_BASE=	tracerr-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/ztrue/tracerr
 
+.include "../../wip/go-aurora/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
