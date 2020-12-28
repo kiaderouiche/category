@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (systray/v1.0.4.tar.gz) = 2210cfcd758e9cf1d29db4614adf4a67468554ed
-RMD160 (systray/v1.0.4.tar.gz) = 462deae1cfc2e8c084f2799da90160ac06bab854
-SHA512 (systray/v1.0.4.tar.gz) = 5aefea58058a42218fe4cbb867d0e244531cfaa24b0b314b1793aaa9ed174c65ab5f2f77d688f088a102d9a57b3250d7a9cad9aae6c9529dea418c7a55bcf30e
-Size (systray/v1.0.4.tar.gz) = 5999021 bytes
+SHA1 (go-systray-1.1.0.tar.gz) = 1314abf44534a478d8b992fb12275464a1ea8796
+RMD160 (go-systray-1.1.0.tar.gz) = 7c1812da224d1bc25f755feca838fde91ab9f53a
+SHA512 (go-systray-1.1.0.tar.gz) = 0496cb9138a3f1cb2b27d6e307c6c5ee4e6d6ae3fad174e7b472250e90bf895d49aced35923d5f461785420e109c6b3fe70884168392927a4c887322f04b343a
+Size (go-systray-1.1.0.tar.gz) = 5999804 bytes
