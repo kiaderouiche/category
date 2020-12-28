@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-uilive-0.0.4
 GITHUB_PROJECT=	uilive
-GITHUB_TAG=	v0.0.4
-DISTNAME=	v0.0.4
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	comms
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gosuri/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/gosuri/uilive/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Uilive is a go library for updating terminal output in realtime
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/uilive-0.0.4
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	uilive-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/gosuri/uilive
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
