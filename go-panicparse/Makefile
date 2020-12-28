@@ -1,18 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-panicparse-1.6.0
 GITHUB_PROJECT=	panicparse
-GITHUB_TAG=	v1.5.1
-DISTNAME=	v1.5.1
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GITHUB:=maruel/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/maruel/panicparse/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Crash your app in style
+LICENSE=	apache-2.0
 
-WRKSRC=	${WRKDIR}/panicparse-1.5.1
+GO_SRCPATH=	github.com/maruel/panicparse
+GO_DIST_BASE=	panicparse-${GITHUB_TAG}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
