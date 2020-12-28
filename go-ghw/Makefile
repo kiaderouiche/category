@@ -8,8 +8,8 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/jaypipes/ghw/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Golang hardware discovery/inspection library
+LICENSE=	apache-2.0
 
 GO_SRCPATH=     github.com/jaypipes/ghw
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}

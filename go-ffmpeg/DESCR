@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+﻿# Goffmpeg
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e018e5008b4439acbb30d715b22e7f)](https://www.codacy.com/app/francisco.romero/goffmpeg?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=xfrr/goffmpeg&amp;utm_campaign=Badge_Grade)
+
+FFMPEG wrapper written in GO which allows to obtain the progress.
+
+# Dependencies
+- [FFmpeg](https://www.ffmpeg.org/)
+- [FFProbe](https://www.ffmpeg.org/ffprobe.html)
+
+# Supported platforms
+
+ - Linux
+ - OS X
+ - Windows
+
+# Getting started
+## How to transcode a media file
+```shell
+go get github.com/xfrr/goffmpeg
+```
+...
