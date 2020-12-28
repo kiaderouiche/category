@@ -11,8 +11,8 @@ HOMEPAGE=	https://github.com/jinzhu/copier/
 COMMENT=	Copier for golang, copy value from struct to struct and more
 LICENSE=	mit
 
-GO_SRCPATH=	github.com/panjf2000/ants
-GO_DIST_BASE=	ants-${GITHUB_TAG}
+GO_SRCPATH=	github.com/jinzhu/copier
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

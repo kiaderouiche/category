@@ -12,7 +12,7 @@ COMMENT=	High-performance and low-cost goroutine pool in Go
 LICENSE=	mit
 
 GO_SRCPATH=	github.com/panjf2000/ants
-GO_DIST_BASE=	ants-${GITHUB_TAG}
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
