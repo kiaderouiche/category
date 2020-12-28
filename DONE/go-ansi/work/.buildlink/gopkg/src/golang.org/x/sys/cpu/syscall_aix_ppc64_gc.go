@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/cpu/syscall_aix_ppc64_gc.go

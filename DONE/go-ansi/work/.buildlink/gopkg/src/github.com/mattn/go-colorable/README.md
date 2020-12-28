@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/mattn/go-colorable/README.md
