@@ -11,5 +11,6 @@ HOMEPAGE=	https://github.com/sbinet/go-python/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+USE_TOOLS+=	gmake
+
 .include "../../mk/bsd.pkg.mk"
