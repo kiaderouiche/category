@@ -14,5 +14,6 @@ COMMENT=	TODO: Short description of the package
 GO_SRCPATH=	github.com/distribworks/dkron
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../wip/go-circbuf/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
