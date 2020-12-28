@@ -11,5 +11,6 @@ HOMEPAGE=	https://github.com/go-ole/go-ole/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
