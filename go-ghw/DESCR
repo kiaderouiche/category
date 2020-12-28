@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# `ghw` - Golang HardWare discovery/inspection library [![Build Status](https://travis-ci.org/jaypipes/ghw.svg?branch=master)](https://travis-ci.org/jaypipes/ghw)
+![ghw mascot](images/ghw-gopher.png)
+<br /><br />
+`ghw` is a small Golang library providing hardware inspection and discovery
+for Linux and Windows. There currently exists partial support for MacOSX.
+
+## Design Principles
+
+* No root privileges needed for discovery
+
+  `ghw` goes the extra mile to be useful without root priveleges. We query for
+  host hardware information as directly as possible without relying on shellouts
+  to programs like `dmidecode` that require root privileges to execute.
+
+  Elevated privileges are indeed required to query for some information, but
+  `ghw` will never error out if blocked from reading that information. Instead,
+  `ghw` will print a warning message about the information that could not be
+  retrieved. You may disable these warning messages with `GHW_DISABLE_WARNINGS`
+  environment variable.
+
+...
