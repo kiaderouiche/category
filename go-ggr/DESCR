@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Go Grid Router
+[![Build Status](https://travis-ci.org/aerokube/ggr.svg?branch=master)](https://travis-ci.org/aerokube/ggr)
+[![Coverage](https://codecov.io/github/aerokube/ggr/coverage.svg)](https://codecov.io/gh/aerokube/ggr)
+[![GoReport](https://goreportcard.com/badge/github.com/aerokube/ggr)](https://goreportcard.com/report/github.com/aerokube/ggr)
+[![Release](https://img.shields.io/github/release/aerokube/ggr.svg)](https://github.com/aerokube/ggr/releases/latest)
+[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/ggr.svg)](https://hub.docker.com/r/aerokube/ggr)
+
+Go Grid Router (aka Ggr) is a lightweight active load balancer used to create scalable and highly-available [Selenium](http://seleniumhq.org/) clusters.
+![Ggr Animation](docs/img/ggr-animation.gif)
+
+## Articles
+
+* [Selenium testing: a new hope (part I)](https://hackernoon.com/selenium-testing-a-new-hope-7fa87a501ee9)
+* [Selenium testing: a new hope (part II)](https://hackernoon.com/selenium-testing-a-new-hope-a00649cdb100)
+
+## Quick Start Guide
+To use Go Grid Router do the following:
+1) Install [Docker](http://docker.com/) to host
+2) Create configuration directory:
+```
+...
