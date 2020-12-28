@@ -1,0 +1,4 @@
+category/go-amqp/buildlink3.mk:	$NetBSD$
+category/go-amqp/distinfo:	$NetBSD$
+category/go-amqp/Makefile:	$NetBSD$
+category/go-amqp/PLIST:	$NetBSD$

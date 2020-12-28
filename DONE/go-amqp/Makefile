@@ -11,7 +11,7 @@ HOMEPAGE=	https://github.com/streadway/amqp/
 COMMENT=	Go client for AMQP
 LICENSE=	2-clause-bsd
 
-GO_SRCPATH=	github.com/godbus/dbus
+GO_SRCPATH=	github.com/streadway/amqp
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../lang/go/go-package.mk"
