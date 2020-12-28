@@ -14,4 +14,5 @@ LICENSE=	mit
 GO_SRCPATH=     github.com/StackExchange/wmi
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
