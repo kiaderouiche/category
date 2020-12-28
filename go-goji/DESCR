@@ -1,8 +1,1 @@
-Goji is a minimalistic web framework that values composability and simplicity.
-
-This project has been superseded by a [new version of Goji][goji2] by the same
-author, which has very similar primitives and semantics, but has been updated to
-reflect several years of experience with this library and the surrounding Go
-ecosystem. This project is still well-loved and well-maintained, and will be for
-the foreseeable future, but new projects are encouraged to use `goji.io`
-instead.
+Goji is a minimalistic web framework that values composability and simplicity
