@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (benthos/v3.29.0.tar.gz) = 7a47154f485e0ef3859085a6a15ac8cd469e5edf
-RMD160 (benthos/v3.29.0.tar.gz) = 6a5ae290862e87f9c806cbed5433ea14809b9498
-SHA512 (benthos/v3.29.0.tar.gz) = 0bd113454d825518f801f25e609bfa1d85f4f6ebfed21e286ce6ee08a78889bfbe1d7133bcb5c06f7d5202c5777eeb5ade4588488aedf1aa159d1740618849bb
-Size (benthos/v3.29.0.tar.gz) = 1823183 bytes
+SHA1 (go-benthos-3.36.0.tar.gz) = 6b219cc3ed7f6f4faee831720475d0c27bd57a93
+RMD160 (go-benthos-3.36.0.tar.gz) = c9e39071f7c85594038cda0fa859ae0623557c03
+SHA512 (go-benthos-3.36.0.tar.gz) = 12b22e0e63e5345b2a1d534090d716925e7c6aef36746c3a417f28347f098eb2a36f608d1dc1185cacfe424d94513c311f44eb846bb95d02aa16cb15d4571218
+Size (go-benthos-3.36.0.tar.gz) = 1939818 bytes
