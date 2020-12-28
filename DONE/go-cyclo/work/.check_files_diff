@@ -1,0 +1,28 @@
+--- /usr/pkgsrc/category/go-cyclo/work/.prefix.pre	2020-12-28 15:21:23.845692567 +0100
++++ /usr/pkgsrc/category/go-cyclo/work/.prefix.post	2020-12-28 15:21:24.065698705 +0100
+@@ -0,0 +1,25 @@
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/bin/gocyclo
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/fzipp/gocyclo.a
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/analyze.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/analyze_test.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/CHANGELOG.md
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/cmd/gocyclo/main.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/complexity.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/CONTRIBUTORS
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/directives.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/go.mod
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/LICENSE
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/README.md
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/stats.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/stats_test.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/cases.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/comms.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/directory/file1.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/directory/file2.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/directory/file3.nogo
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/ifs.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/ignores.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/literals.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/loops.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/methods.go
++/usr/pkgsrc/category/go-cyclo/work/.destdir/usr/pkg/gopkg/src/github.com/fzipp/gocyclo/testdata/operators.go

@@ -1,0 +1,56 @@
+@cwd /usr/pkg
+@name go-cyclo-0.3.1
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/gocyclo
+@comment MD5:6069dec2915da6634a8c282ac961605c
+gopkg/pkg/linux_amd64/github.com/fzipp/gocyclo.a
+@comment MD5:b1c94b1caae0f6aa381ae21851ff5eeb
+gopkg/src/github.com/fzipp/gocyclo/CHANGELOG.md
+@comment MD5:dd6b0aa7338582267d74fb9bc4761260
+gopkg/src/github.com/fzipp/gocyclo/CONTRIBUTORS
+@comment MD5:41f3ba01685f81e58234fc4961ab8c16
+gopkg/src/github.com/fzipp/gocyclo/LICENSE
+@comment MD5:c908d7ca37f1ed944afa588140b9d734
+gopkg/src/github.com/fzipp/gocyclo/README.md
+@comment MD5:fa0bfadb88cbc5b47ddc98f6ac274618
+gopkg/src/github.com/fzipp/gocyclo/analyze.go
+@comment MD5:33f6967e443d82bd136c81a9e309e158
+gopkg/src/github.com/fzipp/gocyclo/analyze_test.go
+@comment MD5:c14151bf340c2fb9bdb0f1bf241fbdda
+gopkg/src/github.com/fzipp/gocyclo/cmd/gocyclo/main.go
+@comment MD5:18b8018cade7aa4a46cdc01a83f9d3c3
+gopkg/src/github.com/fzipp/gocyclo/complexity.go
+@comment MD5:3d0cdb39385876a40eea33f4910c6e03
+gopkg/src/github.com/fzipp/gocyclo/directives.go
+@comment MD5:817c3eb71de8714372de2de64ef57aec
+gopkg/src/github.com/fzipp/gocyclo/go.mod
+@comment MD5:9ce5458eadef21ba5be553fab659c1a0
+gopkg/src/github.com/fzipp/gocyclo/stats.go
+@comment MD5:e81d300e9f8899ee909b91298280fd15
+gopkg/src/github.com/fzipp/gocyclo/stats_test.go
+@comment MD5:c03c9aa837a079fb43120cd5decc4258
+gopkg/src/github.com/fzipp/gocyclo/testdata/cases.go
+@comment MD5:98fa9c00a03b3e29e81ad166670034ee
+gopkg/src/github.com/fzipp/gocyclo/testdata/comms.go
+@comment MD5:f595bea495225d8bd0cc11cb07e05c8c
+gopkg/src/github.com/fzipp/gocyclo/testdata/directory/file1.go
+@comment MD5:8b881f3a1cb8942001f873beaf55abde
+gopkg/src/github.com/fzipp/gocyclo/testdata/directory/file2.go
+@comment MD5:1c9a683fa0e81f5951375d1834031a05
+gopkg/src/github.com/fzipp/gocyclo/testdata/directory/file3.nogo
+@comment MD5:1a3aa261155f4ffd6e5705d2b85f2403
+gopkg/src/github.com/fzipp/gocyclo/testdata/ifs.go
+@comment MD5:bf849e2a0a0dbee10d287f4f37b28b1d
+gopkg/src/github.com/fzipp/gocyclo/testdata/ignores.go
+@comment MD5:8661502f93921a9336e437ff58a68fff
+gopkg/src/github.com/fzipp/gocyclo/testdata/literals.go
+@comment MD5:3a2c2bf55ade491d83c072797645f037
+gopkg/src/github.com/fzipp/gocyclo/testdata/loops.go
+@comment MD5:e916af97c283d471a3df21a2519c56c2
+gopkg/src/github.com/fzipp/gocyclo/testdata/methods.go
+@comment MD5:d1d5f0a4e4b6677308f5eafe7119eed3
+gopkg/src/github.com/fzipp/gocyclo/testdata/operators.go
+@comment MD5:e2a611b0fb35c1227be75c7bc012c91f

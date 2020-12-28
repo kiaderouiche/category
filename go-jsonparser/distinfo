@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (jsonparser/v1.0.0.tar.gz) = 3b6eda9ddaa3e37d82eec566ee96dc0b4a30f05e
-RMD160 (jsonparser/v1.0.0.tar.gz) = ddcd366d087e6bde97e5c490d1f9f7c57856efdc
-SHA512 (jsonparser/v1.0.0.tar.gz) = 4b0ef9defcf099d97e3154edbbe51b7971757e294d5e8d659b578f06d3066585a318f706cd15e2b89ea06a9c43ba4fbd7f350f6bffa844db626aec141a011968
-Size (jsonparser/v1.0.0.tar.gz) = 53728 bytes
+SHA1 (go-jsonparser-1.1.0.tar.gz) = a48d207e0b28ba48e840aa4b57a69acc45b04ec1
+RMD160 (go-jsonparser-1.1.0.tar.gz) = 3a151c70757c20e6bdc045eb85482d2885b0e3c2
+SHA512 (go-jsonparser-1.1.0.tar.gz) = 54d3d68433e17b5258a1431448543728337c33f259758f3056f0023dc356d04419fe7a84166e7eb3f050f93d5ad1bf2d68a5b8d0708862961f9a21ea01ee65f0
+Size (go-jsonparser-1.1.0.tar.gz) = 55162 bytes
