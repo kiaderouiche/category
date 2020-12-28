@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-tracerr-0.3.0
 GITHUB_PROJECT=	tracerr
-GITHUB_TAG=	v0.3.0
-DISTNAME=	v0.3.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ztrue/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ztrue/tracerr/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Golang errors with stack trace and source fragments
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/tracerr-0.3.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	tracerr-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/ztrue/tracerr
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

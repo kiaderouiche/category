@@ -8,8 +8,8 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mvdan/xurls/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Extract urls from text
+LICENSE=	2-clause-bsd
 
 GO_DIST_BASE=	xurls-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/mvdan/xurls
