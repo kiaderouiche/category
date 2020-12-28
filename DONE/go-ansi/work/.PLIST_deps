@@ -1,0 +1,17 @@
+@name go-ansi-20200706
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep go-colorable-0.0.9nb22
+@blddep go-isatty-0.0.3nb26
+@blddep go-sys-0.0.20200202nb9
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/ansi-mgutz
+gopkg/pkg/linux_amd64/github.com/mgutz/ansi.a
+gopkg/src/github.com/mgutz/ansi/LICENSE
+gopkg/src/github.com/mgutz/ansi/README.md
+gopkg/src/github.com/mgutz/ansi/ansi.go
+gopkg/src/github.com/mgutz/ansi/ansi_test.go
+gopkg/src/github.com/mgutz/ansi/cmd/ansi-mgutz/main.go
+gopkg/src/github.com/mgutz/ansi/doc.go
+gopkg/src/github.com/mgutz/ansi/print.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/plan9/mksysnum_plan9.sh

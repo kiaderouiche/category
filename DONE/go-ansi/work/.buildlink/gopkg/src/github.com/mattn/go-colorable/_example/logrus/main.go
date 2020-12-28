@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/mattn/go-colorable/_example/logrus/main.go

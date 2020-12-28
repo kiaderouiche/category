@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	pax>=20040802	pax-20080110nb4
+tool	checkperms>=1.1	checkperms-1.12
+build	go115-1.15.5*	go115-1.15.5
+build	go-colorable>=0.0.9	go-colorable-0.0.9nb22
+build	go-isatty>=0.0	go-isatty-0.0.3nb26
+build	go-sys>=0.0.20180101	go-sys-0.0.20200202nb9
+build	cwrappers>=20150314	cwrappers-20180325
