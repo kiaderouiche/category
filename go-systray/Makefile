@@ -13,4 +13,5 @@ COMMENT=	TODO: Short description of the package
 
 WRKSRC=	${WRKDIR}/systray-1.1.0
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

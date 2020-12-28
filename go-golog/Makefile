@@ -11,6 +11,7 @@ HOMEPAGE=	https://github.com/getlantern/golog
 COMMENT=	Really basic logging mostly for flashlight 
 
 GO_SRCPATH=	github.com/getlantern/golog
-GO_DIST_BASE=	ansi-${GITHUB_TAG}
+GO_DIST_BASE=	golog-${GITHUB_TAG}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
