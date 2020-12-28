@@ -1,0 +1,1 @@
+Go bindings for Windows COM using shared libraries instead of cgo
