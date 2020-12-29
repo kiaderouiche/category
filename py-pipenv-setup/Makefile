@@ -2,10 +2,10 @@
 
 DISTNAME=	pipenv-setup-3.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	devel python
 MASTER_SITES=	https://files.pythonhosted.org/packages/f4/e3/ca526f475aac45eaa2d0e55370a498ed4a277aef0185553016e5d69b4aaa/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/Madoshakalaka/pipenv-setup
 COMMENT=	sync Pipfile/Pipfile.lock to setup.py
 LICENSE=	mit
