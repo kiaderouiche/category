@@ -14,5 +14,6 @@ LICENSE=	mit
 GO_DIST_BASE=	uilive-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/gosuri/uilive
 
+.include "../../devel/go-errors/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

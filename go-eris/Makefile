@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-eris-0.5.0
 GITHUB_PROJECT=	eris
-GITHUB_TAG=	v0.4.1
-DISTNAME=	v0.4.1
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=rotisserie/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/rotisserie/eris/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Provides a better way to handle trace and log errors in Go
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/eris-0.4.1
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	eris-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/rotisserie/eris
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
