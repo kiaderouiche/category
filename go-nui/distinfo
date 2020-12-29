@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (nui/v0.3.0.tar.gz) = be1b9de58dd46e503453a90fd6dd079b353c87d4
-RMD160 (nui/v0.3.0.tar.gz) = 66b3a40c9f85a16a0cc7811597744ef4c2a48e01
-SHA512 (nui/v0.3.0.tar.gz) = a474811e04df6dba1f034ce09c9c7eebaa98b63fee8c9a1fd6df5590ba7fe9744cf370d6bb202018410fc179ff59d07d0a35882f51b790bbe81bff61b6ae500e
-Size (nui/v0.3.0.tar.gz) = 13782 bytes
+SHA1 (go-nui-0.3.0.tar.gz) = be1b9de58dd46e503453a90fd6dd079b353c87d4
+RMD160 (go-nui-0.3.0.tar.gz) = 66b3a40c9f85a16a0cc7811597744ef4c2a48e01
+SHA512 (go-nui-0.3.0.tar.gz) = a474811e04df6dba1f034ce09c9c7eebaa98b63fee8c9a1fd6df5590ba7fe9744cf370d6bb202018410fc179ff59d07d0a35882f51b790bbe81bff61b6ae500e
+Size (go-nui-0.3.0.tar.gz) = 13782 bytes
