@@ -5,9 +5,9 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pipfile/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/pypa/pipfile
-COMMENT=	TODO: Short description of the package
+COMMENT=	The replacement for requirements.txt
 LICENSE=	modified-bsd OR apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-toml>=0.10.2:../../textproc/py-toml
