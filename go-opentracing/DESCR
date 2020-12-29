@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Gitter chat](http://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/opentracing/public) [![Build Status](https://travis-ci.org/opentracing/opentracing-go.svg?branch=master)](https://travis-ci.org/opentracing/opentracing-go) [![GoDoc](https://godoc.org/github.com/opentracing/opentracing-go?status.svg)](http://godoc.org/github.com/opentracing/opentracing-go)
+[![Sourcegraph Badge](https://sourcegraph.com/github.com/opentracing/opentracing-go/-/badge.svg)](https://sourcegraph.com/github.com/opentracing/opentracing-go?badge)
+
+# OpenTracing API for Go
+
+This package is a Go platform API for OpenTracing.
+
+## Required Reading
+
+In order to understand the Go platform API, one must first be familiar with the
+[OpenTracing project](https://opentracing.io) and
+[terminology](https://opentracing.io/specification/) more specifically.
+
+## API overview for those adding instrumentation
+
+Everyday consumers of this `opentracing` package really only need to worry
+about a couple of key abstractions: the `StartSpan` function, the `Span`
+interface, and binding a `Tracer` at `main()`-time. Here are code snippets
+demonstrating some important use cases.
+
+...
