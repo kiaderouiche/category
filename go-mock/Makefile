@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-mock-1.4.4
 GITHUB_PROJECT=	mock
-GITHUB_TAG=	v1.4.4
-DISTNAME=	v1.4.4
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=golang/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/golang/mock/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	GoMock is a mocking framework for the Go
+LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/mock-1.4.4
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/golang/mock
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
