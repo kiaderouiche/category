@@ -2,15 +2,15 @@
 
 DISTNAME=	pipfile-0.0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pipfile/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/pypa/pipfile
 COMMENT=	TODO: Short description of the package
-#LICENSE=	BSD or Apache License, Version 2.0 # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd OR apache-2.0
 
-DEPENDS+=	${PYPKGPREFIX}-toml>=0:../../textproc/py-toml
+DEPENDS+=	${PYPKGPREFIX}-toml>=0.10.2:../../textproc/py-toml
 
 USE_LANGUAGES=	# none
 
