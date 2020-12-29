@@ -3,7 +3,7 @@
 DISTNAME=	pipenv-setup-3.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-MASTER_SITES=	https://files.pythonhosted.org/packages/f4/e3/ca526f475aac45eaa2d0e55370a498ed4a277aef0185553016e5d69b4aaa/
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pipenv-setup/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/Madoshakalaka/pipenv-setup
@@ -20,9 +20,9 @@ DEPENDS+=	# TODO: pipfile~=0.0>=0
 DEPENDS+=	# TODO: black==19.10b0;python_version>='3.6'
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
 DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
-DEPENDS+=	# TODO: requirementslib>=1.5.15:../../wip/py-requirementslib
-DEPENDS+=	# TODO: vistir~=0.4>=0
-DEPENDS+=	# TODO: autopep8~=1.4;python_version<'3.6'>=0
+DEPENDS+=	${PYPKGPREFIX}-requirementslib>=1.5.15:../../wip/py-requirementslib
+DEPENDS+=	${PYPKGPREFIX}-vistir>=0.4:../../wip/py-vistir
+DEPENDS+=	${PYPKGPREFIX}-autopep8>=1.5.4:../../devel/py-autopep8
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	# TODO: typing~=3.7;python_version<'3.7'>=0
 
