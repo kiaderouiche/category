@@ -17,7 +17,7 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-test-mypy>=0.7.0:../../devel/py-test-mypy
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-cov>=:../../devel/py-test-cov
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-datadir>=:../../devel/py-test-datadir
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test-xdist>=1.34.0:../../devel/py-test-xdist
-BUILD_DEPENDS+=	${PYPKGPREFIX}-tox>=:../../devel/py-tox
+BUILD_DEPENDS+=	${PYPKGPREFIX}-tox>=3.20.1:../../devel/py-tox
 #DEPENDS+=	${PYPKGPREFIX}-pipfile>=0.0.2:../../devel/py-pipfile
 DEPENDS+=	${PYPKGPREFIX}-black-(0-9]*:../../textproc/py-black
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
