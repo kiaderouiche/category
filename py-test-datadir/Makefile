@@ -2,8 +2,8 @@
 
 DISTNAME=	pytest-datadir-1.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/f2/a0/cf0d9240a9905688c4d4269f66c17a160fc0fcfec13963e65949c3109fc0/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pytest-datadir/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/gabrielcnr/pytest-datadir
