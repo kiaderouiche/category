@@ -1,0 +1,4 @@
+This package is a brotli compressor and decompressor implemented in Go.
+
+Homepage:
+https://github.com/andybalholm/brotli/
