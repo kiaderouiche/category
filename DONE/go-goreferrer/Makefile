@@ -10,7 +10,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=Shopify/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/kiaderouiche/goreferrer/
 COMMENT=	Analyzes and classifies different kinds of referrer URLs
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/Shopify/${GITHUB_PROJECT}
