@@ -6,7 +6,6 @@ github.com/kataras/pio
 golang.org/x/net/publicsuffix
 github.com/kataras/tunnel
 github.com/mediocregopher/radix
-github.com/kataras/neffos
 golang.org/x/crypto/acme
 github.com/klauspost/compress/flate
 github.com/tdewolff/minify
