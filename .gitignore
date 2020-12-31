@@ -14,6 +14,7 @@ Makefile.orig
 *.orig
 *.core
 *.*.swp
+*.*.kate-swp
 
 # CVS leftovers
 CVS
