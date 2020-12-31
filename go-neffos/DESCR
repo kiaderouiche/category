@@ -1,0 +1,5 @@
+Neffos is a cross-platform real-time framework
+with expressive, elegant API written in Go.
+Neffos takes the pain out of development by
+easing common tasks used in real-time backend
+and frontend applications such as
