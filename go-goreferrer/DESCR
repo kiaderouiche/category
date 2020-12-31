@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.md
-
-goreferrer
-==========
-
-A Go package that analyzes and classifies different kinds of referrer URLs (search, social, ...).
-
-![Build Status](https://travis-ci.org/Shopify/goreferrer.png)
-
-## Example
-
-```go
-package main
-
-import (
-	"fmt"
-	"github.com/Shopify/goreferrer"
-)
-
-var urls = []string{
-	"http://ca.search.yahoo.com/search?p=hello",
-	"https://twitter.com/jdoe/status/391149968360103936",
-...
+A Go package that analyzes and classifies different.
+kinds of referrer URLs (search, social,etc...).
