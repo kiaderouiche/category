@@ -7,8 +7,6 @@ golang.org/x/net/publicsuffix
 github.com/kataras/tunnel
 github.com/mediocregopher/radix
 golang.org/x/crypto/acme
-github.com/klauspost/compress/flate
 github.com/tdewolff/minify
-github.com/russross/blackfriday
 github.com/yosssi/ace
 github.com/klauspost/compress

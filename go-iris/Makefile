@@ -18,5 +18,6 @@ GO_SRCPATH=	github.com/kataras/${GITHUB_PROJECT}
 
 .include "../../devel/go-amber/buildlink3.mk"
 .include "../../devel/go-blackfriday/buildlink3.mk"
+.include "../../devel/go-compress/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
