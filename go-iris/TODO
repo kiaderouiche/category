@@ -1,1 +1,12 @@
 github.com/eknkc/amber
+github.com/Shopify/goreferrer
+github.com/BurntSushi/toml
+github.com/andybalholm/brotli
+github.com/aymerick/raymond
+github.com/fatih/structs
+github.com/google/uuid
+github.com/iris-contrib/pongo2
+github.com/json-iterator/go
+github.com/kataras/pio
+github.com/kataras/tunnel
+github.com/klauspost/compress/flate
