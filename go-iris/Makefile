@@ -8,8 +8,8 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=kataras/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/kataras/iris/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://www.iris-go.com/
+COMMENT=	The fastest HTTP/2 Go Web Framework
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
