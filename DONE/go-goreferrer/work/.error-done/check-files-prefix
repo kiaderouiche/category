@@ -1,0 +1,13 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/Shopify/goreferrer.a
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/default_rules.go
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/dev.yml
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/Gopkg.lock
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/Gopkg.toml
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/LICENSE
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/README.md
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/referrer.go
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/rich_url.go
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/rules.go
+        /usr/pkgsrc/category/go-goreferrer/work/.destdir/usr/pkg/gopkg/src/github.com/Shopify/goreferrer/rules_test.go

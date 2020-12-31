@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/pkcs12/internal/rc2/bench_test.go

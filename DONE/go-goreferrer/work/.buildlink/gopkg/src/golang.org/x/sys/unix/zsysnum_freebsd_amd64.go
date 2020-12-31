@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/unix/zsysnum_freebsd_amd64.go

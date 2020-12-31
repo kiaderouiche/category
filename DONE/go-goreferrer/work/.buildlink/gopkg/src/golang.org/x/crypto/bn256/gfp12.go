@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/bn256/gfp12.go

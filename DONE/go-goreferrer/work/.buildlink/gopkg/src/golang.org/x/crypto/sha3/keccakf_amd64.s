@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/sha3/keccakf_amd64.s
