@@ -10,8 +10,8 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=modern-go/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/modern-go/concurrent/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Golang concurrency utilities
+LICENSE=	apache-2.0
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/modern-go/${GITHUB_PROJECT}
