@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/language/lookup_test.go

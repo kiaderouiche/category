@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/openpgp/packet/symmetric_key_encrypted_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/openpgp/s2k/s2k_test.go

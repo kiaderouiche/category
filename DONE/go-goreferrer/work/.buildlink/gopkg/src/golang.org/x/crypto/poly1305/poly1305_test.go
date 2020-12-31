@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/poly1305/poly1305_test.go

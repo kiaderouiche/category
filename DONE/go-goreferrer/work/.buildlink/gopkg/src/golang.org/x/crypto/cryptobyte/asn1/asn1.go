@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/cryptobyte/asn1/asn1.go
