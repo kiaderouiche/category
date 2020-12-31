@@ -2,16 +2,17 @@
 
 DISTNAME=	go-structs-1.1.0
 GITHUB_PROJECT=	structs
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=fatih/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fatih/structs/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/structs-1.1.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/fatih/structs
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
