@@ -2,7 +2,6 @@ github.com/BurntSushi/toml
 github.com/fatih/structs
 github.com/iris-contrib/pongo2
 github.com/json-iterator/go
-github.com/kataras/pio
 golang.org/x/crypto/acme
 github.com/tdewolff/minify
 github.com/yosssi/ace
