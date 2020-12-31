@@ -11,7 +11,8 @@ HOMEPAGE=	https://github.com/andybalholm/brotli/
 COMMENT=	Pure Go Brotli encoder and decoder 
 LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/brotli-1.0.1
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/andybalholm/brotli
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
