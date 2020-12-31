@@ -1,0 +1,9 @@
+coverage.out
+
+# Dependencies
+vendor/
+bin/
+
+# IDEs
+.idea
+.vscode

@@ -1,22 +1,19 @@
 # $NetBSD$
 
-GITHUB_TAG=	v1.33.0
-DISTNAME=	${GITHUB_TAG}
-DIST_SUBDIR=	${GITHUB_PROJECT}
-PKGNAME=	${GITHUB_PROJECT}-${GITHUB_TAG:S/v//}
+DISTNAME=	golangci-lint-1.34.1
+GITHUB_PROJECT=	golangci-lint
+GITHUB_TAG=	v1.34.1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=golangci/}
-GITHUB_PROJECT=	golangci-lint
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/golangci/golangci-lint/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Fast linters Runner for Go
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/golangci-lint-1.33.0
-GO_DIST_BASE=	golangci-lint-${GITHUB_TAG:S/v//}
-GO_SRCPATH=	github.com/golangci/golangci-lint/
+GO_SRCPATH=	github.com/golangci/golangci-lint
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
-.include "../../devel/go-testify/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

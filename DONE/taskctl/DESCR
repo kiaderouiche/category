@@ -1,0 +1,9 @@
+taskctl is concurrent task runner that allows you to
+design you routine tasks and development pipelines
+in nice and neat way in human-readable format
+(YAML, JSON or TOML). Given a pipeline (composed
+of tasks or other pipelines) it builds a graph
+that outlines the execution plan. Each task my run
+concurrently or cascade. Beside pipelines, each
+single task can be started manually or triggered by
+built-in filesystem watcher.

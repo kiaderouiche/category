@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (traefik-v2.3.1.src.tar.gz) = df5eb69cf3d758842ab85d95be4d79c490422e2d
-RMD160 (traefik-v2.3.1.src.tar.gz) = a5b689605af316ea9b7eb72d06cdf11d7debeb4f
-SHA512 (traefik-v2.3.1.src.tar.gz) = 780b39c94544b36159fdd6753f384bedde4bdd4ded1209838a2bf6c8643f32048daa695f6a873161a8ed5aecf9b63046fd9e7166edfa1d076790e51ac3b032c5
-Size (traefik-v2.3.1.src.tar.gz) = 9227298 bytes
+SHA1 (traefik-v2.3.6.src.tar.gz) = 50a89e1e061c9c6d17c8e0d7a7bb8bf0c916b93e
+RMD160 (traefik-v2.3.6.src.tar.gz) = f7a7dbcfc5792e881df75edd2da9745c136f7f02
+SHA512 (traefik-v2.3.6.src.tar.gz) = 38101a98c43ff2bc3d986115898445b4681d93af896030484a84944a36ae25865f3845058cb70bc67d1ee573e2d57f6440dadb137ae33bc862557b0b6a1b10cc
+Size (traefik-v2.3.6.src.tar.gz) = 9243606 bytes
