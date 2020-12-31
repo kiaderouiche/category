@@ -8,9 +8,9 @@ CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=json-iterator/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/json-iterator/go/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	http://jsoniter.com/migrate-from-go-std.html
+COMMENT=	High-performance compatible drop-in replacement of encoding/json 
+LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/json-iterator/${GITHUB_PROJECT}
