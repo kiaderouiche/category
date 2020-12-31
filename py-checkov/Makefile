@@ -14,7 +14,7 @@ PYTHON_VERSIONS_INCOMPATIBLE+=	27
 PYTHON_VERSIONS_INCOMPATIBLE+=	36
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.10:../../devel/py-test
-BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3.1:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3:../../devel/py-coverage
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
 #BUILD_DEPENDS+=	${PYPKGPREFIX}-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
 BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
@@ -33,7 +33,7 @@ DEPENDS+=	${PYPKGPREFIX}-jmespath>=0.10.0:../../textproc/py-jmespath
 DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../misc/py-tqdm
 DEPENDS+=	${PYPKGPREFIX}-update-checker-[0-9]*:../../wip/py-update-checker
 DEPENDS+=	${PYPKGPREFIX}-semantic_version>=2.8.5:../../devel/py-semantic_version
-DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
+#DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
 
 post-extract:
 	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
