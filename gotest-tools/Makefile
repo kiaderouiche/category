@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/gotestyourself/gotest.tools/
-COMMENT=	TODO: Short description of the package
+COMMENT=	The go testing package and support common patterns
 LICENSE=	apache-2.0
 
 GO_SRCPATH=	github.com/gotestyourself/gotest.tools
