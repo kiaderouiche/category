@@ -11,5 +11,7 @@ HOMEPAGE=	https://github.com/iris-contrib/pongo2/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/pongo2-0.0.1
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"

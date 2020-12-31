@@ -23,5 +23,7 @@ GO_SRCPATH=	github.com/kataras/${GITHUB_PROJECT}
 .include "../../devel/go-radix/buildlink3.mk"
 .include "../../net/go-net/buildlink3.mk"
 .include "../../security/go-crypto/buildlink3.mk"
+.include "../../www/go-minify/buildlink3.mk"
+.include "../../www/go-toml-burntsushi/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
