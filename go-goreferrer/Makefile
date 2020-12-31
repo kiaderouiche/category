@@ -15,5 +15,6 @@ COMMENT=	Analyzes and classifies different kinds of referrer URLs
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/Shopify/${GITHUB_PROJECT}
 
+.include "../../net/go-net/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
