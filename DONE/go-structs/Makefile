@@ -8,8 +8,8 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fatih/structs/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Utilities for Go structs 
+LICENSE=	mit
 
 GO_SRCPATH=	github.com/fatih/structs
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
