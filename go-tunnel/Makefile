@@ -11,7 +11,8 @@ HOMEPAGE=	https://github.com/kataras/tunnel/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/tunnel-0.0.2
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/kataras/tunnel
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
