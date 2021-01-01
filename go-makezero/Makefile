@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=ashanbrown/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ashanbrown/makezero/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Linter to ensure that slices are not initialized with non-zero length
 LICENSE=	apache-2.0
 
 GO_SRCPATH=	github.com/ashanbrown/makezero
