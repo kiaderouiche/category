@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/golang/protobuf/protoc-gen-go/testdata/issue780_oneof_conflict/test.pb.go

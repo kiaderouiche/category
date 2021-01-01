@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/go/analysis/passes/unmarshal/testdata/src/a/a.go

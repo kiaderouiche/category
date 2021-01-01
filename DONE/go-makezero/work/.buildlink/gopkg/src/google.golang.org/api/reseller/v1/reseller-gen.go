@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/reseller/v1/reseller-gen.go

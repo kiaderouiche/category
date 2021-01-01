@@ -1,0 +1,16 @@
+--- /usr/pkgsrc/category/go-makezero/work/.prefix.pre	2021-01-02 00:04:36.793765406 +0100
++++ /usr/pkgsrc/category/go-makezero/work/.prefix.post	2021-01-02 00:04:36.853766840 +0100
+@@ -0,0 +1,13 @@
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/bin/makezero
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/ashanbrown/makezero/examples.a
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/ashanbrown/makezero/makezero.a
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/examples/example.go
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/examples/expected_results.txt
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/go.mod
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/go.sum
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/LICENSE
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/main.go
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/Makefile
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/makezero/makezero.go
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/makezero/makezero_test.go
++/usr/pkgsrc/category/go-makezero/work/.destdir/usr/pkg/gopkg/src/github.com/ashanbrown/makezero/README.md

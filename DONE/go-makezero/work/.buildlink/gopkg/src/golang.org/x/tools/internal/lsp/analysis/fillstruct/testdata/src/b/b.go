@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/analysis/fillstruct/testdata/src/b/b.go

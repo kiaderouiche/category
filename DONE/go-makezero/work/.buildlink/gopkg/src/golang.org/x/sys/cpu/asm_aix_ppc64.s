@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/cpu/asm_aix_ppc64.s

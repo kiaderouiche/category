@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/speech/v1beta1/speech-gen.go

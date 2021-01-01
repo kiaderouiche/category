@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/xerrors/example_FormatError_test.go

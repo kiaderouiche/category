@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/cloudmonitoring/v2beta2/cloudmonitoring-gen.go

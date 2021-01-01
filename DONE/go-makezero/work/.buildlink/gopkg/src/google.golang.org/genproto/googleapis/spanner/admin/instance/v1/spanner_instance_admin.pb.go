@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/spanner/admin/instance/v1/spanner_instance_admin.pb.go

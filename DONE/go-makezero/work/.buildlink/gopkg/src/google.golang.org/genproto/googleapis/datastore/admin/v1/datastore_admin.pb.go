@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/datastore/admin/v1/datastore_admin.pb.go

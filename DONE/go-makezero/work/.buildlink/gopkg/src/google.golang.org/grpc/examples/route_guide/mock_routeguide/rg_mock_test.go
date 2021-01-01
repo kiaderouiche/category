@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/grpc/examples/route_guide/mock_routeguide/rg_mock_test.go

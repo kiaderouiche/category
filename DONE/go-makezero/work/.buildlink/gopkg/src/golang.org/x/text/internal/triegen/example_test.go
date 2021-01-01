@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/internal/triegen/example_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/internal/imports/testdata/mod/rsc.io_!q!u!o!t!e_v1.5.3-!p!r!e.txt

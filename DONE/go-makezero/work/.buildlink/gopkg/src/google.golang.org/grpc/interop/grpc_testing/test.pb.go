@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/grpc/interop/grpc_testing/test.pb.go

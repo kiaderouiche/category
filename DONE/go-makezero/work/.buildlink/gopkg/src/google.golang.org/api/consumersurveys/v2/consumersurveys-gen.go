@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/consumersurveys/v2/consumersurveys-gen.go

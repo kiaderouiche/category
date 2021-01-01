@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi2.pb.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/firestore/admin/v1beta1/firestore_admin.pb.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/testdata/danglingstmt/dangling_if_eof.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/serviceregistry/v0.alpha/serviceregistry-gen.go

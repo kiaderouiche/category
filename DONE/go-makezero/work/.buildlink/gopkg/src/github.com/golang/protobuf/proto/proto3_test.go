@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/golang/protobuf/proto/proto3_test.go

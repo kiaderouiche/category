@@ -1,0 +1,1 @@
+Linter to ensure that slices are not initialized with non-zero length

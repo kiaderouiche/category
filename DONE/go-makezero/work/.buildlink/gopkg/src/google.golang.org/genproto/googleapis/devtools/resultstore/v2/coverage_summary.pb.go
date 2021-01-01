@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/devtools/resultstore/v2/coverage_summary.pb.go

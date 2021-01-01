@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/adexchangebuyer2/v2beta1/adexchangebuyer2-gen.go

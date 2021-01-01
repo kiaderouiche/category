@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/assistant/embedded/v1alpha2/embedded_assistant.pb.go

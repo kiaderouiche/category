@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/grpc/examples/helloworld/mock_helloworld/hw_mock_test.go

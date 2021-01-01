@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/grpc/credentials/alts/alts_test.go

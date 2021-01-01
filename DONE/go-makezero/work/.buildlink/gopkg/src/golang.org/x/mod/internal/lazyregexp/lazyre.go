@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/mod/internal/lazyregexp/lazyre.go

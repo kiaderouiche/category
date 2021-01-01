@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/mod/zip/testdata/create/exclude_cap_go_mod_submodule.txt

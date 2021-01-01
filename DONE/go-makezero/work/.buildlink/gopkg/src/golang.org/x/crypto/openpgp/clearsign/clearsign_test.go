@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/openpgp/clearsign/clearsign_test.go

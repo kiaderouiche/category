@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/net/idna/idna10.0.0.go

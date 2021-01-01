@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/storage/v1beta1/storage-gen.go

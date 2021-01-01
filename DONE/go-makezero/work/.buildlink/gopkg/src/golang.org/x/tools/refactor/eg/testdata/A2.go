@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/refactor/eg/testdata/A2.go

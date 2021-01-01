@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/go/internal/gcimporter/testdata/issue20046.go

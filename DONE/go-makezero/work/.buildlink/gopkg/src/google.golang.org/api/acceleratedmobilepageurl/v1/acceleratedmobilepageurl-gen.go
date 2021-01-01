@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/acceleratedmobilepageurl/v1/acceleratedmobilepageurl-gen.go
