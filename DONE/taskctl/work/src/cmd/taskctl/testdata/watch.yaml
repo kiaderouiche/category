@@ -1,9 +1,0 @@
-tasks:
-  watch:task1:
-    command: "echo 'hello, world!'"
-
-watchers:
-  watch:watcher1:
-    watch: ["README.*", "pkg/**/*.go"]
-    events: [create, write, remove, rename, chmod]
-    task: watch:task1
