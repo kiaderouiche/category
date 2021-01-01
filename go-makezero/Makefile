@@ -10,7 +10,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=ashanbrown/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ashanbrown/makezero/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 GO_SRCPATH=	github.com/ashanbrown/makezero
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
