@@ -15,4 +15,5 @@ COMMENT=	TODO: Short description of the package
 GO_SRCPATH=	github.com/ashanbrown/makezero
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
