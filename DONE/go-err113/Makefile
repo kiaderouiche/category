@@ -14,6 +14,8 @@ LICENSE=	mit
 GO_SRCPATH=	github.com/Djarvur/go-err113
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../devel/go-mod/buildlink3.mk"
 .include "../../devel/go-tools/buildlink3.mk"
+.include "../../devel/go-xerrors/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
