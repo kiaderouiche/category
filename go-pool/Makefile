@@ -11,7 +11,7 @@ HOMEPAGE=	https://github.com/gobwas/pool/
 COMMENT=	Go Pooling Helpers 
 LICENSE=	mit
 
-GO_SRCPATH=	github.com/kataras/neffos
+GO_SRCPATH=	github.com/gobwas/pool
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../lang/go/go-package.mk"
