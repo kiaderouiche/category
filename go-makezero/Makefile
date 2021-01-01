@@ -12,7 +12,7 @@ HOMEPAGE=	https://github.com/ashanbrown/makezero/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/makezero-7b7cdbb3025a82245521007c82a66e9b1a347ca2
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/ashanbrown/makezero
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 
 .include "../../mk/bsd.pkg.mk"
