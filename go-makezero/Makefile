@@ -16,5 +16,6 @@ GO_SRCPATH=	github.com/ashanbrown/makezero
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 
 .include "../../devel/go-tools/buildlink3.mk"
+.include "../../devel/go-xerrors/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
