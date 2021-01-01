@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/genomics/v1alpha2/pipelines.pb.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/refactor/rename/rename_test.go

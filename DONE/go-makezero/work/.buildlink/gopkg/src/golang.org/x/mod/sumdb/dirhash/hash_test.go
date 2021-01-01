@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/mod/sumdb/dirhash/hash_test.go

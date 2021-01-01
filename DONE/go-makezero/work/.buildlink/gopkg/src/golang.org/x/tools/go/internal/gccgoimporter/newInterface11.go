@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/go/internal/gccgoimporter/newInterface11.go

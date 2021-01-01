@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/mod/zip/testdata/create_from_dir/bad_mod_path_version_suffix.txt

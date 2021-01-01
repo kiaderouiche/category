@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/pubsub/v1beta1a/pubsub-gen.go

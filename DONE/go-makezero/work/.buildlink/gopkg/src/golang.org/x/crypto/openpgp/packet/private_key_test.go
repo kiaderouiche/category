@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/openpgp/packet/private_key_test.go

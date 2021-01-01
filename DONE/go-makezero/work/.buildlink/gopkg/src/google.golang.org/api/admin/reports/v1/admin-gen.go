@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/admin/reports/v1/admin-gen.go

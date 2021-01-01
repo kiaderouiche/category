@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/go/analysis/passes/structtag/testdata/src/a/b/b.go

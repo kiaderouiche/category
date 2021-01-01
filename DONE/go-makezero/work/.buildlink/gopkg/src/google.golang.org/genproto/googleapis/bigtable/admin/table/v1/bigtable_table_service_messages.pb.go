@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/bigtable/admin/table/v1/bigtable_table_service_messages.pb.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/iam/v1/iam-gen.go

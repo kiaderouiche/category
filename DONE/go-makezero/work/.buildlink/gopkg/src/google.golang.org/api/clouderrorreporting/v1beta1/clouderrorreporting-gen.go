@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/clouderrorreporting/v1beta1/clouderrorreporting-gen.go

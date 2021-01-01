@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/go/packages/packagestest/testdata/groups/one/modules/example.com/extra/help.go

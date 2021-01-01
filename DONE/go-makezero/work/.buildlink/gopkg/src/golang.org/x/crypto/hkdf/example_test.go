@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/hkdf/example_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/transport/bytestream/internal/examples_test.go

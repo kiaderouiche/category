@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/cmd/fiximports/testdata/src/titanic.biz/foo/foo.go

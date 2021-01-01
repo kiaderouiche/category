@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/clouddebugger/v2/clouddebugger-gen.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/videointelligence/v1p1beta1/video_intelligence.pb.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/internal/transport/go17.go

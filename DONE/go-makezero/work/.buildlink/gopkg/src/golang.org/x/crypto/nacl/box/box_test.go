@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/nacl/box/box_test.go

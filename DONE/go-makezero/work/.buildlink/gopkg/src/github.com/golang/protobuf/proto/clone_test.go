@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/golang/protobuf/proto/clone_test.go

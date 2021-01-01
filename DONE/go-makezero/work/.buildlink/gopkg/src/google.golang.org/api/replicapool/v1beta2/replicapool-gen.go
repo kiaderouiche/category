@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/replicapool/v1beta2/replicapool-gen.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/chacha20/chacha_s390x.s

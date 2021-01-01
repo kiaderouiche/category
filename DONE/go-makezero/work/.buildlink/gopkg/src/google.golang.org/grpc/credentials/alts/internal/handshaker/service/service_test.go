@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/credentials/alts/internal/handshaker/service/service_test.go

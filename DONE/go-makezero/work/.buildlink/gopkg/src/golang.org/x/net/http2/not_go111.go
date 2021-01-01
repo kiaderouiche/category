@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/http2/not_go111.go

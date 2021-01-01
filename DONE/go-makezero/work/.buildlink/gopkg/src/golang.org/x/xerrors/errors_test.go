@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/xerrors/errors_test.go

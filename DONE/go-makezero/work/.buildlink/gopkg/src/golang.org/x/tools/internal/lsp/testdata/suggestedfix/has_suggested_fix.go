@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/testdata/suggestedfix/has_suggested_fix.go

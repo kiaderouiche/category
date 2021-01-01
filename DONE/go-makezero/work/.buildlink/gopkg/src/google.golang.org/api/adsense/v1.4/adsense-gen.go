@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/adsense/v1.4/adsense-gen.go

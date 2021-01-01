@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/mod/modfile/rule_test.go

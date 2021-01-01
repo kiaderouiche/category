@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/plan9/dir_plan9.go

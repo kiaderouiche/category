@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/androidenterprise/v1/androidenterprise-gen.go

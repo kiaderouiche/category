@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/analysis/unusedparams/testdata/src/a/a.go

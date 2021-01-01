@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/mirror/v1/mirror-gen.go

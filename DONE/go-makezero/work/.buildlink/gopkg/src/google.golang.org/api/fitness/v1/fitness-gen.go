@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/fitness/v1/fitness-gen.go

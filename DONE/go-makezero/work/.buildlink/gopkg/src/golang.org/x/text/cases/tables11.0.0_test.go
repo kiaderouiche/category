@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/cases/tables11.0.0_test.go

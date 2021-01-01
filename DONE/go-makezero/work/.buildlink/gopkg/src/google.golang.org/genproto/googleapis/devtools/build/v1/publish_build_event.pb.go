@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/devtools/build/v1/publish_build_event.pb.go

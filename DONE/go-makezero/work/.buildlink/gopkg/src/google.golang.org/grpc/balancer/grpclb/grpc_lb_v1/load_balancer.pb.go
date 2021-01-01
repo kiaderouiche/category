@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/balancer/grpclb/grpc_lb_v1/load_balancer.pb.go

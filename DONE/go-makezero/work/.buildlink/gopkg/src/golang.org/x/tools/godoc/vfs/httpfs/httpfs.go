@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/godoc/vfs/httpfs/httpfs.go

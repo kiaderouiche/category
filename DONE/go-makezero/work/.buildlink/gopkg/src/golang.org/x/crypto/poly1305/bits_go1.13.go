@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/poly1305/bits_go1.13.go

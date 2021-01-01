@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/channelz/service/util_sktopt_386_test.go
