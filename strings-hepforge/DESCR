@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+	#####################################################################
+DESCRIPTION OF FILES IN STRINGS PACKAGE
+
+STRINGS.py    - Python code for STRINGS simulation package
+ChangeLog     - Covers changes made between code versions
+run.sh        - Shell script containing all of the input parameters, initially set to their default values
+setup.sh      - Example shell script to set up the necessary environment variables for using PDF sets of the LHAPDF (Should be sourced once before running the program)
+#####################################################################
+DEPENDENCIES OF THE GENERATOR AND INSTRUCTIONS ON HOW TO INSTALL IT
+
+STRINGS uses PDF sets of the LHAPDF (http://arxiv.org/abs/1412.7420). 
+In order to install the LHAPDF follow the following instructions from (https://lhapdf.hepforge.org/install.html):
+
+# wget http://www.hepforge.org/archive/lhapdf/LHAPDF-6.X.Y.tar.gz
+# tar vzxf LHAPDF-6.X.Y.tar.gz
+# cd LHAPDF-6.X.Y
+# ./configure --prefix=$INSTALLATION_PATH/
+# make
+# make install
+
+...
