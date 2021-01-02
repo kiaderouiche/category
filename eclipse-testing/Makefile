@@ -1,13 +1,21 @@
 # $NetBSD$
 
 DISTNAME=	eclipse-testing-2020-12-R-linux-gtk-x86_64
-CATEGORIES=	category
+PKGNAME=	${DISTNAME:S/-R-linux-gtk-x86_64//}
+CATEGORIES=	devel java
 MASTER_SITES=	http://mirror.ufs.ac.za/eclipse/technology/epp/downloads/release/2020-12/R/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://mirror.ufs.ac.za/eclipse/technology/epp/downloads/release/2020-12/R/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/eclipse
+
+ USE_TOOLS+=	pax
+NO_BUILD=		yes
+
+PKG_JVMS_ACCEPTED=	sun-jdk7 sun-jdk8
+
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
