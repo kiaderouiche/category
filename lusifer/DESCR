@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+
+              LUSIFER: a Monte Carlo generator for e+ e- -> 6 fermions
+              ========================================================
+
+********************************************************************************
+          Lusifer version 1.0, August 2002
+********************************************************************************
+  Authors:
+  ========
+  S. Dittmaier, DESY Hamburg, Germany,            stefan.dittmaier@desy.de   
+  M. Roth,      University of Karlsruhe, Germany, roth@particle.uni-karlsruhe.de
+********************************************************************************
+  LUSIFER has been tested under
+  Operating Systems: UNIX, LINUX
+  Computers:         ALPHA/DEC workstation (Digital Fortran 77)
+                     LINUX PC (Red Hat Linux 6.x, Suse Linux 6.x,
+                               GNU project Fortran Compiler (v0.5.25))
+  Language:          Fortran 77
+********************************************************************************
+
+...

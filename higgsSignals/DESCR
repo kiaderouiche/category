@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+Contents of the present directory are part of the program package 
+	
+	HiggsSignals
+
+by Philip Bechtle, Sven Heinemeyer, Oscar Stål, Tim Stefaniak and Georg Weiglein.
+
+This code is written by Oscar Stål and Tim Stefaniak.
+Please contact oscar.stal@fysik.su.se or tim@th.physik.uni-bonn.de if you have any
+questions/problems/etc with this version.
+
+This README file contains:
+* Journal reference and website address
+* Software license
+* What the program does
+* How to use HiggsSignals
+* Additional requirements 
+* How to install HiggsSignals
+* How to run the examples
+* Additional notes 
+* Contents of this directory
+...

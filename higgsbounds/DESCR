@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+Contents of the present directory are part of the program package 
+	
+	HiggsBounds-5
+
+by Philip Bechtle, Daniel Dercks, Sven Heinemeyer, 
+   Tim Stefaniak and Georg Weiglein.
+   
+(Former members are Oliver Brein, Oscar Stål and Karina E. Williams.)
+
+Please contact tistefan@ucsc.edu or daniel.dercks@desy.de
+if you have any questions/problems/etc with this version.
+
+This README file contains:
+* Journal reference and website address
+* Software license
+* What the program does
+* How to use HiggsBounds
+* Additional requirements 
+* How to install HiggsBounds
+* How to run the examples
+...

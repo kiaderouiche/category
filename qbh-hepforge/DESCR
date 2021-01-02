@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+DESCRIPTION OF FILES INCLUDED IN QBH PACKAGE
+
+qbh.cc   - C++ code for QBH simulation package.
+qbh.h    - C++ header file for QBH simulation package.
+main.cc  - example user main program that drives QBH simulation package.
+Makefile - example Makefile to compile and link QBH program.
+setup.sh - example shell script to set up the necessary environment 
+           variables for running QBH program (should be sourced once
+	   before running program)  
+- input data files (should be in run directory)
+MLB_D4.data
+MLB_D5.data
+MLB_D6.data
+MLB_D7.data
+MLB_D8.data
+MLB_D9.data
+MLB_D10.data
+MLB_D11.data
+
+DESCRIPTION OF HOW TO BUILD PROGRAM
+...
