@@ -13,4 +13,6 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	perl
 USE_LANGUAGES=	c c++
 
+#https://sospin.hepforge.org/readme.html
+
 .include "../../mk/bsd.pkg.mk"
