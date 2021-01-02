@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+Installation
+------------
+
+The installation uses cmake. Type:
+
+cmake . # check requirements and generate Makefile
+make    # actual compilation
+
+ARU relies on nlopt, SWIG, and ROOT. In addition, the Python
+modules numpy and scipy need to be installed.
+
+The required software can be downloaded here:
+cmake         - http://www.cmake.org
+nlopt         - http://ab-initio.mit.edu/wiki/index.php/Main_Page
+ROOT          - http://root.cern.ch/drupal
+SWIG          - http://www.swig.org
+numpy & scipy - http://www.scipy.org
+
+Chances are high that packages for ROOT and SWIG are available for your
+Linux distribution, same goes for numpy and scipy. The latter two can also
+...
