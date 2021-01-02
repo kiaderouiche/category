@@ -1,0 +1,15 @@
+TODO: Adjust the following lines from README
+
+* install TMDlib source code;
+    get code from https://tmdlib.hepforge.org/
+    
+    tar xvfz tmdlib.xxxxxx.tgz
+    cd tmdlib.xxxxxx.
+    ./configure --prefix=Path_to_install_TMDlib --with-lhapdf=Path_to_LHAPDF-6.2.X --with-gsl=Path_to_gsl-2.3.X
+    make ; make install
+    
+    
+* TMDgrid files are to be downloaded separetely
+    Path_to_install_TMDlib/bin/TMDlib_getdata --help       -> description of download procedure
+    Path_to_install_TMDlib/bin/TMDlib_getdata all          -> install all availbale TMDsets (take long !)
+    Path_to_install_TMDlib/bin/TMDlib_getdata PB-NLO-2018  -> install PB-TMD sets

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+###################################
+##          T3PS v1.0            ##
+###################################
+
+These are short instructions to the usage of the T3PS parameter scanner tool
+version 1.0. For contact and licensing information, see the end of this file.
+
+###################################
+##     Usage and Requirements    ##
+###################################
+
+T3PS already works out of box after simply extracting the .tar.gz file
+  $ tar xvfz T3PS-1.0.tar.gz
+  $ cd T3PS-1.0
+(You probably have done this already since you are reading this.)
+
+Necessary requirements are a Python interpreter compatible with version 2.7,
+e.g. CPython 2.7 or higher or PyPy version 1.5 or higher. Currently, T3PS only
+runs on Unix-like operating systems, specifically ones that expose a fork()
+system call. However, Cygwin support is very much experimental.
+...
