@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (pongo2/v4.0.0.tar.gz) = df155446a0977cfb1c95993f49e8cfed6beb22d6
-RMD160 (pongo2/v4.0.0.tar.gz) = e3db905f3afe5ddb89f71d7d06aeea0fc99b674f
-SHA512 (pongo2/v4.0.0.tar.gz) = 9ba54f6e391942277132942a19632745eb2a3828074d97fbb91f140bbe28bfc766d1ba2e43aa13749fdc8f0f7d867f88de52cebc7556cb75e3de501ba2908b77
-Size (pongo2/v4.0.0.tar.gz) = 66882 bytes
+SHA1 (go-pongo2-0.0.1.tar.gz) = 4c8b7c2c505125618d1e6747c44b6a4c804a9050
+RMD160 (go-pongo2-0.0.1.tar.gz) = 89646b5aa802a10527490bc7e1192d3f7a55b2a0
+SHA512 (go-pongo2-0.0.1.tar.gz) = 9008fab61ae833a3558dce261c036e77c2a2a554962f9a469437b1feb55fb1216b8311ed197102cf8908c03c4550c5ca48e4bdf5cc0d101208f5a0e73b39c132
+Size (go-pongo2-0.0.1.tar.gz) = 60580 bytes

@@ -2,22 +2,22 @@ TODO: Adjust the following lines from README.md
 
 # [pongo](https://en.wikipedia.org/wiki/Pongo_%28genus%29)2
 
-[![PkgGoDev](https://pkg.go.dev/badge/flosch/pongo2)](https://pkg.go.dev/flosch/pongo2)
-[![Build Status](https://travis-ci.org/flosch/pongo2.svg?branch=master)](https://travis-ci.org/flosch/pongo2)
+[![GoDoc](https://godoc.org/github.com/iris-contrib/pongo2?status.svg)](https://godoc.org/github.com/iris-contrib/pongo2)
+[![Build Status](https://travis-ci.org/iris-contrib/pongo2.svg?branch=master)](https://travis-ci.org/iris-contrib/pongo2)
 
-pongo2 is a Django-syntax like templating-language.
-
-Install/update using `go get` (no dependencies required by pongo2):
-
-```sh
-go get -u github.com/flosch/pongo2/v4
-```
-
-Please use the [issue tracker](https://github.com/flosch/pongo2/issues) if you're encountering any problems with pongo2 or if you need help with implementing tags or filters ([create a ticket!](https://github.com/flosch/pongo2/issues/new)).
+pongo2 is the django template syntax for [Iris](https://github.com/kataras/iris).
 
 ## First impression of a template
 
-```django
-<html>
-  <head>
+```HTML+Django
+<html><head><title>Our admins and users</title></head>
+{# This is a short example to give you a quick overview of pongo2's syntax. #}
+
+{% macro user_details(user, is_admin=false) %}
+	<div class="user_item">
+		<!-- Let's indicate a user's good karma -->
+		<h2 {% if (user.karma >= 40) || (user.karma > calc_avg_karma(userlist)+5) %}
+			class="karma-good"{% endif %}>
+			
+			<!-- This will call user.String() automatically if available: -->
 ...
