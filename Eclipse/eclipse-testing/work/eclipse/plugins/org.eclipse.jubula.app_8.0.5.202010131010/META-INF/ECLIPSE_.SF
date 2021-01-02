@@ -1,0 +1,115 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: /AajATKUIxYZxDUMDc+j+PjJaytjD
+ mC9c2FPRgPdI+U=
+SHA-256-Digest-Manifest: QyT9XMESs5gYAIrCtAe/YzkuSHx1z24wOiweewryMec=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: plugin.xml
+SHA-256-Digest: Fa0hVK27UI7bUw/eJgkI6ct4iv1dcM0kPDdgY9ZoXhQ=
+
+Name: icons/jubula64x64.png
+SHA-256-Digest: UQzsot6XzcE0aG2NIn5b3JyD4BK20DpwzQ8oM3bgcDo=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchAdvisor$1.class
+SHA-256-Digest: n0gEal9uD3y7B0kzYrFGxjgJ3+nAmuvY7zP6DFFWVDQ=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchWindowAdvisor$1$1.cla
+ ss
+SHA-256-Digest: KXsZ5k3f4SAypIs6RXltUi8seoNf6Oan6ybMaoH10Og=
+
+Name: icons/jubula256x256.png
+SHA-256-Digest: nLOY4iN/20ce1GB4Bx9ACjqeQzylxSADIvjbumH0hEM=
+
+Name: icons/jubula128x128.gif
+SHA-256-Digest: Q4vRxii5N84gJJLB0sDPT8DkFD7vyrke27iuqe1/PoY=
+
+Name: splash.bmp
+SHA-256-Digest: FT/8fkl4l8FIeDaW3ucIjU6YJ8WNVRZpt56remFyiYs=
+
+Name: org/eclipse/jubula/app/Launcher.class
+SHA-256-Digest: fXNF1hRVQFVS+WbrU4dFsZidaxSFsAZGYazu6/Ft8YQ=
+
+Name: org/eclipse/jubula/app/i18n/Messages.class
+SHA-256-Digest: sp7kACwyPCeruOl3WBh53cGPJWJMT69AlPOlQgYqZWY=
+
+Name: about.mappings
+SHA-256-Digest: MZZbE4z8qNCxOJSytZNkLskyZ6KH+rjqQQtSLrssaLA=
+
+Name: icons/jubula16x16.gif
+SHA-256-Digest: R/Z0yYU7fM8SDrO+leNE5tswI+bzWRV8lpkgjzSvxxQ=
+
+Name: META-INF/maven/org.eclipse.jubula/org.eclipse.jubula.app/pom.xml
+SHA-256-Digest: yVesI9rsM89yDRkKrEbbvoT6/qJcnbPaN3l4aZzwYwQ=
+
+Name: org/eclipse/jubula/app/i18n/messages.properties
+SHA-256-Digest: zI5SnIWqwNkSQNuEuOFfENdeu2SnddWgdRHhzhhcB6g=
+
+Name: icons/jubula32x32.png
+SHA-256-Digest: IzQ/uMaAAYnZjDmIGQXL4OzvsY/mfq2/gxNBlQW+/h4=
+
+Name: icons/jubula48x48.png
+SHA-256-Digest: HMEUOrvpDhL9ZWz7evZODhO2zuSrH5rk6L7YLWPV3IE=
+
+Name: plugin.properties
+SHA-256-Digest: czWr35jh5UPIcpU3R/ZtqK/842Jfkc+Z1Znk++o84rI=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchWindowAdvisor$Applica
+ tionWindowTitleUpdater.class
+SHA-256-Digest: MJSYo5AjV5XZbwuBi4b+XTRcQQMdzYHWV8YDeqc3HUo=
+
+Name: plugin_customization.ini
+SHA-256-Digest: OirzuVXVDk8G3/rNao19hjBSKHHSZ6vs60XAuqXAdW4=
+
+Name: about.html
+SHA-256-Digest: 5TCjGfu5Hhx1GTYtI0X36pWDJwCTTbxjhQ+bTo42Gcw=
+
+Name: icons/jubula16x16.png
+SHA-256-Digest: oNDN6Nw9fOlbniPXNzzdgnssnjIsMIdLQn6V2XX6FdI=
+
+Name: org/eclipse/jubula/app/Launcher$1.class
+SHA-256-Digest: WZHupMFicNH49z8ac1pTBzcef+6NKGAroHOVI3EAJgs=
+
+Name: icons/about.png
+SHA-256-Digest: gPuFRZajpPX5LWr6vEbkw/WpJ1shwHnx5iMyZSOyuVU=
+
+Name: icons/jubula512x512.png
+SHA-256-Digest: SKifp+Y2FIQuZOb0uuvE/yQCqPmlQdvnsx1yFskJxGE=
+
+Name: META-INF/maven/org.eclipse.jubula/org.eclipse.jubula.app/pom.pro
+ perties
+SHA-256-Digest: lrypHwUGNjkL6y1sDfEt/FOHC6cVPrmQByeWZ7sIOn4=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchWindowAdvisor.class
+SHA-256-Digest: sZchzsKQ5uP96/WIjwqlRlMHgpVgLtlgOM8CXvLOxjE=
+
+Name: icons/jubula128x128.png
+SHA-256-Digest: hN5Uzxe7JFYALpVhV76uvvhqPsN/FhRtsroKmsUC9EQ=
+
+Name: org/eclipse/jubula/app/Activator.class
+SHA-256-Digest: 6MDsjR3hK8vP66eIvy6LThFzbF5HYcHr3+zItMxYhY0=
+
+Name: icons/jubula64x64.gif
+SHA-256-Digest: t88vl7PFmaAi7T0d3pLsySeuDZ7e///j+4POKbsSoIo=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchWindowAdvisor$Applica
+ tionWindowTitleUpdater$1.class
+SHA-256-Digest: FAo3xjIJ8YkqnjK9senaN/JITmRhoRzDP2rRNgvh95E=
+
+Name: icons/intro.png
+SHA-256-Digest: 26YuDgl94dh7xcl9ofyTjb/auBc38qFRlzTkjhN5WtU=
+
+Name: org/eclipse/jubula/app/core/JubulaActionBarAdvisor.class
+SHA-256-Digest: YBIoNOQZKrHOZMsu8rgTLr6TxwLcsRQJT4fe0awhn7w=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchAdvisor.class
+SHA-256-Digest: WghllYQ8N1+Qzpo0lnvWuThSenODkpP8mV47W3nKu0E=
+
+Name: icons/jubula48x48.gif
+SHA-256-Digest: a4kB+HvUqYsrbe/pvey2g8XCrslvbHjGjpR6onBxMZM=
+
+Name: org/eclipse/jubula/app/core/JubulaWorkbenchWindowAdvisor$1.class
+SHA-256-Digest: eb2m7N4QnamgjECmB7lDcSq5qPk3cPybfdBvt5/YchU=
+
+Name: icons/jubula32x32.gif
+SHA-256-Digest: TmKwvdm813L05Bx2SiCVeF+nc+sITAfS7YTpMKhEKCM=
+

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2004, 2010 BREDEX GmbH.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+ -->
+<feature
+      id="org.eclipse.jubula.feature"
+      label="Jubula Functional Testing"
+      version="8.0.5.202010131010"
+      provider-name="Eclipse Jubula"
+      plugin="org.eclipse.jubula.client.ui">
+
+   <description url="http://www.eclipse.org/jubula">
+      Eclipse functional UI testing environment.
+   </description>
+
+   <copyright url="http://www.eclipse.org/jubula">
+      Copyright (c) 2004, 2011 BREDEX GmbH.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+BREDEX GmbH - initial API and implementation and/or initial documentation
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.cheatsheets"/>
+      <import plugin="org.eclipse.ui.intro"/>
+      <import plugin="org.eclipse.ui.intro.universal"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.jface.databinding"/>
+      <import plugin="org.eclipse.core.databinding"/>
+      <import plugin="org.eclipse.core.databinding.beans"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import plugin="org.eclipse.core.databinding.property"/>
+      <import plugin="org.eclipse.search"/>
+      <import feature="org.eclipse.help"/>
+      <import plugin="org.eclipse.equinox.security"/>
+      <import feature="org.eclipse.mylyn.commons"/>
+      <import feature="org.eclipse.mylyn.context_feature"/>
+      <import feature="org.eclipse.mylyn_feature"/>
+      <import feature="org.eclipse.mylyn.wikitext_feature"/>
+      <import plugin="org.eclipse.mylyn.help.ui"/>
+      <import plugin="javax.xml.bind"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jubula.client.inspector.ui"
+         download-size="48"
+         install-size="87"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.app"
+         download-size="396"
+         install-size="1390"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.api"
+         download-size="33"
+         install-size="54"
+         version="4.0.0.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.rcp.provider"
+         download-size="13"
+         install-size="17"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.gef.provider"
+         download-size="15"
+         install-size="43"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.swing.provider"
+         download-size="14"
+         install-size="23"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.javafx.provider"
+         download-size="14"
+         install-size="29"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.swt.provider"
+         download-size="15"
+         install-size="47"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.ui.rcp"
+         download-size="2131"
+         install-size="4806"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.toolkit.ui"
+         download-size="21"
+         install-size="36"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.wiki.ui"
+         download-size="30"
+         install-size="56"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.archive"
+         download-size="149"
+         install-size="355"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.api"
+         download-size="63"
+         install-size="112"
+         version="3.5.0.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.stats"
+         download-size="13"
+         install-size="18"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.api.ui"
+         download-size="24"
+         install-size="43"
+         version="4.0.0.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.core"
+         download-size="9970"
+         install-size="12178"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.core.exporter.junit"
+         download-size="32"
+         install-size="64"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.core.functions"
+         download-size="42"
+         install-size="74"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.logging"
+         download-size="10"
+         install-size="14"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.communication"
+         download-size="124"
+         install-size="230"
+         version="4.0.0.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.ua.welcome"
+         download-size="591"
+         install-size="1083"
+         version="8.0.5.202010131010"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.ua.cheatsheets"
+         download-size="48"
+         install-size="106"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.common"
+         download-size="34"
+         install-size="71"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.base.provider"
+         download-size="19"
+         install-size="82"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.toolkit.concrete.provider"
+         download-size="22"
+         install-size="212"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.tools"
+         download-size="632"
+         install-size="915"
+         version="4.0.0.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.tools.exec"
+         download-size="17"
+         install-size="27"
+         version="4.0.0.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.cmd"
+         download-size="42"
+         install-size="79"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.beanutils"
+         download-size="248"
+         install-size="512"
+         version="1.8.0.v201205091237"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="364"
+         install-size="692"
+         version="1.13.0.v20200108-0001"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="617"
+         install-size="1241"
+         version="3.2.2.v201511171945"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="299"
+         install-size="630"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.cli"
+         download-size="50"
+         install-size="95"
+         version="1.2.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="227"
+         install-size="450"
+         version="2.6.0.v20190123-2029"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oro"
+         download-size="78"
+         install-size="136"
+         version="2.0.8.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.h2"
+         download-size="1280"
+         install-size="2668"
+         version="1.3.168.v201212121212"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="71"
+         install-size="145"
+         version="1.2.0.v20180409-1502"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="306"
+         install-size="614"
+         version="1.2.3.v20200428-2012"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="502"
+         install-size="960"
+         version="1.2.3.v20200428-2012"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.slf4j"
+         download-size="19"
+         install-size="36"
+         version="1.2.3.v20200428-2012"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="51"
+         install-size="101"
+         version="1.7.30.v20200204-2150"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.jcl"
+         download-size="24"
+         install-size="44"
+         version="1.7.2.v20130115-1340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.app.testexec"
+         download-size="36"
+         install-size="74"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.app.dbtool"
+         download-size="25"
+         install-size="47"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.dom4j"
+         download-size="328"
+         install-size="689"
+         version="1.6.1.v20190321-1528"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi"
+         download-size="1914"
+         install-size="3944"
+         version="3.9.0.v201405241750"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.ooxml.schemas"
+         download-size="5075"
+         install-size="16027"
+         version="3.9.0.v201405241750"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.ooxml"
+         download-size="942"
+         install-size="2593"
+         version="3.9.0.v201405241905"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlbeans"
+         download-size="2806"
+         install-size="6288"
+         version="2.3.0.v201605172150"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.common"
+         download-size="337"
+         install-size="672"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.common.agent"
+         download-size="11"
+         install-size="15"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.swing"
+         download-size="256"
+         install-size="510"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.javafx"
+         download-size="480"
+         install-size="948"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.swt"
+         download-size="524"
+         install-size="1064"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.rcp"
+         download-size="4263"
+         install-size="4290"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.autagent"
+         download-size="25"
+         install-size="43"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.autagent.common"
+         download-size="170"
+         install-size="332"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.app.autagent"
+         download-size="18"
+         install-size="29"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.autagent"
+         download-size="17"
+         install-size="28"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.app.autrun"
+         download-size="25"
+         install-size="42"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.ui"
+         download-size="632"
+         install-size="1052"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.teststyle"
+         download-size="125"
+         install-size="252"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.client.teststyle.impl.standard"
+         download-size="17"
+         install-size="25"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.mylyn"
+         download-size="15"
+         install-size="23"
+         version="8.0.5.202010131010"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.jubula.client.ua.help"
+         download-size="4950"
+         install-size="7991"
+         version="8.0.5.202010131010"/>
+
+   <plugin
+         id="org.eclipse.jubula.version"
+         download-size="11"
+         install-size="15"
+         version="8.0.5.202010131010"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.javafx.j8u40"
+         download-size="15"
+         install-size="21"
+         version="8.0.5.202010131010"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jubula.rc.rcp.ext"
+         download-size="9"
+         install-size="12"
+         version="8.0.5.202010131010"
+         fragment="true"/>
+
+   <plugin
+         id="org.apache.commons.exec"
+         download-size="63"
+         install-size="120"
+         version="1.1.0.v201301240602"
+         fragment="true"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="82"
+         install-size="153"
+         version="2.10.3.v20200512-1600"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="356"
+         install-size="755"
+         version="2.10.3.v20200512-1600"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-databind"
+         download-size="1414"
+         install-size="3795"
+         version="2.10.3.v20200512-1600"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.annotation"
+         download-size="15"
+         install-size="21"
+         version="1.1.400.v20180921-1416"
+         unpack="false"/>
+
+</feature>
