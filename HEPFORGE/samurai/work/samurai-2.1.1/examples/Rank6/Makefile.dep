@@ -1,0 +1,4 @@
+# Module dependencies
+process.o: mxnum.o rambo.o vars.o
+process.lo: mxnum.lo rambo.lo vars.lo
+process.obj: mxnum.obj rambo.obj vars.obj

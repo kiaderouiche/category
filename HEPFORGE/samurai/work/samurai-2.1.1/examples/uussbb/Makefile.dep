@@ -1,0 +1,4 @@
+# Module dependencies
+test.o: matrix.o
+test.lo: matrix.lo
+test.obj: matrix.obj

@@ -1,0 +1,26 @@
+<Vevacious_result>
+  <reference version="1.2.03" citation="arXiv:1307.1477, arXiv:1405.7376 (hep-ph)" />
+  <stability slha_summary_code="-2" > metastable </stability>
+  <quantum_stability> long-lived </quantum_stability>
+  <thermal_stability> low_survival_probability </thermal_stability>
+  <panic_vacuum   relative_depth="-3.72211972964e+13" vd="4900.3451507" vE3="5785.94773261" vL3="5291.83287617" vQ3="3372.22320308" vT3="3601.47621595" vu="3947.56665682" />
+  <global_minimum  relative_depth="-3.72211984262e+13" vd="4900.19189739" vE3="-5786.21753329" vL3="-5292.25154347" vQ3="-3372.25429112" vT3="-3601.50869918" vu="3947.75847554" />
+  <DSB_vacuum   relative_depth="-109113894.384" vd="6.19344183415" vE3="0.0" vL3="0.0" vQ3="0.0" vT3="0.0" vu="241.310819334" />
+  <lifetime  action_calculation="deformed_path" > 1.49045436656e+32 </lifetime>
+ <tunneling_temperature survival_probability="5.1238024085e-45" > 1174.87169887 </tunneling_temperature>
+  <warning>
+  Starting point differed from DSB vacuum but rolled there. Trying again with scaled field configuration ({ { vd -> ( -129.916 ), vE3 -> ( -1044.056 ), vL3 -> ( 502.182 ), vQ3 -> ( 0.0 ), vT3 -> ( 0.0 ), vu -> ( -2034.78 ) }, TreeLevelPotentialValue -> 37834760262.2, EffectivePotentialValue -> 186826291182.0 }).
+  </warning>
+  <warning>
+  Starting point differed from DSB vacuum but rolled there. Trying again with scaled field configuration ({ { vd -> ( -129.916 ), vE3 -> ( 1044.056 ), vL3 -> ( -502.182 ), vQ3 -> ( 0.0 ), vT3 -> ( 0.0 ), vu -> ( -2034.78 ) }, TreeLevelPotentialValue -> 37834760262.2, EffectivePotentialValue -> 186826291182.0 }).
+  </warning>
+  <warning>
+  Starting point differed from DSB vacuum but rolled there. Trying again with scaled field configuration ({ { vd -> ( 0.0 ), vE3 -> ( 0.0 ), vL3 -> ( 0.0 ), vQ3 -> ( 0.0 ), vT3 -> ( 0.0 ), vu -> ( 0.0 ) }, TreeLevelPotentialValue -> 0.0, EffectivePotentialValue -> 0.0 }).
+  </warning>
+  <warning>
+  Starting point differed from DSB vacuum but rolled there. Trying again with scaled field configuration ({ { vd -> ( 129.916 ), vE3 -> ( 1044.056 ), vL3 -> ( 502.182 ), vQ3 -> ( 0.0 ), vT3 -> ( 0.0 ), vu -> ( 2034.78 ) }, TreeLevelPotentialValue -> 37834760262.2, EffectivePotentialValue -> 186826291182.0 }).
+  </warning>
+  <warning>
+  Starting point differed from DSB vacuum but rolled there. Trying again with scaled field configuration ({ { vd -> ( 129.916 ), vE3 -> ( -1044.056 ), vL3 -> ( -502.182 ), vQ3 -> ( 0.0 ), vT3 -> ( 0.0 ), vu -> ( 2034.78 ) }, TreeLevelPotentialValue -> 37834760262.2, EffectivePotentialValue -> 186826291182.0 }).
+  </warning>
+</Vevacious_result>

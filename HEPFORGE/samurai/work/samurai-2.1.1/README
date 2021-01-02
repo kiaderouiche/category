@@ -1,0 +1,42 @@
+
+ ********************************************************************
+ ********************** SAMURAI - version 1.0 ***********************
+ ********************************************************************
+ *                                                                  *
+ * SAMURAI, v1.0                                     May 29th, 2010 *
+ *                                                                  *
+ * Authors: P. Mastrolia, G. Ossola, T. Reiter and F. Tramontano    *
+ * 	       		     	     	       	      		    *
+ * pierpaolo.mastrolia@cern.ch 	     	       	      		    *
+ * gossola@citytech.cuny.edu					    *
+ * thomasr@nikhef.nl						    *
+ * francesco.tramontano@cern.ch					    *
+ *                                                                  *
+ *  For details please see: arXiv:1006.0710                         *
+ *                                                                  *
+ *  On the web:  http://cern.ch/samurai                             *
+ *                                                                  *
+ ********************************************************************
+ *                                                                  *
+ *  To compile the samurai library:                                 *
+ *     ./autogen.sh                                                 *
+ *     make                                                         *
+ *     make install                                                 *
+ *                                                                  *
+ *  Will be compiled also:    qcdloop                               *
+ *                            avh_olo                               *
+ *                                                                  *
+ *  The directory examples/ : FourPhotons/ SixPhotons/ DrellYan/    *
+ *                            Rank6/ A51/ FiveGluons/ SixGluons/    *
+ *								    *
+ *  To run the example with the six quark amplitudes                *
+ *  please compile the directory examples/uussbb/                   *
+ *  executing make test.exe, compilation require about 10 minutes   *
+ *								    *
+ *  To run with itest.gt.0 please import the file		    *
+ *								    *
+ *                <samurai/ltest.dat>                               *
+ *								    *
+ *  into the directory where you make the call to initsamurai       *
+ *                                                                  *
+ ********************************************************************

@@ -1,0 +1,5 @@
+The SARAH manual has been replaced by a more up-to-date wiki page:
+https://gitlab.in2p3.fr/goodsell/sarah/wikis/home/
+
+You may also consult the forum at:
+http://wernersarah.de/sarah_forum/
