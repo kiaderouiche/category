@@ -1,9 +1,0 @@
-jobs:
- - reduce_sectors:
-    reduce:
-     - {r: 9, s: 4} 
-#    select_integrals:
-#     select_mandatory_recursively:
-#      - { r: 9, s: 4, d: 0}
-    generate_input: { level: 1}
-    amplitude_translate: ["amplitude_aah_nl_sing"]

@@ -1,4 +1,0 @@
-jobs:
- - kira2math:
-    target:
-     - {topologies: [topo7], sectors: [127], r: 7, s: 1, d: 0}
