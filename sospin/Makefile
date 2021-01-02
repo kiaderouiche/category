@@ -10,6 +10,7 @@ COMMENT=	C++ library for Yukawa decomposition in SO(2N) models
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GNU_CONFIGURE=	yes
+USE_TOOLS+=	perl
 USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"

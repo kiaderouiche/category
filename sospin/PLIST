@@ -1,4 +1,11 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+include/sospin/braket.h
+include/sospin/dlist.h
+include/sospin/enum.h
+include/sospin/form.h
+include/sospin/index.h
+include/sospin/progressStatus.h
+include/sospin/son.h
+include/sospin/timer.h
+include/sospin/tools/so10.h
+lib/libsospin.a

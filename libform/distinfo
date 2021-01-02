@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (libform-4.2.1.tar.gz) = b2a0b8f481cab32717750526e4742e8fc59e7910
+RMD160 (libform-4.2.1.tar.gz) = 90869628981e41b1d322999c8876327fafebcb7e
+SHA512 (libform-4.2.1.tar.gz) = 349f495eb6586a2f038c3ce804ee2df30a14e11c0c5b81152ede6b2c23a8c63a396cc5ada3779b7173620be301c208fc367b020e8b4667736a45ccdd32e7a8c6
+Size (libform-4.2.1.tar.gz) = 1275044 bytes
+SHA1 (patch-scripts_cleanup.sh) = 560dbf313a3eae228f82e9e1e2bdc92e1a5560df
