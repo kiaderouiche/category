@@ -1,6 +1,0 @@
-$NetBSD: distinfo,v 1.1.1.1 2010/07/16 19:17:10 jihbed Exp $
-
-SHA1 (RepositoryHandler/0.5.tar.gz) = ba2ea688f4aeade6f8d1bae40a10e7a090898f08
-RMD160 (RepositoryHandler/0.5.tar.gz) = d040208a06ad72482ddc870d8011e2661395b21c
-SHA512 (RepositoryHandler/0.5.tar.gz) = 08caa1390415673c31af5ceeb0f05ad6030d72b68e79071d43302348cf19aff6649d73d14fc8080fc839dfebe4c59e0d135910366e7cd08d054e6c5172f63d8f
-Size (RepositoryHandler/0.5.tar.gz) = 30793 bytes
