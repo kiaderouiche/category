@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Welcome to DiffTop version 1.0.0
+
+A code for the calculation of the 
+differential and total cross section 
+for heavy-quark production at hadron colliders.
+
+Cross sections are calculated in 1PI kinematics 
+at LO, approx NLO and approx NNLO in QCD, 
+by employing techniques of QCD threshold resummation 
+beyond the leading logarithmic accuracy.
+
+Please refer to the following papers 
+if you are using this code:
+
+arXiv:1406.0386 [hep-ph];
+arXiv:1409.0444 [hep-ph];
+arXiv:1308.1635 [hep-ph];
+
+...

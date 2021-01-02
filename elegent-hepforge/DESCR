@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# USAGE INSTRUCTIONS
+
+## DOWNLOAD
+
+Either download an Elegent release (http://www.hepforge.org/downloads/elegent) or checkout the code from git:
+```
+	git clone https://github.com/jan-kaspar/elegent.git
+```
+
+
+## BUILD
+
+The build is based on the CMake system (http://www.cmake.org/). While you may use any functionality it supports, the recommended build is as follows:
+```
+mkdir build
+cd build
+cmake .. <options>
+make
+```
+
+...
