@@ -1,0 +1,30 @@
+$NetBSD$
+
+--- Makefile.orig	2020-04-03 09:28:33.000000000 +0000
++++ Makefile
+@@ -5,25 +5,15 @@ VERSION = v1.2
+ YEAR = 2020
+ 
+ # Choose your compilers here (usually gcc on Linux systems):
+-CC = gcc
+ CFLAGS= -O3 -pipe -fomit-frame-pointer
+-#CFLAGS_MP= -fopenmp
+ 
+ #CC = clang
+ #CFLAGS= -O3 -pipe -fomit-frame-pointer
+ #CFLAGS_MP= -fopenmp
+ 
+-#CC = icc
+-#CFLAGS = -O3
+-#CFLAGS_MP= -qopenmp
+ 
+-MAKE = make
+ #MAKE_MP = -j$(nproc)
+ 
+-AR = ar
+-ARFLAGS = rcs
+-#ARFLAGS = rcsU
+-
+ 
+ .SUFFIXES:	.o .c .h
+ .PRECIOUS:	.c .h libblackhawk.a

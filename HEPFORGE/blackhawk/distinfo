@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (blackhawk_v1.2.tar.bz2) = fa20c1e4c72be25c9238265b396f20fc1b8d9431
+RMD160 (blackhawk_v1.2.tar.bz2) = 0191226014c8e11ce01256133c3e82f8046899d1
+SHA512 (blackhawk_v1.2.tar.bz2) = 71f36d944125f98e3b88712611ed736d158d37ae5698edcf7222561096efb3096e4899099558ee76f4416f0755fd257bce39343f1da38e23c3570f36dc36fc73
+Size (blackhawk_v1.2.tar.bz2) = 47882892 bytes
+SHA1 (patch-Makefile) = 89efc0aec7edd4f193c4d3b6b0a2f85530b81d8e
