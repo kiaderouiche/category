@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+           ********************************************
+           *            JetVHeto Version 3.0.0        *
+           ********************************************
+
+ This is JetVHeto, a program that performs NNLL resummation for
+ jet-veto efficiencies and cross sections in Higgs and Z-boson
+ production. It also carries out matching to fixed-order (up to NNNLO)
+ results provided by the user. 
+
+ The jets should be defined according to any longitudinally-invariant
+ generalised kt algorithm (e.g. kt, anti-kt, C/A...), in the so-called
+ "inclusive" mode, with E-scheme recombination and a a distance
+ measure based on Delta y^2 + Delta phi^2.
+
+ At NNLO and NNLL the resummed, fixed order and matched results are
+ independent of whether the jet algorithm is kt, C/A or anti-kt (but
+ do depend on the jet-radius R).
+ 
+ New features of version 3:
+
+...

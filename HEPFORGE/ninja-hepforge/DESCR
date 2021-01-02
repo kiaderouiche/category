@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Ninja
+=====
+
+- Ninja - version 1.1.0
+- Author: Tiziano Peraro
+
+*Ninja* implements the *Laurent series expansion* method for the
+computation of *one-loop integrals*.
+
+It is based on:
+
+- P. Mastrolia, E. Mirabella and T. Peraro,
+   "*Integrand reduction of one-loop scattering amplitudes through
+   Laurent series expansion*,"
+   JHEP 1206 (2012) 095
+   [arXiv:1203.0291 [hep-ph]](http://arxiv.org/abs/arXiv:1203.0291).
+
+- T. Peraro,
+   "*Ninja: Automated Integrand Reduction via Laurent Expansion for
+   One-Loop Amplitudes*,"
+...
