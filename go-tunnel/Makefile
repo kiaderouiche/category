@@ -2,13 +2,13 @@
 
 DISTNAME=	go-tunnel-0.0.2
 GITHUB_PROJECT=	tunnel
-CATEGORIES=	category
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=kataras/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/kataras/tunnel/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Public URLs for exposing your local web server 
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_SRCPATH=	github.com/kataras/tunnel
