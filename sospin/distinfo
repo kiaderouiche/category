@@ -4,3 +4,4 @@ SHA1 (sospin-1.0.0.tar.gz) = d3d0c8e83a22cd59eb954d794766eace6e5b0b41
 RMD160 (sospin-1.0.0.tar.gz) = ec77549f8417c756873617a00dffb5289f0929f7
 SHA512 (sospin-1.0.0.tar.gz) = bfbe703c7dc5d7439de109ffec2629f0a71ac10307d9ec4c686cae65919590fff8a5135f117bac42dde1dcaad2b60468506c8da2b86a9487d36e118a78fc8a28
 Size (sospin-1.0.0.tar.gz) = 197356 bytes
+SHA1 (patch-configure) = cad9e05ae8d6249f25dd43ab5cdbb7adb64f03e5

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- configure.orig	2016-01-12 18:07:12.000000000 +0000
++++ configure
+@@ -4394,7 +4394,7 @@ $as_echo "no" >&6; }
+ fi
+ 
+ 
+-if test "$FORM_DIR_CHECK"   == "no"; then
++if test "$FORM_DIR_CHECK"   = "no"; then
+ #uncomment and comment next lines to stop with error if form not found
+ #if form not found here, then the user must use PATH_TO_FORM env
+ #  AC_MSG_ERROR(form NOT found in $FORM_DIR)
