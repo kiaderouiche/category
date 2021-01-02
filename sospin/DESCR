@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+                README File for SOSpin Library Distribution
+---------------------------------------------------------------------------------
+=================================================================================
+=================================================================================
+Overview
+=================================================================================
+SOSpin (one reads it as a single word “sospin”), with the purpose to calculate 
+the decomposition of the Yukawa interactions invariants on SO(2N) groups in terms
+of the SU(N) subgroup. The program also includes specific functions to address 
+the SO(10).
+
+
+=================================================================================
+=================================================================================
+Download
+=================================================================================
+The latest release of SOSpin is available from: 
+http://sospin.hepforge.org/
+the file is like sospin-x.x.x.tar.gz
+
+...
