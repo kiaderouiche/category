@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+#--------------------------------------------------#
+# SusHi: (Supersymmetric) Higgs production through #
+#  __      __        gluon fusion and bottom-quark #
+# [_  | | [_  |_| |  annihilation                  #
+# __] |_| __] | | |                                #
+#                                                  #
+#        R. Harlander, S. Liebler, and H. Mantler  #
+#               (harlander@physik.rwth-aachen.de)  #
+#                        (stefan.liebler@kit.edu)  #
+#            BU Wuppertal, RWTH Aachen, DESY, KIT  #
+# Contributions by:                                #
+# Shruti Patel (KIT): SusHiMi for CP violation     #
+# Lars-Thorben Moos (RWTH): Link to ext. codes     #
+#--------------------------------------------------#
+# SusHi is based on a number of calculations       #
+# due to various groups. Please acknowledge these  #
+# efforts by citing the list of references which   #
+# are included in the output file of every run.    #
+# SusHi can be used with FeynHiggs/2HDMC.          #
+#--------------------------------------------------#
+...
