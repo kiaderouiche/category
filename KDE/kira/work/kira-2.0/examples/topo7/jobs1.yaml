@@ -1,0 +1,15 @@
+# Minimal job file example.
+# Note that we recommend to always use the option select_integrals.
+jobs:
+ - reduce_sectors:
+    reduce:
+     - {r: 7, s: 2} # new seed selection, makes topo7: 127 topo7x: 508 implicit
+
+## old seed selection notation:
+#    sector_selection:
+#     select_recursively:
+#      - [topo7,127]
+#      - [topo7x,508]
+#    identities:
+#     ibp:
+#      - {r: [t,7], s: [0,2]}

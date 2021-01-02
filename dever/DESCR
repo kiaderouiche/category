@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Diver
+=====
+
+A fast parameter sampler and optimiser based on differential evolution.
+
+
+About
+--
+
+Diver is written in Fortran2003.  We originally wrote it with applications in particle physics and astronomy in mind, but there is nothing to prevent its use in other fields.
+
+The code and its options are described in detail in the ScannerBit paper included in the distribution.  Any papers that use results or insights obtained with Diver should cite this paper:
+  1. Martinez, McKay, Farmer, Scott, Roebber, Putze & Conrad 2017, European Physical Journal C 77 (2017) 761, [arXiv:1705.07959](https://arxiv.org/abs/1705.07959)
+
+
+Compilation
+--
+
+The Diver build system is not really complex enough to require autotools or cmake.  Just change [the makefile](makefile) by hand to suit your system, or call it from another makefile or the command line with overrides.
+
+...

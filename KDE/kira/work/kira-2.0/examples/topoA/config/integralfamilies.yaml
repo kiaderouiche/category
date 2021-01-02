@@ -1,0 +1,14 @@
+integralfamilies:
+  - name: "A"
+    loop_momenta: [k1,k2]
+    top_level_sectors: [191, 247, 253, 431]
+    propagators:
+      - ["k1", "mt2"]
+      - ["k2", "mt2"]
+      - ["k1-k2", "0"]
+      - ["k1-q1", "mt2"]
+      - ["k2-q1", "mt2"]
+      - ["k1-q1-q2", "mt2"]
+      - ["k2-q1-q2", "mt2"]
+      - ["k1-q1-q2-q3", "mt2"]
+      - ["k2-q1-q2-q3", "mt2"]

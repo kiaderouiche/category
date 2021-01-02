@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+
+  The file pystrf.f* contains modified routine PYSTRF for * version of Pythia,
+ and some auxiliary routines.   
+
+  HELIX string model steering parameters [modified helix scenario as described in
+ arXiv:1101.2407 ]
+
+  MSTU(199) = 0    no helix ( standard fragmentation )
+              1    reserved
+              2    modified helix ( with constant pitch )
+              3    modified helix for light quarks only ( makes sense in Z0 decay only ) 
+
+  PARJ(102)        helix radius  ( replacing PARJ(21), numerically very close )
+  PARJ(103)        sigma of helix radius
+  PARJ(104)        S parameter [rad/GeV] 
+  PARJ(109)        tolerance ( num.precision )
+
+  Subroutine PYPTSCM(..)  generates pt according to modified helix parametrization
+
+  other functions/routines: subroutine define_winding(..)
+...

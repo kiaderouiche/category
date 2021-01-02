@@ -1,0 +1,19 @@
+# First execute the job generate_input.yaml. This will produce the directory
+# input_kira containing all the system of equation files.
+# Before running this job delete directories: sectormappings, tmp and results.
+jobs:
+  - reduce_user_defined_system:
+      input_system: {files: ["input_kira/higgs3l7_00mm0000m","input_kira/higgs3l11_00mm0000m", "input_kira/amplitude_18446744073709551614"], config: false, otf: true}
+      select_integrals:
+        select_mandatory_list:
+          - ["amplitude_to_reduce"]
+      iterative_reduction: masterwise
+      conditional: true
+
+      run_initiate: true
+#      run_triangular: true
+#      run_back_substitution: true
+      run_firefly: true
+  - kira2file:
+      target:
+       - ["amplitude_to_reduce"]

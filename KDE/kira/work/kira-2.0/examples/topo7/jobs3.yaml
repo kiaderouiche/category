@@ -1,0 +1,33 @@
+jobs:
+ - reduce_sectors:
+    reduce:
+     - {r: 7, s: 2} # new notation, makes topo7: 127 topo7x: 508 implicit
+     - {r: 8, s: 1}
+    select_integrals:
+     select_mandatory_recursively:
+      - {r: 7, s: 2, d: 0}
+      - {r: 8, s: 1, d: 1}
+    preferred_masters: "basisChange"
+    run_initiate: true
+    run_triangular: true
+    run_back_substitution: true
+    integral_ordering: 4
+ - kira2math:
+    target:
+    - [topo7x,seeds7x]
+    - [topo7,seeds7]
+ - kira2math:
+    target:
+     - {topologies: [topo7], sectors: [b111111100], r: 7, s: 2, d: 0}
+     - {topologies: [topo7], sectors: [b111111100], r: 8, s: 1, d: 1}
+     - {topologies: [topo7x], sectors: [b001111111], r: 7, s: 2, d: 0}
+     - {topologies: [topo7x], sectors: [b001111111], r: 8, s: 1, d: 1}
+#    - [topo7x,240,0,1]
+#    alt_dir: "/home/usovitsch/Documents/1401Kira/kira/examples/topo7/new2"
+ - kira2form:
+    target:
+     - [topo7,seeds7]
+     - [topo7x,seeds7x]
+    reconstruct_mass: true
+#    alt_dir: "/home/usovitsch/Documents/1401Kira/kira/examples/topo7/new"
+
