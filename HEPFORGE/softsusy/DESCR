@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+-------------------------------------------------
+		 SOFTSUSY
+-------------------------------------------------
+by: B C Allanach, P Athron, A Bednyakov, M Bernhardt, T Cridge, D Grellscheid,
+                  M Hanussek, C H Kom, S Martin, D Robertson, R Ruiz de Austri,
+		  P Slavich, L Tunstall, A Voigt and A G Williams 
+
+SUMMARY
+-------
+This program provides a SUSY spectrum in the NMSSM, or the MSSM including
+flavour violation and with or without R-parity consistent with input Standard
+Model fermion mass/mixings and electroweak/strong coupling data. The R-parity
+violating mode can calculate neutrino masses and mixings to 1 loop. SOFTSUSY
+can be used in conjunction with other programs for many different particle
+physics calculations. SOFTSUSY now has a mode with 3 loop RGEs and some 2-loop
+threshold corrections.  
+
+QUICK INSTALLATION AND RUN TEST
+-------------------------------
+
+...

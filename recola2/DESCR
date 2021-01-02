@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# RECOLA2-COLLIER PACKAGE README #
+
+* Version 2.2.2
+
+* * *
+
+**Recola2** is a *Fortran95* computer program for the *automated* generation and *numerical* evaluation of amplitudes in *general* quantum field theories at *one-loop* order. It is built on top of [Recola][1] and [Collier][2].
+
+* * *
+
+### External dependencies
+
++ [CMake][3] build system
+
+* * *
+
+### **QUICK** configuration and installation
+
+In order to run the configuration switch to the (top-level) build directory and run cmake
+
+...

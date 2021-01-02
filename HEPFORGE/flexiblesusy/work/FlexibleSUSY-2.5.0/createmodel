@@ -1,0 +1,548 @@
+#!/bin/sh
+
+# configure script for FlexibleSUSY
+# Author: Alexander Voigt
+
+# directory of this script
+BASEDIR=$(dirname $0)
+
+# absolute path to this script
+ABSBASEDIR=$(cd $BASEDIR; pwd)
+
+# operating system
+operating_system="`(uname -s) 2>/dev/null || echo unknown`"
+
+# determine Mathematica user directory
+case "$operating_system" in
+    Darwin)     mathematica_dir="${HOME}/Library/Mathematica" ;;
+    CYGWIN_NT*) mathematica_dir="${USERPROFILE}/AppData/Roaming/Mathematica" ;;
+    # Linux, *BSD
+    *)          mathematica_dir="${HOME}/.Mathematica" ;;
+esac
+
+mathematica_applications_dir="${mathematica_dir}/Applications"
+sarah_default_dir="${mathematica_applications_dir}/SARAH"
+flexiblesusy_sarah_dir="${BASEDIR}/sarah"
+mathematica_kernel="math"
+
+overwrite="no"
+model_file=""
+name=""
+sarah_model=""
+
+# flags
+options="                    \
+   enable_debug              \
+"
+
+# default flag values
+enable_debug="no"
+
+# corresponding meta code level flags
+ENABLE_DEBUG_META="False"
+
+# exit codes
+exit_ok="0"
+exit_syntax_error="1"
+exit_model_dir_exists="2"
+exit_no_default_model="3"
+
+createmodel_log="${BASEDIR}/createmodel.log"
+
+#_____________________________________________________________________
+find_default_model_files() {
+    # searches for FlexibleSUSY.m.in files within the model_files/
+    # directory.  If a FlexibleSUSY.m.in was found, the corresponding
+    # model name will be stored in the variable $default_models .
+
+    default_models="`find ${BASEDIR}/model_files/ -mindepth 2 -type f -name FlexibleSUSY.m.in -exec dirname {} \; | awk -F / '{ print $NF }' | tr '\n' ' ' | sort -u`"
+}
+
+#_____________________________________________________________________
+help() {
+    find_default_model_files
+    local available_default_model_files="${default_models}"
+
+cat <<EOF
+Usage: ./`basename $0` [options] --name=<model-name>
+Options:
+  --name=            Name of the FlexibleSUSY model.
+                     Example: --name=MyMSSM
+
+  --model-file=      Name of the model whose FlexibleSUSY model file
+                     should be used.  If empty, it will be searched for
+                     model_files/<model-name>/FlexibleSUSY.m.in , where
+                     <model-name> is the name of the FlexibleSUSY model
+                     given by --name= .  All FlexibleSUSY model files
+                     are stored in model_files/ .
+                     Available models are: ${available_default_model_files}
+
+  --sarah-model=     Name of the SARAH model, used in SARAH\`Start[].
+                     If empty, the script will look if a default SARAH
+                     model file is specified in the FlexibleSUSY model
+                     file in the form
+
+                        FSDefaultSARAHModel = <model>;
+
+                     If no such entry can be found, the value given by
+                     --name= is used.
+                     A sub-model can be specified after a /
+                     Syntax: <sarah-model>[/<sub-model>]
+                     Example: --sarah-model=MSSM/CKM
+
+  --with-math-cmd=   Mathematica kernel (default: ${mathematica_kernel})
+                     Example: --with-math-cmd=${mathematica_kernel}
+
+  --force,-f         Overwrite existing model files.
+
+  --help,-h          Print this help message.
+
+enable/disable options, prefix with either --enable- or --disable-
+
+  debug              Debug messages from the meta code (default: ${enable_debug})
+
+Examples:
+
+  Create a FlexibleSUSY model for the E6SSM:
+
+    ./createmodel --name=E6SSM
+
+  Create a new FlexibleSUSY model named MyMSSM, using the FlexibleSUSY
+  model file model_files/NUHMSSM/FlexibleSUSY.m.in and using the MSSM
+  as underlying SARAH model (SARAH\`Start["MSSM"]).
+
+    ./createmodel --name=MyMSSM --model-file=NUHMSSM --sarah-model=MSSM
+EOF
+}
+
+#_____________________________________________________________________
+logmsg() {
+    # Write message to the log file.  Use -n as first parameter to
+    # prevent a newline at the end of the message.
+    if test $# -lt 1 ; then
+        echo "logmsg: Too few arguments"
+        return 1
+    fi
+    if test "x$1" = "x-n"; then
+       shift
+       printf "%s" "$*" >> $createmodel_log
+    else
+       echo "$*" >> $createmodel_log
+    fi
+}
+
+#_____________________________________________________________________
+message() {
+    # Write a simple message to std out (and to the log file).  Use -n
+    # as first parameter to prevent a newline at the end of the
+    # message.
+    if test $# -lt 1 ; then
+        echo "message: Too few arguments"
+        return 1
+    fi
+    if test "x$1" = "x-n"; then
+        shift
+        printf "%s" "$*"
+        logmsg "-n" "$*"
+    else
+        echo "$*"
+        logmsg "$*"
+    fi
+}
+
+#_____________________________________________________________________
+string_contains() {
+    # Tests if [$2] is contained in [$1]
+    if test $# -lt 2 ; then
+        echo "string_contains: 2 arguments expected"
+        return 1
+    fi
+
+    case "$1" in
+        *"$2"*) return 0 ;;
+    esac
+
+    return 1
+}
+
+#_____________________________________________________________________
+is_executable () {
+    # This function checks if [$1] is an executable.
+    #
+    # The result of the search is stored in cmd, which should be
+    # immediately copied, since the variables value will be
+    # overwritten at next invocation of this function.
+
+    # Assert that we got enough arguments
+    if test $# -ne 1 ; then
+        echo "is_executable: Exactly one argument required"
+        return 1
+    fi
+
+    cmd=$(command -v -- "$1")
+}
+
+#_____________________________________________________________________
+check_flags() {
+    if test "x$enable_debug" = "xyes" ; then
+        ENABLE_DEBUG_META="True"
+        message "Enabling meta code debug mode"
+    elif test "x$enable_debug" = "x" -o "x$enable_debug" = "xno" ; then
+        ENABLE_DEBUG_META="False"
+        logmsg "Disabling meta code debug mode"
+    fi
+}
+
+#_____________________________________________________________________
+# contains(string, substring)
+#
+# Returns 0 if the specified string contains the specified substring,
+# otherwise returns 1.
+contains() {
+    string="$1"
+    substring="$2"
+    if test "${string#*$substring}" != "$string"
+    then
+        return 0    # $substring is in $string
+    else
+        return 1    # $substring is not in $string
+    fi
+}
+
+#_____________________________________________________________________
+check_model_name() {
+    if test $# -ne 1 ; then
+        echo "check_model_name: Exactly one argument required"
+        exit 1
+    fi
+
+    local _model="$1"
+
+    if [ -z $(echo "${_model}" | grep -E "^[a-zA-Z][0-9a-zA-Z_]*$") ]; then 
+        printf "Error: invalid model name ${_model}. "
+        if [ -n "$(echo "${_model}" | grep -E -o "^[0-9]")" ]; then
+            printf "Model name must start with a letter. "
+        fi
+        if [ -n "$(echo "${_model}" | grep -E -o "[^0-9a-zA-Z_]")" ]; then
+            printf "Disallowed character(s) in model name: $(echo "${_model}" | grep -E -o "[^0-9a-zA-Z_]"|sort|uniq|xargs)."
+        fi
+        printf "\n"
+        exit 1
+    fi
+}
+
+#_____________________________________________________________________
+check_sarah_model() {
+    if test $# -ne 2 ; then
+        echo "check_sarah_model: Exactly one argument required"
+        exit 1
+    fi
+
+    local _sarah_model="$1"
+    local _sub_model="$2"
+
+    if [ -n "${_sub_model}" ]; then
+        _sarah_model="${_sarah_model}/${_sub_model}"
+    fi
+
+    local found="no"
+
+    message -n "Checking SARAH model ${_sarah_model} ... "
+
+    if ! is_executable "$mathematica_kernel" ; then
+        message "error"
+        message "Error: could not find Mathematica kernel \"${mathematica_kernel}\""
+        message "    Please specify the Mathematica kernel via --with-math-cmd="
+        exit 1
+    fi
+
+    if string_contains "$mathematica_kernel" "MathematicaScript" ; then
+        message "warning"
+        message "Warning: You are using $mathematica_kernel as Mathematica kernel."
+        message "    This is probably the wrong executable."
+        message "    Please consider using $(dirname ${mathematica_kernel})/MathKernel instead."
+    fi
+
+    # checking SARAH installation
+    "$mathematica_kernel" <<EOF > /dev/null
+Needs["SARAH\`"];
+If[!ValueQ[SA\`Version], Quit[1]];
+Quit[0];
+EOF
+    local _sarah_is_available="$?"
+    if test ! "x${_sarah_is_available}" = "x0" ; then
+        message "error"
+        message "Error: SARAH could not be loaded via Needs[\"SARAH\`\"] ."
+        message "    Please install SARAH such that it can be loaded via Needs[\"SARAH\`\"] ."
+        message "    You can use ./install-sarah to install SARAH."
+        exit 1
+    fi
+
+    # trying to load model file
+    "${mathematica_kernel}" <<EOF 1> /dev/null 2>> ${createmodel_log}
+FindModelFiles[dir_String, modelName_String, submodeldir_] :=
+    Module[{files, modelFile, modelDir},
+           If[submodeldir =!= False,
+              modelDir  = FileNameJoin[{dir, modelName, submodeldir}];
+              modelFile = FileNameJoin[{modelDir, modelName <> "-" <> submodeldir <> ".m"}];
+              ,
+              modelDir  = FileNameJoin[{dir, modelName}];
+              modelFile = FileNameJoin[{modelDir, modelName <> ".m"}];
+             ];
+           files = Join[{modelFile},
+                        FileNameJoin[{modelDir, #}]& /@ {"parameters.m", "particles.m"}
+                       ];
+           Select[files, FileExistsQ]
+          ];
+
+sarahLoaded = Needs["SARAH\`"];
+
+If[sarahLoaded === \$Failed || !ValueQ[\$sarahModelDir],
+   Quit[1];
+  ];
+
+If[!StringFreeQ["${_sarah_model}","/"],
+   splitted = StringSplit["${_sarah_model}","/"];
+   modelName = splitted[[1]];
+   submodeldir = splitted[[2]];
+   ,
+   modelName = "${_sarah_model}";
+   submodeldir = False;
+];
+
+(* search in SARAH/Models/ directory *)
+files = FindModelFiles[\$sarahModelDir, modelName, submodeldir];
+
+(* search in FlexibleSUSY/sarah/ directory *)
+If[files === {},
+   files = FindModelFiles["${flexiblesusy_sarah_dir}", modelName, submodeldir];
+  ];
+
+If[files === {},
+   WriteString["stderr", "    " <> \$sarahModelDir <> "\n    ${flexiblesusy_sarah_dir}" <> "\n"];
+   Quit[1];
+   ,
+   Quit[0]
+  ];
+EOF
+    local _model_is_available="$?"
+    if test "x${_model_is_available}" = "x0" ; then
+        found="ok"
+    fi
+
+    if test "${found}" = "ok" ; then
+        message "ok"
+        return 0
+    else
+        message "not found"
+        message "Error: SARAH model ${_sarah_model} not found in"
+        cat ${createmodel_log}
+        exit 1
+    fi
+}
+
+#_____________________________________________________________________
+search_default_model() {
+    # searches for string of the form
+    #    FSDefaultSARAHModel = XXX;
+    # and sets $2 to XXX
+    if test $# -ne 2 ; then
+        echo "Error: search_default_model expects 2 arguments"
+        exit ${exit_syntax_error}
+    fi
+
+    local _file="$1"
+    local _output_var="$2"
+    local _sarah_model=""
+
+    message -n "Searching for default SARAH model in $_file ... "
+
+    _sarah_model=$(sed -n 's/FSDefaultSARAHModel *= *\([^;][^;]*\)/\1/p' < ${_file} | tr -d '')
+
+    if [ -z $_sarah_model ]; then
+        message "not found"
+    else
+        message "found $_sarah_model"
+    fi
+
+    eval "${_output_var}=${_sarah_model}"
+}
+
+trap "exit 1" INT QUIT TERM
+
+rm -f ${createmodel_log}
+
+if test $# -lt 1 ; then
+    message "Error: Too few arguments"
+    help
+    exit ${exit_syntax_error}
+fi
+
+if test $# -gt 0 ; then
+    while test ! "x$1" = "x" ; do
+        case "$1" in
+            -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+            *)    optarg= ;;
+        esac
+
+        case $1 in
+            --enable-*)
+                f=`echo $1 | sed -e 's/--//' -e 's/-/_/g'`
+                eval prev='$'`echo ${f}`
+                if test "x${prev}" = "xyes"; then
+                    message "INFO: $1: already enabled by default."
+                fi
+                if test ! "x`message ${deprecated_options} | grep ${f}`" = "x"; then
+                    message "WARNING: option $1 is deprecated and ignored"'!'
+                fi
+                eval ${f}=yes
+                for c in $options ; do
+                    if test "x$c" = "x$f" ; then
+                        f=""
+                    fi
+                done
+                for c in $deprecated_options ; do
+                    if test "x$c" = "x$f" ; then
+                        f=""
+                    fi
+                done
+                if test "x$f" != "x" ; then
+                    message "Invalid option '$1'. Try $0 --help" ; exit 1 ;
+                fi
+                ;;
+            --disable-*)
+                f=`echo $1 | sed -e 's/--disable/enable/' -e 's/-/_/g'`
+                eval prev='$'`echo ${f}`
+                if test "x${prev}" = "xno"; then
+                    message "INFO: $1: already disabled by default."
+                fi
+                eval ${f}=no
+                for c in $options ; do
+                    if test "x$c" = "x$f" ; then
+                        f=""
+                    fi
+                done
+                if test "x$f" != "x" ; then
+                    message "Invalid option '$1'. Try $0 --help" ; exit 1 ;
+                fi
+                ;;
+            --force|-f)              overwrite="yes" ;;
+            --help|-h)               help; exit ${exit_ok} ;;
+            --model-file=*)          model_file="$optarg" ;;
+            --name=*)                name="$optarg" ;;
+            --sarah-model=*)         sarah_model="$optarg" ;;
+            --with-math-cmd=*)       mathematica_kernel="$optarg" ;;
+            *)  message "Invalid option '$1'. Try $0 --help" ; exit ${exit_syntax_error} ;;
+        esac
+        shift
+    done
+fi
+
+if [ -z "$name" ] ; then
+    message "Error: no model specified!"
+    help
+    exit ${exit_syntax_error}
+fi
+
+# create target directory name
+targetdir="models/${name}"
+
+if test -d "$targetdir" -a "x$overwrite" = "xno" ; then
+    message "Error: directory $targetdir already exists!"
+    message "Please chose another model name or use the --force option."
+    message "See ./`basename $0` --help for more information."
+    exit ${exit_model_dir_exists}
+fi
+
+# check if we provide a FlexibleSUSY model file for the given model
+# name
+[ -n "$model_file" ] || model_file="$name"
+model_file_dir="model_files/$model_file"
+message -n "Searching for ${model_file} model file ... "
+
+if test -r "$model_file_dir/FlexibleSUSY.m.in"; then
+    message "found ${model_file_dir}/FlexibleSUSY.m.in"
+else
+    message "no found in ${model_file_dir}"
+    echo "Error: No FlexibleSUSY model file found in ${model_file_dir}/"
+    echo "  You can either create a model file via"
+    echo ""
+    echo "  \$ mkdir ${model_file_dir}"
+    echo "  \$ cp model_files/MSSM/FlexibleSUSY.m.in ${model_file_dir}/"
+    echo ""
+    echo "  or you can specify the model file via"
+    echo ""
+    echo "  \$ ./`basename $0` [...] --model-file=MSSM"
+    exit ${exit_no_default_model}
+fi
+
+# search for default SARAH model in the FlexibleSUSY model file
+if [ -z "$sarah_model" ]; then
+    search_default_model "$model_file_dir/FlexibleSUSY.m.in" sarah_model
+fi
+
+sub_model=$(echo $sarah_model | awk -F / '{ if (NF > 1) print $NF }')
+sarah_model=$(echo $sarah_model | awk -F / '{ print $1 }')
+
+if [ -z "$sarah_model" ]; then
+    sarah_model="$name"
+fi
+
+check_model_name "${name}"
+check_sarah_model "${sarah_model}" "${sub_model}"
+check_flags
+
+if [ -n "$sub_model" ]; then
+    echo "Creating model $name (SARAH model: $sarah_model, sub-model: $sub_model)"
+else
+    echo "Creating model $name (SARAH model: $sarah_model)"
+fi
+
+if test ! -d "$targetdir" ; then
+    message -n "  Creating model directory $targetdir ... "
+    mkdir -p $targetdir
+    message "done"
+fi
+
+set -- $(find $model_file_dir -type f -iname LesHouches.in\* -not -iname \*~ -exec basename {} \; | tr '\n' ' ')
+SLHA_input_files="$*"
+
+SLHA_input_files_in_mk=$(echo "$SLHA_input_files" |
+    sed -e 's/ / \\\\\\n/g' \
+        -e 's,^\(.\),		$(DIR)/\1,' \
+        -e 's,\\n\(.\),\\n		$(DIR)/\1,g')
+
+message -n "  Creating Makefile module $targetdir/module.mk ... "
+sed -e "s|@DIR@|$targetdir|g"			  \
+    -e "s|@MODEL@|$sarah_model|g"		  \
+    -e "s|@CLASSNAME@|$name|g"			  \
+    -e "s|@SLHA_INPUT@|$SLHA_input_files_in_mk|g" \
+    < templates/module.mk.in > $targetdir/module.mk
+message "done"
+
+message -n "  Creating start script $targetdir/start.m ... "
+sub_model_replacement=""
+if [ -n "$sub_model" ]; then
+    sub_model_replacement=", \"$sub_model\""
+fi
+sed -e "s|@DIR@|$targetdir|g"                     \
+    -e "s|@ENABLE_DEBUG_META@|$ENABLE_DEBUG_META|g" \
+    -e "s|@ModelName@|$sarah_model|g"             \
+    -e "s|@SubModel@|$sub_model_replacement|g"    \
+    -e "s|@CLASSNAME@|$name|g"                    \
+    < templates/start.m.in > $targetdir/start.m
+message "done"
+
+message -n "  Creating FlexibleSUSY model file $targetdir/FlexibleSUSY.m ... "
+sed -e "s|@DIR@|$targetdir|g"               \
+    -e "s|@ModelName@|$sarah_model|g"       \
+    -e "s|@CLASSNAME@|$name|g"              \
+    -e "s|FSModelName\([[:blank:]]*=[[:blank:]]*\)[^;][^;]*|FSModelName\1\"$name\"|g" \
+    < $model_file_dir/FlexibleSUSY.m.in > $targetdir/FlexibleSUSY.m
+message "done"
+
+for slha_in in $SLHA_input_files; do
+    message -n "  Creating SLHA input file $targetdir/$slha_in ... "
+    cp $model_file_dir/$slha_in $targetdir
+    message "done"
+done

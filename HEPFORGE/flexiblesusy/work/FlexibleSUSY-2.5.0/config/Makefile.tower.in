@@ -1,0 +1,172 @@
+# Package information
+PKGNAME         := @PKGNAME@
+VERSION         := @FLEXIBLESUSY_VERSION@
+ABSBASEDIR      := @ABSBASEDIR@
+
+# Switches
+ENABLE_FFLITE    := @ENABLE_FFLITE@
+ENABLE_LOOPTOOLS := @ENABLE_LOOPTOOLS@
+ENABLE_COLLIER   := @ENABLE_COLLIER@
+ENABLE_THREADS   := @ENABLE_THREADS@
+
+MODULE_LIBEXT   := @MODULE_LIBEXT@
+
+MODEL1          := MSSMD5O
+MODEL2          := MSSMRHN
+
+MODEL1DIR       := $(ABSBASEDIR)/models/$(MODEL1)
+MODEL2DIR       := $(ABSBASEDIR)/models/$(MODEL2)
+CONFIGDIR       := $(ABSBASEDIR)/config
+FLEXIDIR        := $(ABSBASEDIR)/src
+FFLITEDIR       := $(ABSBASEDIR)/fflite
+SLHAEADIR       := $(ABSBASEDIR)/slhaea
+SMHODIR         := $(ABSBASEDIR)/model_specific/SM
+
+INCMODEL1       := -I$(MODEL1DIR)
+INCMODEL2       := -I$(MODEL2DIR)
+INCCONFIG       := -I$(CONFIGDIR)
+INCFLEXI        := -I$(FLEXIDIR)
+INCFFLITE       := -I$(FFLITEDIR)
+INCSLHAEA       := -I$(SLHAEADIR)
+LIBMODEL1       := $(MODEL1DIR)/lib$(MODEL1)$(MODULE_LIBEXT)
+LIBMODEL2       := $(MODEL2DIR)/lib$(MODEL2)$(MODULE_LIBEXT)
+LIBFLEXI        := $(FLEXIDIR)/libflexisusy$(MODULE_LIBEXT)
+LIBFFLITE       := $(FFLITEDIR)/libfflite$(MODULE_LIBEXT)
+LIBSMHO         := $(SMHODIR)/libmodel_specific_SM$(MODULE_LIBEXT)
+
+# Variables for compilation
+CXX             := @CXX@
+CPPFLAGS        := @CPPFLAGS@ -I. $(INCCONFIG) $(INCFLEXI) \
+                   $(INCSLHAEA) -I$(SMHODIR) $(INCMODEL1) $(INCMODEL2)
+CXXFLAGS        := @CXXFLAGS@
+CXX_DEP_GEN     := $(CXX)
+CXXFLAGS_DEP_GEN:= $(CXXFLAGS)
+FC              := @FC@
+FFLAGS          := @FFLAGS@
+FLIBS           := @FLIBS@
+FUTILIBS        := @FUTILIBS@
+FOR_DEP_GEN     := $(FC)
+BOOSTFLAGS      := @BOOSTFLAGS@
+EIGENFLAGS      := @EIGENFLAGS@
+GSLLIBS         := @GSLLIBS@
+GSLFLAGS        := @GSLFLAGS@
+LOOPFUNCFLAGS   := @LOOPFUNCFLAGS@
+LOOPFUNCLIBS    := @LOOPFUNCLIBS@
+SQLITEFLAGS     := @SQLITEFLAGS@
+SQLITELIBS      := @SQLITELIBS@
+THREADLIBS      := @THREADLIBS@
+
+TOWER_SRC := \
+		run_tower.cpp \
+		MSSMD5O_MSSMRHN_two_scale_matching.cpp \
+		MSSMD5O_MSSMRHN_two_scale_initial_guesser.cpp
+
+TOWER_OBJ := \
+		$(patsubst %.cpp, %.o, $(filter %.cpp, $(TOWER_SRC))) \
+		$(patsubst %.f, %.o, $(filter %.f, $(TOWER_SRC)))
+
+TOWER_DEP := \
+		$(TOWER_OBJ:.o=.d)
+
+TOWER_EXE := \
+		run_tower.x
+
+# set default shell
+SHELL = /bin/sh
+
+# disable built-in rules to improve speed
+MAKEFLAGS += -rR --include-dir=$(CURDIR)
+
+# returns file name with absolute path, taking whitespace in directory
+# names into account
+abspathx        = $(foreach name,$(1),\
+		$(shell echo '$(abspath $(name))' | sed s/\[\[:space:\]\]/\\\\\&/g))
+
+.PHONY:         all clean clean-dep clean-obj distclean showbuild
+
+all: $(TOWER_EXE)
+
+clean-dep:
+		-rm -f $(TOWER_DEP)
+
+clean-obj:
+		-rm -f $(TOWER_OBJ)
+
+clean: clean-dep clean-obj
+		-rm -f $(TOWER_EXE)
+
+distclean: clean
+		-rm -f Makefile
+
+$(TOWER_DEP) $(TOWER_OBJ): CPPFLAGS += $(GSLFLAGS) $(EIGENFLAGS) $(BOOSTFLAGS)
+
+ifneq (,$(findstring yes,$(ENABLE_LOOPTOOLS)$(ENABLE_FFLITE)$(ENABLE_COLLIER)))
+$(TOWER_DEP) $(TOWER_OBJ): CPPFLAGS += $(LOOPFUNCFLAGS)
+endif
+
+$(TOWER_EXE): $(TOWER_OBJ) $(LIBMODEL1) $(LIBMODEL2) $(LIBSMHO) $(LIBFLEXI) $(filter-out -%,$(LOOPFUNCLIBS)) $(FUTILIBS)
+		$(CXX) -o $@ $(call abspathx,$^) $(filter -%,$(LOOPFUNCLIBS)) $(GSLLIBS) $(THREADLIBS) $(FLIBS) $(FUTILIBS) $(SQLITELIBS)
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(MAKECMDGOALS),clean-dep)
+ifneq ($(MAKECMDGOALS),clean-obj)
+ifneq ($(MAKECMDGOALS),distclean)
+ifneq ($(MAKECMDGOALS),showbuild)
+-include $(TOWER_DEP)
+endif
+endif
+endif
+endif
+endif
+
+%.d: %.cpp
+	$(CXX_DEP_GEN) $(CPPFLAGS) $(CXXFLAGS_DEP_GEN) -MM -MP -MG -o $@ -MT '$*.o' $^
+
+%.d: %.f
+	$(FOR_DEP_GEN) $(CPPFLAGS) -cpp -MM -MP -MG $^ -MT '$*.o' | \
+	sed 's|.*\.o:|$*.o:|' > $@
+
+%.o: %.cpp
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@
+
+showbuild:
+	@echo "# package information"
+	@echo "PKGNAME            = $(PKGNAME)"
+	@echo "VERSION            = $(VERSION)"
+	@echo "ABSBASEDIR         = $(ABSBASEDIR)"
+	@echo ""
+	@echo "# linked FlexibleSUSY libraries"
+	@echo "MODEL1             = $(MODEL1)"
+	@echo "MODEL2             = $(MODEL2)"
+	@echo "MODEL1DIR          = $(MODEL1DIR)"
+	@echo "MODEL2DIR          = $(MODEL2DIR)"
+	@echo "FLEXIDIR           = $(FLEXIDIR)"
+	@echo "LIBMODEL1          = $(LIBMODEL1)"
+	@echo "LIBMODEL2          = $(LIBMODEL2)"
+	@echo "LIBFLEXI           = $(LIBFLEXI)"
+	@echo ""
+	@echo "# compilation information"
+	@echo "CXX                = $(CXX)"
+	@echo "CPPFLAGS           = $(CPPFLAGS)"
+	@echo "CXXFLAGS           = $(CXXFLAGS)"
+	@echo "CXX_DEP_GEN        = $(CXX_DEP_GEN)"
+	@echo "CXXFLAGS_DEP_GEN   = $(CXXFLAGS_DEP_GEN)"
+	@echo "FC                 = $(FC)"
+	@echo "FFLAGS             = $(FFLAGS)"
+	@echo "FLIBS              = $(FLIBS)"
+	@echo "FOR_DEP_GEN        = $(FOR_DEP_GEN)"
+	@echo "BOOSTFLAGS         = $(BOOSTFLAGS)"
+	@echo "EIGENFLAGS         = $(EIGENFLAGS)"
+	@echo "GSLLIBS            = $(GSLLIBS)"
+	@echo "GSLFLAGS           = $(GSLFLAGS)"
+	@echo "LOOPFUNCFLAGS      = $(LOOPFUNCFLAGS)"
+	@echo "LOOPFUNCLIBS       = $(LOOPFUNCLIBS)"
+	@echo "MODULE_LIBEXT      = $(MODULE_LIBEXT)"
+	@echo "SQLITELIBS         = $(SQLITELIBS)"
+	@echo "SQLITEFLAGS        = $(SQLITEFLAGS)"
+	@echo "THREADLIBS         = $(THREADLIBS)"
+	@echo ""
+	@echo "ENABLE_FFLITE      = $(ENABLE_FFLITE)"
+	@echo "ENABLE_LOOPTOOLS   = $(ENABLE_LOOPTOOLS)"
+	@echo "ENABLE_COLLIER     = $(ENABLE_COLLIER)"
+	@echo "ENABLE_THREADS     = $(ENABLE_THREADS)"

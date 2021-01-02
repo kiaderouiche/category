@@ -1,0 +1,111 @@
+DIR          := @DIR@
+MODNAME      := @ADDON@
+WITH_$(MODNAME) := yes
+
+LIB@ADDON@_MK  := $(DIR)/module.mk
+
+# source files
+LIB@ADDON@_SRC :=
+#		$(DIR)/file1.cpp
+
+# main()
+EXE@ADDON@_SRC :=
+#		$(DIR)/run.cpp
+
+# header files
+LIB@ADDON@_HDR :=
+
+LIB@ADDON@_OBJ := \
+		$(patsubst %.cpp, %.o, $(filter %.cpp, $(LIB@ADDON@_SRC))) \
+		$(patsubst %.c, %.o, $(filter %.c, $(LIB@ADDON@_SRC))) \
+		$(patsubst %.f, %.o, $(filter %.f, $(LIB@ADDON@_SRC)))
+
+EXE@ADDON@_OBJ := \
+		$(patsubst %.cpp, %.o, $(filter %.cpp, $(EXE@ADDON@_SRC))) \
+		$(patsubst %.c, %.o, $(filter %.c, $(EXE@ADDON@_SRC))) \
+		$(patsubst %.f, %.o, $(filter %.f, $(EXE@ADDON@_SRC)))
+
+LIB@ADDON@_DEP := \
+		$(LIB@ADDON@_OBJ:.o=.d)
+
+EXE@ADDON@_DEP := \
+		$(EXE@ADDON@_OBJ:.o=.d)
+
+EXE@ADDON@_EXE := \
+		$(patsubst %.cpp, %.x, $(filter %.cpp, $(EXE@ADDON@_SRC))) \
+		$(patsubst %.f, %.x, $(filter %.f, $(EXE@ADDON@_SRC)))
+
+LIB@ADDON@     := \
+		$(DIR)/lib$(MODNAME)$(MODULE_LIBEXT)
+
+LIB@ADDON@_INSTALL_DIR := \
+		$(INSTALL_DIR)/$(DIR)
+
+.PHONY:         all-$(MODNAME) clean-$(MODNAME) clean-$(MODNAME)-dep \
+		clean-$(MODNAME)-lib clean-$(MODNAME)-obj clean-$(MODNAME)-src \
+		distclean-$(MODNAME)
+
+all-$(MODNAME): $(LIB@ADDON@) $(EXE@ADDON@_EXE)
+		@true
+
+clean-$(MODNAME)-dep:
+		-rm -f $(LIB@ADDON@_DEP)
+		-rm -f $(EXE@ADDON@_DEP)
+
+clean-$(MODNAME)-lib:
+		-rm -f $(LIB@ADDON@)
+
+clean-$(MODNAME)-obj:
+		-rm -f $(LIB@ADDON@_OBJ)
+		-rm -f $(EXE@ADDON@_OBJ)
+
+# BEGIN: NOT EXPORTED ##########################################
+# remove generated files
+clean-$(MODNAME)-src:
+		@true
+
+distclean-$(MODNAME): clean-$(MODNAME)-src
+# END:   NOT EXPORTED ##########################################
+
+clean-$(MODNAME): clean-$(MODNAME)-dep clean-$(MODNAME)-lib clean-$(MODNAME)-obj
+		-rm -f $(EXE@ADDON@_EXE)
+
+distclean-$(MODNAME): clean-$(MODNAME)
+
+clean-generated:: clean-$(MODNAME)-src
+
+clean-obj::     clean-$(MODNAME)-obj
+
+clean::         clean-$(MODNAME)
+
+distclean::     distclean-$(MODNAME)
+
+ifneq ($(INSTALL_DIR),)
+install-src::
+		install -d $(LIB@ADDON@_INSTALL_DIR)
+		install -m u=rw,g=r,o=r $(LIB@ADDON@_SRC) $(LIB@ADDON@_INSTALL_DIR)
+		install -m u=rw,g=r,o=r $(LIB@ADDON@_HDR) $(LIB@ADDON@_INSTALL_DIR)
+		install -m u=rw,g=r,o=r $(EXE@ADDON@_SRC) $(LIB@ADDON@_INSTALL_DIR)
+		$(INSTALL_STRIPPED) $(LIB@ADDON@_MK) $(LIB@ADDON@_INSTALL_DIR) -m u=rw,g=r,o=r
+endif
+
+$(LIB@ADDON@_DEP) $(EXE@ADDON@_DEP) $(LIB@ADDON@_OBJ) $(EXE@ADDON@_OBJ): CPPFLAGS += $(GSLFLAGS) $(EIGENFLAGS) $(BOOSTFLAGS)
+
+ifneq (,$(findstring yes,$(ENABLE_LOOPTOOLS)$(ENABLE_FFLITE)))
+$(LIB@ADDON@_DEP) $(EXE@ADDON@_DEP) $(LIB@ADDON@_OBJ) $(EXE@ADDON@_OBJ): CPPFLAGS += $(LOOPFUNCFLAGS)
+endif
+
+ifeq ($(ENABLE_TSIL),yes)
+$(LIB@ADDON@_DEP) $(EXE@ADDON@_DEP) $(LIB@ADDON@_OBJ) $(EXE@ADDON@_OBJ): CPPFLAGS += $(TSILFLAGS)
+endif
+
+$(LIB@ADDON@): $(LIB@ADDON@_OBJ)
+		$(MODULE_MAKE_LIB_CMD) $@ $^
+
+$(EXE@ADDON@_EXE): $(EXE@ADDON@_OBJ) $(LIB@ADDON@) $(LIBFLEXI) $(filter-out -%,$(LOOPFUNCLIBS)) $(HIMALAYALIBS) $(FUTILIBS)
+		$(CXX) -o $@ $(call abspathx,$^) $(filter -%,$(LOOPFUNCLIBS)) $(HIMALAYALIBS) $(GSLLIBS) $(TSILLIBS) $(FLIBS) $(THREADLIBS) $(FUTILIBS)
+
+ALLDEP += $(LIB@ADDON@_DEP) $(EXE@ADDON@_DEP)
+ALLSRC += $(LIB@ADDON@_SRC) $(EXE@ADDON@_SRC)
+ALLLIB += $(LIB@ADDON@)
+ALLEXE += $(EXE@ADDON@_EXE)

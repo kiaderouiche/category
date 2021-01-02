@@ -1,0 +1,703 @@
+// ====================================================================
+// This file is part of FlexibleSUSY.
+//
+// FlexibleSUSY is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published
+// by the Free Software Foundation, either version 3 of the License,
+// or (at your option) any later version.
+//
+// FlexibleSUSY is distributed in the hope that it will be useful, but
+// WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+// General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with FlexibleSUSY.  If not, see
+// <http://www.gnu.org/licenses/>.
+// ====================================================================
+
+
+/**
+ * @file @ModelName@_mass_eigenstates.cpp
+ * @brief implementation of the @ModelName@ model class
+ *
+ * Contains the definition of the @ModelName@ model class methods
+ * which solve EWSB and calculate pole masses and mixings from @RenScheme@
+ * parameters.
+ *
+ * This file was generated with FlexibleSUSY @FlexibleSUSYVersion@ and SARAH @SARAHVersion@ .
+ */
+
+#include "@ModelName@_mass_eigenstates.hpp"
+#include "@ModelName@_ewsb_solver_interface.hpp"
+#include "config.h"
+#include "eigen_utils.hpp"
+#include "ewsb_solver.hpp"
+#include "wrappers.hpp"
+#include "linalg2.hpp"
+#include "logger.hpp"
+#include "error.hpp"
+#include "loop_libraries/loop_library.hpp"
+#include "raii.hpp"
+
+#ifdef ENABLE_THREADS
+#include "thread_pool.hpp"
+#endif
+
+@ewsbSolverHeaders@
+@twoLoopHiggsHeaders@
+@threeLoopHiggsHeaders@
+@fourLoopHiggsHeaders@
+@twoLoopThresholdHeaders@
+
+#include <cmath>
+#include <functional>
+#include <iostream>
+#include <memory>
+#include <algorithm>
+
+namespace flexiblesusy {
+
+#define STRINGIFY(s) XSTRINGIFY(s)
+#define XSTRINGIFY(s) #s
+#define CLASSNAME @ModelName@_mass_eigenstates
+
+#define PHYSICAL(parameter) physical.parameter
+#define INPUT(parameter) model.get_input().parameter
+#define LOCALINPUT(parameter) input.parameter
+#define MODELPARAMETER(parameter) model.get_##parameter()
+#define EXTRAPARAMETER(parameter) model.get_##parameter()
+
+#define HIGGS_2LOOP_CORRECTION_AT_AS       loop_corrections.higgs_at_as
+#define HIGGS_2LOOP_CORRECTION_AB_AS       loop_corrections.higgs_ab_as
+#define HIGGS_2LOOP_CORRECTION_AT_AT       loop_corrections.higgs_at_at
+#define HIGGS_2LOOP_CORRECTION_ATAU_ATAU   loop_corrections.higgs_atau_atau
+#define TOP_POLE_QCD_CORRECTION            loop_corrections.top_qcd
+#define HIGGS_3LOOP_CORRECTION_AT_AS_AS    loop_corrections.higgs_at_as_as
+#define HIGGS_3LOOP_CORRECTION_AB_AS_AS    loop_corrections.higgs_ab_as_as
+#define HIGGS_3LOOP_SCHEME                 loop_corrections.higgs_3L_scheme
+#define HIGGS_3LOOP_CORRECTION_AT_AT_AS    loop_corrections.higgs_at_at_as
+#define HIGGS_3LOOP_CORRECTION_AT_AT_AT    loop_corrections.higgs_at_at_at
+#define HIGGS_4LOOP_CORRECTION_AT_AS_AS_AS loop_corrections.higgs_at_as_as_as
+
+CLASSNAME::CLASSNAME(const @ModelName@_input_parameters& input_)
+   : @ModelName@_soft_parameters(input_)
+@defaultEWSBSolverCctor@
+{
+}
+
+std::unique_ptr<@ModelName@_mass_eigenstates_interface> CLASSNAME::clone() const
+{
+   return std::make_unique<@ModelName@_mass_eigenstates>(*this);
+}
+
+void CLASSNAME::do_calculate_sm_pole_masses(bool flag)
+{
+   calculate_sm_pole_masses = flag;
+}
+
+bool CLASSNAME::do_calculate_sm_pole_masses() const
+{
+   return calculate_sm_pole_masses;
+}
+
+void CLASSNAME::do_calculate_bsm_pole_masses(bool flag)
+{
+   calculate_bsm_pole_masses = flag;
+}
+
+bool CLASSNAME::do_calculate_bsm_pole_masses() const
+{
+   return calculate_bsm_pole_masses;
+}
+
+void CLASSNAME::do_force_output(bool flag)
+{
+   force_output = flag;
+}
+
+bool CLASSNAME::do_force_output() const
+{
+   return force_output;
+}
+
+void CLASSNAME::set_ewsb_loop_order(int loop_order)
+{
+   ewsb_loop_order = loop_order;
+   if (ewsb_solver) {
+      ewsb_solver->set_loop_order(ewsb_loop_order);
+   }
+}
+
+void CLASSNAME::set_loop_corrections(const Loop_corrections& loop_corrections_)
+{
+   loop_corrections = loop_corrections_;
+}
+
+const Loop_corrections& CLASSNAME::get_loop_corrections() const
+{
+   return loop_corrections;
+}
+
+void CLASSNAME::set_threshold_corrections(const Threshold_corrections& tc)
+{
+   threshold_corrections = tc;
+}
+
+const Threshold_corrections& CLASSNAME::get_threshold_corrections() const
+{
+   return threshold_corrections;
+}
+
+int CLASSNAME::get_number_of_ewsb_iterations() const
+{
+   return static_cast<int>(std::abs(-log10(ewsb_iteration_precision) * 10));
+}
+
+int CLASSNAME::get_number_of_mass_iterations() const
+{
+   return static_cast<int>(std::abs(-log10(precision) * 10));
+}
+
+void CLASSNAME::set_precision(double precision_)
+{
+   precision = precision_;
+   ewsb_iteration_precision = precision_;
+   if (ewsb_solver) {
+      ewsb_solver->set_precision(precision_);
+   }
+}
+
+void CLASSNAME::set_pole_mass_loop_order(int loop_order)
+{
+   pole_mass_loop_order = loop_order;
+}
+
+int CLASSNAME::get_pole_mass_loop_order() const
+{
+   return pole_mass_loop_order;
+}
+
+void CLASSNAME::set_ewsb_iteration_precision(double precision)
+{
+   ewsb_iteration_precision = precision;
+   if (ewsb_solver) {
+      ewsb_solver->set_precision(precision);
+   }
+}
+
+double CLASSNAME::get_ewsb_iteration_precision() const
+{
+   return ewsb_iteration_precision;
+}
+
+double CLASSNAME::get_precision() const
+{
+   return precision;
+}
+
+double CLASSNAME::get_ewsb_loop_order() const
+{
+   return ewsb_loop_order;
+}
+
+const @ModelName@_physical& CLASSNAME::get_physical() const
+{
+   return physical;
+}
+
+@ModelName@_physical& CLASSNAME::get_physical()
+{
+   return physical;
+}
+
+void CLASSNAME::set_physical(const @ModelName@_physical& physical_)
+{
+   physical = physical_;
+}
+
+const Problems& CLASSNAME::get_problems() const
+{
+   return problems;
+}
+
+Problems& CLASSNAME::get_problems()
+{
+   return problems;
+}
+
+void CLASSNAME::set_ewsb_solver(const std::shared_ptr<@ModelName@_ewsb_solver_interface>& solver)
+{
+   ewsb_solver = solver;
+}
+
+/**
+ * Method which calculates the tadpoles at the current loop order.
+ *
+ * @param tadpole array of tadpole
+ */
+void CLASSNAME::tadpole_equations(double tadpole[number_of_ewsb_equations]) const
+{
+   const auto tadpole_(tadpole_equations());
+   std::copy(tadpole_.data(), tadpole_.data() + number_of_ewsb_equations, tadpole);
+}
+
+/**
+ * Method which calculates the tadpoles at the current loop order.
+ *
+ * @return array of tadpoles
+ */
+Eigen::Matrix<double,CLASSNAME::number_of_ewsb_equations,1> CLASSNAME::tadpole_equations() const
+{
+   Eigen::Matrix<double,number_of_ewsb_equations,1> tadpole(
+      Eigen::Matrix<double,number_of_ewsb_equations,1>::Zero());
+
+@calculateTreeLevelTadpoles@
+   if (ewsb_loop_order > 0) {
+@calculateOneLoopTadpoles@
+      if (ewsb_loop_order > 1) {
+@calculateTwoLoopTadpoles@
+      }
+   }
+
+   return tadpole;
+}
+
+/**
+ * This function returns the vector of tadpoles, each divided by the
+ * corresponding VEV.  Thus, the returned tadpoles have the dimension
+ * GeV^2 each.
+ *
+ * @return vector of tadpoles
+ */
+Eigen::Matrix<double,CLASSNAME::number_of_ewsb_equations,1> CLASSNAME::tadpole_equations_over_vevs() const
+{
+   auto tadpole = tadpole_equations();
+
+@divideTadpoleByVEV@
+
+   return tadpole;
+}
+
+int CLASSNAME::solve_ewsb_tree_level_custom()
+{
+   int error = EWSB_solver::SUCCESS;
+
+@solveTreeLevelEWSBviaSoftHiggsMasses@
+
+   return error;
+}
+
+int CLASSNAME::solve_ewsb_tree_level()
+{
+   if (!ewsb_solver) {
+      throw SetupError(STRINGIFY(CLASSNAME) "::solve_ewsb_tree_level: "
+                       "no EWSB solver set");
+   }
+
+   const int old_loop_order = ewsb_solver->get_loop_order();
+   const auto save_loop_order = make_raii_guard(
+      [this, old_loop_order] () {
+         this->ewsb_solver->set_loop_order(old_loop_order);
+      });
+
+   const int old_iterations = ewsb_solver->get_number_of_iterations();
+   const auto save_iterations = make_raii_guard(
+      [this, old_iterations] () {
+         this->ewsb_solver->set_number_of_iterations(old_iterations);
+      });
+
+   const double old_precision = ewsb_solver->get_precision();
+   const auto save_precision = make_raii_guard(
+      [this, old_precision] () {
+         this->ewsb_solver->set_precision(old_precision);
+      });
+
+   ewsb_solver->set_loop_order(0);
+   ewsb_solver->set_number_of_iterations(get_number_of_ewsb_iterations());
+   ewsb_solver->set_precision(ewsb_iteration_precision);
+
+   return ewsb_solver->solve(*this);
+}
+
+int CLASSNAME::solve_ewsb_one_loop()
+{
+   if (!ewsb_solver) {
+      throw SetupError(STRINGIFY(CLASSNAME) "::solve_ewsb_one_loop: "
+                       "no EWSB solver set");
+   }
+
+   const int old_loop_order = ewsb_solver->get_loop_order();
+   const auto save_loop_order = make_raii_guard(
+      [this, old_loop_order] () {
+         this->ewsb_solver->set_loop_order(old_loop_order);
+      });
+
+   const int old_iterations = ewsb_solver->get_number_of_iterations();
+   const auto save_iterations = make_raii_guard(
+      [this, old_iterations] () {
+         this->ewsb_solver->set_number_of_iterations(old_iterations);
+      });
+
+   const double old_precision = ewsb_solver->get_precision();
+   const auto save_precision = make_raii_guard(
+      [this, old_precision] () {
+         this->ewsb_solver->set_precision(old_precision);
+      });
+
+   ewsb_solver->set_loop_order(1);
+   ewsb_solver->set_number_of_iterations(get_number_of_ewsb_iterations());
+   ewsb_solver->set_precision(ewsb_iteration_precision);
+
+   return ewsb_solver->solve(*this);
+}
+
+int CLASSNAME::solve_ewsb()
+{
+   if (!ewsb_solver) {
+      throw SetupError(STRINGIFY(CLASSNAME) "::solve_ewsb: "
+                       "no EWSB solver set");
+   }
+
+   VERBOSE_MSG("\t\tSolving @ModelName@ EWSB at " << ewsb_loop_order << "-loop order");
+
+   const int old_loop_order = ewsb_solver->get_loop_order();
+   const auto save_loop_order = make_raii_guard(
+      [this, old_loop_order] () {
+         this->ewsb_solver->set_loop_order(old_loop_order);
+      });
+
+   const int old_iterations = ewsb_solver->get_number_of_iterations();
+   const auto save_iterations = make_raii_guard(
+      [this, old_iterations] () {
+         this->ewsb_solver->set_number_of_iterations(old_iterations);
+      });
+
+   const double old_precision = ewsb_solver->get_precision();
+   const auto save_precision = make_raii_guard(
+      [this, old_precision] () {
+         this->ewsb_solver->set_precision(old_precision);
+      });
+
+   ewsb_solver->set_loop_order(ewsb_loop_order);
+   ewsb_solver->set_number_of_iterations(get_number_of_ewsb_iterations());
+   ewsb_solver->set_precision(ewsb_iteration_precision);
+
+   return ewsb_solver->solve(*this);
+}
+
+void CLASSNAME::print(std::ostream& ostr) const
+{
+   ostr << "========================================\n"
+           "@ModelName@\n"
+           "========================================\n";
+   @ModelName@_soft_parameters::print(ostr);
+   ostr << "----------------------------------------\n"
+           "tree-level @RenScheme@ masses:\n"
+           "----------------------------------------\n";
+@printMasses@
+   ostr << "----------------------------------------\n"
+           "tree-level @RenScheme@ mixing matrices:\n"
+           "----------------------------------------\n";
+@printMixingMatrices@
+   physical.print(ostr);
+}
+
+/**
+ * wrapper routines for passarino Veltman functions
+ * @note: They take squared arguments!
+ */
+
+double CLASSNAME::A0(double m) const noexcept
+{
+   return Loop_library::get().A0(m, Sqr(get_scale())).real();
+}
+
+double CLASSNAME::B0(double p, double m1, double m2) const noexcept
+{
+   return Loop_library::get().B0(p, m1, m2, Sqr(get_scale())).real();
+}
+
+double CLASSNAME::B1(double p, double m1, double m2) const noexcept
+{
+   return Loop_library::get().B1(p, m1, m2, Sqr(get_scale())).real();
+}
+
+double CLASSNAME::B00(double p, double m1, double m2) const noexcept
+{
+   return Loop_library::get().B00(p, m1, m2, Sqr(get_scale())).real();
+}
+
+double CLASSNAME::B22(double p, double m1, double m2) const noexcept
+{
+   const double scl2 = Sqr(get_scale());
+   return (
+      Loop_library::get().B00(p, m1, m2, scl2) - Loop_library::get().A0(m1, scl2)/4.0 -
+      Loop_library::get().A0(m2, scl2)/4.0
+   ).real();
+}
+
+double CLASSNAME::H0(double p, double m1, double m2) const noexcept
+{
+   const double scl2 = Sqr(get_scale());
+   return 4.0*Loop_library::get().B00(p, m1, m2, scl2).real() + CLASSNAME::G0(p, m1, m2);
+}
+
+double CLASSNAME::F0(double p, double m1, double m2) const noexcept
+{
+   const double scl2 = Sqr(get_scale());
+   return (
+      Loop_library::get().A0(m1, scl2) - 2.0*Loop_library::get().A0(m2, scl2)
+      - (2.0*p + 2.0*m1 - m2) * Loop_library::get().B0(p, m1, m2, scl2)
+   ).real();
+}
+
+double CLASSNAME::G0(double p, double m1, double m2) const noexcept
+{
+   const double scl2 = Sqr(get_scale());
+   return (
+      (p - m1 - m2) * Loop_library::get().B0(p, m1, m2, scl2)
+      - Loop_library::get().A0(m1, scl2) - Loop_library::get().A0(m2, scl2)
+   ).real();
+}
+
+/**
+ * routine which finds the @RenScheme@ mass eigenstates and mixings.
+ */
+void CLASSNAME::calculate_DRbar_masses()
+{
+@saveEWSBOutputParameters@
+@solveEWSBTemporarily@
+
+@calculateAllMasses@
+}
+
+/**
+ * routine which finds the pole mass eigenstates and mixings.
+ */
+void CLASSNAME::calculate_pole_masses()
+{
+#ifdef ENABLE_THREADS
+@callAllLoopMassFunctionsInThreads@
+#else
+@callAllLoopMassFunctions@
+#endif
+}
+
+void CLASSNAME::copy_DRbar_masses_to_pole_masses()
+{
+@copyDRbarMassesToPoleMasses@
+}
+
+/**
+ * reorders @RenScheme@ masses so that golstones are placed at the index
+ * specified in the model files definition of the associated
+ * gauge boson (see Z-boson definition in default particles.m file
+ * in the Models directory of your SARAH distribution for example)
+ */
+void CLASSNAME::reorder_DRbar_masses()
+{
+@reorderDRbarMasses@
+}
+
+/**
+ * reorders pole masses so that golstones are placed at the index
+ * specified in the model files definition of the associated
+ * gauge boson (see Z-boson definition in default particles.m file
+ * in the Models directory of your SARAH distribution for example)
+ */
+void CLASSNAME::reorder_pole_masses()
+{
+@reorderPoleMasses@
+}
+
+/**
+ * Checks the pole masses for tachyons
+ */
+void CLASSNAME::check_pole_masses_for_tachyons()
+{
+@checkPoleMassesForTachyons@
+}
+
+/**
+ * calculates spectrum for model once the @RenScheme@ parameters at
+ * at low energies are known
+ */
+void CLASSNAME::calculate_spectrum()
+{
+   calculate_DRbar_masses();
+   if (pole_mass_loop_order > 0)
+      calculate_pole_masses();
+
+   // move goldstone bosons to the front
+   reorder_DRbar_masses();
+   if (pole_mass_loop_order == 0)
+      copy_DRbar_masses_to_pole_masses();
+   else
+      reorder_pole_masses();
+
+   check_pole_masses_for_tachyons();
+
+   if (problems.have_problem() && !force_output) {
+      clear_DRbar_parameters();
+      physical.clear();
+   }
+}
+
+void CLASSNAME::clear_DRbar_parameters()
+{
+@clearOutputParameters@
+@clearPhases@
+@clearExtraParameters@
+}
+
+void CLASSNAME::clear_problems()
+{
+   problems.clear();
+}
+
+void CLASSNAME::clear()
+{
+   @ModelName@_soft_parameters::clear();
+   clear_DRbar_parameters();
+   physical.clear();
+   problems.clear();
+}
+
+void CLASSNAME::set_DRbar_masses(const Eigen::ArrayXd& pars)
+{
+@setMasses@
+}
+
+Eigen::ArrayXd CLASSNAME::get_DRbar_masses() const
+{
+@getMasses@
+}
+
+void CLASSNAME::set_DRbar_masses_and_mixings(const Eigen::ArrayXd& pars)
+{
+   set_DRbar_masses(pars);
+
+@setMixings@
+}
+
+Eigen::ArrayXd CLASSNAME::get_DRbar_masses_and_mixings() const
+{
+   Eigen::ArrayXd pars(get_DRbar_masses());
+
+@getMixings@
+
+   return pars;
+}
+
+void CLASSNAME::set_extra_parameters(const Eigen::ArrayXd& pars)
+{
+@setExtraParameters@
+}
+
+Eigen::ArrayXd CLASSNAME::get_extra_parameters() const
+{
+@getExtraParameters@
+}
+
+std::string CLASSNAME::name() const
+{
+   return "@ModelName@";
+}
+
+void CLASSNAME::run_to(double scale, double eps)
+{
+   if (eps < 0.0)
+      eps = precision;
+   @ModelName@_soft_parameters::run_to(scale, eps);
+}
+
+void CLASSNAME::calculate_tree_level_mass_spectrum()
+{
+   calculate_DRbar_masses();
+}
+
+void CLASSNAME::calculate_pole_mass_spectrum()
+{
+   calculate_pole_masses();
+}
+
+void CLASSNAME::calculate_mass_spectrum()
+{
+   calculate_spectrum();
+}
+
+int CLASSNAME::solve_ewsb_equations_tree_level()
+{
+   return solve_ewsb_tree_level();
+}
+
+int CLASSNAME::solve_ewsb_equations()
+{
+   return solve_ewsb();
+}
+
+const @ModelName@_input_parameters& CLASSNAME::get_input_parameters() const
+{
+   return get_input();
+}
+
+@ModelName@_input_parameters& CLASSNAME::get_input_parameters()
+{
+   return get_input();
+}
+
+Eigen::ArrayXd CLASSNAME::get_tree_level_masses() const
+{
+   return get_DRbar_masses();
+}
+
+Eigen::ArrayXd CLASSNAME::get_tree_level_masses_and_mixings() const
+{
+   return get_DRbar_masses_and_mixings();
+}
+
+void CLASSNAME::set_tree_level_masses(const Eigen::ArrayXd& m)
+{
+   set_DRbar_masses(m);
+}
+
+void CLASSNAME::set_tree_level_masses_and_mixings(const Eigen::ArrayXd& m)
+{
+   set_DRbar_masses_and_mixings(m);
+}
+
+@higgsMassGetters@
+
+@lspFunctions@
+
+@massCalculationFunctions@
+
+@tadpoleEqFunctions@
+
+@selfEnergyFunctions@
+
+@secondGenerationHelperFunctions@
+@thirdGenerationHelperFunctions@
+
+@twoLoopSelfEnergyFunctions@
+
+@twoLoopTadpoleFunctions@
+
+@threeLoopSelfEnergyFunctions@
+
+@fourLoopSelfEnergyFunctions@
+
+@loopMassesFunctions@
+
+@runningDRbarMassesFunctions@
+
+@dependenceFunctions@
+
+std::ostream& operator<<(std::ostream& ostr, const CLASSNAME& model)
+{
+   model.print(ostr);
+   return ostr;
+}
+
+} // namespace flexiblesusy
