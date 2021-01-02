@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	or-tools-8.1
+DISTNAME=	ortools-8.1
 GITHUB_PROJECT=	or-tools
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=google/}
@@ -11,8 +11,5 @@ HOMEPAGE=	https://github.com/google/or-tools/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-USE_CMAKE=	yes
-USE_LANGUAGES=	c++
-USE_TOOLS+=	gmake
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
