@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=crowdsecurity/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/crowdsecurity/crowdsec/
+HOMEPAGE=	https://crowdsec.net/
 COMMENT=	TODO: Short description of the package
 LICENSE=	mit
 
