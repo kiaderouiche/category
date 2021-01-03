@@ -1,17 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	crowdsec-1.0.2
 GITHUB_PROJECT=	crowdsec
-GITHUB_TAG=	v0.3.6
-DISTNAME=	v0.3.6
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	security
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=crowdsecurity/}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/crowdsecurity/crowdsec/
 COMMENT=	TODO: Short description of the package
-LICENSE=	mit
+#LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+USE_LANGUAGES=	# none
+USE_TOOLS+=	gmake
+
 .include "../../mk/bsd.pkg.mk"

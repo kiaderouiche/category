@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (crowdsec/v0.3.6.tar.gz) = bb21e4ba9bdbe615d6abb35fce658ef66d587a30
-RMD160 (crowdsec/v0.3.6.tar.gz) = 310ba13ffbf80679422954382bcf7bc2b5128739
-SHA512 (crowdsec/v0.3.6.tar.gz) = 2938f8ad0626fa9ff750e56f783ca062d0aacb3b91d0775c3c95273b29c6abdf0eb7c506339962b3251bd6ec4195227ea89d1c33b2a446e47e646b5065c15222
-Size (crowdsec/v0.3.6.tar.gz) = 11309001 bytes
+SHA1 (crowdsec/crowdsec-1.0.2.tar.gz) = fd87581ce3708575f4325aa3e33bf332626dc01b
+RMD160 (crowdsec/crowdsec-1.0.2.tar.gz) = e51a4d2e39f4453d5673a77be57329d6a11e45ae
+SHA512 (crowdsec/crowdsec-1.0.2.tar.gz) = 8495015f99da33aaa91bb56b86dff31a06d1df5e162a1fb3c783b5456d47ff7fc89fee53b5661977aaf426836ad6be33a3c55e444174b587b626c73c38b3b581
+Size (crowdsec/crowdsec-1.0.2.tar.gz) = 28974453 bytes
