@@ -13,4 +13,7 @@ LICENSE=	mit
 
 USE_TOOLS+=	bash gmake
 
+GO_SRCPATH=	github.com/crowdsecurity/crowdsec
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+
 .include "../../mk/bsd.pkg.mk"
