@@ -5,7 +5,6 @@ GITHUB_PROJECT=	crowdsec
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=crowdsecurity/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/crowdsecurity/crowdsec/
