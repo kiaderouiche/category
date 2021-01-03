@@ -16,4 +16,6 @@ WRKSRC=		${WRKDIR}/factor
 USE_TOOLS+=	bash
 USE_LANGUAGES=	c c++
 
+MAKE_FILE=	GNUmakefile
+
 .include "../../mk/bsd.pkg.mk"
