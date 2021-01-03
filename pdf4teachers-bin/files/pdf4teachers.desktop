@@ -1,13 +1,13 @@
 [Desktop Entry]
-Name=Visual Studio Code
-Comment=Code Editing. Redefined.
+Name=PDF4Teachers
+Comment=PDF editing Designed for teachers.
 GenericName=Text Editor
-Exec=/usr/pkg/opt/pdf4teachers/bin/share/code/code --no-sandbox --unity-launch %F
+Exec=/usr/pkg/opt/pdf4teachers/bin/PDF4Teachers
 Icon=com.visualstudio.code
 Type=Application
 StartupNotify=false
 StartupWMClass=Code
-Categories=Utility;TextEditor;Development;IDE;
+Categories=Utility;TextEditor;Development; Print;
 MimeType=text/plain;inode/directory;application/x-code-workspace;
 Actions=new-empty-window;
 Keywords=vscode;
