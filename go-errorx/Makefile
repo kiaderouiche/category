@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/joomcode/errorx/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Comprehensive error handling library for Go
 LICENSE=	mit
 
 
