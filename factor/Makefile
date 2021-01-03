@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://factorcode.org/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	modified-bsd
 
 WRKSRC=		${WRKDIR}/factor
 
