@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 
 WRKSRC=		${WRKDIR}/factor
 
-USE_TOOLS+=	bash
+USE_TOOLS+=	bash gmake
 USE_LANGUAGES=	c c++
 
 MAKE_FILE=	GNUmakefile
