@@ -6,12 +6,11 @@ CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=joomcode/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/joomcode/errorx/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/errorx-1.0.3
-USE_LANGUAGES=	# none
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
