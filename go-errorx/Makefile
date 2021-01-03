@@ -9,7 +9,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/joomcode/errorx/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 
 .include "../../lang/go/go-package.mk"
