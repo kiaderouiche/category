@@ -23,7 +23,10 @@ PKG_JVMS_ACCEPTED=	sun-jdk7 openjdk7 oracle-jdk8 openjdk8
 
 PDF4Teachers_HOME=	${PREFIX}/opt/pdf4teachers
 
-INSTALLATION_DIRS=	bin  share/applications
+INSTALLATION_DIRS=	bin  share/applications PDF4Teachers_HOME
+
+post-extract:
+	${RM}	${WRKSRC}/pdf4teachers/bin/PDF4Teachers.bat
 
 #do-install:
   #NONE
