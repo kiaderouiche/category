@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://crowdsec.net/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Lightweight agent to detect and respond to bad behaviours
 LICENSE=	mit
 
 USE_TOOLS+=	bash gmake
