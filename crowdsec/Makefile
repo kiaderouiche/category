@@ -9,9 +9,8 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/crowdsecurity/crowdsec/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
-USE_LANGUAGES=	# none
-USE_TOOLS+=	gmake
+USE_TOOLS+=	bash gmake
 
 .include "../../mk/bsd.pkg.mk"
