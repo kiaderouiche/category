@@ -2,7 +2,7 @@
 
 DISTNAME=	crowdsec-1.0.2
 GITHUB_PROJECT=	crowdsec
-CATEGORIES=	category
+CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_GITHUB:=crowdsecurity/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
