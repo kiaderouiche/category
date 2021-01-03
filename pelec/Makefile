@@ -8,7 +8,7 @@ CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=AMReX-Combustion/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/AMReX-Combustion/PeleC/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
