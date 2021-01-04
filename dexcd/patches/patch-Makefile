@@ -2,10 +2,9 @@ $NetBSD$
 
 --- Makefile.orig	2010-07-18 16:14:00.000000000 +0000
 +++ Makefile
-@@ -1,8 +1,8 @@
+@@ -1,8 +1,7 @@
 -BIN       = ~/bin
-+PREFIX=	/usr/pkg
-+BIN       = $(DESTDIR)$(PREFIX)
++PREFIX=/usr/pkg
  
  CFLAGS  = -g -I. -Wall
  #CFLAGS   = -O2 -I. -Wall
@@ -13,3 +12,14 @@ $NetBSD$
  
  SOURCES = util.cpp xmalloc.cpp stringcache.cpp ta.cpp clics_output.cpp \
  		  opcode.cpp hash.cpp file.cpp detect.cpp function.cpp clone.cpp \
+@@ -74,8 +73,8 @@ data.o : data.cpp
+ 	g++ -c $(CFLAGS) data.cpp
+ 
+ install: dexcd
+-	cp dexcd $(BIN)/dexcd
+-	chmod 755 $(BIN)/dexcd
++	$(INSTALL_PROGRAM)  dexcd $(DESTDIR)$(PREFIX)/bin/dexcd
++	chmod 755 $(DESTDIR)$(PREFIX)/bin/dexcd
+ 
+ clean:
+ 	/bin/rm -f *.o *.s dexcd
