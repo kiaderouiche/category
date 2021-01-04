@@ -1,0 +1,15 @@
+$NetBSD$
+
+--- Makefile.orig	2010-07-18 16:14:00.000000000 +0000
++++ Makefile
+@@ -1,8 +1,8 @@
+-BIN       = ~/bin
++PREFIX=	/usr/pkg
++BIN       = $(DESTDIR)$(PREFIX)
+ 
+ CFLAGS  = -g -I. -Wall
+ #CFLAGS   = -O2 -I. -Wall
+-BIN     =~/bin
+ 
+ SOURCES = util.cpp xmalloc.cpp stringcache.cpp ta.cpp clics_output.cpp \
+ 		  opcode.cpp hash.cpp file.cpp detect.cpp function.cpp clone.cpp \
