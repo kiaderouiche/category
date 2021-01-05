@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# ukui-panel
+ukui-panel represents the taskbar of UKUI
+
+## Table of Contents
+
+   * [About Project](#About-Project)
+   * [Getting Started](#Getting-Started)
+   * [Document Introduction](#Document-Introduction)
+
+
+## About Project
+
+ukui-panel contains the following plugins:
+   * startmenu 
+   * quicklaunch
+   * taskbar
+   * tray
+   * calendar
+   * nightmode
+   * showdesktop ...
+...
