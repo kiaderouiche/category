@@ -4,14 +4,14 @@ GITHUB_PROJECT=	infer
 GITHUB_TAG=	v1.0.0
 DISTNAME=	v1.0.0
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=facebook/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/facebook/infer/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Static analyzer for Java, C, C++, and Objective-C 
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/infer-1.0.0
 USE_LANGUAGES=	c c++
