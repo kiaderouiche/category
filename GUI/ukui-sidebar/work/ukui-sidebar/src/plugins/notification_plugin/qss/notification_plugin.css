@@ -1,0 +1,323 @@
+/*QPalette{background:#1A1A1A;}*{outline:1px;color:rgba(255, 255, 255, 0.05);}*/
+
+QWidget{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+/*    background:rgba(26,26,26,0.95);*/
+}
+
+QWidget#NotificationCenter{
+    background:rgba(19,19,20,0.7);
+}
+
+QWidget#SingleNotification{
+    background:rgba(255,255,255,0.12);
+    border-radius:6px;
+}
+
+QWidget#QScrollAreaInQWidget{
+    background:rgba(19,19,20,0.7);
+}
+
+QWidget#BaseMap{
+    background:rgba(255,255,255,0.06);
+    width:360px;
+    height:6px;
+    border-radius:0px 0px 6px 6px;
+}
+
+/*QWidget#NotificationCenter{
+    margin-left: 10px;
+    margin-top: 21px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width:400px;
+}*/
+
+/*QWidget#NotificationName{
+    margin-left: 11px;
+    margin-top: 0px;
+    margin-right: 28px;
+    margin-bottom: 0px;
+    width:390px;
+}*/
+
+QToolButton#takein{
+    border:0px solid #242424;
+    padding:0px;
+    background:transparent;
+/*    background:rgba(238,238,238,1);*/
+/*    width:24px;
+    height:30px;*/
+}
+
+QPushButton{
+    color:rgba(255,255,255,1);
+    font-size:14px;
+    font-family:Noto Sans CJK SC;
+/*    background:transparent;*/
+}
+
+QPushButton#clearall{
+    color:rgba(255,255,255,0.91);
+    font-weight:400;
+    border:0px;
+    line-height:24px;
+/*    padding:0px;*/
+    font-size:14px;
+    width:80px;
+    height:34px;
+}
+
+QPushButton:hover#clearall{
+    color:rgba(255,255,255,0.91);
+    font-weight:400;
+    border:0px;
+    line-height:24px;
+    background:rgba(255,255,255,0.12);
+    font-size:14px;
+    width:80px;
+    height:34px;
+    border-radius:3px;
+}
+
+QPushButton:pressed#clearall{
+    color:rgba(255,255,255,0.91);
+    font-weight:400;
+    border:0px;
+    line-height:24px;
+    background:rgba(255,255,255,0.08);
+    font-size:14px;
+    width:80px;
+    height:34px;
+    border-radius:3px;
+}
+
+QPushButton#setting{
+    color:rgba(255,255,255,0.91);
+    font-weight:400;
+    border:0px;
+    line-height:24px;
+    font-size:14px;
+    width:80px;
+    height:34px;
+}
+
+QPushButton:hover#setting{
+    color:rgba(255,255,255,0.91);
+    font-weight:400;
+    border:0px;
+    line-height:24px;
+    background:rgba(255,255,255,0.12);
+    font-size:14px;
+    width:80px;
+    height:34px;
+    border-radius:3px;
+}
+
+QPushButton:pressed#setting{
+    color:rgba(255,255,255,0.91);
+    font-weight:400;
+    border:0px;
+    line-height:24px;
+    background:rgba(255,255,255,0.08);
+    font-size:14px;
+    width:80px;
+    height:34px;
+    border-radius:3px;
+}
+
+QPushButton#takein{
+    color:rgba(255,255,255,231);
+    font-weight:400;
+    border:0px;
+/*    background:transparent;
+    background:rgba(238,238,238,1);*/
+    width:184px;
+    height:34px;
+}
+
+QPushButton:hover#takein{
+    color:rgba(255,255,255,231);
+    font-weight:400;
+    border:0px;
+    background:rgba(255,255,255,0.12);
+    width:184px;
+    height:34px;
+}
+
+QPushButton#delete{
+    color:rgba(255,255,255,231);
+    font-weight:400;
+    border:0px;
+/*    background:transparent;
+    background:rgba(238,238,238,1);*/
+    width:184px;
+    height:34px;
+}
+
+QPushButton:hover#delete{
+    color:rgba(255,255,255,231);
+    font-weight:400;
+    border:0px;
+    background:rgba(255,255,255,0.12);
+    width:184px;
+    height:34px;
+}
+
+QPushButton#fold{
+    color:rgba(107,142,235,0.91);
+    font-weight:400;
+    border:0px;
+    font-size:14px;
+}
+
+QPushButton:hover#fold{
+    color:rgba(151,175,241,0.91);
+    font-weight:400;
+    border:0px;
+    font-size:14px;
+}
+
+QPushButton:pressed#fold{
+    color:rgba(61,107,229,0.91);
+    font-weight:400;
+    border:0px;
+    font-size:14px;
+}
+
+QLabel{
+    color:#FFFFFF;    /*文字颜色*/
+    font-family:NotoSansCJKsc-Regular;
+    background-color:transparent;
+}
+
+QLabel#notificationcentername{
+    color:rgba(255,255,255,247);    /*文字颜色*/
+    font-family : NotoSansCJKsc-Regular;
+    font-size:20px;
+}
+
+QLabel#importantnotification{
+    color:rgba(255,255,255,0.91);    /*文字颜色*/
+    font-family : NotoSansCJKsc-Regular;
+    font-size:14px;
+}
+
+QLabel#AppName{
+    color:rgba(255,255,255,0.57);    /*文字颜色*/
+    font-size:14px;
+    background-color:transparent;
+    width:84px;
+}
+
+QLabel#pushtime{
+    color:rgba(255,255,255,0.57);    /*文字颜色*/
+    font-size:14px;
+}
+
+QLabel#Summary{
+    color:rgba(255,255,255,0.97);    /*文字颜色*/
+    font-size:16px;
+}
+
+QLabel#body{
+    color:rgba(255,255,255,0.57);    /*文字颜色*/
+    font-size:14px;
+    background-color:transparent;
+    padding:0px;
+/*    height:24px;*/
+}
+
+QLabel#ShowLeftItem{
+    color:rgba(255,255,255,0.35);
+    font-size:14px;
+    padding:0px;
+}
+
+QLabel#takeincout{
+    font-size:11px;
+    background-color:rgba(61,107,229,1);
+    border-radius:6px;
+}
+
+QScrollBar:horizontal{
+background:#484848;
+padding:0px;
+border-radius:6px;
+max-height:12px;
+}
+
+QScrollBar::handle:horizontal{
+background:#242424;
+min-width:50px;
+border-radius:6px;
+}
+
+QScrollBar::handle:horizontal:hover{
+background:#00BB9E;
+}
+
+QScrollBar::handle:horizontal:pressed{
+background:#00BB9E;
+}
+
+QScrollBar::add-page:horizontal{
+background:none;
+}
+
+QScrollBar::sub-page:horizontal{
+background:none;
+}
+
+QScrollBar::add-line:horizontal{
+background:none;
+}
+
+QScrollBar::sub-line:horizontal{
+background:none;
+}
+
+QScrollBar:vertical{
+background:#484848;
+padding:0px;
+border-radius:6px;
+max-width:12px;
+}
+
+QScrollBar::handle:vertical{
+background:#242424;
+min-height:50px;
+border-radius:6px;
+}
+
+QScrollBar::handle:vertical:hover{
+background:#00BB9E;
+}
+
+QScrollBar::handle:vertical:pressed{
+background:#00BB9E;
+}
+
+QScrollBar::add-page:vertical{
+background:none;
+}
+
+QScrollBar::sub-page:vertical{
+background:none;
+}
+
+QScrollBar::add-line:vertical{
+background:none;
+}
+
+QScrollBar::sub-line:vertical{
+background:none;
+}
+
+QScrollArea{
+border:0px;
+}
+

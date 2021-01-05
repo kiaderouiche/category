@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/qss/psblack.css</file>
+        <file>data/qss/SidebarSmallPlugins.css</file>
+        <file>data/images/kylin-tool-box.svg</file>
+        <file>data/images/kylin-tool-box-null.svg</file>
+        <file>data/images/kylin-alarm-clock.svg</file>
+        <file>data/images/kylin-notebook.svg</file>
+        <file>data/images/kylin-feedback.png</file>
+        <file>sidebartranslat/Sidebar_zh_CN.qm</file>
+    </qresource>
+</RCC>

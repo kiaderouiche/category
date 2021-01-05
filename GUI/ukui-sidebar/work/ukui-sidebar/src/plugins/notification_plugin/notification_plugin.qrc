@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/notification_plugin.css</file>
+        <file>images/hover.svg</file>
+        <file>images/hover-translucent.svg</file>
+        <file>images/box-14-translucent.svg</file>
+        <file>images/box-16-translucent.svg</file>
+        <file>images/box-16.svg</file>
+        <file>images/box-24.svg</file>
+        <file>images/exitbox-14-translucent.svg</file>
+        <file>images/exitbox-16-translucent.svg</file>
+        <file>images/exitbox-16.svg</file>
+        <file>images/exitbox-24.svg</file>
+    </qresource>
+</RCC>
