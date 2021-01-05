@@ -21,9 +21,13 @@ USE_TOOLS+=	autoconf automake autogen pkg-config gmake
 
 REPLACE_BASH+=      autogen.sh
 
-pre-configure:
-	${RUN} cd ${WRKSRC} && ./autogen.sh*
-
 #Precision with platform cible Linux and Darwin
+#Prendre en charge CLANG
+# facebook-clang-plugins
+pre-configure:
+	${RUN} cd ${WRKSRC} && ./autogen.sh
+
+.include "../../devel/ocamlbuild/buildlink3.mk"
+.include "../../devel/menhir/buildlink3.mk"
 .include "../../lang/ocaml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
