@@ -19,4 +19,9 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	autoconf automake autogen pkg-config gmake
 
+REPLACE_BASH+=      autogen.sh
+
+pre-configure:
+	${RUN} cd ${WRKSRC} && ./autogen.sh
+
 .include "../../mk/bsd.pkg.mk"
