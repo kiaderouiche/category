@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (ukwm_1.2.0.orig.tar.gz) = 5c6303069b0796ded1b2360d0f585af1c8cd5c18
-RMD160 (ukwm_1.2.0.orig.tar.gz) = 3915db600b7049b749792ad8feeceb7e1250497d
-SHA512 (ukwm_1.2.0.orig.tar.gz) = 0640f6f4e969470f53a0421093a68937a33dfe2538302b60ecb381d6d7b223f70eec9d7f5fc61cd9580026a8520e9412de4ce3088b63718537c058215dbda099
-Size (ukwm_1.2.0.orig.tar.gz) = 4477973 bytes
+SHA1 (ukwm/v1.2.0.tar.gz) = 7f02e6b18ed2aec396c351e91eccc44fd860ccd7
+RMD160 (ukwm/v1.2.0.tar.gz) = 0a9f1582f9f071b4f58c51414e04d96fed2dd9f2
+SHA512 (ukwm/v1.2.0.tar.gz) = 339c81a079958aceb8c05cf0186e03246e2898faaecb493a7f28e1f5e2cfe81d920579904d2a8e3b6a75a5b44100e73a5b279d317f6bd29ddaab8f5f917062bd
+Size (ukwm/v1.2.0.tar.gz) = 4446297 bytes

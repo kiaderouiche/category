@@ -1,15 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	ukwm_1.2.0.orig
+GITHUB_PROJECT=	ukwm
+GITHUB_TAG=	v1.2.0
+DISTNAME=	v1.2.0
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
 CATEGORIES=	category
-MASTER_SITES=	http://deb.debian.org/debian/pool/main/u/ukwm/
+MASTER_SITES=	${MASTER_SITE_GITHUB:=ukui/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://deb.debian.org/debian/pool/main/u/ukwm/
+HOMEPAGE=	https://github.com/ukui/ukwm/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=			${WRKDIR}/ukwm
+WRKSRC=			${WRKDIR}/ukwm-1.2.0
 USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=	yes
 
