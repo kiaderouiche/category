@@ -13,5 +13,7 @@ HOMEPAGE=	https://github.com/AMReX-Astro/Castro/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/Castro-21.01
+USE_LANGUAGES=	c++ fortran
+
 .include "../../mk/bsd.pkg.mk"

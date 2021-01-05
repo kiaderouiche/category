@@ -1,20 +1,19 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	WarpX
-GITHUB_TAG=	20.10
-DISTNAME=	20.10
+GITHUB_PROJECT=	Castro
+GITHUB_TAG=	21.01
+DISTNAME=	21.01
 PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=ECP-WarpX/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=AMReX-Astro/}
 DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/ECP-WarpX/WarpX/
+HOMEPAGE=	https://github.com/AMReX-Astro/Castro/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/WarpX-20.10
-USE_CMAKE=	yes
-USE_LANGUAGES=	c++
+WRKSRC=		${WRKDIR}/Castro-21.01
+USE_LANGUAGES=	c++ fortran
 
 .include "../../mk/bsd.pkg.mk"
