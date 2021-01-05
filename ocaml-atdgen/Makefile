@@ -13,4 +13,6 @@ LICENSE=	mit
 
 USE_TOOLS+=	gmake
 
+.include "../../lang/ocaml/buildlink3.mk"
+.include "../../devel/ocaml-dune/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
