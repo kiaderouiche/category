@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+			      UKUI Power Manager
+			   A Power Manager for UKUI
+
+UKUI Power Manager is a UKUI session daemon that acts as a policy agent on
+top of UPower. It listens to system events and responds with user-configurable
+actions.
+
+UKUI Power Manager comes in three main parts:
+
+	- ukui-power-manager:	   the manager daemon itself
+	- ukui-power-preferences:  the control panel program, for configuration
+	- ukui-power-statistics:   the statistics graphing program
+
+To build, UKUI Power Manager requires
+
+	- Glib (2.36.0 or later)
+	- GTK+3 (3.14.0 or later)
+	- GNOME Keyring (3.0.0 or later)
+	- DBus (0.70 or later)
+	- libnotify (0.7.0 or later)
+...
