@@ -1,0 +1,3 @@
+Atdgen uses type definitions in the ATD syntax
+and generates efficient JSON serializers,
+deserializers and validators for OCaml
