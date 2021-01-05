@@ -16,5 +16,7 @@ WRKSRC=		${WRKDIR}/ukui-panel
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+#-std=c++11
+
 .include "../../devel/libdbusmenu-qt5/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
