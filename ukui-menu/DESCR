@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# ukui-menu
+An advanced menu for UKUI, providing common and all software mixed sort module, alphabet classification module, functional classification module and search module.
+
+# How to report bugs
+Bugs should be reported to the UKUI bug tracking system:
+
+	https://github.com/ukui/ukui-menu/issues
+
+You will need to create an account for yourself.
+
+Please read the HACKING file for information on where to send changes or
+bugfixes for this package.
+
+# How to build
+## Preparation
+You can build pre-depends with such command:
+
+`sudo apt install libglib2.0-dev qtbase5-dev libqt5svg5-dev libqt5x11extras5-dev libgsettings-qt-dev libbamf3-dev libxrandr-dev libxtst-dev libx11-dev`
+
+Note: build-depends references the paragraph in debian/control.
+...
