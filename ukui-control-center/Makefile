@@ -1,17 +1,18 @@
 # $NetBSD$
 
-DISTNAME=	ukui-control-center_1.1.6.orig
-PKGNAME=	ukui-control-center-1.1.6
-CATEGORIES=	category
-MASTER_SITES=	http://deb.debian.org/debian/pool/main/u/ukui-control-center/
+GITHUB_PROJECT=	ukui-control-center
+DISTNAME=	ukui-control-center_2.0.4.orig
+CATEGORIES=	wm
+MASTER_SITES=	${MASTER_SITE_GITHUB:=ukui/}
+GITHUB_RELEASE=	v2.0.4
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://deb.debian.org/debian/pool/main/u/ukui-control-center/
+HOMEPAGE=	https://github.com/ukui/ukui-control-center/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
-WRKSRC=			${WRKDIR}/ukui-control-center
+WRKSRC=		${WRKDIR}/ukui-control-center
 
-USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"

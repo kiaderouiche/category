@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (ukui-settings-daemon/v1.1.7.tar.gz) = e097a48c535db7cfe02e2da171436ac51ab05176
-RMD160 (ukui-settings-daemon/v1.1.7.tar.gz) = c47bc9425d0f7e3edb8d34eac3c890d1a6ff7030
-SHA512 (ukui-settings-daemon/v1.1.7.tar.gz) = e707ab6b1729c2e633d0fe0a20565d947e2c649939f575412a04136f0e540d49c30a0050a8848df22bf0fd54954ec7055f115f86d02d0b66ba7b2c6d49e16c4e
-Size (ukui-settings-daemon/v1.1.7.tar.gz) = 1214174 bytes
+SHA1 (ukui-settings-daemon_3.0.2.orig.tar.gz) = 8ce8c591bb122a4eaa82fa5b617df8874517fb1c
+RMD160 (ukui-settings-daemon_3.0.2.orig.tar.gz) = 7f783f664479ebe94068f1fcae38702cc9806b28
+SHA512 (ukui-settings-daemon_3.0.2.orig.tar.gz) = 756a8caf36c7b3496b79d68c41e1c42a0aaf2f75c4f65c1868904d7a3f9beb0680463a0518ff17473cd13f276347e400e9ccf75d07a7b27295c52890a831b44e
+Size (ukui-settings-daemon_3.0.2.orig.tar.gz) = 216886 bytes
