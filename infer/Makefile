@@ -14,7 +14,9 @@ COMMENT=	Static analyzer for Java, C, C++, and Objective-C
 LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/infer-1.0.0
+
+GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	autoconf automake autogen pkg-config gmake
 
 .include "../../mk/bsd.pkg.mk"
