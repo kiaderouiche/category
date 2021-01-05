@@ -1,2 +1,6 @@
-Infer is a static analysis tool for Java, C++,
-Objective-C, and C. Infer is written in OCaml.
+Infer is a static analysis tool if you give
+Infer some Java or C/C++/Objective-C code
+it produces a list of potential bugs. Anyone
+can use Infer to intercept critical bugs
+before they have shipped to users, and help
+prevent crashes or poor performance
