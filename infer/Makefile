@@ -11,7 +11,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/facebook/infer/
 COMMENT=	Static analyzer for Java, C, C++, and Objective-C 
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
