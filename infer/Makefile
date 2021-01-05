@@ -22,6 +22,8 @@ USE_TOOLS+=	autoconf automake autogen pkg-config gmake
 REPLACE_BASH+=      autogen.sh
 
 pre-configure:
-	${RUN} cd ${WRKSRC} && ./autogen.sh
+	${RUN} cd ${WRKSRC} && ./autogen.sh*
 
+#Precision with platform cible Linux and Darwin
+.include "../../lang/ocaml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
