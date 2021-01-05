@@ -11,5 +11,8 @@ HOMEPAGE=	https://github.com/ukui/ukui-media/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=			${WRKDIR}/ukui-media
+USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c c++
+
 .include "../../mk/bsd.pkg.mk"
