@@ -1,0 +1,8 @@
+This is a golang ALSA client implementation,
+without cgo! Unfortunately, doing it without
+cgo means throwing away many years of
+compatibility work that has been put into
+libalsa. So be warned, this library is not likely
+to work with a lot of the more colorful audio
+cards out there, and is not likely to work on
+platforms other than x86_64.
