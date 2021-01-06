@@ -6,12 +6,13 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_GITHUB:=200sc/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/200sc/klangsynthese/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Waveform and Audio Synthesis library in Go
+LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/klangsynthese-0.2.1
-USE_LANGUAGES=	# none
+GO_SRCPATH=     github.com/200sc/klangsynthese
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
