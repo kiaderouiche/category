@@ -1,0 +1,16 @@
+/usr/pkg/gopkg/pkg/linux_amd64/github.com/go-audio/riff.a
+/usr/pkg/gopkg/src/github.com/go-audio/riff/chunk.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/chunk_test.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/doc.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/fixtures/junkKick.wav
+/usr/pkg/gopkg/src/github.com/go-audio/riff/fixtures/sample.avi
+/usr/pkg/gopkg/src/github.com/go-audio/riff/fixtures/sample.rmi
+/usr/pkg/gopkg/src/github.com/go-audio/riff/fixtures/sample.wav
+/usr/pkg/gopkg/src/github.com/go-audio/riff/go.mod
+/usr/pkg/gopkg/src/github.com/go-audio/riff/LICENSE
+/usr/pkg/gopkg/src/github.com/go-audio/riff/parser.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/parser_test.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/README.md
+/usr/pkg/gopkg/src/github.com/go-audio/riff/riff.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/riffinfo/main.go
+/usr/pkg/gopkg/src/github.com/go-audio/riff/riff_test.go
