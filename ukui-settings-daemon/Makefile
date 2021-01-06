@@ -12,6 +12,7 @@ COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=			${WRKDIR}/ukui-settings-daemon
+
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 
