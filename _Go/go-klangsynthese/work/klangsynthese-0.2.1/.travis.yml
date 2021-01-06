@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - 1.x
+
+os:
+ - osx
+
+script: 
+ - go get -u github.com/stretchr/testify/assert
+ - go test ./audio
