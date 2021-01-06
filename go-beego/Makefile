@@ -16,5 +16,7 @@ GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../devel/go-errors/buildlink3.mk"
 .include "../../devel/go-golang-lru/buildlink3.mk"
+.include "../../devel/go-tools/buildlink3.mk"
+.include "../../wip/go-ansicolor/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
