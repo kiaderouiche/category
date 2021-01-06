@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# klangsynthese
+Waveform and Audio Synthesis library in Go
+
+[![GoDoc](https://godoc.org/github.com/200sc/klangsynthese?status.svg)](https://godoc.org/github.com/200sc/klangsynthese)
+[![Go Report Card](https://goreportcard.com/badge/github.com/200sc/klangsynthese)](https://goreportcard.com/report/github.com/200sc/klangsynthese)
+
+Klangsynthese right now supports a number of features that will work regardless of OS,
+with further support planned for OSX as soon as we get our hands on one to test with. 
+
+## Usage
+
+See test files.
+
+## OS specific features
+
+| OS       | Load | Modify | Save   | Play |
+| -------- | ---- | ------ | ------ | ---- |
+| Windows  | X    | X      |        |  X   |
+| Linux    | X    | X      |        |  X   |
+| Darwin   | X    | X      |        |      |
+...

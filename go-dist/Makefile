@@ -7,12 +7,13 @@ GITHUB_TAG=	2acdd84d3dfb194bb39f6e0582dd4de9668303eb
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=200sc/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/200sc/go-dist/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Interface types for distributions over integers and floats
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/go-dist-2acdd84d3dfb194bb39f6e0582dd4de9668303eb
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=     github.com/200sc/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
