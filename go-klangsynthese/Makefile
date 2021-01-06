@@ -14,5 +14,6 @@ LICENSE=	apache-2.0
 GO_SRCPATH=     github.com/200sc/klangsynthese
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../wip/go-flac-eaburns/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
