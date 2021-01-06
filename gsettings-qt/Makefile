@@ -10,6 +10,7 @@ COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR} # TODO: one of GSettings src tests examples, or leave it as-is
-USE_LANGUAGES=	c++
+
+USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"
