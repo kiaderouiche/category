@@ -13,5 +13,9 @@ HOMEPAGE=	https://github.com/ukui/ukui-wallpapers/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=			${WRKDIR}/ukui-wallpapers-20.04.2
+USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		# none
+
+.include "../../devel/meson/build.mk"
 .include "../../mk/bsd.pkg.mk"
