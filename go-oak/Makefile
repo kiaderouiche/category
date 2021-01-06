@@ -3,15 +3,16 @@
 DISTNAME=	go-oak-2.4.0
 GITHUB_PROJECT=	oak
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GITHUB:=oakmound/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/oakmound/oak/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Pure Go game engine
+LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/oak-2.4.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=     github.com/oakmound/oak
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
