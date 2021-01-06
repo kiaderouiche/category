@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# peony
+
+[![build](https://github.com/ukui/peony/workflows/Check%20build/badge.svg?branch=master)](https://github.com/ukui/peony)
+
+peony is the filemanager application of UKUI3.0.
+
+# About this project
+
+- [Wiki on GitHub](https://github.com/ukui/peony/wiki)
+
+- [zh_CN](GUIDE_ZH_CN.md)
+
+- [project preview](https://github.com/orgs/explorer-cs/projects/3?fullscreen=true)
+
+# Description
+Peony is intent to be the default FileManager application in UKUI3.0.
+
+It uses the same underlying layer as Peony(glib/gvfs/gio), but uses Qt to refactor or improve anything else. Peony can be roughly divided into the following parts:
+
+> 1. peony-qt-core: the abstraction of glib/gvfs/gio object or method from glib/c to qt/c++.
+...
