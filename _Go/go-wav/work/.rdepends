@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	pax>=20040802	pax-20080110nb4
-tool	checkperms>=1.1	checkperms-1.12
-build	go115-1.15.5*	go115-1.15.5
-build	go-audio>=1.0.0	go-audio-1.0.0
-build	go-riff>=1.0.0	go-riff-1.0.0
-build	cwrappers>=20150314	cwrappers-20180325

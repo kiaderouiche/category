@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/go-audio/riff/go.mod

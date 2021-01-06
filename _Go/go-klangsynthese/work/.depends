@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	pax>=20040802	../../archivers/pax
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	go115-1.15.5*	../../lang/go115
-build	go-flac-eaburns>=20170903	../../wip/go-flac-eaburns
-build	bit>=20130913	../../wip/go-bit
-build	cwrappers>=20150314	../../pkgtools/cwrappers
