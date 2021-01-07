@@ -15,9 +15,10 @@ USE_TOOLS+=		pkg-config
 USE_LANGUAGES=	c c++
 
 do-configure:
- 	cd ${WRKSRC} && ${QTDIR}/bin/qmake gsettings-qt.pro
+	cd ${WRKSRC} && ${QTDIR}/bin/qmake gsettings-qt.pro
 
 
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../x11/qt5-qtdeclarative/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
