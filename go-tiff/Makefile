@@ -16,7 +16,7 @@ LICENSE=	2-clause-bsd
 GO_SRCPATH=     github.com/hhrutter/tiff
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
 
-#.include "../../graphics/go-image/buildlink3.mk"
+.include "../../graphics/go-image/buildlink3.mk"
 .include "../../wip/go-lzw/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
