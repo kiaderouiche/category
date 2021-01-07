@@ -1,0 +1,3 @@
+pdfcpu is a PDF processing library written in Go
+supporting encryption. It provides both an API
+and a CLI. Supported are all versions up to PDF 1.7 
