@@ -6,10 +6,10 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=leaanthony/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/leaanthony/clir/
 COMMENT=	Simple and Clear CLI library
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 GO_SRCPATH=     github.com/leaanthony/clir
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
