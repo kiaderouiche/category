@@ -1,15 +1,20 @@
 # $NetBSD$
 
-DISTNAME=	go-pdfcpu-0.3.8
+DISTNAME=	pdfcpu-0.3.8
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	pdfcpu
-GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+GITHUB_TAG=	a6b03956e5c6215e60f00d410ed382efd2bb8660
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=pdfcpu/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/pdfcpu/pdfcpu/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://pdfcpu.io/
+COMMENT=	Tool for PDF processor manipulate written in Go
+LICENSE=	apache-2.0
 
-# url2pkg-marker (please do not remove this line.)
+GO_SRCPATH=     github.com/pdfcpu/pdfcpu
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
+
+.include "../../devel/go-errors/buildlink3.mk"
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
