@@ -1,0 +1,15 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	go-tiff
+
+.if !defined(GO_TIFF_BUILDLINK3_MK)
+GO_TIFF_BUILDLINK3_MK:=
+
+BUILDLINK_CONTENTS_FILTER.go-tiff=	${EGREP} gopkg/
+BUILDLINK_DEPMETHOD.go-tiff?=		build
+
+BUILDLINK_API_DEPENDS.go-tiff+=	go-tiff>=20190829
+BUILDLINK_PKGSRCDIR.go-tiff?=	../../wip/go-tiff
+.endif	# GO_TIFF_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-go-tiff
