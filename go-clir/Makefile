@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-clir-1.0.2
 GITHUB_PROJECT=	clir
-GITHUB_TAG=	v1.0.2
-DISTNAME=	v1.0.2
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=leaanthony/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/leaanthony/clir/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Simple and Clear CLI library
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/clir-1.0.2
-USE_LANGUAGES=	# none
+GO_SRCPATH=     github.com/leaanthony/clir
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

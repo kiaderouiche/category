@@ -1,20 +1,15 @@
 # $NetBSD$
 
+DISTNAME=	go-pdfcpu-0.3.8
 GITHUB_PROJECT=	pdfcpu
-GITHUB_TAG=	v0.3.4
-DISTNAME=	v0.3.4
-PKGNAME=	go-${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	print
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=pdfcpu/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/pdfcpu/pdfcpu/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/pdfcpu-0.3.4
-
-USE_LANGUAGES=	# none
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
