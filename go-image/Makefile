@@ -15,5 +15,6 @@ LICENSE=	modified-bsd
 GO_SRCPATH=		golang.org/x/image
 GO_DIST_BASE=		${GITHUB_PROJECT}-${GITHUB_TAG}*
 
+.include "../../textproc/go-text/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
