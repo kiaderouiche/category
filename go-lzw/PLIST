@@ -1,4 +1,14 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+gopkg/pkg/${GO_PLATFORM}/github.com/hhrutter/lzw.a
+gopkg/src/github.com/hhrutter/lzw/LICENSE
+gopkg/src/github.com/hhrutter/lzw/README.md
+gopkg/src/github.com/hhrutter/lzw/go.mod
+gopkg/src/github.com/hhrutter/lzw/lzw_test.go
+gopkg/src/github.com/hhrutter/lzw/reader.go
+gopkg/src/github.com/hhrutter/lzw/testdata/earlyChange0Enc.lzw
+gopkg/src/github.com/hhrutter/lzw/testdata/earlyChange0Raw.lzw
+gopkg/src/github.com/hhrutter/lzw/testdata/earlyChange1Enc.lzw
+gopkg/src/github.com/hhrutter/lzw/testdata/earlyChange1Raw.lzw
+gopkg/src/github.com/hhrutter/lzw/testdata/earlyChangeDefaultEnc.lzw
+gopkg/src/github.com/hhrutter/lzw/testdata/earlyChangeDefaultRaw.lzw
+gopkg/src/github.com/hhrutter/lzw/writer.go
