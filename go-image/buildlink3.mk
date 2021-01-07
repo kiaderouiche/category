@@ -8,7 +8,7 @@ GO_IMAGE_BUILDLINK3_MK:=
 BUILDLINK_CONTENTS_FILTER.go-image=	${EGREP} gopkg/
 BUILDLINK_DEPMETHOD.go-image?=		build
 
-BUILDLINK_API_DEPENDS.go-image+=	go-image>=20170405
+BUILDLINK_API_DEPENDS.go-image+=	go-image>=20201208
 BUILDLINK_PKGSRCDIR.go-image?=		../../graphics/go-image
 
 .include "../../textproc/go-text/buildlink3.mk"

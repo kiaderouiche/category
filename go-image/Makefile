@@ -1,16 +1,16 @@
 # $NetBSD$
 
-DISTNAME=	go-image-20201208
-PKGREVISION=	25
-GITHUB_PROJECT=	image
-GITHUB_TAG=	35266b9
-CATEGORIES=	graphics
-MASTER_SITES=	${MASTER_SITE_GITHUB:=golang/}
+DISTNAME=		go-image-20201208
+PKGREVISION=		26
+GITHUB_PROJECT=		image
+GITHUB_TAG=		35266b9
+CATEGORIES=		graphics
+MASTER_SITES=		${MASTER_SITE_GITHUB:=golang/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://golang.org/
-COMMENT=	Package image implements a basic 2-D image library
-LICENSE=	modified-bsd
+MAINTAINER=		pkgsrc-users@NetBSD.org
+HOMEPAGE=		https://golang.org/
+COMMENT=		Package image implements a basic 2-D image library
+LICENSE=		modified-bsd
 
 GO_SRCPATH=		golang.org/x/image
 GO_DIST_BASE=		${GITHUB_PROJECT}-${GITHUB_TAG}*
