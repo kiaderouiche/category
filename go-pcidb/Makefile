@@ -3,15 +3,17 @@
 DISTNAME=	go-pcidb-0.5.0
 GITHUB_PROJECT=	pcidb
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GITHUB:=jaypipes/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/jaypipes/pcidb/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Small golang library for querying PCI database
+LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/pcidb-0.5.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/jaypipes/pcidb/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../devel/go-homedir/buildlink3.mk"
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
