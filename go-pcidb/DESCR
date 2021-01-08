@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# `pcidb` - the Golang PCI DB library [![Build Status](https://travis-ci.org/jaypipes/pcidb.svg?branch=master)](https://travis-ci.org/jaypipes/pcidb)
+
+`pcidb` is a small Golang library for programmatic querying of PCI vendor,
+product and class information.
+
+We currently [test](https://travis-ci.org/jaypipes/pcidb/) `pcidb` on Linux, Windows and MacOSX.
+
+## Usage
+
+`pcidb` contains a PCI database inspection and querying facility that allows
+developers to query for information about hardware device classes, vendor and
+product information.
+
+The `pcidb.New()` function returns a `pcidb.PCIDB` struct or an error if the
+PCI database could not be loaded.
+
+> `pcidb`'s default behaviour is to first search for pci-ids DB files on the
+> local host system in well-known filesystem paths. If `pcidb` cannot find a
+> pci-ids DB file on the local host system, it will then fetch a current
+> pci-ids DB file from the network. You can disable this network-fetching
+...
