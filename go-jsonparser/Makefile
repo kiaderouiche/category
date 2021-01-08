@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/buger/jsonparser/
-COMMENT=	JSON parser for Go that does not require schema 
+COMMENT=	JSON parser for Go that does not require schema
 LICENSE=	2-clause-bsd
 
 GO_SRCPATH=     github.com/buger/jsonparser
