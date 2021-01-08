@@ -1,20 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-machineid-1.0.1
 GITHUB_PROJECT=	machineid
-GITHUB_TAG=	v1.0.1
-DISTNAME=	v1.0.1
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GITHUB:=denisbrodbeck/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/denisbrodbeck/machineid/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Get the unique machine id of any host
 LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/machineid-1.0.1
+GO_SRCPATH=	github.com/denisbrodbeck/machineid
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
-USE_LANGUAGES=	# none
-
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
