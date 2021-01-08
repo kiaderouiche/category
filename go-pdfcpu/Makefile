@@ -14,6 +14,7 @@ COMMENT=	TODO: Short description of the package
 GO_SRCPATH=	github.com/pdfcpu/pdfcpu
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../devel/go-errors/buildlink3.mk"
 .include "../../devel/go-yaml/buildlink3.mk"
 .include "../../graphics/go-image/buildlink3.mk"
 .include "../../wip/go-lzw/buildlink3.mk"
