@@ -17,6 +17,7 @@ GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.4.0
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../graphics/cairo/buildlink3.mk"
 .include "../../graphics/gdk-pixbuf2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.gtk3+=    gtk3+>=3.0.0
 .include "../../x11/gtk3/buildlink3.mk"
