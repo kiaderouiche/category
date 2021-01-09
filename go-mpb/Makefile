@@ -11,7 +11,7 @@ HOMEPAGE=	https://github.com/vbauerster/mpb/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-GO_SRCPATH=	github.com/vbauerster/mpbvbauerster
+GO_SRCPATH=	github.com/vbauerster/mpb
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../lang/go/go-package.mk"
