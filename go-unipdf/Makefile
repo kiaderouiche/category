@@ -14,5 +14,6 @@ COMMENT=	Golang PDF library for creating and processing PDF files
 GO_SRCPATH=     github.com/unidoc/unipdf
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../devel/go-testify/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
