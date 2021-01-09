@@ -14,7 +14,9 @@ LICENSE=	unlicense
 GO_SRCPATH=	github.com/vbauerster/mpb
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../devel/go-sys/buildlink3.mk"
 .include "../../wip/go-ewma/buildlink3.mk"
 .include "../../wip/go-stripansi/buildlink3.mk"
+.include "../../textproc/go-runewidth/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
