@@ -15,8 +15,14 @@ LICENSE=	2-clause-bsd
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=     github.com/mattn/${GITHUB_PROJECT}
 
-.include "../../devel/glib/buildlink3.mk"
+USE_TOOLS+=	pkg-config
+
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/pango/buildlink3.mk"
+.include "../../graphics/gdk-pixbuf2/buildlink3.mk"
 .include "../../wip/go-pointer/buildlink3.mk"
-.include "../../x11/gtk/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../textproc/gtkspell/buildlink3.mk"
+.include "../../x11/gtksourceview2/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
