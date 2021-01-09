@@ -1,17 +1,19 @@
 # $NetBSD$
 
 DISTNAME=	ewma-20201216
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	ewma
 GITHUB_TAG=	507017d748aae584fd5fa8c7448e0105598a0647
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=VividCortex/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/VividCortex/ewma/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Exponentially Weighted Moving Average algorithms for Go
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/ewma-507017d748aae584fd5fa8c7448e0105598a0647
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=     github.com/VividCortex/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

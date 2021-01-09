@@ -9,10 +9,11 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=acarl005/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/acarl005/stripansi/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Go package for removing ANSI color escape codes from strings
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/stripansi-5a71ef0e047df0427e87a79f27009029921f1f9b
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/acarl005/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

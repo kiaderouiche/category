@@ -1,23 +1,6 @@
-TODO: Adjust the following lines from README.md
-
-# EWMA
-
-[![GoDoc](https://godoc.org/github.com/VividCortex/ewma?status.svg)](https://godoc.org/github.com/VividCortex/ewma)
-![build](https://github.com/VividCortex/ewma/workflows/build/badge.svg)
-[![codecov](https://codecov.io/gh/VividCortex/ewma/branch/master/graph/badge.svg)](https://codecov.io/gh/VividCortex/ewma)
-
-This repo provides Exponentially Weighted Moving Average algorithms, or EWMAs for short, [based on our
-Quantifying Abnormal Behavior talk](https://vividcortex.com/blog/2013/07/23/a-fast-go-library-for-exponential-moving-averages/).
-
-### Exponentially Weighted Moving Average
-
-An exponentially weighted moving average is a way to continuously compute a type of
-average for a series of numbers, as the numbers arrive. After a value in the series is
-added to the average, its weight in the average decreases exponentially over time. This
-biases the average towards more recent data. EWMAs are useful for several reasons, chiefly
-their inexpensive computational and memory cost, as well as the fact that they represent
-the recent central tendency of the series of values.
-
-The EWMA algorithm requires a decay factor, alpha. The larger the alpha, the more the average
-is biased towards recent history. The alpha must be between 0 and 1, and is typically
-...
+An exponentially weighted moving average is a way
+to continuously compute a type of average for a
+series of numbers, as the numbers arrive. After
+a value in the series is added to the average,
+its weight in the average decreases exponentially
+over time. This biases the average towards more recent data.
