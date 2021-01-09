@@ -18,7 +18,7 @@ BUILD_DEPENDS+=		${PYPKGPREFIX}-coverage>=5.3:../../devel/py-coverage
 BUILD_DEPENDS+=		${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
 BUILD_DEPENDS+=		${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
 #BUILD_DEPENDS+=	${PYPKGPREFIX}-py-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
-#DEPENDS+=		${PYPKGPREFIX}-bc-python-hcl2>=0.3.1:../../wip/py-bc-python-hcl2
+DEPENDS+=		${PYPKGPREFIX}-bc-python-hcl2>=0.3.1:../../wip/py-bc-python-hcl2
 DEPENDS+=		${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
 DEPENDS+=		${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
 DEPENDS+=		${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
