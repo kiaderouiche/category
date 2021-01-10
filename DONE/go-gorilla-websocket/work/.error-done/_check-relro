@@ -1,4 +1,0 @@
-bin/autobahn: missing RELRO
-bin/chat: missing RELRO
-bin/command: missing RELRO
-bin/filewatch: missing RELRO
