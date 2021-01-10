@@ -1,0 +1,4 @@
+The gotk3 project provides Go bindings for GTK 3
+and dependent projects.  Each component is given
+its own subdirectory, which is used as the import
+path for the package.

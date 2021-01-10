@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+<h1 align="center">
+  <div>
+    <img src="https://raw.githubusercontent.com/adrg/adrg.github.io/master/assets/projects/libvlc-go/logo.png" height="45px" alt="libvlc-go logo"/>
+  </div>
+</h1>
+
+<h3 align="center">Go bindings for libVLC 2.X/3.X/4.X and high-level media player interface.</h3>
+
+<p align="center">
+    <a href="https://pkg.go.dev/github.com/adrg/libvlc-go/v3">
+        <img alt="pkg.go.dev documentation" src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white">
+    </a>
+    <a href="https://opensource.org/licenses/MIT" rel="nofollow">
+        <img alt="MIT license" src="https://img.shields.io/github/license/adrg/libvlc-go"/>
+    </a>
+    <a href="https://github.com/avelino/awesome-go#video">
+        <img alt="Awesome Go" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"/>
+    </a>
+    <a href="https://ko-fi.com/T6T72WATK">
+        <img alt="Buy me a coffee" src="https://img.shields.io/static/v1.svg?label=%20&message=Buy%20me%20a%20coffee&color=579fbf&logo=buy%20me%20a%20coffee&logoColor=white"/>
+...
