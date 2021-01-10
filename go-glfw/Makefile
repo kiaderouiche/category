@@ -18,5 +18,6 @@ GO_SRCPATH=     github.com/go-gl/${GITHUB_PROJECT}
 .include "../../graphics/glfw/buildlink3.mk"
 .include "../../x11/libXcursor/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"
+.include "../../x11/libXi/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
