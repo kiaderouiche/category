@@ -1,13 +1,12 @@
 # $NetBSD$
 
-DISTNAME=       zerolog-20200806
-PKGNAME=        go-${DISTNAME}
-CATEGORIES=     devel
-MASTER_SITES=   ${MASTER_SITE_GITHUB:=rs/}
-GITHUB_PROJECT= zerolog
-GITHUB_TAG=     72acd6cfe8bbbf5c52bfc805a3889c6941499c95
+DISTNAME=	zerolog-20201229
+GITHUB_PROJECT=	zerolog
+GITHUB_TAG=	0aba2e4ae597be7a72789c5bf2745daa664fcab3
+CATEGORIES=	textproc
+MASTER_SITES=	${MASTER_SITE_GITHUB:=rs/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/rs/zerolog/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
