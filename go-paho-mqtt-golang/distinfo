@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (go-paho-mqtt-golang-1.3.1.tar.gz) = 5472fcf180d847700bc233e973b09198d566dfa5
+RMD160 (go-paho-mqtt-golang-1.3.1.tar.gz) = 6b766d7a2ae77eb20e26b93bfc3633f229723ee5
+SHA512 (go-paho-mqtt-golang-1.3.1.tar.gz) = 92a8f28de398cf45cdb5bbb42011ccba44a379beb8d2a4e6eda45e8a5c1fd1e080927ce6f3f891ae5b032b0a63ac664dac7a714c0cfec6f10a99913ecf247e46
+Size (go-paho-mqtt-golang-1.3.1.tar.gz) = 90163 bytes
