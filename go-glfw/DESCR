@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# GLFW 3.3 for Go [![Build Status](https://travis-ci.org/go-gl/glfw.svg?branch=master)](https://travis-ci.org/go-gl/glfw) [![GoDoc](https://godoc.org/github.com/go-gl/glfw/v3.3/glfw?status.svg)](https://godoc.org/github.com/go-gl/glfw/v3.3/glfw)
+
+## Installation
+
+* GLFW C library source is included and built automatically as part of the Go package. But you need to make sure you have dependencies of GLFW:
+	* On macOS, you need Xcode or Command Line Tools for Xcode (`xcode-select --install`) for required headers and libraries.
+	* On Ubuntu/Debian-like Linux distributions, you need `libgl1-mesa-dev` and `xorg-dev` packages.
+	* On CentOS/Fedora-like Linux distributions, you need `libX11-devel libXcursor-devel libXrandr-devel libXinerama-devel mesa-libGL-devel libXi-devel libXxf86vm-devel` packages.
+	* See [here](http://www.glfw.org/docs/latest/compile.html#compile_deps) for full details.
+* Go 1.4+ is required on Windows (otherwise you must use MinGW v4.8.1 exactly, see [Go issue 8811](https://github.com/golang/go/issues/8811)).
+
+```
+go get -u github.com/go-gl/glfw/v3.3/glfw
+```
+
+### OpenGL ES
+
+If your target system only provides an OpenGL ES implementation (true for some ARM boards), you need to link against that implementation.
+You do this by defining the appropriate build tags, e.g.
+
+...
