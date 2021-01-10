@@ -15,6 +15,9 @@ LICENSE=	apache-2.0
 GO_SRCPATH=     github.com/pdfcpu/pdfcpu
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
 
+.include "../../wip/go-lzw/buildlink3.mk"
+.include "../../wip/go-tiff/buildlink3.mk"
 .include "../../devel/go-errors/buildlink3.mk"
+.include "../../devel/go-yaml/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
