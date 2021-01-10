@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (bluemonday/v1.0.4.tar.gz) = 0ac267ffb7c2b7716e5799fd4c3cc40fd5a8a625
-RMD160 (bluemonday/v1.0.4.tar.gz) = 5e5be9ff26c278c81a0055c3d82c82235ca49a90
-SHA512 (bluemonday/v1.0.4.tar.gz) = 907174aa9e2a112ccdb113a8d0fb22e6503bcfc839ac30f64db2a55dad5c6d422ee6369e59e6b04f52c5db66483cd9493b69b00cfefdd67868fd8ab89868a0ac
-Size (bluemonday/v1.0.4.tar.gz) = 160297 bytes
+SHA1 (go-bluemonday-1.0.4.tar.gz) = 0ac267ffb7c2b7716e5799fd4c3cc40fd5a8a625
+RMD160 (go-bluemonday-1.0.4.tar.gz) = 5e5be9ff26c278c81a0055c3d82c82235ca49a90
+SHA512 (go-bluemonday-1.0.4.tar.gz) = 907174aa9e2a112ccdb113a8d0fb22e6503bcfc839ac30f64db2a55dad5c6d422ee6369e59e6b04f52c5db66483cd9493b69b00cfefdd67868fd8ab89868a0ac
+Size (go-bluemonday-1.0.4.tar.gz) = 160297 bytes
