@@ -1,0 +1,5 @@
+category/go-timego/buildlink3.mk:	$NetBSD$
+category/go-timego/distinfo:	$NetBSD$
+category/go-timego/Makefile:	$NetBSD$
+category/go-timego/Makefile.url2pkg~:	$NetBSD$
+category/go-timego/PLIST:	$NetBSD$
