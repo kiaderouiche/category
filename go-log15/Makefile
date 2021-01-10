@@ -14,5 +14,8 @@ LICENSE=	apache-2.0
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/inconshreveable/${GITHUB_PROJECT}
 
+.include "../../devel/go-colorable/buildlink3.mk"
+.include "../../devel/go-isatty/buildlink3.mk"
+.include "../../wip/go-stack/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
