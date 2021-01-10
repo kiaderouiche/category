@@ -1,0 +1,120 @@
+@cwd /usr/pkg
+@name go-gorilla-websocket-1.4.2
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/autobahn
+@comment MD5:dd73b87fb9a1a0ee3c2da1a07b6e11f3
+bin/chat
+@comment MD5:b723c0e31c42de995c0698ac45ca0c0e
+bin/command
+@comment MD5:69bea164b4b64bd4dcb22b1cd2bf87a2
+bin/filewatch
+@comment MD5:0f6b56113d204f3808da25cd9dcfe1ac
+gopkg/pkg/linux_amd64/github.com/gorilla/websocket.a
+@comment MD5:6b41b3d4c1f24b4db83eda47c0536316
+gopkg/src/github.com/gorilla/websocket/AUTHORS
+@comment MD5:9e3d56823a3c37d6c0700a12897ae690
+gopkg/src/github.com/gorilla/websocket/LICENSE
+@comment MD5:c007b54a1743d596f46b2748d9f8c044
+gopkg/src/github.com/gorilla/websocket/README.md
+@comment MD5:b3ea2a3623af2f8c3d498ca7d8c733ba
+gopkg/src/github.com/gorilla/websocket/client.go
+@comment MD5:7ba56df4ec3d1961cfcd93da8f814092
+gopkg/src/github.com/gorilla/websocket/client_clone.go
+@comment MD5:a6c5568ac8f644197ca01dc1471cb682
+gopkg/src/github.com/gorilla/websocket/client_clone_legacy.go
+@comment MD5:5f031a44543d2fbade0a359ab0f8bcb8
+gopkg/src/github.com/gorilla/websocket/client_server_test.go
+@comment MD5:3c8f16edceefc2c3f11729f83a9eea35
+gopkg/src/github.com/gorilla/websocket/client_test.go
+@comment MD5:e9f733ca6d7e223a0c6c86b4168f1bfc
+gopkg/src/github.com/gorilla/websocket/compression.go
+@comment MD5:3382342ddf7613699dcb31a214682212
+gopkg/src/github.com/gorilla/websocket/compression_test.go
+@comment MD5:25720fe99ea1fda061252b7a7cf16573
+gopkg/src/github.com/gorilla/websocket/conn.go
+@comment MD5:70c5d28f77f612adca38e914af3cdae2
+gopkg/src/github.com/gorilla/websocket/conn_broadcast_test.go
+@comment MD5:96d78b885299f40e8537779d56ea1ec4
+gopkg/src/github.com/gorilla/websocket/conn_test.go
+@comment MD5:732cf8c4692dabf5a96540348f1a02d1
+gopkg/src/github.com/gorilla/websocket/conn_write.go
+@comment MD5:e39f292715e48dc99300558b7a351b8f
+gopkg/src/github.com/gorilla/websocket/conn_write_legacy.go
+@comment MD5:e24af9ab44b0f5b1c1e3530026a936a6
+gopkg/src/github.com/gorilla/websocket/doc.go
+@comment MD5:c595884c712fad240615a45bf07ca3b1
+gopkg/src/github.com/gorilla/websocket/example_test.go
+@comment MD5:211eee3b96d1c9409c5703f66472b210
+gopkg/src/github.com/gorilla/websocket/examples/autobahn/README.md
+@comment MD5:16b695dd92bf6d84c8a601957ff22778
+gopkg/src/github.com/gorilla/websocket/examples/autobahn/fuzzingclient.json
+@comment MD5:ae846bd836ec84552804c18052afc74a
+gopkg/src/github.com/gorilla/websocket/examples/autobahn/server.go
+@comment MD5:41dc2223335755cc6d965cc6b819be29
+gopkg/src/github.com/gorilla/websocket/examples/chat/README.md
+@comment MD5:67a635d58673a251ad008de43d9a23b9
+gopkg/src/github.com/gorilla/websocket/examples/chat/client.go
+@comment MD5:5b647e5449a3436ab5c1e2402d15bf12
+gopkg/src/github.com/gorilla/websocket/examples/chat/home.html
+@comment MD5:fbf0e5b195925951ee1c5398a81dfe14
+gopkg/src/github.com/gorilla/websocket/examples/chat/hub.go
+@comment MD5:444c6c8ec6745c5e48bd401079098d8c
+gopkg/src/github.com/gorilla/websocket/examples/chat/main.go
+@comment MD5:65e7b4eee4dc9c181a4b747ba3237fde
+gopkg/src/github.com/gorilla/websocket/examples/command/README.md
+@comment MD5:a43b7c01539f23eb5072627bd6a87403
+gopkg/src/github.com/gorilla/websocket/examples/command/home.html
+@comment MD5:64791ac044a735081158c327dabb485f
+gopkg/src/github.com/gorilla/websocket/examples/command/main.go
+@comment MD5:79220a7effb32b245e1ad75af00f011d
+gopkg/src/github.com/gorilla/websocket/examples/echo/README.md
+@comment MD5:77d4bffb4c19cc2901af00da3ed4ad7e
+gopkg/src/github.com/gorilla/websocket/examples/echo/client.go
+@comment MD5:3a281376e60ebd7b7dbd2f0a46b45fcc
+gopkg/src/github.com/gorilla/websocket/examples/echo/server.go
+@comment MD5:6389bc987d72820ba9f1b37697a27956
+gopkg/src/github.com/gorilla/websocket/examples/filewatch/README.md
+@comment MD5:9709acd2421378cf14de4dc047da22ec
+gopkg/src/github.com/gorilla/websocket/examples/filewatch/main.go
+@comment MD5:9ff8b13ba8a2ac69e42f28efd2793757
+gopkg/src/github.com/gorilla/websocket/go.mod
+@comment MD5:d0832ef3a2eb0ca8da49a81c66c7c5b1
+gopkg/src/github.com/gorilla/websocket/go.sum
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+gopkg/src/github.com/gorilla/websocket/join.go
+@comment MD5:91e2ab73b457b74f71eabe22842313e4
+gopkg/src/github.com/gorilla/websocket/join_test.go
+@comment MD5:6d635e6de9adc408e2f6c0795da0eb15
+gopkg/src/github.com/gorilla/websocket/json.go
+@comment MD5:103ab8f1c6f9f0b04e242eacf0ad01de
+gopkg/src/github.com/gorilla/websocket/json_test.go
+@comment MD5:1ae7d1b2c7d99167bbab5901bbf112b9
+gopkg/src/github.com/gorilla/websocket/mask.go
+@comment MD5:b54fbd63df718531e50a623c4b5620b9
+gopkg/src/github.com/gorilla/websocket/mask_safe.go
+@comment MD5:c369fbbef7763f503e98a51ddc022d3c
+gopkg/src/github.com/gorilla/websocket/mask_test.go
+@comment MD5:d0a6cf88744541a4f93f109c53866d26
+gopkg/src/github.com/gorilla/websocket/prepared.go
+@comment MD5:d6506fcfcd2844c918d90c716d01ed43
+gopkg/src/github.com/gorilla/websocket/prepared_test.go
+@comment MD5:bfcef598c73594317db448816c9616fe
+gopkg/src/github.com/gorilla/websocket/proxy.go
+@comment MD5:e6b55123ad734e4f49ca1a2761afa972
+gopkg/src/github.com/gorilla/websocket/server.go
+@comment MD5:8f573d95ecaaf263f9832731c18e416f
+gopkg/src/github.com/gorilla/websocket/server_test.go
+@comment MD5:e3529da7e8e16e2f7c583c97f8be72ed
+gopkg/src/github.com/gorilla/websocket/trace.go
+@comment MD5:c94201231ee35fa38825c18ee48f6322
+gopkg/src/github.com/gorilla/websocket/trace_17.go
+@comment MD5:c481a0bf7ea460435504111e9ff102c3
+gopkg/src/github.com/gorilla/websocket/util.go
+@comment MD5:c43067b84573aceeafaabc7f269b0b85
+gopkg/src/github.com/gorilla/websocket/util_test.go
+@comment MD5:a35135efa49881a52be0f04bcfb1a56c
+gopkg/src/github.com/gorilla/websocket/x_net_proxy.go
+@comment MD5:21f7207a6e5d90e4ce707eed89789cad
