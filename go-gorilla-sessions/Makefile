@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gorilla/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://www.gorillatoolkit.org/pkg/sessions
+HOMEPAGE=	
 COMMENT=	Gorilla/sessions provides cookie and filesystem sessions
 LICENSE=	2-clause-bsd
 
