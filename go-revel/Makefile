@@ -16,5 +16,6 @@ GO_SRCPATH=     github.com/go-gl/${GITHUB_PROJECT}
 
 .include "../../devel/go-fsnotify/buildlink3.mk"
 .include "../../wip/go-stack/buildlink3.mk"
+.include "../../wip/go-pathree/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
