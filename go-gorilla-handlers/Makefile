@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-gorilla-handers-1.5.1
 GITHUB_PROJECT=	handlers
-GITHUB_TAG=	v1.5.0
-DISTNAME=	v1.5.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gorilla/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/gorilla/handlers/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Middleware for Go HTTP services/web applications
+LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/handlers-1.5.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/gorilla/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

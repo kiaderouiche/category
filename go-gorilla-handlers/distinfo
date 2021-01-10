@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (handlers/v1.5.0.tar.gz) = 5ec93155bf1af422b5effa190937cde2cab79821
-RMD160 (handlers/v1.5.0.tar.gz) = a1badfed5efdf34d9edca5cb5f4003760796ffb8
-SHA512 (handlers/v1.5.0.tar.gz) = a95b6cb184c518f1c1d8ef04ac2591e0d0060bcad37564db162a29a96f3ce216dc3e67ca710d3eb3dc3b7062deecc926f142db00e40b1adf840522810d6a932f
-Size (handlers/v1.5.0.tar.gz) = 20561 bytes
+SHA1 (go-gorilla-handers-1.5.1.tar.gz) = 98faf7e3aadc0091b2896a20a2267e48a1c0606f
+RMD160 (go-gorilla-handers-1.5.1.tar.gz) = f40c028d62f81f732241bd986dd0411acfa2dd91
+SHA512 (go-gorilla-handers-1.5.1.tar.gz) = e57b59eb8b11ef3f8cdff13610b9455665d7b8b20468c90983526b79711ec847253c9ce9cc3e6c08a6f23c5e5b461b3bdc445aa41044d7f6f9241ef513de2e1d
+Size (go-gorilla-handers-1.5.1.tar.gz) = 20963 bytes
