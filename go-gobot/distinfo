@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (gobot/v1.14.0.tar.gz) = 2fc750ac7e587ead23b79aa16e671ea680d3f8b1
-RMD160 (gobot/v1.14.0.tar.gz) = 7d39eb735febd2b56e775bf2b2f06a3416146669
-SHA512 (gobot/v1.14.0.tar.gz) = a72efa45b74cab97a015f018d6825eb4968675304daba79851e8260cc4831406c8c3a8e86a57d0b2a54ac28f24a263e5e1faf9950507b281f379d98f6e3caa47
-Size (gobot/v1.14.0.tar.gz) = 1494129 bytes
+SHA1 (go-gobot-1.15.0.tar.gz) = f5c372499d365b94d659c4c862ca3cd98876be3d
+RMD160 (go-gobot-1.15.0.tar.gz) = 427253176886b2ad0c634ee9c88d33f7b21d9f48
+SHA512 (go-gobot-1.15.0.tar.gz) = b15721b11eb71dd2042ed14cf2bd860934483c2f9eba194291f98bde75a75a174ffb9129836f363fa9831c8f890c05f27fdc3b91f8c17e67ecc87b23378ff801
+Size (go-gobot-1.15.0.tar.gz) = 1501581 bytes

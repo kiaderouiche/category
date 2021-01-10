@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.md
-
-[![Gobot](https://raw.githubusercontent.com/hybridgroup/gobot-site/master/source/images/elements/gobot-logo-small.png)](http://gobot.io/)
-
-[![GoDoc](https://godoc.org/gobot.io/x/gobot?status.svg)](https://godoc.org/gobot.io/x/gobot)
-[![Build Status](https://travis-ci.org/hybridgroup/gobot.png?branch=dev)](https://travis-ci.org/hybridgroup/gobot)
-[![Build status](https://ci.appveyor.com/api/projects/status/ix29evnbdrhkr7ud/branch/dev?svg=true)](https://ci.appveyor.com/project/deadprogram/gobot/branch/dev)
-[![Coverage Status](https://codecov.io/gh/hybridgroup/gobot/branch/dev/graph/badge.svg)](https://codecov.io/gh/hybridgroup/gobot)
-[![Go Report Card](https://goreportcard.com/badge/hybridgroup/gobot)](https://goreportcard.com/report/hybridgroup/gobot)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hybridgroup/gobot/blob/master/LICENSE.txt)
-
-Gobot (https://gobot.io/) is a framework using the Go programming language (https://golang.org/) for robotics, physical computing, and the Internet of Things.
-
-It provides a simple, yet powerful way to create solutions that incorporate multiple, different hardware devices at the same time.
-
-Want to run Go directly on microcontrollers? Check out our sister project TinyGo (https://tinygo.org/)
-
-## Getting Started
-
-Get the Gobot source with: `go get -d -u gobot.io/x/gobot/...`
-
-## Examples
-...
+Gobot  is a framework using the Go programming language
+for robotics, physical computing, and the Internet of Things
