@@ -1,4 +1,6 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+gopkg/pkg/${GO_PLATFORM}/github.com/xeonx/timeago.a
+gopkg/src/github.com/xeonx/timeago/LICENSE
+gopkg/src/github.com/xeonx/timeago/README.md
+gopkg/src/github.com/xeonx/timeago/timeago.go
+gopkg/src/github.com/xeonx/timeago/timeago_test.go
