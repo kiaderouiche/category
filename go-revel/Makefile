@@ -14,7 +14,9 @@ COMMENT=	TODO: Short description of the package
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/go-gl/${GITHUB_PROJECT}
 
+.include "../../devel/go-colorable/buildlink3.mk"
 .include "../../devel/go-fsnotify/buildlink3.mk"
+.include "../../net/go-websocket/buildlink3.mk"
 .include "../../wip/go-stack/buildlink3.mk"
 .include "../../wip/go-pathree/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
