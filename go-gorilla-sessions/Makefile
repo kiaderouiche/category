@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-gorilla-sessions-1.2.1
 GITHUB_PROJECT=	sessions
-GITHUB_TAG=	v1.2.1
-DISTNAME=	v1.2.1
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gorilla/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/gorilla/sessions/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	http://www.gorillatoolkit.org/pkg/sessions
+COMMENT=	Gorilla/sessions provides cookie and filesystem sessions
+LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/sessions-1.2.1
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/gorilla/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,13 @@
+--- /usr/pkgsrc/category/go-gorilla-schema/work/.prefix.pre	2021-01-10 11:52:13.282250543 +0100
++++ /usr/pkgsrc/category/go-gorilla-schema/work/.prefix.post	2021-01-10 11:52:13.474255765 +0100
+@@ -0,0 +1,10 @@
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/gorilla/schema.a
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/cache.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/converter.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/decoder.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/decoder_test.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/doc.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/encoder.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/encoder_test.go
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/LICENSE
++/usr/pkgsrc/category/go-gorilla-schema/work/.destdir/usr/pkg/gopkg/src/github.com/gorilla/schema/README.md
