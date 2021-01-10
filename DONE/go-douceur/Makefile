@@ -12,9 +12,12 @@ HOMEPAGE=	https://github.com/aymerick/douceur/
 COMMENT=	Simple CSS parser and inliner in Go
 LICENSE=	mit
 
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
-GO_SRCPATH=     github.com/aymerick/${GITHUB_PROJECT}
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/aymerick/${GITHUB_PROJECT}
 
 .include "../../net/go-net/buildlink3.mk"
+.include "../../wip/go-cascadia/buildlink3.mk"
+.include "../../wip/go-goquery/buildlink3.mk"
+.include "../../wip/go-gorilla-css/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

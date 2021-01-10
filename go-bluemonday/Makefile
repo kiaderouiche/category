@@ -15,5 +15,6 @@ GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/microcosm-cc/${GITHUB_PROJECT}
 
 .include "../../net/go-net/buildlink3.mk"
+#.include "../../wip/go-douceur/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
