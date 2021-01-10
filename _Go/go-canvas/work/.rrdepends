@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	pax>=20040802	pax-20080110nb4
+tool	checkperms>=1.1	checkperms-1.12
+build	go115-1.15.5*	go115-1.15.5
+build	go-freetype>=20170609	go-freetype-20170609
+build	go-image>=20170405	go-image-20170405nb25
+build	go-text>=0.3.0	go-text-0.3.3nb2
+build	cwrappers>=20150314	cwrappers-20180325
