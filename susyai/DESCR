@@ -1,2 +1,4 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+SUSY-AI is a python program which determines if a benchmark
+point is excluded or not at the 95 % C.L. by comparing to
+LHC data in the MSSM context. It uses machine learning
+classification techniques to provide a fast answer. 
