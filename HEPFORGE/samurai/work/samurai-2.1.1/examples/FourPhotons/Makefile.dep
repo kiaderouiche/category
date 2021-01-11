@@ -1,0 +1,10 @@
+# Module dependencies
+amp4.o: mtopo4.o vars.o
+amp4.lo: mtopo4.lo vars.lo
+amp4.obj: mtopo4.obj vars.obj
+mtopo4.o: vars.o
+mtopo4.lo: vars.lo
+mtopo4.obj: vars.obj
+process.o: amp4.o rambo.o vars.o
+process.lo: amp4.lo rambo.lo vars.lo
+process.obj: amp4.obj rambo.obj vars.obj

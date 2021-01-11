@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	libtool-base>=2.4.2nb9	libtool-base-2.4.6nb2
+tool	nbpatch-[0-9]*	nbpatch-20151107
+tool	perl>=5.0	perl-5.32.0nb1
+tool	pkgconf-[0-9]*	pkgconf-1.6.0
+tool	checkperms>=1.1	checkperms-1.12
+build	libtool-fortran>=2.4.2nb9	libtool-fortran-2.4.6nb1
+build	cwrappers>=20150314	cwrappers-20180325

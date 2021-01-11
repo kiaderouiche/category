@@ -1,0 +1,250 @@
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir conf21495.dir
+<.> /bin/mkdir -p conf21495.dir
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir -p .
+<.> /bin/mkdir -p -p .
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir --version
+<.> /bin/mkdir -p --version
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/echo @@@%%%=make=@@@%%%
+<.> echo  @@@%%%=make=@@@%%%
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir .tst
+<.> /bin/mkdir -p .tst
+[*] f77 --version
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 --version -fstack-protector
+[*] f77 -v
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -v -fstack-protector
+[*] f77 -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -V -fstack-protector
+[*] f77 -qversion
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -qversion -fstack-protector
+[*] f77 -O -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -O -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] f77 -o conftest -O -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -O -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] f77 -o conftest -O -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -O -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] f77 -c -O conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -O conftest.f -fstack-protector
+[*] f77 -c -O conftest.F
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -O conftest.F -fstack-protector
+[*] f77 -c -g conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g conftest.f -fstack-protector
+[*] f77 --version
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 --version -fstack-protector
+[*] f77 -v
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -v -fstack-protector
+[*] f77 -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -V -fstack-protector
+[*] f77 -qversion
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -qversion -fstack-protector
+[*] f77 -c conftest.F
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c conftest.F -fstack-protector
+[*] f77 -c -g conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g conftest.f -fstack-protector
+[*] f77 -c -g -O2 conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 conftest.f -fstack-protector
+[*] f77 -o conftest -g -O2 -v -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -g -O2 -v -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] f77 -o conftest -g -O2 -v -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -g -O2 -v -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/echo this is the am__doit target
+<.> echo  this is the am__doit target
+[*] cc --version
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 --version -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -v
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -v -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -V -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -qversion
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -qversion -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -g conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -g conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] f77 -c -g -O2 conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 conftest.f -fstack-protector
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c cfortran_test.o -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c cfortran_test.o -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c cfortran_test.o -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c cfortran_test.o -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c cfortran_test.o -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c cfortran_test.o -L/usr/lib64/gcc/x86_64-suse-linux/10 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/10/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/10/../../.. -lgfortran -lm -lquadmath -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] f77 -c -g -O2 conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 conftest.f90 -fstack-protector
+[*] f77 -c -g -O2 conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 conftest.f90 -fstack-protector
+[*] cc -print-prog-name=ld
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -print-prog-name=ld -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c conftstm.o
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c conftstm.o -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -E conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -E conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] f77 --version
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 --version -fstack-protector
+[*] f77 -v
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -v -fstack-protector
+[*] f77 -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -V -fstack-protector
+[*] f77 -qversion
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -qversion -fstack-protector
+[*] f77 --version
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 --version -fstack-protector
+[*] f77 -v
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -v -fstack-protector
+[*] f77 -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -V -fstack-protector
+[*] f77 -qversion
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -qversion -fstack-protector
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir .libs
+<.> /bin/mkdir -p .libs
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 -fno-rtti -fno-exceptions conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 -fno-rtti -fno-exceptions conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 -fPIC -DPIC -DPIC conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 -fPIC -DPIC -DPIC conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -static conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -static conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir conftest
+<.> /bin/mkdir -p conftest
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir out
+<.> /bin/mkdir -p out
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 -o out/conftest2.o conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 -o out/conftest2.o conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -V -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -c -O2 -D_FORTIFY_SOURCE=2 conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -c -O2 -D_FORTIFY_SOURCE=2 conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -shared conftest.o -v -Wl,-soname -Wl,conftest -o conftest
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -shared conftest.o -v -Wl,-soname -Wl,conftest -o conftest -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -print-search-dirs
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -print-search-dirs -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -print-multi-os-directory
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -print-multi-os-directory -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] cc -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -Wl,-rpath -Wl,/foo conftest.c
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gcc -fcommon -m64 -o conftest -O2 -D_FORTIFY_SOURCE=2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.c -D_FORTIFY_SOURCE=2 -fstack-protector -I/usr/pkgsrc/category/samurai/work/.buildlink/include
+[*] f77 -c -O conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -O conftest.f -fstack-protector
+[*] f77 -o conftest -O -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -O -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] f77 -c -O -fPIC conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -O -fPIC conftest.f -fstack-protector
+[*] f77 -o conftest -O -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -static conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -O -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -static conftest.f -fstack-protector
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir conftest
+<.> /bin/mkdir -p conftest
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir out
+<.> /bin/mkdir -p out
+[*] f77 -c -O -o out/conftest2.o conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -O -o out/conftest2.o conftest.f -fstack-protector
+[*] f77 -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -V -fstack-protector
+[*] f77 -o conftest -O -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -Wl,-rpath -Wl,/foo conftest.f
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -O -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f -fstack-protector
+[*] f77 -c -g -O2 conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 conftest.f90 -fstack-protector
+[*] f77 -o conftest -g -O2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -g -O2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f90 -fstack-protector
+[*] f77 -c -g -O2 conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 conftest.f90 -fstack-protector
+[*] f77 -c -g -O2 -fPIC conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 -fPIC conftest.f90 -fstack-protector
+[*] f77 -o conftest -g -O2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -static conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -g -O2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -static conftest.f90 -fstack-protector
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir conftest
+<.> /bin/mkdir -p conftest
+[*] /usr/pkgsrc/category/samurai/work/.tools/bin/mkdir out
+<.> /bin/mkdir -p out
+[*] f77 -c -g -O2 -o out/conftest2.o conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -c -g -O2 -o out/conftest2.o conftest.f90 -fstack-protector
+[*] f77 -V
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -V -fstack-protector
+[*] f77 -o conftest -g -O2 -Wl,-z,relro -Wl,-z,now -Wl,-R/usr/pkg/lib -Wl,-rpath -Wl,/foo conftest.f90
+<.> /usr/pkgsrc/category/samurai/work/.gcc/bin/gfortran -m64 -o conftest -g -O2 -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib conftest.f90 -fstack-protector

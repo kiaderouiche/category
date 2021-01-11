@@ -1,0 +1,14 @@
+TR yield calculation  for  ATLAS              all data are in mkm (1e-3 mm)
++-----+-----+-----+-----+L rad+Nfoil+Dfoil+-----+-----+-----+-----+-----+
+ SET  :BAREL:    1*1.   :    0*0.        0*0.        0*0.        0*0.
+ BLOCK:NORMAL    1.    1.    1.           :
+ ELEM :RADIA:PPROP+AIR  :307e3.  150*62   :model of straw TRD with foam ?
+      :WALL :MYLAR      :    0.05         :
+      :CHAMB:XE         :2.2e4.           :
+      :WALL :MYLAR      :    0.05         :
+ THRES:     :  3.0   3.5   4.0   4.5   5.0   5.5   6.0   6.5             
+ ENERG:     :  0.5   500  .005                                            
+ GAMMA:     :   -1                                                       
++-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+ VAR  : G-1 :  5e2|  1e3|  3e3|  6e3| 8e3 |  1e4|  2e4|  4e4|     |     |  
+ END  : OF EXAMPLE

@@ -1,0 +1,10 @@
+# Module dependencies
+amp6.o: mtopo6.o
+amp6.lo: mtopo6.lo
+amp6.obj: mtopo6.obj
+mtopo6.o: vars.o
+mtopo6.lo: vars.lo
+mtopo6.obj: vars.obj
+process.o: amp6.o rambo.o vars.o
+process.lo: amp6.lo rambo.lo vars.lo
+process.obj: amp6.obj rambo.obj vars.obj
