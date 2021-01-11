@@ -1,12 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	samurai-2.1.1
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	http://www.hepforge.org/archive/samurai/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.hepforge.org/archive/samurai/
-COMMENT=	TODO: Short description of the package
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://samurai.hepforge.org/
+COMMENT=	Scattering AMplitudes from Unitarity-based Reduction Algorithm
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GNU_CONFIGURE=	yes
