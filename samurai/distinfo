@@ -4,3 +4,4 @@ SHA1 (samurai-2.1.1.tar.gz) = 96f48ae9538233c1595a2f7722bcf34bfbc853d3
 RMD160 (samurai-2.1.1.tar.gz) = dc4e8c3146b0f6906aa6ceab75f624852b41cdfb
 SHA512 (samurai-2.1.1.tar.gz) = 5ee7237ec42118466be9d238d2efb2b7f71b1256faf21784be45cd685964d725d69bdd6860440486fbf8e48bb56203dc9214ef9acf9b557f876da99477d8b952
 Size (samurai-2.1.1.tar.gz) = 1476077 bytes
+SHA1 (patch-configure) = b59e6216ce246b9ad2afaa890bf120e97022e262

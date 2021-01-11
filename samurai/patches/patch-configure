@@ -1,0 +1,130 @@
+$NetBSD$
+
+--- configure.orig	2011-12-01 14:25:54.000000000 +0000
++++ configure
+@@ -17479,14 +17479,14 @@ fi
+ 
+ 
+ LIBAVHOLO=
+-if test "x$with_avh_olo" == xauto; then :
++if test "x$with_avh_olo" = xauto; then :
+   LIBAVHOLO="-L${libdir} -lavh_olo"
+ 
+ 
+ $as_echo "#define HAVE_AVH 1" >>confdefs.h
+ 
+ 
+-elif test "x$with_avh_olo" == xyes; then :
++elif test "x$with_avh_olo" = xyes; then :
+   LIBAVHOLO="-L${libdir} -lavh_olo"
+ 
+ 
+@@ -17529,7 +17529,7 @@ fi
+ 
+ fi
+ 
+- if test "x$with_avh_olo" == xyes \
++ if test "x$with_avh_olo" = xyes \
+ 			 -o "x$with_avh_olo" == xauto; then
+   COMPILE_AVH_TRUE=
+   COMPILE_AVH_FALSE='#'
+@@ -17594,7 +17594,7 @@ fi
+ 
+ 
+ 
+- if test "x$with_qcdloop" == xyes -o "x$with_qcdloop" = xauto; then
++ if test "x$with_qcdloop" = xyes -o "x$with_qcdloop" = xauto; then
+   COMPILE_QL_TRUE=
+   COMPILE_QL_FALSE='#'
+ else
+@@ -17604,13 +17604,13 @@ fi
+ 
+ 
+ LIBQCDLOOP=
+-if test "x$with_qcdloop" == xauto; then :
++if test "x$with_qcdloop" = xauto; then :
+   LIBQCDLOOP="-L${libdir} -lqcdloop"
+ 
+ 
+ $as_echo "#define HAVE_QL 1" >>confdefs.h
+ 
+-elif test "x$with_qcdloop" == xyes; then :
++elif test "x$with_qcdloop" = xyes; then :
+   LIBQCDLOOP="-L${libdir} -lqcdloop"
+ 
+ 
+@@ -17653,9 +17653,9 @@ fi
+ fi
+ 
+ LIBLOOPTOOLS=
+-if test "x$with_looptools" == xauto; then :
++if test "x$with_looptools" = xauto; then :
+ 
+-elif test "x$with_looptools" == xyes; then :
++elif test "x$with_looptools" = xyes; then :
+   LIBLOOPTOOLS="-looptools"
+ 
+ 
+@@ -17746,9 +17746,9 @@ fi
+ 
+ 
+ LIBGOLEM=
+-if test "x$with_golem" == xauto; then :
++if test "x$with_golem" = xauto; then :
+ 
+-elif test "x$with_golem" == xyes; then :
++elif test "x$with_golem" = xyes; then :
+   LIBGOLEM="`pkg-config --libs golem95`"
+ 
+ 
+@@ -17793,7 +17793,7 @@ fi
+ 
+ GOLEMCFLAGS=
+ if test "x$with_golem" != xno -a "x$with_golem" != xauto; then :
+-  if test "x$with_golem_cflags" == xauto; then :
++  if test "x$with_golem_cflags" = xauto; then :
+   GOLEM_CFLAGS="`pkg-config --cflags golem95`"
+ 
+ else
+@@ -17831,16 +17831,16 @@ else
+ fi
+ 
+ 
+-if test "x$with_precision" == xquadruple; then :
++if test "x$with_precision" = xquadruple; then :
+   fortran_real_kind="selected_real_kind(32,50)"
+ 
+-elif test "x$with_precision" == xquad; then :
++elif test "x$with_precision" = xquad; then :
+   fortran_real_kind="selected_real_kind(32,50)"
+ 
+-elif test "x$with_precision" == xdouble; then :
++elif test "x$with_precision" = xdouble; then :
+   fortran_real_kind="kind(1.0d0)"
+ 
+-elif test "x$with_precision" == xintermediate; then :
++elif test "x$with_precision" = xintermediate; then :
+   fortran_real_kind="selected_real_kind(18,4931)"
+ 
+ else
+@@ -17860,16 +17860,16 @@ else
+ fi
+ 
+ 
+-if test "x$with_avh_olo_precision" == xquadruple; then :
++if test "x$with_avh_olo_precision" = xquadruple; then :
+   avh_olo_real_kind="selected_real_kind(32,50)"
+ 
+-elif test "x$with_avh_olo_precision" == xquad; then :
++elif test "x$with_avh_olo_precision" = xquad; then :
+   avh_olo_real_kind="selected_real_kind(32,50)"
+ 
+-elif test "x$with_avh_olo_precision" == xdouble; then :
++elif test "x$with_avh_olo_precision" = xdouble; then :
+   avh_olo_real_kind="kind(1.0d0)"
+ 
+-elif test "x$with_precision" == xintermediate; then :
++elif test "x$with_precision" = xintermediate; then :
+   avh_olo_real_kind="selected_real_kind(18,4931)"
+ 
+ else

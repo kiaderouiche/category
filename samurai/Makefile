@@ -10,8 +10,9 @@ COMMENT=	Scattering AMplitudes from Unitarity-based Reduction Algorithm
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config
-USE_LANGUAGES=	fortran
+USE_LIBTOOL=	yes
+USE_TOOLS+=	perl pkg-config
+USE_LANGUAGES=	c fortran
 
 PKGCONFIG_OVERRIDE+=	samurai.pc.in
 
