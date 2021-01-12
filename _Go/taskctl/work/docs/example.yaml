@@ -1,0 +1,163 @@
+tasks:
+  task1:
+    context: local # optional. "local" is context by default
+    description: "Optional description for task1"
+    command:
+      - echo ${ARGS} # ARGS is populated by arguments passed to task. eg. taskctl run task task1 -- arg1 arg2
+      - echo {{ .Args | default 'some value' }} # .Args is populated by arguments passed to task. eg. taskctl run task task1 -- arg1 arg2
+      - echo "My name is task1"
+      - echo ${VAR_NAME_1} - ${VAR_NAME_2}
+      - echo {{ .TaskName }}
+      - pwd
+    env:
+      VAR_NAME: VAR_VALUE
+    variations:
+      - VAR_NAME_1: VARIATION_1
+        VAR_NAME_2: VARIATION_1
+      - VAR_NAME_1: VARIATION_2
+        VAR_NAME_2: VARIATION_2
+    dir: {{ .Root }}/task/working/dir # current directory by default
+    timeout: 10s
+    before: mkdir some-dir
+    after: rm -rf some-dir
+    exportAs: TASK1_STORED_OUTPUT
+    condition: git diff --exit-code
+
+  task2:
+    context: docker-context-name
+    command:
+      - echo "Hello from container"
+      - sleep {{ .sleep }}
+    env:
+      VAR_NAME: VAR_VALUE
+    variables:
+      sleep: 10
+
+  task3:
+    context: docker-compose-context-name # local is default context
+    command:
+      - echo "Hello from container created by docker-compose"
+      - echo ${TASK1_STORED_OUTPUT}
+    env:
+      VAR_NAME: VAR_VALUE
+
+  task4:
+    context: kubectl
+    command:
+      - echo "I'm task4"
+      - env
+      - uname -a
+
+  task-to-be-triggered-by-watcher:
+    command:
+      - echo ${EVENT_NAME} ${EVENT_PATH}
+
+  task-with-variations:
+    command:
+      - GOOS=${GOOS} GOARCH=amd64 go build -o bin/binary_${GOOS} ./...
+    variations:
+      - GOOS: linux
+      - GOOS: darwin
+      - GOOS: windows
+
+  test-watch-task:
+    command:
+      - echo TASK1 $EVENT_NAME $EVENT_PATH
+
+  test-watch-task-2:
+    command:
+      - echo TASK1 $EVENT_NAME $EVENT_PATH
+
+pipelines:
+  pipeline1:
+    - task: task1
+      dir: /tmp
+      condition: git diff --exit-code
+
+    - name: some-stage-name
+      task: task2
+      depends_on: task1
+      allow_failure: true
+
+    - task: task3
+      depends_on: task1 # task2 and task3 will run in parallel when task1 finished
+      variables:
+        sleep: 30
+
+    - task: task4
+      depends_on: [task1, some-stage-name]
+      env:
+        VAR_NAME: VAR_VALUE # overrides task env
+
+watchers:
+  watcher1:
+    watch: ["README.*", "pkg/**/*.go"]
+    events: [create, write, remove, rename, chmod]
+    task: task1
+
+  test-watcher:
+    events: ["write", "rename"]
+    watch: ["docker-compose.yaml"]
+    task: test-watch-task
+
+  test-watcher-2:
+    events: ["write", "rename", "create"]
+    watch: ["*.yaml"]
+    task: test-watch-task-2
+
+  test-watcher-3:
+    events: ["write", "rename", "create"]
+    watch: ["*.md", "internal/**/*.go"]
+    exclude: "LICENSE.md"
+    task: test-watch-task-2
+
+contexts:
+  local: # will be created automatically if not set
+    executable:
+      bin: /bin/zsh
+      args:
+        - -c
+    env:
+      VAR_NAME: VAR_VALUE
+    quote: "'"
+    before: echo "SOME COMMAND TO RUN BEFORE EVERY TASK"
+    after: echo "SOME COMMAND TO RUN WHEN TASK FINISHED SUCCESSFULLY"
+
+  docker-context:
+    executable:
+      bin: /usr/local/bin/docker
+      args:
+        - run
+        - --rm
+        - alpine:latest
+    env:
+      DOCKER_HOST: "tcp://0.0.0.0:2375"
+    before: echo "SOME COMMAND TO RUN BEFORE TASK"
+    after: echo "SOME COMMAND TO RUN WHEN TASK FINISHED SUCCESSFULLY"
+
+  docker-compose-context:
+    dir: /app
+    executable:
+      bin: /usr/local/bin/docker-compose
+      args:
+        - run
+        - --rm
+        - api
+    env:
+      COMPOSE_FILE: /app/docker-compose-alternate.yaml
+    up: docker-compose up -d --build --force-recreate api # Executes once before first context usage
+    down: docker-compose down api # Executes once when all tasks done
+
+  kubectl:
+    executable:
+      bin: /usr/local/bin/kubectl
+      args:
+        - exec
+        - -n stage
+        - pod-name
+    env:
+      KUBECONFIG: "$HOME/.kube/alternate-config"
+
+debug: true # debug enabled by default. To temporary disable run with "--debug=false" flag
+output: prefixed # raw, prefixed, cockpit
+summary: true # show summary by default
