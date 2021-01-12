@@ -9,7 +9,7 @@ DIST_SUBDIR=	${GITHUB_PROJECT}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://gource.io/
-COMMENT=	software version control visualization
+COMMENT=	Software version control visualization
 LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes
@@ -20,7 +20,7 @@ REPLACE_PERL+=  scripts/gource-ps.pl
 
 #CONFIGURE_ARGS+=  --enable-ttf-font-dir
 
-BUILDLINK_API_DEPENDS.boost-libs+=      boost-libs-1.73.*
+#BUILDLINK_API_DEPENDS.boost-libs+=      boost-libs-1.73.*
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/SDL2_image/buildlink3.mk"
