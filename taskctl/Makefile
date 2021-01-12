@@ -1,17 +1,19 @@
 # $NetBSD$
 
-GITHUB_PROJECT=	taskctl
 DISTNAME=	taskctl-1.3.0
-CATEGORIES=	category
+GITHUB_PROJECT=	taskctl
+GITHUB_TAG=	v{PKGVERSION_NOREV}
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=taskctl/}
-GITHUB_RELEASE=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/taskctl/taskctl/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR} # TODO: one of autocomplete cmd docs internal pkg, or leave it as-is
-USE_LANGUAGES=	# none
 
+GO_DIST_BASE=	${DISTNAME}
+GO_SRCPATH=	github.com/taskctl/${GITHUB_PROJECT}
+
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
