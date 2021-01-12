@@ -8,7 +8,13 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=c/cogent3/}
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/cogent3/cogent3
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	2-clause-bsd
 
-# url2pkg-marker (please do not remove this line.)
+
+DEPENDS+=               ${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
+DEPENDS+=               ${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
+DEPENDS+=               ${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
+DEPENDS+=               ${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
+
+ .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
