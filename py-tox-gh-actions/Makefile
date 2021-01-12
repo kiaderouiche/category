@@ -10,6 +10,7 @@ HOMEPAGE=	https://github.com/ymyzk/tox-gh-actions
 COMMENT=	Seamless integration of tox into GitHub Actions
 LICENSE=	mit
 
+DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	${PYPKGPREFIX}-pluggy>=0.13.1:../../devel/py-pluggy
 DEPENDS+=	${PYPKGPREFIX}-tox>=3.20.1:../../devel/py-tox
 
