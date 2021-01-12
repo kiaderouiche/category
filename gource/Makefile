@@ -25,6 +25,7 @@ REPLACE_PERL+=  scripts/gource-ps.pl
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/SDL2_image/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
+
 .include "../../graphics/glu/buildlink3.mk"
 BUILDLINK_API_DEPENDS.png+=	png>=1.2.4
 .include "../../graphics/png/buildlink3.mk"
