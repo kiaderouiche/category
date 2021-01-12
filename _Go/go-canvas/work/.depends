@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	pax>=20040802	../../archivers/pax
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	go115-1.15.5*	../../lang/go115
-build	go-freetype>=20170609	../../wip/go-freetype
-build	go-image>=20170405	../../graphics/go-image
-build	go-text>=0.3.0	../../textproc/go-text
-build	cwrappers>=20150314	../../pkgtools/cwrappers

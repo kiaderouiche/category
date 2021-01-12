@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/encoding/unicode/unicode_test.go

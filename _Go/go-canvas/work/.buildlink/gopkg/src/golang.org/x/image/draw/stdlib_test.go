@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/image/draw/stdlib_test.go

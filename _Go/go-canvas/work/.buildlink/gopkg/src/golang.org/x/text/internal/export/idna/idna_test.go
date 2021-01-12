@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/internal/export/idna/idna_test.go

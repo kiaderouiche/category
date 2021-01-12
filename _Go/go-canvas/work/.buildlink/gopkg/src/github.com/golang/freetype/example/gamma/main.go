@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/golang/freetype/example/gamma/main.go
