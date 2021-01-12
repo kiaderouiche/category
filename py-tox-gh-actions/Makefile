@@ -6,9 +6,10 @@ CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=t/tox-gh-actions/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/bc/1b/a765373bda256983a9aa4e31af27193a5aa68a5257872fa724d8ebb80130/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://github.com/ymyzk/tox-gh-actions
+COMMENT=	Seamless integration of tox into GitHub Actions
 LICENSE=	mit
+
 
 
 .include "../../lang/python/egg.mk"
