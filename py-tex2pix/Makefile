@@ -2,7 +2,7 @@
 
 DISTNAME=	tex2pix-0.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	print python
 MASTER_SITES=	${MASTER_SITE_PYPI:=t/tex2pix/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
