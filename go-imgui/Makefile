@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-imgui-3.0.0
 GITHUB_PROJECT=	imgui-go
-GITHUB_TAG=	v2.5.0
-DISTNAME=	v2.5.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_GITHUB:=inkyblackness/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/inkyblackness/imgui-go/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/imgui-go-2.5.0
-USE_LANGUAGES=	c++
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/inkyblackness/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
