@@ -14,5 +14,7 @@ COMMENT=	TODO: Short description of the package
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/inkyblackness/${GITHUB_PROJECT}
 
+USE_LANGUAGES=	c c++
+
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
