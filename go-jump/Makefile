@@ -4,14 +4,15 @@ DISTNAME=	go-jump-20170409
 GITHUB_PROJECT=	go-jump
 GITHUB_TAG=	e1f4396
 CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=dgryski//}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/kiaderouiche/go-jump/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	https://github.com/dgryski/go-jump
+COMMENT=	Port of Google's Jump Consistent Hash function
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/go-jump-e1f439676b570800a863c37b78d1f868f51a85fc
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=	github.com/dgryski/go-jump
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
