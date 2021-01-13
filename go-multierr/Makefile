@@ -8,8 +8,8 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=uber-go/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://go.uber.org/multierr
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Combine one or more Go errors together 
+LICENSE=	mit
 
 WRKSRC=		${WRKDIR}/multierr-1.6.0
 USE_LANGUAGES=	# none
