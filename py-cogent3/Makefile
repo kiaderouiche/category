@@ -11,11 +11,12 @@ COMMENT=	COmparative GENomics Toolkit 3
 LICENSE=	2-clause-bsd
 
 
-DEPENDS+=               ${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
-DEPENDS+=               
-${PYPKGPREFIX}-tox-gh-actions>=2.3.0:../../wip/py-tox-gh-actions
-DEPENDS+=               ${PYPKGPREFIX}-tox>=1.12.43:../../devel/py-tox
-DEPENDS+=               ${PYPKGPREFIX}-psutil>=1.12.43:../../devel/py-psutil
+DEPENDS+=               ${PYPKGPREFIX}-tox>=3.20.1:../../devel/py-tox
+DEPENDS+=               ${PYPKGPREFIX}-Pillow>=6.2.2:../../graphics/py-Pillow
+DEPENDS+=               ${PYPKGPREFIX}-numba>=0.51.22:../../math/py-scipy
+#DEPENDS+=               ${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
+DEPENDS+=               ${PYPKGPREFIX}-psutil>=5.7.3:../../sysutils/py-psutil
 
- .include "../../lang/python/egg.mk"
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
