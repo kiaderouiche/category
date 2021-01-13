@@ -2,16 +2,17 @@
 
 DISTNAME=	go-ffmpeg-0.5.0
 GITHUB_PROJECT=	goffmpeg
-CATEGORIES=	category
+CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_GITHUB:=xfrr/}
 GITHUB_TAG=	${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/xfrr/goffmpeg/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+#LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/goffmpeg-0.5.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/xfrr/goffmpeg
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
