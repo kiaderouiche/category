@@ -8,8 +8,8 @@ GITHUB_TAG=	${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/xfrr/goffmpeg/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	mit
+COMMENT=	FFMPEG wrapper written in GO 
+LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/xfrr/goffmpeg
