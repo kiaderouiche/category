@@ -3,10 +3,10 @@
 DISTNAME=	go-jump-20170409
 GITHUB_PROJECT=	go-jump
 GITHUB_TAG=	e1f4396
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/kiaderouiche/go-jump/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
