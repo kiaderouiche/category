@@ -14,6 +14,7 @@ LICENSE=	apache-2.0
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/smallnest/rpcx
 
+.include "../../devel/go-ratelimit/buildlink3.mk"
 .include "../../devel/go-thrift/buildlink3.mk"
 .include "../../wip/go-color/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
