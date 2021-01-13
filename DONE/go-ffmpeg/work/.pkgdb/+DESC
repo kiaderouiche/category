@@ -1,0 +1,4 @@
+FFMPEG wrapper written in GO which allows to obtain the progress
+
+Homepage:
+https://github.com/xfrr/goffmpeg/

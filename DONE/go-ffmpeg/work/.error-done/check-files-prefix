@@ -1,0 +1,16 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/xfrr/goffmpeg/ffmpeg.a
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/xfrr/goffmpeg/models.a
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/xfrr/goffmpeg/transcoder.a
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/xfrr/goffmpeg/utils.a
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/ffmpeg/ffmpeg.go
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/go.mod
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/go.sum
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/LICENSE
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/models/media.go
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/models/models.go
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/README.md
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/tests/transcoding_test.go
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/transcoder/transcoder.go
+        /usr/pkgsrc/category/go-ffmpeg/work/.destdir/usr/pkg/gopkg/src/github.com/xfrr/goffmpeg/utils/utils.go
