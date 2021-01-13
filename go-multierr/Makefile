@@ -11,7 +11,8 @@ HOMEPAGE=	https://go.uber.org/multierr
 COMMENT=	Combine one or more Go errors together 
 LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/multierr-1.6.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/uber-go/multierr/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
