@@ -15,5 +15,6 @@ GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/golangci/golangci-lint
 
 .include "../../devel/go-testify/buildlink3.mk"
+.include "../../wip/go-color/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
