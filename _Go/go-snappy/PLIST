@@ -1,0 +1,25 @@
+@comment $NetBSD$
+bin/snappytool
+gopkg/pkg/${GO_PLATFORM}/github.com/golang/snappy.a
+gopkg/src/github.com/golang/snappy/AUTHORS
+gopkg/src/github.com/golang/snappy/CONTRIBUTORS
+gopkg/src/github.com/golang/snappy/LICENSE
+gopkg/src/github.com/golang/snappy/README
+gopkg/src/github.com/golang/snappy/cmd/snappytool/main.go
+gopkg/src/github.com/golang/snappy/decode.go
+gopkg/src/github.com/golang/snappy/decode_amd64.s
+gopkg/src/github.com/golang/snappy/decode_arm64.s
+gopkg/src/github.com/golang/snappy/decode_asm.go
+gopkg/src/github.com/golang/snappy/decode_other.go
+gopkg/src/github.com/golang/snappy/encode.go
+gopkg/src/github.com/golang/snappy/encode_amd64.s
+gopkg/src/github.com/golang/snappy/encode_arm64.s
+gopkg/src/github.com/golang/snappy/encode_asm.go
+gopkg/src/github.com/golang/snappy/encode_other.go
+gopkg/src/github.com/golang/snappy/go.mod
+gopkg/src/github.com/golang/snappy/golden_test.go
+gopkg/src/github.com/golang/snappy/misc/main.cpp
+gopkg/src/github.com/golang/snappy/snappy.go
+gopkg/src/github.com/golang/snappy/snappy_test.go
+gopkg/src/github.com/golang/snappy/testdata/Mark.Twain-Tom.Sawyer.txt
+gopkg/src/github.com/golang/snappy/testdata/Mark.Twain-Tom.Sawyer.txt.rawsnappy

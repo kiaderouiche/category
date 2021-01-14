@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (golangci-lint-1.34.1.tar.gz) = 673c8c4577a2c796a39d6ba55514c91099ccecc9
-RMD160 (golangci-lint-1.34.1.tar.gz) = c6ebf1ed84ed4431ca9089afdd3d6fc7f40012db
-SHA512 (golangci-lint-1.34.1.tar.gz) = 6adeeeaf7eb2a33b659a35d5a123af0272769b646c4767d47a5e2d9600b4cff3360e7026e388dca6a1f5fb3bae479ffc5c28dc35e2d5c56d4a0ff29e81c3e098
-Size (golangci-lint-1.34.1.tar.gz) = 1507264 bytes

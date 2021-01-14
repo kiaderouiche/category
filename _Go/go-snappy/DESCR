@@ -1,0 +1,3 @@
+The golang/snappy benchmarks include compressing (Z)
+and decompressing (U) ten or so files, the same set
+used by the C++ Snappy code.
