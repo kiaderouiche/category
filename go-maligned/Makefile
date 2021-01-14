@@ -3,15 +3,16 @@
 DISTNAME=	go-maligned-20180606
 GITHUB_PROJECT=	maligned
 GITHUB_TAG=	b1d8939
-CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=golangci/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/kiaderouiche/maligned/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/golangci/maligned
+COMMENT=	Tool to detect Go structs that would take less memory
+LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/maligned-b1d89398deca2fd3f8578e5a9551e819bd01ca5f
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=     https://github.com/golangci/maligned
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
