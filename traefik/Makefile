@@ -12,5 +12,7 @@ HOMEPAGE=	https://github.com/traefik/traefik/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR} # TODO: one of docs server cmd healthcheck examples rules provider metrics contrib vendor collector integration middlewares job testhelpers tls whitelist static script api configuration version acme autogen webui templates h2c ping safe log types cluster hostresolver anonymize, or leave it as-is
+USE_TOOLS+=	gmake
+
 .include "../../mk/bsd.pkg.mk"
