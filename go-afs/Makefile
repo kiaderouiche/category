@@ -11,7 +11,8 @@ HOMEPAGE=	https://github.com/viant/afs/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/afs-1.6.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/viant/afs
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
