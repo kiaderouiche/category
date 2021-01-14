@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/lif/sys_solaris_amd64.s

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/unix/syscall_darwin_arm64.1_11.go

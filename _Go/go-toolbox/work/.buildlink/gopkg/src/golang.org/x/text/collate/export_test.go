@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/collate/export_test.go

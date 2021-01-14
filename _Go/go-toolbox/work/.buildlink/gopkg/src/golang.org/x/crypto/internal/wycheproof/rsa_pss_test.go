@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/internal/wycheproof/rsa_pss_test.go

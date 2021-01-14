@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/internal/socket/cmsghdr_linux_32bit.go

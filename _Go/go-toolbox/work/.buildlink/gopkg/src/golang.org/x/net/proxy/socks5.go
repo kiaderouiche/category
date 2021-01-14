@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/proxy/socks5.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/otr/libotr_test_helper.c

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/icmp/ipv4_test.go

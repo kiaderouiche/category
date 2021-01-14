@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/unix/zsysnum_darwin_amd64.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/ipv6/zsys_aix_ppc64.go

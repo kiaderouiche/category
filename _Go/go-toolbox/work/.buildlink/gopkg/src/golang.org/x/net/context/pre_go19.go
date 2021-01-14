@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/context/pre_go19.go

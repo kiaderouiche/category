@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/md4/example_test.go

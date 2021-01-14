@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/cast5/cast5.go

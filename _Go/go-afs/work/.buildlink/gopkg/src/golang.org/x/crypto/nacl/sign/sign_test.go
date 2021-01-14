@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/nacl/sign/sign_test.go

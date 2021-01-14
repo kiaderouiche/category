@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/windows/svc/mgr/mgr_test.go

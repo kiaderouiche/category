@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/bn256/optate.go

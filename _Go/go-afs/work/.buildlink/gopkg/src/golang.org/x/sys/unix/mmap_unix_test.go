@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/unix/mmap_unix_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/unix/dev_aix_ppc64.go

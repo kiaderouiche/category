@@ -1,5 +1,0 @@
-- Add presign option on GCS (done on s3)
-- Added http proxy support on S3 (done os GCS)
-- Add content meta support on GCS (done on s3)
-- Add google drive
-- Add other cloud vendors

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/http2/hpack/hpack_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/unix/getdirentries_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/oauth2/google/example_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/windows/types_windows_amd64.go
