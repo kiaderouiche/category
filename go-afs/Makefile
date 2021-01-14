@@ -14,5 +14,7 @@ COMMENT=	TODO: Short description of the package
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/viant/afs
 
+.include "../../devel/go-errors/buildlink3.mk"
+.include "../../security/go-crypto/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
