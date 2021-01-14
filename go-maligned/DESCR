@@ -1,9 +1,2 @@
-TODO: Adjust the following lines from README
-
-Install:
-
-    go get github.com/mdempsky/maligned
-
-Usage:
-
-    maligned cmd/compile/internal/gc cmd/link/internal/ld
+Tool to detect Go structs that would take
+ less memory if their fields were sorted. 

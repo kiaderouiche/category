@@ -1,4 +1,5 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+gopkg/pkg/${GO_PLATFORM}/https:/github.com/golangci/maligned.a
+gopkg/src/https:/github.com/golangci/maligned/LICENSE
+gopkg/src/https:/github.com/golangci/maligned/README
+gopkg/src/https:/github.com/golangci/maligned/maligned.go
