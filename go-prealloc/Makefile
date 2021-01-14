@@ -3,15 +3,15 @@
 DISTNAME=	go-prealloc-20180630
 GITHUB_PROJECT=	prealloc
 GITHUB_TAG=	215b22d
-CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=golangci/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/kiaderouiche/prealloc/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/golangci/prealloc
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/prealloc-215b22d4de21190b80ce05e7d8466677c1aa3223
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=	https://github.com/chris-ramon/douceur
 
 .include "../../mk/bsd.pkg.mk"
