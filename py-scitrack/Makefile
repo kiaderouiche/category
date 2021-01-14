@@ -1,12 +1,13 @@
 # $NetBSD$
 
 DISTNAME=	scitrack-2020.6.5
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/scitrack/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/72/33/ad9c5271d769215acbc39fbf17e60352415eca9f40c72ce0256633010543/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://github.com/HuttleyLab/scitrack
+COMMENT=	One of the critical challenges in scientific analysis is to track all the elements involved
 #LICENSE=	# TODO: (see mk/license.mk)
 
 
