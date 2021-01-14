@@ -12,6 +12,7 @@ COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
-GO_SRCPATH=	https://github.com/chris-ramon/douceur
+GO_SRCPATH=	https://github.com/golangci/prealloc
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
