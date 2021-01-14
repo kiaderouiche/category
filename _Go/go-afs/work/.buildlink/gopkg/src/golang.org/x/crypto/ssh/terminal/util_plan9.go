@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/ssh/terminal/util_plan9.go

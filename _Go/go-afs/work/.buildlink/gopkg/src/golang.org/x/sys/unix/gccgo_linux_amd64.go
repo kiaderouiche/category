@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/unix/gccgo_linux_amd64.go

@@ -1,0 +1,12 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	pax>=20040802	pax-20080110nb4
+tool	checkperms>=1.1	checkperms-1.12
+build	go115-1.15.5*	go115-1.15.5
+build	go-errors>=0.6.0	go-errors-0.8.0nb21
+build	go-crypto>=0.0.20200122	go-crypto-0.0.20200122nb4
+build	go-sys>=0.0.20180101	go-sys-0.0.20200202nb9
+build	go-oauth2>=20150310	go-oauth2-20151204nb32
+build	go-text>=0.3.0	go-text-0.3.3nb2
+build	gcloud-golang-metadata>=20150310	gcloud-golang-metadata-20150310nb34
+build	go-net>=20200130	go-net-20200130nb9
+build	cwrappers>=20150314	cwrappers-20180325

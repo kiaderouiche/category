@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/currency/query_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/pkg/errors/stack_test.go

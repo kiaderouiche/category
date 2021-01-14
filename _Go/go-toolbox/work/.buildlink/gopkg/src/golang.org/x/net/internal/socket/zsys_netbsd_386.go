@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/net/internal/socket/zsys_netbsd_386.go

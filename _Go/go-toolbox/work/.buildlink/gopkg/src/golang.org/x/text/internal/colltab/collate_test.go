@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/internal/colltab/collate_test.go
