@@ -17,5 +17,9 @@ GO_SRCPATH=	github.com/mrtazz/checkmake
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
+#do-install:
+#	${INSTALL_PROGRAM} ${WRKDIR}/bin/checkmake ${DESTDIR}${PREFIX}/bin
+
+#.include "../../devel/go-testify/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
