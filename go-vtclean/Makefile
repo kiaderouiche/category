@@ -6,12 +6,13 @@ GITHUB_TAG=	54bb1ba73a3e731f867d4aafb0a145959c7d4e4f
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=lunixbochs/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/lunixbochs/vtclean/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Strips terminal escapes from text can preserve color
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/vtclean-54bb1ba73a3e731f867d4aafb0a145959c7d4e4f
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	https://github.com/lunixbochs/vtclean
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
