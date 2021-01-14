@@ -1,26 +1,21 @@
 # $NetBSD$
 
-PKGNAME=	${GITHUB_PROJECT}-0.1.0
-DISTNAME=	${GITHUB_PROJECT}-${GITHUB_TAG}
+DISTNAME=	checkmake-20200922
+PKGNAME=	go-${DISTNAME}
+GITHUB_PROJECT=	checkmake
+GITHUB_TAG=	575315c9924da41534a9d0ce91c3f0d19bb53ffc
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=mrtazz/}
-GITHUB_PROJECT=	checkmake
-GITHUB_TAG=	${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mrtazz/checkmake/
-COMMENT=	Experimental linter/analyzer for Makefiles
-LICENSE=	mit
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
 
-GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=	github.com/mrtazz/checkmake/
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/mrtazz/checkmake
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
-do-install:
-	${INSTALL_PROGRAM} ${WRKDIR}/bin/mailsend-go ${DESTDIR}${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/docs/mailsend-go.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
-
-#.include "../../converters/pandoc/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
