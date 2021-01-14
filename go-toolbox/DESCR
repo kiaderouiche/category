@@ -1,0 +1,5 @@
+This library was developed as part of Datastore
+Connectivity and Testibility libraries: (Assertly,
+Datastore testing, End to end testing) as a way to
+share utilities, and other abstractions that may be
+useful in other projects
