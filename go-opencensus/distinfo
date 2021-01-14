@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (go-opencensus-0.22.5.tar.gz) = 6c3138211084c558e49b378cce7fe53892b9215a
+RMD160 (go-opencensus-0.22.5.tar.gz) = 6b3670837540a39f9927855a24eb817106bd3de5
+SHA512 (go-opencensus-0.22.5.tar.gz) = 6e7e2843de2c34c7b9f9a0d12d1fd3e621bb85f288f8a321b440cc3c0a721aaeb79d51d6a037ee9b6d3c9e31b9069ea83a7eb555891b7a5e415ed6fdc3f7e01c
+Size (go-opencensus-0.22.5.tar.gz) = 171403 bytes
