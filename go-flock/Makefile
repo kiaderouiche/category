@@ -3,15 +3,16 @@
 DISTNAME=	go-flock-0.8.0
 GITHUB_PROJECT=	flock
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gofrs/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/gofrs/flock/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Thread-safe file locking library in Go
+LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/flock-0.8.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/shurcooL/githubv4
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
