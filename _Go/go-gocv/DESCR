@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# GoCV
+
+[![GoCV](https://raw.githubusercontent.com/hybridgroup/gocv/release/images/gocvlogo.jpg)](http://gocv.io/)
+
+[![GoDoc](https://godoc.org/gocv.io/x/gocv?status.svg)](https://godoc.org/github.com/hybridgroup/gocv)
+[![CircleCI Build status](https://circleci.com/gh/hybridgroup/gocv/tree/dev.svg?style=svg)](https://circleci.com/gh/hybridgroup/gocv/tree/dev)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/9asd5foet54ru69q/branch/dev?svg=true)](https://ci.appveyor.com/project/deadprogram/gocv/branch/dev)
+[![codecov](https://codecov.io/gh/hybridgroup/gocv/branch/dev/graph/badge.svg)](https://codecov.io/gh/hybridgroup/gocv)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hybridgroup/gocv)](https://goreportcard.com/report/github.com/hybridgroup/gocv)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hybridgroup/gocv/blob/release/LICENSE.txt)
+
+The GoCV package provides Go language bindings for the [OpenCV 4](http://opencv.org/) computer vision library.
+
+The GoCV package supports the latest releases of Go and OpenCV (v4.5.0) on Linux, macOS, and Windows. We intend to make the Go language a "first-class" client compatible with the latest developments in the OpenCV ecosystem.
+
+GoCV supports [CUDA](https://en.wikipedia.org/wiki/CUDA) for hardware acceleration using Nvidia GPUs. Check out the [CUDA README](./cuda/README.md) for more info on how to use GoCV with OpenCV/CUDA.
+
+GoCV also supports [Intel OpenVINO](https://software.intel.com/en-us/openvino-toolkit). Check out the [OpenVINO README](./openvino/README.md) for more info on how to use GoCV with the Intel OpenVINO toolkit.
+
+## How to use
+...
