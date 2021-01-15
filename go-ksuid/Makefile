@@ -7,7 +7,7 @@ CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=segmentio/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/segmentio/ksuid/
+HOMEPAGE=	https://segment.com/blog/a-brief-history-of-the-uuid/
 COMMENT=	K-Sortable Globally Unique IDs
 #LICENSE=	# TODO: (see mk/license.mk)
 
