@@ -11,5 +11,8 @@ HOMEPAGE=	https://github.com/segmentio/ksuid/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/segmentio/ksuid
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
