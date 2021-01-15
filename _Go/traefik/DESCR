@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+
+<p align="center">
+<img src="docs/img/traefik.logo.png" alt="Traefik" title="Traefik" />
+</p>
+
+[![Build Status SemaphoreCI](https://semaphoreci.com/api/v1/containous/traefik/branches/master/shields_badge.svg)](https://semaphoreci.com/containous/traefik)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://doc.traefik.io/traefik/v1.7)
+[![Go Report Card](https://goreportcard.com/badge/traefik/traefik)](http://goreportcard.com/report/traefik/traefik)
+[![](https://images.microbadger.com/badges/image/traefik.svg)](https://microbadger.com/images/traefik)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/traefik/traefik/blob/master/LICENSE.md)
+[![Join the chat at https://slack.traefik.io](https://img.shields.io/badge/style-register-green.svg?style=social&label=Slack)](https://slack.traefik.io)
+[![Twitter](https://img.shields.io/twitter/follow/traefik.svg?style=social)](https://twitter.com/intent/follow?screen_name=traefik)
+
+
+Traefik is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy.
+Traefik integrates with your existing infrastructure components ([Docker](https://www.docker.com/), [Swarm mode](https://docs.docker.com/engine/swarm/), [Kubernetes](https://kubernetes.io), [Marathon](https://mesosphere.github.io/marathon/), [Consul](https://www.consul.io/), [Etcd](https://coreos.com/etcd/), [Rancher](https://rancher.com), [Amazon ECS](https://aws.amazon.com/ecs), ...) and configures itself automatically and dynamically.
+Pointing Traefik at your orchestrator should be the _only_ configuration step you need.
+
+---
+
+...

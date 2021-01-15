@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Gosl - Go scientific library
+
+Gosl is a set of tools for developing scientific simulations using the Go language. We mainly consider the development of numerical methods and solvers for differential equations but also present some functions for fast Fourier transforms, the generation of random numbers, probability distributions, and computational geometry.
+
+This library contains essential functions for linear algebra computations (operations between all combinations of vectors and matrices, eigenvalues and eigenvectors, linear solvers) and the development of numerical methods (e.g. numerical quadrature).
+
+We link Gosl with existent libraries written in C and Fortran, such as OpenBLAS, LAPACK, UMFPACK, MUMPS, QUADPACK and FFTW3. These existing libraries have been fundamental for the development of high-performant simulations over many years. We believe that it is nearly impossible to rewrite these libraries in native Go and at the same time achieve the same speed delivered by them. Just for reference, a naive implementation of matrix-matrix multiplication in Go is more than 100 times slower than OpenBLAS.
+
+## Installation
+
+Because of other (awesome) libraries, the easiest way to work with Gosl is via Docker. Having Docker and VS Code installed, you can start developing powerful numerical simulations using Gosl in a matter of minutes. Furthermore, the best part of it is that it works on Windows, Linux, and macOS out of the box.
+
+### Containerized (recommended)
+
+1. Install Docker
+2. Install Visual Studio Code
+3. Install the Remote Development extension for VS Code
+4. Clone https://github.com/cpmech/hello-gosl
+5. Create your application within a container (see gif below)
+
+...

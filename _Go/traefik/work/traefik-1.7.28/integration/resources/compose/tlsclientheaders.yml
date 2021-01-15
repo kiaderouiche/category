@@ -1,0 +1,6 @@
+whoami:
+    image: traefik/whoami
+    labels:
+      - traefik.frontend.passTLSClientCert.pem=true
+      - traefik.frontend.rule=PathPrefix:/
+
