@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+graphql
+=======
+
+[![Build Status](https://travis-ci.org/shurcooL/graphql.svg?branch=master)](https://travis-ci.org/shurcooL/graphql) [![GoDoc](https://godoc.org/github.com/shurcooL/graphql?status.svg)](https://godoc.org/github.com/shurcooL/graphql)
+
+Package `graphql` provides a GraphQL client implementation.
+
+For more information, see package [`github.com/shurcooL/githubv4`](https://github.com/shurcooL/githubv4), which is a specialized version targeting GitHub GraphQL API v4. That package is driving the feature development.
+
+Installation
+------------
+
+`graphql` requires Go version 1.8 or later.
+
+```bash
+go get -u github.com/shurcooL/graphql
+```
+
+Usage
+-----
+...

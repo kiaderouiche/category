@@ -15,5 +15,6 @@ GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/shurcooL/githubv4
 
 .include "../../security/go-crypto/buildlink3.mk"
+.include "../../security/go-oauth2/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
