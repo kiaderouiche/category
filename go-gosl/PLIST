@@ -1,4 +1,9 @@
 @comment $NetBSD$
 @comment TODO: to fill this file with the file listing:
+<<<<<<< HEAD
 @comment TODO: 1. run "/usr/pkg/bin/bmake package"
 @comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+=======
+@comment TODO: 1. run "/usr/bin/make package"
+@comment TODO: 2. run "/usr/bin/make print-PLIST"
+>>>>>>> 6075e81aa45937870011bbf654d1fc16809d5bd9
