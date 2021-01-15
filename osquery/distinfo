@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (osquery/4.5.1.tar.gz) = 28e4e120541371f898d977f64c8c75a5877c6704
-RMD160 (osquery/4.5.1.tar.gz) = f5c50ceedc91ed145fb53a974cd48ed9ac0efdc9
-SHA512 (osquery/4.5.1.tar.gz) = f4603665c0102216ca5914d25c010247f88e3625593fe53bc4335ec328d1f6ba3c806c0e9ec6f88bc1f8b367b7ef5fa0a02f6c59ef4e9671d1f5b45aabf2932d
-Size (osquery/4.5.1.tar.gz) = 2993149 bytes
+SHA1 (go-osquery-4.6.0.tar.gz) = 7b820dfac45d3b3fa592fe4444966aa8fa8b1cfa
+RMD160 (go-osquery-4.6.0.tar.gz) = efe3808bb08fb0c07a34a1bc6b64e36c21b0e115
+SHA512 (go-osquery-4.6.0.tar.gz) = 66411a1a8ada7dbc3f903c257df980bb2073d8d48a580959b5bbad4a5bf236c9d8db7dc7abfa55e9ab1ce376be174d5d5eea41d0ae780cf6e8a6723ea5b5a797
+Size (go-osquery-4.6.0.tar.gz) = 3058815 bytes
