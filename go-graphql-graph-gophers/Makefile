@@ -11,7 +11,9 @@ HOMEPAGE=	https://github.com/graph-gophers/graphql-go/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/graphql-go-beb923fada293249384c7a9fa0c5078ea92466f3
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/https://github.com/graph-gophers/graphql-go
 
+.include "../../wip/go-opentracing/buildlink3.mk"
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
