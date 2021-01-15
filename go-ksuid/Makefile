@@ -3,12 +3,12 @@
 DISTNAME=	go-ksuid-1.0.3
 GITHUB_PROJECT=	ksuid
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=segmentio/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/segmentio/ksuid/
-COMMENT=	TODO: Short description of the package
+COMMENT=	K-Sortable Globally Unique IDs
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
