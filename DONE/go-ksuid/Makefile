@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	ksuid-1.0.3
+DISTNAME=	go-ksuid-1.0.3
 GITHUB_PROJECT=	ksuid
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	devel
