@@ -4,14 +4,16 @@ DISTNAME=	go-graphql-20200928
 GITHUB_PROJECT=	graphql
 GITHUB_TAG=	18c5c31
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=shurcooL/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/kiaderouiche/graphql/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/shurcooL/graphql/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/graphql-18c5c3165e3af7c70ca625593f8066462ad684cc
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=	github.com/shurcooL/graphql
 
+.include "../../net/go-net/buildlink3.mk"
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
