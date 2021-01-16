@@ -1,4 +1,41 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/bin/make package"
-@comment TODO: 2. run "/usr/bin/make print-PLIST"
+bin/example
+gopkg/pkg/${GO_PLATFORM}/github.com/DataDog/datadog-go/statsd.a
+gopkg/src/github.com/DataDog/datadog-go/CHANGELOG.md
+gopkg/src/github.com/DataDog/datadog-go/LICENSE.txt
+gopkg/src/github.com/DataDog/datadog-go/README.md
+gopkg/src/github.com/DataDog/datadog-go/example/simple_example.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/README.md
+gopkg/src/github.com/DataDog/datadog-go/statsd/aggregator.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/aggregator_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/benchmark_report_metric_noop_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/benchmark_report_metric_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/buffer.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/buffer_pool.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/buffer_pool_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/buffer_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/client_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/event.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/fnv1a.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/format.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/format_benchmark_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/format_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/metrics.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/metrics_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/noop.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/noop_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/options.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/options_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/sender.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/sender_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/service_check.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/statsd.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/statsd_benchmark_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/statsd_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/telemetry.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/telemetry_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/udp.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/udp_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/uds.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/uds_test.go
+gopkg/src/github.com/DataDog/datadog-go/statsd/worker.go
