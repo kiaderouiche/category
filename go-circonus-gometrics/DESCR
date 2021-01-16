@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Circonus metrics tracking for Go applications
+
+This library supports named counters, gauges and histograms. It also provides convenience wrappers for registering latency instrumented functions with Go's builtin http server.
+
+Initializing only requires setting an [API Token](https://login.circonus.com/user/tokens) at a minimum.
+
+## Options
+
+See [OPTIONS.md](OPTIONS.md) for information on all of the available cgm options.
+
+## Example
+
+### Bare bones minimum
+
+A working cut-n-past example. Simply set the required environment variable `CIRCONUS_API_TOKEN` and run.
+
+```go
+package main
+
+import (
+...
