@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Prometheus Go client library
+
+[![Build Status](https://travis-ci.org/prometheus/client_golang.svg?branch=master)](https://travis-ci.org/prometheus/client_golang)
+[![Go Report Card](https://goreportcard.com/badge/github.com/prometheus/client_golang)](https://goreportcard.com/report/github.com/prometheus/client_golang)
+[![go-doc](https://godoc.org/github.com/prometheus/client_golang?status.svg)](https://godoc.org/github.com/prometheus/client_golang)
+
+This is the [Go](http://golang.org) client library for
+[Prometheus](http://prometheus.io). It has two separate parts, one for
+instrumenting application code, and one for creating clients that talk to the
+Prometheus HTTP API.
+
+__This library requires Go1.9 or later.__ The minimum required patch releases for older Go versions are Go1.9.7 and Go1.10.3.
+
+## Important note about releases and stability
+
+This repository generally follows [Semantic
+Versioning](https://semver.org/). However, the API client in
+prometheus/client_golang/api/… is still considered experimental. Breaking
+changes of the API client will _not_ trigger a new major release. The same is
+true for selected other new features explicitly marked as **EXPERIMENTAL** in
+...
