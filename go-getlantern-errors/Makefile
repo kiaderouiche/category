@@ -8,8 +8,8 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/getlantern/errors/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Structured errors for Go 
+LICENSE=	apache-2.0
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/getlantern/errors
