@@ -6,10 +6,10 @@ GITHUB_TAG=	3e22f1a
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=cheekybits/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/cheekybits/genny/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Elegant generics for Go 
+LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
 GO_SRCPATH=	github.com/cheekybits/genny
