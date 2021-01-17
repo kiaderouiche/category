@@ -3,15 +3,16 @@
 DISTNAME=	go-context-20190109
 GITHUB_PROJECT=	context
 GITHUB_TAG=	c447772
-CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/kiaderouiche/context/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/getlantern/context
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/context-c447772a6520c1a3ae6294a7df725ee08230f14e
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=	github.com/getlantern/context
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
