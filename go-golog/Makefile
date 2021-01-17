@@ -8,7 +8,8 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/getlantern/golog
-COMMENT=	Really basic logging mostly for flashlight 
+COMMENT=	Really basic logging mostly for flashlight
+LICENSE=	apache-2.0
 
 GO_SRCPATH=	github.com/getlantern/golog
 GO_DIST_BASE=	golog-${GITHUB_TAG}
