@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=golang/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	
+HOMEPAGE=	https://github.com/golang/mock
 COMMENT=	GoMock is a mocking framework for the Go
 LICENSE=	apache-2.0
 
