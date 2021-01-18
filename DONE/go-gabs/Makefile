@@ -11,8 +11,8 @@ HOMEPAGE=	https://github.com/Jeffail/gabs/
 COMMENT=	For parsing, creating and editing unknown or dynamic JSON in Go
 LICENSE=	mit
 
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=     github.com/Jeffail/${GITHUB_PROJECT}
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/Jeffail/${GITHUB_PROJECT}
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

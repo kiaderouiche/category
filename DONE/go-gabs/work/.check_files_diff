@@ -1,0 +1,11 @@
+--- /usr/pkgsrc/category/go-gabs/work/.prefix.pre	2021-01-18 16:14:23.396566841 +0100
++++ /usr/pkgsrc/category/go-gabs/work/.prefix.post	2021-01-18 16:14:23.736576423 +0100
+@@ -0,0 +1,8 @@
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/Jeffail/gabs.a
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/gabs.go
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/gabs_logo.png
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/gabs_test.go
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/go.mod
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/LICENSE
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/migration.md
++/usr/pkgsrc/category/go-gabs/work/.destdir/usr/pkg/gopkg/src/github.com/Jeffail/gabs/README.md
