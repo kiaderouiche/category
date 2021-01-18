@@ -1,23 +1,15 @@
 # $NetBSD$
 
+DISTNAME=	go-micro-2.9.1
 GITHUB_PROJECT=	go-micro
-GITHUB_TAG=	v2.9.1
-DISTNAME=	v2.9.1
-PKGNAME=	go-${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	www devel
-MASTER_SITES=	${MASTER_SITE_GITHUB:=micro/}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	category
+MASTER_SITES=	${MASTER_SITE_GITHUB:=asim/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/micro/go-micro/
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/asim/go-micro/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/go-micro-2.9.1
-
-USE_LANGUAGES=	# none
-
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=	github.com/micro/go-micro
-
-.include "../../lang/go/go-package.mk"
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
