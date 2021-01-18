@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![Circle CI](https://circleci.com/gh/segmentio/golines.svg?style=svg&circle-token=b1d01d8b035ef0aa71ccd183580586a80cd85271)](https://circleci.com/gh/segmentio/golines)
+[![Go Report Card](https://goreportcard.com/badge/github.com/segmentio/golines)](https://goreportcard.com/report/github.com/segmentio/golines)
+[![GoDoc](https://godoc.org/github.com/segmentio/golines?status.svg)](https://godoc.org/github.com/segmentio/golines)
+[![Coverage](https://img.shields.io/badge/Go%20Coverage-84%25-brightgreen.svg?longCache=true&style=flat)](https://gocover.io/github.com/segmentio/golines?version=1.13.x)
+
+# golines
+Golines is a golang formatter that shortens long lines, in addition to all
+of the formatting fixes done by [`gofmt`](https://golang.org/cmd/gofmt/).
+
+## Motivation
+
+The standard golang formatting tools (`gofmt`, `goimports`, etc.) are great, but
+[deliberately don't shorten long lines](https://github.com/golang/go/issues/11915); instead, this
+is an activity left to developers.
+
+While there are different tastes when it comes to line lengths in go, we've generally found
+that very long lines are more difficult to read than their shortened alternatives. As an example:
+
+```go
+myMap := map[string]string{"first key": "first value", "second key": "second value", "third key": "third value", "fourth key": "fourth value", "fifth key": "fifth value"}
+...
