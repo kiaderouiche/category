@@ -1,5 +1,6 @@
 # $NetBSD$
 
+DISTNAME=	go-
 GITHUB_PROJECT=	notify
 GITHUB_TAG=	v0.9.1
 DISTNAME=	v0.9.1
