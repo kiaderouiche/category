@@ -15,5 +15,6 @@ GO_SRCPATH=	github.com/getlantern/golog
 GO_DIST_BASE=	golog-${GITHUB_TAG}
 
 .include "../../wip/go-bpool/buildlink3.mk"
+.include "../../wip/go-ops/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
