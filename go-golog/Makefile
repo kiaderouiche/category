@@ -14,6 +14,7 @@ LICENSE=	apache-2.0
 GO_SRCPATH=	github.com/getlantern/golog
 GO_DIST_BASE=	golog-${GITHUB_TAG}
 
+.include "../../wip/go-hidden/buildlink3.mk"
 .include "../../wip/go-bpool/buildlink3.mk"
 .include "../../wip/go-ops/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
