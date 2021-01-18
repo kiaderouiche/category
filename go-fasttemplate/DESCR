@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+fasttemplate
+============
+
+Simple and fast template engine for Go.
+
+Fasttemplate performs only a single task - it substitutes template placeholders
+with user-defined values. At high speed :)
+
+Take a look at [quicktemplate](https://github.com/valyala/quicktemplate) if you  need fast yet powerful html template engine.
+
+*Please note that fasttemplate doesn't do any escaping on template values
+unlike [html/template](http://golang.org/pkg/html/template/) do. So values
+must be properly escaped before passing them to fasttemplate.*
+
+Fasttemplate is faster than [text/template](http://golang.org/pkg/text/template/),
+[strings.Replace](http://golang.org/pkg/strings/#Replace),
+[strings.Replacer](http://golang.org/pkg/strings/#Replacer)
+and [fmt.Fprintf](https://golang.org/pkg/fmt/#Fprintf) on placeholders' substitution.
+
+Below are benchmark results comparing fasttemplate performance to text/template,
+...

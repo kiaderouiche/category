@@ -1,18 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-sciter-20201129
 GITHUB_PROJECT=	go-sciter
-GITHUB_TAG=	go-1.9
-DISTNAME=	go-1.9
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME}
+GITHUB_TAG=	ec87e3d
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=sciter-sdk/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/sciter-sdk/go-sciter/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Embeddable HTML/CSS/script engine for modern UI development
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=	${WRKDIR}/go-sciter-go-1.9
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=     github.com/sciter-sdk/go-sciter
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
