@@ -3,15 +3,16 @@
 DISTNAME=	go-hidden-20201230
 GITHUB_PROJECT=	hidden
 GITHUB_TAG=	e66e7f8
-CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+CATEGORIES=	textproc
+MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/kiaderouiche/hidden/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://github.com/getlantern/hidden/
+COMMENT=	Hide text in text 
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/hidden-e66e7f8787308d0d5a87a2ebe170f19d43bece78
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/getlantern/hidden
+GO_DIST_BASE=	golog-${GITHUB_TAG}*
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
