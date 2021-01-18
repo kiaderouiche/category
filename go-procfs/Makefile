@@ -14,5 +14,6 @@ COMMENT=	TODO: Short description of the package
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/prometheus/procfs
 
+.include "../../devel/go-sys/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
