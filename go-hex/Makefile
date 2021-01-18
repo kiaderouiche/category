@@ -3,15 +3,16 @@
 DISTNAME=	go-hex-20190517
 GITHUB_PROJECT=	hex
 GITHUB_TAG=	c6586a6
-CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/kiaderouiche/hex/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/getlantern/hex
+COMMENT=	Configurable hex encoding 
+LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/hex-c6586a6fe0b7c95eef767657ab1031cbcfc7af66
-USE_LANGUAGES=	# none
+GO_SRCPATH=	github.com/getlantern/hex
+GO_DIST_BASE=	hidden-${GITHUB_TAG}*
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
