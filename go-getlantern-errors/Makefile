@@ -14,5 +14,8 @@ LICENSE=	apache-2.0
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/getlantern/errors
 
+.include "../../wip/go-context/buildlink3.mk"
+.include "../../wip/go-hidden/buildlink3.mk"
+.include "../../wip/go-ops/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
