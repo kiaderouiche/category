@@ -1,17 +1,18 @@
 # $NetBSD$
 
-DISTNAME=	v0.16
-PKGNAME=	${DISTNAME:S,^v,,}
+DISTNAME=	go-astilectron-0.22.3
+GITHUB_PROJECT=	go-astilectron
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=asticode/go-astilectron/releases/tag/}
-EXTRACT_SUFX=	.0
+MASTER_SITES=	${MASTER_SITE_GITHUB:=asticode/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/asticode/go-astilectron/releases/tag/ # TODO: check
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/asticode/go-astilectron/
+COMMENT=	Build cross platform GUI apps with GO and HTML/JS/CSS
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/asticode/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
