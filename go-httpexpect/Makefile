@@ -3,15 +3,16 @@
 DISTNAME=	go-httpexpect-1.1.3
 GITHUB_PROJECT=	httpexpect
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gavv/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/gavv/httpexpect/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/httpexpect-1.1.3
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/gavv/httpexpect
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
