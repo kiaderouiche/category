@@ -1,23 +1,19 @@
 # $NetBSD$
 
+DISTNAME=	go-micro-2.9.1
 GITHUB_PROJECT=	go-micro
-GITHUB_TAG=	v2.9.1
-DISTNAME=	v2.9.1
-PKGNAME=	go-${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	www devel
-MASTER_SITES=	${MASTER_SITE_GITHUB:=micro/}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GITHUB:=asim/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/micro/go-micro/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	https://github.com/asim/go-micro/
+COMMENT=	Go Micro is a framework for distributed systems development
+LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/go-micro-2.9.1
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/asim/go-micro
 
-USE_LANGUAGES=	# none
-
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=	github.com/micro/go-micro
-
+.include "../../net/go-net/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

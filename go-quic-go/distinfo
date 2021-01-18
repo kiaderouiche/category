@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (go-quic-go-0.19.3.tar.gz) = a6e8c01e3cb01e737e3c0d97a819ce3c606b37a9
+RMD160 (go-quic-go-0.19.3.tar.gz) = 83bdb5826544d5e64e92a42b4aa83b3913077778
+SHA512 (go-quic-go-0.19.3.tar.gz) = 7922d5118ca0f2cc5c42f3ee30042eb34eb34196eb2256ae9135312ccbc25f704c03acc47c30e841393643fb5f64586ff4d6b02dca087b81df6aec4ca8933d4e
+Size (go-quic-go-0.19.3.tar.gz) = 495536 bytes

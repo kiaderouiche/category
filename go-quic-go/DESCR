@@ -1,0 +1,2 @@
+quic-go is an implementation of the QUIC protocol in Go.
+It implements the IETF QUIC draft-29 and draft-32.
