@@ -1,6 +1,0 @@
-************************************************************
-The following files are in /usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg but not in the PLIST:
-        /usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/getlantern/ops.a
-        /usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/src/github.com/getlantern/ops/LICENSE
-        /usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/src/github.com/getlantern/ops/ops.go
-        /usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/src/github.com/getlantern/ops/ops_test.go
