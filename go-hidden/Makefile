@@ -9,10 +9,10 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/getlantern/hidden/
 COMMENT=	Hide text in text 
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 GO_SRCPATH=	github.com/getlantern/hidden
-GO_DIST_BASE=	golog-${GITHUB_TAG}*
+GO_DIST_BASE=	hidden-${GITHUB_TAG}*
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
