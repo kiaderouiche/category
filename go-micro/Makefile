@@ -3,13 +3,16 @@
 DISTNAME=	go-micro-2.9.1
 GITHUB_PROJECT=	go-micro
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=asim/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/asim/go-micro/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Go Micro is a framework for distributed systems development
+LICENSE=	apache-2.0
 
-# url2pkg-marker (please do not remove this line.)
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/asim/go-micro
+
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
