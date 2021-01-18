@@ -1,0 +1,9 @@
+@name go-ops-20200503
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep go-context-20190109
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"

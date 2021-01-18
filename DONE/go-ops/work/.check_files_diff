@@ -1,0 +1,7 @@
+--- /usr/pkgsrc/category/go-ops/work/.prefix.pre	2021-01-18 14:51:28.287044393 +0100
++++ /usr/pkgsrc/category/go-ops/work/.prefix.post	2021-01-18 14:51:28.487049869 +0100
+@@ -0,0 +1,4 @@
++/usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/getlantern/ops.a
++/usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/src/github.com/getlantern/ops/LICENSE
++/usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/src/github.com/getlantern/ops/ops.go
++/usr/pkgsrc/category/go-ops/work/.destdir/usr/pkg/gopkg/src/github.com/getlantern/ops/ops_test.go
