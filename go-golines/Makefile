@@ -9,10 +9,11 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/kiaderouiche/golines/
 COMMENT=	Golang formatter that fixes long lines
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
-GO_SRCPATH=     github.com/mitchellh/go-ps
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=	github.com/mitchellh/go-ps
 
+.include "../../wip/go-ps/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
