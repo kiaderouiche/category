@@ -2,16 +2,17 @@
 
 DISTNAME=	go-gabs-2.6.0
 GITHUB_PROJECT=	gabs
-CATEGORIES=	category
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=Jeffail/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/Jeffail/gabs/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	For parsing, creating and editing unknown or dynamic JSON in Go
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/gabs-2.6.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=     github.com/Jeffail/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
