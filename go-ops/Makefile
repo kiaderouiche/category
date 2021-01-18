@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=getlantern/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/getlantern/ops
-COMMENT=	Track success or failure of operations in code 
+COMMENT=	Track success or failure of operations in code
 LICENSE=	apache-2.0
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*

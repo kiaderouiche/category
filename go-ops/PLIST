@@ -1,4 +1,5 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+gopkg/pkg/${GO_PLATFORM}/github.com/getlantern/ops.a
+gopkg/src/github.com/getlantern/ops/LICENSE
+gopkg/src/github.com/getlantern/ops/ops.go
+gopkg/src/github.com/getlantern/ops/ops_test.go
