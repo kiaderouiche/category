@@ -1,8 +1,0 @@
-************************************************************
-The following files are in /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg but not in the PLIST:
-        /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/nkovacs/streamquote.a
-        /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/go.mod
-        /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/LICENSE
-        /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/README.md
-        /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/streamquote.go
-        /usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/streamquote_test.go
