@@ -3,15 +3,16 @@
 DISTNAME=	go-streamquote-1.0.0
 GITHUB_PROJECT=	streamquote
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=nkovacs/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/nkovacs/streamquote/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Go package providing a streaming version of strconv.Quote
+LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/streamquote-1.0.0
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/nkovacs/streamquote
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
