@@ -11,8 +11,8 @@ HOMEPAGE=	https://github.com/akavel/rsrc/
 COMMENT=	Go Tool for embedding .ico & manifest resources for Windows
 LICENSE=	mit
 
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=     github.com/akavel/rsrc
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/akavel/rsrc
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
