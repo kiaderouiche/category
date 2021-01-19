@@ -11,8 +11,8 @@ HOMEPAGE=	https://github.com/CloudyKit/fastprinter
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
-GO_SRCPATH=     github.com/CloudyKit/${GITHUB_PROJECT}
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=	github.com/CloudyKit/${GITHUB_PROJECT}
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
