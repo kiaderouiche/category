@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/jessevdk/go-flags/check_crosscompile.sh

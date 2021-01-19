@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/daaku/go.zipexe/go.mod

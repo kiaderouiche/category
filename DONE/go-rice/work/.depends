@@ -1,0 +1,13 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	pax>=20040802	../../archivers/pax
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	go115-1.15.5*	../../lang/go115
+build	go-spew>=1.1.1	../../devel/go-spew
+build	go-fastprinter>=20200109	../../wip/go-fastprinter
+build	go-fasttemplate>=1.2.1	../../wip/go-fasttemplate
+build	go-flags>=1.3.0	../../wip/go-flags
+build	go-incremental>=1.0.0	../../wip/go-incremental
+build	go-rsrc>=0.10.1	../../wip/go-rsrc
+build	go-streamquote>=1.0.0	../../wip/go-streamquote
+build	go-zipexe>=1.0.1	../../wip/go-zipexe
+build	cwrappers>=20150314	../../pkgtools/cwrappers

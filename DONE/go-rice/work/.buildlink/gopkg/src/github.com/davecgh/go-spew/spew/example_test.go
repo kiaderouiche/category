@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/davecgh/go-spew/spew/example_test.go

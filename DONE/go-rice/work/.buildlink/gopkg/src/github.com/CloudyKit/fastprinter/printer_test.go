@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/CloudyKit/fastprinter/printer_test.go

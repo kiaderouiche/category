@@ -1,0 +1,16 @@
+@name go-rice-1.0.2
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep go-spew-1.1.1nb12
+@blddep go-fastprinter-20200109
+@blddep go-fasttemplate-1.2.1
+@blddep go-flags-1.3.0nb12
+@blddep go-incremental-1.0.0
+@blddep go-rsrc-0.10.1
+@blddep go-streamquote-1.0.0
+@blddep go-zipexe-1.0.1
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/bin/make package"
+@comment TODO: 2. run "/usr/bin/make print-PLIST"

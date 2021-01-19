@@ -1,0 +1,41 @@
+--- /usr/pkgsrc/category/go-rice/work/.prefix.pre	2021-01-19 12:06:14.230248088 +0100
++++ /usr/pkgsrc/category/go-rice/work/.prefix.post	2021-01-19 12:06:14.514256059 +0100
+@@ -0,0 +1,38 @@
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/bin/example
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/bin/rice
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/GeertJohan/go.rice.a
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/GeertJohan/go.rice/embedded.a
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/appended.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/AUTHORS
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/box.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/config.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/config_test.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/debug.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/embedded/embedded.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/embedded.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/example/example-files/file.txt
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/example/example-files/img/doge.jpg
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/example/example.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/example/example-templates/message.tmpl
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/file.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/go.mod
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/go.sum
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/http.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/LICENSE
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/README.md
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/append.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/clean.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/embed-go.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/embed-go_test.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/find.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/find_test.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/flags.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/helpers_test.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/identifier.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/main.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/templates.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/util.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/rice/writecoff.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/sort.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/virtual.go
++/usr/pkgsrc/category/go-rice/work/.destdir/usr/pkg/gopkg/src/github.com/GeertJohan/go.rice/walk.go
