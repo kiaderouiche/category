@@ -14,6 +14,7 @@ LICENSE=	2-clause-bsd
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/GeertJohan/go.rice
 
+.include "../../devel/go-spew/buildlink3.mk"
 .include "../../wip/go-fastprinter/buildlink3.mk"
 .include "../../wip/go-fasttemplate/buildlink3.mk"
 .include "../../wip/go-flags/buildlink3.mk"
