@@ -1,0 +1,9 @@
+--- /usr/pkgsrc/category/go-streamquote/work/.prefix.pre	2021-01-19 10:11:52.169551259 +0100
++++ /usr/pkgsrc/category/go-streamquote/work/.prefix.post	2021-01-19 10:11:52.433558113 +0100
+@@ -0,0 +1,6 @@
++/usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/nkovacs/streamquote.a
++/usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/go.mod
++/usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/LICENSE
++/usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/README.md
++/usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/streamquote.go
++/usr/pkgsrc/category/go-streamquote/work/.destdir/usr/pkg/gopkg/src/github.com/nkovacs/streamquote/streamquote_test.go

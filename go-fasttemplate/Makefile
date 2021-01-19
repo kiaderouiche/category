@@ -2,16 +2,17 @@
 
 DISTNAME=	go-fasttemplate-1.2.1
 GITHUB_PROJECT=	fasttemplate
-GITHUB_TAG=	v1.2.1
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=valyala/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/valyala/fasttemplate/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Simple and fast template engine for Go 
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/fasttemplate-1.2.1
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/valyala/fasttemplate
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
