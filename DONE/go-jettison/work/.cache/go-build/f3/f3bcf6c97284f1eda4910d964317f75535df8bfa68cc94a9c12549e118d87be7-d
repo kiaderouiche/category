@@ -1,0 +1,13 @@
+./buffer.go
+./encode.go
+./instruction.go
+./integer.go
+./json.go
+./map.go
+./number.go
+./options.go
+./struct.go
+./tags.go
+./time.go
+./types.go
+./unsafe.go
