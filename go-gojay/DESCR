@@ -1,0 +1,6 @@
+GoJay is a performant JSON encoder/decoder for Golang
+It has a simple API and doesn't use reflection. It relies
+on small interfaces to decode/encode structures and slices.
+Gojay also comes with powerful stream decoding features and
+an even faster Unsafe API. There is also a code generation
+tool to make usage easier and faster.
