@@ -1,0 +1,20 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/valyala/fasttemplate.a
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/example_test.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/go.mod
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/go.sum
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/LICENSE
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/README.md
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/template.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/template_test.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/template_timing_test.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/unsafe_gae.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/unsafe.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/bytebuffer.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/doc.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/LICENSE
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/pool.go
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/README.md
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/.travis.yml
+        /usr/pkgsrc/category/go-fasttemplate/work/.destdir/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/modules.txt

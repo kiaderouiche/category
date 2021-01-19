@@ -1,0 +1,6 @@
+Simple and fast template engine for Go. Fasttemplate
+performs only a single task - it substitutes template
+placeholders with user-defined values.
+
+Homepage:
+https://github.com/valyala/fasttemplate/

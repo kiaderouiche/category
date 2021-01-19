@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=valyala/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/valyala/fasttemplate/
-COMMENT=	Simple and fast template engine for Go 
+COMMENT=	Simple and fast template engine for Go
 LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
