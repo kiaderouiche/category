@@ -18,6 +18,7 @@ GO_SRCPATH=     github.com/GeertJohan/go.rice
 .include "../../wip/go-fastprinter/buildlink3.mk"
 .include "../../wip/go-fasttemplate/buildlink3.mk"
 .include "../../wip/go-flags/buildlink3.mk"
+.include "../../wip/go-incremental/buildlink3.mk"
 .include "../../wip/go-rsrc/buildlink3.mk"
 .include "../../wip/go-streamquote/buildlink3.mk"
 .include "../../wip/go-zipexe/buildlink3.mk"
