@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/akavel/rsrc/binutil/plain.go

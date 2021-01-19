@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/valyala/fasttemplate/vendor/github.com/valyala/bytebufferpool/README.md

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/davecgh/go-spew/spew/internal_test.go

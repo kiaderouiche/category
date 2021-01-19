@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/akavel/rsrc/rsrc/rsrc.go
