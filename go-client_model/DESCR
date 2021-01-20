@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Deprecation note
+
+This repository used to contain the [protocol
+buffer](https://developers.google.com/protocol-buffers) code that defined both
+the data model and the exposition format of Prometheus metrics.
+
+Starting with v2.0.0, the [Prometheus
+server](https://github.com/prometheus/prometheus) does not ingest the
+protobuf-based exposition format anymore. Currently, all but one of the
+[official instrumentation
+libraries](https://prometheus.io/docs/instrumenting/clientlibs/) do not expose
+the protobuf-based exposition format. The [Go instrumentation
+library](https://github.com/prometheus/client_golang), however, has been built
+around the protobuf-based data model. As a byproduct thereof, it is still able
+to expose the protobuf-based exposition format. The Go instrumentation library
+is the only remaining repository within the [Prometheus GitHub
+org](https://github.com/prometheus) directly using the prometheus/client_model
+repository.
+
+Therefore, formerly existing support for languages other than Go (namely C++,
+...

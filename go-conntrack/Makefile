@@ -6,7 +6,7 @@ GITHUB_TAG=	2f06839
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GITHUB:=mwitkow/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mwitkow/go-conntrack
 COMMENT=	Go middleware for net.Conn tracking 
 #LICENSE=	# TODO: (see mk/license.mk)
