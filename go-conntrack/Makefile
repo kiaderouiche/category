@@ -7,11 +7,12 @@ CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GITHUB:=mwitkow/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/mwitkow/go-conntrack
+HOMEPAGE=	http://prometheus.io/
 COMMENT=	Go middleware for net.Conn tracking 
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/go-conntrack-2f068394615f73e460c2f3d2c158b0ad9321cadb
-USE_LANGUAGES=	# none
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
+GO_SRCPATH=     github.com/prometheus/client_golang
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
