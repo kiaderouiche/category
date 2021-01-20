@@ -11,7 +11,8 @@ HOMEPAGE=	https://github.com/fogleman/gg/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/gg-1.3.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=     github.com/fogleman/gg/
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
