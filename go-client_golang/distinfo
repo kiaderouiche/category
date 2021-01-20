@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (go-client_golang-1.9.0.tar.gz) = f3856cd725f30a32ccaaed50df40220c63751c93
-RMD160 (go-client_golang-1.9.0.tar.gz) = 695e5c7f6524f80ec4bb9fb6817ebca0ec5ed4e5
-SHA512 (go-client_golang-1.9.0.tar.gz) = cf38327fa0f507c4d6ba00b8c28f16cb2484702b479e9506f0fa8a7ee9369ebe7c2abd6e8da58cf0e9e80c43a96a78a57e1584307f618f44d29fa3ac115d9ea5
-Size (go-client_golang-1.9.0.tar.gz) = 177330 bytes
