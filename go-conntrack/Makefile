@@ -14,5 +14,7 @@ COMMENT=	Go middleware for net.Conn tracking
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
 GO_SRCPATH=     github.com/prometheus/client_golang
 
+.include "../../net/go-net/buildlink3.mk"
+.include "../../wip/go-backoff/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
