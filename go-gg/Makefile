@@ -14,5 +14,6 @@ COMMENT=	TODO: Short description of the package
 GO_SRCPATH=     github.com/fogleman/gg/
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../graphics/go-image/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
