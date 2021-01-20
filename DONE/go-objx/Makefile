@@ -16,6 +16,6 @@ GO_SRCPATH=	github.com/stretchr/objx
 
 post-install:
 	${RM} -rf ${DESTDIR}${PREFIX}/gopkg/pkg/${GO_PLATFORM}/${GO_SRCPATH}/vendor
-	
+
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
