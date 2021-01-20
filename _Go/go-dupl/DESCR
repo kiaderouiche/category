@@ -1,4 +1,0 @@
-dupl is a tool written in Go for finding code clones.
-So far it can find clones only in the Go source files.
-The method uses suffix tree for serialized ASTs.
-It ignores values of AST nodes.
