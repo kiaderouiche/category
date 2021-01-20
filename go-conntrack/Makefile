@@ -1,0 +1,17 @@
+# $NetBSD$
+
+DISTNAME=	go-conntrack-20190716
+GITHUB_PROJECT=	go-conntrack
+GITHUB_TAG=	2f06839
+CATEGORIES=	category
+MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/kiaderouiche/go-conntrack/
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
+
+WRKSRC=		${WRKDIR}/go-conntrack-2f068394615f73e460c2f3d2c158b0ad9321cadb
+USE_LANGUAGES=	# none
+
+.include "../../mk/bsd.pkg.mk"

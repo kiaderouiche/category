@@ -16,5 +16,9 @@ GO_SRCPATH=     github.com/prometheus/common
 
 USE_TOOLS+=	gmake
 
+.include "../../devel/go-protobuf/buildlink3.mk"
+.include "../../devel/go-logrus/buildlink3.mk"
+.include "../../devel/go-yaml/buildlink3.mk"
+.include "../../net/go-net/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
