@@ -1,14 +1,12 @@
 # $NetBSD$
 
+DISTNAME=	go-gg-1.3.0
 GITHUB_PROJECT=	gg
-GITHUB_TAG=	v1.3.0
-DISTNAME=	v1.3.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_GITHUB:=fogleman/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fogleman/gg/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
