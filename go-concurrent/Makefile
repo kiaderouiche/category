@@ -3,15 +3,16 @@
 DISTNAME=	go-concurrent-1.0.3
 GITHUB_PROJECT=	concurrent
 GITHUB_TAG=	${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=modern-go/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/modern-go/concurrent/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Concurrency utilities
+LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/concurrent-1.0.3
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/modern-go/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
