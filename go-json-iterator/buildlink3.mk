@@ -9,7 +9,7 @@ BUILDLINK_CONTENTS_FILTER.go-json-iterator=	${EGREP} gopkg/
 BUILDLINK_DEPMETHOD.go-json-iterator?=		build
 
 BUILDLINK_API_DEPENDS.go-json-iterator+=	go-json-iterator>=20200608
-BUILDLINK_PKGSRCDIR.go-json-iterator?=	../../wip/go-json-iterator
+BUILDLINK_PKGSRCDIR.go-json-iterator?=		../../wip/go-json-iterator
 
 
 .include "../../wip/go-concurrent/buildlink3.mk"
