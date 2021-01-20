@@ -14,6 +14,7 @@ LICENSE=        apache-2.0
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/nacos-group/nacos-sdk-go
 
+.include "../../devel/go-errors/buildlink3.mk"
 .include "../../wip/go-mock/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
