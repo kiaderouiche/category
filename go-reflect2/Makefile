@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=modern-go/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/modern-go/reflect2
-COMMENT=	Reflect api without runtime reflect.Value cost 
+COMMENT=	Reflect api without runtime reflect.Value cost
 LICENSE=	apache-2.0
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
