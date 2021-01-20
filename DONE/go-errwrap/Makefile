@@ -1,14 +1,15 @@
 # $NetBSD$
 
+DISTNAME=	go-errwrap-1.1.0
+GITHUB_PROJECT=	errwrap
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-DISTNAME=	go-errwrap-1.0.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=hashicorp/}
-GITHUB_PROJECT=	errwrap
+
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/hashicorp/errwrap/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Library for wrapping and querying errors
 LICENSE=	mpl-2.0
 
 GO_SRCPATH=	github.com/hashicorp/errwrap/
