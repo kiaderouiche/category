@@ -1,19 +1,18 @@
 # $NetBSD$
 
+DISTNAME=	go-jsonerror-0.1.2
 GITHUB_PROJECT=	go-jsonerror
-GITHUB_TAG=	v0.1.2
-DISTNAME=	v0.1.2
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ddymko/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/ddymko/go-jsonerror/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Package which wraps error responses to follow jsonapi.org
+LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/go-jsonerror-0.1.2
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/ddymko/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

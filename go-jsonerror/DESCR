@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.md
-
-# Go-JsonError
-[![Go Report Card](https://goreportcard.com/badge/github.com/ddymko/go-jsonerror)](https://goreportcard.com/report/github.com/ddymko/go-jsonerror) [![Build Status](https://travis-ci.org/ddymko/go-jsonerror.svg?branch=master)](https://travis-ci.org/ddymko/go-jsonerror) [![Coveragestatus](https://codecov.io/gh/ddymko/go-jsonerror/branch/master/graph/badge.svg)](https://codecov.io/github/ddymko/go-jsonerror?branch=master)
-[![GoDoc](https://godoc.org/github.com/ddymko/go-jsonerror?status.svg)](https://godoc.org/github.com/ddymko/go-jsonerror)
-[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
-
-Go-JsonError is ment to allow us to easily create json response errors that follow the JsonApi spec.
-
-[Json API Spec](https://jsonapi.org/format/#errors)
-
-## Usuage
-
-In order to use jsonError you will need to initliaze the ErrorJson struct. Then when you would like to add an error you must pass in a ErrorComp struct to the AddError().
-
-This follows the jsonapi spec where the error response must return an array.
-
-Here is a basic example
-
-```
-	var err ErrorJSON
-
-...
+Go-JsonError is meant to allow us to easily create
+json response errors that follow the JsonApi spec.
