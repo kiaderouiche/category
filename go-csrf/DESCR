@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.md
-
-# gorilla/csrf
-
-[![GoDoc](https://godoc.org/github.com/gorilla/csrf?status.svg)](https://godoc.org/github.com/gorilla/csrf)
-[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/csrf/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/csrf?badge)
-[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
-[![CircleCI](https://circleci.com/gh/gorilla/csrf.svg?style=svg)](https://circleci.com/gh/gorilla/csrf)
-
-gorilla/csrf is a HTTP middleware library that provides [cross-site request
-forgery](http://blog.codinghorror.com/preventing-csrf-and-xsrf-attacks/) (CSRF)
-protection. It includes:
-
-- The `csrf.Protect` middleware/handler provides CSRF protection on routes
-  attached to a router or a sub-router.
-- A `csrf.Token` function that provides the token to pass into your response,
-  whether that be a HTML form or a JSON response body.
-- ... and a `csrf.TemplateField` helper that you can pass into your `html/template`
-  templates to replace a `{{ .csrfField }}` template tag with a hidden input
-  field.
-
-gorilla/csrf is designed to work with any Go web framework, including:
-...
+gorilla/csrf is a HTTP middleware library that provides
+cross-site request forgery protection.
