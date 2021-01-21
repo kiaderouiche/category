@@ -1,0 +1,11 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/hashicorp/go-version.a
+gopkg/src/github.com/hashicorp/go-version/LICENSE
+gopkg/src/github.com/hashicorp/go-version/README.md
+gopkg/src/github.com/hashicorp/go-version/constraint.go
+gopkg/src/github.com/hashicorp/go-version/constraint_test.go
+gopkg/src/github.com/hashicorp/go-version/go.mod
+gopkg/src/github.com/hashicorp/go-version/version.go
+gopkg/src/github.com/hashicorp/go-version/version_collection.go
+gopkg/src/github.com/hashicorp/go-version/version_collection_test.go
+gopkg/src/github.com/hashicorp/go-version/version_test.go
