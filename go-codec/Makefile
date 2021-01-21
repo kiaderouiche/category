@@ -15,5 +15,7 @@ GO_SRCPATH=     github.com/ugorji/go-codec
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 .include "../../devel/go-tools/buildlink3.mk"
+.include "../../devel/go-xerrors/buildlink3.mk"
+.include "../../wip/go-semver/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
