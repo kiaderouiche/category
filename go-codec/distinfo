@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (go-codec-1.2.2.tar.gz) = 714d5657a63075b16748254cd5d47e11ad11a58b
-RMD160 (go-codec-1.2.2.tar.gz) = 74ae747054620ec820a2eddf0f40f1025f8480a1
-SHA512 (go-codec-1.2.2.tar.gz) = 30134118172d3e5b06dd6f82973243bbb4db48aafd93d7b6438aa1aa57fae029b9151fbf8928d53c2485a93017e1b81c10400312759da6a233f52b2aa8409392
-Size (go-codec-1.2.2.tar.gz) = 311105 bytes
