@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# go-hclog
+
+[![Go Documentation](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)][godocs]
+
+[godocs]: https://godoc.org/github.com/hashicorp/go-hclog
+
+`go-hclog` is a package for Go that provides a simple key/value logging
+interface for use in development and production environments.
+
+It provides logging levels that provide decreased output based upon the
+desired amount of output, unlike the standard library `log` package.
+
+It provides `Printf` style logging of values via `hclog.Fmt()`.
+
+It provides a human readable output mode for use in development as well as
+JSON output mode for production.
+
+## Stability Note
+
+While this library is fully open source and HashiCorp will be maintaining it
+...
