@@ -8,8 +8,8 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/kataras/tunnel/
-COMMENT=	Public URLs for exposing your local web server 
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Public URLs for exposing your local web server
+LICENSE=	mit
 
 GO_SRCPATH=	github.com/kataras/tunnel
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}

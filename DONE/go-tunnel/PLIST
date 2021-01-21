@@ -1,0 +1,11 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/kataras/tunnel.a
+gopkg/src/github.com/kataras/tunnel/CODE_OF_CONDUCT.md
+gopkg/src/github.com/kataras/tunnel/CONTRIBUTING.md
+gopkg/src/github.com/kataras/tunnel/LICENSE
+gopkg/src/github.com/kataras/tunnel/README.md
+gopkg/src/github.com/kataras/tunnel/_examples/basic/main.go
+gopkg/src/github.com/kataras/tunnel/_examples/with-servers/main.go
+gopkg/src/github.com/kataras/tunnel/configuration.go
+gopkg/src/github.com/kataras/tunnel/go.mod
+gopkg/src/github.com/kataras/tunnel/tunnel.go
