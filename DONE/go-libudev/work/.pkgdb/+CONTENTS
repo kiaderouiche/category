@@ -1,9 +1,0 @@
-@cwd /usr/pkg
-@name go-libudev-0.2.1
-@blddep digest-20190127
-@blddep go115-1.15.5
-@blddep cwrappers-20180325
-@comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
