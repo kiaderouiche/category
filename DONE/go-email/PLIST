@@ -1,0 +1,8 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/jordan-wright/email.a
+gopkg/src/github.com/jordan-wright/email/LICENSE
+gopkg/src/github.com/jordan-wright/email/README.md
+gopkg/src/github.com/jordan-wright/email/email.go
+gopkg/src/github.com/jordan-wright/email/email_test.go
+gopkg/src/github.com/jordan-wright/email/go.mod
+gopkg/src/github.com/jordan-wright/email/pool.go
