@@ -1,19 +1,19 @@
 # $NetBSD$
 
+DISTNAME=	wuzz-0.5.0
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	wuzz
-GITHUB_TAG=	v0.4.0
-DISTNAME=	v0.4.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=asciimoo/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/asciimoo/wuzz/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/wuzz-0.4.0
-USE_LANGUAGES=	# none
+GO_SRCPATH=     github.com/asciimoo/wuzz
+GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
