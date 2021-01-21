@@ -1,0 +1,14 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/go-errors/errors.a
+gopkg/src/github.com/go-errors/errors/LICENSE.MIT
+gopkg/src/github.com/go-errors/errors/README.md
+gopkg/src/github.com/go-errors/errors/cover.out
+gopkg/src/github.com/go-errors/errors/error.go
+gopkg/src/github.com/go-errors/errors/error_1_13.go
+gopkg/src/github.com/go-errors/errors/error_1_13_test.go
+gopkg/src/github.com/go-errors/errors/error_backward.go
+gopkg/src/github.com/go-errors/errors/error_test.go
+gopkg/src/github.com/go-errors/errors/go.mod
+gopkg/src/github.com/go-errors/errors/parse_panic.go
+gopkg/src/github.com/go-errors/errors/parse_panic_test.go
+gopkg/src/github.com/go-errors/errors/stackframe.go
