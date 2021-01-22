@@ -4,3 +4,4 @@ SHA1 (go-sciter-20201129-ec87e3d.tar.gz) = 45e4794c787ccee9a5b1a4f1346ee95affc84
 RMD160 (go-sciter-20201129-ec87e3d.tar.gz) = 1031cad63d1b0955cbc9da732cd6aeae073f63df
 SHA512 (go-sciter-20201129-ec87e3d.tar.gz) = 5bf22fd25b6d10969cda8f93b940ab8d517ff94c94092d79c836e105263ef2b935459f21c08b9a69019d7a42bfc3a9c92c85c3fc2d4784bf1d0a19ba607ab24e
 Size (go-sciter-20201129-ec87e3d.tar.gz) = 130134 bytes
+SHA1 (patch-include_sciter-x-types.h) = b4c1d55b4fbab92db57780903e5855628dc3a0e8
