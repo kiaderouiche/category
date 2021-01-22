@@ -14,6 +14,6 @@ LICENSE=	gnu-lgpl-v3
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=     github.com/qlova/${GITHUB_PROJECT}
 
-.include "../../www/go-minify:/buildlink3.mk"
+.include "../../www/go-minify/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
