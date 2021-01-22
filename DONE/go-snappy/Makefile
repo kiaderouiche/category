@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=golang/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/golang/snappy/
-COMMENT=	The Snappy compression format in the Go programming language
+COMMENT=	The Snappy compression format in the Go
 LICENSE=	2-clause-bsd
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
