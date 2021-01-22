@@ -20,5 +20,6 @@ REPLACE_BASH+=	hack/run-against-snapshot.sh
 
 .include "../../devel/go-cobra/buildlink3.mk"
 .include "../../devel/go-errors/buildlink3.mk"
+.include "../../wip/go-pcidb/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

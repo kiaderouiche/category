@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/example
+gopkg/pkg/${GO_PLATFORM}/github.com/syossan27/tebata.a
+gopkg/src/github.com/syossan27/tebata/Gopkg.lock
+gopkg/src/github.com/syossan27/tebata/Gopkg.toml
+gopkg/src/github.com/syossan27/tebata/LICENSE
+gopkg/src/github.com/syossan27/tebata/README.md
+gopkg/src/github.com/syossan27/tebata/example/main.go
+gopkg/src/github.com/syossan27/tebata/resources/logo.png
+gopkg/src/github.com/syossan27/tebata/tebata.go
+gopkg/src/github.com/syossan27/tebata/tebata_test.go

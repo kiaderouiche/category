@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+![Goa logo](https://goa.design/img/goa-logo.svg "Goa")
+
+Goa is a framework for building micro-services and APIs in Go using a unique
+design-first approach.
+
+---
+[![Build Status](https://github.com/goadesign/goa/workflows/build/badge.svg?branch=v3&event=push)](https://github.com/goadesign/goa/actions?query=branch%3Av3+event%3Apush)
+[![Godoc Packages](https://img.shields.io/badge/godoc-packages-blue)](https://pkg.go.dev/mod/goa.design/goa/v3?tab=packages)
+[![Godoc DSL](https://img.shields.io/badge/godoc-DSL-blue)](https://pkg.go.dev/goa.design/goa/v3@v3.2.6/dsl?tab=doc)
+[![Slack](https://img.shields.io/badge/slack-gophers-orange.svg?style=flat)](https://gophers.slack.com/messages/goa/)
+
+## Overview
+
+Goa takes a different approach to building services by making it possible to
+describe the *design* of the service API using a simple Go DSL. Goa uses the
+description to generate specialized service helper code, client code and
+documentation. Goa is extensible via plugins, for example the
+[goakit](https://github.com/goadesign/plugins/tree/v3/goakit) plugin
+generates code that leverage the Go kit library.
+
+...

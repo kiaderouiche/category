@@ -3,7 +3,7 @@
 DISTNAME=	go-vtclean-20201209
 GITHUB_PROJECT=	vtclean
 GITHUB_TAG=	54bb1ba73a3e731f867d4aafb0a145959c7d4e4f
-CATEGORIES=	category
+CATEGORIES=	comms
 MASTER_SITES=	${MASTER_SITE_GITHUB:=lunixbochs/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
