@@ -11,8 +11,9 @@ HOMEPAGE=	https://github.com/zenazn/goji/
 COMMENT=	Minimalistic web framework for Golang
 LICENSE=	mit
 
-GO_SRCPATH=     github.com/zenazn/goji
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/zenazn/goji
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../wip/go-param/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
