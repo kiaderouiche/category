@@ -1,19 +1,20 @@
 # $NetBSD$
 
+DISTNAME=	wails-20210105
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	wails
-GITHUB_TAG=	v1.7.2-pre3
-DISTNAME=	v1.7.2-pre3
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	4a6e9d059cc5d2cb9fff24218bfcfe830280a476
+CATEGORIES=	wm www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=wailsapp/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/wailsapp/wails/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/wails-1.7.2-pre3
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/wailsapp/wails
 
+.include "../../devel/go-yaml/buildlink3.mk"
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

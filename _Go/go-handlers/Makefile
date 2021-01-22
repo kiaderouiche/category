@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	go-gorilla-handers-1.5.1
+DISTNAME=	go-handers-1.5.1
 GITHUB_PROJECT=	handlers
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	www
