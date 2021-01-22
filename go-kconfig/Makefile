@@ -15,6 +15,10 @@ COMMENT=	TODO: Short description of the package
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/lalamove/konfig
 
+.include "../../devel/go-cast/buildlink3.mk"
+.include "../../devel/go-yaml/buildlink3.mk"
+.include "../../wip/go-mock/buildlink3.mk"
+#.include "../../wip/go-vault/buildlink3.mk"
 .include "../../www/go-toml-burntsushi/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
