@@ -1,0 +1,23 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/abadojack/whatlanggo.a
+gopkg/src/github.com/abadojack/whatlanggo/LICENSE
+gopkg/src/github.com/abadojack/whatlanggo/README.md
+gopkg/src/github.com/abadojack/whatlanggo/SUPPORTED_LANGUAGES.md
+gopkg/src/github.com/abadojack/whatlanggo/constants.go
+gopkg/src/github.com/abadojack/whatlanggo/detect.go
+gopkg/src/github.com/abadojack/whatlanggo/detect_test.go
+gopkg/src/github.com/abadojack/whatlanggo/doc.go
+gopkg/src/github.com/abadojack/whatlanggo/go.mod
+gopkg/src/github.com/abadojack/whatlanggo/images/whatlang_is_reliable.png
+gopkg/src/github.com/abadojack/whatlanggo/info.go
+gopkg/src/github.com/abadojack/whatlanggo/lang.go
+gopkg/src/github.com/abadojack/whatlanggo/lang_test.go
+gopkg/src/github.com/abadojack/whatlanggo/options.go
+gopkg/src/github.com/abadojack/whatlanggo/script.go
+gopkg/src/github.com/abadojack/whatlanggo/script_test.go
+gopkg/src/github.com/abadojack/whatlanggo/testdata/examples.json
+gopkg/src/github.com/abadojack/whatlanggo/trigrams.go
+gopkg/src/github.com/abadojack/whatlanggo/trigrams_test.go
+gopkg/src/github.com/abadojack/whatlanggo/unicode.go
+gopkg/src/github.com/abadojack/whatlanggo/utils.go
+gopkg/src/github.com/abadojack/whatlanggo/utils_test.go

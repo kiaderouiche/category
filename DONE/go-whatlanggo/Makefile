@@ -4,14 +4,16 @@ DISTNAME=	whatlanggo-1.0.1
 PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	whatlanggo
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GITHUB:=abadojack/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/abadojack/whatlanggo/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Natural language detection library for Go
+LICENSE=	mit
 
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/abadojack/whatlanggo
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
