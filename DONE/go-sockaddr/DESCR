@@ -1,6 +1,6 @@
 Socket address convenience functions for Go.
 go-sockaddr is a convenience library that
-makes doing the right thing with IP addresses 
+makes doing the right thing with IP addresses
 easy. go-sockaddr is loosely modeled after the
 UNIX sockaddr_t and creates a union of the family
 of sockaddr_t types
