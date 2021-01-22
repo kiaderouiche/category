@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# nano
+
+Transport-agnostic testing-friendly nano-framework for go micro-services.
+
+# Short Intro
+
+- Separation between business logic and lower level layers (transport, discovery).
+- A service is a unit of business logic that can manage a few types of messages.
+- Units of business logic (services) are easy to compile into a single or
+  multiple server executables.
+- The development and unit/integration testing of units of business logic
+  (services) can be done with the standard go test framework:
+  - No need to compile and start server executables
+  - No need for an infrastructure
+  - Mocking a service can be done by writing a mock handler function
+
+# Long Intro: Goals and Principles
+
+This lightweight microservice framework has the following ambitious goals:
+
+...

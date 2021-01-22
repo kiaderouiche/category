@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![](https://godoc.org/github.com/jackc/pgx?status.svg)](https://pkg.go.dev/github.com/jackc/pgx/v4)
+[![Build Status](https://travis-ci.org/jackc/pgx.svg)](https://travis-ci.org/jackc/pgx)
+
+# pgx - PostgreSQL Driver and Toolkit
+
+pgx is a pure Go driver and toolkit for PostgreSQL.
+
+pgx aims to be low-level, fast, and performant, while also enabling PostgreSQL-specific features that the standard `database/sql` package does not allow for.
+
+The driver component of pgx can be used alongside the standard `database/sql` package.
+
+The toolkit component is a related set of packages that implement PostgreSQL functionality such as parsing the wire protocol
+and type mapping between PostgreSQL and Go. These underlying packages can be used to implement alternative drivers,
+proxies, load balancers, logical replication clients, etc.
+
+The current release of `pgx v4` requires Go modules. To use the previous version, checkout and vendor the `v3` branch.
+
+## Example Usage
+
+```go
+...

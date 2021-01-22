@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+## Sleepy
+
+I wrote about the creation of sleepy
+[here](https://dougblack.io/words/a-restful-micro-framework-in-go.html).
+
+#### A RESTful framework for Go
+
+Sleepy is a micro-framework for building RESTful APIs.
+
+```go
+package main
+
+import (
+    "net/url"
+    "net/http"
+    "github.com/dougblack/sleepy"
+)
+
+type Item struct { }
+
+...

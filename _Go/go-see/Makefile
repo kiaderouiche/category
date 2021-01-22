@@ -1,18 +1,18 @@
 # $NetBSD$
 
-DISTNAME=	figure-20200609
+DISTNAME=	see-20200815
 PKGNAME=	go-${DISTNAME}
-GITHUB_PROJECT=	go-figure
-GITHUB_TAG=	c4b36f9
+GITHUB_PROJECT=	sse
+GITHUB_TAG=	06e6e3d866e43b8fad2615b422d3bf05fd63d9be
 CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=gin-contrib/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/kiaderouiche/go-figure/
+HOMEPAGE=	https://github.com/gin-contrib/sse/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/go-figure-c4b36f998cf220420b4263c614faaf2872770fb3
+WRKSRC=		${WRKDIR}/sse-06e6e3d866e43b8fad2615b422d3bf05fd63d9be
 USE_LANGUAGES=	# none
 
 .include "../../mk/bsd.pkg.mk"

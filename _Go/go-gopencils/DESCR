@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Gopencils - Dynamically consume REST APIs
+[![GoDoc](https://godoc.org/github.com/bndr/gopencils?status.svg)](https://godoc.org/github.com/bndr/gopencils)
+[![Build Status](https://travis-ci.org/bndr/gopencils.svg?branch=master)](https://travis-ci.org/bndr/gopencils)
+
+## Summary
+Gopencils is a REST Client written in go. Easily consume any REST API's. Supported Response formats: JSON
+
+## Install
+
+    go get github.com/bndr/gopencils
+
+## Simple to use
+
+Gopencils was designed to help you easily make requests to REST APIs without much hassle. It supports both Basic-Auth as well as OAuth.
+
+Example Basic-Auth
+
+```go
+
+type UserExample struct {
+...
