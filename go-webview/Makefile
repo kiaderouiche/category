@@ -22,4 +22,5 @@ USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../x11/gtk3/buildlink3.mk"
+.include "../../www/webkit24-gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
