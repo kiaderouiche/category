@@ -1,0 +1,21 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/dimfeld/httptreemux.a
+gopkg/src/github.com/dimfeld/httptreemux/LICENSE
+gopkg/src/github.com/dimfeld/httptreemux/README.md
+gopkg/src/github.com/dimfeld/httptreemux/context.go
+gopkg/src/github.com/dimfeld/httptreemux/context_test.go
+gopkg/src/github.com/dimfeld/httptreemux/fallthrough_test.go
+gopkg/src/github.com/dimfeld/httptreemux/go.mod
+gopkg/src/github.com/dimfeld/httptreemux/group.go
+gopkg/src/github.com/dimfeld/httptreemux/group_test.go
+gopkg/src/github.com/dimfeld/httptreemux/panichandler.go
+gopkg/src/github.com/dimfeld/httptreemux/path.go
+gopkg/src/github.com/dimfeld/httptreemux/path_test.go
+gopkg/src/github.com/dimfeld/httptreemux/router.go
+gopkg/src/github.com/dimfeld/httptreemux/router_test.go
+gopkg/src/github.com/dimfeld/httptreemux/tree.go
+gopkg/src/github.com/dimfeld/httptreemux/tree_test.go
+gopkg/src/github.com/dimfeld/httptreemux/treemux_16.go
+gopkg/src/github.com/dimfeld/httptreemux/treemux_17.go
+gopkg/src/github.com/dimfeld/httptreemux/unescape_17.go
+gopkg/src/github.com/dimfeld/httptreemux/unescape_18.go
