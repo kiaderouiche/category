@@ -1,0 +1,20 @@
+@comment $NetBSD$
+bin/nk
+gopkg/pkg/${GO_PLATFORM}/github.com/nats-io/nkeys.a
+gopkg/src/github.com/nats-io/nkeys/GOVERNANCE.md
+gopkg/src/github.com/nats-io/nkeys/LICENSE
+gopkg/src/github.com/nats-io/nkeys/MAINTAINERS.md
+gopkg/src/github.com/nats-io/nkeys/README.md
+gopkg/src/github.com/nats-io/nkeys/TODO.md
+gopkg/src/github.com/nats-io/nkeys/crc16.go
+gopkg/src/github.com/nats-io/nkeys/creds_utils.go
+gopkg/src/github.com/nats-io/nkeys/creds_utils_test.go
+gopkg/src/github.com/nats-io/nkeys/go.mod
+gopkg/src/github.com/nats-io/nkeys/go.sum
+gopkg/src/github.com/nats-io/nkeys/keypair.go
+gopkg/src/github.com/nats-io/nkeys/main.go
+gopkg/src/github.com/nats-io/nkeys/main_test.go
+gopkg/src/github.com/nats-io/nkeys/nk/README.md
+gopkg/src/github.com/nats-io/nkeys/nk/main.go
+gopkg/src/github.com/nats-io/nkeys/public.go
+gopkg/src/github.com/nats-io/nkeys/strkey.go
