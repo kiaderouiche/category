@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# strftime
+
+Fast strftime for Go
+
+[![Build Status](https://travis-ci.org/lestrrat-go/strftime.png?branch=master)](https://travis-ci.org/lestrrat-go/strftime)
+
+[![GoDoc](https://godoc.org/github.com/lestrrat-go/strftime?status.svg)](https://godoc.org/github.com/lestrrat-go/strftime)
+
+# SYNOPSIS
+
+```go
+f := strftime.New(`.... pattern ...`)
+if err := f.Format(buf, time.Now()); err != nil {
+    log.Println(err.Error())
+}
+```
+
+# DESCRIPTION
+
+The goals for this library are
+...

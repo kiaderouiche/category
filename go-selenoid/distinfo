@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (go-selenoid-1.10.0.tar.gz) = 29aea977b94f44d265e1b3f171e204e2d00c7e21
-RMD160 (go-selenoid-1.10.0.tar.gz) = 12149f6a5abf10b79fda1ec49093c75fbf29c093
-SHA512 (go-selenoid-1.10.0.tar.gz) = c8ec04ea4ce5c9787bbbf47624a5c7d975a72fc67a9d7e094d316e571a4d88845aa7f16f7a65afc7f66e5cdf2dbfa5ea339d3a78fb96f294c3a23915e1b961aa
-Size (go-selenoid-1.10.0.tar.gz) = 1177976 bytes

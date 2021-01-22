@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (go-pq-1.9.0.tar.gz) = 9716bfa14d270c7e0f82ee5f27e757d9a0f607fe
-RMD160 (go-pq-1.9.0.tar.gz) = ec0aec8790c12ad88bdf32a97a8ff20fa2764063
-SHA512 (go-pq-1.9.0.tar.gz) = 56274e6a3e60f32cac7925850e980480fdc906fa38fbe2b60d88a4526818fad4519027c933d66dc7bd6d7303e5e2008d83d14bd938d0e22be831b453ec2af2ce
-Size (go-pq-1.9.0.tar.gz) = 103393 bytes

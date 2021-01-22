@@ -14,5 +14,8 @@ LICENSE=	apache-2.0
 GO_DIST_BASE=	gizmo-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/nytimes/gizmo
 
+.include "../../devel/go-protobuf/buildlink3.mk"
+.include "../../net/aws-sdk-go/buildlink3.mk"
+.include "../../net/go-net/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
