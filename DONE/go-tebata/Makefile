@@ -9,11 +9,11 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=syossan27/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/syossan27/tebata
-COMMENT=	Simple linux signal handler for golang 
+COMMENT=	Simple linux signal handler for golang
 LICENSE=	mit
 
-GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
-GO_SRCPATH=     github.com/syossan27/tebata
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/syossan27/tebata
 
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
