@@ -8,11 +8,11 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=mwitkow/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://prometheus.io/
-COMMENT=	Go middleware for net.Conn tracking 
+COMMENT=	Go middleware for net.Conn tracking
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}*
-GO_SRCPATH=     github.com/prometheus/client_golang
+GO_SRCPATH=     github.com/prometheus/common
 
 .include "../../net/go-net/buildlink3.mk"
 .include "../../wip/go-jpillora-backoff/buildlink3.mk"

@@ -1,20 +1,17 @@
 # $NetBSD$
 
-DISTNAME=	zerolog-20201229
 GITHUB_PROJECT=	zerolog
-GITHUB_TAG=	0aba2e4ae597be7a72789c5bf2745daa664fcab3
-CATEGORIES=	textproc
+GITHUB_TAG=	v1.20.0
+DISTNAME=	v1.20.0
+PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=rs/}
+DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/rs/zerolog/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-GO_DIST_BASE=	zerolog-${GITHUB_TAG}
-GO_SRCPATH=	github.com/rs/zerolog
-
-.include "../../devel/go-errors/buildlink3.mk"
-.include "../../devel/go-tools/buildlink3.mk"
-.include "../../lang/go/go-package.mk"
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
