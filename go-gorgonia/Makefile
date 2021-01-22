@@ -12,5 +12,6 @@ HOMEPAGE=	https://github.com/gorgonia/gorgonia/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=	${WRKDIR}/gorgonia-12e31c4befd99d1c0844d0d7555b102c3aa11639
+
 .include "../../mk/bsd.pkg.mk"

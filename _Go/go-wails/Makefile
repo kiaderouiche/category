@@ -16,5 +16,10 @@ GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=	github.com/wailsapp/wails
 
 .include "../../devel/go-yaml/buildlink3.mk"
+.include "../../graphics/go-image/buildlink3.mk"
+.include "../../net/go-websocket/buildlink3.mk"
+.include "../../textproc/go-text/buildlink3.mk"
+.include "../../wip/go-color/buildlink3.mk"
+.include "../../wip/go-semver/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
