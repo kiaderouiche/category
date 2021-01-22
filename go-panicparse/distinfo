@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (go-panicparse-1.6.0.tar.gz) = 0bfc3d4c1c017403b987216e3de52c7f510fbc7e
-RMD160 (go-panicparse-1.6.0.tar.gz) = 0bef4b1fcd503ae46668866e51468d2c4280e21d
-SHA512 (go-panicparse-1.6.0.tar.gz) = bd8774d8f6804b2b3185c99513e4f519e7e6e8aa80d2db4ae456e4a45d583fea422b1d205d71f9cab15b2122def48e1c4fb73f07980911b39bb4ea2f8ceddeba
-Size (go-panicparse-1.6.0.tar.gz) = 169297 bytes

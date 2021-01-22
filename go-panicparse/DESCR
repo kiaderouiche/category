@@ -1,3 +1,0 @@
-Parses panic stack traces, densifies and deduplicates
-goroutines with similar stack traces. Helps debugging
-crashes and deadlocks in heavily parallelized process.
