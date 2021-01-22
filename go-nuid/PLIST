@@ -1,0 +1,9 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/nats-io/nuid.a
+gopkg/src/github.com/nats-io/nuid/GOVERNANCE.md
+gopkg/src/github.com/nats-io/nuid/LICENSE
+gopkg/src/github.com/nats-io/nuid/MAINTAINERS.md
+gopkg/src/github.com/nats-io/nuid/README.md
+gopkg/src/github.com/nats-io/nuid/nuid.go
+gopkg/src/github.com/nats-io/nuid/nuid_test.go
+gopkg/src/github.com/nats-io/nuid/unique_test.go
