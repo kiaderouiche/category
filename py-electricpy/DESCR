@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# ElectricPy
+*Electrical-Engineering-for-Python*
+
+Python Libraries with functions and constants related to electrical engineering.
+
+The functions and constants that make up these modules represent a library of material compiled with the intent of being used primarily
+for research, development, education, and exploration in the realm of electrical engineering.
+
+Check out our full documentation: https://engineerjoe440.github.io/ElectricPy/html/
+
+### Special thanks to:
+- Stephen Weeks | Student - University of Idaho
+- Jeremy Perhac | Student - University of Idaho
+- Daniel Allen | Student - Universtiy of Idaho
+- Dr. Dennis Sullivan | Proffessor - University of Idaho
+- Dr. Brian Johnson | Proffessor - University of Idaho
+- Dr. Joe Law | Proffessor - University of Idaho
+- StackOverflow user gg349
+- Shaurya Uppal | Online Code Contributor
+- Paul Ortman | Power Quality Engineer - Idaho Power | Instructor - University of Idaho
+...
