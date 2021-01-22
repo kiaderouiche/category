@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (mysql/v1.5.0.tar.gz) = 2fdfba09b458ac2db34b64211439b8790c19231d
-RMD160 (mysql/v1.5.0.tar.gz) = 28ebe308487e1c15a12c293ac91c0465180a52d4
-SHA512 (mysql/v1.5.0.tar.gz) = b286ca192646f2bf6c2e3a1f6c4c899fafba7332a3714a0810e047b441b45bc21b7fdf1b61584e7306f322f8ef00b4fdc67d61b6c52b96d09126e79906fe479c
-Size (mysql/v1.5.0.tar.gz) = 90474 bytes
+SHA1 (mysql-1.5.0.tar.gz) = 2fdfba09b458ac2db34b64211439b8790c19231d
+RMD160 (mysql-1.5.0.tar.gz) = 28ebe308487e1c15a12c293ac91c0465180a52d4
+SHA512 (mysql-1.5.0.tar.gz) = b286ca192646f2bf6c2e3a1f6c4c899fafba7332a3714a0810e047b441b45bc21b7fdf1b61584e7306f322f8ef00b4fdc67d61b6c52b96d09126e79906fe479c
+Size (mysql-1.5.0.tar.gz) = 90474 bytes
