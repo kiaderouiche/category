@@ -1,5 +1,3 @@
-TODO: Adjust the following lines from README.md
-
 <h1 align="center">
   <br>
   Pion Logging
@@ -20,4 +18,25 @@ TODO: Adjust the following lines from README.md
 
 ### Roadmap
 The library is used as a part of our WebRTC implementation. Please refer to that [roadmap](https://github.com/pion/webrtc/issues/9) to track our major milestones.
-...
+
+### Community
+Pion has an active community on the [Golang Slack](https://invite.slack.golangbridge.org/). Sign up and join the **#pion** channel for discussions and support. You can also use [Pion mailing list](https://groups.google.com/forum/#!forum/pion).
+
+We are always looking to support **your projects**. Please reach out if you have something to build!
+
+If you need commercial support or don't want to use public methods you can contact us at [team@pion.ly](mailto:team@pion.ly)
+
+### Contributing
+Check out the **[contributing wiki](https://github.com/pion/webrtc/wiki/Contributing)** to join the group of amazing people making this project possible:
+
+* [John Bradley](https://github.com/kc5nra) - *Original Author*
+* [Sean DuBois](https://github.com/Sean-Der) - *Original Author*
+* [Michael MacDonald](https://github.com/mjmac) - *Original Author*
+* [Woodrow Douglass](https://github.com/wdouglass) - *Test coverage*
+* [Michiel De Backker](https://github.com/backkem) - *Docs*
+* [Hugo Arregui](https://github.com/hugoArregui) - *Custom Logs*
+* [Justin Okamoto](https://github.com/justinokamoto) - *Disabled Logs Update*
+* [Atsushi Watanabe](https://github.com/at-wat) - *Fix/update CI*
+
+### License
+MIT License - see [LICENSE](LICENSE) for full text
