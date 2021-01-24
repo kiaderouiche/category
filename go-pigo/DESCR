@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+<h1 align="center"><img alt="pigo-logo" src="https://user-images.githubusercontent.com/883386/55795932-8787cf00-5ad1-11e9-8c3e-8211ba9427d8.png" height=240/></h1>
+
+[![Build Status](https://travis-ci.org/esimov/pigo.svg?branch=master)](https://travis-ci.org/esimov/pigo)
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://godoc.org/github.com/esimov/pigo/core)
+[![license](https://img.shields.io/github/license/esimov/pigo)](./LICENSE)
+[![release](https://img.shields.io/badge/release-v1.4.2-blue.svg)](https://github.com/esimov/pigo/releases/tag/v1.4.2)
+[![snapcraft](https://img.shields.io/badge/snapcraft-v1.3.0-green.svg)](https://snapcraft.io/pigo)
+
+Pigo is a pure Go face detection, pupil/eyes localization and facial landmark points detection library based on ***Pixel Intensity Comparison-based Object detection*** paper (https://arxiv.org/pdf/1305.4537.pdf).
+
+| Rectangle face marker | Circle face marker
+|:--:|:--:
+| ![rectangle](https://user-images.githubusercontent.com/883386/40916662-2fbbae1a-6809-11e8-8afd-d4ed40c7d4e9.png) | ![circle](https://user-images.githubusercontent.com/883386/40916683-447088a8-6809-11e8-942f-3112c10bede3.png) |
+
+### Motivation
+I've intended to implement this face detection method because all of the existing solutions for face detection in the Go ecosystem are only bindings to some C/C++ libraries like OpenCV, but installing OpenCV on various platforms is cumbersome.
+
+The library does not require any third party modules or applications to be installed. However in case you wish to try the real time, webcam based face detection you might need to have Python2 and OpenCV installed, but **the core API does not require any third party module or external dependency**.
+
+### Key features
+...
