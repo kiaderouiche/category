@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/proxy_test.go

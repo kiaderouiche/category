@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/bigquery/datatransfer/v1/transfer.pb.go

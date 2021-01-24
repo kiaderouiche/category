@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/internal/gocommand/invoke_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/internal/event/export/ocagent/trace_test.go

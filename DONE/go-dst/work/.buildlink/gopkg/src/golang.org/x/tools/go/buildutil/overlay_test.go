@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/go/buildutil/overlay_test.go

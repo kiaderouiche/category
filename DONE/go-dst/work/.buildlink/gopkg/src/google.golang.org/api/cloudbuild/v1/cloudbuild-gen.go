@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/cloudbuild/v1/cloudbuild-gen.go

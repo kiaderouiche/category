@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/api/configchange/config_change.pb.go

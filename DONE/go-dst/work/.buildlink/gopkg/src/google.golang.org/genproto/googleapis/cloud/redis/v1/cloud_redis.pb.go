@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/redis/v1/cloud_redis.pb.go

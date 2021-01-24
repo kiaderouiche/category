@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/go/pointer/stdlib_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/playground/socket/socket_test.go

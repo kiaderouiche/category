@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/cmd/guru/testdata/src/implements-methods-json/main.go

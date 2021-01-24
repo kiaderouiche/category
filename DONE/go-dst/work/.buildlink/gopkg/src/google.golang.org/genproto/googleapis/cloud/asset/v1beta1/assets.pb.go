@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/asset/v1beta1/assets.pb.go

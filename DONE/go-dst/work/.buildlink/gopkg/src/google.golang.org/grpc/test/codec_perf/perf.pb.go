@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/test/codec_perf/perf.pb.go

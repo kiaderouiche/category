@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/urlshortener/v1/urlshortener-gen.go

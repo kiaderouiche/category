@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/Documentation/server-reflection-tutorial.md

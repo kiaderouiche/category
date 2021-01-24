@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/cmd/cover/testdata/main.go

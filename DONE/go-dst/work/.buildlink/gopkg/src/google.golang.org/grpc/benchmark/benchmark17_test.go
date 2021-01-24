@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/benchmark/benchmark17_test.go

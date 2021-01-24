@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/speech/v1p1beta1/cloud_speech.pb.go

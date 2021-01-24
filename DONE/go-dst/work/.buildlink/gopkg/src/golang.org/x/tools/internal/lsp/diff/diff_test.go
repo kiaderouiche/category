@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/diff/diff_test.go

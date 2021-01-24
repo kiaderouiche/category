@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/cloud/compute/metadata/go13.go

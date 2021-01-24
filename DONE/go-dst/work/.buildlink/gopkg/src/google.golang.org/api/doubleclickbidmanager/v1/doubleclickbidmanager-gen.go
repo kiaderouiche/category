@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/doubleclickbidmanager/v1/doubleclickbidmanager-gen.go

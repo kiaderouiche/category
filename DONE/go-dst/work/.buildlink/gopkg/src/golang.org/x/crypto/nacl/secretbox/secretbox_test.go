@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/nacl/secretbox/secretbox_test.go

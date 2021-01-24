@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/civicinfo/v2/civicinfo-gen.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/testdata/generate/generate.go

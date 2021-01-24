@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/cmd/bundle/testdata/src/initial/b.go

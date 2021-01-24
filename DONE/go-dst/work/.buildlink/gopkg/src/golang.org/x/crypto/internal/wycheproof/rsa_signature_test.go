@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/internal/wycheproof/rsa_signature_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/toolresults/v1beta3/toolresults-gen.go

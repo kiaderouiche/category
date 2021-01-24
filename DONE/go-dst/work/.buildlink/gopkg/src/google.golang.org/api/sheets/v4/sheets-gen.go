@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/sheets/v4/sheets-gen.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/translate/v2/translate-gen.go

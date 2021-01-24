@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/oslogin/v1alpha/oslogin.pb.go

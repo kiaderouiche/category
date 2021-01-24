@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/dave/jennifer/genjen/main.go

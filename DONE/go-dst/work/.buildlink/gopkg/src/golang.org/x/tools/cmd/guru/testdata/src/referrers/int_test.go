@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/cmd/guru/testdata/src/referrers/int_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/cmd/stringer/testdata/tag_main.go

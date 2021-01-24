@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/test/tools/tools.go

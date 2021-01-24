@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/golang/protobuf/protoc-gen-go/generator/internal/remap/remap.go

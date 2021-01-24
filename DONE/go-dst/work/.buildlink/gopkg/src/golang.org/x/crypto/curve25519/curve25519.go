@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/curve25519/curve25519.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/interop/http2/negative_http2_client.go

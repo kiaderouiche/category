@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/monitoring/v3/monitoring-gen.go

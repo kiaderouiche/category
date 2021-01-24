@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/qpxexpress/v1/qpxexpress-gen.go

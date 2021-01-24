@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/devtools/sourcerepo/v1/sourcerepo.pb.go

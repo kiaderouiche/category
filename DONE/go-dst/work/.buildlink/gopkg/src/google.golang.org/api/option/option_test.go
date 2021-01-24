@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/option/option_test.go

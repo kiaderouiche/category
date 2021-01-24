@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/content/v2/content-gen.go

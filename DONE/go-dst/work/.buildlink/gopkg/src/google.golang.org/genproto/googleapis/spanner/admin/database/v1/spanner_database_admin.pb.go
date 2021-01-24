@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/spanner/admin/database/v1/spanner_database_admin.pb.go

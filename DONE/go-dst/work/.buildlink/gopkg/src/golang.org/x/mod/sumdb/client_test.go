@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/mod/sumdb/client_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/resolver/dns/go17.go

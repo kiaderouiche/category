@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/compute/v0.beta/compute-gen.go

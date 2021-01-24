@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/pkcs12/pkcs12.go

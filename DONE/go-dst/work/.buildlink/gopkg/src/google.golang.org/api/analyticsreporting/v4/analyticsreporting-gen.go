@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/analyticsreporting/v4/analyticsreporting-gen.go

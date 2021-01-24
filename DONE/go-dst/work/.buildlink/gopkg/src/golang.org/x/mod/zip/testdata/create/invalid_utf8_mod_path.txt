@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/mod/zip/testdata/create/invalid_utf8_mod_path.txt

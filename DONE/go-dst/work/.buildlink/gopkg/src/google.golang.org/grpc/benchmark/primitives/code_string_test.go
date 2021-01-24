@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/benchmark/primitives/code_string_test.go

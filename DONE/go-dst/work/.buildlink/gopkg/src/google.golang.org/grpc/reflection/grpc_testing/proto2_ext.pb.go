@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/reflection/grpc_testing/proto2_ext.pb.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/golang/protobuf/protoc-gen-go/testdata/imports/test_a_2/m3.pb.go

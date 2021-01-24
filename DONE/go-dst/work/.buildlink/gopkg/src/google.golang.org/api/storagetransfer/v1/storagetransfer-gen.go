@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/storagetransfer/v1/storagetransfer-gen.go

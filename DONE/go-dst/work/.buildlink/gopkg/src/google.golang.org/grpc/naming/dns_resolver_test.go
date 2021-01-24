@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/grpc/naming/dns_resolver_test.go

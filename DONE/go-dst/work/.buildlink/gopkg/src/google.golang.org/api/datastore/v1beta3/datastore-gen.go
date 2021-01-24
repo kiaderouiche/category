@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/google.golang.org/api/datastore/v1beta3/datastore-gen.go

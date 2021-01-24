@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/tools/go/ast/inspector/inspector_test.go

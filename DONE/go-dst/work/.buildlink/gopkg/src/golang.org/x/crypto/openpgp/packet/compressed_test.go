@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/openpgp/packet/compressed_test.go
