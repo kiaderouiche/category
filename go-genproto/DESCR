@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+Go generated proto packages
+===========================
+
+[![GoDoc](https://godoc.org/google.golang.org/genproto?status.svg)](https://godoc.org/google.golang.org/genproto)
+
+```
+go get google.golang.org/genproto/...
+```
+
+> **IMPORTANT** This repository is currently experimental. The structure
+> of the contained packages is subject to change. Please see the original
+> source repositories (listed below) to find out the status of the each
+> protocol buffer's associated service.
+
+This repository contains the generated Go packages for common protocol buffer
+types, and the generated [gRPC][1] code necessary for interacting with Google's gRPC
+APIs.
+
+The sources for the proto files used in this repository:
+
+...

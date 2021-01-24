@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/context/pre_go17.go

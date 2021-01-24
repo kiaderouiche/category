@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (svgo/go.weekly.2012-01-27.tar.gz) = 57f80365bf36238ed018936a73c742b6ef94e516
-RMD160 (svgo/go.weekly.2012-01-27.tar.gz) = c1fff4deafffa014c83cd90b9bbdaf846f043404
-SHA512 (svgo/go.weekly.2012-01-27.tar.gz) = 2c89411dc5fe1d9a70e142c6f73b914667e61db3f2a89607ac2bc895e633e45d32addeb6d828cd510467dc142c0669e36c8a36dc19939dc095b2108bbd186788
-Size (svgo/go.weekly.2012-01-27.tar.gz) = 2419657 bytes
+SHA1 (svgo-20200725-7a3c8b57fecb7bee36eee443630bb30bffbb37fc.tar.gz) = adc7da3bd7d6812e7801c4a76d1a10cc4a9ec6e6
+RMD160 (svgo-20200725-7a3c8b57fecb7bee36eee443630bb30bffbb37fc.tar.gz) = d9c1203b995488277f7d960ea9cbb335257e0c3f
+SHA512 (svgo-20200725-7a3c8b57fecb7bee36eee443630bb30bffbb37fc.tar.gz) = 48e999a5c628aa1f69ffc5fccdcffb16df7a11f5d131f94d126cfc798e1a45f9deb393fdaeb729f1d6d7dd8d41b0a23d076658c6a1f4a4c00ce0b638b4633e7f
+Size (svgo-20200725-7a3c8b57fecb7bee36eee443630bb30bffbb37fc.tar.gz) = 2540944 bytes

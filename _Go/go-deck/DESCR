@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# deck: A Go package for slide decks
+
+[![Deck Intro][2]][1]
+
+[1]: http://www.flickr.com/photos/ajstarks/9592115613/ "Deck Intro by ajstarks, on Flickr"
+[2]: https://farm4.staticflickr.com/3820/13415195635_64da6a7a90.jpg 
+
+Deck is a library for clients to make scalable presentations, using a standard markup language.
+Clients read deck files into the Deck structure, and traverse the structure for display, publication, etc.
+Clients may be interactive or produce standard formats such as SVG or PDF.
+
+Also included is a REST API for listing content, uploading, stopping, starting and removing decks, 
+generating tables, and playing video.
+
+The [deck on Deck](http://speakerdeck.com/ajstarks/deck-a-go-package-for-presentations)
+
+## Elements ##
+
+* deck: enclosing element 
+* canvas: describe the dimensions of the drawing canvas, one per deck
+...

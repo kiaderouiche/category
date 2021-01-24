@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (mediadevices/v0.1.5.tar.gz) = 483dc1a4f07364c6a1ef346584956e01eb9c73c6
-RMD160 (mediadevices/v0.1.5.tar.gz) = 87d2c7aa2aaf8e0c5879c11dc3c3b36fcfced8a2
-SHA512 (mediadevices/v0.1.5.tar.gz) = 001b5af168606de2eb6f451c640ecea5671f07bbacc74272c0fff8ab7d6d51ff8ce4b5803e4dfd8316190163ff402b4d65e262c998db09cfc068f542386b6c04
-Size (mediadevices/v0.1.5.tar.gz) = 6641198 bytes
+SHA1 (mediadevices-0.1.14.tar.gz) = 88976a1799363865d18d033f828aacf42098445b
+RMD160 (mediadevices-0.1.14.tar.gz) = e70cd69d970a1c77eba89b22ba58413ad857e73a
+SHA512 (mediadevices-0.1.14.tar.gz) = 369ee34dc2939626d04e4d3f65b805892eb520c87f6838bf20d420789fe1ef39f6d17c90a3036bcbdea3a2cb66c6c0d95475012beab0016b864239e5ff077eef
+Size (mediadevices-0.1.14.tar.gz) = 5322658 bytes

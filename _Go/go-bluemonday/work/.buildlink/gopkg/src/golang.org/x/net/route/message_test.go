@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/route/message_test.go

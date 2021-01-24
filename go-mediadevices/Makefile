@@ -1,19 +1,16 @@
 # $NetBSD$
 
+DISTNAME=	mediadevices-0.1.14
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	mediadevices
-GITHUB_TAG=	v0.1.5
-DISTNAME=	v0.1.5
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	multimedia
+GITHUB_TAG=	v${PKGVERSION_NOREV}
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=pion/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/pion/mediadevices/
 COMMENT=	TODO: Short description of the package
-LICENSE=	mit
-
-WRKSRC=		${WRKDIR}/mediadevices-0.1.5
+#LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	c c++
 
