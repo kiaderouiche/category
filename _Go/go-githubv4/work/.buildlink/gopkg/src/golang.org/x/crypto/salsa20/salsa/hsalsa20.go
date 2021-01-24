@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/salsa20/salsa/hsalsa20.go

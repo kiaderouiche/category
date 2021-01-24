@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/unicode/bidi/tables10.0.0.go

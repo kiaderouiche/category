@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/ssh/mempipe_test.go

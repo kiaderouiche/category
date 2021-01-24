@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/plan9/asm_plan9_amd64.s

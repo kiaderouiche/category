@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/width/tables9.0.0.go

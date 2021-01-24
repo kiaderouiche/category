@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/ocsp/ocsp_test.go

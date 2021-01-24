@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/crypto/blake2b/blake2b_amd64.s

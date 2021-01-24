@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/internal/utf8internal/utf8internal.go

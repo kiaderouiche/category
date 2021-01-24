@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/bpf/vm_extension_test.go

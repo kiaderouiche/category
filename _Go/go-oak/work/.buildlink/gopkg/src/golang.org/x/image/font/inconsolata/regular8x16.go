@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/image/font/inconsolata/regular8x16.go

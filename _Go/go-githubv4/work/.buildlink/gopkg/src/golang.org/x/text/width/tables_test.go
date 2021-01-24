@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/text/width/tables_test.go

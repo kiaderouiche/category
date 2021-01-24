@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/websocket/dial_test.go

@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/disintegration/gift/effects_test.go
