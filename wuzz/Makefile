@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	wuzz-0.5.0
-PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	wuzz
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	www
@@ -15,5 +14,8 @@ COMMENT=	TODO: Short description of the package
 GO_SRCPATH=     github.com/asciimoo/wuzz
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../net/go-net/buildlink3.mk"
+.include "../../textproc/go-runewidth/buildlink3.mk"
+.include "../../www/go-toml-burntsushi/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
