@@ -14,6 +14,7 @@ COMMENT=	TODO: Short description of the package
 GO_SRCPATH=     github.com/asciimoo/wuzz
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
+.include "../../devel/go-homedir/buildlink3.mk"
 .include "../../net/go-net/buildlink3.mk"
 .include "../../textproc/go-runewidth/buildlink3.mk"
 .include "../../www/go-toml-burntsushi/buildlink3.mk"

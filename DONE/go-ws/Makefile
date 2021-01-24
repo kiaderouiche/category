@@ -15,5 +15,7 @@ LICENSE=	mit
 GO_SRCPATH=	github.com/gobwas/ws
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
 
+.include "../../wip/go-httphead/buildlink3.mk"
+.include "../../wip/go-pool/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
