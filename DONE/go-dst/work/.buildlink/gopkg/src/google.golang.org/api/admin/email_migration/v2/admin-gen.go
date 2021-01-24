@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/admin/email_migration/v2/admin-gen.go

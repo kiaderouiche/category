@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/dfareporting/v2.2/dfareporting-gen.go

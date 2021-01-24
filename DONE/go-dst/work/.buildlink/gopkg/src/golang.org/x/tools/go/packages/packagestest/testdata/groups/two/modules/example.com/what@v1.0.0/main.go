@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/go/packages/packagestest/testdata/groups/two/modules/example.com/what@v1.0.0/main.go

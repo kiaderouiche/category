@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/dave/jennifer/README.md.tpl

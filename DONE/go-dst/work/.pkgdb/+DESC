@@ -1,0 +1,7 @@
+The dst package enables manipulation of a Go syntax
+tree with high fidelity. Decorations (e.g. comments
+and line spacing) remain attached to the correct
+nodes as the tree is modified
+
+Homepage:
+https://github.com/dave/dst/

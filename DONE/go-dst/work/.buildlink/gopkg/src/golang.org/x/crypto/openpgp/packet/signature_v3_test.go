@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/openpgp/packet/signature_v3_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/protobuf/api/api.pb.go

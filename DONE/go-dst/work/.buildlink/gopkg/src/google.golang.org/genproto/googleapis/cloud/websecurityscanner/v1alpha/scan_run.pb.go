@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/websecurityscanner/v1alpha/scan_run.pb.go

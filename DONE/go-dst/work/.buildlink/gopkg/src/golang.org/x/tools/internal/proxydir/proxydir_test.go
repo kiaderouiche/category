@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/internal/proxydir/proxydir_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/sqladmin/v1beta4/sqladmin-gen.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/testdata/godef/a/a_x_test.go

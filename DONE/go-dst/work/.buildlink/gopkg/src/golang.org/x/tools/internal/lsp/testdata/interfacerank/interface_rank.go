@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/internal/lsp/testdata/interfacerank/interface_rank.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/rpc/errdetails/error_details.pb.go

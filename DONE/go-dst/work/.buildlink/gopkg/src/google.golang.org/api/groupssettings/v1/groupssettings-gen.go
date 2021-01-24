@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/groupssettings/v1/groupssettings-gen.go

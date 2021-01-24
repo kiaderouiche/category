@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/windows/dll_windows.go

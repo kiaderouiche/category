@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/logging/v2beta1/logging-gen.go

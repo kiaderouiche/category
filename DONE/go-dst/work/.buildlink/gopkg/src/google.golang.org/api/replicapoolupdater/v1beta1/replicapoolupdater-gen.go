@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/replicapoolupdater/v1beta1/replicapoolupdater-gen.go

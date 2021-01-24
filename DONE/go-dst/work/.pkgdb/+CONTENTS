@@ -1,0 +1,25 @@
+@cwd /usr/pkg
+@name go-dst-0.26.2
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep go-mod-0.4.0
+@blddep go-xerrors-20190719nb11
+@blddep go-crypto-0.0.20200122nb5
+@blddep go-sys-0.0.20200202nb4
+@blddep go-tools-1.15.20201026nb4
+@blddep google-api-go-client-20160909nb28
+@blddep go-genproto-20180901nb22
+@blddep go-protobuf-1.3.3nb11
+@blddep go-genproto-googleapis-rpc-20180901nb22
+@blddep go-grpc-1.15.0nb24
+@blddep go-glog-20160125nb28
+@blddep go-net-20200130nb9
+@blddep go-text-0.3.3nb2
+@blddep go-oauth2-20151204nb32
+@blddep gcloud-golang-metadata-20150310nb34
+@blddep go-jennifer-1.4.1
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"

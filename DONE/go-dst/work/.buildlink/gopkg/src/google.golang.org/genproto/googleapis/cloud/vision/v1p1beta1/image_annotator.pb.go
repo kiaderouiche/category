@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/cloud/vision/v1p1beta1/image_annotator.pb.go

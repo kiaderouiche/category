@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/runtimeconfig/v1beta1/runtimeconfig-gen.go

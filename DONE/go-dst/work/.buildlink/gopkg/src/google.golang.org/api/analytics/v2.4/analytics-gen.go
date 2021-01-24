@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/analytics/v2.4/analytics-gen.go

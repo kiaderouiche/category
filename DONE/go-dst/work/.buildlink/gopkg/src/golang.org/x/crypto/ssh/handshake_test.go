@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/ssh/handshake_test.go

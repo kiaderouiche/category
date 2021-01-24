@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/youtubeanalytics/v1beta1/youtubeanalytics-gen.go

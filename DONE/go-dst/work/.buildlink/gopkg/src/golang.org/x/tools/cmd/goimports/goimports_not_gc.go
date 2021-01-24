@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/cmd/goimports/goimports_not_gc.go

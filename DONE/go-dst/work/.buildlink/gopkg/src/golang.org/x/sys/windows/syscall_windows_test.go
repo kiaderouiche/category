@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/windows/syscall_windows_test.go

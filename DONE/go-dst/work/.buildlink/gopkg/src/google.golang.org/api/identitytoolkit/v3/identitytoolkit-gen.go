@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/api/identitytoolkit/v3/identitytoolkit-gen.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/go/analysis/passes/tests/testdata/src/a/ax_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/google.golang.org/genproto/googleapis/streetview/publish/v1/streetview_publish.pb.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/mod/sumdb/tlog/tlog_test.go

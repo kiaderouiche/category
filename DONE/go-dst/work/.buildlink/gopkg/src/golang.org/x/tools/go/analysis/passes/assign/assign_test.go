@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/go/analysis/passes/assign/assign_test.go

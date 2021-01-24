@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/cmd/stringer/testdata/vary_day.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/tools/go/buildutil/allpackages_test.go
