@@ -1,17 +1,19 @@
 # $NetBSD$
 
+DISTNAME=	zerolog-20210120
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	zerolog
-GITHUB_TAG=	v1.20.0
-DISTNAME=	v1.20.0
-PKGNAME=	${GITHUB_PROJECT}-${DISTNAME:S,^v,,}
-CATEGORIES=	category
+GITHUB_TAG=	a8f5328bb7c784b044cc9649643d56d97ad2334c
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=rs/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/rs/zerolog/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Zero Allocation JSON Logger
+LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/gorgonia/${GITHUB_PROJECT}
+
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

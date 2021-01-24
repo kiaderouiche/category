@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/github.com/stretchr/testify/mock/doc.go
