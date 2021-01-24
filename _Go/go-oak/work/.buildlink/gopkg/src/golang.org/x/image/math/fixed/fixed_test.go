@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/image/math/fixed/fixed_test.go

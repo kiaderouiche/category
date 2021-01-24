@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/github.com/golang/freetype/cmd/print-glyph-points/main.c

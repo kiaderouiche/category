@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/image/vector/acc_amd64.s

@@ -14,5 +14,7 @@ LICENSE=	mit
 GO_DIST_BASE=	eris-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/rotisserie/eris
 
+.include "../../devel/go-errors/buildlink3.mk"
+.include "../../devel/go-logrus/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"

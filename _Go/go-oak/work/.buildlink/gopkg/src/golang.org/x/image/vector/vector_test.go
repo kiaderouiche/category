@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/image/vector/vector_test.go

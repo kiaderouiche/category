@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/internal/export/idna/tables9.0.0.go
