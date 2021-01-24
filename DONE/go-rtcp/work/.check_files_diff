@@ -1,0 +1,46 @@
+--- /usr/pkgsrc/category/go-rtcp/work/.prefix.pre	2021-01-24 21:59:16.257383090 +0100
++++ /usr/pkgsrc/category/go-rtcp/work/.prefix.post	2021-01-24 21:59:16.353383956 +0100
+@@ -0,0 +1,43 @@
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/pion/rtcp.a
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/codecov.yml
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/compound_packet.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/compound_packet_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/doc.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/errors.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/full_intra_request.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/full_intra_request_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/fuzz.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/go.mod
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/goodbye.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/goodbye_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/go.sum
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/header.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/header_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/LICENSE
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/packet.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/packet_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/picture_loss_indication.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/picture_loss_indication_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/rapid_resynchronization_request.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/rapid_resynchronization_request_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/raw_packet.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/raw_packet_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/README.md
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/receiver_estimated_maximum_bitrate.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/receiver_estimated_maximum_bitrate_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/receiver_report.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/receiver_report_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/reception_report.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/renovate.json
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/sender_report.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/sender_report_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/slice_loss_indication.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/slice_loss_indication_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/source_description.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/source_description_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/transport_layer_cc.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/transport_layer_cc_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/transport_layer_nack.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/transport_layer_nack_test.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/util.go
++/usr/pkgsrc/category/go-rtcp/work/.destdir/usr/pkg/gopkg/src/github.com/pion/rtcp/util_test.go

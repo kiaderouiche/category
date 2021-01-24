@@ -1,20 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	webrtc-3.0.0
+DISTNAME=	rtcp-1.2.6
 PKGNAME=	go-${DISTNAME}
-GITHUB_PROJECT=	webrtc
+GITHUB_PROJECT=	rtcp
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	multimedia
+CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GITHUB:=pion/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/pion/webrtc/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	https://github.com/pion/rtcp/
+COMMENT=	Go implementation of RTCP
+LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
-GO_SRCPATH=	github.com/pion/webrtc
+GO_SRCPATH=	github.com/pion/rtcp
 
-.include "../../net/go-net/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
