@@ -1,0 +1,4 @@
+Semantic Version Util is a tool to manage
+semantic versions at ease! You can print
+the current version, increase patch/minor/major
+manually or just get the next tag based on your git log!

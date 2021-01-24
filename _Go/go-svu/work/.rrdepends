@@ -1,0 +1,7 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	pax>=20040802	pax-20080110nb4
+tool	checkperms>=1.1	checkperms-1.12
+build	go115-1.15.5*	go115-1.15.5
+build	go-kingpin.v3-unstable>=3.0.0.0.20100811	go-kingpin.v3-unstable-3.0.0.0.20100811nb21
+build	go-semver>=3.1.1	go-semver-3.1.1
+build	cwrappers>=20150314	cwrappers-20180325
