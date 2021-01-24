@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/secure/precis/tables11.0.0.go

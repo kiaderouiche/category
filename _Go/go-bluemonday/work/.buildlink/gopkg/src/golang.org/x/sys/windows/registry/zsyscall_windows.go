@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/windows/registry/zsyscall_windows.go

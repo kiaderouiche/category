@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=eclipse/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/eclipse/paho.mqtt.golang/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Eclipse Paho MQTT Go client
 LICENSE=	eclipse-license
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}

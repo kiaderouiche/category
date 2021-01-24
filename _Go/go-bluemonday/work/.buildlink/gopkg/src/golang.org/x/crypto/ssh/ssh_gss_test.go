@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/crypto/ssh/ssh_gss_test.go

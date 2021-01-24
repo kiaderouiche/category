@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/unicode/runenames/tables10.0.0.go

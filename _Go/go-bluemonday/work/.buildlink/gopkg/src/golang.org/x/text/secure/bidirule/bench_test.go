@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/secure/bidirule/bench_test.go
