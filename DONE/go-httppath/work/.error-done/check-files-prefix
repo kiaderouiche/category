@@ -1,0 +1,7 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/dimfeld/httppath.a
+        /usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/LICENSE
+        /usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/path.go
+        /usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/path_test.go
+        /usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/README.md

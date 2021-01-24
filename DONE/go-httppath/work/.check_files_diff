@@ -1,0 +1,8 @@
+--- /usr/pkgsrc/category/go-httppath/work/.prefix.pre	2021-01-24 22:25:04.864131356 +0100
++++ /usr/pkgsrc/category/go-httppath/work/.prefix.post	2021-01-24 22:25:04.900131616 +0100
+@@ -0,0 +1,5 @@
++/usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/pkg/linux_amd64/github.com/dimfeld/httppath.a
++/usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/LICENSE
++/usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/path.go
++/usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/path_test.go
++/usr/pkgsrc/category/go-httppath/work/.destdir/usr/pkg/gopkg/src/github.com/dimfeld/httppath/README.md

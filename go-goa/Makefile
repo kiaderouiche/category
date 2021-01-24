@@ -18,7 +18,9 @@ GO_SRCPATH=	github.com/goadesign/goa
 USE_TOOLS+=	gmake
 
 .include "../../devel/go-errors/buildlink3.mk"
+.include "../../devel/go-mod/buildlink3.mk"
 .include "../../devel/go-tools/buildlink3.mk"
 .include "../../devel/go-yaml/buildlink3.mk"
+.include "../../net/go-websocket/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
