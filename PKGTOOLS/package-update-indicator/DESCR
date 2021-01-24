@@ -1,4 +1,0 @@
-The package-update-indicator utility regularly checks
-for software updates and notifies the user about
-available updates using desktop notifications and
-either a status notifier icon or a system tray icon.

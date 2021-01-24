@@ -1,3 +1,0 @@
-@comment $NetBSD: PLIST,v 1.4 2018/01/01 22:29:52 rillig Exp $
-man/man8/rpm2pkg.8
-sbin/rpm2pkg

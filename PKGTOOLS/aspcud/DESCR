@@ -1,6 +1,0 @@
-The aspcud project provides the converter/preprocessor `cudf2lp`
-to translate a CUDF specification into a set of facts. These facts
-together with an encoding can then be passed to an ASP grounder and
-solver to solve the package problem. The small C program `aspcud` 
-takes care of this, calling the necessary tools and printing the result
-in CUDF format.
