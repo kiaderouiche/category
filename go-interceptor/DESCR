@@ -1,0 +1,4 @@
+Interceptor is a framework for building RTP/RTCP communication
+software. This framework defines a interface that each interceptor
+must satisfy. These interceptors are then run sequentially. We also
+then provide common interceptors that will be useful for building RTC software.
