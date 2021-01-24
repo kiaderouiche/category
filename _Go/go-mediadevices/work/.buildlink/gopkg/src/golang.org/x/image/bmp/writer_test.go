@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/image/bmp/writer_test.go

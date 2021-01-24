@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/plan9/zsyscall_plan9_arm.go

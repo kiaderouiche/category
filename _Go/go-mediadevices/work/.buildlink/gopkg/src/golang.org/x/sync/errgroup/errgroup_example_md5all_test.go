@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sync/errgroup/errgroup_example_md5all_test.go

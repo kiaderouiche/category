@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# go-webcam
+
+[![Build Status](https://travis-ci.org/blackjack/webcam.png?branch=master)](https://travis-ci.org/blackjack/webcam) [![GoDoc](https://godoc.org/github.com/google/go-github/github?status.svg)](https://godoc.org/github.com/blackjack/webcam)
+
+This is a **go** library for working with webcams and other video capturing devices.
+It depends entirely on [V4L2](http://linuxtv.org/downloads/v4l-dvb-apis/) framework, thus will compile and work only on **Linux** machine.
+
+## Installation
+
+```console
+$ go get github.com/blackjack/webcam
+```
+
+## Usage
+
+```go
+import "github.com/blackjack/webcam"
+// ...
+cam, err := webcam.Open("/dev/video0") // Open webcam
+if err != nil { panic(err.Error()) }
+...

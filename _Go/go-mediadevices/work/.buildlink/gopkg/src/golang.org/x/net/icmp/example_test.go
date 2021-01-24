@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/icmp/example_test.go

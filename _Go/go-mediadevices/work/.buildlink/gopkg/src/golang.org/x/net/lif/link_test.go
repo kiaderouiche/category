@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/lif/link_test.go

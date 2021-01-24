@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/image/font/plan9font/example_test.go

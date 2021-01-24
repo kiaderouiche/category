@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/lif/address_test.go

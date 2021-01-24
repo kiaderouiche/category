@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sys/cpu/cpu_other_arm64.go

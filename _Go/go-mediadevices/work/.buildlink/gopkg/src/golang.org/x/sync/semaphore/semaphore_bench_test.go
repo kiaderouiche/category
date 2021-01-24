@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/sync/semaphore/semaphore_bench_test.go

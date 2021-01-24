@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/http2/server_push_test.go

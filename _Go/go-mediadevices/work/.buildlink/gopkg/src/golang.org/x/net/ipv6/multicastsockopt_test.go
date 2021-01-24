@@ -1,1 +1,0 @@
-/usr/pkg/gopkg/src/golang.org/x/net/ipv6/multicastsockopt_test.go
