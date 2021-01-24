@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Package `tensor` [![GoDoc](https://godoc.org/gorgonia.org/tensor?status.svg)](https://godoc.org/gorgonia.org/tensor) [![GitHub version](https://badge.fury.io/gh/gorgonia%2Ftensor.svg)](https://badge.fury.io/gh/gorgonia%2Ftensor)  [![Build Status](https://travis-ci.org/gorgonia/tensor.svg?branch=master)](https://travis-ci.org/gorgonia/tensor) [![Coverage Status](https://coveralls.io/repos/github/gorgonia/tensor/badge.svg?branch=master)](https://coveralls.io/github/gorgonia/tensor?branch=master) [![Go Report Card](https://goreportcard.com/badge/gorgonia.org/tensor)](https://goreportcard.com/report/gorgonia.org/tensor) [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)#
+
+Package `tensor` is a package that provides efficient, generic (by some definitions of generic) n-dimensional arrays in Go. Also in this package are functions and methods that are used commonly in arithmetic, comparison and linear algebra operations.
+
+The main purpose of this package is to support the operations required by [Gorgonia](https://gorgonia.org/gorgonia).
+
+## Introduction ##
+In the data analysis world, [Numpy](http://http://www.numpy.org/) and [Matlab](https://www.mathworks.com/products/matlab.html) currently reign supreme. Both tools rely heavily on having performant n-dimensional arrays, or tensors. **There is an obvious need for multidimensional arrays in Go**. 
+
+While slices are cool, a large majority of scientific and numeric computing work relies heavily on matrices (two-dimensional arrays), three dimensional arrays and so on. In Go, the typical way of getting multidimensional arrays is to use something like `[][]T`. Applications that are more math heavy may opt to use the very excellent Gonum [`matrix` package](https://github.com/gonum/matrix). What then if we want to go beyond having a `float64` matrix? What if we wanted a 3-dimensional `float32` array?
+
+It comes to reason then there should be a data structure that handles these things. The `tensor` package fits in that niche. 
+
+### Basic Idea: Tensor ###
+A tensor is a multidimensional array. It's like a slice, but works in multiple dimensions.
+
+With slices, there are usage patterns that are repeated enough that warrant abstraction - `append`, `len`, `cap`, `range` are abstractions used to manipulate and query slices. Additionally slicing operations (`a[:1]` for example) are also abstractions provided by the language. Andrew Gerrand wrote a very good write up on [Go's slice usage and internals](https://blog.golang.org/go-slices-usage-and-internals). 
+
+Tensors come with their own set of usage patterns and abstractions. Most of these have analogues in slices, enumerated below (do note that certain slice operation will have more than one tensor analogue - this is due to the number of options available):
+
+...
