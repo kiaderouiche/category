@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/image/font/opentype/example_test.go

@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/net/html/charset/charset_test.go

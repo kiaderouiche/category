@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/collate/build/order_test.go

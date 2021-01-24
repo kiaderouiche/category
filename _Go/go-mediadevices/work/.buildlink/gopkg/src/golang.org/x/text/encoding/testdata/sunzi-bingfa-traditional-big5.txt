@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/encoding/testdata/sunzi-bingfa-traditional-big5.txt

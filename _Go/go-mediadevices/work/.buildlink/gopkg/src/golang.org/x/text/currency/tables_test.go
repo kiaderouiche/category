@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/text/currency/tables_test.go

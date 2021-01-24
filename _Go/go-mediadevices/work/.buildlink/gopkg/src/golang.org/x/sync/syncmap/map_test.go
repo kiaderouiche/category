@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sync/syncmap/map_test.go
