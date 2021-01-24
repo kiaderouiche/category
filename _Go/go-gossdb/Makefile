@@ -1,15 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	gossdb-20180723
+PKGNAME=	go-${DISTNAME}
 GITHUB_PROJECT=	gossdb
 GITHUB_TAG=	88f6b59b84ece096894b780e7c17b54e1301cd5b
-CATEGORIES=	category
-MASTER_SITES=	${MASTER_SITE_GITHUB:=kiaderouiche/}
+CATEGORIES=	databases
+MASTER_SITES=	${MASTER_SITE_GITHUB:=ssdb/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	SSDB Golang client
 HOMEPAGE=	https://github.com/ssdb/gossdb/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	2-clause-bsd
 
 GO_DIST_BASE=   ${GITHUB_PROJECT}-${GITHUB_TAG}
 GO_SRCPATH=     github.com/ssdb/${GITHUB_PROJECT}

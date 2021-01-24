@@ -1,0 +1,1 @@
+All SSDB operations go with ssdb.Client.Do(),it accepts variable arguments.
