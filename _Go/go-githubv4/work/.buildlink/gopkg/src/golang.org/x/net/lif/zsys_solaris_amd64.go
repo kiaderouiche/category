@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/net/lif/zsys_solaris_amd64.go

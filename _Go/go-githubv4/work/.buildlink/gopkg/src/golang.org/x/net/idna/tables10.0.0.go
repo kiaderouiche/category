@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/net/idna/tables10.0.0.go

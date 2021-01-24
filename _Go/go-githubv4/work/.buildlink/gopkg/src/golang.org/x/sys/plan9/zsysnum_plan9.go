@@ -1,0 +1,1 @@
+/usr/pkg/gopkg/src/golang.org/x/sys/plan9/zsysnum_plan9.go
