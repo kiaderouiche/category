@@ -21,6 +21,7 @@ USE_TOOLS+=	gmake
 .include "../../devel/go-mod/buildlink3.mk"
 .include "../../devel/go-tools/buildlink3.mk"
 .include "../../devel/go-yaml/buildlink3.mk"
+.include "../../devel/go-xerrors/buildlink3.mk"
 .include "../../security/go-crypto/buildlink3.mk"
 .include "../../textproc/go-chroma/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
