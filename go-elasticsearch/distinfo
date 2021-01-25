@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (go-elasticsearch/v7.10.0.tar.gz) = a924bbe438254264e4423cc118eaacdb774709e5
-RMD160 (go-elasticsearch/v7.10.0.tar.gz) = 8a74d367eccb32d107b634823c6afa655f1176a4
-SHA512 (go-elasticsearch/v7.10.0.tar.gz) = f8d43c9318edf34b02c4e43a734abfff02cb67e7b287937524a4fde70c2b8674431919c3f1e6219ddf6d11b8c7eb66e8f2c5716680e3718548c405f0f84d6a79
-Size (go-elasticsearch/v7.10.0.tar.gz) = 1453846 bytes
+SHA1 (elasticsearch-7.10.0.tar.gz) = a924bbe438254264e4423cc118eaacdb774709e5
+RMD160 (elasticsearch-7.10.0.tar.gz) = 8a74d367eccb32d107b634823c6afa655f1176a4
+SHA512 (elasticsearch-7.10.0.tar.gz) = f8d43c9318edf34b02c4e43a734abfff02cb67e7b287937524a4fde70c2b8674431919c3f1e6219ddf6d11b8c7eb66e8f2c5716680e3718548c405f0f84d6a79
+Size (elasticsearch-7.10.0.tar.gz) = 1453846 bytes
