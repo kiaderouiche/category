@@ -24,6 +24,7 @@ GO_SRCPATH=	github.com/golangci/golangci-lint
 .include "../../devel/go-tools/buildlink3.mk"
 .include "../../security/go-oauth2/buildlink3.mk"
 .include "../../wip/go-color/buildlink3.mk"
+.include "../../wip/go-flock/buildlink3.mk"
 .include "../../wip/go-makezero/buildlink3.mk"
 .include "../../wip/err113/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
