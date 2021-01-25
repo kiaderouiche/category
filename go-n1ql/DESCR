@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# go_n1ql
+
+## N1QL Driver for Go's `database/sql` package
+
+This library implements the standard go database APIs for
+[database/sql](http://golang.org/pkg/database/sql/) and 
+[database/sql/driver](http://golang.org/pkg/database/sql/driver/).
+
+## Installation
+
+```bash
+go get github.com/couchbase/go_n1ql
+cd $GOPATH/src/github.com/couchbase/go_n1ql
+go get ...
+```
+
+## Test
+
+The test code assumes an instance of Couchbase is running on the local machine,
+and the *beer-sample* sample bucket is loaded. 
+...

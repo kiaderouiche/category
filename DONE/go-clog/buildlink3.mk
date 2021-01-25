@@ -1,0 +1,15 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	go-clog
+
+.if !defined(GO_CLOG_BUILDLINK3_MK)
+GO_CLOG_BUILDLINK3_MK:=
+
+BUILDLINK_CONTENTS_FILTER.go-clog=	${EGREP} gopkg/
+BUILDLINK_DEPMETHOD.go-clog?=		build
+
+BUILDLINK_API_DEPENDS.go-clog+=	go-clog>=20190523
+BUILDLINK_PKGSRCDIR.go-clog?=	../../wip/go-clog
+.endif	# GO_CLOG_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-go-clog

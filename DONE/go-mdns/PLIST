@@ -1,0 +1,17 @@
+@comment $NetBSD$
+bin/query
+bin/server
+gopkg/pkg/${GO_PLATFORM}/github.com/pion/mdns.a
+gopkg/src/github.com/pion/mdns/LICENSE
+gopkg/src/github.com/pion/mdns/README.md
+gopkg/src/github.com/pion/mdns/codecov.yml
+gopkg/src/github.com/pion/mdns/config.go
+gopkg/src/github.com/pion/mdns/conn.go
+gopkg/src/github.com/pion/mdns/conn_test.go
+gopkg/src/github.com/pion/mdns/errors.go
+gopkg/src/github.com/pion/mdns/examples/query/main.go
+gopkg/src/github.com/pion/mdns/examples/server/main.go
+gopkg/src/github.com/pion/mdns/go.mod
+gopkg/src/github.com/pion/mdns/go.sum
+gopkg/src/github.com/pion/mdns/mdns.go
+gopkg/src/github.com/pion/mdns/renovate.json
