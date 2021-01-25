@@ -12,6 +12,8 @@ HOMEPAGE=	https://github.com/casbin/casbin/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
+GO_SRCPATH=	github.com/elastic/${GITHUB_PROJECT}
 
+.include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
