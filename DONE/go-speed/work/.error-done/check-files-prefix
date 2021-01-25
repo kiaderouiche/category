@@ -1,0 +1,30 @@
+************************************************************
+The following files are in the PLIST but not in /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg:
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/hdr.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/hdr_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/LICENSE
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/README.md
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/.travis.yml
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/window.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/window_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/.gitignore
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/LICENSE
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap_unix.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap_windows.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/msync_netbsd.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/msync_unix.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/README.md
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/appveyor.yml
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/bench_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/errors.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/errors_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/example_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/format_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/.gitignore
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/LICENSE
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/README.md
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/stack.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/stack_test.go
+        /usr/pkgsrc/category/go-speed/work/.destdir/usr/pkg/gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/.travis.yml

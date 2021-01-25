@@ -1,0 +1,188 @@
+@cwd /usr/pkg
+@name go-speed-20190404
+@blddep digest-20190127
+@blddep go115-1.15.5
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/acme
+@comment MD5:600a2c364c328e79ef6a8749a9a32f52
+bin/basic_histogram
+@comment MD5:25626b0b6114ab972bb117345c3ac34d
+bin/download
+@comment MD5:f59b4a8ccc81f66f6ba8fc76d90ed443
+bin/http_counter
+@comment MD5:b5908725a0b59825255e491408b4dc23
+bin/instance_string
+@comment MD5:1c26d8499fec64ac1d311faabafa8d9c
+bin/mmvdump
+@comment MD5:7a9fabf2cdc6a606716920b1daf77f6d
+bin/runtime
+@comment MD5:42b7e0d660ba906438b441d3ede01156
+bin/simple
+@comment MD5:42956a426f2bdad26791f38e9fca79e5
+bin/simple_string_metric
+@comment MD5:ca4e8d9b0644caa94ed8cb0cc5a6937a
+bin/singleton_counter
+@comment MD5:c823507c378c940c60490a000243892e
+bin/singleton_string
+@comment MD5:33ad3bcb0521a0e05e356a88f3aa49cf
+gopkg/pkg/linux_amd64/github.com/performancecopilot/speed.a
+@comment MD5:a1469dad603c138ae262ef2c9a164141
+gopkg/pkg/linux_amd64/github.com/performancecopilot/speed/bytewriter.a
+@comment MD5:0d2fb2260b0e59201f25f01e608c2591
+gopkg/pkg/linux_amd64/github.com/performancecopilot/speed/mmvdump.a
+@comment MD5:c7c22ee86d55eaecd7661e2df5690f67
+gopkg/src/github.com/performancecopilot/speed/CHANGELOG.md
+@comment MD5:579617a40a692e1f868c73c5069f6074
+gopkg/src/github.com/performancecopilot/speed/LICENSE
+@comment MD5:341d2a674724269aad196e93d56192f7
+gopkg/src/github.com/performancecopilot/speed/Makefile
+@comment MD5:37941e1d2a7023d552e4b9db48b4710a
+gopkg/src/github.com/performancecopilot/speed/README.md
+@comment MD5:b276422668add5d063e00c652f004c8c
+gopkg/src/github.com/performancecopilot/speed/appveyor.yml
+@comment MD5:08792865c32bb71716d8335ad50ac176
+gopkg/src/github.com/performancecopilot/speed/bytewriter/README.md
+@comment MD5:065b7e1fd28a76f0c8bc6301d04f8fe9
+gopkg/src/github.com/performancecopilot/speed/bytewriter/bytewriter.go
+@comment MD5:2a3b39d49a164562e63b1869e0ac6da1
+gopkg/src/github.com/performancecopilot/speed/bytewriter/bytewriter_test.go
+@comment MD5:2f240b4db16df250cbb32c342f7b180d
+gopkg/src/github.com/performancecopilot/speed/bytewriter/memorymappedwriter.go
+@comment MD5:eb37afa089a9ff8af094b67e10f75bec
+gopkg/src/github.com/performancecopilot/speed/bytewriter/memorymappedwriter_test.go
+@comment MD5:397e306f056fbe73899399e8285993fd
+gopkg/src/github.com/performancecopilot/speed/bytewriter/writer.go
+@comment MD5:6815370a76d0056f8e89183cef237d97
+gopkg/src/github.com/performancecopilot/speed/client.go
+@comment MD5:ed59ff9abe099b57466dec3e193d6009
+gopkg/src/github.com/performancecopilot/speed/client_test.go
+@comment MD5:d7ea8b400052d344861651df0e74be03
+gopkg/src/github.com/performancecopilot/speed/config.go
+@comment MD5:6e565cf4bae2e35942cfdf9b6931c308
+gopkg/src/github.com/performancecopilot/speed/config_test.go
+@comment MD5:cf2203046095de765844461d0b84870e
+gopkg/src/github.com/performancecopilot/speed/countunit_string.go
+@comment MD5:0df3a80a3fd780212a6dc7c3ea3299de
+gopkg/src/github.com/performancecopilot/speed/examples/acme/main.go
+@comment MD5:1a33b673452d73380020518037b30628
+gopkg/src/github.com/performancecopilot/speed/examples/basic_histogram/main.go
+@comment MD5:4e67f57fd2ae3afc480c41c4f03b02f6
+gopkg/src/github.com/performancecopilot/speed/examples/download/main.go
+@comment MD5:9d9526fb0b375fca9a085e2fc6669d7c
+gopkg/src/github.com/performancecopilot/speed/examples/http_counter/server.go
+@comment MD5:9b931688b27ea1f5064b1b1d1b1bd9ae
+gopkg/src/github.com/performancecopilot/speed/examples/instance_string/main.go
+@comment MD5:74f8947cf9ea9ab7f56d8e736df47b2f
+gopkg/src/github.com/performancecopilot/speed/examples/runtime/main.go
+@comment MD5:38ab39c0c31cac20b909d950094a0d43
+gopkg/src/github.com/performancecopilot/speed/examples/simple/main.go
+@comment MD5:3cf0cdecce1e03187c2f19fcb970013a
+gopkg/src/github.com/performancecopilot/speed/examples/simple_string_metric/main.go
+@comment MD5:fecdf8477a5dd01ff1fee8855ac2e4ca
+gopkg/src/github.com/performancecopilot/speed/examples/singleton_counter/main.go
+@comment MD5:ba9daaa0ddd66b61056b0e4c6da55a11
+gopkg/src/github.com/performancecopilot/speed/examples/singleton_string/main.go
+@comment MD5:4e9b8adb3f7ade2905322ed355f32146
+gopkg/src/github.com/performancecopilot/speed/go.mod
+@comment MD5:7c2704c1bcf67ef163ab14945688e9ff
+gopkg/src/github.com/performancecopilot/speed/go.sum
+@comment MD5:688854ad60c4cadc098969cd99683abb
+gopkg/src/github.com/performancecopilot/speed/images/speed.png
+@comment MD5:d0ad770a78d75fb73a41eab6ce5c12c3
+gopkg/src/github.com/performancecopilot/speed/images/speed.svg
+@comment MD5:3f1da80550b6431b92c6f4d914c9bb9b
+gopkg/src/github.com/performancecopilot/speed/instance.go
+@comment MD5:a1d3d7883cac62eea2bfeef829483bd0
+gopkg/src/github.com/performancecopilot/speed/instance_domain.go
+@comment MD5:0a8b605fbf64c5ac6b6501650ed25e51
+gopkg/src/github.com/performancecopilot/speed/metrics.go
+@comment MD5:e5344db63935250ce0fa1ca80298f069
+gopkg/src/github.com/performancecopilot/speed/metrics_amd64_test.go
+@comment MD5:670489221427d277c3d26e14903d1224
+gopkg/src/github.com/performancecopilot/speed/metrics_test.go
+@comment MD5:ec68447b8051010345853826ba65e5e1
+gopkg/src/github.com/performancecopilot/speed/metricsemantics_string.go
+@comment MD5:b2b406ec9c111a45fe873ef33671c6af
+gopkg/src/github.com/performancecopilot/speed/metrictype_string.go
+@comment MD5:c5720838d2a8241885286dd110decb2a
+gopkg/src/github.com/performancecopilot/speed/mmvdump/README.md
+@comment MD5:fd8d5154fa953b844b56effe01a8a36b
+gopkg/src/github.com/performancecopilot/speed/mmvdump/cmd/mmvdump/main.go
+@comment MD5:96d9c0aa669d967f342be17c37616346
+gopkg/src/github.com/performancecopilot/speed/mmvdump/mmvdump.go
+@comment MD5:80cade6c9264548059804e2eb02997aa
+gopkg/src/github.com/performancecopilot/speed/mmvdump/mmvdump_test.go
+@comment MD5:d795bd9d64d11b9bf0214b0040eaf0e3
+gopkg/src/github.com/performancecopilot/speed/mmvdump/pcp.go
+@comment MD5:369fa6a4ded58707a6191dbd69b2da85
+gopkg/src/github.com/performancecopilot/speed/mmvdump/semantics_string.go
+@comment MD5:9fe24cf723c19aaad88fca21d787e24c
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/output1.golden
+@comment MD5:676cb16384608096b26ea45668e34ea8
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/output2.golden
+@comment MD5:5e8e716eabfad18845fa16cb1733d76e
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/output3.golden
+@comment MD5:6eec96720afb85efaeb8dfbfda213c40
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/output4.golden
+@comment MD5:a649db8b43d303f13eda7be54295418a
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/output5.golden
+@comment MD5:d555494f82b13e7720fbd4e31ed14770
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/test1.mmv
+@comment MD5:f89dcea070d48face1d2c47730979d7f
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/test2.mmv
+@comment MD5:cad3b7a5b6fa74599449388b1b01b602
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/test3.mmv
+@comment MD5:a8920d1041a03b007cd261be70d40c68
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/test4.mmv
+@comment MD5:e330df5d4e66ce4930ed2ae3fae60be6
+gopkg/src/github.com/performancecopilot/speed/mmvdump/testdata/test5.mmv
+@comment MD5:fb0648c3555b64d7a76a4894f876401f
+gopkg/src/github.com/performancecopilot/speed/mmvdump/toctype_string.go
+@comment MD5:be9593a7d0a76b5ccdb66d649e50d81e
+gopkg/src/github.com/performancecopilot/speed/mmvdump/type_string.go
+@comment MD5:2f31f99f12e9e28bda135e9c13b85fda
+gopkg/src/github.com/performancecopilot/speed/mmvdump/writer.go
+@comment MD5:033d10ff6bbb53db435148f9e2b5a031
+gopkg/src/github.com/performancecopilot/speed/mmvflag_string.go
+@comment MD5:1cd445736d781d04b900a869be7a4ab2
+gopkg/src/github.com/performancecopilot/speed/registry.go
+@comment MD5:b0ad35cad82d0b8f252cf5317c429a62
+gopkg/src/github.com/performancecopilot/speed/registry_test.go
+@comment MD5:961b29cbb776b5b4e0d453c6d0177ddc
+gopkg/src/github.com/performancecopilot/speed/spaceunit_string.go
+@comment MD5:bf6b48955133e7204345813deb55be86
+gopkg/src/github.com/performancecopilot/speed/speed.go
+@comment MD5:d36b3fb666e41779beec282cbc1f206e
+gopkg/src/github.com/performancecopilot/speed/speed_test.go
+@comment MD5:07f2838377561b7a42afc3ec4a1cf434
+gopkg/src/github.com/performancecopilot/speed/timeunit_string.go
+@comment MD5:06e73e23f69bf04e35f054a4201d7d58
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/.travis.yml
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/LICENSE
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/README.md
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/hdr.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/hdr_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/window.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/codahale/hdrhistogram/window_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/.gitignore
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/LICENSE
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/README.md
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap_unix.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/mmap_windows.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/msync_netbsd.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/edsrzf/mmap-go/msync_unix.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/.gitignore
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/.travis.yml
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/LICENSE
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/README.md
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/appveyor.yml
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/bench_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/errors.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/errors_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/example_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/format_test.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/stack.go
+gopkg/src/github.com/performancecopilot/speed/vendor/github.com/pkg/errors/stack_test.go

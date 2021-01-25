@@ -1,0 +1,152 @@
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] cc -E -dM -m64 -I /tmp/go-build922244644/b095/ -O2 -Wall -Werror -I . /tmp/cgo-gcc-input-941539979.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -Wall -Werror -I. /tmp/cgo-gcc-input-941539979.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -fno-caret-diagnostics -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -fno-caret-diagnostics -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -Qunused-arguments -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Qunused-arguments -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -fdebug-prefix-map=a=b -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -fdebug-prefix-map=a=b -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -gno-record-gcc-switches -c -x c - -o /dev/null
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -gno-record-gcc-switches -c -x c - -o /dev/null -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x001.o -c _cgo_export.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x001.o -c _cgo_export.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x002.o -c cgo.cgo2.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x002.o -c cgo.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x003.o -c gcc_context.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x003.o -c gcc_context.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x004.o -c gcc_fatalf.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x004.o -c gcc_fatalf.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x005.o -c gcc_libinit.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x005.o -c gcc_libinit.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x006.o -c gcc_linux_amd64.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x006.o -c gcc_linux_amd64.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x007.o -c gcc_mmap.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x007.o -c gcc_mmap.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x008.o -c gcc_setenv.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x008.o -c gcc_setenv.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x009.o -c gcc_sigaction.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x009.o -c gcc_sigaction.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x010.o -c gcc_traceback.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x010.o -c gcc_traceback.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x011.o -c gcc_util.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x011.o -c gcc_util.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x012.o -c gcc_amd64.S
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_x012.o -c gcc_amd64.S -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b095/ -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_cgo_main.o -c _cgo_main.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -g -O2 -Wall -Werror -o /tmp/go-build922244644/b095/_cgo_main.o -c _cgo_main.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build922244644/b095/_cgo_.o /tmp/go-build922244644/b095/_cgo_main.o /tmp/go-build922244644/b095/_x001.o /tmp/go-build922244644/b095/_x002.o /tmp/go-build922244644/b095/_x003.o /tmp/go-build922244644/b095/_x004.o /tmp/go-build922244644/b095/_x005.o /tmp/go-build922244644/b095/_x006.o /tmp/go-build922244644/b095/_x007.o /tmp/go-build922244644/b095/_x008.o /tmp/go-build922244644/b095/_x009.o /tmp/go-build922244644/b095/_x010.o /tmp/go-build922244644/b095/_x011.o /tmp/go-build922244644/b095/_x012.o -g -O2 -lpthread
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/runtime/cgo -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b095=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build922244644/b095/_cgo_.o /tmp/go-build922244644/b095/_cgo_main.o /tmp/go-build922244644/b095/_x001.o /tmp/go-build922244644/b095/_x002.o /tmp/go-build922244644/b095/_x003.o /tmp/go-build922244644/b095/_x004.o /tmp/go-build922244644/b095/_x005.o /tmp/go-build922244644/b095/_x006.o /tmp/go-build922244644/b095/_x007.o /tmp/go-build922244644/b095/_x008.o /tmp/go-build922244644/b095/_x009.o /tmp/go-build922244644/b095/_x010.o /tmp/go-build922244644/b095/_x011.o /tmp/go-build922244644/b095/_x012.o -g -O2 -lpthread -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build922244644/b091/ -O2 -I . /tmp/cgo-gcc-input-404253847.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-404253847.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build922244644/b091/ -O2 -I . /tmp/cgo-gcc-input-417284874.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-417284874.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -m64 -O0 -I . /tmp/cgo-gcc-input-216224481.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-216224481.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -O2 -m64 -I . /tmp/cgo-gcc-input-233171148.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-233171148.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -m64 -O0 -I . /tmp/cgo-gcc-input-247393723.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-247393723.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -O2 -m64 -I . /tmp/cgo-gcc-input-219310046.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-219310046.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build922244644/b091/ -O2 -I . /tmp/cgo-gcc-input-365933989.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-365933989.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -O2 -m64 -I . /tmp/cgo-gcc-input-614960320.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-614960320.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -m64 -O0 -I . /tmp/cgo-gcc-input-788398367.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-788398367.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -O2 -m64 -I . /tmp/cgo-gcc-input-936845810.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-936845810.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -E -dM -m64 -I /tmp/go-build922244644/b091/ -O2 -I . /tmp/cgo-gcc-input-444864681.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -E -dM -m64 -O2 -I. /tmp/cgo-gcc-input-444864681.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -m64 -O0 -I . /tmp/cgo-gcc-input-675476980.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-675476980.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -O2 -m64 -I . /tmp/cgo-gcc-input-579391171.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-579391171.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -m64 -O0 -I . /tmp/cgo-gcc-input-174834502.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -m64 -O0 -I. /tmp/cgo-gcc-input-174834502.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -w -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -I /tmp/go-build922244644/b091/ -O2 -m64 -I . /tmp/cgo-gcc-input-062338541.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -Wno-error -o/tmp/go-build922244644/b091//_cgo_.o -gdwarf-2 -c -O2 -m64 -I. /tmp/cgo-gcc-input-062338541.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b091/ -g -O2 -o /tmp/go-build922244644/b091/_x001.o -c _cgo_export.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build922244644/b091/_x001.o -c _cgo_export.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b091/ -g -O2 -o /tmp/go-build922244644/b091/_x002.o -c cgo_linux.cgo2.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build922244644/b091/_x002.o -c cgo_linux.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b091/ -g -O2 -o /tmp/go-build922244644/b091/_x003.o -c cgo_resnew.cgo2.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build922244644/b091/_x003.o -c cgo_resnew.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b091/ -g -O2 -o /tmp/go-build922244644/b091/_x004.o -c cgo_socknew.cgo2.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build922244644/b091/_x004.o -c cgo_socknew.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b091/ -g -O2 -o /tmp/go-build922244644/b091/_x005.o -c cgo_unix.cgo2.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build922244644/b091/_x005.o -c cgo_unix.cgo2.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -I /tmp/go-build922244644/b091/ -g -O2 -o /tmp/go-build922244644/b091/_cgo_main.o -c _cgo_main.c
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -g -O2 -o /tmp/go-build922244644/b091/_cgo_main.o -c _cgo_main.c -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] cc -I /usr/pkg/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build922244644/b091/_cgo_.o /tmp/go-build922244644/b091/_cgo_main.o /tmp/go-build922244644/b091/_x001.o /tmp/go-build922244644/b091/_x002.o /tmp/go-build922244644/b091/_x003.o /tmp/go-build922244644/b091/_x004.o /tmp/go-build922244644/b091/_x005.o -g -O2
+<.> /usr/pkgsrc/category/go-speed/work/.gcc/bin/gcc -fcommon -m64 -I/usr/pkgsrc/category/go-speed/work/.buildlink/go115/src/net -fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build922244644/b091=/tmp/go-build -gno-record-gcc-switches -o /tmp/go-build922244644/b091/_cgo_.o /tmp/go-build922244644/b091/_cgo_main.o /tmp/go-build922244644/b091/_x001.o /tmp/go-build922244644/b091/_x002.o /tmp/go-build922244644/b091/_x003.o /tmp/go-build922244644/b091/_x004.o /tmp/go-build922244644/b091/_x005.o -g -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/go-speed/work/.buildlink/include
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/go-speed/work/.tools/bin/true
+<.> true 
