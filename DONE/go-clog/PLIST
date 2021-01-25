@@ -1,0 +1,5 @@
+@comment $NetBSD$
+gopkg/pkg/${GO_PLATFORM}/github.com/couchbase/clog.a
+gopkg/src/github.com/couchbase/clog/LICENSE
+gopkg/src/github.com/couchbase/clog/clog.go
+gopkg/src/github.com/couchbase/clog/clog_test.go
