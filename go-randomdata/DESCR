@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# go-randomdata
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Pallinder/go-randomdata/issues)
+[![GoDoc](https://godoc.org/github.com/Pallinder/go-randomdata?status.svg)](https://godoc.org/github.com/Pallinder/go-randomdata)
+[![Build Status](https://travis-ci.org/Pallinder/go-randomdata.png)](https://travis-ci.org/Pallinder/go-randomdata)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Pallinder/go-randomdata)](https://goreportcard.com/report/github.com/Pallinder/go-randomdata)
+
+randomdata is a tiny help suite for generating random data such as
+
+* first names (male or female)
+* last names
+* full names (male or female)
+* country names (full name or iso 3166.1 alpha-2 or alpha-3)
+* locales / language tags (bcp-47)
+* random email address
+* city names
+* American state names (two chars or full)
+* random numbers (in an interval)
+* random paragraphs
+* random bool values
+...
