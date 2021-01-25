@@ -12,7 +12,6 @@ HOMEPAGE=	https://github.com/hashicorp/go-sockaddr/
 COMMENT=	IP Address/UNIX Socket convenience functions for Go
 LICENSE=	mpl-2.0
 
-
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/hashicorp/${GITHUB_PROJECT}
 
