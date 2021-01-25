@@ -13,7 +13,10 @@ COMMENT=	Zero Allocation JSON Logger
 LICENSE=	mit
 
 GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
-GO_SRCPATH=	github.com/gorgonia/${GITHUB_PROJECT}
+GO_SRCPATH=	github.com/zerolog/${GITHUB_PROJECT}
 
+.include "../../devel/go-errors/buildlink3.mk"
+.include "../../devel/go-tools/buildlink3.mk"
+.include "../../wip/go-xid/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
