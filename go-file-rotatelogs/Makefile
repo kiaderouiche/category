@@ -15,6 +15,5 @@ LICENSE=	mit
 GO_DIST_BASE=	${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 GO_SRCPATH=	github.com/lestrrat-go/file-rotatelogs
 
-
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
