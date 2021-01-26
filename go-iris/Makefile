@@ -12,7 +12,7 @@ HOMEPAGE=	https://github.com/kataras/iris/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/iris-197df1ef64f9d7cc34e7e6d6681148edd5186572
-USE_LANGUAGES=	# none
+GO_DIST_BASE=	${GITHUB_PROJECT}-${GITHUB_TAG}
+GO_SRCPATH=	github.com/kataras/${GITHUB_PROJECT}
 
 .include "../../mk/bsd.pkg.mk"
