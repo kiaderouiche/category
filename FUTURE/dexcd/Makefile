@@ -15,7 +15,5 @@ WRKSRC=		${WRKDIR}/dexcd
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++
 
-do-build:
-	cd ${WRKSRC} && ${GMAKE}
 
 .include "../../mk/bsd.pkg.mk"
