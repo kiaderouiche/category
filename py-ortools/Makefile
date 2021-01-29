@@ -1,19 +1,22 @@
 # $NetBSD$
 
 DISTNAME=	ortools-8.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 GITHUB_PROJECT=	or-tools
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=google/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/google/or-tools/
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://developers.google.com/optimization/
 COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 
 WRKSRC=		${WRKDIR}/or-tools-8.1
+
 USE_CMAKE=	yes
 USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake
 
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

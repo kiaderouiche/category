@@ -1,4 +1,0 @@
-tox-gh-actions is a tox plugin which helps running
-tox on GitHub Actions with multiple different Python
-versions on multiple workers in parallel. This project
-is inspired by tox-travis.
