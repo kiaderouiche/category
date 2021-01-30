@@ -18,4 +18,5 @@ WRKSRC=		${WRKDIR}/elisa-20.12.1
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
