@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v3
 WRKSRC=		${WRKDIR}/form-4.2.1
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	automake autoconf autoreconf
+USE_TOOLS+=	automake autoconf autoreconf gmake
 USE_LANGUAGES=	c c++
 
 pre-configure:
