@@ -2,16 +2,24 @@
 
 DISTNAME=	libform-4.2.1	
 GITHUB_PROJECT=	form
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_GITHUB:=vermaseren/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/vermaseren/form/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	http://www.nikhef.nl/~form
+COMMENT=	The FORM project for symbolic manipulation of very big expressions
+LICENSE=	gnu-gpl-v3
 
 WRKSRC=		${WRKDIR}/form-4.2.1
+
+GNU_CONFIGURE=	yes
+USE_TOOLS+=	automake autoconf autoreconf
 USE_LANGUAGES=	c c++
 
+pre-configure:
+	cd ${WRKSRC} && autoreconf -if
+
+.include "../../devel/gmp/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
