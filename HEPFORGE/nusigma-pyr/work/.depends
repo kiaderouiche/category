@@ -1,4 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	perl>=5.0	../../lang/perl5
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers

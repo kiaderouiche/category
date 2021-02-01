@@ -1,8 +1,0 @@
-macro eps
-  if [1]=to then
-    f/file 99 [2]
-    meta 99 -113 [2]
-  elseif [1]=off then
-    f/close 99
-  endif
-return

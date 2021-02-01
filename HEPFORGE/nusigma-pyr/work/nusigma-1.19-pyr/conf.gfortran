@@ -1,3 +1,0 @@
-# Note. The pahts to DARKSUSY_DIR, PYTHIA should contain an
-# extra ../ if you give relative paths.
-./configure FC=gfortran FCFLAGS="-O -ffixed-line-length-none -fopenmp -ffpe-summary=none" DARKSUSY_DIR=../../../../DarkSUSY/library_6plus/releases/darksusy-6.1.0 PYTHIA=../../../pythia/pythia-6.4.26.o
