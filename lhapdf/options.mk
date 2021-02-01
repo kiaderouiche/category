@@ -23,7 +23,7 @@ PY_PATCHPLIST=		yes
 REPLACE_PYTHON+=  lhapdf.in
 PYTHON_VERSIONS_ACCEPTED=	27
 .  include "../../lang/python/application.mk"
-.  include "../../lang/python/distutils.mk"
+.  include "../../lang/python/extension.mk"
 BUILDLINK_API_DEPENDS.py-cython+=       ${PYPKGPREFIX}-cython>=0.12.1
 .  include "../../devel/py-cython/buildlink3.mk"
 .else
