@@ -2,7 +2,7 @@
 
 DISTNAME=	HiggsBounds-5.3.2beta
 PKGNAME=	${DISTNAME:tl:S/beta//}
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	https://higgsbounds.hepforge.org/downloads/
 
 MAINTAINER=	jihbed.research@gmail.com

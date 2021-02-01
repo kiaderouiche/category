@@ -1,11 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	HiggsSignals-2.2.3beta
-CATEGORIES=	category
+PKGNAME=	${DISTNAME:tl:S/beta//}
+CATEGORIES=	math
 MASTER_SITES=	https://higgsbounds.hepforge.org/downloads/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://higgsbounds.hepforge.org/downloads/
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://higgsbounds.hepforge.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
