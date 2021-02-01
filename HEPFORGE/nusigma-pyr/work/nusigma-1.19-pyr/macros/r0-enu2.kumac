@@ -1,0 +1,66 @@
+
+exec plsetup
+opt ndat
+opt logx
+opt liny
+
+ve/del enup,r0nup,r0nubarp
+ve/del enu,r0nu,r0nubar
+ve/del enu5,r0nu5,r0nubar5
+
+ve/read enup,r0nup,r0nubarp 'figdat/r0-enu-0.001.dat'
+ve/read enu,r0nu,r0nubar 'figdat/r0-enu-0.01.dat'
+ve/read enu5,r0nu5,r0nubar5 'figdat/r0-enu-0.05.dat'
+
+v/del le,eres,rres
+ve/read le,rres 'figdat/nuosc-resreg.dat'
+sigma eres=10**le/1000
+
+exec eps to 'fig/r0-enu.eps'
+null 1 1e4 0 1
+
+set txal 03
+
+* Resonance region
+set lwid 5
+set ltyp 1
+set plci 1
+
+graph 101 eres rres ' CS'
+
+dline 2 6 0.95 0.95
+itx 8 0.95 'Resonance for [n]'
+
+* nu 0.001
+set lwid 3
+set ltyp 2
+set plci 2
+
+graph 101 enup r0nup ' CS'
+
+dline 2 6 0.9 0.9
+itx 8 0.9 '[n], [S]?max! = 0.001'
+
+* nu 0.01
+set lwid 3
+set ltyp 3
+set plci 3
+
+graph 101 enu r0nu ' CS'
+
+dline 2 6 0.85 0.85
+itx 8 0.85 '[n], [S]?max! = 0.01'
+
+* nu 0.05
+set lwid 3
+set ltyp 4
+set plci 4
+
+graph 101 enu5 r0nu5 ' CS'
+
+dline 2 6 0.8 0.8
+itx 8 0.8 '[n], [S]?max! = 0.05'
+
+atitle 'E?[n]! (GeV)' 'x?0! = r?0! / R?sun!'
+
+exec eps off

@@ -1,0 +1,3 @@
+call rzquot(1000000)
+nt/cr 1 'ds' 3 ! ! x y ds
+nt/read 1 'fort.65'

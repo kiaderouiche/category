@@ -1,0 +1,8 @@
+macro ps
+  if [1]=to then
+    f/file 99 [2]
+    meta 99 -111 [2]
+  elseif [1]=off then
+    f/close 99
+  endif
+return

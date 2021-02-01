@@ -1,0 +1,36 @@
+FC=gfortran
+
+LIBS = -lnusigma -lds_core -lds_generic_wimp
+
+DS_ROOT=../../../../DarkSUSY/library_6plus/trunk
+
+FOPT = -O -ffixed-line-length-none -fopenmp -I../inc/ -L../lib/ -L$(DS_ROOT)/lib
+
+VPATH=../lib ../bin
+PYTHIA = ../../../pythia/pythia-6.4.26.o
+
+all : nusigma nudsde nudsdesim nusigcheck nusigcheck2 nusigmaxfind
+
+libnusigma.a:
+	cd ../src; make
+
+nusigma: libnusigma.a nusigma.f
+	$(FC) $(FOPT) -o ../bin/nusigma nusigma.f $(LIBS) 
+
+nudsde: libnusigma.a nudsde.f
+	$(FC) $(FOPT) -o ../bin/nudsde nudsde.f $(LIBS)
+
+nudsdesim: libnusigma.a nudsdesim.f
+	$(FC) $(FOPT) -o ../bin/nudsdesim nudsdesim.f $(LIBS) $(PYTHIA)
+
+nusigcheck: libnusigma.a nusigcheck.f
+	$(FC) $(FOPT) -o ../bin/nusigcheck nusigcheck.f $(LIBS)
+
+nusigcheck2: libnusigma.a nusigcheck2.f
+	$(FC) $(FOPT) -o ../bin/nusigcheck2 nusigcheck2.f $(LIBS)
+
+nusigmaxfind: libnusigma.a nusigmaxfind.f
+	$(FC) $(FOPT) -o ../bin/nusigmaxfind nusigmaxfind.f $(LIBS)
+
+clean:
+	rm -f ../bin/* *~

@@ -1,0 +1,88 @@
+HISTORY for nusigma
+
+---------------- Revision 338: June 19, 2018
+
+* Added a configure system (autoconf) to make the compilation simpler.
+
+---------------- Revision 107: January 7, 2013
+
+* Added kinematical constraints from Levy for all cross section
+  calculations. Before, there was unphysical part of phase space
+  available at high y that yielded unphysical events. These are now
+  taken away.
+
+* Added masses for final state muons and electrons (in addition to the
+  earlier added tau masses). The electron and muon masses are not really
+  important, but to avoid a tiny region of parameter space where them being
+  zero could give rise to an unphysical part of phase space, they are now
+  added.
+
+---------------- Revision 52: Tagged as version 1.16
+
+* Expressions for the scattering angle of the outgoing lepton and the
+  energy and scattering angle of the hadronic showers updated to more accurate
+  expressions. The changes are:
+    -  the tau mass is now included when calculating the leptonic and hadronic
+       scattering angles for tau-neutrino charged current scattering (the tau
+       mass was included before for the cross section, but not in the
+       calculation of the scattering angle for tau neutrinos).
+    -  for the hadronic shower, the proper invariant mass is now calculated
+       and the expressions for the hadronic shower enregy and angle are 
+       accordingly updated and more accurate than before.
+  Both for the leptonic and hadronic outgoing events, the energy refers (as
+  before) to the total energy (including rest mass and kinetic energy).
+
+---------------- 1.15.1 - November 14, 2008
+
+* Changed makefile to compile with full DarkSUSY
+
+---------------- 1.15 - September 4, 2007
+
+* Added tau mass to neutrino-nucleon charged current scattering. This
+  causes a suppression of the cross section at low energies. However, when
+  used by e.g. WimpAnn, this was never important since at the energies
+  where the suppression occurs, these interactions were never very
+  important anyway. To be complete, this correction is added though.
+
+  As a consequence of this, neutrino types are now given from 1 to 6 
+  (instead of from 1 (neutirno) to 2 (antineutrino) as before). The meaning of
+  these neutrino types are
+     1 = nu_e
+     2 = nu_e-bar
+     3 = nu_mu
+     4 = nu_mu-bar
+     5 = nu_tau
+     6 = nu_tau-bar
+   Note that it is only for charged currents for nu_tau of nu_tau-bar
+   that the tau mass matters and only these differ from the previous
+   results. Note that these neutrino codes are the same ones (kfnui) used
+   in WimpAnn and WimpEvent.
+
+---------------- 1.14 - June 29, 2007
+
+* Fixed nusig and nusigint routines (for total cross section) to allow
+  for lower- and uppercase input. Before, this caused a bug when
+  these routines were called from e.g. wimpann and wimpevent.
+
+---------------- 1.13 - May 22, 2007
+
+* Fixed config.pl script. It now works even if your path to where nusigma
+  is installed is long.
+
+---------------- 1.12 - September 20, 2006
+
+* Fixed energy and angles of hadronic shower to work even for very
+  forward-scattering events
+
+---------------- 1.11 - April 24, 2006
+
+* Caught numerical round-off errors that could give NaN for lepton and hadron
+  energies in nuNevent
+
+---------------- 1.1 - March 2006
+
+* Second releae
+
+---------------- 1.0 - 2006
+
+* First release

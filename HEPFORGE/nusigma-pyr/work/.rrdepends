@@ -1,0 +1,4 @@
+bootstrap	digest>=20010302	digest-20190127
+tool	perl>=5.0	perl-5.32.0nb1
+tool	checkperms>=1.1	checkperms-1.12
+build	cwrappers>=20150314	cwrappers-20180325

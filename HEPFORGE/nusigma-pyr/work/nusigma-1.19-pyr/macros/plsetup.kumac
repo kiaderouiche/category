@@ -1,0 +1,37 @@
+set *
+opt nbox
+
+* Times Bold
+set *fon -20
+set txfp -20
+
+* Helvetica Bold
+*set *fon -60
+*set txfp -60
+
+* Courier Bold
+*set *fon -100
+*set txfp -100
+
+*graph/set xsiz 15.00
+*graph/set ysiz 15.00
+graph/opt logx
+graph/opt logy
+option utit
+igset mscf 0.75
+igset mtyp 24
+igset pmci 1
+set asiz 0.40
+set vsiz 0.40
+set ylab 1.2
+set xval 0.55
+*set pass 10
+*set cshi 0.007 0.005
+size 15 15
+set xmgl 2.5
+set xmgr 1.5
+set xlab 1.75
+opt tic
+
+set basl 0.015
+
