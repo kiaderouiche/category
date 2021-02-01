@@ -6,10 +6,12 @@ MASTER_SITES=	https://nulike.hepforge.org/downloads/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://nulike.hepforge.org/
-COMMENT=	Likelihood calculations for neutrino telescope
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Neutrino telescope likelihood tools
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	fortran
 
 MAKE_FILE=	makefile
+
+.include "../../mk/mpi.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

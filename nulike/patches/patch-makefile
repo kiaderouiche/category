@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- makefile.orig	2020-04-07 10:38:12.000000000 +0000
++++ makefile
+@@ -38,8 +38,6 @@ NUSIGINC = ../nusigma-1.18-pyr/inc
+ NUSIGNAME = nusigma
+ 
+ # Define library-making options
+-RANLIB = ranlib
+-AR = ar
+ ARFLAGS = rvs
+ SHARFLAGS = -shared -fopenmp
+ 

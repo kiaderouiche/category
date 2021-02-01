@@ -1,12 +1,13 @@
 # $NetBSD$
 
 DISTNAME=	proVBFH-1.2.1
-CATEGORIES=	category
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	https://provbfh.hepforge.org/downloads/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://provbfh.hepforge.org/downloads/
-COMMENT=	TODO: Short description of the package
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://provbfh.hepforge.org/
+COMMENT=	Monte Carlo program for the calculation of differential distributions
 #LICENSE=	# TODO: (see mk/license.mk)
 
 HAS_CONFIGURE=	yes
