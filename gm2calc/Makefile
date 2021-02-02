@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=GM2Calc/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/GM2Calc/GM2Calc/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Calculation of the anomalous magnetic moment of the muon
 LICENSE=	gnu-gpl-v3
 
 WRKSRC=		${WRKDIR}/GM2Calc-1.7.1
@@ -19,4 +19,10 @@ USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	cmake/gm2calc.pc.in
 
+DEPENDS+=	doxygen>=1.8.20:../../devel/doxygen
+
+BUILDLINK_API_DEPENDS.boost-headers+=   boost-headers-1.75.*
+.include "../../devel/boost-headers/buildlink3.mk"
+BUILDLINK_API_DEPENDS.eigen3+=  eigen3>=3.1.2
+.include "../../math/eigen3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
