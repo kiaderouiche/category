@@ -7,7 +7,7 @@ CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_GITHUB:=GM2Calc/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://github.com/GM2Calc/GM2Calc/
+HOMEPAGE=	https://gm2calc.hepforge.org/
 COMMENT=	Calculation of the anomalous magnetic moment of the muon
 LICENSE=	gnu-gpl-v3
 
@@ -18,6 +18,12 @@ USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	cmake/gm2calc.pc.in
+
+# C++ compiler (g++ >= 4.6.3 or clang++ >= 3.4)
+# MESSAGE(FATAL_ERROR "GCC 4.6+ is required.")
+GCC_REQD+=	4.6
+
+CMAKE_ARGS+=	-Mathematica=off
 
 DEPENDS+=	doxygen>=1.8.20:../../devel/doxygen
 
