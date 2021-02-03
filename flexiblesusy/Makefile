@@ -2,17 +2,20 @@
 
 DISTNAME=	flexiblesusy-2.5.0
 GITHUB_PROJECT=	FlexibleSUSY
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_GITHUB:=FlexibleSUSY/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/FlexibleSUSY/FlexibleSUSY/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://flexiblesusy.hepforge.org/
+COMMENT=	Creates spectrum generators for supersymmetric/non-supersymmetric models
+LICENSE=	gnu-gpl-v3
 
 WRKSRC=		${WRKDIR}/FlexibleSUSY-2.5.0
+
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c++ fortran
+
+#C++ compiler (g++ >= 5.0.0 or clang++ >= 3.8.1 or icpc >= 17.0.0)
 
 .include "../../mk/bsd.pkg.mk"
