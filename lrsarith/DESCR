@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+README file for lrsarith : arithmetic package for lrslib                             
+-----------------------------------------------------------------------------
+Library routines and sample programs for using 64bit, 128bit, GMP (or MP)
+arithmetic packages, as well as hybrid arithmetic using all three. 
+Overflow checking is done for 64 and 128bit arithmetic.
+
+Documentation is currently being maintained at the URL:
+
+http://cgm.cs.mcgill.ca/~avis/C/lrs.html
+-----------------------------------------------------------------------------
+
+Version 1.0
+
+2020.12.18
+
+Note that lrsarith procedures may be implemented as macros that may
+evaluate arguments more than once.  Arguments given to lrsarith
+procedures should not be expressions with potential side effects.
+
+2020.12.7
+...

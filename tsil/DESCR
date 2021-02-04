@@ -1,23 +1,2 @@
-TODO: Adjust the following lines from README.txt
-
-                     ********************************
-		            Welcome to TSIL
-                     ********************************
-
-Copyright (C) 2005 S.P. Martin and D.G. Robertson
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or (at
-your option) any later version.  See the file LICENSE.txt for further
-details.
-
-Contents of this file:
-
-I.   Overview
-II.  Building TSIL
-III. Using TSIL
-IV.  The TSIL API
-V.   Numerical Integration in TSIL
-VI.  Using TSIL with C++
-...
+TSIL is a library of utilities for the numerical calculation
+of dimensionally regularized two-loop self-energy integrals

@@ -1,13 +1,13 @@
 # $NetBSD$
 
 DISTNAME=	tsil-1.45
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	http://www.niu.edu/spmartin/TSIL/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.niu.edu/spmartin/TSIL/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Two-loop Self-energy Integral Library
+LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	c c++
 
