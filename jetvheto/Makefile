@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://jetvheto.hepforge.org/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Ast program to perform NNLL resummation for jet-veto 
 LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES=	# none
