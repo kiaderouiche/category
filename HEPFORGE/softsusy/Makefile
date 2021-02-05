@@ -1,15 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	softsusy-4.1.9
+DISTNAME=	downloads?f=softsusy-4.1.10
 CATEGORIES=	category
-MASTER_SITES=	https://softsusy.hepforge.org/downloads/
+MASTER_SITES=	https://softsusy.hepforge.org/
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://softsusy.hepforge.org/downloads/
+HOMEPAGE=	https://softsusy.hepforge.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c c++ fortran
-
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
