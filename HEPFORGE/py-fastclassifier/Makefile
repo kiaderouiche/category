@@ -1,11 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	FSClassifier-2.0.0
-CATEGORIES=	category
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	https://fsclassifier.hepforge.org/downloads/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://fsclassifier.hepforge.org/downloads/
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://fsclassifier.hepforge.org
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
