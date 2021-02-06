@@ -1,3 +1,5 @@
-TODO: Adjust the following lines from README
-
-See README.rst
+Kira is a Feynman integral reduction program written in C++.
+The reduction is performed with the help of the computer
+algebra system Fermat. Since version 2.0, it offers a second
+strategy based on finite field interpolation and reconstruction
+techniques with the help of the C++ library FireFly.

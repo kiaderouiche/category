@@ -1,12 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	kira-2.0
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	https://kira.hepforge.org/downloads?f=releases/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://kira.hepforge.org/downloads?f=releases/
-COMMENT=	TODO: Short description of the package
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://kira.hepforge.org/
+COMMENT=	Feynman integral reduction program
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	c c++

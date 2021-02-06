@@ -1,0 +1,3 @@
+C++ library to perform rational function interpolation
+over finite fields with a rational number reconstruction
+to promote the coefficients to Q

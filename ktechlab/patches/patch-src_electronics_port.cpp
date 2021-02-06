@@ -11,3 +11,12 @@ $NetBSD$
  #include <linux/ppdev.h>
  #endif
  
+@@ -264,7 +264,7 @@ const int INPUT_MODE_BIT = 1 << 21; // C
+ 
+ // No code using these values will be reached on Darwin, this is just to
+ // keep the preprocessor happy.
+-#if defined(DARWIN) || defined(__FreeBSD__)
++#if defined(DARWIN) || defined(__FreeBSD__) || defined(__NetBSD__)
+ 	#define PPRDATA		0xFACADE
+ 	#define PPRCONTROL	0xC001D00D
+ 	#define PPWDATA		0xC0EDBABE

@@ -4,4 +4,4 @@ SHA1 (ktechlab-0.50.0.tar.gz) = 0046ffe4f0d2fe3b3cda11ca3f3a72173ae92ea5
 RMD160 (ktechlab-0.50.0.tar.gz) = 2811f90ced633ed791704cfe4ae418bd889b615c
 SHA512 (ktechlab-0.50.0.tar.gz) = 340e1aa994dc4dec9cd5d689763b5adf113ee70a04f8c3883e13f2654349ac70449bc759cf4ddc98b2c8fc2e6c1e7492c49d1f0b73aa83ead676720cf6432489
 Size (ktechlab-0.50.0.tar.gz) = 2270771 bytes
-SHA1 (patch-src_electronics_port.cpp) = fc9d30b4bed0d5ac2972e0a2631abb6e0ec69351
+SHA1 (patch-src_electronics_port.cpp) = 7724e5526c2ca584979d66ddb056f7900963e39f
