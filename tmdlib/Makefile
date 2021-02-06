@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tmdlib-2.0.2
+DISTNAME=	tmdlib-2.2.0-beta02
 CATEGORIES=	category
 MASTER_SITES=	https://tmdlib.hepforge.org/downloads/
 

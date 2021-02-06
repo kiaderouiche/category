@@ -1,12 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	T3PS-1.0
-CATEGORIES=	category
+DISTNAME=	T3PS-1.0.2
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	parallel
 MASTER_SITES=	https://t3ps.hepforge.org/downloads/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://t3ps.hepforge.org/downloads/
-COMMENT=	TODO: Short description of the package
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://t3ps.hepforge.org/
+COMMENT=	Tool for Parallel Processing in Parameter Scans
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	# none

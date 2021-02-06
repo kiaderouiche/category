@@ -1,11 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	SusHi-1.7.0
+PKGNAME=	${DISTNAME:tl}
 CATEGORIES=	category
 MASTER_SITES=	https://sushi.hepforge.org/downloads/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://sushi.hepforge.org/downloads/
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://sushi.hepforge.org/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
