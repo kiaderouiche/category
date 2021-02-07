@@ -1,0 +1,35 @@
+$NetBSD$
+
+--- Makefile.orig	2015-11-30 10:52:09.000000000 +0000
++++ Makefile
+@@ -9,10 +9,10 @@
+ #      further details on the license.
+ #
+ 
++PREFIX= /usr/pkg
+ SHELL=/bin/sh
+ 
+ CC=g++
+-AR=ar
+ ARFLAGS=rcs
+ LHPCDIR=./LHPC/
+ LHPCLIBNAME=LHPC
+@@ -28,9 +28,9 @@ SOURCES=source/PotentialMinimizer.cpp \
+  source/VevaciousRunner.cpp \
+  source/VevRenamer.cpp
+ OBJECTS=$(SOURCES:.cpp=.o)
+-BINDIR=./bin/
++BINDIR= $(DESTDIR)$(PREFIX)/bin/
+ LIBNAME=Vevacious
+-LIBDIR=./lib/
++LIBDIR= $(DESTDIR)$(PREFIX)/lib/
+ LDFLAGS= -L$(LIBDIR) -l$(LIBNAME)
+ LIBRARYFILE=$(LIBDIR)/lib$(LIBNAME).a
+ LDFLAGS= -L$(LIBDIR) -l$(LIBNAME) -L$(LHPCLIBDIR) -l$(LHPCLIBNAME)
+@@ -66,4 +66,4 @@ clean:
+ 	\rm -f $(OBJECTS) $(LIBRARYFILE) $(EXEFILE)
+ 
+ deleteobjects:
+-	\rm -f $(OBJECTS)
+\ Pas de fin de ligne à la fin du fichier
++	\rm -f $(OBJECTS)

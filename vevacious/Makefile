@@ -12,6 +12,7 @@ LICENSE=	gnu-gpl-v3
 
 WRKSRC=		${WRKDIR}/Vevacious
 
-USE_LANGUAGES=	c++
+USE_TOOLS+=	gmake
+USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"
