@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# <img src="https://raw.githubusercontent.com/LLNL/hatchet/develop/logo-hex.png" width="64" valign="middle" alt="hatchet"/> Hatchet
+
+[![Build Status](https://travis-ci.com/LLNL/hatchet.svg?branch=develop)](https://travis-ci.com/LLNL/hatchet)
+[![codecov](https://codecov.io/gh/LLNL/hatchet/branch/develop/graph/badge.svg)](https://codecov.io/gh/LLNL/hatchet)
+[![Read the Docs](http://readthedocs.org/projects/hatchet/badge/?version=latest)](http://hatchet.readthedocs.io)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Hatchet is a Python-based library that allows [Pandas](https://pandas.pydata.org) dataframes to be indexed by structured tree and graph data. It is intended for analyzing performance data that has a hierarchy (for example, serial or parallel profiles that represent calling context trees, call graphs, nested regions’ timers, etc.). Hatchet implements various operations to analyze a single hierarchical data set or compare multiple data sets, and its API facilitates analyzing such data programmatically.
+
+To use hatchet, install it with pip:
+
+```
+$ pip install hatchet
+```
+
+Or, if you want to develop with this repo directly, run the install script from
+the root directory, which will build the cython modules and add the cloned
+directory to your `PYTHONPATH`:
+
+```
+...

@@ -19,6 +19,9 @@ PKGCONFIG_OVERRIDE+=	lhapdf.pc.in
 CONFIGURE_ARGS+=	--enable-mpi
 CONFIGURE_ARGS+=	--disable-octave
 
+DEPENDS+=	doxygen>=1.8.20:../../devel/doxygen
+DEPENDS+=	tex-latex-bin-[0-9]*:../../print/text-latex-bin
+
 .include "options.mk"
 
 .include "../../mk/mpi.buildlink3.mk"
