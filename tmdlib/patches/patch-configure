@@ -1,0 +1,40 @@
+$NetBSD$
+
+--- configure.orig	2021-01-14 12:40:49.000000000 +0000
++++ configure
+@@ -23204,7 +23204,7 @@ fi
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for root installation" >&5
+ $as_echo_n "checking for root installation... " >&6; }
+ root_config=`which root-config`
+-if test x$root_config == x; then
++if test x$root_config = x; then
+   { $as_echo "$as_me:${as_lineno-$LINENO}: result: Using $root_config" >&5
+ $as_echo "Using $root_config" >&6; }
+   { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: Unable to find root-config." >&5
+@@ -23269,7 +23269,7 @@ CONFIG_LIBS=""
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for gsl installation" >&5
+ $as_echo_n "checking for gsl installation... " >&6; }
+ gsl_config=`which gsl-config`
+-if test x$gsl_config == x; then
++if test x$gsl_config = x; then
+   { $as_echo "$as_me:${as_lineno-$LINENO}: result: Using $gsl_config" >&5
+ $as_echo "Using $gsl_config" >&6; }
+   as_fn_error $? "Can't find $gsl_config.
+@@ -23287,7 +23287,7 @@ no_apfelxx=0
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for apfelxx installation" >&5
+ $as_echo_n "checking for apfelxx installation... " >&6; }
+ apfelxx_config=`which apfelxx-config`
+-if test x$apfelxx_config == x; then
++if test x$apfelxx_config = x; then
+    { $as_echo "$as_me:${as_lineno-$LINENO}: result: apfelxx-config not found, checking --with-apfelxx option" >&5
+ $as_echo "apfelxx-config not found, checking --with-apfelxx option" >&6; }
+ 
+@@ -23308,7 +23308,7 @@ $as_echo "Building TMDlib without apfelx
+ 
+ fi
+    # AC_MSG_RESULT([checking on no_apfelxx  $no_apfelxx ])
+-   if test x$no_apfelxx == x0; then
++   if test x$no_apfelxx = x0; then
+       APFEL_LIB="-L$with_apfelxx/lib -lapfelxx "
+ 
+       APFEL_CFLAGS=`${APFEL_DIR}/bin/apfelxx-config --cppflags`
