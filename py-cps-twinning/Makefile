@@ -13,7 +13,7 @@ COMMENT=	TODO: Short description of the package
 LICENSE=	mit
 
 DEPENDS+=	# TODO: lxml==3.4.2>=0
-DEPENDS+=       ${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	# TODO: pymodbus==1.4.0>=0
 DEPENDS+=	# TODO: scapy==2.4.0>=0
 DEPENDS+=	# TODO: kafka-python==1.4.0>=0
