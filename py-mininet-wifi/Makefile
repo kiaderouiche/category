@@ -13,6 +13,7 @@ COMMENT=	Emulator for Software-Defined Wireless Networks
 LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.3.4:../../graphics/py-matplotlib
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
