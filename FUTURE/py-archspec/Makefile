@@ -3,13 +3,13 @@
 DISTNAME=	archspec-0.1.2
 GITHUB_PROJECT=	archspec
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	category
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GITHUB:=archspec/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/archspec/archspec/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Library for detecting, labeling, and reasoning about microarchitectures
+LICENSE=	apache-2.0 OR mit
 
 USE_LANGUAGES=	# none
 
