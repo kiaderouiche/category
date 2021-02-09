@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (mininet-wifi/mininet-wifi-2.2.1.tar.gz) = d7280837102fb253fa98c0b0d5c48227d1be61ff
-RMD160 (mininet-wifi/mininet-wifi-2.2.1.tar.gz) = b498b67f8b55bceb736340be4b775730b8d62ea1
-SHA512 (mininet-wifi/mininet-wifi-2.2.1.tar.gz) = e964c183634c2158f094981c662423a0a74eb9bf7b413e3f06ea6fd5a2d019a9727f7372ba4e3fa9c6d18c84cabf9af5847d4c8ed20c7ba16e87a2388b755c43
-Size (mininet-wifi/mininet-wifi-2.2.1.tar.gz) = 503612 bytes
+SHA1 (mininet-wifi-2.4.3.tar.gz) = 6a7d41ec3bc22365c78a5210104c8a7ac12dbe6d
+RMD160 (mininet-wifi-2.4.3.tar.gz) = 331f9f9944885fbdd6f307ce2fc7ac7ae744389b
+SHA512 (mininet-wifi-2.4.3.tar.gz) = 5f7eb4dd06deb8565f82fa90c35f9902b4f551d5467576e5281545a31e0c1fc002919f097f37b95a085b5066cce4c3637c5b130b279a52ce0b6898fa38c372bf
+Size (mininet-wifi-2.4.3.tar.gz) = 527330 bytes

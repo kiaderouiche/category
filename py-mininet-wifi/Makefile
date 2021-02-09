@@ -1,17 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	mininet-wifi-2.2.1
+DISTNAME=	mininet-wifi-2.4.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 GITHUB_PROJECT=	mininet-wifi
-GITHUB_TAG=	2.2.1
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	net
-MASTER_SITES=	${MASTER_SITE_GITHUB:=MatthiasEckhart/}
-DIST_SUBDIR=	${GITHUB_PROJECT}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=intrig-unicamp/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/MatthiasEckhart/mininet-wifi/
+HOMEPAGE=	http://mininet-wifi.github.io/
 COMMENT=	Emulator for Software-Defined Wireless Networks
-#LICENSE=	# Mininet-WiFi 2.2.1d1 License
+LICENSE=	modified-bsd
 
+DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.3.4:../../graphics/py-matplotlib
+
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
