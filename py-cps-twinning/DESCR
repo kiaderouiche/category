@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# CPS Twinning
+
+CPS Twinning is a framework for generating and executing digital twins that mirror cyber-physical systems (CPSs).
+
+## Installation
+
+CPS Twinning depends on [Mininet](http://mininet.org) and [MatIEC](https://bitbucket.org/mjsousa/matiec).
+
+### Mininet
+
+To install Mininet, follow the instructions provided by the [Mininet installation guide](http://mininet.org/download/).
+
+### MatIEC
+
+First, install the MatIEC dependencies flex and bison.
+For example:
+```
+$ sudo apt-get update
+$ sudo apt-get install flex
+$ sudo apt-get install bison	
+...
