@@ -1,14 +1,17 @@
 # $NetBSD$
 
 DISTNAME=	LoopTools-2.15
-CATEGORIES=	category
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://www.feynarts.de/looptools/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.feynarts.de/looptools/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Package for evaluation of scalar and tensor one-loop integrals 
+LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes
+USE_LANGUAGES=	c c++ fortran
+MAKE_FILE=	makefile
 
 .include "../../mk/bsd.pkg.mk"
