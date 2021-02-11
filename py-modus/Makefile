@@ -11,7 +11,7 @@ COMMENT=	Fully featured modbus protocol stack in python
 LICENSE=	modified-bsd
 
 
-TEST_DEPENDS+=	# TODO: #coverage==4.4>=0
+TEST_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3:../../devel/py-coverage
 TEST_DEPENDS+=	# TODO: #mock==2.0.0>=0
 TEST_DEPENDS+=	# TODO: #nose==1.3.7>=0
 TEST_DEPENDS+=	# TODO: #pep8==1.7.0>=0
@@ -28,7 +28,7 @@ DEPENDS+=	# TODO: #Jinja2==2.9.6>=0
 DEPENDS+=	# TODO: #Pygments==2.2.0>=0
 DEPENDS+=	# TODO: #Sphinx==1.5.5>=0
 DEPENDS+=	# TODO: #docutils==0.13.1>=0
-DEPENDS+=	# TODO: #pydoctor==16.3.0>=0
+DEPENDS+=	#${PYPKGPREFIX}-doctor>=20.12.1:../../wip/py-doctor
 DEPENDS+=	# TODO: #click>=6.7
 DEPENDS+=	# TODO: #prompt-toolkit==2.0.4>=0
 DEPENDS+=	# TODO: pyserial>=3.4

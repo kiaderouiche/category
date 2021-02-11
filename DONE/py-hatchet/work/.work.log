@@ -1,0 +1,80 @@
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] cc -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 -fPIC -I/usr/pkg/include/python3.8 -c hatchet/cython_modules/reader_modules.c -o build/temp.linux-x86_64-3.8/hatchet/cython_modules/reader_modules.o
+<.> /usr/pkgsrc/category/py-hatchet/work/.gcc/bin/gcc -fcommon -m64 -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include/db4 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include/python3.8 -fPIC -c hatchet/cython_modules/reader_modules.c -o build/temp.linux-x86_64-3.8/hatchet/cython_modules/reader_modules.o -D_FORTIFY_SOURCE=2 -fstack-protector
+[*] cc -pthread -shared -L. -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -Wl,-z,relro -Wl,-z,now -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -L/usr/lib64 -Wl,-R/usr/lib64 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 build/temp.linux-x86_64-3.8/hatchet/cython_modules/reader_modules.o -L/usr/pkg/lib -o build/lib.linux-x86_64-3.8/hatchet/cython_modules/libs/reader_modules.so
+<.> /usr/pkgsrc/category/py-hatchet/work/.gcc/bin/gcc -fcommon -m64 -pthread -shared -L. -Wl,-z -Wl,relro -Wl,-z -Wl,now -L/usr/pkgsrc/category/py-hatchet/work/.buildlink/lib -Wl,-rpath,/usr/pkg/lib -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include/python3.8 build/temp.linux-x86_64-3.8/hatchet/cython_modules/reader_modules.o -o build/lib.linux-x86_64-3.8/hatchet/cython_modules/libs/reader_modules.so -D_FORTIFY_SOURCE=2 -fstack-protector
+[*] cc -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/include -I/usr/pkg/include -I/usr/pkg/include/db4 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 -fPIC -I/usr/pkg/include/python3.8 -c hatchet/cython_modules/graphframe_modules.c -o build/temp.linux-x86_64-3.8/hatchet/cython_modules/graphframe_modules.o
+<.> /usr/pkgsrc/category/py-hatchet/work/.gcc/bin/gcc -fcommon -m64 -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include/db4 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include/python3.8 -fPIC -c hatchet/cython_modules/graphframe_modules.c -o build/temp.linux-x86_64-3.8/hatchet/cython_modules/graphframe_modules.o -D_FORTIFY_SOURCE=2 -fstack-protector
+[*] cc -pthread -shared -L. -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -Wl,-z,relro -Wl,-z,now -L/usr/lib64 -Wl,-R/usr/lib64 -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -Wl,-z,relro -Wl,-z,now -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -L/usr/lib64 -Wl,-R/usr/lib64 -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8 build/temp.linux-x86_64-3.8/hatchet/cython_modules/graphframe_modules.o -L/usr/pkg/lib -o build/lib.linux-x86_64-3.8/hatchet/cython_modules/libs/graphframe_modules.so
+<.> /usr/pkgsrc/category/py-hatchet/work/.gcc/bin/gcc -fcommon -m64 -pthread -shared -L. -Wl,-z -Wl,relro -Wl,-z -Wl,now -L/usr/pkgsrc/category/py-hatchet/work/.buildlink/lib -Wl,-rpath,/usr/pkg/lib -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,-rpath,/usr/pkg/lib -O2 -D_FORTIFY_SOURCE=2 -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include -I/usr/pkgsrc/category/py-hatchet/work/.buildlink/include/python3.8 build/temp.linux-x86_64-3.8/hatchet/cython_modules/graphframe_modules.o -o build/lib.linux-x86_64-3.8/hatchet/cython_modules/libs/graphframe_modules.so -D_FORTIFY_SOURCE=2 -fstack-protector
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 
+[*] /usr/pkgsrc/category/py-hatchet/work/.tools/bin/true
+<.> true 

@@ -1,0 +1,18 @@
+@cwd /usr/pkg
+@name py38-hatchet-1.3.0
+@blddep py38-dot-1.4.1
+@pkgdep py38-dot>=1.4.1
+@blddep py38-yaml-5.3.1
+@pkgdep py38-yaml>=5.1.3
+@blddep py38-matplotlib-3.3.4
+@pkgdep py38-matplotlib>=3.3.4
+@blddep py38-setuptools-51.3.3
+@pkgdep py38-setuptools-[0-9]*
+@blddep py38-numpy-1.19.4
+@pkgdep py38-numpy>=1.19.2nb1
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
