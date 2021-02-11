@@ -1,8 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py38-dot>=1.4.1	../../graphics/py-dot
-full	py38-yaml>=5.1.3	../../textproc/py-yaml
-full	py38-matplotlib>=3.3.4	../../graphics/py-matplotlib
-full	py38-setuptools-[0-9]*	../../devel/py-setuptools
-full	py38-numpy>=1.19.2nb1	../../math/py-numpy
