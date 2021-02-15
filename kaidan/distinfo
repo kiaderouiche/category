@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (kaidan/v0.6.0.tar.gz) = dc4f984f09fa65c501bc2a57c76b18ab93e9530c
-RMD160 (kaidan/v0.6.0.tar.gz) = 5517afcb212d2214a83aa13aadb21d3d96fbbc6d
-SHA512 (kaidan/v0.6.0.tar.gz) = 4499721072d54fea2d6527310256115527e75fcf83ccd75b74dce8f62dfbdc98c8c45aeb27c0b0c1780167c893e45b02a4398648e0ac5cea90445c9af7d67692
-Size (kaidan/v0.6.0.tar.gz) = 660349 bytes
+SHA1 (kaidan-0.7.0.tar.gz) = 38fe5cd31366305ec7fcd9680ad8928c2dc11c72
+RMD160 (kaidan-0.7.0.tar.gz) = 846d200a36ebf47ecd512e39dbc5941f7ab50f4a
+SHA512 (kaidan-0.7.0.tar.gz) = cbb1dc4beaa8ab728290614ff00a398036acc32008205bcaa05508e4746ec30cfbf0ad0a89fae490c8c9b67484e0fde1f3788ed6669f939516a905d7d0651245
+Size (kaidan-0.7.0.tar.gz) = 697188 bytes
