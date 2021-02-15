@@ -1,5 +1,0 @@
-Kaidan is a simple, user-friendly and modern chat client.
-It uses the open communication protocol XMPP (Jabber).
-The user interface makes use of Kirigami and QtQuick,
-while the back-end of Kaidan is entirely written in C++
-using Qt and the Qt-based XMPP library QXmpp
