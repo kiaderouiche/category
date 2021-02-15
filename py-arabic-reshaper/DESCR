@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+## Python Arabic Reshaper
+
+[![Build Status](https://travis-ci.org/mpcabd/python-arabic-reshaper.svg?branch=master)](https://travis-ci.org/mpcabd/python-arabic-reshaper)
+
+Reconstruct Arabic sentences to be used in applications that don't support
+Arabic script.
+
+Works with Python 2.x and 3.x
+
+## Description
+
+Arabic script is very special with two essential features:
+
+1. It is written from right to left.
+2. The characters change shape according to their surrounding characters.
+
+So when you try to print text written in Arabic script in an application
+– or a library – that doesn’t support Arabic you’re pretty likely to end up
+with something that looks like this:
+
+...
