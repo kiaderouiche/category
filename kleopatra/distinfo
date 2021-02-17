@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (kleopatra/v20.08.2.tar.gz) = 77d536992ee50223e12cd7558530b163914ed06f
-RMD160 (kleopatra/v20.08.2.tar.gz) = b03f7992879c3c36ef9175ad94b6a17e9af578db
-SHA512 (kleopatra/v20.08.2.tar.gz) = a1c44b5a3ca2193b0a2cf72e457cf1af7458ce6dbfde63f75921eb1cf59bef6dbf0534bada01ecfb9369a4bb20c056ce35ae49dd08ae1c0b4dfb8abb2de5ab7e
-Size (kleopatra/v20.08.2.tar.gz) = 966148 bytes
+SHA1 (kleopatra-20.12.2.tar.gz) = 70c515231206cbd0eed648b5ad3c7854c95ca751
+RMD160 (kleopatra-20.12.2.tar.gz) = a43be80926ae3a40722ea697ef3da23f88fecec3
+SHA512 (kleopatra-20.12.2.tar.gz) = 7500b1e20c1525129e40c4b7afb9fbba8f24403a814a0161ffd70f05fcb280d05ffa09e0dfb9b8a9b52f7a61f1e10d67eb1c792fc7a0e6a18c022e881907cff5
+Size (kleopatra-20.12.2.tar.gz) = 971268 bytes
