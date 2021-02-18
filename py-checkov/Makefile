@@ -1,17 +1,20 @@
 # $NetBSD$
 
-DISTNAME=	checkov-1.0.775
+DISTNAME=	checkov-1.0.784
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/e3/53/640b9f2625e70055121b004f8e83b11a9b1dcef5f6029b5afa9c97503141/
+CATEGORIES=	devel python
+PKGVERSION=	4
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
-BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
+PYTHON_VERSIONS_INCOMPATIBLE+=	36
+
+BUILD_DEPENDS+= ${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+BUILD_DEPENDS+= ${PYPKGPREFIX}-coverage>=5.3:../../devel/py-coverage
 BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
 BUILD_DEPENDS+=	py-pipenv-setup>=0:../../wip/py-pipenv-setup
 BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
@@ -33,7 +36,8 @@ DEPENDS+=	# TODO: update_checker>=0
 DEPENDS+=	py-semantic_version>=0:../../devel/py-semantic_version
 DEPENDS+=	py-packaging>=0:../../devel/py-packaging
 
-USE_LANGUAGES=	# none
+post-extract:
+	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
