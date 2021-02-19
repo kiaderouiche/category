@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (liquidshell/v1.7.1.tar.gz) = f4eca72e7eab47c482007430cf73fce8cf6f051d
-RMD160 (liquidshell/v1.7.1.tar.gz) = f1913e15fbe439fb152a0014a7a3ff22723c495f
-SHA512 (liquidshell/v1.7.1.tar.gz) = b5f6cce10e17cc87bbb64fff1fd9b76c4b9b6eef6420784c7834f762efdf8cf71cf67bc0bc9ec26b1aaeb75a0e24d0356793ee3f4051822a82372c0065c4c766
-Size (liquidshell/v1.7.1.tar.gz) = 102479 bytes
+SHA1 (liquidshell-1.7.2.tar.gz) = 8c407ef14381c6e09f05eeacb0d2063808f5adeb
+RMD160 (liquidshell-1.7.2.tar.gz) = 3b8e830f475f65fe6fa56fec4ede95d49c085fca
+SHA512 (liquidshell-1.7.2.tar.gz) = 9e3b9daf47500a34baf8a2ee6613402453aed4a70298b0e1b8c1573987e395b73b8af8cac4b2ec0921bd3bdb663f1b6a65084877e7b8609559c1b46a9c8d21d8
+Size (liquidshell-1.7.2.tar.gz) = 111947 bytes
