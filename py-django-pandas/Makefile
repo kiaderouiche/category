@@ -16,6 +16,8 @@ DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 TEST_DEPENDS+=	${PYPKGPREFIX}-coverage>=4.0:../../devel/py-coverage
 TEST_DEPENDS+=	${PYPKGPREFIX}-semver>=2.10.1:../../wip/py-semver
 
+do-test:
+	cd $(WRKSRC} && ${PYTHONBIN} runtests.py
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
