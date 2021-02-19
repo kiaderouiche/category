@@ -1,13 +1,14 @@
 # $NetBSD$
 
 DISTNAME=	pybuilder-0.12.10
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/ce/39/25bdab736be24981fd8f7a234d9376740dcb324692d969b0659ce3343488/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pybuilder/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/ce/39/25bdab736be24981fd8f7a234d9376740dcb324692d969b0659ce3343488/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://pybuilder.io/
+COMMENT=	Easy-to-use build automation tool for Python
+LICENSE=	apache-2.0
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
