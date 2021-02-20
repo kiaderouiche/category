@@ -1,4 +1,5 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/bin/make package"
-@comment TODO: 2. run "/usr/bin/make print-PLIST"
+${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/pickledb.py
+${PYSITELIB}/pickledb.pyc
+${PYSITELIB}/pickledb.pyo
