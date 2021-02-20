@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Arramooz
+Arabic Dictionary for Morphological analysis (Python + SQLite API)
+
+[![downloads]( https://img.shields.io/sourceforge/dt/arramooz.svg)](http://sourceforge.org/projects/arramooz)
+[![downloads]( https://img.shields.io/sourceforge/dm/arramooz.svg)](http://sourceforge.org/projects/arramooz)
+  
+  Developpers:  Taha Zerrouki: http://tahadz.com
+    taha dot zerrouki at gmail dot com
+  Collect data manually Mohamed Kebdani, Morroco < med.kebdani gmail.com>
+  
+Features |   value
+---------|---------------------------------------------------------------------------------
+Authors  | [Authors.md](https://github.com/linuxscout/arramooz-pysqlite/master/AUTHORS.md)
+Release  | 0.1
+License  |[GPL](https://github.com/linuxscout/arramooz-pysqlite/master/LICENSE)
+Tracker  |[linuxscout/arramooz-pysqlite/Issues](https://github.com/linuxscout/arramooz-pysqlite/issues)
+Website  |[http://arramooz-pysqlite.sourceforge.net](http://arramooz-pysqlite.sourceforge.net)
+Source  |[Github](http://github.com/linuxscout/arramooz-pysqlite)
+Download  |[sourceforge](http://arramooz-pysqlite.sourceforge.net)
+Feedbacks  |[Comments](https://github.com/linuxscout/arramooz-pysqlite/)
+...

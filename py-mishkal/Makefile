@@ -10,11 +10,11 @@ HOMEPAGE=	http://mishkal.sourceforge.net/
 COMMENT=	Mishkal: Arabic text diacritization library for Python
 LICENSE=	gnu-gpl-v1 OR gnu-gpl-v2 OR gnu-gpl-v3
 
-DEPENDS+=	# TODO: libqutrub>=1.0
-DEPENDS+=	py-naftawayh>=0.2:../../wip/py-naftawayh
-DEPENDS+=	# TODO: pyarabic>=0.6.2
-DEPENDS+=	py-tashaphyne>=0.3.1:../../wip/py-tashaphyne
-DEPENDS+=	# TODO: arramooz-pysqlite>=0.1
+DEPENDS+=	${PYPKGPREFIX}-libqutrub>=1.0
+DEPENDS+=	${PYPKGPREFIX}-naftawayh>=0.2:../../wip/py-naftawayh
+DEPENDS+=	${PYPKGPREFIX}-arabic>=0.6.2
+DEPENDS+=	${PYPKGPREFIX}-tashaphyne>=0.3.1:../../wip/py-tashaphyne
+DEPENDS+=	${PYPKGPREFIX}-arramooz-sqlite>=0.1
 DEPENDS+=	py-qalsadi>=0.2:../../wip/py-qalsadi
 DEPENDS+=	# TODO: mysam-tagmanager>=0.1
 DEPENDS+=	# TODO: alyahmor>=0.1
