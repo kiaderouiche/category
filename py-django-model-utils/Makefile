@@ -15,7 +15,6 @@ DEPENDS+=	# TODO: Django>=2.0.1
 TEST_DEPENDS+=	# TODO: Django>=2.2
 
 USE_PKGLOCALEDIR=	yes
-USE_LANGUAGES=		# none
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
