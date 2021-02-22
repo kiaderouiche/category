@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Overview
+Kaleido is a cross-platform library for generating static images (e.g. png, svg, pdf, etc.) for web-based visualization libraries, with a particular focus on eliminating external dependencies. The project's initial focus is on the export of plotly.js images from Python for use by plotly.py, but it is designed to be relatively straight-forward to extend to other web-based visualization libraries, and other programming languages.  The primary focus of Kaleido (at least initially) is to serve as a dependency of web-based visualization libraries like plotly.py. As such, the focus is on providing a programmatic-friendly, rather than user-friendly, API.
+
+# Installing Kaleido
+
+The kaleido package can be installed from [PyPI](https://pypi.org/) using pip...
+
+```
+$ pip install kaleido
+```
+
+or from [conda-forge](https://conda-forge.org/) using conda.
+
+```
+$ conda install -c conda-forge python-kaleido
+```
+
+Releases of the core kaleido C++ executable are attached as assets to GitHub releases at https://github.com/plotly/Kaleido/releases. 
+
+# Use Kaleido to export plotly.py figures as static images
+...
