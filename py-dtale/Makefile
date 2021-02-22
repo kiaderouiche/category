@@ -10,11 +10,13 @@ HOMEPAGE=	https://github.com/man-group/dtale
 COMMENT=	Web Client for Visualizing Pandas Objects
 LICENSE=	gnu-gpl-v3 OR gnu-lgpl-v2.1
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
+DEPENDS+=	${PYPKGPREFIX}-future>=0.18.2:../../devel/py-future
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-networkx>=2.5:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
-DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
-DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0.25.3:../../math/py-pandas
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
