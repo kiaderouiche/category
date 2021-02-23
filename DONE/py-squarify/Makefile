@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/squarify/}
 
-MAINTAINER=	jihbed.rsearch@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/laserson/squarify
 COMMENT=	Pure Python implementation of the squarify treemap layout algorithm
 LICENSE=	apache-2.0
