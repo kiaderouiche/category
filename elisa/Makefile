@@ -16,5 +16,7 @@ USE_LANGUAGES=	c c++
 
 .include "../../devel/kconfig/buildlink3.mk"
 .include "../../multimedia/vlc/buildlink3.mk"
+.include "../../sysutils/baloo5/buildlink3.mk"
+.include "../../x11/qt5-qtdeclarative/buildlink3.mk"
 .include "../../x11/kirigami2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
