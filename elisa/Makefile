@@ -14,5 +14,7 @@ COMMENT=	TODO: Short description of the package
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+.include "../../devel/kconfig/buildlink3.mk"
 .include "../../multimedia/vlc/buildlink3.mk"
+.include "../../x11/kirigami2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
