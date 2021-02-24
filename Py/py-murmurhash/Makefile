@@ -10,5 +10,5 @@ HOMEPAGE=	https://pypi.org/project/murmurhash2/
 COMMENT=	Murmurhash2 for Python
 LICENSE=	mit
 
-.include "../../lang/python/egg.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
