@@ -1,17 +1,16 @@
 # $NetBSD$
 
-DISTNAME=	proVBFH-1.2.1
-PKGNAME=	${DISTNAME:tl}
+DISTNAME=	proVBFH-inclusive-2.0.2
+PKGNAME=	${DISTNAME:tl:S/-inclusive//}
 CATEGORIES=	math
 MASTER_SITES=	https://provbfh.hepforge.org/downloads/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://provbfh.hepforge.org/
-COMMENT=	Monte Carlo program for the calculation of differential distributions
+COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 HAS_CONFIGURE=	yes
-USE_LANGUAGES=	c++ fortran
-USE_TOOLS+=	gmake
+USE_LANGUAGES=	fortran
 
 .include "../../mk/bsd.pkg.mk"

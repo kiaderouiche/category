@@ -19,4 +19,5 @@ USE_LANGUAGES=	c c++
 .include "../../sysutils/baloo5/buildlink3.mk"
 .include "../../x11/qt5-qtdeclarative/buildlink3.mk"
 .include "../../x11/kirigami2/buildlink3.mk"
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
