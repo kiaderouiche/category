@@ -1,30 +1,15 @@
-# $NetBSD$ 
+# $NetBSD$
 
-
-DISTNAME=	elisa
-PKGNAME=	elisa-20.12.1
+DISTNAME=	elisa-20.12.2
 GITHUB_PROJECT=	elisa
 GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	multimedia
+CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=KDE/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/KDE/elisa/
-COMMENT=	Audio player with QML and KDE Plasma integration
+COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-WRKSRC=		${WRKDIR}/elisa-20.12.1
-
-USE_CMAKE=	yes
-USE_LANGUAGES=	c c++
-
-#.include "../../devel/kconfig/buildlink3.mk"
-.include "../../multimedia/vlc/buildlink3.mk"
-.include "../../sysutils/baloo5/buildlink3.mk"
-.include "../../x11/qt5-qtbase/buildlink3.mk"
-.include "../../x11/qt5-qtdeclarative/buildlink3.mk"
-.include "../../x11/qt5-qtquickcontrols2/buildlink3.mk"
-.include "../../x11/qt5-qtsvg/buildlink3.mk"
-.include "../../x11/kirigami2/buildlink3.mk"
-.include "../../x11/kxmlgui/buildlink3.mk"
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
