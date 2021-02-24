@@ -10,6 +10,9 @@ HOMEPAGE=	https://master.dl.sourceforge.net/project/potassco/gringo/4.5.4/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
+USE_TOOLS+=	bison
 USE_LANGUAGES=	c++
 
+PYTHON_FOR_BUILD_ONLY?= yes
+.include "../../devel/scons/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
