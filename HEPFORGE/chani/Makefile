@@ -7,7 +7,7 @@ MASTER_SITES=	http://www.hepforge.org/archive/chani/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://chani.hepforge.org/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Simulation of charge transport and discharge
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	c++

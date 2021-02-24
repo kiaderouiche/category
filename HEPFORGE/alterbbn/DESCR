@@ -1,0 +1,6 @@
+AlterBBN is a C program which computes the abundances
+of the elements predicted by Big-Bang nucleosynthesis
+Different cosmological scenarios are implemented in
+AlterBBN, which can alter the BBN predictions. Also,
+AlterBBN is included in the SuperIso Relic package so
+that the alternative models can be tested using BBN constraints
