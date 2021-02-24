@@ -2,38 +2,41 @@
 
 DISTNAME=	checkov-1.0.810
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/6f/bd/c93b8811b44978c4d6959aa75659943f433f6dec453d57a22cecf487dd14/
+CATEGORIES=	devel python
+PKGVERSION=	4
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
-BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
-BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
-BUILD_DEPENDS+=	py-pipenv-setup>=0:../../wip/py-pipenv-setup
-BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
-BUILD_DEPENDS+=	py-bandit>=0:../../wip/py-bandit
-DEPENDS+=	py-bc-python-hcl2>=0:../../wip/py-bc-python-hcl2
-DEPENDS+=	# TODO: deep_merge>=0
-DEPENDS+=	py-tabulate>=0:../../textproc/py-tabulate
-DEPENDS+=	py-colorama>=0:../../comms/py-colorama
-DEPENDS+=	py-termcolor>=0:../../devel/py-termcolor
-DEPENDS+=	py-junit-xml>=0:../../wip/py-junit-xml
-DEPENDS+=	py-dpath>=1.5.0,<2:../../wip/py-dpath
-DEPENDS+=	# TODO: pyyaml>=5.3.1
-DEPENDS+=	py-boto3>=0:../../net/py-boto3
-DEPENDS+=	# TODO: GitPython>=0
-DEPENDS+=	# TODO: six==1.15.0>=0
-DEPENDS+=	py-jmespath>=0:../../textproc/py-jmespath
-DEPENDS+=	py-tqdm>=0:../../misc/py-tqdm
-DEPENDS+=	# TODO: update_checker>=0
-DEPENDS+=	py-semantic_version>=0:../../devel/py-semantic_version
-DEPENDS+=	py-packaging>=0:../../devel/py-packaging
+PYTHON_VERSIONS_INCOMPATIBLE+=	36
 
-USE_LANGUAGES=	# none
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
+BUILD_DEPENDS+=	${PYPKGPREFIX}-py-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
+BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit-bc-python-hcl2
+DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
+DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
+DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
+DEPENDS+=	${PYPKGPREFIX}-termcolor>=1.1.0:../../devel/py-termcolor
+DEPENDS+=	${PYPKGPREFIX}-junit-xml>=1.9:../../wip/py-junit-xml
+DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1.3:../../textproc/py-yaml
+DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
+DEPENDS+=	${PYPKGPREFIX}-gitpython>=3.1.7:../../devel/py-gitpython
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-jmespath>=0.10.0:../../textproc/py-jmespath
+DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../misc/py-tqdm
+DEPENDS+=	${PYPKGPREFIX}-update-checker-[0-9]*:../../wip/py-update-checker
+DEPENDS+=	${PYPKGPREFIX}-semantic_version>=2.8.5:../../devel/py-semantic_version
+DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
+
+post-extract:
+	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
