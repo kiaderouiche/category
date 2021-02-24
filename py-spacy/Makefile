@@ -10,6 +10,8 @@ HOMEPAGE=	https://spacy.io/
 COMMENT=	Library for advanced NLP in Python and Cython
 LICENSE=	mit
 
+USE_LANGUAGES=	fortran
+
 PYTHON_VERSIONS_INCOMPATIBLE+=  36
 
 BUILDLINK_API_DEPENDS.py-cython+=       ${PYPKGPREFIX}-cython>=0.12.1

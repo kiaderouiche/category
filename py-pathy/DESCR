@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# Pathy: a Path interface for local and cloud bucket storage
+
+[![Build status](https://travis-ci.com/justindujardin/pathy.svg?branch=master)](https://travis-ci.com/justindujardin/pathy)
+[![codecov](https://codecov.io/gh/justindujardin/pathy/branch/master/graph/badge.svg)](https://codecov.io/gh/justindujardin/pathy)
+[![Pypi version](https://badgen.net/pypi/v/pathy)](https://pypi.org/project/pathy/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+Pathy is a python package (_with type annotations_) for working with Bucket storage providers. It provides a CLI app for basic file operations between local files and remote buckets. It enables a smooth developer experience by supporting local file-system backed buckets during development and testing. It makes converting bucket blobs into local files a snap with optional local file caching of blobs.
+
+## 🚀 Quickstart
+
+You can install `pathy` from pip:
+
+```bash
+pip install pathy
+```
+
+The package exports the `Pathy` class and utilities for configuring the bucket storage provider to use. By default Pathy prefers GoogleCloudStorage paths of the form `gs://bucket_name/folder/blob_name.txt`. Internally Pathy can convert GCS paths to local files, allowing for a nice developer experience.
+
+```python
+...
