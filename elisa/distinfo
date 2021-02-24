@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (elisa.tar.gz) = 40303e4e3d3a23607dd1d85ecdca3cacb88e87f5
-RMD160 (elisa.tar.gz) = 5f48f153fe1bb6cd660ca337b45aa9036372452d
-SHA512 (elisa.tar.gz) = 3ea537e0ef5bde789c611ecaede28bb3e00c1bcfc9eb5e3a8980a75791cbc9190d8c81134021546b17f6d2ac346704448a07d0376f2560c0d2c33209bae206c2
-Size (elisa.tar.gz) = 1439279 bytes
+SHA1 (elisa-20.12.2.tar.gz) = 69d284e2d6210ea824d1d19ed3fe9b3fee3fb7d3
+RMD160 (elisa-20.12.2.tar.gz) = 4bec99ce5d48c9807e5de80622932955355d8f90
+SHA512 (elisa-20.12.2.tar.gz) = 28ee1305b5c0997809996f38e4b7a69de96eda353c7a332d24db5bc22e214659ff468c216b99b28ba0c38dbb84d98de704d1d9021fec322aecb53d7a05a8570e
+Size (elisa-20.12.2.tar.gz) = 1440042 bytes
