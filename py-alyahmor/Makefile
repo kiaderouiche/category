@@ -4,7 +4,7 @@ DISTNAME=	alyahmor-1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 GITHUB_PROJECT=	alyahmor
 GITHUB_TAG=	654813ecd41ff0bcae14b82b40f18b1baa534962
-CATEGORIES=	category python
+CATEGORIES=	textproc python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=linuxscout/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
