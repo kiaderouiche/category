@@ -1,3 +1,0 @@
-iDynTree is a library of robots dynamics algorithms for control, estimation
-and simulation. iDynTree is specifically designed for free-floating robots,
-but it is possible to use it also with fixed-base robots
