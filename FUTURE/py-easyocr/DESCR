@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# EasyOCR
+
+[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)
+[![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/JaidedAI/EasyOCR/blob/master/LICENSE)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.fan/easyocr)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/JaidedAI/EasyOCR.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20library:%20EasyOCR%20https://github.com/JaidedAI/EasyOCR)
+[![Twitter](https://img.shields.io/badge/twitter-@JaidedAI-blue.svg?style=flat)](https://twitter.com/JaidedAI)
+
+Ready-to-use OCR with 80+ [supported languages](https://www.jaided.ai/easyocr) and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+
+[Try Demo on our website](https://www.jaided.ai/easyocr)
+
+## What's new
+- 22 February 2021 - Version 1.2.5
+    - Add dynamic quantization for faster CPU inference (it is enabled by default for CPU mode)
+    - More sensible confident score
+- 7 February 2021 - Version 1.2.4
+    - Faster CPU inference speed by using dynamic input shape (recognition rate increases by around 100% for images with a lot of text)
+- 1 February 2021 - Version 1.2.3
+    - Add `setLanguageList` method to `Reader` class. This is a convenient api for changing languages (within the same model) after creating class instance.
+...
