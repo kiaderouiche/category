@@ -1,14 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	perfplot-0.8.10
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/47/d5/21a7dc4d0c45dd3f3c55aba4bead5f212da099ede4df31532e3fb7649816/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	graphics python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/perfplot/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/47/d5/21a7dc4d0c45dd3f3c55aba4bead5f212da099ede4df31532e3fb7649816/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/nschloe/perfplot
+COMMENT=	Performance plots for Python code snippets
+LICENSE=	gnu-gpl-v3
 
-USE_LANGUAGES=	# none
+post-extract:
+	${MV} ${WRKSRC}/setup.cfg ${WRKSRC}/setup.py
 
 .include "../../mk/bsd.pkg.mk"
