@@ -3,7 +3,7 @@
 DISTNAME=	azure-core-1.11.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net python
-MASTER_SITES=	https://files.pythonhosted.org/packages/4b/ed/84aa9faebaee51907405c9da4b54c86ab9c1e48ffb9fa3934507bd3871d2/
+MASTER_SITES=	${MASTER_SITE_PYPI:=a/azure-core/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	kamelderouiche@yahoo.com
