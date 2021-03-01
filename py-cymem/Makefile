@@ -1,13 +1,18 @@
 # $NetBSD$
 
 DISTNAME=	cymem-2.0.5
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/3e/fb/5899a59ee8d0f02202c1f02fe47671e0c93d1812b1deb2491505718473da/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/cymem/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/3e/fb/5899a59ee8d0f02202c1f02fe47671e0c93d1812b1deb2491505718473da/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/explosion/cymem
+COMMENT=	Manage calls to calloc/free through Cython
+LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+USE_LANGUAGES=	c c++
+
+BUILDLINK_API_DEPENDS.py-cython+=       ${PYPKGPREFIX}-cython>=0.12.1
+.include "../../devel/py-cython/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

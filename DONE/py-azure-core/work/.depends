@@ -1,0 +1,8 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	unzip-[0-9]*	../../archivers/unzip
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-requests>=2.18.4	../../devel/py-requests
+full	py38-six>=1.11.0	../../lang/py-six
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8	../../lang/python38
