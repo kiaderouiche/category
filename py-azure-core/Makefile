@@ -14,6 +14,5 @@ LICENSE=	mit
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.18.4:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-six>=1.11.0:../../lang/py-six
 
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
