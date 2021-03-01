@@ -10,8 +10,8 @@ HOMEPAGE=	https://github.com/justindujardin/pathy
 COMMENT=	pathlib.Path subclasses for local and cloud bucket storage
 LICENSE=	apache-2.0
 
-DEPENDS+=	# TODO: smart-open>=2.2.0,<4.0.0
-DEPENDS+=	# TODO: py-typer>=0.3.0,<1.0.0
+DEPENDS+=	${PYPKGPREFIX}-mart-open>=2.2.0,<4.0.0
+DEPENDS+=	${PYPKGPREFIX}-typer>=0.3.0,<1.0.0
 DEPENDS+=	py-dataclasses>=0.6,<1.0;python_version<"3.7":../../wip/py-dataclasses
 
 USE_LANGUAGES=	# none
