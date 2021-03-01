@@ -1,0 +1,33 @@
+--- /usr/pkgsrc/category/py-azure-common/work/.prefix.pre	2021-03-01 11:48:40.208222919 +0100
++++ /usr/pkgsrc/category/py-azure-common/work/.prefix.post	2021-03-01 11:48:44.648328009 +0100
+@@ -0,0 +1,30 @@
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure_common-1.1.26-py3.8.egg-info/dependency_links.txt
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure_common-1.1.26-py3.8.egg-info/not-zip-safe
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure_common-1.1.26-py3.8.egg-info/PKG-INFO
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure_common-1.1.26-py3.8.egg-info/requires.txt
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure_common-1.1.26-py3.8.egg-info/SOURCES.txt
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure_common-1.1.26-py3.8.egg-info/top_level.txt
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/client_factory.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/cloud.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/credentials.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/exceptions.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__init__.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/client_factory.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/client_factory.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/cloud.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/cloud.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/credentials.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/credentials.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/exceptions.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/exceptions.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/__init__.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/__init__.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/_version.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/__pycache__/_version.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/common/_version.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/profiles/__init__.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/profiles/multiapiclient.py
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/profiles/__pycache__/__init__.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/profiles/__pycache__/__init__.cpython-38.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/profiles/__pycache__/multiapiclient.cpython-38.opt-1.pyc
++/usr/pkgsrc/category/py-azure-common/work/.destdir/usr/pkg/lib/python3.8/site-packages/azure/profiles/__pycache__/multiapiclient.cpython-38.pyc
