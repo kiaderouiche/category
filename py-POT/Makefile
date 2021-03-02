@@ -10,6 +10,8 @@ HOMEPAGE=	https://pythonot.github.io/
 COMMENT=	Python Optimal Transport Library
 LICENSE=	mit
 
+USE_LANGUAGES=	c c++
+
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.3.4:../../graphics/py-matplotlib
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
 
