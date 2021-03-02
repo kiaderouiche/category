@@ -14,6 +14,8 @@ PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
 
+.include "options.mk"
+
 BUILDLINK_API_DEPENDS.py-numpy+=        ${PYPKGPREFIX}-numpy>=1.0
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
