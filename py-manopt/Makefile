@@ -1,13 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	pymanopt-0.2.5
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/54/62/8d674b68e5034ec5cb343dde3d5afeb7a667ff77f64f130c9c6200e0f919/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
+CATEGORIES=	math
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pymanopt/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/54/62/8d674b68e5034ec5cb343dde3d5afeb7a667ff77f64f130c9c6200e0f919/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://www.pymanopt.org/
+COMMENT=	Optimization on manifolds with support for automatic differentiation
+LICENSE=	modified-bsd
 
-# url2pkg-marker (please do not remove this line.)
+PYTHON_VERSIONS_INCOMPATIBLE+=  27
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

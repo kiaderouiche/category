@@ -1,0 +1,8 @@
+Pymanopt is a Python toolbox for optimization on manifolds,
+that computes gradients and Hessians automatically. It builds
+upon the Matlab toolbox Manopt but is otherwise independent of
+it. Pymanopt aims to lower the barriers for users wishing to use
+state of the art techniques for optimization on manifolds, by
+relying on automatic differentiation for computing gradients and
+Hessians, saving users time and saving them from potential calculation
+and implementiation errors.
