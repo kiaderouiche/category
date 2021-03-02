@@ -3,7 +3,7 @@
 DISTNAME=	adawat-0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc python
-MASTER_SITES=	https://files.pythonhosted.org/packages/35/65/0c8252cc3da395fdf271933fd7fc8c41d8b1d008978c35330a50596cd4cf/
+MASTER_SITES=	${MASTER_SITE_PYPI:=m/adawat/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://adawat.sourceforge.net/
@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v1 OR gnu-gpl-v2 OR gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-asmai>=0.1:../../wip/py-asmai
 DEPENDS+=	${PYPKGPREFIX}-mishkal>=0.3:../../wip/py-mishkal
 DEPENDS+=	${PYPKGPREFIX}-naftawayh>=0.4:../../wip/py-naftawayh
-DEPENDS+=	${PYPKGPREFIX}-arabic>=0.6.8:../../wip/py-arabic
+#DEPENDS+=	${PYPKGPREFIX}-arabic>=0.6.8:../../wip/py-arabic
 DEPENDS+=	${PYPKGPREFIX}-qalsadi>=0.3.6:../../wip/py-qalsadi
 DEPENDS+=	${PYPKGPREFIX}-repr>=0.3.1:../../wip/py-repr
 DEPENDS+=	${PYPKGPREFIX}-sylajone>=0.2:../../wip/py-sylajone
