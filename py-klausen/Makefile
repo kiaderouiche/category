@@ -8,13 +8,14 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=k/klausen/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/cmutel/klausen
 COMMENT=	Parameterized model framework in Python
-#LICENSE=	BSD 3-Clause License
+LICENSE=	2-clause-bsd
 
-DEPENDS+=	# TODO: numpy>=0
-DEPENDS+=	# TODO: scipy>=0
-DEPENDS+=	# TODO: stats_arrays>=0
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-stats-arrays>=0.6.4:../../wip/py-stats-arrays
 
 USE_LANGUAGES=	# none
 
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.8
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
