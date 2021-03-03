@@ -1,20 +1,17 @@
 # $NetBSD$
 
 DISTNAME=	bw_migrations-0.1
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/e2/b1/8c46d0cd0d552cffee729ff7b18c70adbb029e60c52dff750218050e9d6b/
+PKGNAME=	${PYPKGPREFIX}-bw-migrations-0.1
+CATEGORIES=	databases python
+MASTER_SITES=	${MASTER_SITE_PYPI:=b/bw_migrations/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/brightway-lca/bw_migrations
 COMMENT=	Migration data and utilities for Brightway IO and LCA in general
-#LICENSE=	NewBSD 3-clause; LICENSE # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
-DEPENDS+=	# TODO: stats_arrays>=0
-TEST_DEPENDS+=	# TODO: stats_arrays>=0
-TEST_DEPENDS+=	# TODO: pytest>=0
-
-USE_LANGUAGES=	# none
+#DEPENDS+=	${PYPKGPREFIX}-stats-arrays>=0.6.4:../../wip/py-stats-arrays
+#TEST_DEPENDS+=	${PYPKGPREFIX}-test>=0.6.4:../../wip/py-test
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
