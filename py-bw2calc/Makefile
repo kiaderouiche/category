@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	${MASTER_SITE_PYPI:=b/bw2calc/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://bitbucket.org/cmutel/brightway2-calc
 COMMENT=	TODO: Short description of the package
 #LICENSE=	NewBSD 3-clause; LICENSE.txt # TODO: from setup.py; needs to be adjusted

@@ -3,7 +3,7 @@
 DISTNAME=	eight2-0.2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/ce/dd/e7ebe9b1adffa54ca0c8155777339536e5899ae86e9f6d1727d907847b50/
+MASTER_SITES=	${MASTER_SITE_PYPI:=e/eight2/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/bopo/eight2

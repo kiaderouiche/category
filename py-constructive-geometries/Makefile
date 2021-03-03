@@ -10,8 +10,8 @@ HOMEPAGE=	https://github.com/cmutel/constructive_geometries
 COMMENT=	Simple tools to define world locations from a set of topological faces and set algebra
 #LICENSE=	Copyright (c) 2016, Chris Mutel and Paul Scherrer Institute
 
-DEPENDS+=	# TODO: country_converter>=0
-DEPENDS+=	py-wrapt>=0:../../devel/py-wrapt
+DEPENDS+=	${PYPKGPREFIX}-country-converter>=0:../../wip/py-country-converte
+DEPENDS+=	${PYPKGPREFIX}-wrapt>=0:../../devel/py-wrapt
 
 USE_LANGUAGES=	# none
 
