@@ -5,20 +5,21 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
 MASTER_SITES=	${MASTER_SITE_PYPI:=e/eight2/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/bopo/eight2
-COMMENT=	Python Boilerplate contains all the boilerplate you need to create a Python package
+COMMENT=	Boilerplate contains all the boilerplate you need to create a Python package
 LICENSE=	mit
 
-BUILD_DEPENDS+=	# TODO: pytest-runner>=0
-DEPENDS+=	py-tzlocal>=0:../../time/py-tzlocal
-DEPENDS+=	py-jinja2>=0:../../textproc/py-jinja2
-DEPENDS+=	py-arrow>=0:../../time/py-arrow
-DEPENDS+=	# TODO: sxtwl>=0
-DEPENDS+=	py-click>=0:../../devel/py-click
-TEST_DEPENDS+=	# TODO: pytest>=3
+PYTHON_VERSIONS_INCOMPATIBLE+=  27
 
-USE_LANGUAGES=	# none
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test-runner>=5.2:../../devel/py-test-runner
+DEPENDS+=	${PYPKGPREFIX}-tzlocal>=2.1:../../time/py-tzlocal
+DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.11.3:../../textproc/py-jinja2
+DEPENDS+=	${PYPKGPREFIX}-arrow>=0.15.8:../../time/py-arrow
+#DEPENDS+=	${PYPKGPREFIX}-sxtwl>=0:../../../../wip/py-sxtwl
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.5:../../devel/py-test
+
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
