@@ -3,9 +3,9 @@
 DISTNAME=	carculator-1.4.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/c6/79/0cf498911b9cb8e65d246df93b3e9ce75b240091b5e5cd082b987e69c393/
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/carculator/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/romainsacchi/carculator
 COMMENT=	Prospective environmental and economic life cycle assessment of vehicles made blazing fast
 #LICENSE=	BSD 3-Clause License

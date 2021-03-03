@@ -3,7 +3,7 @@
 DISTNAME=	azure-storage-blob-12.7.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net python
-MASTER_SITES=	${MASTER_SITE_PYPI:=s/smart_open/}
+MASTER_SITES=	${MASTER_SITE_PYPI:=a/azure-storage-blob/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	kamelderouiche@yahoo.com

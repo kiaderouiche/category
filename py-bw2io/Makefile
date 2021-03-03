@@ -3,9 +3,9 @@
 DISTNAME=	bw2io-0.8.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/4b/a5/002bc3e89d97f9708b2a43e898050369fb8ed8486ba7a26499f2c8c81fa2/
+MASTER_SITES=	${MASTER_SITE_PYPI:=b/bw2io/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/brightway-lca/brightway2-io
 COMMENT=	Tools for importing and export life cycle inventory databases
 #LICENSE=	BSD 3-clause # TODO: from setup.py; needs to be adjusted
