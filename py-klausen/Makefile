@@ -2,10 +2,10 @@
 
 DISTNAME=	klausen-0.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/fa/c9/efb9ce9613be048c6cfaa9b680491e646477c5006abd6ff434f41a88b888/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=k/klausen/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/cmutel/klausen
 COMMENT=	Parameterized model framework in Python
 #LICENSE=	BSD 3-Clause License

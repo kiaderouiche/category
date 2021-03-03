@@ -11,11 +11,10 @@ HOMEPAGE=	https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/
 COMMENT=	Microsoft Azure Blob Storage Client Library for Python
 LICENSE=	mit
 
-DEPENDS+=	# TODO: azure-core<2.0.0,>=1.10.0
-DEPENDS+=	# TODO: msrest>=0.6.18
-DEPENDS+=	py-cryptography>=2.1.4:../../security/py-cryptography
+DEPENDS+=	${PYPKGPREFIX}-cryptography>=2.1.4:../../security/py-cryptography
+DEPENDS+=	${PYPKGPREFIX}-azure-core>=1.10.0:../../wip/py-azure-core
+DEPENDS+=	${PYPKGPREFIX}-msrest>=0.6.18:../../wip/py-msrest
 
-USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -3,7 +3,7 @@
 DISTNAME=	bw2calc-1.8.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/ae/b7/d7a812eada485c6d422ff5649e25afd2e49f898186e25a5b53da580fb5ec/
+MASTER_SITES=	${MASTER_SITE_PYPI:=b/bw2calc/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://bitbucket.org/cmutel/brightway2-calc
