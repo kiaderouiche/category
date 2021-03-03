@@ -1,0 +1,20 @@
+************************************************************
+The following files are in /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg but not in the PLIST:
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/bin/coco
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter-0.7.2-py3.8.egg-info/dependency_links.txt
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter-0.7.2-py3.8.egg-info/entry_points.txt
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter-0.7.2-py3.8.egg-info/PKG-INFO
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter-0.7.2-py3.8.egg-info/requires.txt
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter-0.7.2-py3.8.egg-info/SOURCES.txt
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter-0.7.2-py3.8.egg-info/top_level.txt
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/country_converter.py
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/country_data.tsv
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__init__.py
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__pycache__/country_converter.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__pycache__/country_converter.cpython-38.pyc
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__pycache__/__init__.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__pycache__/__init__.cpython-38.pyc
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__pycache__/version.cpython-38.opt-1.pyc
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/__pycache__/version.cpython-38.pyc
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/country_converter/version.py
+        /usr/pkgsrc/category/py-country-converter/work/.destdir/usr/pkg/lib/python3.8/site-packages/LICENSE
