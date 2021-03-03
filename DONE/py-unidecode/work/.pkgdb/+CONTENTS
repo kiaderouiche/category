@@ -1,0 +1,1183 @@
+@cwd /usr/pkg
+@name py38-unidecode-1.2.0
+@blddep py38-setuptools-51.3.3
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.7
+@pkgdep python38>=3.8
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+bin/unidecode
+@comment MD5:057974b7621b3cb93ed69af87023acf1
+lib/python3.8/site-packages/Unidecode-1.2.0-py3.8.egg-info/PKG-INFO
+@comment MD5:60a93671ddf092a678948dbb1109ef90
+lib/python3.8/site-packages/Unidecode-1.2.0-py3.8.egg-info/SOURCES.txt
+@comment MD5:2797b74e5ac542b0213cece79e5100ed
+lib/python3.8/site-packages/Unidecode-1.2.0-py3.8.egg-info/dependency_links.txt
+@comment MD5:68b329da9893e34099c7d8ad5cb9c940
+lib/python3.8/site-packages/Unidecode-1.2.0-py3.8.egg-info/entry_points.txt
+@comment MD5:8eca31569bba970b1b183539389e4c58
+lib/python3.8/site-packages/Unidecode-1.2.0-py3.8.egg-info/top_level.txt
+@comment MD5:28044286f13f9819cefe650b00f2e166
+lib/python3.8/site-packages/unidecode/__init__.py
+@comment MD5:5e1863e5fdcf7278a55a95cf86e34657
+lib/python3.8/site-packages/unidecode/__pycache__/__init__.cpython-38.pyc
+@comment MD5:d851d2e5ad36669143c617a88de8f482
+lib/python3.8/site-packages/unidecode/__init__.pyi
+@comment MD5:9480e1f4c8bf50aec625d782f8671e1a
+lib/python3.8/site-packages/unidecode/__pycache__/__init__.cpython-38.opt-1.pyc
+@comment MD5:0bb525903889eb9aef31d99ce0441886
+lib/python3.8/site-packages/unidecode/__main__.py
+@comment MD5:918a87df72e5bb42b8a1e7605202c2ed
+lib/python3.8/site-packages/unidecode/__pycache__/__main__.cpython-38.pyc
+@comment MD5:0ac02e5333fcc3dec7ed79d4f91b35f8
+lib/python3.8/site-packages/unidecode/__pycache__/__main__.cpython-38.opt-1.pyc
+@comment MD5:0ac02e5333fcc3dec7ed79d4f91b35f8
+lib/python3.8/site-packages/unidecode/py.typed
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/python3.8/site-packages/unidecode/util.py
+@comment MD5:d8fd10aa0b5ef7ca43fcc33ffa7b68b7
+lib/python3.8/site-packages/unidecode/__pycache__/util.cpython-38.pyc
+@comment MD5:f432cada4228a7e1ad4ddf6e3fc18a2a
+lib/python3.8/site-packages/unidecode/__pycache__/util.cpython-38.opt-1.pyc
+@comment MD5:44394f47734c017511899f3efadcf2bf
+lib/python3.8/site-packages/unidecode/x000.py
+@comment MD5:d190db7ac6406962f1147050bc4abe54
+lib/python3.8/site-packages/unidecode/__pycache__/x000.cpython-38.pyc
+@comment MD5:bfd6bc51f7892a2a9a4659522630f331
+lib/python3.8/site-packages/unidecode/__pycache__/x000.cpython-38.opt-1.pyc
+@comment MD5:54a1e1d9726945d21ff54f000c958af2
+lib/python3.8/site-packages/unidecode/x001.py
+@comment MD5:856d4bf3876d738e18af96a586a5acc4
+lib/python3.8/site-packages/unidecode/__pycache__/x001.cpython-38.pyc
+@comment MD5:eede849f1463d66a5fd5481d12b9ca8d
+lib/python3.8/site-packages/unidecode/__pycache__/x001.cpython-38.opt-1.pyc
+@comment MD5:15020b7cbb163b5858b14272f7d6b4f7
+lib/python3.8/site-packages/unidecode/x002.py
+@comment MD5:2b5f47f17e087d20ce76ea7d05ea0665
+lib/python3.8/site-packages/unidecode/__pycache__/x002.cpython-38.pyc
+@comment MD5:4e461003de1826fc0c7869516a4a6c66
+lib/python3.8/site-packages/unidecode/__pycache__/x002.cpython-38.opt-1.pyc
+@comment MD5:e10e9554064b65c2033f32e3f0e47f9f
+lib/python3.8/site-packages/unidecode/x003.py
+@comment MD5:357121a94e0edc010f5a41024ab661f7
+lib/python3.8/site-packages/unidecode/__pycache__/x003.cpython-38.pyc
+@comment MD5:5b2acf55a0c3c6c86797d5b8cdc39041
+lib/python3.8/site-packages/unidecode/__pycache__/x003.cpython-38.opt-1.pyc
+@comment MD5:0edc878062f9c5193ff32c863e0ba631
+lib/python3.8/site-packages/unidecode/x004.py
+@comment MD5:d77248ae0b4cd7d2a7fb5baf7d3fafab
+lib/python3.8/site-packages/unidecode/__pycache__/x004.cpython-38.pyc
+@comment MD5:ea884d49c78c6849e556a15da5ccd610
+lib/python3.8/site-packages/unidecode/__pycache__/x004.cpython-38.opt-1.pyc
+@comment MD5:5add3b009a2cece71febff90f87e9aa6
+lib/python3.8/site-packages/unidecode/x005.py
+@comment MD5:5b33abfa3f118461065b91f59468376b
+lib/python3.8/site-packages/unidecode/__pycache__/x005.cpython-38.pyc
+@comment MD5:2fa737b959c3b92d3c06579d144f7d04
+lib/python3.8/site-packages/unidecode/__pycache__/x005.cpython-38.opt-1.pyc
+@comment MD5:f176afaf5fdc822651a12638c665a288
+lib/python3.8/site-packages/unidecode/x006.py
+@comment MD5:24ee21458ac52578b2a9991d83cbab7f
+lib/python3.8/site-packages/unidecode/__pycache__/x006.cpython-38.pyc
+@comment MD5:6926801c67812a995443631697434a02
+lib/python3.8/site-packages/unidecode/__pycache__/x006.cpython-38.opt-1.pyc
+@comment MD5:653c4009027a2a1e220f28eb56591ad3
+lib/python3.8/site-packages/unidecode/x007.py
+@comment MD5:3584926e6eac9628f5b601357d82115d
+lib/python3.8/site-packages/unidecode/__pycache__/x007.cpython-38.pyc
+@comment MD5:464fd6f449258bf0b8d5db99d42e3d93
+lib/python3.8/site-packages/unidecode/__pycache__/x007.cpython-38.opt-1.pyc
+@comment MD5:36e1a4ea74037eb471f58accf0486d44
+lib/python3.8/site-packages/unidecode/x009.py
+@comment MD5:816a41c47b5485bd82774173333b5d9d
+lib/python3.8/site-packages/unidecode/__pycache__/x009.cpython-38.pyc
+@comment MD5:32c27ae8c710405d5742988f081bea62
+lib/python3.8/site-packages/unidecode/__pycache__/x009.cpython-38.opt-1.pyc
+@comment MD5:32c27ae8c710405d5742988f081bea62
+lib/python3.8/site-packages/unidecode/x00a.py
+@comment MD5:46f5c5d9a5b2e6ca4e525c27af3e8107
+lib/python3.8/site-packages/unidecode/__pycache__/x00a.cpython-38.pyc
+@comment MD5:de2f1250a4bc32722bff39613112c35c
+lib/python3.8/site-packages/unidecode/__pycache__/x00a.cpython-38.opt-1.pyc
+@comment MD5:5ce628075ea732de2e76ff7e420da149
+lib/python3.8/site-packages/unidecode/x00b.py
+@comment MD5:7baf10e6e99a493d46ae0d6a98c3aa78
+lib/python3.8/site-packages/unidecode/__pycache__/x00b.cpython-38.pyc
+@comment MD5:61e6bfe5116c2e547e7df3959e574308
+lib/python3.8/site-packages/unidecode/__pycache__/x00b.cpython-38.opt-1.pyc
+@comment MD5:b74f06ee880a64d1c5816285ba666b35
+lib/python3.8/site-packages/unidecode/x00c.py
+@comment MD5:e6e71ff341ead10d76547d8358a81d68
+lib/python3.8/site-packages/unidecode/__pycache__/x00c.cpython-38.pyc
+@comment MD5:53a84a27520c2ac276da99aa3e7f7cdd
+lib/python3.8/site-packages/unidecode/__pycache__/x00c.cpython-38.opt-1.pyc
+@comment MD5:53a84a27520c2ac276da99aa3e7f7cdd
+lib/python3.8/site-packages/unidecode/x00d.py
+@comment MD5:2727f2b7a6c1dc2165d470c45bd14710
+lib/python3.8/site-packages/unidecode/__pycache__/x00d.cpython-38.pyc
+@comment MD5:1932eb9991fdad9027843f33c8376272
+lib/python3.8/site-packages/unidecode/__pycache__/x00d.cpython-38.opt-1.pyc
+@comment MD5:1932eb9991fdad9027843f33c8376272
+lib/python3.8/site-packages/unidecode/x00e.py
+@comment MD5:a28a2dfe3003992da0330a542204dac3
+lib/python3.8/site-packages/unidecode/__pycache__/x00e.cpython-38.pyc
+@comment MD5:f8c9e08b62c861d7f30455f580e0be00
+lib/python3.8/site-packages/unidecode/__pycache__/x00e.cpython-38.opt-1.pyc
+@comment MD5:4ba9978d37bf9dbf63914f8256cfaf77
+lib/python3.8/site-packages/unidecode/x00f.py
+@comment MD5:d65460c1c6b334e13096860c89e3686b
+lib/python3.8/site-packages/unidecode/__pycache__/x00f.cpython-38.pyc
+@comment MD5:9f1abad4c01fe876b1f42f9e80a05468
+lib/python3.8/site-packages/unidecode/__pycache__/x00f.cpython-38.opt-1.pyc
+@comment MD5:5837194359cc3c53b6b4c0a52317327f
+lib/python3.8/site-packages/unidecode/x010.py
+@comment MD5:c4def313a88ce8df650a50b75a16753a
+lib/python3.8/site-packages/unidecode/__pycache__/x010.cpython-38.pyc
+@comment MD5:a53f52d7e37cb279fc02278f52b4f17e
+lib/python3.8/site-packages/unidecode/__pycache__/x010.cpython-38.opt-1.pyc
+@comment MD5:8002e8adcc00516eca19bc1c90fda633
+lib/python3.8/site-packages/unidecode/x011.py
+@comment MD5:edbdb2504142e98defc81503b822d5d3
+lib/python3.8/site-packages/unidecode/__pycache__/x011.cpython-38.pyc
+@comment MD5:3ddfb84f89049cf1443e06d1571e8e71
+lib/python3.8/site-packages/unidecode/__pycache__/x011.cpython-38.opt-1.pyc
+@comment MD5:9cffa167cd8374e49c59a9034adc3a92
+lib/python3.8/site-packages/unidecode/x012.py
+@comment MD5:cef905c2b67f1fda9c2ad9feb489fee8
+lib/python3.8/site-packages/unidecode/__pycache__/x012.cpython-38.pyc
+@comment MD5:0d45e9a6b7d0754357b2a887cace72cb
+lib/python3.8/site-packages/unidecode/__pycache__/x012.cpython-38.opt-1.pyc
+@comment MD5:11c628055b9059bec5d2c2317273d1e6
+lib/python3.8/site-packages/unidecode/x013.py
+@comment MD5:6d5b2332075b901ddec4a107901b7376
+lib/python3.8/site-packages/unidecode/__pycache__/x013.cpython-38.pyc
+@comment MD5:094e07e5f76ba84825d70b2168248602
+lib/python3.8/site-packages/unidecode/__pycache__/x013.cpython-38.opt-1.pyc
+@comment MD5:a5e03556b6227e0319b8b87adc258645
+lib/python3.8/site-packages/unidecode/x014.py
+@comment MD5:7e5d39dfdd31b5dec2d572a7c0295b53
+lib/python3.8/site-packages/unidecode/__pycache__/x014.cpython-38.pyc
+@comment MD5:82d3553e1994430b68a91fee0b46dac3
+lib/python3.8/site-packages/unidecode/__pycache__/x014.cpython-38.opt-1.pyc
+@comment MD5:1c1aa2a8b2e718674cdf8fb54e4680dc
+lib/python3.8/site-packages/unidecode/x015.py
+@comment MD5:1b770266538b4e389b559cac2f737525
+lib/python3.8/site-packages/unidecode/__pycache__/x015.cpython-38.pyc
+@comment MD5:d208f1a43a14b4e55d287854eb38ee4d
+lib/python3.8/site-packages/unidecode/__pycache__/x015.cpython-38.opt-1.pyc
+@comment MD5:6c187328636171cf339a3f5cf3f1d30d
+lib/python3.8/site-packages/unidecode/x016.py
+@comment MD5:c952fcac7fb4c55122aeb8f1d9f3f37f
+lib/python3.8/site-packages/unidecode/__pycache__/x016.cpython-38.pyc
+@comment MD5:f7d701c39ce8f39e67955972eb9159e9
+lib/python3.8/site-packages/unidecode/__pycache__/x016.cpython-38.opt-1.pyc
+@comment MD5:c671b2d71f69e1443805163b73da0e62
+lib/python3.8/site-packages/unidecode/x017.py
+@comment MD5:d7c83a31fd470e053f1566658ed7139c
+lib/python3.8/site-packages/unidecode/__pycache__/x017.cpython-38.pyc
+@comment MD5:6f4604052c10fbcb59305eb3ced83ac3
+lib/python3.8/site-packages/unidecode/__pycache__/x017.cpython-38.opt-1.pyc
+@comment MD5:b5f5405de9b6ecf39697d407cc2aab8f
+lib/python3.8/site-packages/unidecode/x018.py
+@comment MD5:1c9bc0bc210505f3735d3f0c788bbbe3
+lib/python3.8/site-packages/unidecode/__pycache__/x018.cpython-38.pyc
+@comment MD5:44d85af76071861ae732db17b4a1d8b5
+lib/python3.8/site-packages/unidecode/__pycache__/x018.cpython-38.opt-1.pyc
+@comment MD5:d435fa0377305b56a061132ae5e3a9b4
+lib/python3.8/site-packages/unidecode/x01d.py
+@comment MD5:d6778db054dc653a491fc88316d07714
+lib/python3.8/site-packages/unidecode/__pycache__/x01d.cpython-38.pyc
+@comment MD5:cf84db56bab546dd551f60c70f27670d
+lib/python3.8/site-packages/unidecode/__pycache__/x01d.cpython-38.opt-1.pyc
+@comment MD5:cf84db56bab546dd551f60c70f27670d
+lib/python3.8/site-packages/unidecode/x01e.py
+@comment MD5:5e973b0e6b66996af596b1ce4a091f36
+lib/python3.8/site-packages/unidecode/__pycache__/x01e.cpython-38.pyc
+@comment MD5:80e641d2caf772da94034a0032e0f24b
+lib/python3.8/site-packages/unidecode/__pycache__/x01e.cpython-38.opt-1.pyc
+@comment MD5:80e641d2caf772da94034a0032e0f24b
+lib/python3.8/site-packages/unidecode/x01f.py
+@comment MD5:0f7453101cceea37b480ca42838d4db1
+lib/python3.8/site-packages/unidecode/__pycache__/x01f.cpython-38.pyc
+@comment MD5:05a67513c69f5dd95e66978ffb53ca1b
+lib/python3.8/site-packages/unidecode/__pycache__/x01f.cpython-38.opt-1.pyc
+@comment MD5:05a67513c69f5dd95e66978ffb53ca1b
+lib/python3.8/site-packages/unidecode/x020.py
+@comment MD5:7bcf6f3be935040a9451595880378bd9
+lib/python3.8/site-packages/unidecode/__pycache__/x020.cpython-38.pyc
+@comment MD5:530baee89a39e6b41c69255b3d7f1163
+lib/python3.8/site-packages/unidecode/__pycache__/x020.cpython-38.opt-1.pyc
+@comment MD5:530baee89a39e6b41c69255b3d7f1163
+lib/python3.8/site-packages/unidecode/x021.py
+@comment MD5:c5b1e9c381b65992b56a6fcc2030f2ed
+lib/python3.8/site-packages/unidecode/__pycache__/x021.cpython-38.pyc
+@comment MD5:fd3541d84e6979631e21c2bfa197fad0
+lib/python3.8/site-packages/unidecode/__pycache__/x021.cpython-38.opt-1.pyc
+@comment MD5:cf535946c3fe79bbf7a691833f16a09f
+lib/python3.8/site-packages/unidecode/x022.py
+@comment MD5:35bb673bbd844d5a8181758ca60077a4
+lib/python3.8/site-packages/unidecode/__pycache__/x022.cpython-38.pyc
+@comment MD5:7f684429351d74c79dabb3d14ac03e00
+lib/python3.8/site-packages/unidecode/__pycache__/x022.cpython-38.opt-1.pyc
+@comment MD5:7f684429351d74c79dabb3d14ac03e00
+lib/python3.8/site-packages/unidecode/x023.py
+@comment MD5:d58bd65df0d2ee56f0472dab45b9af91
+lib/python3.8/site-packages/unidecode/__pycache__/x023.cpython-38.pyc
+@comment MD5:537228f309197b3b1a44fb79fcc27b5b
+lib/python3.8/site-packages/unidecode/__pycache__/x023.cpython-38.opt-1.pyc
+@comment MD5:537228f309197b3b1a44fb79fcc27b5b
+lib/python3.8/site-packages/unidecode/x024.py
+@comment MD5:4e164f0009045673f1c40777102f6b1d
+lib/python3.8/site-packages/unidecode/__pycache__/x024.cpython-38.pyc
+@comment MD5:509ae71c0e9a8a6fdcfdc4962c4fe5c6
+lib/python3.8/site-packages/unidecode/__pycache__/x024.cpython-38.opt-1.pyc
+@comment MD5:509ae71c0e9a8a6fdcfdc4962c4fe5c6
+lib/python3.8/site-packages/unidecode/x025.py
+@comment MD5:a495c3e16282a1aabe934c12ee8e3aa9
+lib/python3.8/site-packages/unidecode/__pycache__/x025.cpython-38.pyc
+@comment MD5:387ca69457e7638aed5663cc48830e56
+lib/python3.8/site-packages/unidecode/__pycache__/x025.cpython-38.opt-1.pyc
+@comment MD5:387ca69457e7638aed5663cc48830e56
+lib/python3.8/site-packages/unidecode/x026.py
+@comment MD5:27f42965e9dd598baeef5a3b4b897149
+lib/python3.8/site-packages/unidecode/__pycache__/x026.cpython-38.pyc
+@comment MD5:79bbf1123fdbb46af709019666023b64
+lib/python3.8/site-packages/unidecode/__pycache__/x026.cpython-38.opt-1.pyc
+@comment MD5:79bbf1123fdbb46af709019666023b64
+lib/python3.8/site-packages/unidecode/x027.py
+@comment MD5:ae718dfe2e4dc35584ed9c6a00b11003
+lib/python3.8/site-packages/unidecode/__pycache__/x027.cpython-38.pyc
+@comment MD5:fa710b1c0adaecaa72c16ba5996cc6d7
+lib/python3.8/site-packages/unidecode/__pycache__/x027.cpython-38.opt-1.pyc
+@comment MD5:fa710b1c0adaecaa72c16ba5996cc6d7
+lib/python3.8/site-packages/unidecode/x028.py
+@comment MD5:18a6af3567696e7e3ee8917660b47800
+lib/python3.8/site-packages/unidecode/__pycache__/x028.cpython-38.pyc
+@comment MD5:b9771667efc28c3179083e47393c1b5d
+lib/python3.8/site-packages/unidecode/__pycache__/x028.cpython-38.opt-1.pyc
+@comment MD5:b9771667efc28c3179083e47393c1b5d
+lib/python3.8/site-packages/unidecode/x029.py
+@comment MD5:2097c8f0ab86fd0d0e596abeded0d7cc
+lib/python3.8/site-packages/unidecode/__pycache__/x029.cpython-38.pyc
+@comment MD5:422e4fc9e841258eb66f6d104dc4989f
+lib/python3.8/site-packages/unidecode/__pycache__/x029.cpython-38.opt-1.pyc
+@comment MD5:422e4fc9e841258eb66f6d104dc4989f
+lib/python3.8/site-packages/unidecode/x02a.py
+@comment MD5:36b218d26b1c53b03c28aa2c74897fcc
+lib/python3.8/site-packages/unidecode/__pycache__/x02a.cpython-38.pyc
+@comment MD5:3d9466a971ce86059714b277f3674cef
+lib/python3.8/site-packages/unidecode/__pycache__/x02a.cpython-38.opt-1.pyc
+@comment MD5:3d9466a971ce86059714b277f3674cef
+lib/python3.8/site-packages/unidecode/x02c.py
+@comment MD5:842c76fba1afdbaa11d0da615e2c6fb2
+lib/python3.8/site-packages/unidecode/__pycache__/x02c.cpython-38.pyc
+@comment MD5:4ce6732a72fbffdcd5262cf31a3b9351
+lib/python3.8/site-packages/unidecode/__pycache__/x02c.cpython-38.opt-1.pyc
+@comment MD5:4ce6732a72fbffdcd5262cf31a3b9351
+lib/python3.8/site-packages/unidecode/x02e.py
+@comment MD5:b481f17621b8cf10d5e3500b774dcc32
+lib/python3.8/site-packages/unidecode/__pycache__/x02e.cpython-38.pyc
+@comment MD5:4b20ca45a5ea30a81b94d5c7a942316f
+lib/python3.8/site-packages/unidecode/__pycache__/x02e.cpython-38.opt-1.pyc
+@comment MD5:4b20ca45a5ea30a81b94d5c7a942316f
+lib/python3.8/site-packages/unidecode/x02f.py
+@comment MD5:62041c0abad495d1eca72c8d6605c0c0
+lib/python3.8/site-packages/unidecode/__pycache__/x02f.cpython-38.pyc
+@comment MD5:1f326c0052420b3b2b95494350e07318
+lib/python3.8/site-packages/unidecode/__pycache__/x02f.cpython-38.opt-1.pyc
+@comment MD5:1f326c0052420b3b2b95494350e07318
+lib/python3.8/site-packages/unidecode/x030.py
+@comment MD5:eac6608dc95e69872c761814908d7a4a
+lib/python3.8/site-packages/unidecode/__pycache__/x030.cpython-38.pyc
+@comment MD5:9e2a89ed489b1edda499f98a097ef102
+lib/python3.8/site-packages/unidecode/__pycache__/x030.cpython-38.opt-1.pyc
+@comment MD5:bf7c9b67d01ded384fa209249e7569b4
+lib/python3.8/site-packages/unidecode/x031.py
+@comment MD5:ca7f5e7df0496bb5c005b04b6995d217
+lib/python3.8/site-packages/unidecode/__pycache__/x031.cpython-38.pyc
+@comment MD5:5aad75d0457b81ba2e0c51f9c805aa4c
+lib/python3.8/site-packages/unidecode/__pycache__/x031.cpython-38.opt-1.pyc
+@comment MD5:5ad595074d10c05d0749264051280d3d
+lib/python3.8/site-packages/unidecode/x032.py
+@comment MD5:8ed3223190215d327bea556aca2b25e6
+lib/python3.8/site-packages/unidecode/__pycache__/x032.cpython-38.pyc
+@comment MD5:8eb82dd1be961701d4606211337eee2e
+lib/python3.8/site-packages/unidecode/__pycache__/x032.cpython-38.opt-1.pyc
+@comment MD5:05ea84c2678f4872044033e344b3d2db
+lib/python3.8/site-packages/unidecode/x033.py
+@comment MD5:c1e0be4de28379940ea189d70107b025
+lib/python3.8/site-packages/unidecode/__pycache__/x033.cpython-38.pyc
+@comment MD5:7fec0099d455e3ab3a3ddd0c1ee5a73a
+lib/python3.8/site-packages/unidecode/__pycache__/x033.cpython-38.opt-1.pyc
+@comment MD5:7ce1b93c37af06acabbf03486a069861
+lib/python3.8/site-packages/unidecode/x04d.py
+@comment MD5:62041c0abad495d1eca72c8d6605c0c0
+lib/python3.8/site-packages/unidecode/__pycache__/x04d.cpython-38.pyc
+@comment MD5:0d251b780590ab09c2ac9e03aa9c632f
+lib/python3.8/site-packages/unidecode/__pycache__/x04d.cpython-38.opt-1.pyc
+@comment MD5:0d251b780590ab09c2ac9e03aa9c632f
+lib/python3.8/site-packages/unidecode/x04e.py
+@comment MD5:0567bec21281f2ec396656f8de625a28
+lib/python3.8/site-packages/unidecode/__pycache__/x04e.cpython-38.pyc
+@comment MD5:fa5adaec935aa090ef01fb8a4aead678
+lib/python3.8/site-packages/unidecode/__pycache__/x04e.cpython-38.opt-1.pyc
+@comment MD5:fa5adaec935aa090ef01fb8a4aead678
+lib/python3.8/site-packages/unidecode/x04f.py
+@comment MD5:5cab166ceac4628c7b925436a0564099
+lib/python3.8/site-packages/unidecode/__pycache__/x04f.cpython-38.pyc
+@comment MD5:9746f72a7eb62998a78c8bbab6b031cf
+lib/python3.8/site-packages/unidecode/__pycache__/x04f.cpython-38.opt-1.pyc
+@comment MD5:9746f72a7eb62998a78c8bbab6b031cf
+lib/python3.8/site-packages/unidecode/x050.py
+@comment MD5:7072efd9725911c60124cbb58b5c486f
+lib/python3.8/site-packages/unidecode/__pycache__/x050.cpython-38.pyc
+@comment MD5:985caf669ad12c82ee7d2ee6bcc387e8
+lib/python3.8/site-packages/unidecode/__pycache__/x050.cpython-38.opt-1.pyc
+@comment MD5:985caf669ad12c82ee7d2ee6bcc387e8
+lib/python3.8/site-packages/unidecode/x051.py
+@comment MD5:a668f9a0d8cecb38fa1f2f2a62a9a22a
+lib/python3.8/site-packages/unidecode/__pycache__/x051.cpython-38.pyc
+@comment MD5:6f3909fe1bf0b71b4b480d6e04701a2c
+lib/python3.8/site-packages/unidecode/__pycache__/x051.cpython-38.opt-1.pyc
+@comment MD5:6f3909fe1bf0b71b4b480d6e04701a2c
+lib/python3.8/site-packages/unidecode/x052.py
+@comment MD5:dc62f55cadcceaf8ae392c0eeef8fca9
+lib/python3.8/site-packages/unidecode/__pycache__/x052.cpython-38.pyc
+@comment MD5:0b91139922150f6f0e6e53b640b6302c
+lib/python3.8/site-packages/unidecode/__pycache__/x052.cpython-38.opt-1.pyc
+@comment MD5:0b91139922150f6f0e6e53b640b6302c
+lib/python3.8/site-packages/unidecode/x053.py
+@comment MD5:598f6ba641c8e2356c77295d89ede2a5
+lib/python3.8/site-packages/unidecode/__pycache__/x053.cpython-38.pyc
+@comment MD5:95b1d3b66698dbb0c1f23236db813cd4
+lib/python3.8/site-packages/unidecode/__pycache__/x053.cpython-38.opt-1.pyc
+@comment MD5:95b1d3b66698dbb0c1f23236db813cd4
+lib/python3.8/site-packages/unidecode/x054.py
+@comment MD5:fa40170ee884653cc7c45d312ef87493
+lib/python3.8/site-packages/unidecode/__pycache__/x054.cpython-38.pyc
+@comment MD5:fabfb2ff4296c644051b9ca7b4152fa6
+lib/python3.8/site-packages/unidecode/__pycache__/x054.cpython-38.opt-1.pyc
+@comment MD5:fabfb2ff4296c644051b9ca7b4152fa6
+lib/python3.8/site-packages/unidecode/x055.py
+@comment MD5:9940db80400634f18a9c3943d2d71799
+lib/python3.8/site-packages/unidecode/__pycache__/x055.cpython-38.pyc
+@comment MD5:d9a50cc5a6c51b53fed83c064c6adbd4
+lib/python3.8/site-packages/unidecode/__pycache__/x055.cpython-38.opt-1.pyc
+@comment MD5:d9a50cc5a6c51b53fed83c064c6adbd4
+lib/python3.8/site-packages/unidecode/x056.py
+@comment MD5:ca4753f2b95196fa3a00ec624647d29d
+lib/python3.8/site-packages/unidecode/__pycache__/x056.cpython-38.pyc
+@comment MD5:ed38bb5ba757384cf64a1e4715f6b1eb
+lib/python3.8/site-packages/unidecode/__pycache__/x056.cpython-38.opt-1.pyc
+@comment MD5:ed38bb5ba757384cf64a1e4715f6b1eb
+lib/python3.8/site-packages/unidecode/x057.py
+@comment MD5:45bf5743fdd60751d6ba8590dbdaa1e2
+lib/python3.8/site-packages/unidecode/__pycache__/x057.cpython-38.pyc
+@comment MD5:1c26a0d6820c0c972d1c29ed8a03d348
+lib/python3.8/site-packages/unidecode/__pycache__/x057.cpython-38.opt-1.pyc
+@comment MD5:1c26a0d6820c0c972d1c29ed8a03d348
+lib/python3.8/site-packages/unidecode/x058.py
+@comment MD5:0461cdbea5dd5126a21b3b08ff1f7e3b
+lib/python3.8/site-packages/unidecode/__pycache__/x058.cpython-38.pyc
+@comment MD5:60a2b76f1353bd8aac04c3f3e3fe67b8
+lib/python3.8/site-packages/unidecode/__pycache__/x058.cpython-38.opt-1.pyc
+@comment MD5:60a2b76f1353bd8aac04c3f3e3fe67b8
+lib/python3.8/site-packages/unidecode/x059.py
+@comment MD5:f093fcfc19865de48bf9395199376796
+lib/python3.8/site-packages/unidecode/__pycache__/x059.cpython-38.pyc
+@comment MD5:40d3a4f7585920dc7f13cac3f804e677
+lib/python3.8/site-packages/unidecode/__pycache__/x059.cpython-38.opt-1.pyc
+@comment MD5:40d3a4f7585920dc7f13cac3f804e677
+lib/python3.8/site-packages/unidecode/x05a.py
+@comment MD5:c20e1597c035ff928b49a56ee3c56aaf
+lib/python3.8/site-packages/unidecode/__pycache__/x05a.cpython-38.pyc
+@comment MD5:986ae0660ef2f013a3bfe1b72c489bec
+lib/python3.8/site-packages/unidecode/__pycache__/x05a.cpython-38.opt-1.pyc
+@comment MD5:986ae0660ef2f013a3bfe1b72c489bec
+lib/python3.8/site-packages/unidecode/x05b.py
+@comment MD5:c54e66cd9d48a719813787cedc8feb73
+lib/python3.8/site-packages/unidecode/__pycache__/x05b.cpython-38.pyc
+@comment MD5:1a557411dc2bdb6885f9b5a68fb46e1d
+lib/python3.8/site-packages/unidecode/__pycache__/x05b.cpython-38.opt-1.pyc
+@comment MD5:1a557411dc2bdb6885f9b5a68fb46e1d
+lib/python3.8/site-packages/unidecode/x05c.py
+@comment MD5:6d9d5fdc68b0a83ad78e30258e2f1f94
+lib/python3.8/site-packages/unidecode/__pycache__/x05c.cpython-38.pyc
+@comment MD5:f137fd4d433f8b0278b0167d1f34e83a
+lib/python3.8/site-packages/unidecode/__pycache__/x05c.cpython-38.opt-1.pyc
+@comment MD5:f137fd4d433f8b0278b0167d1f34e83a
+lib/python3.8/site-packages/unidecode/x05d.py
+@comment MD5:cef9212ea61d03a37a88bbd262fdcc81
+lib/python3.8/site-packages/unidecode/__pycache__/x05d.cpython-38.pyc
+@comment MD5:0fb0718d96e06f0493d007e96d85f224
+lib/python3.8/site-packages/unidecode/__pycache__/x05d.cpython-38.opt-1.pyc
+@comment MD5:0fb0718d96e06f0493d007e96d85f224
+lib/python3.8/site-packages/unidecode/x05e.py
+@comment MD5:742fdc590943392392a5eec8ffe0dcfa
+lib/python3.8/site-packages/unidecode/__pycache__/x05e.cpython-38.pyc
+@comment MD5:3e0813a1fa3366d356935e96a84aa3bb
+lib/python3.8/site-packages/unidecode/__pycache__/x05e.cpython-38.opt-1.pyc
+@comment MD5:3e0813a1fa3366d356935e96a84aa3bb
+lib/python3.8/site-packages/unidecode/x05f.py
+@comment MD5:a7899ff7aab513512f175d50df9e2345
+lib/python3.8/site-packages/unidecode/__pycache__/x05f.cpython-38.pyc
+@comment MD5:01adc7ded96b3bcbf109883895dd1f24
+lib/python3.8/site-packages/unidecode/__pycache__/x05f.cpython-38.opt-1.pyc
+@comment MD5:01adc7ded96b3bcbf109883895dd1f24
+lib/python3.8/site-packages/unidecode/x060.py
+@comment MD5:0ca57ecf10e0c9ca76a18f9ce3cedf74
+lib/python3.8/site-packages/unidecode/__pycache__/x060.cpython-38.pyc
+@comment MD5:a28812c66fa5ce5fe290bde866791184
+lib/python3.8/site-packages/unidecode/__pycache__/x060.cpython-38.opt-1.pyc
+@comment MD5:a28812c66fa5ce5fe290bde866791184
+lib/python3.8/site-packages/unidecode/x061.py
+@comment MD5:3f11652c042ffd16ba7fec5dba76fcad
+lib/python3.8/site-packages/unidecode/__pycache__/x061.cpython-38.pyc
+@comment MD5:bdad007a6a6d2ef5b105d048a6d9e0ab
+lib/python3.8/site-packages/unidecode/__pycache__/x061.cpython-38.opt-1.pyc
+@comment MD5:bdad007a6a6d2ef5b105d048a6d9e0ab
+lib/python3.8/site-packages/unidecode/x062.py
+@comment MD5:22210d3c9048da10d136933f13824bd2
+lib/python3.8/site-packages/unidecode/__pycache__/x062.cpython-38.pyc
+@comment MD5:bc9d5da7cb04120d37d5cd1942e1fe63
+lib/python3.8/site-packages/unidecode/__pycache__/x062.cpython-38.opt-1.pyc
+@comment MD5:bc9d5da7cb04120d37d5cd1942e1fe63
+lib/python3.8/site-packages/unidecode/x063.py
+@comment MD5:95285dd873580a3967536aa2f2ffa1f1
+lib/python3.8/site-packages/unidecode/__pycache__/x063.cpython-38.pyc
+@comment MD5:217a696ab52905f55d144763a61e39b7
+lib/python3.8/site-packages/unidecode/__pycache__/x063.cpython-38.opt-1.pyc
+@comment MD5:217a696ab52905f55d144763a61e39b7
+lib/python3.8/site-packages/unidecode/x064.py
+@comment MD5:c8c75bd1e941ca088bc53f7fd1d6c0fb
+lib/python3.8/site-packages/unidecode/__pycache__/x064.cpython-38.pyc
+@comment MD5:a1e17e3512a953d883910879f252c4f4
+lib/python3.8/site-packages/unidecode/__pycache__/x064.cpython-38.opt-1.pyc
+@comment MD5:a1e17e3512a953d883910879f252c4f4
+lib/python3.8/site-packages/unidecode/x065.py
+@comment MD5:c480fe8271dddb5810b0eacdcaef0e59
+lib/python3.8/site-packages/unidecode/__pycache__/x065.cpython-38.pyc
+@comment MD5:5e33d51ce3e45286fc2b44dbdeaa0bb9
+lib/python3.8/site-packages/unidecode/__pycache__/x065.cpython-38.opt-1.pyc
+@comment MD5:5e33d51ce3e45286fc2b44dbdeaa0bb9
+lib/python3.8/site-packages/unidecode/x066.py
+@comment MD5:9e52e89ed49d4e42e183c416dd8ffa16
+lib/python3.8/site-packages/unidecode/__pycache__/x066.cpython-38.pyc
+@comment MD5:dacad16cf83faab47f5955fa47593840
+lib/python3.8/site-packages/unidecode/__pycache__/x066.cpython-38.opt-1.pyc
+@comment MD5:dacad16cf83faab47f5955fa47593840
+lib/python3.8/site-packages/unidecode/x067.py
+@comment MD5:f0b4544e13cc36c61ec061fa541779ff
+lib/python3.8/site-packages/unidecode/__pycache__/x067.cpython-38.pyc
+@comment MD5:cb04af256a4fbefaae64940b3bd1cf55
+lib/python3.8/site-packages/unidecode/__pycache__/x067.cpython-38.opt-1.pyc
+@comment MD5:cb04af256a4fbefaae64940b3bd1cf55
+lib/python3.8/site-packages/unidecode/x068.py
+@comment MD5:84a434886d61c92348d95841ff0f5ed8
+lib/python3.8/site-packages/unidecode/__pycache__/x068.cpython-38.pyc
+@comment MD5:5af5f5bc77d5bc91e8d1148a60c92b82
+lib/python3.8/site-packages/unidecode/__pycache__/x068.cpython-38.opt-1.pyc
+@comment MD5:5af5f5bc77d5bc91e8d1148a60c92b82
+lib/python3.8/site-packages/unidecode/x069.py
+@comment MD5:76cae983275b94a4460276d1d175c68e
+lib/python3.8/site-packages/unidecode/__pycache__/x069.cpython-38.pyc
+@comment MD5:a500f3b4b8350f5cac87505e03af4762
+lib/python3.8/site-packages/unidecode/__pycache__/x069.cpython-38.opt-1.pyc
+@comment MD5:a500f3b4b8350f5cac87505e03af4762
+lib/python3.8/site-packages/unidecode/x06a.py
+@comment MD5:5730e102dfba399234af5cfeae1168e9
+lib/python3.8/site-packages/unidecode/__pycache__/x06a.cpython-38.pyc
+@comment MD5:913c4df8ac133701dfd99f82aa3ea117
+lib/python3.8/site-packages/unidecode/__pycache__/x06a.cpython-38.opt-1.pyc
+@comment MD5:913c4df8ac133701dfd99f82aa3ea117
+lib/python3.8/site-packages/unidecode/x06b.py
+@comment MD5:cd85b4b3759f73e1d04f7fd20cb957e5
+lib/python3.8/site-packages/unidecode/__pycache__/x06b.cpython-38.pyc
+@comment MD5:ddb9568afd16550a5f017efc07e44544
+lib/python3.8/site-packages/unidecode/__pycache__/x06b.cpython-38.opt-1.pyc
+@comment MD5:ddb9568afd16550a5f017efc07e44544
+lib/python3.8/site-packages/unidecode/x06c.py
+@comment MD5:52718ad2e57d9ea4622ae29198ba9b08
+lib/python3.8/site-packages/unidecode/__pycache__/x06c.cpython-38.pyc
+@comment MD5:cc95ea3bfe0aaf4e85e068ede0875938
+lib/python3.8/site-packages/unidecode/__pycache__/x06c.cpython-38.opt-1.pyc
+@comment MD5:cc95ea3bfe0aaf4e85e068ede0875938
+lib/python3.8/site-packages/unidecode/x06d.py
+@comment MD5:23288b30729137a42a5bb331c71039a7
+lib/python3.8/site-packages/unidecode/__pycache__/x06d.cpython-38.pyc
+@comment MD5:0a4c7d8e3cfa3962d6b5704e6cdcd1d1
+lib/python3.8/site-packages/unidecode/__pycache__/x06d.cpython-38.opt-1.pyc
+@comment MD5:0a4c7d8e3cfa3962d6b5704e6cdcd1d1
+lib/python3.8/site-packages/unidecode/x06e.py
+@comment MD5:358d12c3a3cbf9d60d2851e1afab284e
+lib/python3.8/site-packages/unidecode/__pycache__/x06e.cpython-38.pyc
+@comment MD5:affcb411047ed98ffbce4ac94940f8ca
+lib/python3.8/site-packages/unidecode/__pycache__/x06e.cpython-38.opt-1.pyc
+@comment MD5:affcb411047ed98ffbce4ac94940f8ca
+lib/python3.8/site-packages/unidecode/x06f.py
+@comment MD5:ec1da1888d70056bbb774c765ce1f51a
+lib/python3.8/site-packages/unidecode/__pycache__/x06f.cpython-38.pyc
+@comment MD5:1ea03c1274aa80e886abb1709137b857
+lib/python3.8/site-packages/unidecode/__pycache__/x06f.cpython-38.opt-1.pyc
+@comment MD5:1ea03c1274aa80e886abb1709137b857
+lib/python3.8/site-packages/unidecode/x070.py
+@comment MD5:328fc244af73b376e0945eb3de5250ba
+lib/python3.8/site-packages/unidecode/__pycache__/x070.cpython-38.pyc
+@comment MD5:a9239b870007a5d63d9b12fe2b9396e7
+lib/python3.8/site-packages/unidecode/__pycache__/x070.cpython-38.opt-1.pyc
+@comment MD5:a9239b870007a5d63d9b12fe2b9396e7
+lib/python3.8/site-packages/unidecode/x071.py
+@comment MD5:dee411aaa6b5af78c4e706ee91ad964a
+lib/python3.8/site-packages/unidecode/__pycache__/x071.cpython-38.pyc
+@comment MD5:ce84288bcec9242f2238dd1b28e3954a
+lib/python3.8/site-packages/unidecode/__pycache__/x071.cpython-38.opt-1.pyc
+@comment MD5:ce84288bcec9242f2238dd1b28e3954a
+lib/python3.8/site-packages/unidecode/x072.py
+@comment MD5:61a440ed9e516faff99e0d5f8addc6fd
+lib/python3.8/site-packages/unidecode/__pycache__/x072.cpython-38.pyc
+@comment MD5:6c66f8b192af1b7d13d66b5a90930a1b
+lib/python3.8/site-packages/unidecode/__pycache__/x072.cpython-38.opt-1.pyc
+@comment MD5:6c66f8b192af1b7d13d66b5a90930a1b
+lib/python3.8/site-packages/unidecode/x073.py
+@comment MD5:efecdc5dc5e3ee49101c11dd43811f3b
+lib/python3.8/site-packages/unidecode/__pycache__/x073.cpython-38.pyc
+@comment MD5:3d8aefa7aca02275d328d79e9eafba6e
+lib/python3.8/site-packages/unidecode/__pycache__/x073.cpython-38.opt-1.pyc
+@comment MD5:3d8aefa7aca02275d328d79e9eafba6e
+lib/python3.8/site-packages/unidecode/x074.py
+@comment MD5:d97e5bffa85997bc5e1104024864eead
+lib/python3.8/site-packages/unidecode/__pycache__/x074.cpython-38.pyc
+@comment MD5:620d292d574c3c8c3c88a6514fdc7b5d
+lib/python3.8/site-packages/unidecode/__pycache__/x074.cpython-38.opt-1.pyc
+@comment MD5:620d292d574c3c8c3c88a6514fdc7b5d
+lib/python3.8/site-packages/unidecode/x075.py
+@comment MD5:3e1f1ba0ce240c9182511b0d9a9c93c5
+lib/python3.8/site-packages/unidecode/__pycache__/x075.cpython-38.pyc
+@comment MD5:6f4f2299cbc3bf1d9f0e3da2af095b60
+lib/python3.8/site-packages/unidecode/__pycache__/x075.cpython-38.opt-1.pyc
+@comment MD5:6f4f2299cbc3bf1d9f0e3da2af095b60
+lib/python3.8/site-packages/unidecode/x076.py
+@comment MD5:fe264a47a4ef9ee794def0202bef966f
+lib/python3.8/site-packages/unidecode/__pycache__/x076.cpython-38.pyc
+@comment MD5:3959385d564c3ef853014c279348bb80
+lib/python3.8/site-packages/unidecode/__pycache__/x076.cpython-38.opt-1.pyc
+@comment MD5:3959385d564c3ef853014c279348bb80
+lib/python3.8/site-packages/unidecode/x077.py
+@comment MD5:074112a53addbeb9926f522690886edc
+lib/python3.8/site-packages/unidecode/__pycache__/x077.cpython-38.pyc
+@comment MD5:9822019b63745c703b7285169f0e039f
+lib/python3.8/site-packages/unidecode/__pycache__/x077.cpython-38.opt-1.pyc
+@comment MD5:9822019b63745c703b7285169f0e039f
+lib/python3.8/site-packages/unidecode/x078.py
+@comment MD5:43f6ea220a93d5526865ef205594d2d2
+lib/python3.8/site-packages/unidecode/__pycache__/x078.cpython-38.pyc
+@comment MD5:aae0e3a12622abdc1da546ed462e766f
+lib/python3.8/site-packages/unidecode/__pycache__/x078.cpython-38.opt-1.pyc
+@comment MD5:aae0e3a12622abdc1da546ed462e766f
+lib/python3.8/site-packages/unidecode/x079.py
+@comment MD5:04aa9aea3e0be5115e614747bd7feb56
+lib/python3.8/site-packages/unidecode/__pycache__/x079.cpython-38.pyc
+@comment MD5:698345d01a59ebf40c12866e992c552a
+lib/python3.8/site-packages/unidecode/__pycache__/x079.cpython-38.opt-1.pyc
+@comment MD5:698345d01a59ebf40c12866e992c552a
+lib/python3.8/site-packages/unidecode/x07a.py
+@comment MD5:c7c50efc2dcfefd7df63883b4c9f100c
+lib/python3.8/site-packages/unidecode/__pycache__/x07a.cpython-38.pyc
+@comment MD5:84482e40c459af337ef02c6a5d058393
+lib/python3.8/site-packages/unidecode/__pycache__/x07a.cpython-38.opt-1.pyc
+@comment MD5:84482e40c459af337ef02c6a5d058393
+lib/python3.8/site-packages/unidecode/x07b.py
+@comment MD5:2bcccbf784b27dbe862f979063bc56d2
+lib/python3.8/site-packages/unidecode/__pycache__/x07b.cpython-38.pyc
+@comment MD5:456b31bde878632b3a7f4eb87500449a
+lib/python3.8/site-packages/unidecode/__pycache__/x07b.cpython-38.opt-1.pyc
+@comment MD5:456b31bde878632b3a7f4eb87500449a
+lib/python3.8/site-packages/unidecode/x07c.py
+@comment MD5:5341f7340de68faac2fef490c25c5917
+lib/python3.8/site-packages/unidecode/__pycache__/x07c.cpython-38.pyc
+@comment MD5:a7e218448a282bfd0d121120be9ee2df
+lib/python3.8/site-packages/unidecode/__pycache__/x07c.cpython-38.opt-1.pyc
+@comment MD5:a7e218448a282bfd0d121120be9ee2df
+lib/python3.8/site-packages/unidecode/x07d.py
+@comment MD5:6c99c7c38161ab57c7314a41e66ba618
+lib/python3.8/site-packages/unidecode/__pycache__/x07d.cpython-38.pyc
+@comment MD5:2ba22b30addbd8ef422638cbac2b2fff
+lib/python3.8/site-packages/unidecode/__pycache__/x07d.cpython-38.opt-1.pyc
+@comment MD5:2ba22b30addbd8ef422638cbac2b2fff
+lib/python3.8/site-packages/unidecode/x07e.py
+@comment MD5:e47989afdb456120faca684319abf690
+lib/python3.8/site-packages/unidecode/__pycache__/x07e.cpython-38.pyc
+@comment MD5:642ff3a2b92ca9d2e722b8e10aba9167
+lib/python3.8/site-packages/unidecode/__pycache__/x07e.cpython-38.opt-1.pyc
+@comment MD5:642ff3a2b92ca9d2e722b8e10aba9167
+lib/python3.8/site-packages/unidecode/x07f.py
+@comment MD5:3c2d7e0412ffc8b806953f146c255199
+lib/python3.8/site-packages/unidecode/__pycache__/x07f.cpython-38.pyc
+@comment MD5:dffe46cdd43e7369d5ff1585094fbb58
+lib/python3.8/site-packages/unidecode/__pycache__/x07f.cpython-38.opt-1.pyc
+@comment MD5:dffe46cdd43e7369d5ff1585094fbb58
+lib/python3.8/site-packages/unidecode/x080.py
+@comment MD5:3d2ac20e2874058e38360fdb25020bae
+lib/python3.8/site-packages/unidecode/__pycache__/x080.cpython-38.pyc
+@comment MD5:296c26489eebef01f553ab65e777b066
+lib/python3.8/site-packages/unidecode/__pycache__/x080.cpython-38.opt-1.pyc
+@comment MD5:296c26489eebef01f553ab65e777b066
+lib/python3.8/site-packages/unidecode/x081.py
+@comment MD5:ffcd4eafa2352ee19afe3e1b64a4d9ef
+lib/python3.8/site-packages/unidecode/__pycache__/x081.cpython-38.pyc
+@comment MD5:3a3c6c4345dcd72f060074f8d4a2ebf5
+lib/python3.8/site-packages/unidecode/__pycache__/x081.cpython-38.opt-1.pyc
+@comment MD5:3a3c6c4345dcd72f060074f8d4a2ebf5
+lib/python3.8/site-packages/unidecode/x082.py
+@comment MD5:165f45b02c64a9a2bbf8640fc1173e64
+lib/python3.8/site-packages/unidecode/__pycache__/x082.cpython-38.pyc
+@comment MD5:80817be0f817463c5c895ccb317dde33
+lib/python3.8/site-packages/unidecode/__pycache__/x082.cpython-38.opt-1.pyc
+@comment MD5:80817be0f817463c5c895ccb317dde33
+lib/python3.8/site-packages/unidecode/x083.py
+@comment MD5:be19cd8977411a600c31550c97b43656
+lib/python3.8/site-packages/unidecode/__pycache__/x083.cpython-38.pyc
+@comment MD5:9087c1c55ccce6020cef14bce1d08cb5
+lib/python3.8/site-packages/unidecode/__pycache__/x083.cpython-38.opt-1.pyc
+@comment MD5:9087c1c55ccce6020cef14bce1d08cb5
+lib/python3.8/site-packages/unidecode/x084.py
+@comment MD5:403fddf5daf5465854270258eb44c7be
+lib/python3.8/site-packages/unidecode/__pycache__/x084.cpython-38.pyc
+@comment MD5:ce7dd0b5e421858ed9d2bf469edca987
+lib/python3.8/site-packages/unidecode/__pycache__/x084.cpython-38.opt-1.pyc
+@comment MD5:ce7dd0b5e421858ed9d2bf469edca987
+lib/python3.8/site-packages/unidecode/x085.py
+@comment MD5:323b14ac4517f237589cc627db22cf54
+lib/python3.8/site-packages/unidecode/__pycache__/x085.cpython-38.pyc
+@comment MD5:32bde056a87710d50d6cd25e8410f314
+lib/python3.8/site-packages/unidecode/__pycache__/x085.cpython-38.opt-1.pyc
+@comment MD5:32bde056a87710d50d6cd25e8410f314
+lib/python3.8/site-packages/unidecode/x086.py
+@comment MD5:d3092573b8606f2797ebf256ee3aa7a5
+lib/python3.8/site-packages/unidecode/__pycache__/x086.cpython-38.pyc
+@comment MD5:fcad4083f1d44f259fac679fdfbc6a58
+lib/python3.8/site-packages/unidecode/__pycache__/x086.cpython-38.opt-1.pyc
+@comment MD5:fcad4083f1d44f259fac679fdfbc6a58
+lib/python3.8/site-packages/unidecode/x087.py
+@comment MD5:431a36636ac8834e687522bd5c15d968
+lib/python3.8/site-packages/unidecode/__pycache__/x087.cpython-38.pyc
+@comment MD5:c790c3002115d12bea726706aef2903c
+lib/python3.8/site-packages/unidecode/__pycache__/x087.cpython-38.opt-1.pyc
+@comment MD5:c790c3002115d12bea726706aef2903c
+lib/python3.8/site-packages/unidecode/x088.py
+@comment MD5:69c2682a7d2d0a2122f385e410b5dacc
+lib/python3.8/site-packages/unidecode/__pycache__/x088.cpython-38.pyc
+@comment MD5:e2ca6a9cd94c1819a2c3db8f3ca428df
+lib/python3.8/site-packages/unidecode/__pycache__/x088.cpython-38.opt-1.pyc
+@comment MD5:e2ca6a9cd94c1819a2c3db8f3ca428df
+lib/python3.8/site-packages/unidecode/x089.py
+@comment MD5:436b1b682a022186f54488b51bff1b87
+lib/python3.8/site-packages/unidecode/__pycache__/x089.cpython-38.pyc
+@comment MD5:edff7c3c860ab4f34f1d6eddd83fad1a
+lib/python3.8/site-packages/unidecode/__pycache__/x089.cpython-38.opt-1.pyc
+@comment MD5:edff7c3c860ab4f34f1d6eddd83fad1a
+lib/python3.8/site-packages/unidecode/x08a.py
+@comment MD5:47ba23bad3438eaca41f3e1d4855b6e6
+lib/python3.8/site-packages/unidecode/__pycache__/x08a.cpython-38.pyc
+@comment MD5:044ad71111f221f3bea842dee9d90268
+lib/python3.8/site-packages/unidecode/__pycache__/x08a.cpython-38.opt-1.pyc
+@comment MD5:044ad71111f221f3bea842dee9d90268
+lib/python3.8/site-packages/unidecode/x08b.py
+@comment MD5:78e0d09ec6f6994f647b07deaf1b3d9d
+lib/python3.8/site-packages/unidecode/__pycache__/x08b.cpython-38.pyc
+@comment MD5:a7760464e91ea548587f106de5951c69
+lib/python3.8/site-packages/unidecode/__pycache__/x08b.cpython-38.opt-1.pyc
+@comment MD5:a7760464e91ea548587f106de5951c69
+lib/python3.8/site-packages/unidecode/x08c.py
+@comment MD5:bb8bf9f3e2cb3680f750a957b1aa738a
+lib/python3.8/site-packages/unidecode/__pycache__/x08c.cpython-38.pyc
+@comment MD5:d13308a29be93def910488f3d12b260d
+lib/python3.8/site-packages/unidecode/__pycache__/x08c.cpython-38.opt-1.pyc
+@comment MD5:d13308a29be93def910488f3d12b260d
+lib/python3.8/site-packages/unidecode/x08d.py
+@comment MD5:bb362ae04d0fea349dfc899979654f44
+lib/python3.8/site-packages/unidecode/__pycache__/x08d.cpython-38.pyc
+@comment MD5:d36362953b0140526e88b2afd2443b54
+lib/python3.8/site-packages/unidecode/__pycache__/x08d.cpython-38.opt-1.pyc
+@comment MD5:d36362953b0140526e88b2afd2443b54
+lib/python3.8/site-packages/unidecode/x08e.py
+@comment MD5:24f12e1a40e9ef32a89bd90d6dd8f672
+lib/python3.8/site-packages/unidecode/__pycache__/x08e.cpython-38.pyc
+@comment MD5:455309f81f177e4157609d51adf54b11
+lib/python3.8/site-packages/unidecode/__pycache__/x08e.cpython-38.opt-1.pyc
+@comment MD5:455309f81f177e4157609d51adf54b11
+lib/python3.8/site-packages/unidecode/x08f.py
+@comment MD5:7df64c9232f89d7b6668d669fb3792f1
+lib/python3.8/site-packages/unidecode/__pycache__/x08f.cpython-38.pyc
+@comment MD5:71cf933f7ac5b7ecc652c53cd1408f45
+lib/python3.8/site-packages/unidecode/__pycache__/x08f.cpython-38.opt-1.pyc
+@comment MD5:71cf933f7ac5b7ecc652c53cd1408f45
+lib/python3.8/site-packages/unidecode/x090.py
+@comment MD5:a838072b90058e62318cfea7bd7bcbbd
+lib/python3.8/site-packages/unidecode/__pycache__/x090.cpython-38.pyc
+@comment MD5:74c10e1a4935f402f88fe4f78624ab28
+lib/python3.8/site-packages/unidecode/__pycache__/x090.cpython-38.opt-1.pyc
+@comment MD5:74c10e1a4935f402f88fe4f78624ab28
+lib/python3.8/site-packages/unidecode/x091.py
+@comment MD5:207d7cfd26708e79c5a9ef2136e84b60
+lib/python3.8/site-packages/unidecode/__pycache__/x091.cpython-38.pyc
+@comment MD5:ccf4cf9c1d9cd5e25e9d90eeb9d28187
+lib/python3.8/site-packages/unidecode/__pycache__/x091.cpython-38.opt-1.pyc
+@comment MD5:ccf4cf9c1d9cd5e25e9d90eeb9d28187
+lib/python3.8/site-packages/unidecode/x092.py
+@comment MD5:95e2f7fd7833f6433cbf3a795955951d
+lib/python3.8/site-packages/unidecode/__pycache__/x092.cpython-38.pyc
+@comment MD5:4749d85795ec525b0a9bcbcd670e6df2
+lib/python3.8/site-packages/unidecode/__pycache__/x092.cpython-38.opt-1.pyc
+@comment MD5:4749d85795ec525b0a9bcbcd670e6df2
+lib/python3.8/site-packages/unidecode/x093.py
+@comment MD5:12a6d85ca85ed5318090697a3f6dca2f
+lib/python3.8/site-packages/unidecode/__pycache__/x093.cpython-38.pyc
+@comment MD5:dd186fa24bd0c53ddae73afa56271783
+lib/python3.8/site-packages/unidecode/__pycache__/x093.cpython-38.opt-1.pyc
+@comment MD5:dd186fa24bd0c53ddae73afa56271783
+lib/python3.8/site-packages/unidecode/x094.py
+@comment MD5:871369bd2e709acd95feee7f9d0e5e78
+lib/python3.8/site-packages/unidecode/__pycache__/x094.cpython-38.pyc
+@comment MD5:2c712b149d89ac42d6fcab77ad833f16
+lib/python3.8/site-packages/unidecode/__pycache__/x094.cpython-38.opt-1.pyc
+@comment MD5:2c712b149d89ac42d6fcab77ad833f16
+lib/python3.8/site-packages/unidecode/x095.py
+@comment MD5:eaef130bf2283a4b6d86da92e24ea883
+lib/python3.8/site-packages/unidecode/__pycache__/x095.cpython-38.pyc
+@comment MD5:15b586d7d0c466d659d2b2450a69ecf7
+lib/python3.8/site-packages/unidecode/__pycache__/x095.cpython-38.opt-1.pyc
+@comment MD5:15b586d7d0c466d659d2b2450a69ecf7
+lib/python3.8/site-packages/unidecode/x096.py
+@comment MD5:a1fd8db7f6d946fd7f54f5dfe92ec7c1
+lib/python3.8/site-packages/unidecode/__pycache__/x096.cpython-38.pyc
+@comment MD5:937bc7c1b146bc06c826ba5cb4b937be
+lib/python3.8/site-packages/unidecode/__pycache__/x096.cpython-38.opt-1.pyc
+@comment MD5:937bc7c1b146bc06c826ba5cb4b937be
+lib/python3.8/site-packages/unidecode/x097.py
+@comment MD5:afa490ea888d1593274da2c10c5c7594
+lib/python3.8/site-packages/unidecode/__pycache__/x097.cpython-38.pyc
+@comment MD5:e7708918e8c1b7b97039c1776b25bc65
+lib/python3.8/site-packages/unidecode/__pycache__/x097.cpython-38.opt-1.pyc
+@comment MD5:e7708918e8c1b7b97039c1776b25bc65
+lib/python3.8/site-packages/unidecode/x098.py
+@comment MD5:dd9081e645edb316836191aba6f252ac
+lib/python3.8/site-packages/unidecode/__pycache__/x098.cpython-38.pyc
+@comment MD5:4ffeb5af70335decf4f3bf852e00e03a
+lib/python3.8/site-packages/unidecode/__pycache__/x098.cpython-38.opt-1.pyc
+@comment MD5:4ffeb5af70335decf4f3bf852e00e03a
+lib/python3.8/site-packages/unidecode/x099.py
+@comment MD5:264716f358ed5d67afd65f729d50213c
+lib/python3.8/site-packages/unidecode/__pycache__/x099.cpython-38.pyc
+@comment MD5:aadbc00bb6a3c66f2b9d517438e0b3c1
+lib/python3.8/site-packages/unidecode/__pycache__/x099.cpython-38.opt-1.pyc
+@comment MD5:aadbc00bb6a3c66f2b9d517438e0b3c1
+lib/python3.8/site-packages/unidecode/x09a.py
+@comment MD5:9d353d3c1ba9ea597fea636bc6d29a90
+lib/python3.8/site-packages/unidecode/__pycache__/x09a.cpython-38.pyc
+@comment MD5:53a4d0e7eb6613a676220efe76a217e1
+lib/python3.8/site-packages/unidecode/__pycache__/x09a.cpython-38.opt-1.pyc
+@comment MD5:53a4d0e7eb6613a676220efe76a217e1
+lib/python3.8/site-packages/unidecode/x09b.py
+@comment MD5:b0fdaca980a7227bb4d9169352d47a4d
+lib/python3.8/site-packages/unidecode/__pycache__/x09b.cpython-38.pyc
+@comment MD5:335b951e0b8cbef8245aa1d447632952
+lib/python3.8/site-packages/unidecode/__pycache__/x09b.cpython-38.opt-1.pyc
+@comment MD5:335b951e0b8cbef8245aa1d447632952
+lib/python3.8/site-packages/unidecode/x09c.py
+@comment MD5:834a1637b203f87d80aae972e9f30910
+lib/python3.8/site-packages/unidecode/__pycache__/x09c.cpython-38.pyc
+@comment MD5:b52454efd175a158ec1add3d36fff47b
+lib/python3.8/site-packages/unidecode/__pycache__/x09c.cpython-38.opt-1.pyc
+@comment MD5:b52454efd175a158ec1add3d36fff47b
+lib/python3.8/site-packages/unidecode/x09d.py
+@comment MD5:4050b019c5a91841c57877d8fc90f413
+lib/python3.8/site-packages/unidecode/__pycache__/x09d.cpython-38.pyc
+@comment MD5:3957d509a1c499240e1bb6142412bf75
+lib/python3.8/site-packages/unidecode/__pycache__/x09d.cpython-38.opt-1.pyc
+@comment MD5:3957d509a1c499240e1bb6142412bf75
+lib/python3.8/site-packages/unidecode/x09e.py
+@comment MD5:dcac648a57b0c7cdc1d8694b5ab2c7bf
+lib/python3.8/site-packages/unidecode/__pycache__/x09e.cpython-38.pyc
+@comment MD5:927e0784f0f1b1553328f10b875dcd02
+lib/python3.8/site-packages/unidecode/__pycache__/x09e.cpython-38.opt-1.pyc
+@comment MD5:927e0784f0f1b1553328f10b875dcd02
+lib/python3.8/site-packages/unidecode/x09f.py
+@comment MD5:dc83431b0a6dd177599969b9c24f55d2
+lib/python3.8/site-packages/unidecode/__pycache__/x09f.cpython-38.pyc
+@comment MD5:ce48625fce0abad7050247ee8dfbf63a
+lib/python3.8/site-packages/unidecode/__pycache__/x09f.cpython-38.opt-1.pyc
+@comment MD5:ce48625fce0abad7050247ee8dfbf63a
+lib/python3.8/site-packages/unidecode/x0a0.py
+@comment MD5:1adb7269739a3ae18366448ad836c9e6
+lib/python3.8/site-packages/unidecode/__pycache__/x0a0.cpython-38.pyc
+@comment MD5:6fd3b7f40b60939aa5833101a9cf7007
+lib/python3.8/site-packages/unidecode/__pycache__/x0a0.cpython-38.opt-1.pyc
+@comment MD5:43a2c1a551c37c2b3a9b2f87da48643c
+lib/python3.8/site-packages/unidecode/x0a1.py
+@comment MD5:eb0cdd6527a377795147c81646a30db7
+lib/python3.8/site-packages/unidecode/__pycache__/x0a1.cpython-38.pyc
+@comment MD5:d3ebc0c769b5c1959b63b9f13848c257
+lib/python3.8/site-packages/unidecode/__pycache__/x0a1.cpython-38.opt-1.pyc
+@comment MD5:ef42d102afcdf0eb341265614702729c
+lib/python3.8/site-packages/unidecode/x0a2.py
+@comment MD5:99fd704376d2c383ca2730de1b9df28e
+lib/python3.8/site-packages/unidecode/__pycache__/x0a2.cpython-38.pyc
+@comment MD5:e5b95836c09e526599090244878def14
+lib/python3.8/site-packages/unidecode/__pycache__/x0a2.cpython-38.opt-1.pyc
+@comment MD5:1f2bd559b314d304fc81e8574678635f
+lib/python3.8/site-packages/unidecode/x0a3.py
+@comment MD5:088ba8bad488fb625b9a4109e823dd53
+lib/python3.8/site-packages/unidecode/__pycache__/x0a3.cpython-38.pyc
+@comment MD5:cbdaec25fccdaf559f3221f9a32c4f2e
+lib/python3.8/site-packages/unidecode/__pycache__/x0a3.cpython-38.opt-1.pyc
+@comment MD5:16790346e9d341be03aa3fea99168d6e
+lib/python3.8/site-packages/unidecode/x0a4.py
+@comment MD5:e654b6853783ba418beeeb834dacfc0c
+lib/python3.8/site-packages/unidecode/__pycache__/x0a4.cpython-38.pyc
+@comment MD5:bc1ef723e1f70a83811c1ec822965457
+lib/python3.8/site-packages/unidecode/__pycache__/x0a4.cpython-38.opt-1.pyc
+@comment MD5:6c7d45ba7e75349895ec13cee7365bb6
+lib/python3.8/site-packages/unidecode/x0ac.py
+@comment MD5:3a10493673f6f28088c09eb3fdfa94c0
+lib/python3.8/site-packages/unidecode/__pycache__/x0ac.cpython-38.pyc
+@comment MD5:5abb391487dee1b7b5ae2f56f4e861d9
+lib/python3.8/site-packages/unidecode/__pycache__/x0ac.cpython-38.opt-1.pyc
+@comment MD5:2b66988a2a903f086e35e34cab4d9c49
+lib/python3.8/site-packages/unidecode/x0ad.py
+@comment MD5:26850bb837f84e8d6f5e977409ba42ae
+lib/python3.8/site-packages/unidecode/__pycache__/x0ad.cpython-38.pyc
+@comment MD5:3241fa24ccb8c6a1237ada815edb741d
+lib/python3.8/site-packages/unidecode/__pycache__/x0ad.cpython-38.opt-1.pyc
+@comment MD5:3241fa24ccb8c6a1237ada815edb741d
+lib/python3.8/site-packages/unidecode/x0ae.py
+@comment MD5:ea74bb22f29300ed6481590e1934d664
+lib/python3.8/site-packages/unidecode/__pycache__/x0ae.cpython-38.pyc
+@comment MD5:f3def34223b8b81a4d419ad2ade7f7e6
+lib/python3.8/site-packages/unidecode/__pycache__/x0ae.cpython-38.opt-1.pyc
+@comment MD5:8d263d2f34b1df2d18623183acba11a7
+lib/python3.8/site-packages/unidecode/x0af.py
+@comment MD5:17d502d3cfd960bf61d6cbfe399e3f59
+lib/python3.8/site-packages/unidecode/__pycache__/x0af.cpython-38.pyc
+@comment MD5:bcea6798896ed0cf63079db52b0efbb0
+lib/python3.8/site-packages/unidecode/__pycache__/x0af.cpython-38.opt-1.pyc
+@comment MD5:bcea6798896ed0cf63079db52b0efbb0
+lib/python3.8/site-packages/unidecode/x0b0.py
+@comment MD5:fc62fe9f574ae1e49411f2f836174b94
+lib/python3.8/site-packages/unidecode/__pycache__/x0b0.cpython-38.pyc
+@comment MD5:f431fb9311ec4a2c39d2c30b6ad96ee9
+lib/python3.8/site-packages/unidecode/__pycache__/x0b0.cpython-38.opt-1.pyc
+@comment MD5:f431fb9311ec4a2c39d2c30b6ad96ee9
+lib/python3.8/site-packages/unidecode/x0b1.py
+@comment MD5:f04df07b72927e8240e6ca538f3d63e7
+lib/python3.8/site-packages/unidecode/__pycache__/x0b1.cpython-38.pyc
+@comment MD5:69c40f19d8bb0d85e84ef3e257dfbe93
+lib/python3.8/site-packages/unidecode/__pycache__/x0b1.cpython-38.opt-1.pyc
+@comment MD5:69c40f19d8bb0d85e84ef3e257dfbe93
+lib/python3.8/site-packages/unidecode/x0b2.py
+@comment MD5:5029d7a4c6171a664b6fb9bbd368eda7
+lib/python3.8/site-packages/unidecode/__pycache__/x0b2.cpython-38.pyc
+@comment MD5:89006a9cc99e156063f3b71a0930568e
+lib/python3.8/site-packages/unidecode/__pycache__/x0b2.cpython-38.opt-1.pyc
+@comment MD5:537af0f01215f84f8e192952e20574c9
+lib/python3.8/site-packages/unidecode/x0b3.py
+@comment MD5:8e6e8d5c70f1cb9127d9fabd8035b81f
+lib/python3.8/site-packages/unidecode/__pycache__/x0b3.cpython-38.pyc
+@comment MD5:659ff1ea68f994eac820f0b88ab5aff2
+lib/python3.8/site-packages/unidecode/__pycache__/x0b3.cpython-38.opt-1.pyc
+@comment MD5:7416eb8161bb5cde9207165a0e06a1b3
+lib/python3.8/site-packages/unidecode/x0b4.py
+@comment MD5:89ac4f2753f807d0349b875a5e32f039
+lib/python3.8/site-packages/unidecode/__pycache__/x0b4.cpython-38.pyc
+@comment MD5:4c433b015b92cb12a5685ee9d4323475
+lib/python3.8/site-packages/unidecode/__pycache__/x0b4.cpython-38.opt-1.pyc
+@comment MD5:38388ff4c8e88eb753982ab9dde3c9f4
+lib/python3.8/site-packages/unidecode/x0b5.py
+@comment MD5:cd6c681351d88da729d55c93ce709d28
+lib/python3.8/site-packages/unidecode/__pycache__/x0b5.cpython-38.pyc
+@comment MD5:9ca66a23b825f164286ab3367062318c
+lib/python3.8/site-packages/unidecode/__pycache__/x0b5.cpython-38.opt-1.pyc
+@comment MD5:9ca66a23b825f164286ab3367062318c
+lib/python3.8/site-packages/unidecode/x0b6.py
+@comment MD5:150cbc88290a82c9905d07cfa6763589
+lib/python3.8/site-packages/unidecode/__pycache__/x0b6.cpython-38.pyc
+@comment MD5:d7d0cff2caec6313ec57b1d9ea146b85
+lib/python3.8/site-packages/unidecode/__pycache__/x0b6.cpython-38.opt-1.pyc
+@comment MD5:d7d0cff2caec6313ec57b1d9ea146b85
+lib/python3.8/site-packages/unidecode/x0b7.py
+@comment MD5:58d7d5f30da7f1320baae17f732a855a
+lib/python3.8/site-packages/unidecode/__pycache__/x0b7.cpython-38.pyc
+@comment MD5:da14beb582063f0c43c8a295ca435f13
+lib/python3.8/site-packages/unidecode/__pycache__/x0b7.cpython-38.opt-1.pyc
+@comment MD5:da14beb582063f0c43c8a295ca435f13
+lib/python3.8/site-packages/unidecode/x0b8.py
+@comment MD5:238cfc26f31e757579f7e449b1f0d6b9
+lib/python3.8/site-packages/unidecode/__pycache__/x0b8.cpython-38.pyc
+@comment MD5:b6425b032357d3e4f32be1647f52c0ca
+lib/python3.8/site-packages/unidecode/__pycache__/x0b8.cpython-38.opt-1.pyc
+@comment MD5:c40a3feddb85189b2ab061073118c95e
+lib/python3.8/site-packages/unidecode/x0b9.py
+@comment MD5:fe6f5590087809b3e358ac56644fa928
+lib/python3.8/site-packages/unidecode/__pycache__/x0b9.cpython-38.pyc
+@comment MD5:c75f3f14711a7e0145b4183a72236057
+lib/python3.8/site-packages/unidecode/__pycache__/x0b9.cpython-38.opt-1.pyc
+@comment MD5:8c116522a7470ca02896a742c5a3f0e9
+lib/python3.8/site-packages/unidecode/x0ba.py
+@comment MD5:e0a14975466c6c063f67ab1467a6ddf1
+lib/python3.8/site-packages/unidecode/__pycache__/x0ba.cpython-38.pyc
+@comment MD5:aa02d56c3c04eda9f10769f91f663d30
+lib/python3.8/site-packages/unidecode/__pycache__/x0ba.cpython-38.opt-1.pyc
+@comment MD5:e9740abb2c081d19b072762286d4bc47
+lib/python3.8/site-packages/unidecode/x0bb.py
+@comment MD5:60b0e085fa9e87c3b42e9965a3016a8b
+lib/python3.8/site-packages/unidecode/__pycache__/x0bb.cpython-38.pyc
+@comment MD5:cd98aef8ab8d80cb76c98125a334ed22
+lib/python3.8/site-packages/unidecode/__pycache__/x0bb.cpython-38.opt-1.pyc
+@comment MD5:3d4131ebce9469262b99aae7fc3e2dd6
+lib/python3.8/site-packages/unidecode/x0bc.py
+@comment MD5:7b83a32573db6f7c7d117cbe9abe7c25
+lib/python3.8/site-packages/unidecode/__pycache__/x0bc.cpython-38.pyc
+@comment MD5:affd2af1267d9035d3aad5985378d86d
+lib/python3.8/site-packages/unidecode/__pycache__/x0bc.cpython-38.opt-1.pyc
+@comment MD5:bb45a5b171afd512114f459bf270b402
+lib/python3.8/site-packages/unidecode/x0bd.py
+@comment MD5:54ecdc67e594f8f338f0f4f1c070a294
+lib/python3.8/site-packages/unidecode/__pycache__/x0bd.cpython-38.pyc
+@comment MD5:8f74bd58a0cbc0e7332b3ba0bdf703a4
+lib/python3.8/site-packages/unidecode/__pycache__/x0bd.cpython-38.opt-1.pyc
+@comment MD5:7ec8afc3932f555f62706f6400881265
+lib/python3.8/site-packages/unidecode/x0be.py
+@comment MD5:542fbc8bc67817bd70e56a4942b00d55
+lib/python3.8/site-packages/unidecode/__pycache__/x0be.cpython-38.pyc
+@comment MD5:811a09caf0406dae36161e45db414e78
+lib/python3.8/site-packages/unidecode/__pycache__/x0be.cpython-38.opt-1.pyc
+@comment MD5:59eef552cc5df59dc52019068ae885e4
+lib/python3.8/site-packages/unidecode/x0bf.py
+@comment MD5:95b28a48b829e728fd4836e98df2cfde
+lib/python3.8/site-packages/unidecode/__pycache__/x0bf.cpython-38.pyc
+@comment MD5:e7c239b42f0ef9b601edf24e71625860
+lib/python3.8/site-packages/unidecode/__pycache__/x0bf.cpython-38.opt-1.pyc
+@comment MD5:e7c239b42f0ef9b601edf24e71625860
+lib/python3.8/site-packages/unidecode/x0c0.py
+@comment MD5:1179a13a5c6ab677d70ce0ddbad33ee6
+lib/python3.8/site-packages/unidecode/__pycache__/x0c0.cpython-38.pyc
+@comment MD5:bcc16c619fb5219f64dbdaebf5f03ea7
+lib/python3.8/site-packages/unidecode/__pycache__/x0c0.cpython-38.opt-1.pyc
+@comment MD5:aa1e679dce0016c7dce0c61c2097ba8a
+lib/python3.8/site-packages/unidecode/x0c1.py
+@comment MD5:a95d19f06a602d916c8015dddcdc5a76
+lib/python3.8/site-packages/unidecode/__pycache__/x0c1.cpython-38.pyc
+@comment MD5:6855454bfe2ec1b00efbb2dfa208200c
+lib/python3.8/site-packages/unidecode/__pycache__/x0c1.cpython-38.opt-1.pyc
+@comment MD5:9960b1d3f2069ebb7508914397958614
+lib/python3.8/site-packages/unidecode/x0c2.py
+@comment MD5:3ccc9e4fbff0fe93686391a3fb0e1cae
+lib/python3.8/site-packages/unidecode/__pycache__/x0c2.cpython-38.pyc
+@comment MD5:855dd7667affde8f5cc9c8e00ee65d01
+lib/python3.8/site-packages/unidecode/__pycache__/x0c2.cpython-38.opt-1.pyc
+@comment MD5:c93ab43a6810f5f12b3a4e02e3cd0c86
+lib/python3.8/site-packages/unidecode/x0c3.py
+@comment MD5:d60d2483248f445a83ec13423c903a80
+lib/python3.8/site-packages/unidecode/__pycache__/x0c3.cpython-38.pyc
+@comment MD5:0dd99087feddfc158e2a3396a3395a84
+lib/python3.8/site-packages/unidecode/__pycache__/x0c3.cpython-38.opt-1.pyc
+@comment MD5:0dd99087feddfc158e2a3396a3395a84
+lib/python3.8/site-packages/unidecode/x0c4.py
+@comment MD5:f619a2b4a119ca231006afbc20648f21
+lib/python3.8/site-packages/unidecode/__pycache__/x0c4.cpython-38.pyc
+@comment MD5:307410a5ed34e49516d9946fdb81d1cb
+lib/python3.8/site-packages/unidecode/__pycache__/x0c4.cpython-38.opt-1.pyc
+@comment MD5:307410a5ed34e49516d9946fdb81d1cb
+lib/python3.8/site-packages/unidecode/x0c5.py
+@comment MD5:d96f77ee8e9e278718a6c605ad56b8d8
+lib/python3.8/site-packages/unidecode/__pycache__/x0c5.cpython-38.pyc
+@comment MD5:39c5530d435ab6626fb45843169721fa
+lib/python3.8/site-packages/unidecode/__pycache__/x0c5.cpython-38.opt-1.pyc
+@comment MD5:32a80d6e8b3405b97bc2709d5317c988
+lib/python3.8/site-packages/unidecode/x0c6.py
+@comment MD5:163993fb168c3134a55591075fe087a0
+lib/python3.8/site-packages/unidecode/__pycache__/x0c6.cpython-38.pyc
+@comment MD5:609cbd6fe8fc24372dd39617b4f1f0a2
+lib/python3.8/site-packages/unidecode/__pycache__/x0c6.cpython-38.opt-1.pyc
+@comment MD5:8c2f9b788d380cf46def7baad9f279fd
+lib/python3.8/site-packages/unidecode/x0c7.py
+@comment MD5:0fdd762969df030b0631aa2d714a05c1
+lib/python3.8/site-packages/unidecode/__pycache__/x0c7.cpython-38.pyc
+@comment MD5:69f6b117cd60ca02830662db4baed2fd
+lib/python3.8/site-packages/unidecode/__pycache__/x0c7.cpython-38.opt-1.pyc
+@comment MD5:838f9ceadb87a410b6474d4be5d7c60e
+lib/python3.8/site-packages/unidecode/x0c8.py
+@comment MD5:1e3781e0f1f79d6c76706f909bf9e763
+lib/python3.8/site-packages/unidecode/__pycache__/x0c8.cpython-38.pyc
+@comment MD5:f629d384ba81947421d911f64856ba26
+lib/python3.8/site-packages/unidecode/__pycache__/x0c8.cpython-38.opt-1.pyc
+@comment MD5:f629d384ba81947421d911f64856ba26
+lib/python3.8/site-packages/unidecode/x0c9.py
+@comment MD5:50760e607e071725d05aa4b6dc655f52
+lib/python3.8/site-packages/unidecode/__pycache__/x0c9.cpython-38.pyc
+@comment MD5:1c938ef73bc07eedd07ca36179a46020
+lib/python3.8/site-packages/unidecode/__pycache__/x0c9.cpython-38.opt-1.pyc
+@comment MD5:66283ac9e347d941242b706864ebfee3
+lib/python3.8/site-packages/unidecode/x0ca.py
+@comment MD5:ba99bf6e4f6c651cebffd38f90d76126
+lib/python3.8/site-packages/unidecode/__pycache__/x0ca.cpython-38.pyc
+@comment MD5:8212e2a0a9d804520399b6f1f5a625df
+lib/python3.8/site-packages/unidecode/__pycache__/x0ca.cpython-38.opt-1.pyc
+@comment MD5:8212e2a0a9d804520399b6f1f5a625df
+lib/python3.8/site-packages/unidecode/x0cb.py
+@comment MD5:e95eea3d26004cab583ef4056363102f
+lib/python3.8/site-packages/unidecode/__pycache__/x0cb.cpython-38.pyc
+@comment MD5:f2fc9d46bb68893e144b2579b6a06cfd
+lib/python3.8/site-packages/unidecode/__pycache__/x0cb.cpython-38.opt-1.pyc
+@comment MD5:f2fc9d46bb68893e144b2579b6a06cfd
+lib/python3.8/site-packages/unidecode/x0cc.py
+@comment MD5:0d5e05b0696c5be516151b5e347db2a3
+lib/python3.8/site-packages/unidecode/__pycache__/x0cc.cpython-38.pyc
+@comment MD5:e36d8bded70f1edbbb09f1c386126a12
+lib/python3.8/site-packages/unidecode/__pycache__/x0cc.cpython-38.opt-1.pyc
+@comment MD5:a82ffb2aa89d8bbbcae14dead3db0ccf
+lib/python3.8/site-packages/unidecode/x0cd.py
+@comment MD5:8e33a81a6da050cf98a501b546e8b759
+lib/python3.8/site-packages/unidecode/__pycache__/x0cd.cpython-38.pyc
+@comment MD5:55275d53759dc1e4b6f171dc212c3cf1
+lib/python3.8/site-packages/unidecode/__pycache__/x0cd.cpython-38.opt-1.pyc
+@comment MD5:044303a439510138f298e17b2c4d64a1
+lib/python3.8/site-packages/unidecode/x0ce.py
+@comment MD5:528c4b8ce9790999d8a1b121f9edab4e
+lib/python3.8/site-packages/unidecode/__pycache__/x0ce.cpython-38.pyc
+@comment MD5:fc2b78d139bc57d81a04df7cc4ce1ad3
+lib/python3.8/site-packages/unidecode/__pycache__/x0ce.cpython-38.opt-1.pyc
+@comment MD5:a088b147b51c0e43db60b1ca23618009
+lib/python3.8/site-packages/unidecode/x0cf.py
+@comment MD5:507eb85e22ee6adbcfbe7134f5b1939a
+lib/python3.8/site-packages/unidecode/__pycache__/x0cf.cpython-38.pyc
+@comment MD5:65fd39bc4c75c895ddc4613628ebf335
+lib/python3.8/site-packages/unidecode/__pycache__/x0cf.cpython-38.opt-1.pyc
+@comment MD5:bc5e11563ccc1f79aaf05f6a608f15c9
+lib/python3.8/site-packages/unidecode/x0d0.py
+@comment MD5:24f07c7bcaf185f5c46fc0f4d82e17f2
+lib/python3.8/site-packages/unidecode/__pycache__/x0d0.cpython-38.pyc
+@comment MD5:05831c2d727d21c5a8cca884660ffccb
+lib/python3.8/site-packages/unidecode/__pycache__/x0d0.cpython-38.opt-1.pyc
+@comment MD5:ea0edaaa855c2b277af63aabffaab796
+lib/python3.8/site-packages/unidecode/x0d1.py
+@comment MD5:f826c2a40bf0aff3dae1071f9ed063ce
+lib/python3.8/site-packages/unidecode/__pycache__/x0d1.cpython-38.pyc
+@comment MD5:323bee16dac5411fd059051ca61e1aea
+lib/python3.8/site-packages/unidecode/__pycache__/x0d1.cpython-38.opt-1.pyc
+@comment MD5:210e0b0b8b1cac723722e7bd33176fe7
+lib/python3.8/site-packages/unidecode/x0d2.py
+@comment MD5:c2cfad531da521bdf6b8ddc5cb594c1a
+lib/python3.8/site-packages/unidecode/__pycache__/x0d2.cpython-38.pyc
+@comment MD5:b0de68f56c4a503aee6382241ff0cb20
+lib/python3.8/site-packages/unidecode/__pycache__/x0d2.cpython-38.opt-1.pyc
+@comment MD5:b0de68f56c4a503aee6382241ff0cb20
+lib/python3.8/site-packages/unidecode/x0d3.py
+@comment MD5:4263e9f0d653fa0205decd4efcf95c18
+lib/python3.8/site-packages/unidecode/__pycache__/x0d3.cpython-38.pyc
+@comment MD5:16cb65a8730878f67790103c0217b762
+lib/python3.8/site-packages/unidecode/__pycache__/x0d3.cpython-38.opt-1.pyc
+@comment MD5:3d36e869d3ebf38a5225e0774a6e4c67
+lib/python3.8/site-packages/unidecode/x0d4.py
+@comment MD5:045bb93d62b49d7826c78362ca354f2e
+lib/python3.8/site-packages/unidecode/__pycache__/x0d4.cpython-38.pyc
+@comment MD5:c8fd9210d07aaeb1a184abe441b18ede
+lib/python3.8/site-packages/unidecode/__pycache__/x0d4.cpython-38.opt-1.pyc
+@comment MD5:89c4129cee99478737da43434c751f69
+lib/python3.8/site-packages/unidecode/x0d5.py
+@comment MD5:10e8b9ea160891030b5eb544a70b5096
+lib/python3.8/site-packages/unidecode/__pycache__/x0d5.cpython-38.pyc
+@comment MD5:349a3a83dfe2be1058a9457a0dfd6f7f
+lib/python3.8/site-packages/unidecode/__pycache__/x0d5.cpython-38.opt-1.pyc
+@comment MD5:be3e73d4f1b546933442ab5698fc8227
+lib/python3.8/site-packages/unidecode/x0d6.py
+@comment MD5:d2dd453d983471d8b21e0acc7be8998b
+lib/python3.8/site-packages/unidecode/__pycache__/x0d6.cpython-38.pyc
+@comment MD5:0c73ae3724b2437ce558f99fead5fc4b
+lib/python3.8/site-packages/unidecode/__pycache__/x0d6.cpython-38.opt-1.pyc
+@comment MD5:de734ac0bfe50d7dde4c84f03aa079f7
+lib/python3.8/site-packages/unidecode/x0d7.py
+@comment MD5:794819be49993df3306344286d4ae58a
+lib/python3.8/site-packages/unidecode/__pycache__/x0d7.cpython-38.pyc
+@comment MD5:f4fec82c0ae062f24e29a9f28a2e8076
+lib/python3.8/site-packages/unidecode/__pycache__/x0d7.cpython-38.opt-1.pyc
+@comment MD5:f4fec82c0ae062f24e29a9f28a2e8076
+lib/python3.8/site-packages/unidecode/x0f9.py
+@comment MD5:b34abf21fd143610f7c819d1eaa81246
+lib/python3.8/site-packages/unidecode/__pycache__/x0f9.cpython-38.pyc
+@comment MD5:22eeadc1ded0ab6fa753d3a375972334
+lib/python3.8/site-packages/unidecode/__pycache__/x0f9.cpython-38.opt-1.pyc
+@comment MD5:22eeadc1ded0ab6fa753d3a375972334
+lib/python3.8/site-packages/unidecode/x0fa.py
+@comment MD5:05b866787e178e2b041acb203c94bac4
+lib/python3.8/site-packages/unidecode/__pycache__/x0fa.cpython-38.pyc
+@comment MD5:ca812c981ff8b408ac687fb6cdce43db
+lib/python3.8/site-packages/unidecode/__pycache__/x0fa.cpython-38.opt-1.pyc
+@comment MD5:ca812c981ff8b408ac687fb6cdce43db
+lib/python3.8/site-packages/unidecode/x0fb.py
+@comment MD5:3e6e092f405dba04285f0a372c91325d
+lib/python3.8/site-packages/unidecode/__pycache__/x0fb.cpython-38.pyc
+@comment MD5:e89d4b81e5acf197875abcf6f1c6c471
+lib/python3.8/site-packages/unidecode/__pycache__/x0fb.cpython-38.opt-1.pyc
+@comment MD5:82b4ae4a50a66fee918aecf5b955aaa0
+lib/python3.8/site-packages/unidecode/x0fc.py
+@comment MD5:1e66b6f16314e2638ed794ef62e1ff7f
+lib/python3.8/site-packages/unidecode/__pycache__/x0fc.cpython-38.pyc
+@comment MD5:0e551e7d0f91fddd7a980bb7fd334ef4
+lib/python3.8/site-packages/unidecode/__pycache__/x0fc.cpython-38.opt-1.pyc
+@comment MD5:0e551e7d0f91fddd7a980bb7fd334ef4
+lib/python3.8/site-packages/unidecode/x0fd.py
+@comment MD5:a230398a9034f012ecacc48ae6cacc19
+lib/python3.8/site-packages/unidecode/__pycache__/x0fd.cpython-38.pyc
+@comment MD5:3f0c0e72d22fffdec21af60625937568
+lib/python3.8/site-packages/unidecode/__pycache__/x0fd.cpython-38.opt-1.pyc
+@comment MD5:3f0c0e72d22fffdec21af60625937568
+lib/python3.8/site-packages/unidecode/x0fe.py
+@comment MD5:7799018f58c257ce95b841187db14059
+lib/python3.8/site-packages/unidecode/__pycache__/x0fe.cpython-38.pyc
+@comment MD5:d30aadcb45bd3dbef818af0290c1fded
+lib/python3.8/site-packages/unidecode/__pycache__/x0fe.cpython-38.opt-1.pyc
+@comment MD5:d30aadcb45bd3dbef818af0290c1fded
+lib/python3.8/site-packages/unidecode/x0ff.py
+@comment MD5:577570dea33908505aa2530bb09671f0
+lib/python3.8/site-packages/unidecode/__pycache__/x0ff.cpython-38.pyc
+@comment MD5:679625d0143b7a4c0beda239bba366cc
+lib/python3.8/site-packages/unidecode/__pycache__/x0ff.cpython-38.opt-1.pyc
+@comment MD5:677c9f2c1af379ed217b38752ddbaa1d
+lib/python3.8/site-packages/unidecode/x1d4.py
+@comment MD5:50942d9fea5ab2213dc4db9829da196b
+lib/python3.8/site-packages/unidecode/__pycache__/x1d4.cpython-38.pyc
+@comment MD5:902dc8a99cc8a09539567ce941811941
+lib/python3.8/site-packages/unidecode/__pycache__/x1d4.cpython-38.opt-1.pyc
+@comment MD5:902dc8a99cc8a09539567ce941811941
+lib/python3.8/site-packages/unidecode/x1d5.py
+@comment MD5:7037a3099c7447697989239ac02452b2
+lib/python3.8/site-packages/unidecode/__pycache__/x1d5.cpython-38.pyc
+@comment MD5:91f0eac1aea937d15a357dcf1b69976c
+lib/python3.8/site-packages/unidecode/__pycache__/x1d5.cpython-38.opt-1.pyc
+@comment MD5:91f0eac1aea937d15a357dcf1b69976c
+lib/python3.8/site-packages/unidecode/x1d6.py
+@comment MD5:1d5614434d7c96c86f36a577a00f09df
+lib/python3.8/site-packages/unidecode/__pycache__/x1d6.cpython-38.pyc
+@comment MD5:c858c0e9985b4dfaa4863c2e294fb4ba
+lib/python3.8/site-packages/unidecode/__pycache__/x1d6.cpython-38.opt-1.pyc
+@comment MD5:67054cdbeec1c7167ff74fb1afc01d4a
+lib/python3.8/site-packages/unidecode/x1d7.py
+@comment MD5:a9506ddd42841da1e5266181d529b32c
+lib/python3.8/site-packages/unidecode/__pycache__/x1d7.cpython-38.pyc
+@comment MD5:7588fbb4c9ad80f5d4a12d0a0219d52a
+lib/python3.8/site-packages/unidecode/__pycache__/x1d7.cpython-38.opt-1.pyc
+@comment MD5:7588fbb4c9ad80f5d4a12d0a0219d52a
+lib/python3.8/site-packages/unidecode/x1f1.py
+@comment MD5:efc82e63bcb3d4d2eb60581c054c2d47
+lib/python3.8/site-packages/unidecode/__pycache__/x1f1.cpython-38.pyc
+@comment MD5:003897c3bda33e4bb68ea22309b346c6
+lib/python3.8/site-packages/unidecode/__pycache__/x1f1.cpython-38.opt-1.pyc
+@comment MD5:003897c3bda33e4bb68ea22309b346c6
+lib/python3.8/site-packages/unidecode/x1f6.py
+@comment MD5:f7866d4c21e55515d2a0af4db510b51c
+lib/python3.8/site-packages/unidecode/__pycache__/x1f6.cpython-38.pyc
+@comment MD5:643bce8755ae42e283135797ef48a246
+lib/python3.8/site-packages/unidecode/__pycache__/x1f6.cpython-38.opt-1.pyc
+@comment MD5:643bce8755ae42e283135797ef48a246
