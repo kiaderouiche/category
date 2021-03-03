@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	checkov-1.0.810
+DISTNAME=	checkov-1.0.823
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 PKGVERSION=	4
@@ -11,14 +11,12 @@ HOMEPAGE=	https://github.com/bridgecrewio/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-PYTHON_VERSIONS_INCOMPATIBLE+=	36
-
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
-BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
-BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3.1:../../devel/py-coverage
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
-BUILD_DEPENDS+=	${PYPKGPREFIX}-py-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
-BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit-bc-python-hcl2
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
+BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
+DEPENDS+=	${PYPKGPREFIX}-bc-python-hcl2>=0.3.12:../../wip/py-bc-python-hcl2
 DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
 DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
