@@ -13,7 +13,6 @@ LICENSE=	2-clause-bsd
 DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-stats-arrays>=0.6.4:../../wip/py-stats-arrays
 
-USE_LANGUAGES=	# none
 
 BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.8
 .include "../../math/py-numpy/buildlink3.mk"
