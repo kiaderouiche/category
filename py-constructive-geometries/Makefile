@@ -11,9 +11,7 @@ COMMENT=	Simple tools to define world locations from a set of topological faces 
 #LICENSE=	Copyright (c) 2016, Chris Mutel and Paul Scherrer Institute
 
 DEPENDS+=	${PYPKGPREFIX}-country-converter>=0:../../wip/py-country-converte
-DEPENDS+=	${PYPKGPREFIX}-wrapt>=0:../../devel/py-wrapt
-
-USE_LANGUAGES=	# none
+DEPENDS+=	${PYPKGPREFIX}-wrapt>=1.12.1:../../devel/py-wrapt
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
