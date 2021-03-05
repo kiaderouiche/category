@@ -10,6 +10,7 @@ HOMEPAGE=	http://github.com/madzak/python-json-logger
 COMMENT=	Python library adding a json log formatter
 LICENSE=	modified-bsd
 
+PYTHON_VERSIONS_INCOMPATIBLE+=  27
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
