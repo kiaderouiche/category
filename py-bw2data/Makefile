@@ -22,7 +22,7 @@ DEPENDS+=	${PYPKGPREFIX}-peewee>=3.9.4:../../databases/py-peewee
 DEPENDS+=	${PYPKGPREFIX}-sutil>=0:../../sysutils/py-psutil
 DEPENDS+=	${PYPKGPREFIX}-prind>=0:../../wip/py-prind
 DEPENDS+=	${PYPKGPREFIX}-requests>=1.1.0:../../devel/py-requests
-DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
+#DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-stats-arrays>=0:../../wip/py-stats-arrays
 DEPENDS+=	${PYPKGPREFIX}-unicodecsv>=0:../../databases/py-unicodecsv
 DEPENDS+=	${PYPKGPREFIX}-voluptuous>=0:../../wip/py-voluptuous

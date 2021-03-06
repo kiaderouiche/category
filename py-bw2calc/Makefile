@@ -2,20 +2,18 @@
 
 DISTNAME=	bw2calc-1.8.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	databases python
 MASTER_SITES=	${MASTER_SITE_PYPI:=b/bw2calc/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://bitbucket.org/cmutel/brightway2-calc
 COMMENT=	TODO: Short description of the package
-#LICENSE=	NewBSD 3-clause; LICENSE.txt # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
-DEPENDS+=	# TODO: eight>=0
-DEPENDS+=	# TODO: numpy>=0
-DEPENDS+=	# TODO: scipy>=0
-DEPENDS+=	# TODO: stats_arrays>=0
+DEPENDS+=	${PYPKGPREFIX}-eight>=0
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-stats-arrays>=0
 
-USE_LANGUAGES=	# none
-
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
