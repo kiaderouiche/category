@@ -13,7 +13,7 @@ LICENSE=	2-clause-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-tox>=3.20.1:../../devel/py-tox
 DEPENDS+=	${PYPKGPREFIX}-Pillow>=6.2.2:../../graphics/py-Pillow
-DEPENDS+=	${PYPKGPREFIX}-numba>=0.51.22:../../math/py-numba
+DEPENDS+=	${PYPKGPREFIX}-numba>=0.51.2:../../math/py-numba
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-psutil>=5.7.3:../../sysutils/py-psutil
 
