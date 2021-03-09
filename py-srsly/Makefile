@@ -1,13 +1,26 @@
 # $NetBSD$
 
 DISTNAME=	srsly-2.4.0
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/fd/63/a9240c5e37b08e2fd9fc68a1ff30175f586d9d31a5f21529c4022ddcfc90/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/srsly/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/fd/63/a9240c5e37b08e2fd9fc68a1ff30175f586d9d31a5f21529c4022ddcfc90/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/explosion/srsly
+COMMENT=	Modern high-performance serialization utilities for Python
+LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+USE_LANGUAGES=	c c++
+
+DEPENDS+=	${PYPKGPREFIX}-mock>=3.0.5:../../devel/py-mock
+DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+DEPENDS+=	
+${PYPKGPREFIX}-test-timeout>=1.4.2:../../devel/py-test-timeout
+DEPENDS+=	${PYPKGPREFIX}-catalogue>=2.0.1:../../wip/py-catalogue
+
+BUILDLINK_API_DEPENDS.py-cython+=       ${PYPKGPREFIX}-cython>=0.12.1
+.include "../../devel/py-cython/buildlink3.mk"
+BUILDLINK_API_DEPENDS.py-numpy+=        ${PYPKGPREFIX}-numpy>=1.0
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
