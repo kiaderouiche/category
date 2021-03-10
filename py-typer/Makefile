@@ -10,9 +10,9 @@ HOMEPAGE=	https://github.com/tiangolo/typer
 COMMENT=	Typer, build great CLIs. Easy to code. Based on Python type hints
 #LICENSE=	# TODO: (see mk/license.mk)
 
-BUILD_DEPENDS+=	py-autoflake>=1.3.1,<2.0.0:../../wip/py-autoflake
-BUILD_DEPENDS+=	py-flake8>=3.8.3,<4.0.0:../../devel/py-flake8
-DEPENDS+=	py-click>=7.1.1,<7.2.0:../../devel/py-click
+BUILD_DEPENDS+=	${PYPKGPREFIX}-autoflake>=2.0.0:../../wip/py-autoflake
+BUILD_DEPENDS+=	${PYPKGPREFIX}-flake8>=3.8.3:../../devel/py-flake8
+DEPENDS+=	${PYPKGPREFIX}-click>=7.1.1:../../devel/py-click
 
 USE_LANGUAGES=	# none
 
