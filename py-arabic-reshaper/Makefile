@@ -1,9 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	arabic_reshaper-2.1.1
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/0a/1e/b78cacd22bd55c43f2711115d67ece3ed9616ba82d2d0e0914db2a6db985/
+PKGNAME=	${PYPKGPREFIX}-arabic-reshaper-2.1.1
+CATEGORIES=	textproc python
+MASTER_SITES=	${MASTER_SITE_PYPI:=a/arabic_reshaper/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/mpcabd/python-arabic-reshaper/
