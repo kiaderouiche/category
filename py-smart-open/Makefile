@@ -11,7 +11,7 @@ COMMENT=	Utils for streaming large files
 LICENSE=	mit
 
 TEST_DEPENDS+=	${PYPKGPREFIX}-boto3>=1.17.15:../../net/py-boto3
-TEST_DEPENDS+=	${PYPKGPREFIX}-google-cloud-storage>=
+TEST_DEPENDS+=	${PYPKGPREFIX}-google-cloud-storage>=1.36.1:../../wip/py-google-cloud-storage
 TEST_DEPENDS+=	${PYPKGPREFIX}-azure-storage-blob>=0:../../
 TEST_DEPENDS+=	${PYPKGPREFIX}-azure-common>=0:../../
 TEST_DEPENDS+=	${PYPKGPREFIX}-azure-core>=0:../../
