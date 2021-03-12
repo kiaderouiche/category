@@ -12,13 +12,13 @@ LICENSE=	mit
 
 TEST_DEPENDS+=	${PYPKGPREFIX}-boto3>=1.17.15:../../net/py-boto3
 TEST_DEPENDS+=	${PYPKGPREFIX}-google-cloud-storage>=1.36.1:../../wip/py-google-cloud-storage
-TEST_DEPENDS+=	${PYPKGPREFIX}-azure-storage-blob>=0:../../
-TEST_DEPENDS+=	${PYPKGPREFIX}-azure-common>=0:../../
-TEST_DEPENDS+=	${PYPKGPREFIX}-azure-core>=0:../../
-TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=0:../../devel/py-requests
-TEST_DEPENDS+=	${PYPKGPREFIX}-mock>=0:../../devel/py-mock
+TEST_DEPENDS+=	${PYPKGPREFIX}-azure-storage-blob>=0:../../wip/py-azure-storage-blob
+TEST_DEPENDS+=	${PYPKGPREFIX}-azure-common>=1.1.26:../../wip/py-azure-common
+TEST_DEPENDS+=	${PYPKGPREFIX}-azure-core>=1.11.0:../../wip/py-azure-core
+TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.1:../../devel/py-requests
+TEST_DEPENDS+=	${PYPKGPREFIX}-mock>=3.0.5:../../devel/py-mock
 TEST_DEPENDS+=	${PYPKGPREFIX}-moto>=1.3.14:../../net/py-moto
-TEST_DEPENDS+=	${PYPKGPREFIX}-pathlib2>=0:../../devel/py-pathlib2
+TEST_DEPENDS+=	${PYPKGPREFIX}-pathlib2>=2.3.5:../../devel/py-pathlib2
 TEST_DEPENDS+=	${PYPKGPREFIX}-responses>=0:../../net/py-responses
 TEST_DEPENDS+=	${PYPKGPREFIX}-paramiko>=0:../../security/py-paramiko
 TEST_DEPENDS+=	${PYPKGPREFIX}-parameterizedtestcase>=0.1.0:../../wip/py-parameterizedtestcase
