@@ -19,7 +19,7 @@ TEST_DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.1:../../devel/py-requests
 TEST_DEPENDS+=	${PYPKGPREFIX}-mock>=3.0.5:../../devel/py-mock
 TEST_DEPENDS+=	${PYPKGPREFIX}-moto>=1.3.14:../../net/py-moto
 TEST_DEPENDS+=	${PYPKGPREFIX}-pathlib2>=2.3.5:../../devel/py-pathlib2
-TEST_DEPENDS+=	${PYPKGPREFIX}-responses>=0:../../net/py-responses
+TEST_DEPENDS+=	${PYPKGPREFIX}-responses>=0.12.1:../../net/py-responses
 TEST_DEPENDS+=	${PYPKGPREFIX}-paramiko>=0:../../security/py-paramiko
 TEST_DEPENDS+=	${PYPKGPREFIX}-parameterizedtestcase>=0.1.0:../../wip/py-parameterizedtestcase
 TEST_DEPENDS+=	${PYPKGPREFIX}-test>=0:../../devel/py-test
