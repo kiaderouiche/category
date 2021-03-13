@@ -2,13 +2,17 @@
 
 DISTNAME=	blis-0.7.4
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_PYPI:=b/blis/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/b1/54/b0de9905ee80aebd64c333bc112cacfe06849a9b5a7230a02dfde73e7aad/
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://github.com/explosion/cython-blis
 COMMENT=	BLAS-like linear algebra library, as a self-contained C-extension
 LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+DEPENDS+=	${PYPKGPREFIX}-hypothesis4>=4.0.0:../../devel/py-hypothesis4
+
+.include "../../devel/py-cython/buildlink3.mk"
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
