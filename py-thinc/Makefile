@@ -10,5 +10,7 @@ HOMEPAGE=	https://github.com/explosion/thinc
 COMMENT=	Refreshing functional take on deep learning
 LICENSE=	mit
 
+USE_LANGUAGES=	c c++ fortran
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
