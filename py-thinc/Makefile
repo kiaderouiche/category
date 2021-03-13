@@ -1,14 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	thinc-8.0.1
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	textproc python
-MASTER_SITES=	https://files.pythonhosted.org/packages/ac/15/282edb3e44d67c64d77dd94af9542e26fe7e5256fda8f2242b169bb146b0/
+DISTNAME=	thinc-8.0.2
+PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	textproc
+MASTER_SITES=	${MASTER_SITE_PYPI:=t/thinc/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	https://github.com/explosion/thinc
+COMMENT=	Refreshing functional take on deep learning
+LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
