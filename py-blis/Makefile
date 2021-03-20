@@ -10,7 +10,6 @@ HOMEPAGE=	https://github.com/explosion/cython-blis
 COMMENT=	BLAS-like linear algebra library, as a self-contained C-extension
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-hypothesis4>=4.0.0:../../devel/py-hypothesis4
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
