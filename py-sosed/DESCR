@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![JetBrains Research](https://jb.gg/badges/research.svg)](https://research.jetbrains.org/groups/ml_methods)
+[![Linux, MacOS, Docker](https://github.com/JetBrains-Research/sosed/workflows/Linux,%20MacOS,%20Docker/badge.svg)](https://github.com/JetBrains-Research/sosed/actions?query=workflow%3A%22Linux%2C+MacOS%2C+Docker%22)
+
+# *Sosed*, similar projects search
+
+An embedding-based approach to detect similar software projects.
+
+## *Sosed*'s history
+
+Initially, we created a novel approach to represent code as a part of a source code topic modeling project (not finished yet).
+On the way, we found out that with the new representation, we can explicitly measure  the distance between arbitrary pieces of code (and even projects!),
+and at the project level it works reasonably well.
+We decided to implement it as a stand-alone tool to verify the feasibility of our approach and share it with the community.
+
+Also, *Sosed* means "neighbor" in Russian.
+
+## How *Sosed* works
+
+### Topic-oriented code representation
+
+...
