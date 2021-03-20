@@ -2,13 +2,15 @@
 
 DISTNAME=	faiss-cpu-1.7.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	math
-MASTER_SITES=	https://files.pythonhosted.org/packages/59/54/b4d5e08b558aca33e5ec5ad51bdf4ab722116700c48074e2560426fb1bdd/
+CATEGORIES=	devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=f/faiss-cpu/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/59/54/b4d5e08b558aca33e5ec5ad51bdf4ab722116700c48074e2560426fb1bdd/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	https://github.com/kyamagu/faiss-wheels
+COMMENT=	Library for efficient similarity search and clustering of dense vectors
 LICENSE=	mit
 
+BUILDLINK_API_DEPENDS.py-numpy+=        ${PYPKGPREFIX}-numpy>=1.0
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
