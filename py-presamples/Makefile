@@ -2,10 +2,10 @@
 
 DISTNAME=	presamples-0.2.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/06/29/bd19f1cba3c0c11e35d52dcfe9410568774a3fa0cea42d3609e08800759c/
+CATEGORIES=	math python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/presamples/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/PascalLesage/presamples
 COMMENT=	Package to write, load, manage and verify numerical arrays, called presamples
 #LICENSE=	# TODO: (see mk/license.mk)
