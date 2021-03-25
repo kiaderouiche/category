@@ -3,7 +3,7 @@
 DISTNAME=	checkov2-1.0.946
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/d3/04/190fd015abbdce6ebae611265ce5a35490b2d95f4033d26193ecaace3bfa/
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov2/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/nimrodkor/checkov

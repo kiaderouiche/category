@@ -2,13 +2,13 @@
 
 DISTNAME=	policy_sentry-0.11.8
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/4b/5b/5cec64c9053281649cf5ab6f6c39260d2733e5353418b59d5c7001603116/
+CATEGORIES=	net python
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/policy_sentry/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/salesforce/policy_sentry
 COMMENT=	Generate locked-down AWS IAM Policies
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.9.3:../../www/py-beautifulsoup4
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
