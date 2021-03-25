@@ -2,11 +2,11 @@
 
 DISTNAME=	lark-parser-0.11.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/1c/10/7e2e232e08916583f5b09b5c63962f3034b5dc4146a492a786b0088ff375/
+CATEGORIES=	devel lang
+MASTER_SITES=	${MASTER_SITE_PYPI:=l/lark-parser/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/lark-parser/lark
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/erezsh/lark
 COMMENT=	a modern parsing library
 LICENSE=	mit
 
