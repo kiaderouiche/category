@@ -1,22 +1,16 @@
 # $NetBSD$
 
-DISTNAME=	lark-parser-0.11.1
+DISTNAME=	lark-parser-0.11.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel lang python
-MASTER_SITES=	${MASTER_SITE_PYPI:=l/lark-parser/}
+CATEGORIES=	category python
+MASTER_SITES=	https://files.pythonhosted.org/packages/1c/10/7e2e232e08916583f5b09b5c63962f3034b5dc4146a492a786b0088ff375/
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://github.com/erezsh/lark
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://github.com/lark-parser/lark
 COMMENT=	a modern parsing library
 LICENSE=	mit
 
 USE_LANGUAGES=	# none
-
-# adhoc fix to convert below
-# lark-parser-0.1-py3.8.egg-info
-# lark-parser-0.0.0-py3.8.egg-info
-
-#EGG_INFODIR=	${DISTNAME:S/-/_/:S/0.1/0.0.0/}-py${PYVERSSUFFIX}.egg-info
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
