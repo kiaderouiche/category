@@ -17,15 +17,15 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
 BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
 DEPENDS+=	# TODO: bc-python-hcl2>=0.3.18
 DEPENDS+=	# TODO: cloudsplaining>=0.3.2
-DEPENDS+=	# TODO: deep_merge>=0
+DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
 DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
-DEPENDS+=	py-termcolor>=0:../../devel/py-termcolor
-DEPENDS+=	# TODO: junit-xml>=0
-DEPENDS+=	# TODO: dpath>=1.5.0,<2
-DEPENDS+=	# TODO: pyyaml>=5.4.1
-DEPENDS+=	py-boto3>=0:../../net/py-boto3
-DEPENDS+=	# TODO: GitPython>=0
+DEPENDS+=	${PYPKGPREFIX}-termcolor>=1.1.0:../../devel/py-termcolor
+DEPENDS+=	${PYPKGPREFIX}-junit-xml>=1.9:../../wip/py-junit-xml
+DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
+DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1.3:../../textproc/py-yaml
+DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
+DEPENDS+=	${PYPKGPREFIX}-gitpython>=3.1.7:../../devel/py-gitpython
 DEPENDS+=	# TODO: six==1.15.0>=0
 DEPENDS+=	py-jmespath>=0:../../textproc/py-jmespath
 DEPENDS+=	py-tqdm>=0:../../misc/py-tqdm
