@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (carculator-1.4.1.tar.gz) = 69f768bf912a7bd46d7a10dacd914162b98aacea
-RMD160 (carculator-1.4.1.tar.gz) = 3a9563d0ad0de7fa392e249de0904cb1deb31647
-SHA512 (carculator-1.4.1.tar.gz) = fc7f6dce3a2ac1929679762c4c081970c3d094191977d760912de32e57702924943d7dca5333669984f6773a688c025428bdd43070169c9264441fbfdec729b4
-Size (carculator-1.4.1.tar.gz) = 3442987 bytes
+SHA1 (carculator-1.4.5.tar.gz) = 156893557afb18510563977ee86b46d6e6985396
+RMD160 (carculator-1.4.5.tar.gz) = 2064452d0312782e42f7ca2c6fa49048e0964367
+SHA512 (carculator-1.4.5.tar.gz) = 5340ecb874c7b973a8dfa3adee9342a8e7b2dd3d37a2f5b02520f121e612bc7308eca82cc6a93118d86c41ae981b629b38cd86e6041442a7383843868b75ceda
+Size (carculator-1.4.5.tar.gz) = 3443081 bytes
