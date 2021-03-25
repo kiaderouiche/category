@@ -2,25 +2,24 @@
 
 DISTNAME=	checkov2-1.0.946
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov2/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/nimrodkor/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
-BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
-BUILD_DEPENDS+=	# TODO: coverage-badge>=0
-BUILD_DEPENDS+=	# TODO: pipenv-setup>=0
-BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
-BUILD_DEPENDS+=	# TODO: bandit>=0
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3.1:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
+BUILD_DEPENDS+=	${PYPKGPREFIX}-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
+BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
 DEPENDS+=	# TODO: bc-python-hcl2>=0.3.18
 DEPENDS+=	# TODO: cloudsplaining>=0.3.2
 DEPENDS+=	# TODO: deep_merge>=0
-DEPENDS+=	py-tabulate>=0:../../textproc/py-tabulate
-DEPENDS+=	py-colorama>=0:../../comms/py-colorama
+DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
+DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
 DEPENDS+=	py-termcolor>=0:../../devel/py-termcolor
 DEPENDS+=	# TODO: junit-xml>=0
 DEPENDS+=	# TODO: dpath>=1.5.0,<2
