@@ -2,17 +2,21 @@
 
 DISTNAME=	bc-python-hcl2-0.3.18
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
+PKGVERSION=	1
+CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_PYPI:=b/bc-python-hcl2/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/amplify-education/python-hcl2
-COMMENT=	A parser for HCL2
+COMMENT=	Parser for HCL2
 LICENSE=	mit
 
-DEPENDS+=	# TODO: lark-parser>=0.10.0,<0.11.0
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
-USE_LANGUAGES=	# none
+DEPENDS+=	${PYPKGPREFIX}-lark-parser>=0.7.8:../../wip/py-lark-parser
+
+post-extract:
+	${MV} ${WRKSRC}/bin/hcl2tojson ${WRKSRC}/bin/hcl2tojson${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
