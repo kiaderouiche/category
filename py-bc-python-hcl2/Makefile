@@ -3,7 +3,7 @@
 DISTNAME=	bc-python-hcl2-0.3.18
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/88/3b/864cc7c4793ec8874a02f293d40f36371b6dbcff414e108a72c95069fd79/
+MASTER_SITES=	${MASTER_SITE_PYPI:=b/bc-python-hcl2/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/amplify-education/python-hcl2
