@@ -1,27 +1,25 @@
 # $NetBSD$
 
-DISTNAME=	carculator-1.4.5
+DISTNAME=	carculator-1.4.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/f1/89/f0dccf067bc3d16f020d4bf0b0b0b7abf91155dffa9dd433387d45c2b40b/
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/carculator/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/romainsacchi/carculator
-COMMENT=	Prospective environmental and economic life cycle assessment of vehicles made blazing fast
-#LICENSE=	BSD 3-Clause License
+COMMENT=	Economic life cycle assessment of vehicles made blazing fast
+LICENSE=	modified-bsd
 
-DEPENDS+=	py-pandas>=0:../../math/py-pandas
-DEPENDS+=	py-xarray>=0:../../math/py-xarray
-DEPENDS+=	# TODO: numpy>=0
-DEPENDS+=	# TODO: pytest>=0
-DEPENDS+=	# TODO: pytest-cov>=0
-DEPENDS+=	py-klausen>=0:../../wip/py-klausen
-DEPENDS+=	py-xlrd>=0:../../textproc/py-xlrd
-DEPENDS+=	# TODO: pytest>=0
-DEPENDS+=	py-numexpr>=0:../../math/py-numexpr
-DEPENDS+=	py-bw2io>=0:../../category/py-bw2io
-DEPENDS+=	# TODO: pycountry>=0
-DEPENDS+=	py-wurst>=0:../../wip/py-wurst
+DEPENDS+=	${PYPKGPREFIX}-pandas>=0:../../math/py-pandas
+DEPENDS+=	${PYPKGPREFIX}-xarray>=0:../../math/py-xarray
+DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+DEPENDS+=	# TODO: pytest-cov>=0:../../
+DEPENDS+=	${PYPKGPREFIX}-klausen>=0:../../wip/py-klausen
+DEPENDS+=	${PYPKGPREFIX}-xlrd>=0:../../textproc/py-xlrd
+DEPENDS+=	${PYPKGPREFIX}-numexpr>=0:../../math/py-numexpr
+DEPENDS+=	${PYPKGPREFIX}-bw2io>=0:../../category/py-bw2io
+DEPENDS+=	${PYPKGPREFIX}-country>=0:../../
+DEPENDS+=	${PYPKGPREFIX}-wurst>=0:../../wip/py-wurst
 
 USE_LANGUAGES=	# none
 
