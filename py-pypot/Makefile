@@ -8,19 +8,18 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=p/pypot/}
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/poppy-project/pypot
 COMMENT=	Python 3 Library for Robot Control
-#LICENSE=	GNU GENERAL PUBLIC LICENSE Version 3 # TODO: from setup.py; needs to be adjusted
+LICENSE=		gnu-gpl-v3
 
-DEPENDS+=	# TODO: numpy>=0
-DEPENDS+=	# TODO: pyserial>2.6
-DEPENDS+=	py-tornado>=0:../../www/py-tornado
-DEPENDS+=	# TODO: scipy>=0
-DEPENDS+=	# TODO: ikpy==3.0.1>=0
-DEPENDS+=	py-bottle>=0:../../www/py-bottle
-DEPENDS+=	py-requests>=0:../../devel/py-requests
-DEPENDS+=	# TODO: opencv-contrib-python>=0
+DEPENDS+=	${PYPKGPREFIX}-serial>=2.7:../../comms/py-serial
+DEPENDS+=	${PYPKGPREFIX}-tornado>=5.1.1:../../www/py-tornado
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-ikpy>=3.0.1:../../wip/py-ikpy
+DEPENDS+=	${PYPKGPREFIX}-bottle>=0:../../www/py-bottle
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.1:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-opencv-contrib-python>=0
 DEPENDS+=	wget>=0:../../net/wget
 
-USE_LANGUAGES=	# none
 
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# IKPy
+
+![Travis-CI](https://travis-ci.org/Phylliade/ikpy.svg?branch=master)
+[![PyPI](https://img.shields.io/pypi/v/ikpy.svg)](https://pypi.python.org/pypi/ikpy/)
+
+
+![demo](two_arms.png)
+
+![IKPy on the bacter robot](baxter.png)
+
+## Demo
+
+Live demos of what IKPy can do \(click on the image below to see the video\):
+
+
+[![](http://img.youtube.com/vi/H0ysr5qSbis/0.jpg)](https://www.youtube.com/watch?v=H0ysr5qSbis)
+[![](http://img.youtube.com/vi/Jq0-DkEwwj4/0.jpg)](https://www.youtube.com/watch?v=Jq0-DkEwwj4)
+
+Also, a presentation of IKPy: [Presentation](https://github.com/Phylliade/ikpy/blob/master/tutorials/IKPy%20speech.pdf).
+
+...
