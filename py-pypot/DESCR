@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![PyPI](https://img.shields.io/pypi/v/pypot.svg)](https://pypi.python.org/pypi/pypot/)
+[![Build Status](https://travis-ci.org/poppy-project/pypot.svg?branch=master)](https://travis-ci.org/poppy-project/pypot) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.591809.svg)](https://doi.org/10.5281/zenodo.591809)
+
+
+
+# Pypot: A Python lib for Dynamixel motors control
+
+Pypot is a library developed in the [Inria FLOWERS](https://flowers.inria.fr/) team to make it easy and fast to control custom robots based on dynamixel motors. This framework provides different levels of abstraction corresponding to different types of use. More precisely, you can use pypot to:
+
+* directly control robotis motors (both protocol v1 and v2 are supported) through a USB2serial device,
+* define the structure of your particular robot and control it through high-level commands,
+* define primitives and easily combine them to create complex behavior.
+
+Pypot has been entirely written in Python to allow for fast development, easy deployment and quick scripting by non-necessary expert developers. It can also benefits from the scientific and machine learning libraries existing in Python. The serial communication is handled through the standard library and thus allows for rather high performance (10ms sensorimotor loop). It is crossed-platform and has been tested on Linux, Windows and Mac OS.
+
+Pypot is also compatible with the [CoppeliaSim simulator](http://www.coppeliarobotics.com) (formerly V-REP). This allows you to seamlessly switch from a real robot to its simulated equivalent without having to modify your code.
+
+Finally, it has been developed to permit an easy and fast extension to other types of motors and sensors.
+
+...

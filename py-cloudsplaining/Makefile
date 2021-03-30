@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/kmcquade/cloudsplaining
 COMMENT=	AWS IAM Security Assessment tool that identifies violations of least privilege
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-policy-sentry>=0.11.3:../../wip/py-policy-sentry
+#DEPENDS+=	${PYPKGPREFIX}-policy-sentry>=0.11.3:../../wip/py-policy-sentry
 DEPENDS+=	${PYPKGPREFIX}-click>=0:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-schema>=0.7.4:../../wip/py-schema
 DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
