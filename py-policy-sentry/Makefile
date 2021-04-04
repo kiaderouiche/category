@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/salesforce/policy_sentry
 COMMENT=	Generate locked-down AWS IAM Policies
 LICENSE=	mit
 
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.9.3:../../www/py-beautifulsoup4
 DEPENDS+=	${PYPKGPREFIX}-click>=7.1.2:../../devel/py-click
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.1:../../devel/py-requests
