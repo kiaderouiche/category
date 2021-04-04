@@ -10,8 +10,12 @@ HOMEPAGE=	https://github.com/hgrecco/pint
 COMMENT=	Physical quantities module
 LICENSE=	modified-bsd
 
+DEPENDS+=	${PYPKGPREFIX}-uncertainties>=3.1.5:../../math/py-uncertainties
+
 REPLACE_PYTHON+=	pint/pint-convert
 
+
+BUILDLINK_API_DEPENDS.py-numpy+=	${PYPKGPREFIX}-numpy>=1.1
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"
