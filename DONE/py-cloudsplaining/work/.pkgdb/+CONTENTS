@@ -1,0 +1,28 @@
+@cwd /usr/pkg
+@name py38-cloudsplaining-0.3.2
+@blddep py38-policy-sentry-0.11.8
+@pkgdep py38-policy-sentry>=0.11.3
+@blddep py38-click-7.1.2
+@pkgdep py38-click>=0
+@blddep py38-schema-0.7.4
+@pkgdep py38-schema>=0.7.4
+@blddep py38-boto3-1.16.16
+@pkgdep py38-boto3>=1.12.43
+@blddep py38-botocore-1.20.15
+@pkgdep py38-botocore>=1.20.15
+@blddep py38-markdown-3.1.1
+@pkgdep py38-markdown>=3.1.1
+@blddep py38-jinja2-2.11.3
+@pkgdep py38-jinja2>=2.11.3
+@blddep py38-cached-property-1.5.2
+@pkgdep py38-cached-property>=1.5.2
+@blddep py38-setuptools-50.3.2
+@pkgdep py38-setuptools-[0-9]*
+@blddep python38-3.8.6nb1
+@pkgdep python38>=3.8.0
+@blddep digest-20190127
+@blddep cwrappers-20180325
+@comment $NetBSD$
+@comment TODO: to fill this file with the file listing:
+@comment TODO: 1. run "/usr/pkg/bin/bmake package"
+@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"

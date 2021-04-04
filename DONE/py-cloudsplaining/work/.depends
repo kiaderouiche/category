@@ -1,0 +1,13 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-policy-sentry>=0.11.3	../../wip/py-policy-sentry
+full	py38-click>=0	../../devel/py-click
+full	py38-schema>=0.7.4	../../wip/py-schema
+full	py38-boto3>=1.12.43	../../net/py-boto3
+full	py38-botocore>=1.20.15	../../net/py-botocore
+full	py38-markdown>=3.1.1	../../textproc/py-markdown
+full	py38-jinja2>=2.11.3	../../textproc/py-jinja2
+full	py38-cached-property>=1.5.2	../../devel/py-cached-property
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	python38>=3.8.0	../../lang/python38
