@@ -2,12 +2,12 @@
 
 DISTNAME=	sidekick-0.8.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel python
+CATEGORIES=	lang python
 MASTER_SITES=	${MASTER_SITE_PYPI:=s/sidekick/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/fabiommendes/sidekick/
-COMMENT=	Companion library that enhance your functional superpowers
+COMMENT=	Functional programming library for Python
 LICENSE=	mit
 
 PYTHON_VERSIONS_INCOMPATIBLE+=	27
