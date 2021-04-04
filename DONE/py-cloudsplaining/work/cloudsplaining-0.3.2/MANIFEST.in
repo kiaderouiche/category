@@ -1,6 +1,0 @@
-recursive-include cloudsplaining/shared *.yml
-recursive-include cloudsplaining/output *.html
-recursive-include cloudsplaining/output *.js
-recursive-include cloudsplaining/output *.vue
-recursive-include cloudsplaining/output *.png
-recursive-include cloudsplaining/output *.md

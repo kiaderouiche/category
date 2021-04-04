@@ -1,6 +1,0 @@
-Cloudsplaining identifies violations of least privilege in AWS IAM policies
-and generates a pretty HTML report with a triage worksheet. It can scan
-all the policies in your AWS account or it can scan a single policy file
-
-Homepage:
-https://github.com/kmcquade/cloudsplaining
