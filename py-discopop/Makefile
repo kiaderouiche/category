@@ -2,25 +2,24 @@
 
 DISTNAME=	discopop-1.2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/25/9a/82c0440c47c09285f4fc9d3e039bf6b2895f806ce72fc8e2c0f9e84a432a/
+CATEGORIES=	parallel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/discopop/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://www.discopop.tu-darmstadt.de/
-COMMENT=	DiscoPoP is a tool that helps software developers parallelize their programs with threads. It discovers potential parallelism in a sequential program and makes recommendations on how to exploit it
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Software developers parallelize their programs with threads
+LICENSE=	modified-bsd
 
-DEPENDS+=	${PYPKGPREFIX}-matplotlib>=0:../../graphics/py-matplotlib
-DEPENDS+=	${PYPKGPREFIX}-networkx>=0:../../math/py-networkx
+DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.3.4:../../graphics/py-matplotlib
+DEPENDS+=	${PYPKGPREFIX}-networkx>=2.5:../../math/py-networkx
 DEPENDS+=	${PYPKGPREFIX}-pluginbase>=1.0.0:../../wip/py-pluginbase
 DEPENDS+=	${PYPKGPREFIX}-contextlib2>=0.5.5:../../devel/py-contextlib2
 DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2:../../devel/py-docopt
 DEPENDS+=	${PYPKGPREFIX}-lxml>=4.3.3:../../textproc/py-lxml
-DEPENDS+=	${PYPKGPREFIX}-schema>=0.7.0
+DEPENDS+=	${PYPKGPREFIX}-schema>=0.7.0:../../wip/py-schema
 
-USE_LANGUAGES=	# none
 
-BUILDLINK_API_DEPENDS.py-numpy+=	py-numpy>=1.16.3
+BUILDLINK_API_DEPENDS.${PYPKGPREFIX}-numpy+=	${PYPKGPREFIX}-numpy>=1.16.3
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
