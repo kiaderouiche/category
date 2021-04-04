@@ -12,7 +12,7 @@ HOMEPAGE=	https://github.com/atmos-cloud-sim-uj/PySDM
 COMMENT=	Pythonic particle-based cloud microphysics modelling with Jupyter examples
 #LICENSE=	GPL-3.0 # TODO: from setup.py; needs to be adjusted
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=0:../../devel/py-setuptools_scm
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools_scm>=4.1.2:../../devel/py-setuptools_scm
 DEPENDS+=	# TODO: numpy>=0
 DEPENDS+=	${PYPKGPREFIX}-numba>=0:../../math/py-numba
 DEPENDS+=	${PYPKGPREFIX}-pint>=0:../../wip/py-pint

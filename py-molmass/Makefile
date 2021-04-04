@@ -1,13 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	molmass-2020.6.10
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/9c/e1/6c7474212020eb2c71be6721bfc960cbf2dcbe1308188fa9169b5b2a07b0/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	biology python
+MASTER_SITES=	${MASTER_SITE_PYPI:=m/molmass/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/9c/e1/6c7474212020eb2c71be6721bfc960cbf2dcbe1308188fa9169b5b2a07b0/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://www.lfd.uci.edu/~gohlke/
+COMMENT=	Molecular Mass Calculations
+LICENSE=	modified-bsd
 
-# url2pkg-marker (please do not remove this line.)
+PYTHON_VERSIONS_INCOMPATIBLE+=	27
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
