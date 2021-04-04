@@ -4,12 +4,12 @@ DISTNAME=	sdm-1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 GITHUB_PROJECT=	PySDM
 GITHUB_TAG=	refs/tags/v1.2
-CATEGORIES=	category python
+CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=atmos-cloud-sim-uj/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/atmos-cloud-sim-uj/PySDM
-COMMENT=	Pythonic particle-based (super-droplet) cloud microphysics modelling with Jupyter examples
+COMMENT=	Pythonic particle-based cloud microphysics modelling with Jupyter examples
 #LICENSE=	GPL-3.0 # TODO: from setup.py; needs to be adjusted
 
 BUILD_DEPENDS+=	py-setuptools_scm>=0:../../devel/py-setuptools_scm
