@@ -7,12 +7,12 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=p/pymanopt/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://www.pymanopt.org/
-COMMENT=	Optimization on manifolds with support for automatic differentiation
+COMMENT=	Optimization on manifolds with automatic differentiation
 LICENSE=	modified-bsd
 
 PYTHON_VERSIONS_INCOMPATIBLE+=	27
 
-#DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.0:../../math/py-scipy
 
 .include "options.mk"
 
