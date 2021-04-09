@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=b/blis/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/explosion/cython-blis
-COMMENT=	BLAS-like linear algebra library, as a self-contained C-extension
+COMMENT=	BLAS-like linear algebra library
 LICENSE=	mit
 
 
