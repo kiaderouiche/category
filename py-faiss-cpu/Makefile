@@ -2,12 +2,12 @@
 
 DISTNAME=	faiss-cpu-1.7.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel python
+CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_PYPI:=f/faiss-cpu/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/kyamagu/faiss-wheels
-COMMENT=	Library for efficient similarity search and clustering of dense vectors
+COMMENT=	Efficient similarity search and clustering of dense vectors
 LICENSE=	mit
 
 SUBST_CLASSES+=		prefix

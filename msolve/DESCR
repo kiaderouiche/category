@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.txt
+
+MSolve linux x86 binary
+https://msolve.lip6.fr
+
+Authors:
+J. Berthomieu (Sorbonne Univ.), C. Eder (TU Kaiserslautern), M. Safey El Din (Sorbonne Univ.)
+jeremy.berthomieu@lip6.fr, ederc@mathematik.uni-kl.de, mohab.safey@lip6.fr
+
+WARNING. It is delivered without any kind of warranty for this software. 
+This is a beta version of the msolve library, delivered to you before the library
+will be made public. It is compiled for PC linux x86 architectures. 
+We ask you to report us any bug or strange behaviour observed.
+
+The beta release package will be updated at https://msolve.lip6.fr
+[the website will be active in 1 or 2 weeks.]
+
+binary/ -> contains the msolve binary (beta version)
+           type ./msolve -h for a short documentation
+examples/ -> contains some maple files showing how to use msolve from maple
+             we will add further a bit more examples of use
+interfaces/ -> contains file interfaces with computer algebra systems
+...
