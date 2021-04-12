@@ -10,9 +10,11 @@ HOMEPAGE=	https://www.discopop.tu-darmstadt.de/
 COMMENT=	Software developers parallelize their programs with threads
 LICENSE=	modified-bsd
 
+PYTHON_VERSIONS_INCOMPATIBLE+=  27
+
 DEPENDS+=	${PYPKGPREFIX}-matplotlib>=3.3.4:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-networkx>=2.5:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-pluginbase>=1.0.0:../../wip/py-pluginbase
+DEPENDS+=	${PYPKGPREFIX}-pluginbase>=0.7:../../wip/py-pluginbase
 DEPENDS+=	${PYPKGPREFIX}-contextlib2>=0.5.5:../../devel/py-contextlib2
 DEPENDS+=	${PYPKGPREFIX}-docopt>=0.6.2:../../devel/py-docopt
 DEPENDS+=	${PYPKGPREFIX}-lxml>=4.3.3:../../textproc/py-lxml
