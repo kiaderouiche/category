@@ -7,10 +7,10 @@ MASTER_SITES=	${MASTER_SITE_PYPI:=b/bw2data/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://bitbucket.org/cmutel/brightway2-data
-COMMENT=	Tools for the management of inventory databases and impact assessment
+COMMENT=	Tools for the management of inventory databases
 LICENSE=	modified-bsd
 
-DEPENDS+=	${PYPKGPREFIX}-appdirs>=0:../../devel/py-appdirs
+DEPENDS+=	${PYPKGPREFIX}-appdirs>=appdir:../../devel/py-appdirs
 DEPENDS+=	${PYPKGPREFIX}-bw2parameters>=0:../../
 DEPENDS+=	${PYPKGPREFIX}-docopt>=0:../../devel/py-docopt
 DEPENDS+=	${PYPKGPREFIX}-eight2>=0:../../wip/py-eight2
