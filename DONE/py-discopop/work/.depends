@@ -1,0 +1,12 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-matplotlib>=3.3.4	../../graphics/py-matplotlib
+full	py38-networkx>=2.5	../../math/py-networkx
+full	py38-pluginbase>=0.7	../../wip/py-pluginbase
+full	py38-contextlib2>=0.5.5	../../devel/py-contextlib2
+full	py38-docopt>=0.6.2	../../devel/py-docopt
+full	py38-lxml>=4.3.3	../../textproc/py-lxml
+full	py38-schema>=0.7.0	../../wip/py-schema
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	py38-numpy>=1.19.2nb1	../../math/py-numpy
