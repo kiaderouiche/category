@@ -2,14 +2,19 @@
 
 DISTNAME=	ikpy-3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category
+CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_PYPI:=i/ikpy/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	https://files.pythonhosted.org/packages/9a/11/3e8276d1a105b68fba6f155f50980c48c540c046aa1ee49e5d5e7122a0fb/
-COMMENT=	inverse kinematics library aiming performance and modularity
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://pypi.org/project/ikpy
+COMMENT=	Inverse kinematics library aiming performance and modularity
 #LICENSE=	# TODO: (see mk/license.mk)
 
-USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE+=  27
 
+#DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.2:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-sympy>=1.7:../../math/py-sympy
+
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
