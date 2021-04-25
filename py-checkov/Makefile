@@ -2,14 +2,16 @@
 
 DISTNAME=	checkov-2.0.69
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/46/d3/4edfa6c26541adc50ab1ab4c3a96c6d1acebadf92affdc2c25606c3edbab/
+CATEGORIES=	devel python
+PKGVERSION=	5
+MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/nimrodkor/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
+DEPENDS+=	terraform>=0.12.30:../../net/terraform
 BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
 BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
 BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
