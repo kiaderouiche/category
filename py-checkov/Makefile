@@ -11,11 +11,12 @@ HOMEPAGE=	https://github.com/nimrodkor/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
+PYTHON_VERSIONS_INCOMPATIBLE+=  27 36
+
 DEPENDS+=	terraform>=0.12.30:../../net/terraform
 BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
 BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
 BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
-BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
 BUILD_DEPENDS+=	py-bandit>=0:../../wip/py-bandit
 DEPENDS+=	py-bc-python-hcl2>=0.3.18:../../wip/py-bc-python-hcl2
 DEPENDS+=	# TODO: cloudsplaining>=0.4.1
@@ -37,7 +38,8 @@ DEPENDS+=	py-packaging>=0:../../devel/py-packaging
 DEPENDS+=	py-networkx>=0:../../math/py-networkx
 DEPENDS+=	# TODO: dockerfile-parse>=0
 
-USE_LANGUAGES=	# none
+post-extract:
+	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
