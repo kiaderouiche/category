@@ -2,19 +2,18 @@
 
 DISTNAME=	dockerfile-parse-1.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	category python
-MASTER_SITES=	https://files.pythonhosted.org/packages/70/f3/2da4b506a16aab83096b61c9095e4ebf0a77bd4a2d2a2f8367b323e8141f/
+CATEGORIES=	net devel python
+MASTER_SITES=	${MASTER_SITE_PYPI:=d/dockerfile-parse/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/containerbuildsystem/dockerfile-parse
 COMMENT=	Python library for Dockerfile manipulation
-#LICENSE=	BSD # TODO: from setup.py; needs to be adjusted
+LICENSE=	modified-bsd
 
-DEPENDS+=	py-six>=0:../../lang/py-six
-TEST_DEPENDS+=	# TODO: pytest>=4.1.0
-TEST_DEPENDS+=	# TODO: pytest-cov>=0
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.11.1:../../devel/py-test-cov
 
-USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
