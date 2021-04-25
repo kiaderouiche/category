@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# dockerfile-parse
+
+[![build status]][build status link]
+[![coverage status]][coverage status link]
+
+Python library for parsing Dockerfile files.
+
+## Installation
+
+### From PyPI
+
+```shell
+pip install dockerfile-parse
+```
+
+### From git
+
+Clone this git repo and install using the python installer
+
+```shell
+...
