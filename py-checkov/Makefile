@@ -1,31 +1,31 @@
 # $NetBSD$
 
-DISTNAME=	checkov2-1.0.946
+DISTNAME=	checkov-2.0.69
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel python
-MASTER_SITES=	${MASTER_SITE_PYPI:=c/checkov2/}
+CATEGORIES=	category python
+MASTER_SITES=	https://files.pythonhosted.org/packages/46/d3/4edfa6c26541adc50ab1ab4c3a96c6d1acebadf92affdc2c25606c3edbab/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/nimrodkor/checkov
 COMMENT=	Infrastructure as code static analysis
 LICENSE=	apache-2.0
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
-BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3.1:../../devel/py-coverage
-BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
-BUILD_DEPENDS+=	${PYPKGPREFIX}-pipenv-setup>=3.1.1:../../wip/py-pipenv-setup
-BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
-DEPENDS+=	# TODO: bc-python-hcl2>=0.3.18
-DEPENDS+=	# TODO: cloudsplaining>=0.3.2
-DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
-DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
-DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
-DEPENDS+=	${PYPKGPREFIX}-termcolor>=1.1.0:../../devel/py-termcolor
-DEPENDS+=	${PYPKGPREFIX}-junit-xml>=1.9:../../wip/py-junit-xml
-DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
-DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1.3:../../textproc/py-yaml
-DEPENDS+=	${PYPKGPREFIX}-boto3>=1.12.43:../../net/py-boto3
-DEPENDS+=	${PYPKGPREFIX}-gitpython>=3.1.7:../../devel/py-gitpython
+BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
+BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
+BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
+BUILD_DEPENDS+=	# TODO: GitPython==3.1.7>=0
+BUILD_DEPENDS+=	py-bandit>=0:../../wip/py-bandit
+DEPENDS+=	py-bc-python-hcl2>=0.3.18:../../wip/py-bc-python-hcl2
+DEPENDS+=	# TODO: cloudsplaining>=0.4.1
+DEPENDS+=	# TODO: deep_merge>=0
+DEPENDS+=	py-tabulate>=0:../../textproc/py-tabulate
+DEPENDS+=	py-colorama>=0:../../comms/py-colorama
+DEPENDS+=	py-termcolor>=0:../../devel/py-termcolor
+DEPENDS+=	py-junit-xml>=0:../../wip/py-junit-xml
+DEPENDS+=	py-dpath>=1.5.0,<2:../../wip/py-dpath
+DEPENDS+=	# TODO: pyyaml>=5.4.1
+DEPENDS+=	# TODO: boto3==1.17.27>=0
+DEPENDS+=	# TODO: GitPython>=0
 DEPENDS+=	# TODO: six==1.15.0>=0
 DEPENDS+=	py-jmespath>=0:../../textproc/py-jmespath
 DEPENDS+=	py-tqdm>=0:../../misc/py-tqdm
@@ -33,6 +33,7 @@ DEPENDS+=	# TODO: update_checker>=0
 DEPENDS+=	py-semantic_version>=0:../../devel/py-semantic_version
 DEPENDS+=	py-packaging>=0:../../devel/py-packaging
 DEPENDS+=	py-networkx>=0:../../math/py-networkx
+DEPENDS+=	# TODO: dockerfile-parse>=0
 
 USE_LANGUAGES=	# none
 
