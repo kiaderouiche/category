@@ -15,14 +15,14 @@ PYTHON_VERSIONS_INCOMPATIBLE+=  27 36
 
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
-BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
-BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
-BUILD_DEPENDS+=	py-bandit>=0:../../wip/py-bandit
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3.1:../../devel/py-coverage
+BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
+BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
 DEPENDS+=	terraform>=0.12.30:../../net/terraform
 DEPENDS+=	py-bc-python-hcl2>=0.3.18:../../wip/py-bc-python-hcl2
 DEPENDS+=	# TODO: cloudsplaining>=0.4.1
-DEPENDS+=	# TODO: deep_merge>=0
-DEPENDS+=	py-tabulate>=0:../../textproc/py-tabulate
+DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
+DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
 DEPENDS+=	py-colorama>=0:../../comms/py-colorama
 DEPENDS+=	py-termcolor>=0:../../devel/py-termcolor
 DEPENDS+=	py-junit-xml>=0:../../wip/py-junit-xml
