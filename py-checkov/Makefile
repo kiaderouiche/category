@@ -25,6 +25,7 @@ DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
 DEPENDS+=	${PYPKGPREFIX}-colorama>=0.4.3:../../comms/py-colorama
 DEPENDS+=	${PYPKGPREFIX}-termcolor>=1.1.0:../../devel/py-termcolor
 DEPENDS+=	${PYPKGPREFIX}-bc-python-hcl2>=0.3.12:../../wip/py-bc-python-hcl2
+DEPENDS+=	${PYPKGPREFIX}-networkx>=0:../../math/py-networkx
 DEPENDS+=	${PYPKGPREFIX}-junit-xml>=1.9:../../wip/py-junit-xml
 DEPENDS+=	${PYPKGPREFIX}-dpath>=1.5.0:../../wip/py-dpath
 DEPENDS+=	${PYPKGPREFIX}-yaml>=5.1.3:../../textproc/py-yaml
@@ -36,8 +37,8 @@ DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../misc/py-tqdm
 DEPENDS+=	${PYPKGPREFIX}-update-checker-[0-9]*:../../wip/py-update-checker
 DEPENDS+=	${PYPKGPREFIX}-semantic_version>=2.8.5:../../devel/py-semantic_version
 DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
-DEPENDS+=	py-networkx>=0:../../math/py-networkx
-DEPENDS+=	# TODO: dockerfile-parse>=0
+
+DEPENDS+=	#${PYPKGPREFIX}-dockerfile-parse>=0:../../wip/py-dockerfile-parse
 
 post-extract:
 	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
