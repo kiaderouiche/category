@@ -13,11 +13,12 @@ LICENSE=	apache-2.0
 
 PYTHON_VERSIONS_INCOMPATIBLE+=  27 36
 
-DEPENDS+=	terraform>=0.12.30:../../net/terraform
-BUILD_DEPENDS+=	# TODO: pytest==5.3.1>=0
+
+BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
 BUILD_DEPENDS+=	py-coverage>=0:../../devel/py-coverage
 BUILD_DEPENDS+=	py-coverage-badge>=0:../../wip/py-coverage-badge
 BUILD_DEPENDS+=	py-bandit>=0:../../wip/py-bandit
+DEPENDS+=	terraform>=0.12.30:../../net/terraform
 DEPENDS+=	py-bc-python-hcl2>=0.3.18:../../wip/py-bc-python-hcl2
 DEPENDS+=	# TODO: cloudsplaining>=0.4.1
 DEPENDS+=	# TODO: deep_merge>=0
@@ -29,12 +30,12 @@ DEPENDS+=	py-dpath>=1.5.0,<2:../../wip/py-dpath
 DEPENDS+=	# TODO: pyyaml>=5.4.1
 DEPENDS+=	# TODO: boto3==1.17.27>=0
 DEPENDS+=	# TODO: GitPython>=0
-DEPENDS+=	# TODO: six==1.15.0>=0
-DEPENDS+=	py-jmespath>=0:../../textproc/py-jmespath
-DEPENDS+=	py-tqdm>=0:../../misc/py-tqdm
-DEPENDS+=	# TODO: update_checker>=0
-DEPENDS+=	py-semantic_version>=0:../../devel/py-semantic_version
-DEPENDS+=	py-packaging>=0:../../devel/py-packaging
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-jmespath>=0.10.0:../../textproc/py-jmespath
+DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../misc/py-tqdm
+DEPENDS+=	${PYPKGPREFIX}-update-checker-[0-9]*:../../wip/py-update-checker
+DEPENDS+=	${PYPKGPREFIX}-semantic_version>=2.8.5:../../devel/py-semantic_version
+DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
 DEPENDS+=	py-networkx>=0:../../math/py-networkx
 DEPENDS+=	# TODO: dockerfile-parse>=0
 
