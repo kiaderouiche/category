@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	checkov-2.0.69
+DISTNAME=	checkov-2.0.79
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 PKGVERSION=	5
@@ -13,12 +13,12 @@ LICENSE=	apache-2.0
 
 PYTHON_VERSIONS_INCOMPATIBLE+=  27 36
 
-
 BUILD_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage>=5.3.1:../../devel/py-coverage
 BUILD_DEPENDS+=	${PYPKGPREFIX}-coverage-badge>=1.0.1:../../wip/py-coverage-badge
 BUILD_DEPENDS+=	${PYPKGPREFIX}-bandit>=1.7.0:../../wip/py-bandit
 DEPENDS+=	terraform>=0.12.30:../../net/terraform
+DEPENDS+=	py-bc-python-hcl2>=0.3.18:../../wip/py-bc-python-hcl2
 DEPENDS+=	# TODO: cloudsplaining>=0.4.1
 DEPENDS+=	${PYPKGPREFIX}-deep-merge>=0.0.4:../../wip/py-deep-merge
 DEPENDS+=	${PYPKGPREFIX}-tabulate>=0.8.6:../../textproc/py-tabulate
@@ -40,8 +40,7 @@ DEPENDS+=	${PYPKGPREFIX}-packaging>=19.2:../../devel/py-packaging
 
 DEPENDS+=	#${PYPKGPREFIX}-dockerfile-parse>=0:../../wip/py-dockerfile-parse
 
-post-extract:
-	${MV} ${WRKSRC}/bin/checkov ${WRKSRC}/bin/checkov${PYVERSSUFFIX}
+USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
