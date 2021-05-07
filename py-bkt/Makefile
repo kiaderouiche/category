@@ -1,13 +1,19 @@
 # $NetBSD$
 
 DISTNAME=	pyBKT-1.3
-CATEGORIES=	category
-MASTER_SITES=	https://files.pythonhosted.org/packages/fb/60/c8cdb60a0c89c3f50da3d31f72616092bb81a45fa0941e88aa8269b7604d/
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	math
+MASTER_SITES=	${MASTER_SITE_PYPI:=p/pyBKT/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://files.pythonhosted.org/packages/fb/60/c8cdb60a0c89c3f50da3d31f72616092bb81a45fa0941e88aa8269b7604d/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://github.com/CAHLR/pyBKT
+COMMENT=	Python Implentation of Bayesian Knowledge Tracing
+LICENSE=	mit
 
-# url2pkg-marker (please do not remove this line.)
+PYTHON_VERSIONS_INCOMPATIBLE+=  36
+
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.25.1:../../math/py-requests
+DEPENDS+=	${PYPKGPREFIX}-tqdm>=4.49.0:../../misc/py-tqdm
+
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
