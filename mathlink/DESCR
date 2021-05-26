@@ -1,5 +1,0 @@
-MathLink is Wolfram Research's protocol for communicating with the Mathematica
-Kernel and is used extensively in their own Notebook Frontends. The Mathematica 
-Book insinuates that linking C programs with MathLink is straightforward but in 
-practice there are quite a number of stumbling blocks, in particular in cross-
-language and cross-platform usage
