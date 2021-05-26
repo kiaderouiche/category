@@ -16,8 +16,8 @@ USE_TOOLS+=	gmake pkg-config
 
 PKGCONFIG_OVERRIDE+=	libseccomp.pc.in
 
-.include "../../devel/gperf/buildlink3.mk"
+BUILD_DEPENDS+=	gperf-[0-9]*:../../devel/gperf
 CONFIGURE_ARGS+=	--enable-python
-BUILDLINK_API_DEPENDS.py-cython+=	${PYPKGPREFIX}-cython>=0.12.1
-.include "../../devel/py-cython/buildlink3.mk"
+#BUILDLINK_API_DEPENDS.py-cython+=	${PYPKGPREFIX}-cython>=0.12.1
+#.include "../../devel/py-cython/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
