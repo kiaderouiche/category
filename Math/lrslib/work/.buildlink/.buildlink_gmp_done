@@ -1,0 +1,14 @@
+/usr/pkg/include/gmp.h
+/usr/pkg/include/gmpxx.h
+/usr/pkg/lib/libgmp.a
+/usr/pkg/lib/libgmp.la (created)
+/usr/pkg/lib/libgmp.so
+/usr/pkg/lib/libgmp.so.10
+/usr/pkg/lib/libgmp.so.10.4.0
+/usr/pkg/lib/libgmpxx.a
+/usr/pkg/lib/libgmpxx.la (created)
+/usr/pkg/lib/libgmpxx.so
+/usr/pkg/lib/libgmpxx.so.4
+/usr/pkg/lib/libgmpxx.so.4.6.0
+/usr/pkg/lib/pkgconfig/gmp.pc
+/usr/pkg/lib/pkgconfig/gmpxx.pc

@@ -9,6 +9,7 @@ HOMEPAGE=	http://cgm.cs.mcgill.ca/~avis/C/lrs.html
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
+USE_TOOLS+=	gmake
 MAKE_FILE=	makefile
 
 .include "../../devel/gmp/buildlink3.mk"

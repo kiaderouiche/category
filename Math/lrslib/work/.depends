@@ -1,0 +1,5 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	nbpatch-[0-9]*	../../devel/nbpatch
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	gmp>=5.0.1	../../devel/gmp
