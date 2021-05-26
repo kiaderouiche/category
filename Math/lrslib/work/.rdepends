@@ -1,5 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-tool	nbpatch-[0-9]*	nbpatch-20151107
-tool	checkperms>=1.1	checkperms-1.12
-build	cwrappers>=20150314	cwrappers-20180325
-full	gmp>=5.0.1	gmp-6.2.0

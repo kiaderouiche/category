@@ -1,7 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-tool	checkperms>=1.1	../../sysutils/checkperms
-build	cwrappers>=20150314	../../pkgtools/cwrappers
-full	py38-country-converter>=0.7.2	../../wip/py-country-converter
-full	py38-wrapt>=1.12.1	../../devel/py-wrapt
-full	py38-setuptools-[0-9]*	../../devel/py-setuptools
-full	python38>=3.8	../../lang/python38
