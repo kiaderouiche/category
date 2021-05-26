@@ -1,12 +1,15 @@
 # $NetBSD$
 
 DISTNAME=	lrslib-071a
-CATEGORIES=	category
+CATEGORIES=	math
 MASTER_SITES=	http://cgm.cs.mcgill.ca/~avis/C/lrslib/archive/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://cgm.cs.mcgill.ca/~avis/C/lrslib/archive/
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	http://cgm.cs.mcgill.ca/~avis/C/lrs.html
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
+MAKE_FILE=	makefile
+
+.include "../../devel/gmp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

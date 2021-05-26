@@ -1,0 +1,24 @@
+$NetBSD$
+
+--- makefile.orig	2020-10-17 06:18:42.000000000 +0000
++++ makefile
+@@ -32,8 +32,8 @@ default: lrs
+ #LIBDIR     = /usr/lib
+ 
+ #Kyoto machines usage
+-INCLUDEDIR = /usr/local/include
+-LIBDIR     = /usr/local/lib
++INCLUDEDIR = /usr/pkg/include
++LIBDIR     = /usr/pkg/lib
+ 
+ CFLAGS     = -O3 -Wall 
+ #CFLAGS     = -g -Wall 
+@@ -239,7 +239,7 @@ lrslib2-shr.o: lrslib.c lrslib.h
+ ######################################################################
+ # install targets
+ # where to install binaries, libraries, include files
+-prefix ?= /usr/local
++prefix ?= /usr/pkg
+ INSTALL_INCLUDES=lrslib.h lrsdriver.h lrsgmp.h lrslong.h lrsmp.h
+ 
+ install: all-shared install-common
