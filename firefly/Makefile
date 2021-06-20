@@ -18,5 +18,6 @@ USE_LANGUAGES=	c c++
 #C++ compiler supporting C++14
 
 .include "../../devel/gmp/build.mk"
+.include "../../devel/zlib/build.mk"
 .include "../../wip/flint/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
