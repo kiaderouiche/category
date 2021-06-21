@@ -12,11 +12,11 @@ LICENSE=	mit
 
 PYTHON_VERSIONS_INCOMPATIBLE+=  36
 
-DEPENDS+=	${PYPKGPREFIX}-scipy>=0:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-scipy>=1.6.3:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.25.3:../../math/py-pandas
-DEPENDS+=	${PYPKGPREFIX}-sympy>=0:../../math/py-sympy
+DEPENDS+=	${PYPKGPREFIX}-sympy>=1.8:../../math/py-sympy
 DEPENDS+=	${PYPKGPREFIX}-scikit-learn>=0.22.1:../../math/py-scikit-learn
-DEPENDS+=	${PYPKGPREFIX}-statsmodels>=0:../../math/py-statsmodels
+DEPENDS+=	${PYPKGPREFIX}-statsmodels>=0.12.2:../../math/py-statsmodels
 
 USE_LANGUAGES=	# none
 
