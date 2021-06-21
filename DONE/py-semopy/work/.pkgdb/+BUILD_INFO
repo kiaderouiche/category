@@ -1,0 +1,38 @@
+ABI=64
+BUILD_DATE=2021-06-21 19:27:30 +0100
+BUILD_HOST=Linux Dabiq 5.10.0-7-amd64 #1 SMP Debian 5.10.40-1 (2021-05-28) x86_64 GNU/Linux
+CATEGORIES=math python
+CFLAGS=-O2 -D_FORTIFY_SOURCE=2 -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8
+CMAKE_ARGS=
+CONFIGURE_ARGS=
+CONFIGURE_ENV=PTHREAD_CFLAGS=\ -pthread\  PTHREAD_LDFLAGS=\ -pthread PTHREAD_LIBS=-lpthread\ -lrt PTHREADBASE=/usr DL_CFLAGS= DL_LDFLAGS= DL_LIBS= INSTALL_INFO= MAKEINFO=/usr/pkgsrc/category/py-semopy/work/.tools/bin/makeinfo FLEX= BISON= ITSTOOL=/usr/pkgsrc/category/py-semopy/work/.tools/bin/itstool GDBUS_CODEGEN=/usr/pkgsrc/category/py-semopy/work/.tools/bin/gdbus-codegen PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/pkgsrc/category/py-semopy/work/.buildlink/lib64/pkgconfig:/usr/pkgsrc/category/py-semopy/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/category/py-semopy/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/pkgsrc/category/py-semopy/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make CWRAPPERS_CONFIG_DIR=/usr/pkgsrc/category/py-semopy/work/.cwrapper/config PYTHON=/usr/pkg/bin/python3.8 CC=cc CFLAGS=-O2\ -D_FORTIFY_SOURCE=2\ -I/usr/pkg/include\ -I/usr/include\ -I/usr/pkg/include/python3.8 CPPFLAGS=-I/usr/pkg/include\ -I/usr/include\ -I/usr/pkg/include/python3.8 CXX=c++ CXXFLAGS=-O2\ -D_FORTIFY_SOURCE=2\ -I/usr/pkg/include\ -I/usr/include\ -I/usr/pkg/include/python3.8 COMPILER_RPATH_FLAG=-Wl,-R F77=gfortran FC=gfortran FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/usr/pkg/lib\ -Wl,-R/usr/pkg/lib\ -L/usr/lib64\ -Wl,-R/usr/lib64 LINKER_RPATH_FLAG=-R PATH=/usr/pkgsrc/category/py-semopy/work/.cwrapper/bin:/usr/pkgsrc/category/py-semopy/work/.buildlink/bin:/usr/pkgsrc/category/py-semopy/work/.tools/bin:/usr/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/pkg/bin:/usr/pkg/bin PREFIX=/usr/pkg MAKELEVEL=0 CONFIG_SITE= PKG_SYSCONFDIR=/usr/pkg/etc CPP=cpp CXXCPP=cpp HOME=/usr/pkgsrc/category/py-semopy/work/.home CWRAPPERS_CONFIG_DIR=/usr/pkgsrc/category/py-semopy/work/.cwrapper/config
+CPPFLAGS=   -I/usr/pkg/include -I/usr/include -I/usr/pkg/include/python3.8
+FFLAGS=-O
+GLIBC_VERSION=2.31
+HOMEPAGE=https://semopy.com
+LDFLAGS=   -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -L/usr/lib64 -Wl,-R/usr/lib64
+LICENSE=mit
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=x86_64
+MACHINE_GNU_ARCH=x86_64
+MAINTAINER=jihbed.research@gmail.com
+MULTI=PYTHON_VERSION_REQD=38
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=ELF
+OPSYS=Linux
+OS_VERSION=5.10.0
+PKGGNUDIR=gnu/
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=category/py-semopy
+PKGSRC_BLAS_TYPES=netlib openblas openblas_pthread openblas_openmp
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+PKGTOOLS_VERSION=20091115
+_PLIST_IGNORE_FILES=
+PYTHON_VERSION_DEFAULT=38
+RESTRICTED=
+_USE_DESTDIR=user-destdir

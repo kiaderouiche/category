@@ -1,0 +1,10 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	checkperms>=1.1	../../sysutils/checkperms
+build	cwrappers>=20150314	../../pkgtools/cwrappers
+full	py38-scipy>=1.6.3	../../math/py-scipy
+full	py38-pandas>=0.25.3	../../math/py-pandas
+full	py38-sympy>=1.8	../../math/py-sympy
+full	py38-scikit-learn>=0.22.1	../../math/py-scikit-learn
+full	py38-statsmodels>=0.12.2	../../math/py-statsmodels
+full	py38-setuptools-[0-9]*	../../devel/py-setuptools
+full	py38-numpy>=1.19.2nb1	../../math/py-numpy

@@ -1,0 +1,9 @@
+/usr/pkg/include/cblas_f77.h
+/usr/pkg/include/cblas.h
+/usr/pkg/include/cblas_mangling.h
+/usr/pkg/include/cblas_test.h
+/usr/pkg/lib/libcblas.a
+/usr/pkg/lib/libcblas.so
+/usr/pkg/lib/libcblas.so.3
+/usr/pkg/lib/libcblas.so.3.9.1
+/usr/pkg/lib/pkgconfig/cblas.pc
