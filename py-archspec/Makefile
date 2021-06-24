@@ -1,16 +1,16 @@
 # $NetBSD$
 
 DISTNAME=	archspec-0.1.2
-GITHUB_PROJECT=	archspec
-GITHUB_TAG=	v${PKGVERSION_NOREV}
-CATEGORIES=	sysutils
-MASTER_SITES=	${MASTER_SITE_GITHUB:=archspec/}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	category
+MASTER_SITES=	${MASTER_SITE_PYPI:=a/archspec/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/archspec/archspec/
-COMMENT=	Library for detecting, labeling, and reasoning
-LICENSE=	apache-2.0 OR mit
+COMMENT=	TODO: Short description of the package
+#LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	# none
 
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
