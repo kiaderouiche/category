@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (dockerfile-parse-1.1.0.tar.gz) = 654f9302763db550bffa7c5ec5e70300b61061c0
-RMD160 (dockerfile-parse-1.1.0.tar.gz) = 4814434115e52472abfe556908bff411cd981dd1
-SHA512 (dockerfile-parse-1.1.0.tar.gz) = a97460800b8221bc769af00fab98ae7e51898fd06390dd0d53fa974a64caddab8124b5671aa98ce4ea6bb5ab381f91289972b0a31c58054b630868bb23c51bfd
-Size (dockerfile-parse-1.1.0.tar.gz) = 24581 bytes
+SHA1 (dockerfile-parse-1.2.0.tar.gz) = f1950e29f22b81782264657cb92df9d0e295e52e
+RMD160 (dockerfile-parse-1.2.0.tar.gz) = 0a03473a81d779b4106cac1b9f37202791a202a9
+SHA512 (dockerfile-parse-1.2.0.tar.gz) = d2f1e290726bdc815b66319055341a1a3b6f5f50c7c8ce54eb6343de2d52bbeddfe9e25dc595985b23deb8b6a4301d429dd005fd1937594755b7afcf47dc1034
+Size (dockerfile-parse-1.2.0.tar.gz) = 25127 bytes

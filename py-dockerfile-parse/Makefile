@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	dockerfile-parse-1.1.0
+DISTNAME=	dockerfile-parse-1.2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	net devel python
+CATEGORIES=	category python
 MASTER_SITES=	${MASTER_SITE_PYPI:=d/dockerfile-parse/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
@@ -11,9 +11,12 @@ COMMENT=	Python library for Dockerfile manipulation
 LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
-TEST_DEPENDS+=	${PYPKGPREFIX}-test>=5.3.1:../../devel/py-test
-TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=2.11.1:../../devel/py-test-cov
+TEST_DEPENDS+=	${PYPKGPREFIX}-test>=4.1.0:../../wip/py-test
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-cov>=0:../../wip/py-test-cov
+TEST_DEPENDS+=	${PYPKGPREFIX}-test-html>=1.17.0:../../wip/py-test-html
+TEST_DEPENDS+=	${PYPKGPREFIX}-flake8>=0:../../devel/py-flake8
 
+USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
