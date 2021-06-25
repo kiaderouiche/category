@@ -1,9 +1,0 @@
-/usr/pkg/lib/cmake/lapack-3.9.0/lapack-config.cmake
-/usr/pkg/lib/cmake/lapack-3.9.0/lapack-config-version.cmake
-/usr/pkg/lib/cmake/lapack-3.9.0/lapack-targets.cmake
-/usr/pkg/lib/cmake/lapack-3.9.0/lapack-targets-release.cmake
-/usr/pkg/lib/liblapack.a
-/usr/pkg/lib/liblapack.so
-/usr/pkg/lib/liblapack.so.3
-/usr/pkg/lib/liblapack.so.3.9.0
-/usr/pkg/lib/pkgconfig/lapack.pc
