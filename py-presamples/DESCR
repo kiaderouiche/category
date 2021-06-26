@@ -1,4 +1,0 @@
-Package to write, load, manage and verify numerical arrays,
-called presamples. Initially written for scenario analysis
-and for the reuse of sampled data in Monte Carlo Simulations
-in the Brightway LCA framework.

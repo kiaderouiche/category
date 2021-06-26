@@ -1,5 +1,0 @@
-Most databases use their own nomenclature for classification systems,
-units, etc. These systems need to be matched when linking from one
-database to another. Often, a simple mapping is suitable, and tools
-like correspondentia are a good fit. However, sometimes one needs more
-complexity, e.g. change field X to Y, but only if field A has value B
