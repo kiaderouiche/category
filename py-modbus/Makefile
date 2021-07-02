@@ -2,7 +2,7 @@
 
 DISTNAME=	pymodbus-2.5.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-CATEGORIES=	devel python
+CATEGORIES=	net python
 MASTER_SITES=	${MASTER_SITE_PYPI:=p/pymodbus/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
