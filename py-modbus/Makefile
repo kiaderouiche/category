@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/riptideio/pymodbus/
 COMMENT=	Fully featured modbus protocol stack in python
 LICENSE=	modified-bsd
 
-PYTHON_VERSIONS_INCOMPATIBLE+=	27
+PYTHON_VERSIONS_INCOMPATIBLE+=	36
 
 DEPENDS+=	${PYPKGPREFIX}-serial>=3.4:../../comms/py-serial
 DEPENDS+=	${PYPKGPREFIX}-coverage>=4.4:../../devel/py-coverage
