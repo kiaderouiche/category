@@ -29,6 +29,7 @@ DEPENDS+=	${PYPKGPREFIX}-docutils>=0.13.1:../../textproc/py-docutils
 DEPENDS+=	${PYPKGPREFIX}-jinja2>=2.9.6:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-pygments>=2.2.0:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.5.5:../../textproc/py-sphinx
+DEPENDS+=	${PYPKGPREFIX}-serial-asyncio>=0.5:../../wip/py-serial-asyncio
 #DEPENDS+=	${PYPKGPREFIX}-wsgiref>=0.1.2:../../wip/py-wsgiref
 DEPENDS+=	${PYPKGPREFIX}-tornado>=4.5.2:../../www/py-tornado
 
