@@ -12,13 +12,12 @@ HOMEPAGE=	https://github.com/sbaresearch/cps-twinning/
 COMMENT=	Framework for Generating and Executing Digital Twins
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-lxml==3.4.2>=0
-DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
-DEPENDS+=	${PYPKGPREFIX}-modbus>=1.4.0:../../lang/py-six
-DEPENDS+=	${PYPKGPREFIX}-scapy>=2.4.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-kafka-python>=1.4.0:../../devel/py-kafka-python
-DEPENDS+=	${PYPKGPREFIX}-paho-mqtt>=1.3.1:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-scapy>=2.4.0:../../net/py-scapy
+DEPENDS+=	${PYPKGPREFIX}-paho-mqtt>=1.3.1:../../net/py-paho-mqtt
+DEPENDS+=	${PYPKGPREFIX}-lxml>=3.4.2:../../textproc/py-lxml
+DEPENDS+=	${PYPKGPREFIX}-modbus>=1.4.0:../../wip/py-modbus
 
-# TODO: Migrate MASTER_SITES to MASTER_SITE_PYPI
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
