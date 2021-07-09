@@ -14,10 +14,10 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-lxml==3.4.2>=0
 DEPENDS+=	${PYPKGPREFIX}-six>=1.15.0:../../lang/py-six
-DEPENDS+=	${PYPKGPREFIX}-modbus>=1.4.0
-DEPENDS+=	${PYPKGPREFIX}-scapy>=2.4.0
+DEPENDS+=	${PYPKGPREFIX}-modbus>=1.4.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-scapy>=2.4.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-kafka-python>=1.4.0:../../devel/py-kafka-python
-DEPENDS+=	${PYPKGPREFIX}-paho-mqtt>=1.3.1
+DEPENDS+=	${PYPKGPREFIX}-paho-mqtt>=1.3.1:../../lang/py-six
 
 # TODO: Migrate MASTER_SITES to MASTER_SITE_PYPI
 .include "../../lang/python/egg.mk"
