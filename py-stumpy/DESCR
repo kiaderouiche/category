@@ -1,2 +1,3 @@
-TODO: Fill in a short description of the package.
-TODO: It should be between 3 and 20 lines.
+STUMPY is a powerful and scalable Python library for computing
+a Matrix Profile, which can be used for a variety of time series
+data mining tasks 
