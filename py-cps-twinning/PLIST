@@ -1,4 +1,54 @@
 @comment $NetBSD$
-@comment TODO: to fill this file with the file listing:
-@comment TODO: 1. run "/usr/pkg/bin/bmake package"
-@comment TODO: 2. run "/usr/pkg/bin/bmake print-PLIST"
+${PYSITELIB}/cpstwinning-0.2-py${PYVERSSUFFIX}.egg-info/PKG-INFO
+${PYSITELIB}/cpstwinning-0.2-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
+${PYSITELIB}/cpstwinning-0.2-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
+${PYSITELIB}/cpstwinning-0.2-py${PYVERSSUFFIX}.egg-info/requires.txt
+${PYSITELIB}/cpstwinning-0.2-py${PYVERSSUFFIX}.egg-info/top_level.txt
+${PYSITELIB}/cpstwinning/__init__.py
+${PYSITELIB}/cpstwinning/__init__.pyc
+${PYSITELIB}/cpstwinning/__init__.pyo
+${PYSITELIB}/cpstwinning/amlparser.py
+${PYSITELIB}/cpstwinning/cli.py
+${PYSITELIB}/cpstwinning/constants.py
+${PYSITELIB}/cpstwinning/constants.pyc
+${PYSITELIB}/cpstwinning/constants.pyo
+${PYSITELIB}/cpstwinning/cpstw.py
+${PYSITELIB}/cpstwinning/cpstw.pyc
+${PYSITELIB}/cpstwinning/cpstw.pyo
+${PYSITELIB}/cpstwinning/hmi_mb_client.py
+${PYSITELIB}/cpstwinning/hmi_mb_client.pyc
+${PYSITELIB}/cpstwinning/hmi_mb_client.pyo
+${PYSITELIB}/cpstwinning/hmimessages.py
+${PYSITELIB}/cpstwinning/hmimessages.pyc
+${PYSITELIB}/cpstwinning/hmimessages.pyo
+${PYSITELIB}/cpstwinning/mqtt_client.py
+${PYSITELIB}/cpstwinning/mqtt_client.pyc
+${PYSITELIB}/cpstwinning/mqtt_client.pyo
+${PYSITELIB}/cpstwinning/mqttmessages.py
+${PYSITELIB}/cpstwinning/mqttmessages.pyc
+${PYSITELIB}/cpstwinning/mqttmessages.pyo
+${PYSITELIB}/cpstwinning/plc_supervisor.py
+${PYSITELIB}/cpstwinning/plcmessages.py
+${PYSITELIB}/cpstwinning/plcmessages.pyc
+${PYSITELIB}/cpstwinning/plcmessages.pyo
+${PYSITELIB}/cpstwinning/plcruntime/Makefile
+${PYSITELIB}/cpstwinning/plcruntime/inc/plc_runtime.h
+${PYSITELIB}/cpstwinning/plcruntime/inc/pous_patch.h
+${PYSITELIB}/cpstwinning/plcruntime/src/plc_runtime_skeleton.c
+${PYSITELIB}/cpstwinning/prepreprocessor.py
+${PYSITELIB}/cpstwinning/prepreprocessor.pyc
+${PYSITELIB}/cpstwinning/prepreprocessor.pyo
+${PYSITELIB}/cpstwinning/replication.py
+${PYSITELIB}/cpstwinning/replication.pyc
+${PYSITELIB}/cpstwinning/replication.pyo
+${PYSITELIB}/cpstwinning/securitymanager.py
+${PYSITELIB}/cpstwinning/securitymanager.pyc
+${PYSITELIB}/cpstwinning/securitymanager.pyo
+${PYSITELIB}/cpstwinning/statelogging.py
+${PYSITELIB}/cpstwinning/topo.py
+${PYSITELIB}/cpstwinning/topo.pyc
+${PYSITELIB}/cpstwinning/topo.pyo
+${PYSITELIB}/cpstwinning/twins.py
+${PYSITELIB}/cpstwinning/twins.pyc
+${PYSITELIB}/cpstwinning/twins.pyo
+${PYSITELIB}/cpstwinning/utils.py

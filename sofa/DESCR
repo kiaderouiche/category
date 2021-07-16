@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+[![SOFA, Simulation Open-Framework Architecture](https://www.sofa-framework.org/wp-content/uploads/2013/01/SOFA_LOGO_ORANGE_2-normal.png)](https://www.sofa-framework.org/)
+
+<br/>
+
+[![Documentation](https://img.shields.io/badge/doc-on_website-green.svg)](https://www.sofa-framework.org/community/doc/)
+[![Forum](https://img.shields.io/badge/support-on_forum-blue.svg)](https://www.sofa-framework.org/community/forum/)
+[![Gitter](https://badges.gitter.im/sofa-framework/sofa.svg)](https://gitter.im/sofa-framework/sofa)
+[![Contact](https://img.shields.io/badge/contact-on_website-orange.svg)](https://www.sofa-framework.org/consortium/contact/)  
+
+## Introduction
+
+SOFA is an open source framework primarily targeted at real-time simulation, 
+with an emphasis on medical simulation.  
+It is mainly intended for the research community to help foster newer 
+algorithms, but can also be used as an efficient prototyping tool.  
+SOFA's advanced software architecture allows:  
+(1) the creation of complex and evolving simulations by combining new algorithms
+    with existing algorithms;  
+(2) the modification of key parameters of the simulation  such as deformable
+    behavior, surface representation, solvers, constraints, collision algorithm,
+...
