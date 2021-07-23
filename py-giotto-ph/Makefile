@@ -13,7 +13,7 @@ COMMENT=	High performance tool for Persistent Homology computations
 LICENSE=	gnu-agpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=1.5.0:../../math/py-scipy
-DEPENDS+=	${PYPKGPREFIX}-scikit-learn>=0.23.1:../../math/py-scikit-learn
+DEPENDS+=	${PYPKGPREFIX}-scikit-learn>=0.22.1:../../math/py-scikit-learn
 
 CMAKE_USE=	yes
 
