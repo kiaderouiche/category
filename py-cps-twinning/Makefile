@@ -1,7 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	cps-twinning-0.0.3
+DISTNAME=	cps-twinning-0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+EGG_NAME=	cpstwinning-0.2-py${PYVERSSUFFIX}.egg
 GITHUB_PROJECT=	cps-twinning
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 CATEGORIES=	parallel sysutils python

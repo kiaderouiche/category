@@ -7,12 +7,13 @@ GITHUB_TAG=	refs/tags/v21.06.00
 CATEGORIES=	category
 MASTER_SITES=	${MASTER_SITE_GITHUB:=sofa-framework/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE # or use pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/sofa-framework/sofa/
-COMMENT=	TODO: Short description of the package
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://www.sofa-framework.org/
+COMMENT=	Multi-physics simulation with an emphasis on medical simulation
 #LICENSE=	# TODO: (see mk/license.mk)
 
 WRKSRC=		${WRKDIR}/sofa-21.06.00
+
 USE_CMAKE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
