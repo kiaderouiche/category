@@ -1,5 +1,0 @@
-bootstrap	digest>=20010302	digest-20190127
-build	cwrappers>=20150314	cwrappers-20180325
-full	py38-pexpect>=4.8.0	py38-pexpect-4.8.0
-full	py38-setuptools-[0-9]*	py38-setuptools-57.4.0
-full	python38>=3.8	python38-3.8.11
