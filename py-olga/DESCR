@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+## Synopsis
+
+OLGA (Optimized Likelihood estimate of immunoGlobulin Amino-acid sequences) is a python 2.7/3.6 software developed to compute the generation probability of amino acid and in-frame nucleotide CDR3 sequences from a generative model of V(D)J recombination.
+
+## Motivation
+
+The recent ubiquity in adaptive immune system repertoire sequencing has led to the need for a variety of probabilistic and bioinformatic tools to analyze CDR3 sequence. Of particular interest are the generative models of V(D)J recombination and an inference procedure first introduced in [Murugan 2012](http://www.pnas.org/content/early/2012/09/10/1212755109.short). Recently, an efficient software package [IGoR](https://github.com/qmarcou/IGoR) (Inference and Generation Of Repertoires) was published [(Marcou 2018)](http://www.nature.com/articles/s41467-018-02832-w) and is available on [GitHub](https://github.com/qmarcou/IGoR) and should be used for any generative model inference.
+
+This software implements the dynamic programming algorithm discussed in [Sethna 2018](https://arxiv.org/abs/1807.04425) to compute the generation probability of amino acid and in-frame nucleotide CDR3 sequences.
+
+As adaptive repertoire researchers span the full gamut of technical coding skills, the goal of this README and software is to be as usable and useful as possible for researchers with any programming background. To this end, the core algorithm provided as Python modules with a few command line console scripts provided. The technical user can thus import the Python modules and incorporate them into their own analysis pipeline while the researcher who only requires a cursory analysis can use the provided console scripts. (Furthermore, there is a functional/procedural implementation of the algorithm -- please contact via email if you prefer the modules structured in this manner).
+
+Documentation and examples provided below. Ideally, even the interested party who is uncomfortable with coding should be able to manage from the examples.
+
+## Version
+Latest released version: 1.2.2
+
+## Installation
+OLGA is a python 2.7 software which only uses standard python libraries and requires no additional dependencies. It is available on PyPI and can be downloaded and installed through pip: ```pip install olga```.
+
+...
