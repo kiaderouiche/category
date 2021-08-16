@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README
+
+Quick install:
+==============
+
+in most cases the following should work to factor the number 903...693
+using all cores on the local machine
+
+1) make
+2) ./cado-nfs.py 90377629292003121684002147101760858109247336549001090677693
+
+More details follow.
+
+Important note: For a larger factorization (distributed on several
+machines), the command line to be used is a priori more involved. Please
+refer to scripts/cadofactor/README. Documented example parameter files
+are in parameters/factor/params.c90 and scripts/cadofactor/parameters*
+
+Supported platforms
+===================
+
+The primary development platform is x86_64 linux with gcc 4.7 or newer,
+...
