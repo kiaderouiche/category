@@ -18,6 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-six>=1.4.0:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-prettytable>=2.1.0:../../textproc/py-prettytable
 DEPENDS+=	${PYPKGPREFIX}-debtcollector>=2.2.0:../../wip/py-debtcollector
 
+.include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
