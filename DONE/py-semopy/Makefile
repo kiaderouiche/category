@@ -18,7 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-sympy>=1.8:../../math/py-sympy
 DEPENDS+=	${PYPKGPREFIX}-scikit-learn>=0.22.1:../../math/py-scikit-learn
 DEPENDS+=	${PYPKGPREFIX}-statsmodels>=0.12.2:../../math/py-statsmodels
 
-USE_LANGUAGES=	# none
 
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
