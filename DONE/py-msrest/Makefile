@@ -15,6 +15,5 @@ DEPENDS+=	${PYPKGPREFIX}-requests-oauthlib>=1.3.0:../../security/py-requests-oau
 DEPENDS+=	${PYPKGPREFIX}-isodate>=0.6.0:../../time/py-isodate
 DEPENDS+=	${PYPKGPREFIX}-certifi>=2017.4.17:../../security/py-certifi
 
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

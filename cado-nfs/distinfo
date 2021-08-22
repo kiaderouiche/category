@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (cado-nfs-2.3.0.tar.gz) = 7259a516ddc25ff922ca4683d871a98840378753
-RMD160 (cado-nfs-2.3.0.tar.gz) = 0690221b1e148442e12d82912465e4f2b72c6ef9
-SHA512 (cado-nfs-2.3.0.tar.gz) = 3ebfca205832a9ac805029b3dac3aa86f6f070d80d818cb048bcb01cad05b8167067e8eedbe1d9ae61c421c333ff839d6735a53325c49cc13d740ef87a2ada75
-Size (cado-nfs-2.3.0.tar.gz) = 3446180 bytes
+SHA1 (cado-nfs-master.tar.bz2) = f3de41df6a77c98a5fe6f313fd58223ca18d7e97
+RMD160 (cado-nfs-master.tar.bz2) = 6557baeb79a501e48f5f1155713e0e4ca132a67c
+SHA512 (cado-nfs-master.tar.bz2) = 8ca647e3ec914cbe0c23160a2764919b1fe7ba2d9c5b98315d5bf64224cd35e0496f2c543da23a0bd1cb6aa45ca5d62cfa4d403580243f95a664724a5aa88c67
+Size (cado-nfs-master.tar.bz2) = 3647343 bytes
