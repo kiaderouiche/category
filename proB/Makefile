@@ -9,5 +9,7 @@ HOMEPAGE=	http://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.10.2/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-# url2pkg-marker (please do not remove this line.)
+WRKSRC=		${WRKDIR}/ProB
+USE_LANGUAGES=	# none
+
 .include "../../mk/bsd.pkg.mk"
