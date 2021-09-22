@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+- [About](#about)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [More Info](#more-info)
+
+## About
+
+PandasGUI is a GUI for viewing, plotting and analyzing Pandas DataFrames.
+
+## Demo
+
+[![PandasGUI Demo](https://i.imgur.com/u3BzdoS.png)](https://www.youtube.com/watch?v=NKXdolMxW2Y "PandasGUI Demo")
+
+## Installation
+
+Install latest release from PyPi:
+
+```shell
+...
